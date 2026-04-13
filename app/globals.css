@@ -141,6 +141,21 @@ body {
   pointer-events: none;
 }
 
+/* ── Blog prose ── */
+.prose-custom h2 {
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: var(--color-text);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+.prose-custom p { margin-bottom: 1.25rem; }
+.prose-custom ul { margin-bottom: 1.25rem; padding-left: 0; list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.prose-custom ul li { padding-left: 1.25rem; position: relative; }
+.prose-custom ul li::before { content: ""; position: absolute; left: 0; top: 0.65em; width: 6px; height: 6px; border-radius: 50%; background-color: var(--color-accent); }
+.prose-custom strong { color: var(--color-text); font-weight: 700; }
+
 /* ── Testimonial slider ── */
 .testimonial-track {
   display: flex;

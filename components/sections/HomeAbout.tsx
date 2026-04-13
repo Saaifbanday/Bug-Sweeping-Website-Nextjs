@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 
@@ -12,7 +13,7 @@ const items = [
       "Unmarked vehicles, discreet arrival, zero attention drawn",
       "Deployed across India — Mumbai, Delhi, Bengaluru & beyond",
     ],
-    imageSrc: "/images/about/who-we-are.jpg",
+    imageSrc: "/images/homepage/first_image.png",
     imagePlaceholderLabel: "who-we-are",
   },
   {
@@ -25,7 +26,7 @@ const items = [
       "GPS tracker location in vehicles",
       "Telephone & VoIP line analysis",
     ],
-    imageSrc: "/images/about/what-we-do.jpg",
+    imageSrc: "/images/homepage/second_image.png",
     imagePlaceholderLabel: "what-we-do",
   },
   {
@@ -38,7 +39,7 @@ const items = [
       "FLIR Thermal Camera — heat-signature detection",
       "WolfHound Pro — GPS tracker & GSM bug locator",
     ],
-    imageSrc: "/images/about/our-equipment.jpg",
+    imageSrc: "/images/homepage/third_image.png",
     imagePlaceholderLabel: "our-equipment",
   },
   {
@@ -51,7 +52,7 @@ const items = [
       "100% confidentiality — clients never disclosed",
       "Detailed written report with every sweep",
     ],
-    imageSrc: "/images/about/why-choose-us.jpg",
+    imageSrc: "/images/homepage/fourth_image.png",
     imagePlaceholderLabel: "why-choose-us",
   },
 ];
@@ -77,33 +78,23 @@ export default function HomeAbout() {
         <div className="flex flex-col gap-24">
           {items.map((item, idx) => {
             const isEven = idx % 2 === 0;
-            const imgSrc = item.imageSrc;
 
             const imagePlaceholder = (
               <div
-                className="relative rounded-2xl overflow-hidden flex flex-col items-center justify-center gap-3 w-full"
-                style={{
-                  minHeight: "360px",
-                  backgroundColor: "var(--bg-card)",
-                  border: "1px solid var(--color-border)",
-                }}
+                className="relative rounded-2xl overflow-hidden w-full"
+                style={{ minHeight: "380px" }}
               >
-                {/* ── Replace this block with <Image> once photos are ready ── */}
-                {/*
-                <Image src={imgSrc} alt={item.title} fill className="object-cover rounded-2xl" />
-                */}
-                <span style={{ fontSize: "3rem" }}>📸</span>
-                <span
-                  className="font-mono text-center px-6 leading-snug"
-                  style={{ color: "var(--color-muted)", fontSize: "0.6875rem" }}
-                >
-                  public{imgSrc}
-                </span>
+                <Image
+                  src={item.imageSrc}
+                  alt={item.title}
+                  fill
+                  className="object-cover rounded-2xl"
+                />
                 <div
-                  className="absolute inset-0 pointer-events-none"
+                  className="absolute inset-0 rounded-2xl pointer-events-none"
                   style={{
                     background:
-                      "linear-gradient(135deg, rgba(230,57,70,0.04) 0%, rgba(29,78,216,0.04) 100%)",
+                      "linear-gradient(135deg, rgba(230,57,70,0.06) 0%, rgba(8,13,26,0.18) 100%)",
                   }}
                 />
               </div>
@@ -133,7 +124,7 @@ export default function HomeAbout() {
                     <li key={b} className="flex items-start gap-3">
                       <CheckCircle2
                         size={20}
-                        className="flex-shrink-0 mt-0.5"
+                        className="shrink-0 mt-0.5"
                         style={{ color: "var(--color-accent)" }}
                       />
                       <span style={{ color: "var(--color-muted)", fontSize: "1rem" }}>

@@ -27,7 +27,8 @@ export default function Hero() {
       <div
         className="absolute top-0 left-0 w-96 h-96 rounded-full"
         style={{
-          background: "radial-gradient(circle, rgba(230,57,70,0.12) 0%, transparent 70%)",
+          background:
+            "radial-gradient(circle, rgba(230,57,70,0.12) 0%, transparent 70%)",
           transform: "translate(-30%, -30%)",
         }}
       />
@@ -36,7 +37,8 @@ export default function Hero() {
       <div
         className="absolute bottom-0 right-0 w-96 h-96 rounded-full"
         style={{
-          background: "radial-gradient(circle, rgba(29,78,216,0.1) 0%, transparent 70%)",
+          background:
+            "radial-gradient(circle, rgba(29,78,216,0.1) 0%, transparent 70%)",
           transform: "translate(30%, 30%)",
         }}
       />
@@ -69,7 +71,8 @@ export default function Hero() {
             >
               Secure Your Homes,
               <br />
-              <span style={{ color: "var(--color-accent)" }}>Offices,</span> and Lives
+              <span style={{ color: "var(--color-accent)" }}>Offices,</span> and
+              Lives
               <br />
               from Hidden Surveillance.
             </h1>
@@ -82,8 +85,8 @@ export default function Hero() {
                 maxWidth: "520px",
               }}
             >
-              Experience unmatched privacy protection with India&apos;s premier experts in
-              electronic counter-surveillance.
+              Experience unmatched privacy protection with India&apos;s premier
+              experts in electronic counter-surveillance.
             </p>
 
             {/* Trust line */}
@@ -104,7 +107,12 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 mb-12">
-              <a href="#contact" className="btn-primary text-base">
+              <a
+                href="https://wa.me/918882732221"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-base"
+              >
                 Get Started
                 <ArrowRight size={16} />
               </a>
@@ -128,7 +136,10 @@ export default function Hero() {
                   >
                     <Icon size={14} style={{ color: "var(--color-accent)" }} />
                   </div>
-                  <span className="text-sm font-medium" style={{ color: "var(--color-muted)" }}>
+                  <span
+                    className="text-sm font-medium"
+                    style={{ color: "var(--color-muted)" }}
+                  >
                     {label}
                   </span>
                 </div>
@@ -141,33 +152,22 @@ export default function Hero() {
             <div
               className="relative rounded-2xl overflow-hidden"
               style={{
-                border: "1px solid var(--color-border)",
-                background: "var(--bg-card)",
+               
                 width: "100%",
-                maxWidth: "480px",
+                maxWidth: "520px",
                 aspectRatio: "4/5",
               }}
             >
-              {/* Placeholder — replace with actual image */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                <div
-                  className="rounded-full p-6"
-                  style={{ backgroundColor: "rgba(230,57,70,0.1)", border: "1px solid rgba(230,57,70,0.2)" }}
-                >
-                  <Shield size={64} style={{ color: "var(--color-accent)" }} />
-                </div>
-                <p className="text-sm" style={{ color: "var(--color-muted)" }}>
-                  [ Hero Image — TSCM Expert ]
-                </p>
-              </div>
+              
+             
               {/* Replace above with: */}
-              {/* <Image
-                src="/images/hero-expert.jpg"
+              <Image
+                src="/images/hero section/Untitled-design-5.png"
                 alt="TSCM Expert conducting bug sweep"
                 fill
                 className="object-cover"
                 priority
-              /> */}
+              />
 
               {/* Floating card — stat */}
               <div
@@ -183,7 +183,10 @@ export default function Hero() {
                     className="rounded-full p-2"
                     style={{ backgroundColor: "rgba(230,57,70,0.15)" }}
                   >
-                    <Shield size={16} style={{ color: "var(--color-accent)" }} />
+                    <Shield
+                      size={16}
+                      style={{ color: "var(--color-accent)" }}
+                    />
                   </div>
                   <div>
                     <div
@@ -192,7 +195,10 @@ export default function Hero() {
                     >
                       500+
                     </div>
-                    <div className="text-xs" style={{ color: "var(--color-muted)" }}>
+                    <div
+                      className="text-xs"
+                      style={{ color: "var(--color-muted)" }}
+                    >
                       Sweeps Completed
                     </div>
                   </div>
@@ -217,7 +223,8 @@ export default function Hero() {
       <div
         className="absolute bottom-0 left-0 right-0 h-20"
         style={{
-          background: "linear-gradient(to bottom, transparent, var(--bg-primary))",
+          background:
+            "linear-gradient(to bottom, transparent, var(--bg-primary))",
         }}
       />
     </section>

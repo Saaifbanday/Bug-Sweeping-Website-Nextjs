@@ -54,7 +54,7 @@ const CARDS = [...testimonials, ...testimonials, ...testimonials];
 function TestimonialCard({ t }: { t: (typeof testimonials)[0] }) {
   return (
     <div
-      className="relative flex flex-col rounded-2xl p-8 flex-shrink-0"
+      className="relative flex flex-col rounded-2xl p-8 shrink-0"
       style={{
         width: "380px",
         backgroundColor: "var(--bg-card)",
@@ -82,7 +82,7 @@ function TestimonialCard({ t }: { t: (typeof testimonials)[0] }) {
       {/* Author */}
       <div className="flex items-center gap-4">
         <div
-          className="w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0"
+          className="w-12 h-12 rounded-full flex items-center justify-center font-bold shrink-0"
           style={{
             backgroundColor: "var(--color-accent)",
             color: "#fff",

@@ -44,7 +44,9 @@ export default function ContactCTA({
           </div>
           <div className="shrink-0">
             <a
-              href="tel:+918882732221"
+              href="https://wa.me/918882732221"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded transition-all"
               style={
                 isDark
