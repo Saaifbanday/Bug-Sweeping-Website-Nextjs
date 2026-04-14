@@ -42,7 +42,7 @@ const ourApproach = [
   {
     step: "01",
     title: "Confidential First Call",
-    desc: "Tell us your concerns over a secure call. Everything shared is strictly confidential — covered by NDA from the first word.",
+    desc: "Tell us your concerns over a secure call. Everything shared is strictly confidential, covered by NDA from the first word.",
   },
   {
     step: "02",
@@ -68,7 +68,7 @@ export default function ContactPage() {
       <main className="flex-1">
         <PageHero
           label="Contact Us"
-          title="Get in Touch — Completely Confidential"
+          title="Get in Touch: Completely Confidential"
           subtitle="Whether you suspect surveillance or simply want peace of mind, our certified TSCM specialists are ready to help. Every enquiry is handled with absolute discretion."
           breadcrumbs={[{ label: "Contact Us", href: "#" }]}
         />
@@ -162,7 +162,7 @@ export default function ContactPage() {
                 <span style={{ color: "var(--color-accent)" }}>Contact Us</span>
               </h2>
               <p className="section-subtitle mx-auto">
-                From first call to final report — here&apos;s exactly how we work.
+                From first call to final report, here is exactly how we work.
               </p>
             </div>
 

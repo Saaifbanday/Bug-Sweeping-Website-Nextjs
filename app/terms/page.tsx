@@ -31,7 +31,7 @@ const sections = [
   },
   {
     title: "Intellectual Property",
-    body: `All content on this website — including text, graphics, logos, and design — is the property of BugSweepingTSCM.com and is protected by applicable intellectual property laws. You may not reproduce, distribute, or use any content without our prior written consent.`,
+    body: `All content on this website, including text, graphics, logos, and design, is the property of BugSweepingTSCM.com and is protected by applicable intellectual property laws. You may not reproduce, distribute, or use any content without our prior written consent.`,
   },
   {
     title: "Payment Terms",

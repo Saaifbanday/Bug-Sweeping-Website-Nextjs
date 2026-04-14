@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const sections = [
   {
     title: "Website Information",
-    body: `The information provided on BugSweepingTSCM.com is for general informational purposes only. While we strive to keep information accurate and current, we make no representations or warranties of any kind — express or implied — about the completeness, accuracy, or suitability of the information on this website for any particular purpose.`,
+    body: `The information provided on BugSweepingTSCM.com is for general informational purposes only. While we strive to keep information accurate and current, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, or suitability of the information on this website for any particular purpose.`,
   },
   {
     title: "Not Legal or Investigative Advice",
@@ -27,7 +27,7 @@ const sections = [
   },
   {
     title: "Use of This Website",
-    body: `Your use of this website is at your own risk. BugSweepingTSCM.com will not be liable for any loss or damage — including indirect or consequential loss — arising from use of, or inability to use, this website or its content.`,
+    body: `Your use of this website is at your own risk. BugSweepingTSCM.com will not be liable for any loss or damage, including indirect or consequential loss, arising from use of, or inability to use, this website or its content.`,
   },
   {
     title: "Accuracy of Client Testimonials",

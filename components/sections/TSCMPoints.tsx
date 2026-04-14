@@ -60,7 +60,7 @@ export default function TSCMPoints() {
           {points.map((point) => (
             <div
               key={point.label}
-              className="rounded-2xl p-8 flex gap-5"
+              className="rounded-2xl p-5 sm:p-8 flex gap-4 sm:gap-5"
               style={{
                 backgroundColor: "var(--bg-card)",
                 border: "1px solid var(--color-border)",

@@ -177,7 +177,7 @@ export default async function CityPage({
                     className="mt-4 text-xs italic"
                     style={{ color: "var(--color-muted)" }}
                   >
-                    Don&apos;t see your area? We cover all locations within and around {data.city} — call us to confirm availability.
+                    Don&apos;t see your area? We cover all locations within and around {data.city}. Call us to confirm availability.
                   </p>
                 </div>
               </div>

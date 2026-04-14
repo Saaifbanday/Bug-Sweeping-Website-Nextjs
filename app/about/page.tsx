@@ -5,6 +5,7 @@ import PageHero from "@/components/ui/PageHero";
 import ZigZagSection from "@/components/ui/ZigZagSection";
 import Stats from "@/components/sections/Stats";
 import ContactCTA from "@/components/sections/ContactCTA";
+import FaqAccordion from "@/components/ui/FaqAccordion";
 import Image from "next/image";
 import { CheckCircle2, Award, Phone } from "lucide-react";
 
@@ -29,7 +30,7 @@ const approachItems = [
   {
     tab: "Our Mission",
     heading: "Detect. Neutralize. Protect.",
-    body: "Our mission is simple yet critical: to protect what matters most — your privacy, your conversations, your life. Using military-grade detection technology and decades of intelligence expertise, we systematically detect and neutralize every hidden surveillance threat in your environment.",
+    body: "Our mission is simple yet critical: to protect what matters most, your privacy, your conversations, your life. Using military-grade detection technology and decades of intelligence expertise, we systematically detect and neutralize every hidden surveillance threat in your environment.",
     bullets: [
       "Deploy military-grade TSCM equipment on every engagement",
       "Operate with absolute discretion and zero client data retention",
@@ -37,31 +38,22 @@ const approachItems = [
       "Provide pan-India coverage with zero compromise on quality",
     ],
   },
-  {
-    tab: "Our Values",
-    heading: "Discretion, Integrity & Results",
-    body: "Everything we do is guided by three core values: absolute discretion in every engagement, integrity in every finding, and results that genuinely protect our clients. We never disclose client identities or engagement details, and we never cut corners — no matter how complex the sweep.",
-    bullets: [
-      "Client confidentiality is non-negotiable — always",
-      "We report every finding honestly, even inconvenient ones",
-      "No shortcuts: every sweep follows the full protocol",
-      "Continuous training to stay ahead of evolving surveillance technology",
-    ],
-  },
+
 ];
 
 const zigZagItems = [
   {
     label: "Expert Team",
     title: "Former Intelligence Officers & Certified TSCM Specialists",
-    body: "Our team isn't assembled from general security professionals — every member has specialized training in electronic counter-surveillance. From former intelligence agency veterans to internationally certified TSCM specialists, we bring real-world expertise to every engagement.",
+    body: "Our team is not assembled from general security professionals. Every member has specialized training in electronic counter-surveillance. From former intelligence agency veterans to internationally certified TSCM specialists, we bring real-world expertise to every engagement.",
     bullets: [
       "Former RAW and IB-trained surveillance detection professionals",
       "Internationally certified TSCM specialists (W.A.D. member)",
       "Cyber forensics and digital intelligence experts on staff",
       "Continuous training on emerging bugging technologies",
     ],
-    imagePlaceholderLabel: "[ Image 1 — Team / Expert in action ]",
+    imageSrc: "/images/about_us/why_choose_us/image_1.png",
+    imageAlt: "Expert TSCM team in action",
     cta: { label: "Contact Our Team", href: "/contact" },
   },
   {
@@ -74,7 +66,8 @@ const zigZagItems = [
       "FLIR thermal camera: finds heat signatures inside walls and furniture",
       "BlueSleuth & ORIUS: detect Bluetooth and Wi-Fi spy devices",
     ],
-    imagePlaceholderLabel: "[ Image 2 — TSCM Equipment / REI OSCOR ]",
+    imageSrc: "/images/about_us/why_choose_us/image_2.png",
+    imageAlt: "Military-grade TSCM equipment",
     cta: { label: "View All Equipment", href: "/#equipment" },
   },
   {
@@ -87,7 +80,8 @@ const zigZagItems = [
       "Zero client data retained after sweep completion",
       "No social media mentions or case studies without explicit permission",
     ],
-    imagePlaceholderLabel: "[ Image 3 — Discreet operation / professional sweep ]",
+    imageSrc: "/images/about_us/why_choose_us/image_3.png",
+    imageAlt: "Discreet professional bug sweep operation",
     cta: { label: "Book a Confidential Sweep", href: "/contact" },
   },
   {
@@ -100,7 +94,8 @@ const zigZagItems = [
       "Bengaluru — tech company boardrooms, R&D facilities",
       "All metro cities and Tier-2 cities on request",
     ],
-    imagePlaceholderLabel: "[ Image 4 — India map / nationwide coverage ]",
+    imageSrc: "/images/about_us/why_choose_us/image_4.png",
+    imageAlt: "Pan-India TSCM coverage",
     cta: { label: "Check Coverage in Your City", href: "/contact" },
   },
 ];
@@ -145,21 +140,20 @@ export default function AboutPage() {
         />
 
         {/* ── Who We Are ── */}
-        <section style={{ backgroundColor: "var(--bg-surface)" }} className="py-24">
+        <section
+          style={{ backgroundColor: "var(--bg-surface)" }}
+          className="py-24"
+        >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              {/* Image placeholder */}
-              <div className="img-placeholder aspect-[4/3]">
-                {/* Replace with: <Image src="/images/about-hero.jpg" alt="BugSweepingTSCM expert" fill className="object-cover rounded-2xl" /> */}
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center text-2xl"
-                  style={{ backgroundColor: "rgba(230,57,70,0.1)", border: "1px dashed rgba(230,57,70,0.3)" }}
-                >
-                  📸
-                </div>
-                <p className="text-sm text-center px-6" style={{ color: "var(--color-muted)" }}>
-                  [ Image — TSCM Expert with equipment ]
-                </p>
+              {/* Who We Are image */}
+              <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
+                <Image
+                  src="/images/about_us/image_1.png"
+                  alt="BugSweepingTSCM expert with equipment"
+                  fill
+                  className="object-cover"
+                />
               </div>
               {/* Text */}
               <div>
@@ -171,17 +165,45 @@ export default function AboutPage() {
                   </span>{" "}
                   Experts
                 </h2>
-                <p className="leading-relaxed mb-5" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
-                  At <strong style={{ color: "var(--color-text)" }}>BugSweepingTSCM.com</strong>, we stand at the forefront of electronic counter-surveillance (TSCM) in India. With over <strong style={{ color: "var(--color-accent)" }}>20 years of expertise</strong>, our mission is simple yet critical:
+                <p
+                  className="leading-relaxed mb-5"
+                  style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}
+                >
+                  At{" "}
+                  <strong style={{ color: "var(--color-text)" }}>
+                    BugSweepingTSCM.com
+                  </strong>
+                  , we stand at the forefront of electronic counter-surveillance
+                  (TSCM) in India. With over{" "}
+                  <strong style={{ color: "var(--color-accent)" }}>
+                    20 years of expertise
+                  </strong>
+                  , our mission is simple yet critical:
                 </p>
                 <blockquote
                   className="text-lg font-semibold italic mb-6 pl-5"
-                  style={{ borderLeft: "3px solid var(--color-accent)", color: "var(--color-text)" }}
+                  style={{
+                    borderLeft: "3px solid var(--color-accent)",
+                    color: "var(--color-text)",
+                  }}
                 >
-                  &ldquo;To protect what matters most — your privacy, your conversations, your life.&rdquo;
+                  &ldquo;To protect what matters most: your privacy, your
+                  conversations, your life.&rdquo;
                 </blockquote>
-                <p className="leading-relaxed mb-8" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
-                  We are a team of seasoned professionals — <strong style={{ color: "var(--color-text)" }}>former intelligence officers, cyber experts, and certified TSCM specialists</strong> — trained to detect even the most sophisticated surveillance threats. Our reputation is built on <strong style={{ color: "var(--color-accent)" }}>absolute discretion, trust, and results.</strong>
+                <p
+                  className="leading-relaxed mb-8"
+                  style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}
+                >
+                  We are a team of seasoned professionals, including{" "}
+                  <strong style={{ color: "var(--color-text)" }}>
+                    former intelligence officers, cyber experts, and certified
+                    TSCM specialists
+                  </strong>
+                  , trained to detect even the most sophisticated surveillance
+                  threats. Our reputation is built on{" "}
+                  <strong style={{ color: "var(--color-accent)" }}>
+                    absolute discretion, trust, and results.
+                  </strong>
                 </p>
                 <a href="/contact" className="btn-primary">
                   Book a Free Consultation
@@ -192,7 +214,10 @@ export default function AboutPage() {
         </section>
 
         {/* ── W.A.D. Certificate section ── */}
-        <section style={{ backgroundColor: "var(--bg-primary)" }} className="py-24">
+        <section
+          style={{ backgroundColor: "var(--bg-primary)" }}
+          className="py-24"
+        >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               {/* Text first */}
@@ -204,11 +229,30 @@ export default function AboutPage() {
                     World Association of Detectives
                   </span>
                 </h2>
-                <p className="leading-relaxed mb-6" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
-                  Our founder and lead specialist, <strong style={{ color: "var(--color-text)" }}>Hardesh Bhardwaj</strong>, is a certified member of the <strong style={{ color: "var(--color-accent)" }}>World Association of Detectives (W.A.D.)</strong> — one of the world&apos;s most prestigious professional associations for investigative and surveillance professionals.
+                <p
+                  className="leading-relaxed mb-6"
+                  style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}
+                >
+                  Our founder and lead specialist,{" "}
+                  <strong style={{ color: "var(--color-text)" }}>
+                    Hardesh Bhardwaj
+                  </strong>
+                  , is a certified member of the{" "}
+                  <strong style={{ color: "var(--color-accent)" }}>
+                    World Association of Detectives (W.A.D.)
+                  </strong>
+                  , one of the world&apos;s most prestigious professional
+                  associations for investigative and surveillance professionals.
                 </p>
-                <p className="leading-relaxed mb-8" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
-                  Having attended the 99th W.A.D. Annual Conference in Kuala Lumpur, Malaysia, our team stays current with global best practices in financial crime investigation, AI-powered security, crypto fraud detection, and counter-surveillance technology.
+                <p
+                  className="leading-relaxed mb-8"
+                  style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}
+                >
+                  Having attended the 99th W.A.D. Annual Conference in Kuala
+                  Lumpur, Malaysia, our team stays current with global best
+                  practices in financial crime investigation, AI-powered
+                  security, crypto fraud detection, and counter-surveillance
+                  technology.
                 </p>
                 <div className="flex flex-col gap-3">
                   {[
@@ -218,36 +262,48 @@ export default function AboutPage() {
                     "Cross-border Investigation & Compliance Expertise",
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-3">
-                      <Award size={16} style={{ color: "var(--color-accent)", flexShrink: 0 }} />
-                      <span style={{ color: "var(--color-muted)", fontSize: "1rem" }}>{item}</span>
+                      <Award
+                        size={16}
+                        style={{ color: "var(--color-accent)", flexShrink: 0 }}
+                      />
+                      <span
+                        style={{
+                          color: "var(--color-muted)",
+                          fontSize: "1rem",
+                        }}
+                      >
+                        {item}
+                      </span>
                     </div>
                   ))}
                 </div>
               </div>
-              {/* Certificate image placeholder */}
-              <div className="img-placeholder aspect-[3/4]">
-                {/* Replace with: <Image src="/images/wad-certificate.jpg" alt="W.A.D. Certificate - Hardesh Bhardwaj" fill className="object-cover rounded-2xl" /> */}
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center text-2xl"
-                  style={{ backgroundColor: "rgba(230,57,70,0.1)", border: "1px dashed rgba(230,57,70,0.3)" }}
-                >
-                  🏆
-                </div>
-                <p className="text-sm text-center px-6" style={{ color: "var(--color-muted)" }}>
-                  [ W.A.D. Certificate of Participation — Hardesh Bhardwaj ]
-                </p>
+              {/* W.A.D. Certificate image */}
+              <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
+                <Image
+                  src="/images/about_us/certificate.png"
+                  alt="W.A.D. Certificate of Participation — Hardesh Bhardwaj"
+                  fill
+                  className="object-contain"
+                  style={{ backgroundColor: "var(--bg-card)" }}
+                />
               </div>
             </div>
           </div>
         </section>
 
         {/* ── Our Approach — Vision / Mission / Values with ZigZag ── */}
-        <section style={{ backgroundColor: "var(--bg-surface)" }} className="pt-24 pb-4">
+        <section
+          style={{ backgroundColor: "var(--bg-surface)" }}
+          className="pt-24 pb-4"
+        >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="section-label mb-4">Our Approach</p>
             <h2 className="section-title mb-5">
               Fuelling Privacy Protection Through{" "}
-              <span style={{ color: "var(--color-accent)" }}>Vision, Mission & Values</span>
+              <span style={{ color: "var(--color-accent)" }}>
+                Vision, Mission & Values
+              </span>
             </h2>
           </div>
         </section>
@@ -256,37 +312,71 @@ export default function AboutPage() {
         {approachItems.map((item, idx) => (
           <section
             key={item.tab}
-            style={{ backgroundColor: idx % 2 === 0 ? "var(--bg-surface)" : "var(--bg-primary)" }}
+            style={{
+              backgroundColor:
+                idx % 2 === 0 ? "var(--bg-surface)" : "var(--bg-primary)",
+            }}
             className="py-20"
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className={`grid lg:grid-cols-2 gap-16 items-center`}>
                 {/* Image side */}
                 <div className={idx % 2 === 0 ? "lg:order-1" : "lg:order-2"}>
-                  <div className="img-placeholder aspect-[4/3] w-full">
-                    <div
-                      className="w-16 h-16 rounded-full flex items-center justify-center text-2xl"
-                      style={{ backgroundColor: "rgba(230,57,70,0.1)", border: "1px dashed rgba(230,57,70,0.3)" }}
-                    >
-                      📸
+                  {idx === 0 ? (
+                    <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
+                      <Image
+                        src="/images/about_us/image_3.png"
+                        alt={item.heading}
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <p className="text-sm text-center px-6" style={{ color: "var(--color-muted)" }}>
-                      [ Image — {item.tab} ]
-                    </p>
-                  </div>
+                  ) : (
+                    <div className="img-placeholder aspect-4/3 w-full">
+                      <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
+                        <Image
+                          src="/images/about_us/image_4.png"
+                          alt={item.heading}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                 
+                    </div>
+                  )}
                 </div>
                 {/* Text side */}
                 <div className={idx % 2 === 0 ? "lg:order-2" : "lg:order-1"}>
                   <p className="section-label mb-3">{item.tab}</p>
                   <h3 className="section-title mb-5">{item.heading}</h3>
-                  <p className="leading-relaxed mb-7" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
+                  <p
+                    className="leading-relaxed mb-7"
+                    style={{
+                      color: "var(--color-muted)",
+                      fontSize: "1.0625rem",
+                    }}
+                  >
                     {item.body}
                   </p>
                   <ul className="flex flex-col gap-3">
                     {item.bullets.map((b) => (
                       <li key={b} className="flex items-start gap-3">
-                        <CheckCircle2 size={18} style={{ color: "var(--color-accent)", flexShrink: 0, marginTop: "3px" }} />
-                        <span style={{ color: "var(--color-muted)", fontSize: "1rem" }}>{b}</span>
+                        <CheckCircle2
+                          size={18}
+                          style={{
+                            color: "var(--color-accent)",
+                            flexShrink: 0,
+                            marginTop: "3px",
+                          }}
+                        />
+                        <span
+                          style={{
+                            color: "var(--color-muted)",
+                            fontSize: "1rem",
+                          }}
+                        >
+                          {b}
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -297,7 +387,10 @@ export default function AboutPage() {
         ))}
 
         {/* ── Why Choose Us — ZigZag (4 items) ── */}
-        <section style={{ backgroundColor: "var(--bg-surface)" }} className="pt-24 pb-4">
+        <section
+          style={{ backgroundColor: "var(--bg-surface)" }}
+          className="pt-24 pb-4"
+        >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="section-label mb-4">Why Choose Us</p>
             <h2 className="section-title">
@@ -312,7 +405,10 @@ export default function AboutPage() {
         <Stats />
 
         {/* ── FAQ ── */}
-        <section style={{ backgroundColor: "var(--bg-primary)" }} className="py-24">
+        <section
+          style={{ backgroundColor: "var(--bg-primary)" }}
+          className="py-24"
+        >
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-14">
               <p className="section-label mb-4">FAQ</p>
@@ -321,39 +417,28 @@ export default function AboutPage() {
                 Everything you need to know about our TSCM sweep process.
               </p>
             </div>
-            <div className="flex flex-col gap-4">
-              {faqs.map((faq) => (
-                <div
-                  key={faq.q}
-                  className="rounded-xl p-7"
-                  style={{
-                    backgroundColor: "var(--bg-card)",
-                    border: "1px solid var(--color-border)",
-                  }}
-                >
-                  <h3 className="text-lg font-bold mb-3" style={{ color: "var(--color-text)" }}>
-                    {faq.q}
-                  </h3>
-                  <p className="leading-relaxed" style={{ color: "var(--color-muted)", fontSize: "1rem" }}>
-                    {faq.a}
-                  </p>
-                </div>
-              ))}
-            </div>
+            <FaqAccordion items={faqs} />
 
             {/* Emergency contact */}
             <div
               className="mt-10 rounded-xl p-8 flex flex-col sm:flex-row items-center justify-between gap-4"
               style={{
-                background: "linear-gradient(135deg, rgba(230,57,70,0.1) 0%, rgba(230,57,70,0.04) 100%)",
+                background:
+                  "linear-gradient(135deg, rgba(230,57,70,0.1) 0%, rgba(230,57,70,0.04) 100%)",
                 border: "1px solid rgba(230,57,70,0.25)",
               }}
             >
               <div>
-                <p className="text-sm font-semibold mb-1" style={{ color: "var(--color-accent)" }}>
+                <p
+                  className="text-sm font-semibold mb-1"
+                  style={{ color: "var(--color-accent)" }}
+                >
                   24 / 7 Emergency Sweep
                 </p>
-                <p className="text-xl font-bold" style={{ color: "var(--color-text)" }}>
+                <p
+                  className="text-xl font-bold"
+                  style={{ color: "var(--color-text)" }}
+                >
                   Need an urgent sweep? Call us now.
                 </p>
               </div>

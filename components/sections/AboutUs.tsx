@@ -1,4 +1,4 @@
-import { Shield, CheckCircle2, Star } from "lucide-react";
+import { Shield, CheckCircle2 } from "lucide-react";
 
 const services = [
   "Business Bug Sweeps",
@@ -11,7 +11,7 @@ const services = [
 
 const equipment = [
   "REI OSCOR Green Spectrum Analyzers (10 kHz to 24 GHz)",
-  "ORION NLJD — detects electronics even when off",
+  "ORION NLJD: detects electronics even when off",
   "Wi-Fi Hunter & Bluetooth Locators",
   "Thermal Imagers & Video Pole Cameras for hidden spaces",
   "Digital TDR Line Analyzers for phone & VoIP",
@@ -21,7 +21,7 @@ const trustPoints = [
   "20+ Years of Elite Counter-Surveillance Experience",
   "Trusted by CEOs, Celebrities, Government Officials & HNIs",
   "Fully confidential operations with zero disruptions",
-  "Pan-India service — from Mumbai penthouses to Delhi embassies, Bengaluru boardrooms to Jaipur palaces",
+  "Pan-India service: from Mumbai penthouses to Delhi embassies, Bengaluru boardrooms to Jaipur palaces",
 ];
 
 export default function AboutUs() {
@@ -97,7 +97,7 @@ export default function AboutUs() {
                 color: "var(--color-text)",
               }}
             >
-              &ldquo;To protect what matters most — your privacy, your conversations, your
+              &ldquo;To protect what matters most: your privacy, your conversations, your
               life.&rdquo;
             </blockquote>
             <p className="text-sm leading-relaxed" style={{ color: "var(--color-muted)" }}>
@@ -129,7 +129,7 @@ export default function AboutUs() {
               <strong style={{ color: "var(--color-text)" }}>
                 Technical Surveillance Counter-Measures (TSCM)
               </strong>{" "}
-              — commonly known as bug sweeping. Our comprehensive services include:
+              commonly known as bug sweeping. Our comprehensive services include:
             </p>
             <ul className="flex flex-col gap-3">
               {services.map((s) => (
@@ -222,7 +222,7 @@ export default function AboutUs() {
                   color: "var(--color-muted)",
                 }}
               >
-                &ldquo;When privacy is not an option, but an absolute necessity — we&apos;re
+                &ldquo;When privacy is not an option, but an absolute necessity, we are
                 the ones you call.&rdquo;
               </blockquote>
               <ul className="flex flex-col gap-3">

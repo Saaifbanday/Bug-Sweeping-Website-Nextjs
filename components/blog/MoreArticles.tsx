@@ -1,7 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import type { BlogPost } from "@/lib/blog-data";
 
 export default function MoreArticles({ posts }: { posts: BlogPost[] }) {
@@ -21,34 +22,53 @@ export default function MoreArticles({ posts }: { posts: BlogPost[] }) {
             <Link
               key={p.slug}
               href={`/blog/${p.slug}`}
-              className="rounded-xl p-6 flex flex-col gap-3"
+              className="rounded-xl overflow-hidden flex flex-col"
               style={{
                 backgroundColor: "var(--bg-card)",
                 border: "1px solid var(--color-border)",
-                transition: "border-color 0.2s",
+                transition: "border-color 0.2s, transform 0.2s",
               }}
-              onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = "rgba(230,57,70,0.35)")
-              }
-              onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = "var(--color-border)")
-              }
+              onMouseEnter={(e) => {
+                const el = e.currentTarget as HTMLElement;
+                el.style.borderColor = "rgba(230,57,70,0.35)";
+                el.style.transform = "translateY(-3px)";
+              }}
+              onMouseLeave={(e) => {
+                const el = e.currentTarget as HTMLElement;
+                el.style.borderColor = "var(--color-border)";
+                el.style.transform = "translateY(0)";
+              }}
             >
-              <span className="text-xs font-semibold" style={{ color: "var(--color-accent)" }}>
-                {p.category}
-              </span>
-              <h3
-                className="font-bold leading-snug"
-                style={{ color: "var(--color-text)", fontSize: "1rem" }}
+              {/* Cover image */}
+              <div
+                className="relative w-full shrink-0"
+                style={{ height: "160px", backgroundColor: "var(--bg-surface)" }}
               >
-                {p.title}
-              </h3>
-              <span
-                className="flex items-center gap-1 text-sm font-semibold mt-auto"
-                style={{ color: "var(--color-accent)" }}
-              >
-                Read <ArrowLeft size={13} style={{ transform: "rotate(180deg)" }} />
-              </span>
+                <Image
+                  src={p.coverImage}
+                  alt={p.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="p-5 flex flex-col gap-3 flex-1">
+                <span className="text-xs font-semibold" style={{ color: "var(--color-accent)" }}>
+                  {p.category}
+                </span>
+                <h3
+                  className="font-bold leading-snug flex-1"
+                  style={{ color: "var(--color-text)", fontSize: "1rem" }}
+                >
+                  {p.title}
+                </h3>
+                <span
+                  className="flex items-center gap-1 text-sm font-semibold mt-auto"
+                  style={{ color: "var(--color-accent)" }}
+                >
+                  Read <ArrowRight size={13} />
+                </span>
+              </div>
             </Link>
           ))}
         </div>

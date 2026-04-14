@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MoreArticles from "@/components/blog/MoreArticles";
 import { blogPosts } from "@/lib/blog-data";
+import Image from "next/image";
 import { ArrowLeft, Clock, Tag, Phone } from "lucide-react";
 
 export function generateStaticParams() {
@@ -105,6 +106,17 @@ export default async function BlogPostPage({
             </p>
           </div>
         </section>
+
+        {/* Cover image */}
+        <div className="relative w-full" style={{ height: "380px", backgroundColor: "var(--bg-surface)" }}>
+          <Image
+            src={post.coverImage}
+            alt={post.title}
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
         {/* Article body */}
         <section className="py-16" style={{ backgroundColor: "var(--bg-surface)" }}>

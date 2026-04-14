@@ -10,7 +10,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Services | BugSweepingTSCM.com — Bug Sweep & TSCM Services India",
   description:
-    "Business bug sweeps, residential privacy protection, audio/video bug sweeps, telephone taps, vehicle GPS tracker detection — comprehensive TSCM services across India.",
+    "Business bug sweeps, residential privacy protection, audio/video bug sweeps, telephone taps, vehicle GPS tracker detection. Comprehensive TSCM services across India.",
 };
 
 // 4 primary services with full zigzag image layout
@@ -18,7 +18,7 @@ const zigZagServices = [
   {
     label: "Service 01",
     title: "Business Bug Sweeps",
-    body: "Boardrooms discuss strategy. Executive suites hold sensitive negotiations. Conference rooms host confidential deals. These are prime targets for corporate espionage — and our most critical sweep environments. We protect the spaces where your most valuable information is spoken aloud.",
+    body: "Boardrooms discuss strategy. Executive suites hold sensitive negotiations. Conference rooms host confidential deals. These are prime targets for corporate espionage and our most critical sweep environments. We protect the spaces where your most valuable information is spoken aloud.",
     bullets: [
       "Executive offices, boardrooms & conference rooms",
       "Server rooms, IT racks & VoIP telephone systems",
@@ -26,13 +26,14 @@ const zigZagServices = [
       "Restrooms, locker rooms & reception areas",
       "Company vehicles, private jets & yachts",
     ],
-    imagePlaceholderLabel: "[ Image 1 — Business boardroom bug sweep ]",
+    imageSrc: "/images/services/business_bug.PNG",
+    imageAlt: "Business boardroom bug sweep",
     cta: { label: "Book a Business Sweep", href: "/contact" },
   },
   {
     label: "Service 02",
     title: "Residence Bug Sweeps",
-    body: "Your home should be your sanctuary — a place where you can speak freely without fear. Modern eavesdropping devices can be hidden anywhere: inside power outlets, beneath floorboards, inside common household objects. Our residential sweeps cover every room, every surface, every suspect object.",
+    body: "Your home should be your sanctuary, a place where you can speak freely without fear. Modern eavesdropping devices can be hidden anywhere: inside power outlets, beneath floorboards, inside common household objects. Our residential sweeps cover every room, every surface, every suspect object.",
     bullets: [
       "Bedrooms, dressing areas & living rooms",
       "Home offices, study rooms & kitchens",
@@ -40,13 +41,14 @@ const zigZagServices = [
       "WiFi routers, smart TVs & IoT devices",
       "Garden, patios & perimeter areas",
     ],
-    imagePlaceholderLabel: "[ Image 2 — Residential sweep / bedroom inspection ]",
+    imageSrc: "/images/services/residence_bug.PNG",
+    imageAlt: "Residential sweep and bedroom inspection",
     cta: { label: "Protect Your Home", href: "/contact" },
   },
   {
     label: "Service 03",
     title: "Audio & Video Bug Sweeps",
-    body: "Listening devices and covert cameras are the most common surveillance tools — and also the most difficult to detect without professional equipment. Our combined audio/video sweep covers every possible concealment spot, from pinhole cameras hidden behind tinted glass to GSM microphones inside common office items.",
+    body: "Listening devices and covert cameras are the most common surveillance tools, and also the most difficult to detect without professional equipment. Our combined audio/video sweep covers every possible concealment spot, from pinhole cameras hidden behind tinted glass to GSM microphones inside common office items.",
     bullets: [
       "Wired & wireless RF microphones",
       "GSM / SIM bugs & voice-activated recorders",
@@ -54,13 +56,14 @@ const zigZagServices = [
       "Infrared & night-vision hidden cameras",
       "Cameras disguised as consumer electronics",
     ],
-    imagePlaceholderLabel: "[ Image 3 — Hidden camera / audio sweep ]",
+    imageSrc: "/images/services/audio_and_video_bug.PNG",
+    imageAlt: "Audio and video bug sweep",
     cta: { label: "Schedule a Sweep", href: "/contact" },
   },
   {
     label: "Service 04",
     title: "Vehicle GPS & Telephone Sweeps",
-    body: "GPS trackers can monitor your every movement — placed under chassis, inside OBD-II ports, or tucked behind dashboard panels in minutes. Phone taps and spyware can silently stream every call and message. Our vehicle and telephone sweeps use the WolfHound Pro and REI TALAN to locate every active and passive threat.",
+    body: "GPS trackers can monitor your every movement. They are placed under chassis, inside OBD-II ports, or tucked behind dashboard panels in minutes. Phone taps and spyware can silently stream every call and message. Our vehicle and telephone sweeps use the WolfHound Pro and REI TALAN to locate every active and passive threat.",
     bullets: [
       "Real-time & passive GPS trackers under chassis, in bumpers",
       "OBD-II port devices & inside trunk compartments",
@@ -68,7 +71,8 @@ const zigZagServices = [
       "VOIP interception & SIM-based attack detection",
       "Spyware, stalkerware & remote microphone activation",
     ],
-    imagePlaceholderLabel: "[ Image 4 — Vehicle GPS sweep / phone tap detection ]",
+    imageSrc: "/images/services/vehicle_gps.PNG",
+    imageAlt: "Vehicle GPS sweep and phone tap detection",
     cta: { label: "Book Vehicle Sweep", href: "/contact" },
   },
 ];
@@ -81,7 +85,7 @@ const allServices = [
   },
   {
     title: "Residence Bug Sweeps",
-    desc: "Thorough sweep of every room — bedrooms, bathrooms, home offices, and IoT-connected devices.",
+    desc: "Thorough sweep of every room: bedrooms, bathrooms, home offices, and IoT-connected devices.",
   },
   {
     title: "Audio Bug Sweeps",
@@ -109,7 +113,7 @@ export default function ServicesPage() {
         <PageHero
           label="Our Services"
           title="Comprehensive Bug Sweeping & TSCM Services"
-          subtitle="From boardrooms to bedrooms, vehicles to VoIP lines — our certified TSCM specialists deploy military-grade equipment to detect and neutralize every surveillance threat."
+          subtitle="From boardrooms to bedrooms, vehicles to VoIP lines. Our certified TSCM specialists deploy military-grade equipment to detect and neutralize every surveillance threat."
           breadcrumbs={[{ label: "Services", href: "#" }]}
         />
 
@@ -160,7 +164,7 @@ export default function ServicesPage() {
               <span style={{ color: "var(--color-accent)" }}>Sweep Categories</span>
             </h2>
             <p className="section-subtitle mx-auto">
-              Each sweep is tailored to the specific threat environment — no two engagements are identical.
+              Each sweep is tailored to the specific threat environment. No two engagements are identical.
             </p>
           </div>
         </section>
@@ -181,7 +185,7 @@ export default function ServicesPage() {
                 {
                   step: "01",
                   title: "Confidential Consultation",
-                  desc: "We discuss your concerns, assess the threat level, and plan the sweep protocol — all under strict NDA.",
+                  desc: "We discuss your concerns, assess the threat level, and plan the sweep protocol, all under strict NDA.",
                 },
                 {
                   step: "02",
@@ -227,7 +231,7 @@ export default function ServicesPage() {
 
         <ContactCTA
           title="Ready to Book Your Sweep?"
-          subtitle="Speak to a certified TSCM specialist — completely confidential."
+          subtitle="Speak to a certified TSCM specialist, completely confidential."
           variant="accent"
         />
       </main>

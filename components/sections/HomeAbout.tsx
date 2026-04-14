@@ -6,10 +6,10 @@ const items = [
   {
     label: "Who We Are",
     title: "India's Most Trusted TSCM Specialists",
-    body: "BugSweepingTSCM is a dedicated technical surveillance countermeasure (TSCM) firm operated by trained security professionals. We exist for one purpose: to find and neutralise hidden surveillance devices before they cause irreparable damage — to your business, your family, or your reputation.",
+    body: "BugSweepingTSCM is a dedicated technical surveillance countermeasure (TSCM) firm operated by trained security professionals. We exist for one purpose: to find and neutralise hidden surveillance devices before they cause irreparable damage to your business, your family, or your reputation.",
     bullets: [
       "Certified TSCM technicians with field-proven expertise",
-      "Strictly confidential — NDA-covered from the first call",
+      "Strictly confidential. NDA-covered from the first call",
       "Unmarked vehicles, discreet arrival, zero attention drawn",
       "Deployed across India — Mumbai, Delhi, Bengaluru & beyond",
     ],
@@ -75,14 +75,14 @@ export default function HomeAbout() {
         </div>
 
         {/* Alternating ZigZag rows */}
-        <div className="flex flex-col gap-24">
+        <div className="flex flex-col gap-16 sm:gap-24">
           {items.map((item, idx) => {
             const isEven = idx % 2 === 0;
 
             const imagePlaceholder = (
               <div
                 className="relative rounded-2xl overflow-hidden w-full"
-                style={{ minHeight: "380px" }}
+                style={{ minHeight: "280px" }}
               >
                 <Image
                   src={item.imageSrc}
@@ -149,7 +149,7 @@ export default function HomeAbout() {
             return (
               <div
                 key={item.label}
-                className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+                className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center"
               >
                 {isEven ? (
                   <>
@@ -158,8 +158,8 @@ export default function HomeAbout() {
                   </>
                 ) : (
                   <>
-                    <div className="lg:order-2">{imagePlaceholder}</div>
-                    <div className="lg:order-1">{textBlock}</div>
+                    <div className="order-2 lg:order-2">{imagePlaceholder}</div>
+                    <div className="order-1 lg:order-1">{textBlock}</div>
                   </>
                 )}
               </div>

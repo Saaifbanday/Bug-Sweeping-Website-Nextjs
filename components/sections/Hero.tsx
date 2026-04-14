@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, Phone, Shield, Eye, Wifi } from "lucide-react";
+import { ArrowRight, Shield, Eye, Wifi } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -43,8 +43,8 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-20">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left — Text Content */}
           <div>
             {/* Eyebrow */}
@@ -106,7 +106,7 @@ export default function Hero() {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 mb-12">
+            <div className="flex flex-wrap gap-3 mb-8 sm:mb-12">
               <a
                 href="https://wa.me/918882732221"
                 target="_blank"
@@ -147,20 +147,12 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — Hero image placeholder */}
+          {/* Right — Hero image */}
           <div className="relative flex justify-center lg:justify-end">
             <div
-              className="relative rounded-2xl overflow-hidden"
-              style={{
-               
-                width: "100%",
-                maxWidth: "520px",
-                aspectRatio: "4/5",
-              }}
+              className="relative rounded-2xl overflow-hidden w-full aspect-4/3 sm:aspect-3/4 lg:aspect-4/5"
+              style={{ maxWidth: "520px" }}
             >
-              
-             
-              {/* Replace above with: */}
               <Image
                 src="/images/hero section/Untitled-design-5.png"
                 alt="TSCM Expert conducting bug sweep"

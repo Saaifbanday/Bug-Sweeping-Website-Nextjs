@@ -21,7 +21,7 @@ export default function ContactForm() {
       // Web3Forms — free static-site email service
       // Set NEXT_PUBLIC_WEB3FORMS_KEY in .env.local or Vercel env vars
       // Get your free key at: https://web3forms.com
-      const key = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? "YOUR_WEB3FORMS_KEY";
+      const key = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? "WEB3FORMS_KEY";
 
       data.append("access_key", key);
       data.append("subject", "New Bug Sweep Enquiry — BugSweepingTSCM.com");

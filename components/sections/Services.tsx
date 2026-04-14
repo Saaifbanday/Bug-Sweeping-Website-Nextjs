@@ -89,17 +89,17 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24" style={{ backgroundColor: "var(--bg-primary)" }}>
+    <section id="services" className="py-16 sm:py-24" style={{ backgroundColor: "var(--bg-primary)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <p className="section-label mb-3">Our Services</p>
           <h2 className="section-title mb-4">
             Explore Our Elite Bug Sweeping &amp; TSCM Services
           </h2>
           <p className="section-subtitle mx-auto">
             From hidden cameras to rogue microphones and GPS trackers, our advanced TSCM
-            services safeguard your business, home, and vehicles — delivering total peace of
+            services safeguard your business, home, and vehicles, delivering total peace of
             mind.
           </p>
         </div>
@@ -153,7 +153,7 @@ export default function Services() {
                       className="text-sm font-medium"
                       style={{ color: "var(--color-accent)" }}
                     >
-                      & Much More!
+                      &amp; Much More!
                     </span>
                   </li>
                 </ul>
@@ -173,13 +173,13 @@ export default function Services() {
 
         {/* Free quote banner */}
         <div
-          className="mt-12 rounded-xl p-8 flex flex-col md:flex-row items-center justify-between gap-4"
+          className="mt-12 rounded-xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-4"
           style={{
             background: "linear-gradient(135deg, rgba(230,57,70,0.08) 0%, rgba(29,78,216,0.06) 100%)",
             border: "1px solid rgba(230,57,70,0.2)",
           }}
         >
-          <div>
+          <div className="text-center sm:text-left">
             <p className="text-sm font-semibold" style={{ color: "var(--color-muted)" }}>
               Free Consultation
             </p>

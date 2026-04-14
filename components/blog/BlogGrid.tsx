@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Clock, Tag } from "lucide-react";
 import type { BlogPost } from "@/lib/blog-data";
@@ -30,16 +31,17 @@ export default function BlogGrid({ posts }: { posts: BlogPost[] }) {
             el.style.boxShadow = "none";
           }}
         >
-          {/* Image placeholder */}
+          {/* Cover image */}
           <div
-            className="flex items-center justify-center"
-            style={{
-              height: "200px",
-              backgroundColor: "var(--bg-surface)",
-              borderBottom: "1px solid var(--color-border)",
-            }}
+            className="relative w-full shrink-0"
+            style={{ height: "220px", backgroundColor: "var(--bg-surface)" }}
           >
-            <span style={{ fontSize: "3rem" }}>📝</span>
+            <Image
+              src={post.coverImage}
+              alt={post.title}
+              fill
+              className="object-cover"
+            />
           </div>
 
           <div className="p-7 flex flex-col gap-4 flex-1">

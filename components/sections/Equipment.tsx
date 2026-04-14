@@ -22,7 +22,7 @@ const equipment = [
       "Identifies all kinds of electronics — active, inactive, or powered down. Detects mobile phones, tracking devices, hidden microphones, covert cameras, digital recorders, SIM cards, and any electronic circuit or microchip.",
   },
   {
-    image: "/images/equipment/ANDRE-Advanced-Kit.png-removebg-preview.png",
+    image: "/images/equipment/andre-advanced-kit.webp",
     name: "REI ANDRE Deluxe Near-Field Detection Receiver",
     description:
       "Portable broadband receiver detecting RF, infrared, visible light, carrier current, and various transmitters from 10 kHz to 6 GHz. Ideal for non-alerting initial sweeps as a companion to spectrum analyzers.",
@@ -35,7 +35,7 @@ const equipment = [
       "Detects, pinpoints, and investigates any device transmitting over Wi-Fi. Identifies hidden networks, de-authenticates rogue devices, and monitors for suspicious activity, new or duplicate access points.",
   },
   {
-    image: "/images/equipment/193_271_large.jpg-removebg-preview.png",
+    image: "/images/equipment/193.png",
     name: "FLIR Infrared Thermal Camera",
     description:
       "Detects active heat signatures from bugging devices hidden inside walls, ceilings, floors, furniture, light fixtures, pillows, stuffed toys, or air vents — regardless of location.",
@@ -66,14 +66,13 @@ const equipment = [
       "Engineered to uncover concealed cameras including ultra-small pinhole types — powered on or off. Uses reverse reflection technology to spot lenses even behind tinted glass, detectable up to 60 feet away.",
   },
   {
-    image:
-      "/images/equipment/WolfHound-e1437847336504.png-removebg-preview.png",
+    image: "/images/equipment/gps-tracker.png",
     name: "GPS Tracker / Cell Phone Detector (WolfHound Pro)",
     description:
       "Locates active hidden cell phones, GSM bugs, and GPS tracking devices. Pinpoints exact location whether in standby, on calls, sending data, or transmitting live GPS signals.",
   },
   {
-    image: "/images/equipment/CMA-100_2.jpg-removebg-preview.png",
+    image: "/images/equipment/cma.png",
     name: "Countermeasure Amplifier",
     description:
       "High-gain audio amplifier connected to telephone lines, LAN/server networks, AC power circuits, and alarm wiring to uncover hidden eavesdropping devices exploiting these connections.",
@@ -161,12 +160,12 @@ export default function Equipment() {
             Military-Grade TSCM Equipment for Bug Sweeps
           </h2>
           <p className="section-subtitle mx-auto">
-            We deploy advanced, military-grade TSCM tools — from spectrum analyzers to
-            NLJDs — ensuring no hidden device escapes detection.
+            We deploy advanced, military-grade TSCM tools, from spectrum analyzers to
+            NLJDs, ensuring no hidden device escapes detection.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {equipment.map((item) => (
             <EquipmentCard key={item.name} item={item} />
           ))}
