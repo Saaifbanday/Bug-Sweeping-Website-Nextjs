@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "About Us | BugSweepingTSCM.com — India's Premier TSCM Experts",
   description:
     "With 20+ years of experience, our team of former intelligence officers and certified TSCM specialists protect your privacy from hidden cameras, spy apps, and GPS trackers across India.",
+  alternates: { canonical: "https://bugsweepingtscm.com/about" },
 };
 
 const approachItems = [

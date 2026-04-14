@@ -6,6 +6,7 @@ import PageHero from "@/components/ui/PageHero";
 export const metadata: Metadata = {
   title: "Terms & Conditions | BugSweepingTSCM.com",
   description: "Terms and Conditions for using BugSweepingTSCM.com services.",
+  alternates: { canonical: "https://bugsweepingtscm.com/terms" },
 };
 
 const sections = [

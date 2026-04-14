@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bugsweepingtscm.com"),
   title: "Bug Sweeping TSCM | Expert Bug Sweeping & TSCM Services – Nationwide",
   description:
     "India's premier Technical Surveillance Counter-Measures (TSCM) experts. Professional bug sweeping for businesses, residences, and vehicles. Hidden cameras, spy apps, GPS trackers — detected and neutralized. Trusted by HNIs, CEOs, and celebrities.",
@@ -24,6 +25,9 @@ export const metadata: Metadata = {
     "bug sweep services India",
   ],
   authors: [{ name: "BugSweepingTSCM.com" }],
+  alternates: {
+    canonical: "https://bugsweepingtscm.com",
+  },
   openGraph: {
     title: "Bug Sweeping TSCM | Expert Bug Sweeping & TSCM Services",
     description:
@@ -31,6 +35,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: "BugSweepingTSCM.com",
+    url: "https://bugsweepingtscm.com",
   },
   twitter: {
     card: "summary_large_image",

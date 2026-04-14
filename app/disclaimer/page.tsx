@@ -6,6 +6,7 @@ import PageHero from "@/components/ui/PageHero";
 export const metadata: Metadata = {
   title: "Disclaimer | BugSweepingTSCM.com",
   description: "Disclaimer for BugSweepingTSCM.com — limitations on information and liability.",
+  alternates: { canonical: "https://bugsweepingtscm.com/disclaimer" },
 };
 
 const sections = [

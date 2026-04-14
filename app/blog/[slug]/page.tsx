@@ -23,6 +23,7 @@ export async function generateMetadata({
   return {
     title: `${post.title} | BugSweepingTSCM.com`,
     description: post.excerpt,
+    alternates: { canonical: `https://bugsweepingtscm.com/blog/${slug}` },
   };
 }
 

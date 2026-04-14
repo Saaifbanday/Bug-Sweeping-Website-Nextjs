@@ -6,6 +6,7 @@ import PageHero from "@/components/ui/PageHero";
 export const metadata: Metadata = {
   title: "Privacy Policy | BugSweepingTSCM.com",
   description: "Privacy Policy for BugSweepingTSCM.com: how we collect, use, and protect your information.",
+  alternates: { canonical: "https://bugsweepingtscm.com/privacy-policy" },
 };
 
 const sections = [

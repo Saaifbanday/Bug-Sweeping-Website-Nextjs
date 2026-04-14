@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Services | BugSweepingTSCM.com — Bug Sweep & TSCM Services India",
   description:
     "Business bug sweeps, residential privacy protection, audio/video bug sweeps, telephone taps, vehicle GPS tracker detection. Comprehensive TSCM services across India.",
+  alternates: { canonical: "https://bugsweepingtscm.com/services" },
 };
 
 // 4 primary services with full zigzag image layout

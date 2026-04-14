@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Contact Us | BugSweepingTSCM.com — Book a Bug Sweep",
   description:
     "Contact India's premier TSCM specialists for a confidential consultation. Available 24/7 for emergency sweeps across India. Call +91 888 273 2221 or email info@bugsweepingtscm.com.",
+  alternates: { canonical: "https://bugsweepingtscm.com/contact" },
 };
 
 const contactDetails = [
@@ -103,7 +104,7 @@ export default function ContactPage() {
                       }}
                     >
                       <div
-                        className="w-11 h-11 rounded-lg flex items-center justify-center flex-shrink-0"
+                        className="w-11 h-11 rounded-lg flex items-center justify-center shrink-0"
                         style={{ backgroundColor: "rgba(230,57,70,0.12)" }}
                       >
                         <Icon size={20} style={{ color: "var(--color-accent)" }} />
