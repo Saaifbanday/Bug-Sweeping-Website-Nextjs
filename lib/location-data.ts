@@ -96,7 +96,7 @@ export const cities: CityData[] = [
       "Mohali (Phase 1–11, IT Park, Aerocity)",
       "Panchkula (Sectors 1–25)",
       "Zirakpur & Kharar",
-      "Derabassi & Dera Bassi",
+      "Derabassi",
       "SAS Nagar (Mohali) industrial areas",
     ],
     metaDescription:
