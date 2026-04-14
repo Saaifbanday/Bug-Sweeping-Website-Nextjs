@@ -31,17 +31,17 @@ export default function ZigZagSection({ items, bgAlternate = false }: ZigZagSect
           : "var(--bg-surface)";
 
         return (
-          <section key={item.title} style={{ backgroundColor: bg }} className="py-24">
+          <section key={item.title} style={{ backgroundColor: bg }} className="py-12 sm:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div
-                className={`grid lg:grid-cols-2 gap-16 items-center ${
+                className={`grid lg:grid-cols-2 gap-8 lg:gap-16 items-center ${
                   !isEven ? "lg:flex-row-reverse" : ""
                 }`}
                 style={{ direction: isEven ? "ltr" : "ltr" }}
               >
                 {/* ── Image side ── */}
                 <div className={isEven ? "lg:order-1" : "lg:order-2"}>
-                  <div className="img-placeholder aspect-[4/3] w-full">
+                  <div className="img-placeholder aspect-4/3 w-full">
                     {item.imageSrc ? (
                       <Image
                         src={item.imageSrc}

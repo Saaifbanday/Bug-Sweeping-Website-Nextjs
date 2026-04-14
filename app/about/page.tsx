@@ -142,10 +142,10 @@ export default function AboutPage() {
         {/* ── Who We Are ── */}
         <section
           style={{ backgroundColor: "var(--bg-surface)" }}
-          className="py-24"
+          className="py-12 sm:py-24"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               {/* Who We Are image */}
               <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
                 <Image
@@ -216,10 +216,10 @@ export default function AboutPage() {
         {/* ── W.A.D. Certificate section ── */}
         <section
           style={{ backgroundColor: "var(--bg-primary)" }}
-          className="py-24"
+          className="py-12 sm:py-24"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               {/* Text first */}
               <div>
                 <p className="section-label mb-4">International Recognition</p>
@@ -295,7 +295,7 @@ export default function AboutPage() {
         {/* ── Our Approach — Vision / Mission / Values with ZigZag ── */}
         <section
           style={{ backgroundColor: "var(--bg-surface)" }}
-          className="pt-24 pb-4"
+          className="pt-12 sm:pt-24 pb-4"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="section-label mb-4">Our Approach</p>
@@ -316,10 +316,10 @@ export default function AboutPage() {
               backgroundColor:
                 idx % 2 === 0 ? "var(--bg-surface)" : "var(--bg-primary)",
             }}
-            className="py-20"
+            className="py-10 sm:py-20"
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className={`grid lg:grid-cols-2 gap-16 items-center`}>
+              <div className={`grid lg:grid-cols-2 gap-8 lg:gap-16 items-center`}>
                 {/* Image side */}
                 <div className={idx % 2 === 0 ? "lg:order-1" : "lg:order-2"}>
                   {idx === 0 ? (
@@ -332,16 +332,13 @@ export default function AboutPage() {
                       />
                     </div>
                   ) : (
-                    <div className="img-placeholder aspect-4/3 w-full">
-                      <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
-                        <Image
-                          src="/images/about_us/image_4.png"
-                          alt={item.heading}
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                 
+                    <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
+                      <Image
+                        src="/images/about_us/image_4.png"
+                        alt={item.heading}
+                        fill
+                        className="object-cover"
+                      />
                     </div>
                   )}
                 </div>
@@ -389,7 +386,7 @@ export default function AboutPage() {
         {/* ── Why Choose Us — ZigZag (4 items) ── */}
         <section
           style={{ backgroundColor: "var(--bg-surface)" }}
-          className="pt-24 pb-4"
+          className="pt-12 sm:pt-24 pb-4"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="section-label mb-4">Why Choose Us</p>
@@ -407,7 +404,7 @@ export default function AboutPage() {
         {/* ── FAQ ── */}
         <section
           style={{ backgroundColor: "var(--bg-primary)" }}
-          className="py-24"
+          className="py-12 sm:py-24"
         >
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-14">
@@ -442,7 +439,7 @@ export default function AboutPage() {
                   Need an urgent sweep? Call us now.
                 </p>
               </div>
-              <a href="tel:+918882732221" className="btn-primary flex-shrink-0">
+              <a href="tel:+918882732221" className="btn-primary shrink-0">
                 <Phone size={16} />
                 +91 888 273 2221
               </a>
