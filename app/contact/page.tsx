@@ -8,7 +8,7 @@ import { Mail, Phone, MapPin, Clock, Shield } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us | BugSweepingTSCM.com — Book a Bug Sweep",
   description:
-    "Contact India's premier TSCM specialists for a confidential consultation. Available 24/7 for emergency sweeps across India. Call +91 888 273 2221 or email info@bugsweepingtscm.com.",
+    "Contact India's premier TSCM specialists for a confidential consultation. Available 24/7 for emergency sweeps across India. Call +91 888 273 2221 or email bugsweepingtscm@gmail.com.",
   alternates: { canonical: "https://bugsweepingtscm.com/contact" },
 };
 
@@ -16,8 +16,8 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email Us",
-    lines: ["info@bugsweepingtscm.com"],
-    href: "mailto:info@bugsweepingtscm.com",
+    lines: ["bugsweepingtscm@gmail.com"],
+    href: "mailto:bugsweepingtscm@gmail.com",
   },
   {
     icon: Phone,

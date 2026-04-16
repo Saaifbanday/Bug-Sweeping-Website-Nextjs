@@ -36,7 +36,7 @@ const sections = [
   },
   {
     title: "Your Rights",
-    body: `You have the right to request access to, correction of, or deletion of your personal data held by us. To exercise these rights, contact us at info@bugsweepingtscm.com. We will respond to all requests within 30 days.`,
+    body: `You have the right to request access to, correction of, or deletion of your personal data held by us. To exercise these rights, contact us at bugsweepingtscm@gmail.com. We will respond to all requests within 30 days.`,
   },
   {
     title: "Changes to This Policy",

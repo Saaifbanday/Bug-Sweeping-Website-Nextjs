@@ -198,7 +198,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-4">
               <a
-                href="mailto:info@bugsweepingtscm.com"
+                href="mailto:bugsweepingtscm@gmail.com"
                 className="flex items-start gap-3"
               >
                 <Mail
@@ -213,7 +213,7 @@ export default function Footer() {
                   className="text-sm"
                   style={{ color: "var(--color-muted)" }}
                 >
-                  info@bugsweepingtscm.com
+                  bugsweepingtscm@gmail.com
                 </span>
               </a>
               <a href="tel:+918882732221" className="flex items-start gap-3">

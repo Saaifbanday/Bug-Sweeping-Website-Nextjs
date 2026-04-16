@@ -98,9 +98,9 @@ served from Vercel's edge network.
 
 ## Environment Variables — Contact Form Setup
 
-The contact form sends to `info@bugsweepingtscm.com` via **Web3Forms** (free, no backend needed).
+The contact form sends to `bugsweepingtscm@gmail.com` via **Web3Forms** (free, no backend needed).
 
-**Step 1:** Sign up free at https://web3forms.com and add `info@bugsweepingtscm.com`
+**Step 1:** Sign up free at https://web3forms.com and add `bugsweepingtscm@gmail.com`
 
 **Step 2:** Get your Access Key from Web3Forms dashboard
 

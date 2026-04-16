@@ -58,12 +58,12 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-end gap-6">
           <a
-            href="mailto:info@bugsweepingtscm.com"
+            href="mailto:bugsweepingtscm@gmail.com"
             className="flex items-center gap-2 text-sm"
             style={{ color: "var(--color-muted)" }}
           >
             <Mail size={13} style={{ color: "var(--color-accent)" }} />
-            info@bugsweepingtscm.com
+            bugsweepingtscm@gmail.com
           </a>
           <a
             href="tel:+918882732221"
@@ -285,12 +285,12 @@ export default function Header() {
                 style={{ borderTop: "1px solid var(--color-border)" }}
               >
                 <a
-                  href="mailto:info@bugsweepingtscm.com"
+                  href="mailto:bugsweepingtscm@gmail.com"
                   className="flex items-center gap-2 text-xs"
                   style={{ color: "var(--color-muted)" }}
                 >
                   <Mail size={12} style={{ color: "var(--color-accent)" }} />
-                  info@bugsweepingtscm.com
+                  bugsweepingtscm@gmail.com
                 </a>
                 <a
                   href="tel:+918882732221"

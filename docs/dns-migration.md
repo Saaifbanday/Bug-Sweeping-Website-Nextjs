@@ -115,7 +115,7 @@ To avoid downtime:
 
 ## Email Records — IMPORTANT
 
-If the client uses `@bugsweepingtscm.com` email (e.g., `info@bugsweepingtscm.com`),
+If the client uses `@bugsweepingtscm.com` email (e.g., `bugsweepingtscm@gmail.com`),
 the MX records must be preserved when switching DNS.
 
 **Before changing nameservers:**

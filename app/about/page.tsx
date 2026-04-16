@@ -39,7 +39,6 @@ const approachItems = [
       "Provide pan-India coverage with zero compromise on quality",
     ],
   },
-
 ];
 
 const zigZagItems = [
@@ -67,7 +66,7 @@ const zigZagItems = [
       "FLIR thermal camera: finds heat signatures inside walls and furniture",
       "BlueSleuth & ORIUS: detect Bluetooth and Wi-Fi spy devices",
     ],
-    imageSrc: "/images/about_us/why_choose_us/image_2.png",
+    imageSrc: "/images/about_us/rel_image_3.jpeg",
     imageAlt: "Military-grade TSCM equipment",
     cta: { label: "View All Equipment", href: "/#equipment" },
   },
@@ -320,13 +319,15 @@ export default function AboutPage() {
             className="py-10 sm:py-20"
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className={`grid lg:grid-cols-2 gap-8 lg:gap-16 items-center`}>
+              <div
+                className={`grid lg:grid-cols-2 gap-8 lg:gap-16 items-center`}
+              >
                 {/* Image side */}
                 <div className={idx % 2 === 0 ? "lg:order-1" : "lg:order-2"}>
                   {idx === 0 ? (
                     <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
                       <Image
-                        src="/images/about_us/image_3.png"
+                        src="/images/about_us/rel_image_1.jpeg"
                         alt={item.heading}
                         fill
                         className="object-cover"
@@ -335,7 +336,7 @@ export default function AboutPage() {
                   ) : (
                     <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
                       <Image
-                        src="/images/about_us/image_4.png"
+                        src="/images/about_us/rel_image_2.jpeg"
                         alt={item.heading}
                         fill
                         className="object-cover"

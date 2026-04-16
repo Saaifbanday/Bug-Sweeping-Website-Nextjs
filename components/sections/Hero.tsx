@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Shield, Eye, Wifi } from "lucide-react";
+import HeroLogo from "@/components/ui/HeroLogo";
 
 export default function Hero() {
   return (
@@ -153,13 +154,7 @@ export default function Hero() {
               className="relative rounded-2xl overflow-hidden w-full aspect-4/3 sm:aspect-3/4 lg:aspect-4/5"
               style={{ maxWidth: "520px" }}
             >
-              <Image
-                src="/images/hero section/Untitled-design-5.png"
-                alt="TSCM Expert conducting bug sweep"
-                fill
-                className="object-cover"
-                priority
-              />
+              <HeroLogo />
 
               {/* Floating card — stat */}
               <div
