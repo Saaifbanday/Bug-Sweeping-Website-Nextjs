@@ -8,7 +8,7 @@ import { Mail, Phone, MapPin, Clock, Shield } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us for Bug Sweeps | 24/7 Confidential TSCM Services India",
   description:
-    "Need a professional bug sweep? Contact our certified TSCM experts today. Available 24/7 across India for discreet home, office, and vehicle sweeps. 100% Confidential.",
+    "Need a bug sweep? Contact our certified TSCM experts today. Available 24/7 across India for discreet home, office & vehicle sweeps.",
   alternates: { canonical: "https://bugsweepingtscm.com/contact" },
 };
 

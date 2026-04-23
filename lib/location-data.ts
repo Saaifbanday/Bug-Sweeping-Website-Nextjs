@@ -32,7 +32,7 @@ export const cities: CityData[] = [
       "Thane & Kalyan",
     ],
     metaDescription:
-      "Professional bug sweeping & TSCM services in Mumbai. We detect hidden cameras, audio bugs, and GPS trackers in offices, homes, and vehicles. 100% Confidential.",
+      "Professional bug sweeping & TSCM in Mumbai. We detect hidden cameras, audio bugs & GPS trackers in offices, homes & vehicles. Confidential.",
   },
   {
     slug: "delhi",
@@ -55,7 +55,7 @@ export const cities: CityData[] = [
       "Ghaziabad & Indirapuram",
     ],
     metaDescription:
-      "Expert bug sweeping & TSCM services in Delhi NCR. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles. 100% Confidential.",
+      "Expert bug sweeping & TSCM in Delhi NCR. We detect hidden cameras, audio bugs, wiretaps & GPS trackers in homes, offices & vehicles.",
   },
   {
     slug: "bengaluru",
@@ -78,7 +78,7 @@ export const cities: CityData[] = [
       "Hebbal & Manyata Tech Park",
     ],
     metaDescription:
-      "Professional bug sweeping & TSCM services in Bengaluru. We detect hidden cameras, audio bugs, and GPS trackers for tech companies, homes, and offices. 100% Confidential.",
+      "Professional bug sweeping & TSCM in Bengaluru. We detect hidden cameras, audio bugs & GPS trackers for tech companies, homes & offices.",
   },
   {
     slug: "chandigarh",
@@ -100,6 +100,6 @@ export const cities: CityData[] = [
       "SAS Nagar (Mohali) industrial areas",
     ],
     metaDescription:
-      "Expert bug sweeping & TSCM services in Chandigarh, Mohali & Panchkula. We detect hidden cameras, audio bugs, and GPS trackers for homes and offices. 100% Confidential.",
+      "Expert bug sweeping & TSCM in Chandigarh, Mohali & Panchkula. We detect hidden cameras, audio bugs & GPS trackers for homes & offices.",
   },
 ];

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://bugsweepingtscm.com"),
   title: "Bug Sweeping TSCM India | Professional Hidden Camera & Bug Sweep Services",
   description:
-    "Expert bug sweeping and TSCM services across India. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles. 100% confidential and discreet.",
+    "Expert bug sweeping & TSCM across India. We detect hidden cameras, audio bugs & GPS trackers in homes, offices & vehicles. Confidential.",
   keywords: [
     "bug sweeping",
     "TSCM",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bug Sweeping TSCM India | Professional Hidden Camera & Bug Sweep Services",
     description:
-      "Expert bug sweeping and TSCM services across India. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles. 100% confidential and discreet.",
+      "Expert bug sweeping & TSCM across India. We detect hidden cameras, audio bugs & GPS trackers in homes, offices & vehicles. Confidential.",
     type: "website",
     locale: "en_IN",
     siteName: "BugSweepingTSCM.com",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bug Sweeping TSCM India | Professional Bug Sweep Services",
     description:
-      "Expert bug sweeping and TSCM services across India. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles.",
+      "Expert bug sweeping & TSCM across India. We detect hidden cameras, audio bugs & GPS trackers in homes, offices & vehicles.",
   },
   robots: { index: true, follow: true },
 };

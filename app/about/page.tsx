@@ -12,7 +12,7 @@ import { CheckCircle2, Award, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us | India's Leading Bug Sweeping & TSCM Specialists",
   description:
-    "Learn about India's most trusted counter-surveillance experts. Our former intelligence officers and W.A.D certified specialists provide elite bug sweeping to protect your privacy.",
+    "India's leading counter-surveillance experts. Our certified specialists provide elite bug sweeping to protect your privacy. 100% discreet.",
   alternates: { canonical: "https://bugsweepingtscm.com/about" },
 };
 

@@ -10,7 +10,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Bug Sweeping Services | Corporate, Home & Vehicle TSCM Sweeps",
   description:
-    "Comprehensive bug sweep services for businesses, residences, and vehicles. We deploy military-grade equipment to detect and neutralize hidden cameras, RF bugs, and GPS trackers.",
+    "Comprehensive bug sweeps for business, home & vehicles. We deploy military-grade equipment to detect hidden cameras, bugs & GPS trackers.",
   alternates: { canonical: "https://bugsweepingtscm.com/services" },
 };
 
