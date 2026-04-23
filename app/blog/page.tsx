@@ -6,9 +6,9 @@ import BlogGrid from "@/components/blog/BlogGrid";
 import { blogPosts } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
-  title: "Blog | BugSweepingTSCM.com — TSCM & Bug Sweep Insights",
+  title: "Bug Sweeping & Privacy Protection Blog | TSCM Insights",
   description:
-    "Expert articles on bug sweeping, TSCM, hidden camera detection, corporate espionage, and privacy protection from India's leading TSCM specialists.",
+    "Read expert insights on privacy protection, counter-surveillance techniques, and how to detect hidden cameras or bugs in your home and office.",
   alternates: { canonical: "https://bugsweepingtscm.com/blog" },
 };
 

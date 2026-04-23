@@ -32,7 +32,7 @@ export const cities: CityData[] = [
       "Thane & Kalyan",
     ],
     metaDescription:
-      "Professional bug sweeping & TSCM services in Mumbai. Hidden camera, listening device & GPS tracker detection for offices, homes & vehicles. Certified specialists. Call +91 888 273 2221.",
+      "Professional bug sweeping & TSCM services in Mumbai. We detect hidden cameras, audio bugs, and GPS trackers in offices, homes, and vehicles. 100% Confidential.",
   },
   {
     slug: "delhi",
@@ -55,7 +55,7 @@ export const cities: CityData[] = [
       "Ghaziabad & Indirapuram",
     ],
     metaDescription:
-      "Bug sweeping & TSCM services in Delhi NCR. Certified specialists detect hidden cameras, listening devices & GPS trackers in offices, homes & vehicles. Call +91 888 273 2221.",
+      "Expert bug sweeping & TSCM services in Delhi NCR. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles. 100% Confidential.",
   },
   {
     slug: "bengaluru",
@@ -78,7 +78,7 @@ export const cities: CityData[] = [
       "Hebbal & Manyata Tech Park",
     ],
     metaDescription:
-      "Bug sweeping & TSCM services in Bengaluru. Certified specialists for tech companies, offices & homes. Hidden device detection & GPS tracker sweeps. Call +91 888 273 2221.",
+      "Professional bug sweeping & TSCM services in Bengaluru. We detect hidden cameras, audio bugs, and GPS trackers for tech companies, homes, and offices. 100% Confidential.",
   },
   {
     slug: "chandigarh",
@@ -100,6 +100,6 @@ export const cities: CityData[] = [
       "SAS Nagar (Mohali) industrial areas",
     ],
     metaDescription:
-      "Bug sweeping & TSCM services in Chandigarh, Mohali & Panchkula. Certified specialists for offices, homes & vehicles. Call +91 888 273 2221.",
+      "Expert bug sweeping & TSCM services in Chandigarh, Mohali & Panchkula. We detect hidden cameras, audio bugs, and GPS trackers for homes and offices. 100% Confidential.",
   },
 ];

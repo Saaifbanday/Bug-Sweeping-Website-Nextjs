@@ -4,8 +4,8 @@ import Footer from "@/components/layout/Footer";
 import PageHero from "@/components/ui/PageHero";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | BugSweepingTSCM.com",
-  description: "Privacy Policy for BugSweepingTSCM.com: how we collect, use, and protect your information.",
+  title: "Privacy Policy | Bug Sweeping TSCM India",
+  description: "Review our privacy policy. BugSweepingTSCM.com is committed to 100% confidentiality and data protection for all our bug sweep clients across India.",
   alternates: { canonical: "https://bugsweepingtscm.com/privacy-policy" },
 };
 

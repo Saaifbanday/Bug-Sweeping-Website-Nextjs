@@ -10,9 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bugsweepingtscm.com"),
-  title: "Bug Sweeping TSCM | Expert Bug Sweeping & TSCM Services – Nationwide",
+  title: "Bug Sweeping TSCM India | Professional Hidden Camera & Bug Sweep Services",
   description:
-    "India's premier Technical Surveillance Counter-Measures (TSCM) experts. Professional bug sweeping for businesses, residences, and vehicles. Hidden cameras, spy apps, GPS trackers — detected and neutralized. Trusted by HNIs, CEOs, and celebrities.",
+    "Expert bug sweeping and TSCM services across India. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles. 100% confidential and discreet.",
   keywords: [
     "bug sweeping",
     "TSCM",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     canonical: "https://bugsweepingtscm.com",
   },
   openGraph: {
-    title: "Bug Sweeping TSCM | Expert Bug Sweeping & TSCM Services",
+    title: "Bug Sweeping TSCM India | Professional Hidden Camera & Bug Sweep Services",
     description:
-      "India's premier TSCM experts. Professional bug sweeping for businesses, residences, and vehicles.",
+      "Expert bug sweeping and TSCM services across India. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles. 100% confidential and discreet.",
     type: "website",
     locale: "en_IN",
     siteName: "BugSweepingTSCM.com",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bug Sweeping TSCM | Expert TSCM Services India",
+    title: "Bug Sweeping TSCM India | Professional Bug Sweep Services",
     description:
-      "India's premier TSCM experts. Professional bug sweeping for businesses, residences, and vehicles.",
+      "Expert bug sweeping and TSCM services across India. We detect hidden cameras, audio bugs, wiretaps, and GPS trackers in homes, offices, and vehicles.",
   },
   robots: { index: true, follow: true },
 };

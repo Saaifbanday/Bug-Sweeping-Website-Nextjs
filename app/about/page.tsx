@@ -10,9 +10,9 @@ import Image from "next/image";
 import { CheckCircle2, Award, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | BugSweepingTSCM.com — India's Premier TSCM Experts",
+  title: "About Us | India's Leading Bug Sweeping & TSCM Specialists",
   description:
-    "With 20+ years of experience, our team of former intelligence officers and certified TSCM specialists protect your privacy from hidden cameras, spy apps, and GPS trackers across India.",
+    "Learn about India's most trusted counter-surveillance experts. Our former intelligence officers and W.A.D certified specialists provide elite bug sweeping to protect your privacy.",
   alternates: { canonical: "https://bugsweepingtscm.com/about" },
 };
 

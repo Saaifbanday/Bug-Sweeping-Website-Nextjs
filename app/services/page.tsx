@@ -8,9 +8,9 @@ import ContactCTA from "@/components/sections/ContactCTA";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Services | BugSweepingTSCM.com — Bug Sweep & TSCM Services India",
+  title: "Bug Sweeping Services | Corporate, Home & Vehicle TSCM Sweeps",
   description:
-    "Business bug sweeps, residential privacy protection, audio/video bug sweeps, telephone taps, vehicle GPS tracker detection. Comprehensive TSCM services across India.",
+    "Comprehensive bug sweep services for businesses, residences, and vehicles. We deploy military-grade equipment to detect and neutralize hidden cameras, RF bugs, and GPS trackers.",
   alternates: { canonical: "https://bugsweepingtscm.com/services" },
 };
 

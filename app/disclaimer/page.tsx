@@ -4,8 +4,8 @@ import Footer from "@/components/layout/Footer";
 import PageHero from "@/components/ui/PageHero";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | BugSweepingTSCM.com",
-  description: "Disclaimer for BugSweepingTSCM.com — limitations on information and liability.",
+  title: "Disclaimer | Bug Sweeping TSCM India",
+  description: "Read the legal disclaimer for BugSweepingTSCM.com regarding our bug sweeping services, information limitations, and counter-surveillance advice.",
   alternates: { canonical: "https://bugsweepingtscm.com/disclaimer" },
 };
 

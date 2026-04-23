@@ -39,7 +39,7 @@ const items = [
       "FLIR Thermal Camera — heat-signature detection",
       "WolfHound Pro — GPS tracker & GSM bug locator",
     ],
-    imageSrc: "/images/homepage/third_image.png",
+    imageSrc: "/images/homepage/third_image.jpg",
     imagePlaceholderLabel: "our-equipment",
   },
   {

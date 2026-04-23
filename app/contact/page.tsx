@@ -6,9 +6,9 @@ import ContactForm from "@/components/sections/ContactForm";
 import { Mail, Phone, MapPin, Clock, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us | BugSweepingTSCM.com — Book a Bug Sweep",
+  title: "Contact Us for Bug Sweeps | 24/7 Confidential TSCM Services India",
   description:
-    "Contact India's premier TSCM specialists for a confidential consultation. Available 24/7 for emergency sweeps across India. Call +91 888 273 2221 or email bugsweepingtscm@gmail.com.",
+    "Need a professional bug sweep? Contact our certified TSCM experts today. Available 24/7 across India for discreet home, office, and vehicle sweeps. 100% Confidential.",
   alternates: { canonical: "https://bugsweepingtscm.com/contact" },
 };
 
