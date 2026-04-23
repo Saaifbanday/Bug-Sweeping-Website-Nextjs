@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-data";
 import { cities } from "@/lib/location-data";
 
-const BASE = "https://bugsweepingtscm.com";
+const BASE = "https://www.bugsweepingtscm.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

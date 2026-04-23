@@ -23,7 +23,7 @@ export async function generateMetadata({
   return {
     title: `${data.heroTitle} | BugSweepingTSCM.com`,
     description: data.metaDescription,
-    alternates: { canonical: `https://bugsweepingtscm.com/locations/${city}` },
+    alternates: { canonical: `https://www.bugsweepingtscm.com/locations/${city}` },
   };
 }
 

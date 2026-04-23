@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: [],
     },
-    sitemap: "https://bugsweepingtscm.com/sitemap.xml",
+    sitemap: "https://www.bugsweepingtscm.com/sitemap.xml",
   };
 }

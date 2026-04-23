@@ -148,15 +148,16 @@ export default function Header() {
                 </button>
 
                 {locOpen && (
-                  <div
-                    className="absolute top-full left-0 mt-1 rounded-xl overflow-hidden"
-                    style={{
-                      backgroundColor: "var(--bg-card)",
-                      border: "1px solid var(--color-border)",
-                      minWidth: "280px",
-                      boxShadow: "0 16px 40px rgba(0,0,0,0.4)",
-                    }}
-                  >
+                  <div className="absolute top-full left-0 pt-1">
+                    <div
+                      className="rounded-xl overflow-hidden"
+                      style={{
+                        backgroundColor: "var(--bg-card)",
+                        border: "1px solid var(--color-border)",
+                        minWidth: "280px",
+                        boxShadow: "0 16px 40px rgba(0,0,0,0.4)",
+                      }}
+                    >
                     {locations.map((loc) => (
                       <Link
                         key={loc.href}
@@ -185,6 +186,7 @@ export default function Header() {
                         {loc.label}
                       </Link>
                     ))}
+                    </div>
                   </div>
                 )}
               </div>

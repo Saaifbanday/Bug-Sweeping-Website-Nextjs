@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Bug Sweeping & Privacy Protection Blog | TSCM Insights",
   description:
     "Expert insights on privacy protection, counter-surveillance techniques, and how to detect hidden cameras or bugs in your home and office.",
-  alternates: { canonical: "https://bugsweepingtscm.com/blog" },
+  alternates: { canonical: "https://www.bugsweepingtscm.com/blog" },
 };
 
 export default function BlogPage() {

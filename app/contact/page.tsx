@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Contact Us for Bug Sweeps | 24/7 Confidential TSCM Services India",
   description:
     "Need a bug sweep? Contact our certified TSCM experts today. Available 24/7 across India for discreet home, office & vehicle sweeps.",
-  alternates: { canonical: "https://bugsweepingtscm.com/contact" },
+  alternates: { canonical: "https://www.bugsweepingtscm.com/contact" },
 };
 
 const contactDetails = [

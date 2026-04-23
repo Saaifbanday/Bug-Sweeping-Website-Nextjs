@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Bug Sweeping Services | Corporate, Home & Vehicle TSCM Sweeps",
   description:
     "Comprehensive bug sweeps for business, home & vehicles. We deploy military-grade equipment to detect hidden cameras, bugs & GPS trackers.",
-  alternates: { canonical: "https://bugsweepingtscm.com/services" },
+  alternates: { canonical: "https://www.bugsweepingtscm.com/services" },
 };
 
 // 4 primary services with full zigzag image layout

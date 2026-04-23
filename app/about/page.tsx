@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "About Us | India's Leading Bug Sweeping & TSCM Specialists",
   description:
     "India's leading counter-surveillance experts. Our certified specialists provide elite bug sweeping to protect your privacy. 100% discreet.",
-  alternates: { canonical: "https://bugsweepingtscm.com/about" },
+  alternates: { canonical: "https://www.bugsweepingtscm.com/about" },
 };
 
 const approachItems = [
