@@ -75,11 +75,11 @@ export default function TrustBadges() {
         {/* View certificate CTA */}
         <div className="flex justify-center mt-8">
           <Link
-            href="/about"
+            href="/meet-the-founder"
             className="inline-flex items-center gap-2 text-sm font-semibold transition-colors"
             style={{ color: "var(--color-accent)" }}
           >
-            View Our Certifications on About Us
+            View Our Certifications &amp; Portfolio
             <ArrowRight size={14} />
           </Link>
         </div>

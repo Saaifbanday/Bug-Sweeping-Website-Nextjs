@@ -277,6 +277,13 @@ export default function AboutPage() {
                     </div>
                   ))}
                 </div>
+                <a
+                  href="/meet-the-founder"
+                  className="inline-flex items-center gap-2 mt-6 text-sm font-semibold transition-colors"
+                  style={{ color: "var(--color-accent)" }}
+                >
+                  View Full Portfolio, Awards &amp; Certifications →
+                </a>
               </div>
               {/* W.A.D. Certificate image */}
               <div className="relative rounded-2xl overflow-hidden aspect-4/3 w-full">
