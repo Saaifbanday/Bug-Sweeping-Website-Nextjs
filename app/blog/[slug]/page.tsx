@@ -20,11 +20,43 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
+  const url = `https://www.bugsweepingtscm.com/blog/${slug}`;
+  const title = post.seoTitle ?? `${post.title} | BugSweepingTSCM.com`;
+  const description = post.metaDescription ?? post.excerpt;
   return {
-    title: `${post.title} | BugSweepingTSCM.com`,
-    description: post.excerpt,
-    alternates: { canonical: `https://bugsweepingtscm.com/blog/${slug}` },
+    title: post.seoTitle ? { absolute: post.seoTitle } : title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      title,
+      description,
+      locale: "en_IN",
+      siteName: "BugSweepingTSCM.com",
+      publishedTime: post.date,
+      ...(post.dateModified ? { modifiedTime: post.dateModified } : {}),
+      images: post.ogImage
+        ? [{ url: post.ogImage, width: 1200, height: 630, alt: post.coverImageAlt ?? post.title }]
+        : [{ url: post.coverImage, alt: post.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [post.ogImage ?? post.coverImage],
+    },
   };
+}
+
+// JSON.stringify does not escape "<", so a string containing "</script>" could break out of the tag.
+function serializeJsonLd(data: Record<string, unknown>) {
+  return JSON.stringify(data)
+    .replace(/</g, "\\u003c")
+    .replace(/>/g, "\\u003e")
+    .replace(/&/g, "\\u0026")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
 }
 
 export default async function BlogPostPage({
@@ -38,8 +70,20 @@ export default async function BlogPostPage({
 
   const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
+  const cta = post.cta ?? {
+    heading: "Concerned About Your Privacy?",
+    text: "Our certified TSCM specialists are available 24/7 for emergency sweeps across India. Every enquiry is treated with complete confidentiality.",
+    label: "Book a Sweep on WhatsApp",
+  };
+
   return (
     <>
+      {post.jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(post.jsonLd) }}
+        />
+      )}
       <Header />
       <main className="flex-1">
         {/* Article header */}
@@ -99,6 +143,31 @@ export default async function BlogPostPage({
               {post.title}
             </h1>
 
+            {post.publishedBy && (
+              <p className="text-sm mb-6" style={{ color: "var(--color-muted)" }}>
+                Published by {post.publishedBy} · Published:{" "}
+                <time dateTime={post.date}>
+                  {new Date(post.date).toLocaleDateString("en-IN", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric",
+                  })}
+                </time>
+                {post.dateModified && (
+                  <>
+                    {" "}· Updated:{" "}
+                    <time dateTime={post.dateModified}>
+                      {new Date(post.dateModified).toLocaleDateString("en-IN", {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric",
+                      })}
+                    </time>
+                  </>
+                )}
+              </p>
+            )}
+
             <p
               className="leading-relaxed"
               style={{ color: "var(--color-muted)", fontSize: "1.125rem" }}
@@ -112,7 +181,7 @@ export default async function BlogPostPage({
         <div className="relative w-full" style={{ height: "380px", backgroundColor: "var(--bg-surface)" }}>
           <Image
             src={post.coverImage}
-            alt={post.title}
+            alt={post.coverImageAlt ?? post.title}
             fill
             className="object-cover"
             priority
@@ -140,10 +209,10 @@ export default async function BlogPostPage({
                 className="text-xl font-bold mb-3"
                 style={{ color: "var(--color-text)" }}
               >
-                Concerned About Your Privacy?
+                {cta.heading}
               </h3>
               <p className="mb-5" style={{ color: "var(--color-muted)", fontSize: "1rem" }}>
-                Our certified TSCM specialists are available 24/7 for emergency sweeps across India. Every enquiry is treated with complete confidentiality.
+                {cta.text}
               </p>
               <a
                 href="https://wa.me/918882732221"
@@ -152,7 +221,7 @@ export default async function BlogPostPage({
                 className="btn-primary"
               >
                 <Phone size={16} />
-                Book a Sweep on WhatsApp
+                {cta.label}
               </a>
             </div>
           </div>

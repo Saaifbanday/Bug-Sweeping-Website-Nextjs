@@ -161,6 +161,24 @@ body {
 .prose-custom ul li { padding-left: 1.25rem; position: relative; }
 .prose-custom ul li::before { content: ""; position: absolute; left: 0; top: 0.65em; width: 6px; height: 6px; border-radius: 50%; background-color: var(--color-accent); }
 .prose-custom strong { color: var(--color-text); font-weight: 700; }
+.prose-custom h3 { font-size: 1.125rem; font-weight: 700; color: var(--color-text); margin-top: 1.75rem; margin-bottom: 0.75rem; }
+.prose-custom a { color: #ff7a84; text-decoration: underline; text-underline-offset: 3px; }
+.prose-custom a:hover { color: #ffa3aa; }
+.prose-custom a:focus-visible { outline: 2px solid #ff7a84; outline-offset: 2px; border-radius: 2px; }
+.prose-custom ol { margin-bottom: 1.25rem; padding-left: 1.5rem; list-style: decimal; display: flex; flex-direction: column; gap: 0.5rem; }
+.prose-custom ol li::marker { color: var(--color-text); font-weight: 700; }
+.prose-custom .answer-box { background: var(--bg-card); border: 1px solid var(--color-border); border-left: 3px solid var(--color-accent); border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 2rem; color: var(--color-text); }
+.prose-custom .answer-box p:last-child { margin-bottom: 0; }
+.prose-custom .table-wrap { overflow-x: auto; margin-bottom: 1.75rem; border: 1px solid var(--color-border); border-radius: 10px; }
+.prose-custom table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 0.9375rem; line-height: 1.6; }
+.prose-custom caption { caption-side: top; text-align: left; padding: 0.75rem 1rem; font-size: 0.875rem; color: var(--color-muted); }
+.prose-custom th, .prose-custom td { padding: 0.75rem 1rem; text-align: left; vertical-align: top; border-top: 1px solid var(--color-border); }
+.prose-custom th { color: var(--color-text); font-weight: 700; background: var(--bg-card); }
+.prose-custom figure { margin: 0 0 1.75rem; }
+.prose-custom figure svg { width: 100%; height: auto; display: block; }
+.prose-custom figcaption { font-size: 0.875rem; color: var(--color-muted); margin-top: 0.75rem; }
+.prose-custom .faq h3 { margin-top: 1.5rem; }
+.prose-custom .note { font-size: 1rem; border-top: 1px solid var(--color-border); padding-top: 1.25rem; margin-top: 2rem; }
 
 /* ── Testimonial slider ── */
 .testimonial-track {
