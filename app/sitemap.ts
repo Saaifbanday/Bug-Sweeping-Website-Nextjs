@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-data";
 import { cities } from "@/lib/location-data";
 
+export const dynamic = "force-static";
+
 const BASE = "https://www.bugsweepingtscm.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
