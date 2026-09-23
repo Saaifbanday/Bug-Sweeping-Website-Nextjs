@@ -14,6 +14,7 @@ export interface BlogPost {
   ogImage?: string; // PNG fallback for social cards that do not read WebP
   dateModified?: string;
   publishedBy?: string;
+  toc?: boolean; // render a table of contents built from the post's H2 and H3 headings
   cta?: { heading: string; text: string; label: string };
   jsonLd?: Record<string, unknown>;
 }
@@ -514,6 +515,7 @@ ${faqHtml(bugSweepingIndiaFaqs)}
     coverImageAlt:
       "Bug Sweeping in Delhi guide cover: concentric sweep rings on a dark navy grid with one marked detection point",
     publishedBy: "BugSweepingTSCM",
+    toc: true,
     cta: {
       heading: "Worried about a room, office or vehicle in Delhi?",
       text: "If something does not add up, a private consultation can help you decide whether a sweep is needed and what it should cover. Please get in touch from a phone you trust, away from the space you are worried about.",

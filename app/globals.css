@@ -21,6 +21,9 @@
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
 
 body {
   background-color: var(--bg-primary);
@@ -178,6 +181,47 @@ body {
 .prose-custom figure svg { width: 100%; height: auto; display: block; }
 .prose-custom figcaption { font-size: 0.875rem; color: var(--color-muted); margin-top: 0.75rem; }
 .prose-custom .faq h3 { margin-top: 1.5rem; }
+/* ── Table of contents (opt-in per post) ── */
+.prose-custom .toc {
+  background: var(--bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.prose-custom .toc-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 0.875rem;
+}
+.prose-custom .toc ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.prose-custom .toc li { padding-left: 0; position: relative; }
+.prose-custom .toc li::before { content: none; }
+.prose-custom .toc li.toc-l3 { padding-left: 1rem; font-size: 0.9375rem; }
+.prose-custom .toc a {
+  color: var(--color-muted);
+  text-decoration: none;
+  line-height: 1.5;
+}
+.prose-custom .toc a:hover { color: var(--color-text); text-decoration: underline; }
+.prose-custom .toc a:focus-visible { outline: 2px solid #ff7a84; outline-offset: 2px; border-radius: 2px; }
+/* Sticky header clearance so an anchored heading is not hidden behind it. */
+.prose-custom h2[id], .prose-custom h3[id] { scroll-margin-top: 96px; }
+@media (min-width: 640px) {
+  .prose-custom .toc { padding: 1.5rem 1.75rem; }
+  .prose-custom .toc ul { gap: 0.625rem; }
+}
+
 .prose-custom .note { font-size: 1rem; border-top: 1px solid var(--color-border); padding-top: 1.25rem; margin-top: 2rem; }
 
 /* ── Testimonial slider ── */

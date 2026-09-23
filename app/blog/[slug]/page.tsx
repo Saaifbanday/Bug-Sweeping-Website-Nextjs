@@ -59,6 +59,49 @@ function serializeJsonLd(data: Record<string, unknown>) {
     .replace(/\u2029/g, "\\u2029");
 }
 
+// Builds a table of contents from the post's own H2 and H3 headings, giving each one a unique
+// id so the links resolve. FAQ questions are skipped: the FAQ already has its own H2 entry.
+function buildToc(html: string) {
+  const items: { id: string; text: string; level: number }[] = [];
+  const used = new Set<string>();
+  const faqStart = html.indexOf('<div class="faq">');
+  const faqEnd = faqStart === -1 ? -1 : html.indexOf("</div>", faqStart);
+
+  const withIds = html.replace(
+    /<(h[23])>([\s\S]*?)<\/\1>/g,
+    (match, tag: string, inner: string, offset: number) => {
+      const text = inner.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+      const base =
+        text
+          .toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, "")
+          .trim()
+          .replace(/\s+/g, "-")
+          .slice(0, 60) || tag;
+      let id = base;
+      let n = 2;
+      while (used.has(id)) id = `${base}-${n++}`;
+      used.add(id);
+
+      const insideFaq = faqStart !== -1 && offset > faqStart && offset < faqEnd;
+      if (!insideFaq) items.push({ id, text, level: tag === "h2" ? 2 : 3 });
+      return `<${tag} id="${id}">${inner}</${tag}>`;
+    }
+  );
+
+  return { withIds, items };
+}
+
+function tocMarkup(items: { id: string; text: string; level: number }[]) {
+  const links = items
+    .map(
+      (item) =>
+        `<li class="toc-l${item.level}"><a href="#${item.id}">${item.text}</a></li>`
+    )
+    .join("");
+  return `<nav class="toc" aria-labelledby="toc-heading"><h2 id="toc-heading" class="toc-title">On this page</h2><ul>${links}</ul></nav>`;
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -69,6 +112,16 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
+
+  let content = post.content;
+  if (post.toc) {
+    const { withIds, items } = buildToc(content);
+    const firstH2 = withIds.search(/<h2[\s>]/);
+    content =
+      items.length > 1 && firstH2 !== -1
+        ? withIds.slice(0, firstH2) + tocMarkup(items) + withIds.slice(firstH2)
+        : withIds;
+  }
 
   const cta = post.cta ?? {
     heading: "Concerned About Your Privacy?",
@@ -194,7 +247,7 @@ export default async function BlogPostPage({
             <div
               className="prose-custom"
               style={{ color: "var(--color-muted)", fontSize: "1.0625rem", lineHeight: "1.85" }}
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: content }}
             />
 
             {/* CTA box */}
