@@ -43,6 +43,29 @@ function faqJsonLd(faqs: Faq[], id: string) {
 }
 
 
+
+const bugSweepingMumbaiFaqs: Faq[] = [
+  {
+    q: "Can I report a hidden camera to Mumbai Police online?",
+    a: "Not as an FIR. Mumbai Police's online complaint page states that it entertains only minor, non-cognizable crimes, and that an FIR for a cognizable crime can only be registered at a police station. Voyeurism is cognizable, so the online form will not complete the report. You can file in parallel on the national portal at cybercrime.gov.in, which routes the complaint to the relevant state police.",
+  },
+  {
+    q: "I live in Thane but the camera was in a Mumbai hotel. Which police force?",
+    a: "The force where the offence happened, so Greater Mumbai Police in that example, because Thane City, Navi Mumbai and Mira-Bhayandar, Vasai-Virar are separate commissionerates. Under Section 173(1) of the Bharatiya Nagarik Suraksha Sanhita any police station must record information about a cognizable offence irrespective of where it was committed, and transfer it, so your local station cannot turn you away.",
+  },
+  {
+    q: "Is 1091 the women's helpline in Mumbai?",
+    a: "Not in Mumbai. Maharashtra Police lists 103 as the women's assistance number for Mumbai, Thane and Navi Mumbai, and 1091 for the rest of the state. Use 112 for any emergency and 1930 for cyber crime.",
+  },
+  {
+    q: "Can my housing society point a camera at my flat door?",
+    a: "Cameras in lobbies, lifts and parking are ordinary society security, installed and maintained by the society under the Maharashtra model bye-laws. A camera trained on a particular flat is different: in a case concerning a Colaba building, the Bombay High Court restrained residents from keeping cameras on a neighbour's flat without consent and confined them to their own floor. Raise the placement with the managing committee and the general body first.",
+  },
+  {
+    q: "How quickly should I ask for CCTV footage in Mumbai?",
+    a: "Immediately, and in writing. Retention periods on building and hotel systems are short, often a couple of weeks, and orders requiring premises to keep footage are issued for fixed periods. Ask the society or hotel to preserve the relevant footage the day you realise you need it, and tell the police which system holds it.",
+  },
+];
 const bugSweepingDelhiFaqs: Faq[] = [
   {
     q: "Does a complaint on cybercrime.gov.in count as an FIR?",
@@ -487,7 +510,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>No jammers.</strong> Any provider that offers to sell or install a signal jammer is proposing equipment that Indian law does not allow private buyers to possess or use without Central Government permission. Walk away.</li>
         <li><strong>Verifiable identity.</strong> A registered company, a named person responsible for the work, and credentials you can check yourself.</li>
       </ul>
-      <p>If you are comparing providers in a particular city, BugSweepingTSCM has location pages for <a href="/locations/mumbai">Mumbai</a>, <a href="/locations/delhi">Delhi NCR</a>, <a href="/locations/bengaluru">Bengaluru</a> and <a href="/locations/chandigarh">Chandigarh</a>. For the capital, our city guide to <a href="/blog/bug-sweeping-in-delhi">bug sweeping in Delhi</a> covers reported local cases, the paying-guest and guest house rules, and where a complaint goes. For businesses, our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office or boardroom may be bugged</a> covers the warning signs that usually prompt a corporate sweep.</p>
+      <p>If you are comparing providers in a particular city, BugSweepingTSCM has location pages for <a href="/locations/mumbai">Mumbai</a>, <a href="/locations/delhi">Delhi NCR</a>, <a href="/locations/bengaluru">Bengaluru</a> and <a href="/locations/chandigarh">Chandigarh</a>. For the capital, our city guide to <a href="/blog/bug-sweeping-in-delhi">bug sweeping in Delhi</a> covers reported local cases, the paying-guest and guest house rules, and where a complaint goes, and our guide to <a href="/blog/bug-sweeping-in-mumbai">bug sweeping in Mumbai</a> covers the region's separate police commissionerates and housing society camera rules. For businesses, our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office or boardroom may be bugged</a> covers the warning signs that usually prompt a corporate sweep.</p>
 
       <h2>Frequently asked questions</h2>
       <div class="faq">
@@ -656,6 +679,7 @@ ${faqHtml(bugSweepingIndiaFaqs)}
 
       <h3>When your home and office are in different states</h3>
       <p>Delhi NCR is four police forces, not one. Delhi Police covers Delhi; Gurugram (Gurgaon) and Faridabad come under Haryana Police; Noida, formally Gautam Buddh Nagar, and Ghaziabad come under Uttar Pradesh Police. Which force investigates follows where the device was planted, so a camera found in a Gurugram office is a Haryana Police matter even if you live in Delhi. The Zero FIR provision means your local Delhi station cannot turn you away for being the wrong jurisdiction, but it moves the paperwork, not the investigation. If devices turn up in both a Delhi home and an NCR office, treat them as two matters.</p>
+      <p>If your matter sits in another city, our <a href="/blog/bug-sweeping-in-mumbai">Mumbai guide</a> covers that region's separate police commissionerates and the rules on housing society cameras.</p>
       <p>One gap worth naming: as of September 2026, we could find no Delhi Police public advisory on hidden or spy cameras in hotels, paying-guest accommodation or trial rooms. We checked the force's circulars index, its cyber crime unit site and its press releases. The nearest official material is the criminal law itself and the reporting tracks on the national cybercrime portal.</p>
 
       <h2>What a Delhi sweep can and cannot establish</h2>
@@ -671,6 +695,192 @@ ${faqHtml(bugSweepingDelhiFaqs)}
 
       <div class="note">
         <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Legal points, police procedures and helplines were checked against official sources on 23 September 2026 and are general information, not legal advice. Rules and draft legislation change; confirm current details with the linked sources and take legal advice about your own situation.</p>
+      </div>
+    `,
+  },
+  {
+    slug: "bug-sweeping-in-mumbai",
+    title: "Bug Sweeping in Mumbai: Which Police Force, Which Rules, What a Sweep Proves",
+    seoTitle: "Bug Sweeping in Mumbai: Jurisdiction, Societies and Law",
+    metaDescription:
+      "Bug sweeping in Mumbai: which commissionerate covers your address, what you cannot file online, society CCTV rules, hotel cases and what a sweep proves.",
+    excerpt:
+      "The Mumbai region is policed by several separate commissionerates, and Mumbai Police takes only minor complaints online. This guide covers which force has your address, what your housing society is allowed to record, where devices have turned up in the city, and what a sweep can honestly prove.",
+    date: "2026-09-23",
+    readTime: "10 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/bug-sweeping-in-mumbai.webp",
+    ogImage: "/images/blogs/bug-sweeping-in-mumbai.png",
+    coverImageAlt:
+      "Bug Sweeping in Mumbai guide cover: a stylised skyline on a dark navy grid with one tower marked by a red detection point",
+    publishedBy: "BugSweepingTSCM",
+    toc: true,
+    cta: {
+      heading: "Worried about a flat, office or hotel room in Mumbai?",
+      text: "If something does not add up, a private consultation can help you decide whether a sweep is needed and what it should cover. Please get in touch from a phone you trust, away from the space you are worried about.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai",
+          name: "Bug Sweeping in Mumbai: Jurisdiction, Societies and Law",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#primaryimage" },
+          about: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#place",
+          name: "Mumbai",
+          address: { "@type": "PostalAddress", addressLocality: "Mumbai", addressRegion: "Maharashtra", addressCountry: "IN" },
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/bug-sweeping-in-mumbai.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#article",
+          headline: "Bug Sweeping in Mumbai: Which Police Force, Which Rules, What a Sweep Proves",
+          description:
+            "Bug sweeping in Mumbai: which commissionerate covers your address, what you cannot file online, society CCTV rules, hotel cases and what a sweep proves.",
+          datePublished: "2026-09-23",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          spatialCoverage: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#place" },
+          about: [
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+            { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#place" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Bug Sweeping in Mumbai" },
+          ],
+        },
+        faqJsonLd(bugSweepingMumbaiFaqs, "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-mumbai#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Bug sweeping in Mumbai is a professional search of a flat, office, vehicle or hotel room for hidden cameras, audio bugs and trackers. The complication here is jurisdiction: the metropolitan region is policed by several separate commissionerates, and Mumbai Police's own portal takes only minor complaints online, so a hidden-camera case means attending a police station.</p>
+      </div>
+
+      <p>Most guides to bug sweeping in Mumbai are service menus with a list of suburbs attached. The harder questions come after a device is found: which police force actually has your address, what you can and cannot file online, what your housing society is allowed to record, and what a sweep can honestly prove. This guide answers those, with the sources.</p>
+
+      <h2>Mumbai is not one police jurisdiction</h2>
+      <p>The single most useful thing to know before you report anything: the Mumbai Metropolitan Region is not one police force. Greater Mumbai Police covers the city and its suburbs, but the moment you cross into Thane, Navi Mumbai or the Mira-Bhayandar and Vasai-Virar belt, you are dealing with a different commissionerate, with its own commissioner, its own cyber police station and its own control room. All of them sit under Maharashtra Police and the state Home Department, which is itself a contrast with Delhi, where the force reports to the Union Ministry of Home Affairs.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Which police force covers which part of the Mumbai region</caption>
+          <thead>
+            <tr><th scope="col">Where the device was found</th><th scope="col">Force</th><th scope="col">Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Island city and suburbs, from Colaba to Dahisar and Mulund</td><td><a href="https://mumbaipolice.gov.in/" rel="noopener noreferrer" target="_blank">Greater Mumbai Police</a></td><td>Organised into five regions, each with its own regional cyber police station</td></tr>
+            <tr><td>Thane city, and also Kalyan and Dombivli</td><td><a href="https://thanepolice.gov.in/" rel="noopener noreferrer" target="_blank">Thane City Police</a></td><td>Kalyan and Dombivli are a zone inside Thane City Police, not a separate commissionerate</td></tr>
+            <tr><td>Vashi, Nerul, Belapur, Kharghar and Panvel</td><td><a href="https://navimumbaipolice.gov.in/en/units/cyber-crime-police-station" rel="noopener noreferrer" target="_blank">Navi Mumbai Police</a></td><td>Has its own cyber crime police station at Nerul</td></tr>
+            <tr><td>Mira Road, Bhayandar, Vasai and Virar</td><td><a href="https://mbvv.mahapolice.gov.in/" rel="noopener noreferrer" target="_blank">Mira-Bhayandar, Vasai-Virar Police</a></td><td>A separate commissionerate covering the northern belt</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Which force investigates follows where the device was planted, not where you live. A camera found in a Kharghar flat is a Navi Mumbai Police matter even if you work in Lower Parel. If devices turn up in a flat in one commissionerate and an office in another, treat them as two matters.</p>
+      <p>That does not mean a police station can send you away. Under Section 173(1) of the Bharatiya Nagarik Suraksha Sanhita, information about a cognizable offence may be recorded "irrespective of the area where the offence is committed", which is the Zero FIR route; the case is then transferred to the station with jurisdiction. We set out that procedure, and the rights that come with it, in the <a href="/blog/bug-sweeping-in-delhi">Delhi guide</a>.</p>
+
+      <h2>What you can and cannot report online in Mumbai</h2>
+      <p>This catches people out. Mumbai Police's <a href="https://mumbaipolice.gov.in/OnlineComplaints?ps_id=0" rel="noopener noreferrer" target="_blank">online complaint page</a> states plainly that "this site shall only entertain complaints about minor crimes ('non-cognizable crimes')", and that an FIR for a major, cognizable crime "can only be registered at a Police Station". Voyeurism is a cognizable offence. So the online form is not the route for a hidden camera: you will need to attend a police station, or one of the regional cyber police stations.</p>
+      <p>Alongside that, the national portal at <a href="https://cybercrime.gov.in/" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a> takes cyber complaints from anywhere in India, including a women and children track that allows anonymous reporting of certain content. Filing there does not itself create an FIR; the complaint is routed to the relevant state police.</p>
+      <p>The numbers worth keeping, each from an official source:</p>
+      <ul>
+        <li><strong>112</strong> for any emergency, listed by Maharashtra Police alongside <strong>1930</strong> for cyber crime.</li>
+        <li><strong>103</strong> is the women's assistance number for Mumbai, Thane and Navi Mumbai specifically. Maharashtra Police lists <a href="https://www.mahapolice.gov.in/" rel="noopener noreferrer" target="_blank">1091 for the rest of the state</a>, so advice written for other cities will give you the wrong number here.</li>
+        <li>Mumbai Police publishes a cyber helpline number on its homepage next to 1930, and its cyber police station for the city sits at the Bandra Kurla Complex.</li>
+      </ul>
+      <p>One gap worth naming: as of September 2026 we could find no Mumbai Police or Maharashtra Cyber public advisory dealing specifically with hidden cameras in hotels, changing rooms or paying-guest accommodation. We checked the force's press releases and the state cyber agency's public pages, the latter of which blocks automated access, so material may exist there that we could not read.</p>
+
+      <h2>Flats and societies: the camera is usually already there</h2>
+      <p>In a Mumbai co-operative housing society, the most sensitive recording equipment in the building is rarely hidden. It belongs to the society. Under the Maharashtra government's <a href="https://sahakarayukta.maharashtra.gov.in/SITE/PDF/Rules_Acts_Bylaws/Model_Bye_Laws_of_Coop_Housing_Society_New_Flatowner_Type_(2-9-14)%20(1).pdf" rel="noopener noreferrer" target="_blank">model bye-laws for co-operative housing societies</a>, security appliances including CCTV and intercom, and the society Wi-Fi, are items the society installs and maintains at its own cost. The cameras in your lobby, lift and parking are collective property, controlled by the managing committee.</p>
+      <p>That is also where Mumbai's most instructive recent case went wrong. In March 2026 the Free Press Journal <a href="https://www.freepressjournal.in/mumbai/married-mumbai-woman-mocked-in-andheri-society-over-lift-kissing-cctv-video-files-police-complaint" rel="noopener noreferrer" target="_blank">reported</a> that a woman in an Andheri society found footage of herself in the building lift circulating among residents. Police suspected it had been taken from the society's CCTV backup server by a relative of an office-bearer who had access to it. No one had to plant anything.</p>
+      <p>So in a society building, ask the questions that follow from that:</p>
+      <ul>
+        <li>Who physically holds keys or login access to the recorder, and is that list written down?</li>
+        <li>How long is footage retained, and is any copy made or exported logged?</li>
+        <li>Is the recorder in a locked space, or in an office several people pass through?</li>
+        <li>Where exactly do the cameras point, and has the general body agreed to that?</li>
+      </ul>
+      <p>On that last point there is Mumbai authority. In a case reported in 2018 concerning a Colaba building, the Bombay High Court restrained residents from keeping cameras trained on a neighbour's flat without consent, confining them to the floor where they lived, and treated monitoring a neighbour's daily movement as an invasion of privacy (<a href="https://www.livelaw.in/installing-cctv-cameras-to-monitor-movement-without-flat-owners-consent-is-invasion-of-privacy-bombay-hc" rel="noopener noreferrer" target="_blank">LiveLaw</a>). A camera covering a shared lobby is an ordinary security measure; one pointed at your door is not automatically the same thing.</p>
+      <p>Redevelopment and repairs add the other Mumbai-specific exposure. The same model bye-laws require members to allow access for inspection of the premises for repairs and maintenance, including by a technical expert the society appoints. That is legitimate and necessary, and it also means a stream of contractors and surveyors lawfully entering flats over months. If your building has just finished major works and something feels wrong afterwards, that access history is the relevant background, not an exotic adversary.</p>
+
+      <h2>Hotels and short stays: look at the sockets</h2>
+      <p>The most recent documented Mumbai hotel case is specific enough to act on. On 31 December 2025 the Free Press Journal <a href="https://www.freepressjournal.in/mumbai/mumbai-shocker-hidden-camera-found-inside-malad-hotel-room-case-registered" rel="noopener noreferrer" target="_blank">reported</a> that guests at a budget hotel in Malad East found a camera concealed inside an electric plug point in their room. What gave it away was mundane: a wire coming out of a socket that was not in use. Dindoshi police registered a case and the device was sent for forensic examination.</p>
+      <p>A second Mumbai pattern is that the device is often just a phone. In 2020 a tailor in Lokhandwala, Andheri was arrested after a customer spotted a mobile phone propped on a shelf in record mode, concealed behind plastic bags, in the shop's trial room (<a href="https://www.freepressjournal.in/amp/mumbai/andheri-tailor-held-for-filming-women-inside-his-trial-room" rel="noopener noreferrer" target="_blank">Free Press Journal</a>). No specialist equipment was involved in either case.</p>
+      <p>Two things are worth knowing about hotels here. First, a lodging house or residential hotel in Mumbai is a licensed premises under the Maharashtra Police Act, controlled by the Commissioner of Police, so a complaint about the premises has a regulator behind it as well as a police station. Second, lawful CCTV in a hotel covers entrances, lobbies and corridors, never rooms or bathrooms. Mumbai Police has previously ordered private establishments including hotels to run CCTV with a minimum retention period and to hand footage to police on demand, under a prohibitory order issued in January 2021; orders of that kind are made for fixed periods and reissued, so treat the retention window as short. If footage matters to your complaint, ask for it to be preserved in writing immediately rather than a fortnight later.</p>
+
+      <h2>Offices, boardrooms and campuses</h2>
+      <p>Mumbai's corporate exposure is not a marketing line. The Mumbai Metropolitan Region Development Authority's own <a href="https://mmrda.maharashtra.gov.in/en/planning/badra-kurla-complex/overview" rel="noopener noreferrer" target="_blank">account of the Bandra Kurla Complex</a> lists occupiers including the Securities and Exchange Board of India, the National Stock Exchange, SIDBI, the Bharat Diamond Bourse and the United States and British consulates, and puts employment in the E and G blocks alone at two to three lakh people. The <a href="https://bdbindia.org/" rel="noopener noreferrer" target="_blank">Bharat Diamond Bourse</a> describes itself as holding around 2,500 offices and more than 4,000 members on one 20-acre site. Regulators, an exchange, a diamond trading floor and two consulates sit within walking distance of each other.</p>
+      <p>The state's own <a href="https://mls.org.in/PDF2026/budjet/ESM_25_26_Eng%20Book.pdf" rel="noopener noreferrer" target="_blank">Economic Survey of Maharashtra 2025-26</a> adds the scale: 207 of Maharashtra's 669 approved private IT parks are in Mumbai city and suburban districts, and Mumbai district has the state's largest economy by a wide margin.</p>
+      <p>The realistic entry route, though, is access rather than technology. In October 2025 Deccan Chronicle <a href="https://www.deccanchronicle.com/nation/former-iit-bombay-student-held-for-filming-in-hostel-bathroom-1911081" rel="noopener noreferrer" target="_blank">reported</a> that a former student was arrested for filming in a hostel bathroom at IIT Bombay in Powai, having entered the campus on a visitor pass issued against his alumni identity. Any Mumbai organisation that issues passes to former staff, contractors or vendors should read that as a description of its own front door.</p>
+      <p>For executives, one Mumbai judgment is worth knowing. In <em>Vinit Kumar v. Central Bureau of Investigation</em>, decided on 22 October 2019, the Bombay High Court quashed telephone interception orders against a businessman, holding that interception may be ordered only on grounds of public emergency or public safety, and directed that the recordings be destroyed (<a href="https://indiankanoon.org/doc/107953018/" rel="noopener noreferrer" target="_blank">judgment</a>). Unlawful interception can be challenged and set aside, which is a reason to preserve and litigate rather than to act quietly.</p>
+
+      <h2>What a phone app cannot do</h2>
+      <p>The most common searches here are not about Mumbai at all; they are people in a hotel room or a trial room asking how to check with the phone in their hand. Honestly: a phone helps a little, and the popular advice oversells it.</p>
+      <ul>
+        <li><strong>The torch trick</strong> can catch the glint of a lens in a dark room. It misses lenses behind tinted covers, and tells you nothing about microphones.</li>
+        <li><strong>The infrared check</strong> works only against cameras using infrared illumination, and many rear cameras filter infrared out, so the front camera is often the better test.</li>
+        <li><strong>Detector apps</strong> cannot measure radio signals the phone's hardware does not expose. In a dense Mumbai building they mostly rediscover the neighbours' Wi-Fi.</li>
+        <li><strong>Network scans</strong> only see devices on a network you control, which in a hotel or a rented flat you do not.</li>
+        <li><strong>Nothing on a phone finds a camera that records to a memory card</strong> and transmits nothing at all. That is the case that defeats every app.</li>
+      </ul>
+      <p>Our national guide covers <a href="/blog/how-to-detect-hidden-cameras">the room-by-room checks worth doing</a> before you call anyone.</p>
+
+      <h2>What a Mumbai sweep can and cannot establish</h2>
+      <p>A sweep reports what was found in the areas examined, with the methods used, at the time of the visit. It cannot prove a room has never been watched, and it cannot keep it clean afterwards. Anyone promising a guaranteed clean result is overstating what the equipment does.</p>
+      <p>Mumbai adds two practical limits. The first is the airwaves. Mumbai is its own licensed telecom service area, and the Telecom Regulatory Authority of India <a href="https://www.trai.gov.in/sites/default/files/2026-03/QPIR_03032026_0.pdf" rel="noopener noreferrer" target="_blank">recorded about 39.95 million wireless connections in it as on 31 December 2025</a>, roughly 96 per cent of them urban, packed into the city and its suburbs. A radio scan in a Mumbai flat picks up the building as much as the room, and separating one unexplained signal from the neighbours' devices is most of the work. And in older buildings and redevelopment-era flats, wiring and cavities rarely match any drawing, so the physical inspection matters as much as any instrument.</p>
+
+      <h2>Booking a sweep in Mumbai without tipping anyone off</h2>
+      <p>If a device is live, whoever placed it may be listening while you arrange the sweep. Make the arrangements from a different phone and a different place, tell only the people who must approve access, and leave fittings alone until the team arrives, because pulling them apart warns whoever planted the device and disturbs the evidence. The full preparation sequence, including what to agree in advance about a device that is found, is in our <a href="/blog/bug-sweeping-in-india">national guide</a>, and the service itself is described on our <a href="/locations/mumbai">Mumbai page</a>.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(bugSweepingMumbaiFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Police procedures, helplines and legal points were checked against official sources on 23 September 2026 and are general information, not legal advice. Structures and rules change; confirm current details with the linked sources and take legal advice about your own situation.</p>
       </div>
     `,
   },
