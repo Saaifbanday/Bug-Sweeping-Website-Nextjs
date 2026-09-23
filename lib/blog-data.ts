@@ -41,6 +41,29 @@ function faqJsonLd(faqs: Faq[], id: string) {
   };
 }
 
+
+const bugSweepingDelhiFaqs: Faq[] = [
+  {
+    q: "Does a complaint on cybercrime.gov.in count as an FIR?",
+    a: "No. The national cybercrime portal takes the complaint and passes it to the police of the relevant state or union territory; whether it becomes an FIR, and what follows, is for that force to decide. For an offence such as voyeurism or stalking in Delhi, go to the police station as well.",
+  },
+  {
+    q: "Can I file an FIR online in Delhi for a hidden camera?",
+    a: "Not at present. Delhi Police's e-FIR portals cover vehicle and property theft, and its other online services are complaints rather than FIRs. Section 173(1) of the Bharatiya Nagarik Suraksha Sanhita does allow information to be given by electronic communication, but it has to be signed within three days, so in practice a hidden-camera FIR means attending the police station.",
+  },
+  {
+    q: "Is 1930 the right helpline if I find a hidden camera?",
+    a: "Usually not. 1930 is the national cyber crime helpline and is geared to online fraud, especially where money has moved. For a device found in a room, call 112 in an emergency and report to the local police station or your district cyber police station. Delhi Police also lists 1091 for women in distress, and the Delhi government lists 181.",
+  },
+  {
+    q: "Can a landlord or PG owner in Delhi put a camera in my room?",
+    a: "A camera covering a private room, bathroom or changing area is the conduct Section 77 of the Bharatiya Nyaya Sanhita treats as voyeurism, and consent to being recorded does not extend to sharing the recording. Cameras in entrances and common areas are treated differently, and Delhi's draft paying-guest legislation would require them there. If you find a camera inside your room, document it and report it.",
+  },
+  {
+    q: "Can I report without giving my name?",
+    a: "The national cybercrime portal offers an anonymous option within its women and children reporting track. A police complaint normally identifies the complainant, though where a woman reports voyeurism or stalking the information must be recorded by a woman police officer, and you are entitled to a free copy of what is recorded.",
+  },
+];
 const bugSweepingIndiaFaqs: Faq[] = [
   {
     q: "How long does a bug sweep take?",
@@ -463,7 +486,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>No jammers.</strong> Any provider that offers to sell or install a signal jammer is proposing equipment that Indian law does not allow private buyers to possess or use without Central Government permission. Walk away.</li>
         <li><strong>Verifiable identity.</strong> A registered company, a named person responsible for the work, and credentials you can check yourself.</li>
       </ul>
-      <p>If you are comparing providers in a particular city, BugSweepingTSCM has location pages for <a href="/locations/mumbai">Mumbai</a>, <a href="/locations/delhi">Delhi NCR</a>, <a href="/locations/bengaluru">Bengaluru</a> and <a href="/locations/chandigarh">Chandigarh</a>. For businesses, our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office or boardroom may be bugged</a> covers the warning signs that usually prompt a corporate sweep.</p>
+      <p>If you are comparing providers in a particular city, BugSweepingTSCM has location pages for <a href="/locations/mumbai">Mumbai</a>, <a href="/locations/delhi">Delhi NCR</a>, <a href="/locations/bengaluru">Bengaluru</a> and <a href="/locations/chandigarh">Chandigarh</a>. For the capital, our city guide to <a href="/blog/bug-sweeping-in-delhi">bug sweeping in Delhi</a> covers reported local cases, the paying-guest and guest house rules, and where a complaint goes. For businesses, our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office or boardroom may be bugged</a> covers the warning signs that usually prompt a corporate sweep.</p>
 
       <h2>Frequently asked questions</h2>
       <div class="faq">
@@ -472,6 +495,180 @@ ${faqHtml(bugSweepingIndiaFaqs)}
 
       <div class="note">
         <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Legal points were checked against official texts on 19 September 2026 and are general information, not legal advice. Laws, helplines and platform features change; confirm current details with the linked official sources and consult a lawyer about your own situation.</p>
+      </div>
+    `,
+  },
+  {
+    slug: "bug-sweeping-in-delhi",
+    title: "Bug Sweeping in Delhi: Where Devices Turn Up and Where to Complain",
+    seoTitle: "Bug Sweeping in Delhi: Local Cases, Law and Complaints",
+    metaDescription:
+      "Bug sweeping in Delhi: where hidden cameras have been found, why Delhi's signal density matters, PG and hotel rules, and exactly where to report a device.",
+    excerpt:
+      "Delhi's reported hidden-camera cases are bathroom bulb holders and washrooms, not boardroom bugs. This guide covers where devices have actually been found in the city, why Delhi's crowded airwaves complicate detection, what the PG and guest house rules allow, and where a complaint goes.",
+    date: "2026-09-23",
+    readTime: "9 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/bug-sweeping-in-delhi.webp",
+    ogImage: "/images/blogs/bug-sweeping-in-delhi.png",
+    coverImageAlt:
+      "Bug Sweeping in Delhi guide cover: concentric sweep rings on a dark navy grid with one marked detection point",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about a room, office or vehicle in Delhi?",
+      text: "If something does not add up, a private consultation can help you decide whether a sweep is needed and what it should cover. Please get in touch from a phone you trust, away from the space you are worried about.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi",
+          name: "Bug Sweeping in Delhi: Local Cases, Law and Complaints",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#primaryimage" },
+          about: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#place",
+          name: "Delhi",
+          address: { "@type": "PostalAddress", addressLocality: "Delhi", addressRegion: "Delhi", addressCountry: "IN" },
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/bug-sweeping-in-delhi.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#article",
+          headline: "Bug Sweeping in Delhi: Where Devices Turn Up and Where to Complain",
+          description:
+            "Bug sweeping in Delhi: where hidden cameras have been found, why Delhi's signal density matters, PG and hotel rules, and exactly where to report a device.",
+          datePublished: "2026-09-23",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          spatialCoverage: { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#place" },
+          about: [
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+            { "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#place" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Bug Sweeping in Delhi" },
+          ],
+        },
+        faqJsonLd(bugSweepingDelhiFaqs, "https://www.bugsweepingtscm.com/blog/bug-sweeping-in-delhi#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Bug sweeping in Delhi is a professional search of a room, office, vehicle or rented accommodation for hidden cameras, audio bugs and trackers. Delhi adds three local complications: the densest mobile network in India, a rental and paying-guest market about to be regulated, and a complaint that may cross into Haryana or Uttar Pradesh.</p>
+      </div>
+
+      <p>The Delhi cases that reach the newspapers are rarely the boardroom bug of the imagination. They are a camera in a bathroom bulb holder, a phone wedged in a trial-room door, a housekeeping worker with routine access to a washroom. This guide sets out where devices have actually been found in Delhi, what the city's radio environment does to detection, what the law now says about recordings inside homes, and exactly where a complaint goes once you find something.</p>
+
+      <h2>Where hidden cameras have actually been found in Delhi</h2>
+      <p>Three reported cases from the last three years show the pattern better than any threat list. Each was charged under India's criminal law on voyeurism, and each says something practical about where to look.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Reported hidden-camera cases in Delhi, 2023 to 2025</caption>
+          <thead>
+            <tr><th scope="col">Case</th><th scope="col">Where the device was</th><th scope="col">What it tells you</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Shakarpur, East Delhi, September 2024. The landlord's son was arrested after a woman tenant found cameras in her rented room (<a href="https://www.tribuneindia.com/news/delhi/woman-finds-hidden-cameras-in-rented-home-landlords-son-held/" rel="noopener noreferrer" target="_blank">The Tribune</a>).</td><td>Inside bulb holders, one in the bathroom and one in the bedroom, recording to a memory card rather than transmitting</td><td>An offline camera sends no signal at all. Wi-Fi scans and detector apps cannot find it, and the accused kept asking for keys to "repair" fittings so he could collect the footage.</td></tr>
+            <tr><td>IIT Delhi campus, October 2023. Students from a Delhi University college said they were filmed while changing during a fest; a contractual worker from an outsourced housekeeping agency was arrested (<a href="https://www.tribuneindia.com/news/delhi/secretly-filmed-in-washroom-during-iit-delhi-fest-allege-bharti-college-students-sweeper-arrested-551319" rel="noopener noreferrer" target="_blank">The Tribune</a>).</td><td>A campus washroom being used as a changing area</td><td>The people with unremarkable, repeated access to a space (housekeeping, maintenance, contractors) matter more than strangers.</td></tr>
+            <tr><td>Shani Bazar, south-west Delhi, August 2025. A pilot was arrested for filming women in a market (<a href="https://www.theweek.in/news/india/2025/09/05/delhi-pilot-arrested-for-recording-objectionable-videos-of-a-woman-using-hidden-camera.html" rel="noopener noreferrer" target="_blank">The Week</a>).</td><td>A camera disguised as a cigarette lighter, carried by hand</td><td>Everyday-object disguises are in live use in Delhi, and the offender profile is not predictable.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>So treat light fittings, bathroom fixtures and anything a landlord insists on repairing himself as worth a closer look. A device that records locally is the normal case here, which is why a proper sweep uses instruments that find electronics rather than only signals.</p>
+
+      <h3>One check you can run tonight</h3>
+      <p>In the Shakarpur case, what first alerted the tenant was not the camera. She noticed odd activity on her messaging account, a friend suggested checking her WhatsApp linked devices, and an unknown laptop was listed there. That check takes a minute: open WhatsApp, go to Settings, then Linked devices, and log out anything you do not recognise. It tells you whether someone else is reading your messages, which is a different problem from a camera in the room, but in that case it was the thread that led to the rest. Do it from your own phone, and if you find something, take a screenshot before you log the device out.</p>
+
+      <h2>Why "we found a signal" means less in Delhi</h2>
+      <p>Delhi is the most densely connected telecom service area in India. The Telecom Regulatory Authority of India recorded wireless tele-density in the Delhi service area at <a href="https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf" rel="noopener noreferrer" target="_blank">338.15 per cent as on 31 March 2026</a>, against 93.26 per cent for India as a whole, and the next highest service area sits near 130 per cent. TRAI notes that its Delhi service area also counts subscribers served through exchanges in Ghaziabad, Noida, Gurgaon and Faridabad, so the figure overstates Delhi alone, but the direction is not in doubt.</p>
+      <p>For a sweep, that density is the whole problem. In a Delhi flat or office, a radio-frequency detector will react to neighbouring routers, phones, smart meters, televisions and the building's own systems. A cheap detector or a phone app here alarms constantly, which trains you to ignore it. Ask a provider not whether they detect signals but how they separate an unexplained transmission from the hundreds of legitimate ones around it, and what they do about devices that transmit nothing at all.</p>
+
+      <h2>PGs, hostels and rented rooms: what is about to change</h2>
+      <p>Delhi's paying-guest market is large and, at present, lightly regulated. In September 2026 the Delhi government began work on a draft Paying Guest Accommodation Regulation and Welfare Bill, reported to cover roughly 200,000 rooms rented as PG accommodation across the city, with Mukherjee Nagar, Laxmi Nagar, Rajendra Nagar and the North Campus area named as focus areas. As <a href="https://www.thehansindia.com/news/cities/new-delhi/delhi-plans-pg-regulation-bill-with-licences-police-clearance-and-public-registry-1119952" rel="noopener noreferrer" target="_blank">reported</a>, the draft would require a licence from the municipal zonal authority, police clearance, a registration number for each property, and CCTV at entrances and common areas with footage kept for 30 days.</p>
+      <p>This is a draft, not law, and it may change before it passes. It matters anyway, because it draws a line a PG resident can already apply: cameras covering an entrance or a common room are the surveillance the state is moving to require, while a camera covering a bedroom, bathroom or changing area is the kind that puts someone in court. Ask where the cameras are, ask which common areas they cover, and treat any camera inside a private room as a reason to walk away.</p>
+
+      <h2>Hotels and guest houses: the lawful line</h2>
+      <p>The same distinction is already written into Delhi's rules for guest houses. The Delhi government's <a href="https://tourism.delhi.gov.in/tourism/guidelines-approval-guest-houses" rel="noopener noreferrer" target="_blank">approval guidelines</a> require an applicant to hold municipal registration, a police licence and fire clearance, and to install CCTV in public areas with a data backup. Cameras in the lobby and corridors are a condition of approval. A camera in your room is not covered by any of that.</p>
+      <p>Delhi also handles more international arrivals than anywhere else in the country: Delhi airport accounted for 38.85 per cent of India's foreign tourist arrivals in 2024, the largest share of any airport, according to the <a href="https://delhiplanning.delhi.gov.in/sites/default/files/2026-03/economic_survey_english_0.pdf" rel="noopener noreferrer" target="_blank">Economic Survey of Delhi 2025-26</a>. High guest turnover is precisely the condition in which a device planted once can record many different occupants before anyone notices. For a room-by-room approach on arrival, our guide on <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras in a hotel room or office</a> covers the practical checks.</p>
+      <p>One honest note: we found no reputable report of a hidden-camera case in a Delhi hotel in recent years. The documented Indian hotel cases we could verify are elsewhere, including a 2022 case in Noida. That is not evidence that Delhi hotels are safe or unsafe; it is a limit on what the reporting shows.</p>
+
+      <h2>Two rulings that changed the picture for Delhi homes</h2>
+      <p>Recordings inside homes are no longer a purely private matter, and two 2025 decisions pull in different directions.</p>
+      <p>In <strong>Vibhor Garg v. Neha</strong>, decided on 14 July 2025, the Supreme Court held that a spouse's secretly recorded telephone conversations are admissible in matrimonial proceedings, because Section 122 of the Evidence Act contains an express exception for suits between married persons (<a href="https://www.scobserver.in/supreme-court-observer-law-reports-scolr/evidentiary-value-of-secretly-recorded-phone-calls-between-spouses-in-marital-disputes-vibhor-garg-v-neha/" rel="noopener noreferrer" target="_blank">Supreme Court Observer</a>). The practical effect in a city with a heavy matrimonial caseload is that covert recording inside a home now carries a clear evidentiary incentive, so suspicion of it in a disputed marriage is not paranoia.</p>
+      <p>Pulling the other way, the Calcutta High Court held in February 2025 that installing CCTV inside the residential portion of a shared home without the consent of the other occupants violates the right to privacy under Article 21, and suggested joint control over the cameras and their footage as the remedy. In May 2025 the Supreme Court declined to interfere with that ruling (<a href="https://theprint.in/judiciary/upholding-calcutta-hc-ruling-on-cctv-surveillance-inside-shared-home-sc-reaffirms-right-to-privacy/2624460/" rel="noopener noreferrer" target="_blank">ThePrint</a>). For a joint-family household in Delhi, that offers a route short of a criminal complaint: cameras in shared living space can be put under shared control rather than one person's.</p>
+      <p>Neither ruling makes covert filming of a private act lawful. That remains an offence under Section 77 of the Bharatiya Nyaya Sanhita, the provision under which the Delhi cases above were charged, and the wider legal position is set out in our national guide to <a href="/blog/bug-sweeping-in-india">bug sweeping in India</a>.</p>
+
+      <h2>Where a Delhi complaint actually goes</h2>
+      <p>First, your safety. If you feel at risk, leave and call 112. You do not have to stay in the room, confront anyone or gather evidence before asking for help. If it is safe to stay, photograph the device exactly where it is before touching anything, note the time and place, and leave it in position: opening or unplugging it can destroy both the stored footage and any fingerprints. Then report it to the police. Delhi Police is organised into 15 police districts, and since late 2021 each district has its own cyber police station: the force's <a href="https://www.delhipolice.gov.in/RTImanualFiles/84241_Manual%201.pdf" rel="noopener noreferrer" target="_blank">RTI manual, last updated in May 2025</a>, lists 226 police stations including those 15. You can find the station covering your address with Delhi Police's <a href="https://delhipolice.gov.in/kyps" rel="noopener noreferrer" target="_blank">Know Your Police Station</a> tool. Unlike most of the country, Delhi Police reports to the Union Ministry of Home Affairs rather than the state government, because policing is outside the Delhi Assembly's legislative competence under Article 239AA of the Constitution.</p>
+      <p>Four things are worth knowing before you walk in, all of them from the Bharatiya Nagarik Suraksha Sanhita, 2023, which replaced the old criminal procedure code on 1 July 2024:</p>
+      <ol>
+        <li><strong>Any police station can register it.</strong> Section 173(1) says information about a cognizable offence may be given "irrespective of the area where the offence is committed". This is the Zero FIR, <a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2039055" rel="noopener noreferrer" target="_blank">confirmed in the government's own summary of the new criminal laws</a>. The case is then transferred to the station that has jurisdiction.</li>
+        <li><strong>A woman complainant is recorded by a woman officer.</strong> Where a woman reports voyeurism under Section 77 or stalking under Section 78 of the Bharatiya Nyaya Sanhita, the <a href="https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf" rel="noopener noreferrer" target="_blank">first proviso to Section 173(1)</a> requires the information to be recorded by a woman police officer.</li>
+        <li><strong>You are entitled to a free copy.</strong> Section 173(2) says a copy of the recorded information is to be given "forthwith, free of cost" to the informant or victim.</li>
+        <li><strong>There is a remedy if the station refuses.</strong> Section 173(4) lets you send the substance in writing, by post, to the Superintendent of Police, and if nothing follows, to apply to a Magistrate.</li>
+      </ol>
+      <p>Online routes have real limits. Delhi Police's e-FIR portals cover vehicle and property theft only; there is no online FIR route for voyeurism, stalking or illegal surveillance, so an FIR for those means going to the police station. You can file on the national portal at <a href="https://cybercrime.gov.in/" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which has a women and children track that allows anonymous reporting, but a complaint there is passed to the relevant state police and does not itself become an FIR.</p>
+      <p>On the phone numbers: call <strong>112</strong> in an emergency. Delhi Police lists <strong>1091</strong> for women in distress, and the Delhi government's Department of Women and Child Development lists <strong>181</strong> as its own women's helpline. <strong>1930</strong> is the national cyber crime helpline and is geared to online fraud, particularly where money has moved; for a camera found in a room with no financial loss, the police station or your district cyber police station is the better route.</p>
+
+      <h3>When your home and office are in different states</h3>
+      <p>Delhi NCR is four police forces, not one. Delhi Police covers Delhi; Gurugram (Gurgaon) and Faridabad come under Haryana Police; Noida, formally Gautam Buddh Nagar, and Ghaziabad come under Uttar Pradesh Police. Which force investigates follows where the device was planted, so a camera found in a Gurugram office is a Haryana Police matter even if you live in Delhi. The Zero FIR provision means your local Delhi station cannot turn you away for being the wrong jurisdiction, but it moves the paperwork, not the investigation. If devices turn up in both a Delhi home and an NCR office, treat them as two matters.</p>
+      <p>One gap worth naming: as of September 2026, we could find no Delhi Police public advisory on hidden or spy cameras in hotels, paying-guest accommodation or trial rooms. We checked the force's circulars index, its cyber crime unit site and its press releases. The nearest official material is the criminal law itself and the reporting tracks on the national cybercrime portal.</p>
+
+      <h2>What a Delhi sweep can and cannot establish</h2>
+      <p>A sweep reports what was found in the areas examined, with the methods used, at the time of the visit. It cannot prove a space has never been watched, and it cannot keep it clean afterwards. In Delhi there is a further practical limit worth stating plainly: much of the city's building stock was not built to an approved plan. The Economic Survey of Delhi 2025-26 records 1,799 unauthorised colonies in the city, and the Delhi Development Authority's <a href="https://dda.gov.in/pm_uday/scheme" rel="noopener noreferrer" target="_blank">PM-UDAY scheme</a> covers 1,731 of them. In buildings that grew room by room, wiring and cavities do not match any drawing, which is exactly why a physical inspection matters as much as any instrument reading.</p>
+
+      <h2>Booking a sweep in Delhi without tipping anyone off</h2>
+      <p>If a device is live, whoever placed it may be listening while you arrange the sweep. Make the arrangements from a different phone and a different place, tell only the people who must approve access, and do not start pulling fittings apart first, because that both warns them and disturbs evidence. Keep your routine normal until the team arrives. The full preparation sequence, including what to agree in advance about a device that is found, is in our <a href="/blog/bug-sweeping-in-india">national guide</a>. Our <a href="/locations/delhi">Delhi bug sweeping page</a> covers the service itself.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(bugSweepingDelhiFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Legal points, police procedures and helplines were checked against official sources on 23 September 2026 and are general information, not legal advice. Rules and draft legislation change; confirm current details with the linked sources and take legal advice about your own situation.</p>
       </div>
     `,
   },
