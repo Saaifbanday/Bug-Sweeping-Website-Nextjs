@@ -4,15 +4,15 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Menu, X, Phone, Mail, ChevronDown } from "lucide-react";
 import Logo from "@/components/ui/Logo";
+import { cities } from "@/lib/location-data";
 
 const WHATSAPP = "https://wa.me/918882732221";
 
-const locations = [
-  { label: "Bug Sweeping Services in Mumbai", href: "/locations/mumbai" },
-  { label: "Bug Sweeping Services in Delhi", href: "/locations/delhi" },
-  { label: "Bug Sweeping Services in Bengaluru", href: "/locations/bengaluru" },
-  { label: "Bug Sweeping Services in Chandigarh", href: "/locations/chandigarh" },
-];
+// Derived from the city data so a new location page appears in the menu automatically.
+const locations = cities.map((c) => ({
+  label: `Bug Sweeping Services in ${c.city}`,
+  href: `/locations/${c.slug}`,
+}));
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -147,8 +147,8 @@ export default function Header() {
                   />
                 </button>
 
-                {locOpen && (
-                  <div className="absolute top-full left-0 pt-1">
+                {/* Always rendered so the links exist in the HTML for crawlers; visibility is toggled. */}
+                <div className="absolute top-full left-0 pt-1" style={{ display: locOpen ? "block" : "none" }}>
                     <div
                       className="rounded-xl overflow-hidden"
                       style={{
@@ -188,7 +188,6 @@ export default function Header() {
                     ))}
                     </div>
                   </div>
-                )}
               </div>
 
               <a
@@ -254,8 +253,10 @@ export default function Header() {
                   }}
                 />
               </button>
-              {mobileLocOpen && (
-                <div className="pl-4 flex flex-col gap-1">
+              <div
+                className="pl-4 flex flex-col gap-1"
+                style={{ display: mobileLocOpen ? "flex" : "none" }}
+              >
                   {locations.map((loc) => (
                     <Link
                       key={loc.href}
@@ -271,7 +272,6 @@ export default function Header() {
                     </Link>
                   ))}
                 </div>
-              )}
 
               <a
                 href={WHATSAPP}

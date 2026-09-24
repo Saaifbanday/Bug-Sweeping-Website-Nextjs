@@ -502,5 +502,79 @@
     "revisions": [],
     "guide_link": "",
     "notes": "Refreshed 24 Sep 2026 for the commercial phrase. Removed unevidenced claims (most trusted, certified technicians, unmarked vehicles, NDA cover, same-day report, 24/7 availability). Approx 1,270 to 1,405 words each after adding the grouped coverage table; body overlap between city pages measured at 28 to 32 percent, which is shared service furniture rather than duplicated city copy."
+  },
+  {
+    "slug": "locations/gurugram",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/gurugram",
+    "page_type": "location-page",
+    "location": {
+      "city": "Gurugram",
+      "district": "",
+      "state": "Haryana"
+    },
+    "primary_keyword": "bug sweeping services in gurugram",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Gurugram is Haryana Police with four zones and four separate cyber police stations (East, West, South, Manesar); Haryana has no e-FIR, so online submissions are complaints not FIRs; district orders require PGs, hotels and guest houses to keep guest registers with police verification, enforced with penalties.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/blog/bug-sweeping-in-delhi",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. No hidden-camera advisory exists from either force, and no verified planted-camera case was found in Gurugram itself, so neither is implied.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/noida",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/noida",
+    "page_type": "location-page",
+    "location": {
+      "city": "Noida",
+      "district": "",
+      "state": "Uttar Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in noida",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Noida is Police Commissionerate Gautam Buddh Nagar under UP Police, not Delhi Police; UP e-FIR is limited to unknown-accused cases so a hidden-camera complaint with a suspect needs a police station; GB Nagar has its own cyber police station; 1090 is UP's Women Power Line and some district helpline listings are out of date.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/blog/bug-sweeping-in-delhi",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. No hidden-camera advisory exists from either force, and no verified planted-camera case was found in Gurugram itself, so neither is implied.",
+    "revisions": []
   }
 ]
