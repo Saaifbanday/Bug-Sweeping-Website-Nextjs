@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MoreArticles from "@/components/blog/MoreArticles";
 import { blogPosts } from "@/lib/blog-data";
+import { serializeJsonLd } from "@/lib/json-ld";
 import Image from "next/image";
 import { ArrowLeft, Clock, Tag, Phone } from "lucide-react";
 
@@ -47,16 +48,6 @@ export async function generateMetadata({
       images: [post.ogImage ?? post.coverImage],
     },
   };
-}
-
-// JSON.stringify does not escape "<", so a string containing "</script>" could break out of the tag.
-function serializeJsonLd(data: Record<string, unknown>) {
-  return JSON.stringify(data)
-    .replace(/</g, "\\u003c")
-    .replace(/>/g, "\\u003e")
-    .replace(/&/g, "\\u0026")
-    .replace(/\u2028/g, "\\u2028")
-    .replace(/\u2029/g, "\\u2029");
 }
 
 // Builds a table of contents from the post's own H2 and H3 headings, giving each one a unique

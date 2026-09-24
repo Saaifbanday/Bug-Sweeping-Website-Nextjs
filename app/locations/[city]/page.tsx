@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import PageHero from "@/components/ui/PageHero";
 import ContactCTA from "@/components/sections/ContactCTA";
 import { cities } from "@/lib/location-data";
+import { serializeJsonLd, faqPageNode } from "@/lib/json-ld";
 import { CheckCircle2, MapPin, Phone, ArrowRight } from "lucide-react";
 
 export function generateStaticParams() {
@@ -20,10 +21,25 @@ export async function generateMetadata({
   const { city } = await params;
   const data = cities.find((c) => c.slug === city);
   if (!data) return {};
+  const url = `https://www.bugsweepingtscm.com/locations/${city}`;
+  const title = data.seoTitle ?? `${data.heroTitle} | BugSweepingTSCM.com`;
   return {
-    title: `${data.heroTitle} | BugSweepingTSCM.com`,
+    title: data.seoTitle ? { absolute: data.seoTitle } : title,
     description: data.metaDescription,
-    alternates: { canonical: `https://www.bugsweepingtscm.com/locations/${city}` },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      url,
+      title,
+      description: data.metaDescription,
+      locale: "en_IN",
+      siteName: "BugSweepingTSCM.com",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: data.metaDescription,
+    },
   };
 }
 
@@ -45,8 +61,27 @@ export default async function CityPage({
   const data = cities.find((c) => c.slug === city);
   if (!data) notFound();
 
+  // Append the FAQPage node so the markup is built from the same array that renders the visible FAQ.
+  const graph = data.jsonLd?.["@graph"];
+  const jsonLd =
+    data.jsonLd && data.faqs?.length && Array.isArray(graph)
+      ? {
+          ...data.jsonLd,
+          "@graph": [
+            ...graph,
+            faqPageNode(data.faqs, `https://www.bugsweepingtscm.com/locations/${city}#faq`),
+          ],
+        }
+      : data.jsonLd;
+
   return (
     <>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
+        />
+      )}
       <Header />
       <main className="flex-1">
         <PageHero
@@ -175,10 +210,10 @@ export default async function CityPage({
                     ))}
                   </ul>
                   <p
-                    className="mt-4 text-xs italic"
+                    className="mt-4 text-sm italic"
                     style={{ color: "var(--color-muted)" }}
                   >
-                    Don&apos;t see your area? We cover all locations within and around {data.city}. Call us to confirm availability.
+                    Don&apos;t see your area? Call us and we will confirm whether we cover it.
                   </p>
                 </div>
               </div>
@@ -200,23 +235,23 @@ export default async function CityPage({
               {[
                 {
                   step: "01",
-                  title: "Contact Us",
-                  desc: "Call or WhatsApp us. All communications are confidential from the first word — covered by NDA.",
+                  title: "Get in touch",
+                  desc: "Call or message us from a phone you trust, away from the space you are worried about.",
                 },
                 {
                   step: "02",
-                  title: "Threat Assessment",
-                  desc: "We assess your specific situation, recommend the right sweep protocol, and provide a transparent quote.",
+                  title: "Agree the scope",
+                  desc: "We discuss what triggered the concern, which rooms, vehicles and lines to cover, and quote for that scope.",
                 },
                 {
                   step: "03",
-                  title: "Discreet Sweep",
-                  desc: `Our technicians arrive in unmarked vehicles at your ${data.city} location at a time you choose.`,
+                  title: "The sweep",
+                  desc: `We examine the agreed areas at your ${data.city} location at a time you choose, and document anything found in position before it is touched.`,
                 },
                 {
                   step: "04",
-                  title: "Written Report",
-                  desc: "You receive a comprehensive report covering all findings, evidence collected, and recommended next steps.",
+                  title: "Written report",
+                  desc: "You receive a report covering the areas examined, the methods used, the findings, and the limits of what a sweep can establish.",
                 },
               ].map((item) => (
                 <div
@@ -248,9 +283,47 @@ export default async function CityPage({
           </div>
         </section>
 
+        {data.faqs && data.faqs.length > 0 && (
+          <section className="py-24" style={{ backgroundColor: "var(--bg-surface)" }}>
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+              <p className="section-label mb-4">Questions</p>
+              <h2 className="section-title mb-10">
+                Bug sweeping in{" "}
+                <span style={{ color: "var(--color-accent)" }}>{data.city}</span>: common questions
+              </h2>
+              <div className="flex flex-col gap-8">
+                {data.faqs.map((faq) => (
+                  <div key={faq.q}>
+                    <h3
+                      className="font-bold mb-3"
+                      style={{ color: "var(--color-text)", fontSize: "1.125rem" }}
+                    >
+                      {faq.q}
+                    </h3>
+                    <p style={{ color: "var(--color-muted)", fontSize: "1.0625rem", lineHeight: "1.8" }}>
+                      {faq.a}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              {data.guide && (
+                <Link
+                  href={data.guide.href}
+                  className="inline-flex items-center gap-2 mt-10 font-semibold"
+                  style={{ color: "var(--color-accent)" }}
+                >
+                  {data.guide.label}
+                  <ArrowRight size={16} />
+                </Link>
+              )}
+            </div>
+          </section>
+        )}
+
         <ContactCTA
           title={`Book a Professional Bug Sweep in ${data.city}`}
-          subtitle="Confidential. Certified. Available 24/7 for emergencies."
+          subtitle="Tell us what you are worried about and we will explain what a sweep would cover."
           variant="accent"
         />
       </main>
