@@ -283,6 +283,86 @@ export default async function CityPage({
           </div>
         </section>
 
+        {/* Full coverage list, grouped by zone. Names appear once; no keyword repetition. */}
+        {data.areaGroups && data.areaGroups.length > 0 && (
+          <section className="py-24" style={{ backgroundColor: "var(--bg-primary)" }}>
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+              <p className="section-label mb-4">Coverage in detail</p>
+              <h2 className="section-title mb-6">
+                Neighbourhoods we cover in{" "}
+                <span style={{ color: "var(--color-accent)" }}>{data.city}</span>
+              </h2>
+              <p className="mb-8 leading-relaxed" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
+                Sweeps are arranged across the whole city and the surrounding region. If your locality is not
+                listed, it does not mean we cannot reach it, so please ask.
+              </p>
+
+              <div style={{ overflowX: "auto", border: "1px solid var(--color-border)", borderRadius: "12px" }}>
+                <table style={{ width: "100%", minWidth: "560px", borderCollapse: "collapse", fontSize: "0.9375rem" }}>
+                  <caption className="sr-only">Areas covered in and around {data.city}</caption>
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                        style={{
+                          textAlign: "left",
+                          padding: "0.875rem 1rem",
+                          color: "var(--color-text)",
+                          backgroundColor: "var(--bg-card)",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        Zone
+                      </th>
+                      <th
+                        scope="col"
+                        style={{
+                          textAlign: "left",
+                          padding: "0.875rem 1rem",
+                          color: "var(--color-text)",
+                          backgroundColor: "var(--bg-card)",
+                        }}
+                      >
+                        Localities
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {data.areaGroups.map((group) => (
+                      <tr key={group.zone}>
+                        <th
+                          scope="row"
+                          style={{
+                            textAlign: "left",
+                            verticalAlign: "top",
+                            padding: "0.875rem 1rem",
+                            borderTop: "1px solid var(--color-border)",
+                            color: "var(--color-text)",
+                            fontWeight: 700,
+                            whiteSpace: "nowrap",
+                          }}
+                        >
+                          {group.zone}
+                        </th>
+                        <td
+                          style={{
+                            padding: "0.875rem 1rem",
+                            borderTop: "1px solid var(--color-border)",
+                            color: "var(--color-muted)",
+                            lineHeight: "1.7",
+                          }}
+                        >
+                          {group.areas.join(", ")}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Jurisdiction and local risk settings: the city-specific part of the page */}
         {data.jurisdiction && (
           <section className="py-24" style={{ backgroundColor: "var(--bg-primary)" }}>

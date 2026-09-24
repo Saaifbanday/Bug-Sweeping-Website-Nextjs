@@ -11,6 +11,7 @@ export interface CityData {
   // Optional fields used by refreshed city pages; older entries fall back to defaults.
   seoTitle?: string;
   jurisdiction?: { heading: string; body: string[] };
+  areaGroups?: { zone: string; areas: string[] }[];
   settings?: { title: string; desc: string }[];
   faqs?: { q: string; a: string }[];
   guide?: { href: string; label: string };
@@ -41,6 +42,32 @@ export const cities: CityData[] = [
     ],
     metaDescription:
       "Bug sweeping services in Mumbai: TSCM sweeps for flats, offices and vehicles across Mumbai, Navi Mumbai and Thane. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "South Mumbai",
+        areas: ["Colaba", "Fort", "Churchgate", "Marine Lines", "Nariman Point", "Cuffe Parade", "Girgaon", "Malabar Hill", "Tardeo", "Byculla"],
+      },
+      {
+        zone: "Central Mumbai",
+        areas: ["Worli", "Lower Parel", "Parel", "Dadar", "Mahim", "Matunga", "Sion", "Wadala", "Prabhadevi"],
+      },
+      {
+        zone: "Western suburbs",
+        areas: ["Bandra", "Khar", "Santacruz", "Vile Parle", "Andheri", "Jogeshwari", "Goregaon", "Malad", "Kandivali", "Borivali", "Dahisar", "Juhu", "BKC"],
+      },
+      {
+        zone: "Eastern suburbs",
+        areas: ["Chembur", "Ghatkopar", "Vikhroli", "Bhandup", "Mulund", "Powai", "Kurla", "Kanjurmarg", "Govandi"],
+      },
+      {
+        zone: "Navi Mumbai",
+        areas: ["Vashi", "Nerul", "Belapur", "Kharghar", "Airoli", "Ghansoli", "Panvel", "Seawoods", "Taloja"],
+      },
+      {
+        zone: "Thane and beyond",
+        areas: ["Thane", "Kalyan", "Dombivli", "Mira Road", "Bhayandar", "Vasai", "Virar", "Ambernath", "Badlapur"],
+      },
+    ],
     jurisdiction: {
       heading: "The Mumbai region is several police commissionerates",
       body: [
@@ -169,6 +196,48 @@ export const cities: CityData[] = [
     ],
     metaDescription:
       "Bug sweeping services in Delhi NCR: TSCM sweeps for homes, offices and vehicles, covering hidden cameras, audio bugs and trackers. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Delhi",
+        areas: ["Connaught Place", "Karol Bagh", "Paharganj", "Daryaganj", "Civil Lines", "Rajendra Nagar", "Patel Nagar", "Jhandewalan"],
+      },
+      {
+        zone: "South Delhi",
+        areas: ["Defence Colony", "Greater Kailash", "Hauz Khas", "Saket", "Green Park", "Malviya Nagar", "Lajpat Nagar", "Chittaranjan Park", "Nehru Place", "Kalkaji", "Mehrauli", "Sainik Farms"],
+      },
+      {
+        zone: "West Delhi",
+        areas: ["Rajouri Garden", "Punjabi Bagh", "Janakpuri", "Tilak Nagar", "Paschim Vihar", "Vikaspuri", "Uttam Nagar", "Hari Nagar", "Kirti Nagar", "Moti Nagar", "Naraina", "Subhash Nagar"],
+      },
+      {
+        zone: "North and North West Delhi",
+        areas: ["Model Town", "Ashok Vihar", "Pitampura", "Rohini", "Shalimar Bagh", "Kamla Nagar", "Mukherjee Nagar", "Narela", "Wazirpur"],
+      },
+      {
+        zone: "East and North East Delhi",
+        areas: ["Preet Vihar", "Laxmi Nagar", "Mayur Vihar", "Patparganj", "Shahdara", "Dilshad Garden", "Krishna Nagar", "Vivek Vihar", "Seelampur"],
+      },
+      {
+        zone: "South West Delhi and Dwarka",
+        areas: ["Dwarka", "Najafgarh", "Palam", "R K Puram", "Munirka", "Vasant Kunj", "Vasant Vihar", "Janakpuri West"],
+      },
+      {
+        zone: "New Delhi and the Lutyens area",
+        areas: ["Chanakyapuri", "Khan Market", "Golf Links", "Jor Bagh", "Sunder Nagar", "Pandara Road"],
+      },
+      {
+        zone: "Gurugram",
+        areas: ["Cyber City", "Golf Course Road", "Sohna Road", "Udyog Vihar", "DLF Phases 1 to 5", "MG Road", "Sushant Lok", "Manesar"],
+      },
+      {
+        zone: "Noida and Greater Noida",
+        areas: ["Sector 16", "Sector 18", "Sector 62", "Sector 125 to 132", "Noida Extension", "Greater Noida West", "Knowledge Park"],
+      },
+      {
+        zone: "Faridabad and Ghaziabad",
+        areas: ["Sector 14 to 21 Faridabad", "Ballabhgarh", "Neharpar", "Indirapuram", "Vaishali", "Kaushambi", "Raj Nagar Extension"],
+      },
+    ],
     jurisdiction: {
       heading: "Delhi NCR is four police forces, not one",
       body: [
@@ -297,6 +366,28 @@ export const cities: CityData[] = [
     ],
     metaDescription:
       "Bug sweeping services in Bengaluru: TSCM sweeps for offices, homes, PGs and vehicles, from the CBD to Whitefield and Electronic City. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central business district",
+        areas: ["MG Road", "Brigade Road", "Lavelle Road", "Richmond Town", "Shivajinagar", "Cunningham Road", "Vittal Mallya Road", "Residency Road"],
+      },
+      {
+        zone: "East Bengaluru",
+        areas: ["Indiranagar", "Whitefield", "Marathahalli", "Mahadevapura", "KR Puram", "Old Airport Road", "Domlur", "CV Raman Nagar", "Varthur"],
+      },
+      {
+        zone: "South Bengaluru",
+        areas: ["Koramangala", "HSR Layout", "BTM Layout", "JP Nagar", "Jayanagar", "Banashankari", "Electronic City", "Bommanahalli", "Sarjapur Road", "Bannerghatta Road", "Basavanagudi"],
+      },
+      {
+        zone: "West Bengaluru",
+        areas: ["Rajajinagar", "Malleshwaram", "Vijayanagar", "Basaveshwaranagar", "Yeshwanthpur", "Peenya", "Nagarbhavi", "Kengeri", "RR Nagar"],
+      },
+      {
+        zone: "North Bengaluru",
+        areas: ["Hebbal", "Yelahanka", "Jakkur", "Thanisandra", "Manyata Tech Park", "Hennur", "Devanahalli", "Sahakar Nagar", "RT Nagar"],
+      },
+    ],
     jurisdiction: {
       heading: "Whitefield and Electronic City are inside the city police, not rural",
       body: [
@@ -420,6 +511,28 @@ export const cities: CityData[] = [
     ],
     metaDescription:
       "Bug sweeping services in Chandigarh, Mohali and Panchkula: TSCM sweeps for homes, offices and vehicles across the Tricity. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Chandigarh, northern sectors",
+        areas: ["Sector 1 to 12", "Civil Lines", "Sector 9", "Sector 10", "Sector 11", "Manimajra", "Mani Majra Modern Housing Complex"],
+      },
+      {
+        zone: "Chandigarh, central sectors",
+        areas: ["Sector 17", "Sector 22", "Sector 26", "Sector 27", "Sector 28", "Sector 33", "Sector 34", "Sector 35", "Industrial Area Phase 1 and 2"],
+      },
+      {
+        zone: "Chandigarh, southern sectors",
+        areas: ["Sector 38", "Sector 40", "Sector 43", "Sector 44", "Sector 45", "Sector 47", "Sector 48", "Sector 49", "Maloya", "Dhanas"],
+      },
+      {
+        zone: "Mohali and SAS Nagar",
+        areas: ["Phase 1 to 11", "Sector 70", "Sector 79 to 82", "IT City", "Aerocity", "Kharar", "Zirakpur", "Derabassi", "Banur"],
+      },
+      {
+        zone: "Panchkula",
+        areas: ["Sector 1 to 12", "Sector 14 to 21", "MDC", "Industrial Area Phase 1 and 2", "Pinjore", "Kalka", "Barwala", "Raipur Rani"],
+      },
+    ],
     jurisdiction: {
       heading: "Three cities, three separate police forces",
       body: [
