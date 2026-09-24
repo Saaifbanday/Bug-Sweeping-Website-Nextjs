@@ -1702,6 +1702,310 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "kolkata",
+    city: "Kolkata",
+    state: "West Bengal",
+    seoTitle: "Bug Sweeping Services in Kolkata | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Kolkata",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, flats and vehicles across Kolkata, Salt Lake, Sector V and New Town, along with Howrah and the northern suburbs.",
+    intro:
+      "Kolkata work divides between old buildings, where wiring and cavities rarely match any drawing, and the newer office stock out towards Salt Lake and New Town. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection of the places devices are usually concealed.",
+    whyUs:
+      "In older property the physical search carries most of the weight, because there is no as-built drawing to check against and generations of alterations sit behind the plaster. In the newer office buildings the problem inverts: the room is full of legitimate wireless equipment, and the work is separating one unexplained signal from all of it. We say in writing which areas we examined, which we could not reach, and what the result does and does not prove.",
+    areas: [
+      "Park Street & BBD Bagh",
+      "Ballygunge & Alipore",
+      "Salt Lake & Sector V",
+      "New Town & Rajarhat",
+      "Jadavpur & Tollygunge",
+      "EM Bypass & Beleghata",
+      "Howrah & northern suburbs",
+    ],
+    metaDescription:
+      "Bug sweeping services in Kolkata: TSCM sweeps for offices, flats and vehicles across the city, Salt Lake, Sector V and New Town. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Kolkata",
+        areas: ["Park Street", "Esplanade", "BBD Bagh", "Bowbazar", "Burrabazar", "Entally", "Sealdah", "Chowringhee"],
+      },
+      {
+        zone: "South Kolkata",
+        areas: ["Ballygunge", "Alipore", "Bhowanipore", "Gariahat", "Kasba", "Jadavpur", "Tollygunge", "Garia", "Behala", "New Alipore"],
+      },
+      {
+        zone: "North Kolkata",
+        areas: ["Shyambazar", "Sovabazar", "Maniktala", "Belgachia", "Cossipore", "Ultadanga", "Jorasanko", "Shobhabazar"],
+      },
+      {
+        zone: "East Kolkata",
+        areas: ["EM Bypass", "Beleghata", "Topsia", "Tangra", "Anandapur", "Kankurgachhi", "Phoolbagan", "Science City"],
+      },
+      {
+        zone: "Salt Lake, Sector V and New Town",
+        areas: ["Salt Lake Sector I", "Sector II", "Sector III", "Sector V", "New Town", "Rajarhat", "Eco Park", "Techno City", "Lake Town"],
+      },
+      {
+        zone: "Howrah and the suburbs",
+        areas: ["Howrah", "Shibpur", "Santragachi", "Barrackpore", "Dum Dum", "Madhyamgram", "Baranagar", "Barasat"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Sector V and New Town are not Kolkata Police",
+      body: [
+        "This catches out more office clients than any other detail here. Kolkata Police is its own force, organised into ten divisions covering seventy-nine territorial police stations as listed in the 2023 state gazette. Salt Lake, Sector V, New Town and Rajarhat appear nowhere on that list, because they fall under the Bidhannagar Police Commissionerate, a separate force with its own stations, including Electronics Complex for the Sector V township and dedicated stations for New Town and Rajarhat.",
+        "That matters when something is found. An office in Sector V reports to Bidhannagar, which also runs its own cyber crime police station, while a flat in Ballygunge reports to Kolkata Police, whose cyber capability since 2018 sits in a dedicated station in each division rather than only at Lalbazar. Howrah and Barrackpore are separate commissionerates again.",
+        "One more practical point: nothing you submit online in West Bengal is an FIR. The state citizen portal describes itself as a way of intimating your grievance to the local police station, and carries its own warning that it should not be referred to in a court of law. Kolkata Police's citizen portal lets you download an FIR rather than file one. For a cognizable offence such as voyeurism, the report is made at the station, ideally with the device left in place and photographed.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices in Sector V and the CBD",
+        desc: "Sweeps before a negotiation or board meeting, planned around the fact that the IT township is a different police commissionerate from the city centre.",
+      },
+      {
+        title: "Flats and older buildings",
+        desc: "Checks after a tenancy change, a renovation or a dispute, where decades of alterations mean the physical inspection matters more than any instrument reading.",
+      },
+      {
+        title: "Hotels and short stays",
+        desc: "Checks focused on fittings, sockets and anything facing the bed or bathroom. West Bengal's published guidance tells hotels to run CCTV in public areas; a camera in your room is a different matter entirely.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port, for cars left with drivers or at service centres.",
+      },
+    ],
+    faqs: [
+      {
+        q: "My office is in Sector V. Which police cover me?",
+        a: "Bidhannagar Police Commissionerate, not Kolkata Police. Salt Lake, Sector V, New Town and Rajarhat sit outside the list of Kolkata Police stations published in the 2023 state gazette, and Bidhannagar runs its own stations for those areas along with its own cyber crime police station. If a device is found in your Sector V office, that is where the case sits.",
+      },
+      {
+        q: "Can I file an FIR online in Kolkata?",
+        a: "No. West Bengal's citizen portal describes itself as a way to intimate your grievance to the local police station, and warns on its own page that it should not be referred to in a court of law. Kolkata Police's portal lets you download an FIR that already exists rather than file a new one. A cognizable offence means attending the police station.",
+      },
+      {
+        q: "Where do cyber complaints go in Kolkata?",
+        a: "Kolkata Police has run a cyber police station since 2010 and, since 2018, a dedicated cyber police station in each of its divisions, so you do not have to travel to Lalbazar. It also publishes a city cyber helpline alongside the national 1930 number and the cybercrime portal. In Salt Lake and New Town, Bidhannagar's own cyber crime police station is the right door.",
+      },
+      {
+        q: "Is there a rule about cameras in Kolkata paying guest accommodation?",
+        a: "We could not find any West Bengal registration or camera rule for paying guest accommodation or hostels on an official source, and neither Kolkata Police nor the state police publishes an advisory about hidden cameras. The protection you have comes from the criminal law on voyeurism rather than from any local licensing condition, so do not assume a baseline exists.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/kolkata#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/kolkata",
+          name: "Bug Sweeping Services in Kolkata",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/kolkata#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/kolkata#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/kolkata#place",
+          name: "Kolkata",
+          address: { "@type": "PostalAddress", addressLocality: "Kolkata", addressRegion: "West Bengal", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/kolkata#service",
+          name: "Bug sweeping and TSCM services in Kolkata",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/kolkata#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/kolkata#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/kolkata#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/kolkata" },
+            { "@type": "ListItem", position: 3, name: "Kolkata" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "chennai",
+    city: "Chennai",
+    state: "Tamil Nadu",
+    seoTitle: "Bug Sweeping Services in Chennai | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Chennai",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes and vehicles across Chennai, from the central business area and Anna Nagar to the OMR corridor, Tambaram and Avadi.",
+    intro:
+      "Chennai brings two distinct jobs: corporate floors along the IT corridor, and a large rented and hostel market across the city. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection of the places devices are usually concealed.",
+    whyUs:
+      "Reported Chennai cases point at fittings and at moments when strangers are lawfully inside. In a 2018 case at a hostel in Adambakkam, cameras were found concealed in light fittings, a dressing area and a bathroom switchboard, reportedly placed during renovation work; reports differ on whether six or nine were recovered. In 2023 a man was arrested in Velachery after complaints from a working women's hostel, having used an ordinary mobile phone rather than any specialist device. Renovations, repairs and ordinary phones are the pattern worth checking for.",
+    areas: [
+      "T Nagar & Nungambakkam",
+      "Anna Nagar & Kilpauk",
+      "Adyar & Besant Nagar",
+      "Velachery & Guindy",
+      "OMR & Sholinganallur",
+      "Tambaram & Chromepet",
+      "Avadi & Ambattur",
+    ],
+    metaDescription:
+      "Bug sweeping services in Chennai: TSCM sweeps for offices, homes and vehicles across the city, the OMR corridor, Tambaram and Avadi. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Chennai",
+        areas: ["T Nagar", "Nungambakkam", "Egmore", "Royapettah", "Mylapore", "Alwarpet", "Teynampet", "Anna Salai", "Chetpet"],
+      },
+      {
+        zone: "North Chennai",
+        areas: ["Royapuram", "Washermanpet", "Tondiarpet", "Perambur", "Vyasarpadi", "Manali", "Ennore", "Purasawalkam"],
+      },
+      {
+        zone: "South Chennai",
+        areas: ["Adyar", "Besant Nagar", "Thiruvanmiyur", "Velachery", "Guindy", "Saidapet", "Kotturpuram", "Madipakkam"],
+      },
+      {
+        zone: "West Chennai",
+        areas: ["Anna Nagar", "Kilpauk", "Aminjikarai", "Vadapalani", "Virugambakkam", "Mogappair", "Porur", "Valasaravakkam"],
+      },
+      {
+        zone: "OMR and the IT corridor",
+        areas: ["Perungudi", "Thoraipakkam", "Sholinganallur", "Navalur", "Siruseri", "Taramani", "Karapakkam", "Kelambakkam"],
+      },
+      {
+        zone: "Tambaram side",
+        areas: ["Tambaram", "Chromepet", "Pallavaram", "Selaiyur", "Perungalathur", "Vandalur", "Medavakkam", "Guduvancheri"],
+      },
+      {
+        zone: "Avadi and the north west",
+        areas: ["Avadi", "Ambattur", "Thirumullaivoyal", "Red Hills", "Poonamallee", "Pattabiram", "Thiruninravur"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Three commissionerates, and four cyber stations in the city",
+      body: [
+        "Greater Chennai Police covers 103 law and order police stations along with thirty-nine all women police stations and seventy-two traffic stations, serving a population of around seventy-two lakh. What surprises people is where it stops: Tambaram and Avadi have been separate commissionerates since the start of 2022, created by trifurcating the earlier Greater Chennai Police under a 2022 state Act. Avadi alone runs two law and order districts and around thirty stations. Someone in Tambaram or Red Hills who walks into a Greater Chennai station is in the wrong commissionerate.",
+        "For cyber matters, Tamil Nadu runs fifty-four cyber crime police stations, and Chennai city has four zonal ones covering its east, south, north and west zones. The state Cyber Crime Wing is headquartered in Chennai and includes an investigation centre that exists precisely for cases where the territorial jurisdiction of the complainant or the accused cannot be determined, which is a useful escalation to know about if a case crosses boundaries.",
+        "On reporting, the state police portal lets the public register a complaint online and look up an FIR, but an online complaint is its own category rather than an FIR, and Tamil Nadu separately maintains a community service register for non-cognizable matters. One practical warning worth having: of the calls made to the 1930 cyber helpline over a recent seven month period, official figures show only about one in eight were converted into complaints, so ask for your call to be recorded as a complaint and note the acknowledgement number.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices on the IT corridor",
+        desc: "Sweeps before a negotiation, an audit or a board meeting, in buildings where facilities teams, contractors and other tenants all have reason to be on the floor.",
+      },
+      {
+        title: "Hostels and rented accommodation",
+        desc: "Hostels for women and children in Tamil Nadu need a licence from the Collector. That is a licensing regime rather than a camera rule, so a camera inside a room remains a criminal matter, not a house rule.",
+      },
+      {
+        title: "Homes during and after building work",
+        desc: "Reported Chennai cases have involved devices placed during renovation, so a sweep after contractors leave is worth more than one booked months later.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port, for cars left with drivers or at service centres.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Do Tambaram and Avadi come under Greater Chennai Police?",
+        a: "No. Both have been separate police commissionerates since the start of 2022, created by trifurcating the earlier Greater Chennai Police under a state Act. If a device is found in Tambaram, Chromepet, Avadi or Red Hills, the complaint goes to that commissionerate rather than to a Greater Chennai station, even if you work in the city.",
+      },
+      {
+        q: "Which cyber police station covers Chennai?",
+        a: "Chennai city has four zonal cyber crime police stations, covering the east, south, north and west zones, out of fifty-four across Tamil Nadu. The state Cyber Crime Wing is headquartered in Chennai and runs an investigation centre for cases where the jurisdiction of the complainant or the accused cannot be determined. The 1930 helpline and the national portal will route a complaint for you.",
+      },
+      {
+        q: "Is 181 the women's helpline in Chennai?",
+        a: "181 exists in Tamil Nadu, but it is run by social welfare rather than the police, and it does not appear on the state police's own helpline list. The police list carries 1091 for women, now notified for a dedicated city task force and integrated with 112, alongside 1930 for cyber crime. For an urgent matter, 112 is the number.",
+      },
+      {
+        q: "Can I report a hidden camera online in Chennai?",
+        a: "You can register a complaint through the state police citizen portal, but an online complaint is a separate category from an FIR, and Tamil Nadu keeps a community service register for non-cognizable matters. For an offence such as voyeurism, go to the police station, and use 1930 in parallel for anything cyber.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/chennai#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/chennai",
+          name: "Bug Sweeping Services in Chennai",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/chennai#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/chennai#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/chennai#place",
+          name: "Chennai",
+          address: { "@type": "PostalAddress", addressLocality: "Chennai", addressRegion: "Tamil Nadu", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/chennai#service",
+          name: "Bug sweeping and TSCM services in Chennai",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/chennai#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/chennai#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/chennai#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/chennai" },
+            { "@type": "ListItem", position: 3, name: "Chennai" },
+          ],
+        },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

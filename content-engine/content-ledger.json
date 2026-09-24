@@ -798,5 +798,79 @@
     "date_modified": "",
     "notes": "Created 24 Sep 2026. Excluded: a Lucknow landlord hidden-camera story carried only by a low-quality outlet with no mainstream corroboration. A Kanpur hotel case is referenced as elsewhere in the state rather than presented as local. Police station count published with a hedge because official corroboration sits inside an unparsed PDF.",
     "revisions": []
+  },
+  {
+    "slug": "locations/kolkata",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/kolkata",
+    "page_type": "location-page",
+    "location": {
+      "city": "Kolkata",
+      "district": "",
+      "state": "West Bengal"
+    },
+    "primary_keyword": "bug sweeping services in kolkata",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Salt Lake, Sector V, New Town and Rajarhat are Bidhannagar Police Commissionerate, not Kolkata Police, which the 2023 state gazette station list confirms; Kolkata Police is 10 divisions and 79 territorial stations; cyber police stations exist in each division since 2018; nothing filed on the WB citizen portal is an FIR and the portal itself warns it should not be referred to in court.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Published 10 divisions and 79 territorial stations from the 2023 gazette rather than the widely repeated 91, which has no official source. No verified Kolkata hidden-camera case in window: several major outlets block automated access, so the page states no local case rather than implying one. No West Bengal PG or hostel camera rule found on an official source.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/chennai",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/chennai",
+    "page_type": "location-page",
+    "location": {
+      "city": "Chennai",
+      "district": "",
+      "state": "Tamil Nadu"
+    },
+    "primary_keyword": "bug sweeping services in chennai",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Tambaram and Avadi have been separate commissionerates since the start of 2022, so Greater Chennai Police stops before them; Chennai has four zonal cyber crime police stations and the state Cyber Crime Wing is headquartered in the city with an investigation centre for cases where jurisdiction cannot be determined; 181 is social welfare rather than police in Tamil Nadu; about one in eight calls to 1930 became complaints in a recent official seven-month figure.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Used the official Tamil Nadu Police policy note figures (103 law and order stations) rather than the 132 or 135 figures that circulate. The Adambakkam hostel case is dated 2018 and the camera count hedged because outlets differ. Tamil Nadu hostel licensing described as licensing, not a CCTV mandate, because the rules treat cameras as a disclosure item on a form.",
+    "revisions": []
   }
 ]
