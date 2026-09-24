@@ -802,6 +802,606 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "pune",
+    city: "Pune",
+    state: "Maharashtra",
+    seoTitle: "Bug Sweeping Services in Pune | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Pune",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, flats and vehicles across Pune and Pimpri-Chinchwad, from the IT belt at Hinjewadi to Koregaon Park and the southern suburbs.",
+    intro:
+      "Pune runs on rented space: company floors in business parks, flats let to people working three-year postings, paying guest rooms around the colleges and IT parks. That is the backdrop to most sweeps here. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "The question we ask first in Pune is what changed. A landlord who suddenly needs access, a fit-out contractor who came back for one more visit, a device left behind by whoever had the flat before you. A reported case from Ambegaon in July 2025 involved cameras installed inside a home, including the bathroom, by someone who lived there, which is the uncomfortable pattern behind a lot of domestic sweeps. Whatever we find is photographed in position before it is moved.",
+    areas: [
+      "Central Pune & Deccan",
+      "Koregaon Park & Kalyani Nagar",
+      "Kharadi, Hadapsar & Magarpatta",
+      "Baner, Aundh & Balewadi",
+      "Hinjewadi & Wakad",
+      "Pimpri-Chinchwad",
+      "Kothrud, Warje & Sinhagad Road",
+    ],
+    metaDescription:
+      "Bug sweeping services in Pune: TSCM sweeps for offices, flats and vehicles across Pune and Pimpri-Chinchwad. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Central Pune",
+        areas: ["Shivajinagar", "Deccan Gymkhana", "Camp", "Swargate", "Sadashiv Peth", "Erandwane", "Model Colony", "Shaniwar Peth"],
+      },
+      {
+        zone: "East Pune",
+        areas: ["Koregaon Park", "Kalyani Nagar", "Viman Nagar", "Kharadi", "Hadapsar", "Magarpatta", "Mundhwa", "Wagholi", "Yerwada", "Lohegaon"],
+      },
+      {
+        zone: "West Pune and the IT belt",
+        areas: ["Baner", "Balewadi", "Aundh", "Pashan", "Bavdhan", "Sus", "Hinjewadi", "Wakad", "Kothrud"],
+      },
+      {
+        zone: "South Pune",
+        areas: ["Katraj", "Kondhwa", "NIBM Road", "Undri", "Bibwewadi", "Sinhagad Road", "Dhayari", "Warje", "Ambegaon"],
+      },
+      {
+        zone: "Pimpri-Chinchwad",
+        areas: ["Pimpri", "Chinchwad", "Nigdi", "Akurdi", "Pimple Saudagar", "Pimple Gurav", "Ravet", "Bhosari", "Moshi", "Chakan", "Talegaon"],
+      },
+      {
+        zone: "Outer Pune",
+        areas: ["Lonikand", "Alandi", "Dehu Road", "Talegaon Dabhade", "Maval", "Shirur Road", "Saswad Road"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Pune, Pimpri-Chinchwad and Pune Rural are three different forces",
+      body: [
+        "This is the thing to get right before reporting anything. Pune City Police, the Pimpri-Chinchwad Police Commissionerate and Pune Rural Police are listed separately by Maharashtra Police, each with its own commissioner or superintendent and its own website. Pimpri-Chinchwad became a commissionerate in its own right in 2018.",
+        "The line runs straight through the IT belt. An office in Wakad or Hinjewadi is Pimpri-Chinchwad Police; a flat in Koregaon Park is Pune City Police; the village areas beyond the tech parks can fall to Pune Rural. Since the force that investigates is the one covering the place the device was found, an address a few kilometres apart can mean a different control room and a different station.",
+        "Maharashtra's citizen police portal currently does not offer its online services, and in any case a complaint form is not an FIR. For a cognizable offence such as voyeurism the report is made at a police station. Pune City Police runs a cyber police station at the city police headquarters in Shivajinagar, and the national helpline 1930 and the cybercrime portal will route a cyber complaint for you.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices in the IT parks",
+        desc: "Sweeps before a negotiation, an audit or a board meeting, in buildings where facilities teams, contractors and other tenants all have reason to be on the floor.",
+      },
+      {
+        title: "Rented flats and societies",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, smoke detectors and anything a landlord installed himself.",
+      },
+      {
+        title: "Paying guest rooms and hostels",
+        desc: "Pune's student and young-professional population lives in shared accommodation. A camera covering a private room is an offence whatever the house rules say.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port, for cars parked daily in shared society basements.",
+      },
+    ],
+    guide: {
+      href: "/blog/bug-sweeping-in-mumbai",
+      label: "Read our Maharashtra guide: jurisdiction, society cameras and where to complain",
+    },
+    faqs: [
+      {
+        q: "Is 103 the women's helpline in Pune?",
+        a: "No, and this is a common mistake. Maharashtra Police scopes 103 to Mumbai, Thane and Navi Mumbai, and lists 1091 for the rest of the state, which includes Pune. Use 112 for an emergency, 1091 as the women's helpline here, and 1930 for cyber crime.",
+      },
+      {
+        q: "My office is in Hinjewadi and my flat is in Pune city. Which police?",
+        a: "Whichever covers the address where the device was found. Hinjewadi and Wakad fall under the Pimpri-Chinchwad Police Commissionerate, which is separate from Pune City Police, and areas further out can fall to Pune Rural. If devices turn up in both places, treat them as two matters.",
+      },
+      {
+        q: "Can I report a hidden camera online in Pune?",
+        a: "Not as an FIR. Maharashtra's citizen police portal is not currently offering its online services, and an online complaint form is not an FIR in any case. A cognizable offence such as voyeurism is reported at a police station, or at the cyber police station for cyber matters, with 1930 and the national portal as a parallel route.",
+      },
+      {
+        q: "What affects the cost of a sweep in Pune?",
+        a: "The number and size of the spaces, how cluttered they are, whether vehicles or phones are in scope, and the depth of the report. Travel between Pune and the Pimpri-Chinchwad side, and after-hours access in office buildings, also affect scheduling. Ask for a written quote listing what is included.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/pune#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/pune",
+          name: "Bug Sweeping Services in Pune",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/pune#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/pune#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/pune#place",
+          name: "Pune",
+          address: { "@type": "PostalAddress", addressLocality: "Pune", addressRegion: "Maharashtra", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/pune#service",
+          name: "Bug sweeping and TSCM services in Pune",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/pune#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/pune#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/pune#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/pune" },
+            { "@type": "ListItem", position: 3, name: "Pune" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "hyderabad",
+    city: "Hyderabad",
+    state: "Telangana",
+    seoTitle: "Bug Sweeping Services in Hyderabad | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Hyderabad",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, flats and vehicles across Hyderabad, Secunderabad and the IT corridor at HITEC City, Madhapur and Gachibowli.",
+    intro:
+      "Hyderabad splits neatly into two working patterns: the corporate floors of the IT corridor, and dense residential neighbourhoods where hostels, paying guest accommodation and rented flats sit close together. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "Reported Telangana cases point at fittings rather than gadgets. In a 2024 case at a hotel near Shamshabad the owner was arrested after cameras were found built into switchboards and the ceiling, and in a January 2025 case at an engineering college hostel a phone had been concealed in a bathroom ventilator. So switchboards, ceiling fittings, ventilators and anything recently replaced get close attention, and whatever is found is photographed in position before it is moved.",
+    areas: [
+      "Banjara Hills & Jubilee Hills",
+      "HITEC City & Madhapur",
+      "Gachibowli & Financial District",
+      "Secunderabad & Begumpet",
+      "Kukatpally & Miyapur",
+      "Uppal, LB Nagar & Malkajgiri",
+      "Old City & Charminar",
+    ],
+    metaDescription:
+      "Bug sweeping services in Hyderabad: TSCM sweeps for offices, flats and vehicles across the city, Secunderabad and the IT corridor. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Hyderabad",
+        areas: ["Banjara Hills", "Jubilee Hills", "Somajiguda", "Begumpet", "Ameerpet", "Punjagutta", "Himayatnagar", "Khairatabad", "Abids", "Nampally"],
+      },
+      {
+        zone: "IT corridor",
+        areas: ["HITEC City", "Madhapur", "Gachibowli", "Kondapur", "Raidurg", "Nanakramguda", "Financial District", "Manikonda", "Kukatpally", "Miyapur"],
+      },
+      {
+        zone: "Secunderabad",
+        areas: ["Secunderabad", "Marredpally", "Tarnaka", "Alwal", "Bowenpally", "Trimulgherry", "Sainikpuri", "Paradise"],
+      },
+      {
+        zone: "East Hyderabad",
+        areas: ["Uppal", "LB Nagar", "Nacharam", "Habsiguda", "Dilsukhnagar", "Malkajgiri", "Ghatkesar", "Medchal"],
+      },
+      {
+        zone: "Old City",
+        areas: ["Charminar", "Falaknuma", "Chandrayangutta", "Santoshnagar", "Bahadurpura", "Malakpet"],
+      },
+      {
+        zone: "Outer Hyderabad",
+        areas: ["Shamshabad", "Rajendranagar", "Kompally", "Bachupally", "Shamirpet", "Adibatla", "Patancheru"],
+      },
+    ],
+    jurisdiction: {
+      heading: "The IT corridor is Cyberabad, not Hyderabad City Police",
+      body: [
+        "Greater Hyderabad is covered by more than one police commissionerate, and the boundary matters most in exactly the places people work. HITEC City, Madhapur, Raidurg, Gachibowli, the Financial District and Nanakramguda fall under the Cyberabad Commissionerate, while Banjara Hills, Secunderabad, Khairatabad and the Old City are Hyderabad City Police. An office in Madhapur and a flat in Himayatnagar answer to two different commissioners.",
+        "A reorganisation notified at the end of December 2025 added a further commissionerate and renamed another: the eastern side, covering areas such as Uppal, LB Nagar and Medchal, is now Malkajgiri rather than Rachakonda. Older guidance still telling residents there to contact Rachakonda Police is out of date, and boundaries have moved more than once, so confirm the current position for your address before filing.",
+        "Hyderabad City Police runs a cyber crime police station at Basheerbagh, and publishes a threshold for cyber fraud: larger losses go to the cyber crime police station directly, smaller ones to the local police station. Telangana's police portal lets you lodge a petition and look up an FIR, but a petition is not an FIR, and a cognizable offence such as voyeurism is registered at a police station.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices in the IT corridor",
+        desc: "Sweeps before a negotiation, a funding round or a board meeting, planned around the fact that the corridor is a different police commissionerate from the city centre.",
+      },
+      {
+        title: "Hostels and paying guest accommodation",
+        desc: "Hyderabad Police has reported requiring women's hostels and PGs in the city commissionerate to register locally and keep common-area cameras working; a camera inside a room is a different matter, and an offence.",
+      },
+      {
+        title: "Hotels and short stays",
+        desc: "In a reported 2024 case near Shamshabad, cameras were found built into switchboards and the ceiling of hotel rooms, so fittings facing the bed get close attention.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port, for cars used on a predictable daily commute.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which police cover HITEC City and Gachibowli?",
+        a: "Cyberabad, not Hyderabad City Police. HITEC City, Madhapur, Raidurg, Gachibowli, the Financial District and Nanakramguda sit in the Cyberabad Commissionerate, which has its own commissioner and its own cyber police station. If a device is found in your Madhapur office, that is where the case sits, even if you live in the city.",
+      },
+      {
+        q: "Is Rachakonda still the right name for the eastern suburbs?",
+        a: "No. Following a reorganisation notified in December 2025, the eastern commissionerate covering areas such as Uppal, LB Nagar and Medchal is now Malkajgiri. Its old website no longer resolves, so guidance still pointing you to Rachakonda Police needs updating.",
+      },
+      {
+        q: "Can I report a hidden camera online in Hyderabad?",
+        a: "Not as an FIR. Telangana's police portal lets you lodge a petition, check its status and view an FIR that already exists, but a petition is not an FIR. A cognizable offence such as voyeurism is reported at a police station. For cyber matters use 1930 and the national portal, and Hyderabad's cyber crime police station at Basheerbagh handles larger cyber fraud directly.",
+      },
+      {
+        q: "What affects the cost of a sweep in Hyderabad?",
+        a: "The number and size of the spaces, how cluttered they are, whether vehicles or phones are in scope, and the depth of the report. In corporate buildings, access approvals and after-hours scheduling often matter as much as floor area. Ask for a written quote listing what is included.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/hyderabad",
+          name: "Bug Sweeping Services in Hyderabad",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#place",
+          name: "Hyderabad",
+          address: { "@type": "PostalAddress", addressLocality: "Hyderabad", addressRegion: "Telangana", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#service",
+          name: "Bug sweeping and TSCM services in Hyderabad",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/hyderabad#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/hyderabad" },
+            { "@type": "ListItem", position: 3, name: "Hyderabad" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "jaipur",
+    city: "Jaipur",
+    state: "Rajasthan",
+    seoTitle: "Bug Sweeping Services in Jaipur | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Jaipur",
+    heroSubtitle:
+      "TSCM bug sweeps for homes, offices, hotels and vehicles across Jaipur, from the walled city to Mansarovar, Vaishali Nagar and the Sitapura belt.",
+    intro:
+      "Most sweeps in Jaipur start with a change rather than a crisis: a new tenant, a staff change in a family business, a dispute, or a rented flat taken by students or young professionals. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection of the places devices are usually concealed.",
+    whyUs:
+      "Jaipur's housing stock ranges from havelis and old walled-city property to new apartment blocks, and that changes the physical search more than the instruments. In older buildings, wiring and cavities rarely match any drawing, so the hands-on inspection carries the weight. We tell you what was examined, what was not reachable, and what the findings do and do not prove.",
+    areas: [
+      "Walled City & MI Road",
+      "Malviya Nagar & Jagatpura",
+      "Mansarovar & Sanganer",
+      "Vaishali Nagar & Ajmer Road",
+      "Vidhyadhar Nagar & Jhotwara",
+      "Raja Park & Adarsh Nagar",
+      "Sitapura & Tonk Road",
+    ],
+    metaDescription:
+      "Bug sweeping services in Jaipur: TSCM sweeps for homes, offices, hotels and vehicles across the city and outskirts. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Walled City and central Jaipur",
+        areas: ["Johari Bazaar", "Chandpole", "Tripolia Bazaar", "MI Road", "Bani Park", "Civil Lines", "Ajmeri Gate", "Ghat Gate"],
+      },
+      {
+        zone: "South Jaipur",
+        areas: ["Malviya Nagar", "Jagatpura", "Pratap Nagar", "Sanganer", "Mansarovar", "Durgapura", "Tonk Road", "Sitapura"],
+      },
+      {
+        zone: "West Jaipur",
+        areas: ["Vaishali Nagar", "Nirman Nagar", "Ajmer Road", "Mahesh Nagar", "Shyam Nagar", "Sodala", "Bhankrota"],
+      },
+      {
+        zone: "North Jaipur",
+        areas: ["Vidhyadhar Nagar", "Jhotwara", "Murlipura", "Amer Road", "Kalwar Road", "Sikar Road"],
+      },
+      {
+        zone: "East Jaipur",
+        areas: ["Raja Park", "Adarsh Nagar", "Jawahar Nagar", "Transport Nagar", "Khonagorian", "Jagatpura Road"],
+      },
+      {
+        zone: "Outer Jaipur",
+        areas: ["Kukas", "Chomu", "Bagru", "Achrol", "Ring Road corridor", "Delhi Road", "Agra Road"],
+      },
+    ],
+    jurisdiction: {
+      heading: "City or rural, and why the online route will not help here",
+      body: [
+        "Jaipur city is a police commissionerate under Rajasthan Police, organised into east, north, south and west zones alongside a metro and crime wing, and covering 75 police stations across 21 circles. Addresses beyond the city limits are served by Jaipur Rural, which Rajasthan Police still lists as a separate police district under Jaipur Range. That distinction survives even though the revenue district of the same name was dissolved at the end of 2024, so a reader outside the commissionerate boundary is dealing with a different force.",
+        "Rajasthan's online route is narrower than people assume. The state police list an e-FIR facility, and it is for vehicle theft. The lost article service states on its own page that a report lodged through it is not a subject matter for enquiry or investigation, which makes it useless for a surveillance device. An offence such as voyeurism therefore has to be reported at a police station.",
+        "For cyber matters, note that Jaipur is not listed with a neighbourhood cyber thana in the way districts such as Ajmer and Alwar are. The commissionerate's cyber capability sits in a single special offences and cyber crime police station under the crime wing, so the practical route is the national helpline 1930 and the cybercrime portal, or your local station.",
+      ],
+    },
+    settings: [
+      {
+        title: "Family businesses and offices",
+        desc: "Sweeps before a negotiation, a partition or a succession discussion, where the people with access are often known to everyone in the room.",
+      },
+      {
+        title: "Homes, havelis and rented flats",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, smoke detectors and anything a landlord installed himself.",
+      },
+      {
+        title: "Hotels and guest houses",
+        desc: "Jaipur's visitor traffic means high room turnover. Checks focus on fittings and objects facing the bed or bathroom, which is where devices are placed when they are placed at all.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port, for cars left with drivers or at service centres.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is 181 the women's helpline in Rajasthan?",
+        a: "No, and this catches people out. In Rajasthan 181 is the Rajasthan Sampark grievance helpline, not a women's line. The state Home Department lists 1090 for women and senior citizens, 1930 for cyber crime, and 112 for emergencies. Advice copied from other states will send you to the wrong queue.",
+      },
+      {
+        q: "Can I file an FIR online in Jaipur for a hidden camera?",
+        a: "No. Rajasthan's e-FIR facility is for vehicle theft, and the lost article report states that it is not a subject matter for enquiry or investigation. For an offence such as voyeurism you need to attend a police station. The online complaint service is a complaint rather than an FIR.",
+      },
+      {
+        q: "Does Jaipur have its own cyber police station?",
+        a: "Not in the district cyber thana form that some Rajasthan districts have. Jaipur's cyber capability sits in a single special offences and cyber crime police station under the commissionerate's crime wing, so for a cyber matter use 1930 or the national portal, or report at your local station, and let them route it.",
+      },
+      {
+        q: "Do you cover areas outside the city limits?",
+        a: "Yes, including Kukas, Chomu, Bagru and the Ring Road corridor. Those addresses fall under Jaipur Rural police rather than the city commissionerate, which matters if a device is found, because the complaint follows the address.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/jaipur#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/jaipur",
+          name: "Bug Sweeping Services in Jaipur",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/jaipur#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/jaipur#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/jaipur#place",
+          name: "Jaipur",
+          address: { "@type": "PostalAddress", addressLocality: "Jaipur", addressRegion: "Rajasthan", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/jaipur#service",
+          name: "Bug sweeping and TSCM services in Jaipur",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/jaipur#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/jaipur#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/jaipur#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/jaipur" },
+            { "@type": "ListItem", position: 3, name: "Jaipur" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "goa",
+    city: "Goa",
+    state: "North & South Goa",
+    seoTitle: "Bug Sweeping Services in Goa | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Goa",
+    heroSubtitle:
+      "TSCM bug sweeps for villas, rented homes, hotels and offices across North and South Goa, from the Bardez coast to Margao and Vasco.",
+    intro:
+      "Goa is a short-let economy, and that shapes the work. A villa may host a different party every week, a homestay changes guests constantly, and long-stay renters take houses furnished by someone else. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "In a property you did not furnish, the useful question is what was already here and who still has a key. Caretakers, cleaning staff, previous guests and owners all pass through, and turnover means anything placed once can record many different occupants before it is noticed. We check the fittings that face beds and bathrooms first, and document anything found in position before it is moved.",
+    areas: [
+      "Panaji & Porvorim",
+      "Calangute, Candolim & Baga",
+      "Anjuna, Vagator & Assagao",
+      "Mapusa & Bardez",
+      "Margao & Colva",
+      "Vasco, Dabolim & Mormugao",
+      "Palolem & Canacona",
+    ],
+    metaDescription:
+      "Bug sweeping services in Goa: TSCM sweeps for villas, rented homes, hotels and offices across North and South Goa. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "North Goa coast",
+        areas: ["Calangute", "Candolim", "Baga", "Anjuna", "Vagator", "Arpora", "Assagao", "Siolim", "Morjim", "Ashwem", "Mandrem", "Sinquerim"],
+      },
+      {
+        zone: "North Goa towns",
+        areas: ["Panaji", "Porvorim", "Mapusa", "Saligao", "Parra", "Aldona", "Bicholim", "Old Goa", "Dona Paula"],
+      },
+      {
+        zone: "South Goa coast",
+        areas: ["Colva", "Benaulim", "Varca", "Cavelossim", "Majorda", "Betalbatim", "Palolem", "Agonda", "Patnem"],
+      },
+      {
+        zone: "South Goa towns",
+        areas: ["Margao", "Vasco da Gama", "Dabolim", "Ponda", "Curchorem", "Quepem", "Canacona", "Sanguem"],
+      },
+      {
+        zone: "Business and industrial areas",
+        areas: ["Verna", "Sancoale", "Kundaim", "Corlim", "Pilerne", "Tuem", "Mormugao Port", "Patto Panaji"],
+      },
+    ],
+    jurisdiction: {
+      heading: "One state force, and a paper trail most states do not have",
+      body: [
+        "Goa Police is a single state force covering the North and South districts, with 31 police stations between them, along with specialist units including a cyber crime police station whose contact details the force publishes. There is no separate city commissionerate to work out, so the practical question is simply which station covers the property.",
+        "What makes Goa unusual is the registration regime behind accommodation. Under the state's tourist trade rules, every hotel-keeper has to submit guest data electronically each month, and the identity document is mandatory for the primary Indian guest as well as for foreign tourists. Failure carries fines and blocks renewal of registration. The statutory definition of a hotel is wide enough to cover premises let for money generally, which brings homestays, villas and serviced apartments into the same regime, and the homestay policy separately requires registration with the tourism department before operating and a guest register with photo identity.",
+        "Two practical consequences follow. A legitimate property is registered, keeps identified guest records and can be inspected; an operator who cannot show registration is telling you something. And district magistrates in Goa have periodically ordered hotels, guest houses, shacks and private landlords to verify guest identity and file the verification with the local police station, so the paperwork you are asked for is usually a real requirement rather than an imposition.",
+      ],
+    },
+    settings: [
+      {
+        title: "Villas and short lets",
+        desc: "High turnover means a device placed once can record many different guests. Checks focus on fittings facing beds and bathrooms, and on anything recently added by a caretaker.",
+      },
+      {
+        title: "Hotels and homestays",
+        desc: "Cameras in public areas are ordinary security; a camera in a room or bathroom is an offence. We examine the room as a guest experiences it.",
+      },
+      {
+        title: "Rented homes",
+        desc: "Long-stay renters take houses furnished by somebody else, so the sweep covers what was already installed as much as anything new.",
+      },
+      {
+        title: "Offices and vehicles",
+        desc: "Sweeps for business premises around Panaji, Verna and Margao, and tracker checks covering the underbody, wheel arches, bumpers, boot and diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which helpline numbers apply in Goa?",
+        a: "Goa's numbering differs from much of India, so check before you dial. Goa Police lists 1091 as the women's helpline and 1090 as the senior citizens' helpline, which is the reverse of some states. Use 112 for emergencies and 1930 for cyber crime. Goa also runs 181 as a women's helpline through its health and women and child services, separate from the police line.",
+      },
+      {
+        q: "What should a legitimate Goa property be able to show me?",
+        a: "Registration under the state's tourist trade rules, which is compulsory before operating and carries a substantial penalty if skipped, and a guest register with photo identity. Hotel-keepers must also submit guest data to the tourism department electronically each month, with an identity document required for the primary Indian guest as well as foreign tourists. An operator who cannot show registration is worth a second thought.",
+      },
+      {
+        q: "Do you cover both North and South Goa?",
+        a: "Yes, from the Bardez coastal belt and Panaji through to Margao, Vasco and the Canacona end. Goa Police is a single state force across both districts, so the reporting route is the same wherever the property sits, though the station covering the address differs.",
+      },
+      {
+        q: "What affects the cost of a sweep in Goa?",
+        a: "The size and number of the spaces, how cluttered they are, whether vehicles are in scope, and the depth of the report. Villas take longer than hotel rooms, and travel between the North and South districts affects scheduling. Ask for a written quote listing what is included.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/goa#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/goa",
+          name: "Bug Sweeping Services in Goa",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/goa#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/goa#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/goa#place",
+          name: "Goa",
+          address: { "@type": "PostalAddress", addressRegion: "Goa", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/goa#service",
+          name: "Bug sweeping and TSCM services in Goa",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/goa#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/goa#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/goa#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/goa" },
+            { "@type": "ListItem", position: 3, name: "Goa" },
+          ],
+        },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

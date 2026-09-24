@@ -576,5 +576,153 @@
     "date_modified": "",
     "notes": "Created 24 Sep 2026. No hidden-camera advisory exists from either force, and no verified planted-camera case was found in Gurugram itself, so neither is implied.",
     "revisions": []
+  },
+  {
+    "slug": "locations/pune",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/pune",
+    "page_type": "location-page",
+    "location": {
+      "city": "Pune",
+      "district": "",
+      "state": "Maharashtra"
+    },
+    "primary_keyword": "bug sweeping services in pune",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Pune City, Pimpri-Chinchwad (separate commissionerate since 2018) and Pune Rural are three forces, and the line runs through the IT belt (Wakad/Hinjewadi vs Koregaon Park); 103 is scoped to Mumbai, Thane and Navi Mumbai so Pune uses 1091; Maharashtra citizen portal online services are not currently offered.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Neither state force publishes a hidden-camera advisory, and weakly sourced or mislabelled local cases were excluded.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/hyderabad",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/hyderabad",
+    "page_type": "location-page",
+    "location": {
+      "city": "Hyderabad",
+      "district": "",
+      "state": "Telangana"
+    },
+    "primary_keyword": "bug sweeping services in hyderabad",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "HITEC City, Madhapur, Gachibowli, Financial District and Nanakramguda are Cyberabad, not Hyderabad City Police; the December 2025 reorganisation renamed Rachakonda to Malkajgiri; Hyderabad cyber crime PS at Basheerbagh applies a loss threshold for who handles a cyber complaint.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Neither state force publishes a hidden-camera advisory, and weakly sourced or mislabelled local cases were excluded.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/jaipur",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/jaipur",
+    "page_type": "location-page",
+    "location": {
+      "city": "Jaipur",
+      "district": "",
+      "state": "Rajasthan"
+    },
+    "primary_keyword": "bug sweeping services in jaipur",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Jaipur Commissionerate covers 75 police stations across 21 circles while Jaipur Rural remains a separate police district; Rajasthan e-FIR is vehicle theft only and the lost article report states it is not a subject for investigation; 181 is Rajasthan Sampark, not a women helpline (1090 is).",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Neither state force publishes a hidden-camera advisory, and weakly sourced or mislabelled local cases were excluded.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/goa",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/goa",
+    "page_type": "location-page",
+    "location": {
+      "city": "Goa",
+      "district": "",
+      "state": "Goa"
+    },
+    "primary_keyword": "bug sweeping services in goa",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Single state force across North and South districts with 31 police stations; tourist trade rules require hotel-keepers to file guest data electronically each month with identity documents for Indian primary guests, with a wide statutory definition of hotel covering homestays and villas; Goa lists 1091 for women and 1090 for senior citizens, the reverse of several states.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Neither state force publishes a hidden-camera advisory, and weakly sourced or mislabelled local cases were excluded.",
+    "revisions": []
   }
 ]
