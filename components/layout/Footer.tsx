@@ -263,7 +263,7 @@ export default function Footer() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs" style={{ color: "var(--color-muted)" }}>
-            &copy; {new Date().getFullYear()} BugSweepingTSCM.com — All Rights
+            &copy; {new Date().getFullYear()} BugSweepingTSCM.com. All Rights
             Reserved.
           </p>
           <div className="flex gap-4">

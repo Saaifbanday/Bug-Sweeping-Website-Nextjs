@@ -283,6 +283,92 @@ export default async function CityPage({
           </div>
         </section>
 
+        {/* Jurisdiction and local risk settings: the city-specific part of the page */}
+        {data.jurisdiction && (
+          <section className="py-24" style={{ backgroundColor: "var(--bg-primary)" }}>
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+              <p className="section-label mb-4">Coverage</p>
+              <h2 className="section-title mb-6">{data.jurisdiction.heading}</h2>
+              {data.jurisdiction.body.map((para) => (
+                <p
+                  key={para.slice(0, 40)}
+                  className="mb-5 leading-relaxed"
+                  style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}
+                >
+                  {para}
+                </p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {data.settings && data.settings.length > 0 && (
+          <section className="py-24" style={{ backgroundColor: "var(--bg-surface)" }}>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-14">
+                <p className="section-label mb-4">Where sweeps are asked for</p>
+                <h2 className="section-title mb-5">
+                  Common situations in{" "}
+                  <span style={{ color: "var(--color-accent)" }}>{data.city}</span>
+                </h2>
+              </div>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {data.settings.map((item) => (
+                  <div
+                    key={item.title}
+                    className="rounded-2xl p-8"
+                    style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--color-border)" }}
+                  >
+                    <h3 className="text-lg font-bold mb-3" style={{ color: "var(--color-text)" }}>
+                      {item.title}
+                    </h3>
+                    <p style={{ color: "var(--color-muted)", fontSize: "0.9375rem", lineHeight: "1.75" }}>
+                      {item.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* What you receive, and the honest limits. Kept short; the detail lives on /services. */}
+        {data.faqs && data.faqs.length > 0 && (
+          <section className="py-24" style={{ backgroundColor: "var(--bg-primary)" }}>
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+              <p className="section-label mb-4">What you receive</p>
+              <h2 className="section-title mb-6">The report, and what it can establish</h2>
+              <p className="mb-5 leading-relaxed" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
+                After the sweep you receive a written report: the areas examined and any that could not be
+                accessed, the methods used in each, anything found with photographs taken in position, and
+                practical recommendations. If a device is found, we document it before anyone moves it, so the
+                evidence survives for a police complaint.
+              </p>
+              <p className="mb-5 leading-relaxed" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
+                A sweep reports what was found in the areas examined, with the methods used, at the time of the
+                visit. Finding nothing does not prove nothing was ever there, and no sweep keeps a space clean
+                afterwards. We would rather say that plainly than promise complete detection.
+              </p>
+              <p className="leading-relaxed" style={{ color: "var(--color-muted)", fontSize: "1.0625rem" }}>
+                The full range of sweeps is described on our{" "}
+                <Link href="/services" style={{ color: "var(--color-accent)" }}>
+                  services page
+                </Link>
+                , and our{" "}
+                <Link href="/blog/bug-sweeping-in-india" style={{ color: "var(--color-accent)" }}>
+                  national guide
+                </Link>{" "}
+                covers how to prepare, what drives the cost, and what to do if you find a device. The
+                credentials behind the work, including company registration and award documentation, are on the{" "}
+                <Link href="/meet-the-founder" style={{ color: "var(--color-accent)" }}>
+                  founder page
+                </Link>
+                .
+              </p>
+            </div>
+          </section>
+        )}
+
         {data.faqs && data.faqs.length > 0 && (
           <section className="py-24" style={{ backgroundColor: "var(--bg-surface)" }}>
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
