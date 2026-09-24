@@ -1402,6 +1402,306 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "ahmedabad",
+    city: "Ahmedabad",
+    state: "Gujarat",
+    seoTitle: "Bug Sweeping Services in Ahmedabad | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Ahmedabad",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes and vehicles across Ahmedabad, from the walled city and Maninagar out to the SG Highway belt, Bopal and Sanand.",
+    intro:
+      "Ahmedabad work splits between family businesses where the people with access are known to everyone, and corporate floors along the western corridor where they are not. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection of the places devices are usually concealed.",
+    whyUs:
+      "Two reported Gujarat cases show how these devices actually surface here. In September 2026 a woman in Ahmedabad found a tracking device on her scooter while it was being serviced, and filed a complaint at Sarkhej police station. In 2023 a tracker tag was found glued under a car seat cover, again at a service visit. Routine servicing is where vehicle devices tend to turn up, which is why our vehicle checks cover the places a quick look never reaches.",
+    areas: [
+      "Navrangpura & Vastrapur",
+      "SG Highway & Bodakdev",
+      "Prahlad Nagar & Satellite",
+      "Bopal, Shela & Gota",
+      "Maninagar & east Ahmedabad",
+      "Walled city & Shahibaug",
+      "Sanand, Changodar & Bavla",
+    ],
+    metaDescription:
+      "Bug sweeping services in Ahmedabad: TSCM sweeps for offices, homes and vehicles across the city and the SG Highway belt. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "West Ahmedabad",
+        areas: ["Navrangpura", "Vastrapur", "Bodakdev", "Thaltej", "Satellite", "Prahlad Nagar", "Ambawadi", "Paldi", "Ellisbridge"],
+      },
+      {
+        zone: "SG Highway and the western fringe",
+        areas: ["SG Highway", "Bopal", "Shela", "Ghuma", "Gota", "Hebatpur", "Khodiyar", "Science City", "Shilaj"],
+      },
+      {
+        zone: "North Ahmedabad",
+        areas: ["Sabarmati", "Chandkheda", "Motera", "Ranip", "New Ranip", "Nava Vadaj", "Chandlodia", "Tragad"],
+      },
+      {
+        zone: "East Ahmedabad",
+        areas: ["Maninagar", "Vastral", "Naroda", "Bapunagar", "Nikol", "Odhav", "CTM", "Vatva", "Isanpur", "Ghodasar"],
+      },
+      {
+        zone: "Walled city and central",
+        areas: ["Lal Darwaja", "Kalupur", "Relief Road", "Astodia", "Dariapur", "Shahibaug", "Khadia", "Raipur"],
+      },
+      {
+        zone: "South and industrial belt",
+        areas: ["Narol", "Sarkhej", "Juhapura", "Changodar", "Aslali", "Vatva GIDC", "Sanand", "Bavla"],
+      },
+      {
+        zone: "Gandhinagar side",
+        areas: ["Gandhinagar", "Infocity", "Adalaj", "Kudasan", "Randesan", "Kalol", "Zundal"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Check which force covers your address, because it changed recently",
+      body: [
+        "Ahmedabad City Police is a commissionerate under Gujarat Police, organised into seven zones and fourteen divisions covering thirty-nine police stations, alongside a women's police station and the traffic stations. Gandhinagar is separate, policed as its own district rather than by Ahmedabad City, and the GIFT City area sits on that side of the line rather than inside the city commissionerate.",
+        "The boundary moved in 2025. Reported changes notified in May that year brought a series of fringe stretches into Ahmedabad City Police from the rural and Gandhinagar sides, including the ring road around Bopal, the Gota, Hebatpur and Khodiyar belt, the Adalaj side around Tragad and Zundal, and the Changodar and Aslali stretch, each attached to a named city station. Anyone out on that fringe who assumes the rural police still cover them may start at the wrong station.",
+        "Gujarat does offer an e-FIR, and it is narrower than the name suggests. It covers vehicle and mobile phone theft, only where the accused is unidentified and no force was used, and the submission is not itself an FIR: an investigating officer verifies the complainant, reported as within forty-eight hours, before the station in charge registers a case. A hidden camera or tracker complaint, which usually has a suspect in mind, falls outside that route entirely and means attending the police station.",
+      ],
+    },
+    settings: [
+      {
+        title: "Family businesses and offices",
+        desc: "Sweeps before a negotiation, a partition or a succession discussion, and for corporate floors along the western corridor.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks after a tenancy change, renovation or dispute, covering fittings, sockets, smoke detectors and anything installed by someone else.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot, seat cavities and the diagnostic port. Reported Gujarat cases have surfaced devices during routine servicing.",
+      },
+      {
+        title: "Hotels and short stays",
+        desc: "Checks focused on fittings, sockets and objects facing the bed or bathroom, which is where devices are placed when they are placed at all.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I file an e-FIR in Ahmedabad for a hidden camera or tracker?",
+        a: "No. Gujarat's e-FIR covers vehicle and mobile phone theft, and only where the accused is unidentified and no force was used. It is also not an FIR on submission: an officer verifies the complainant first, reported as within forty-eight hours, before a case is registered. A surveillance device complaint means attending the police station.",
+      },
+      {
+        q: "Which police cover Bopal, Gota and the SG Highway fringe?",
+        a: "Ahmedabad City Police, following jurisdiction changes reported in May 2025 that moved several fringe stretches in from the rural and Gandhinagar sides and attached them to named city stations. If your address is out on that fringe, confirm the current station rather than assuming the rural police still cover it.",
+      },
+      {
+        q: "Do you cover Gandhinagar and GIFT City?",
+        a: "Yes, we work across both. Worth knowing for reporting: Gandhinagar is policed separately from Ahmedabad City, and the GIFT City area sits on that side, so a device found there is a matter for the Gandhinagar side rather than the city commissionerate.",
+      },
+      {
+        q: "Which numbers should I use in Ahmedabad?",
+        a: "112 for an emergency and 1930 for cyber crime. Gujarat Police lists 181 as the Abhayam women's helpline, which is the state's own line rather than the number used in several other states, so advice copied from elsewhere may send you to the wrong place.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/ahmedabad",
+          name: "Bug Sweeping Services in Ahmedabad",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#place",
+          name: "Ahmedabad",
+          address: { "@type": "PostalAddress", addressLocality: "Ahmedabad", addressRegion: "Gujarat", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#service",
+          name: "Bug sweeping and TSCM services in Ahmedabad",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/ahmedabad#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/ahmedabad" },
+            { "@type": "ListItem", position: 3, name: "Ahmedabad" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "lucknow",
+    city: "Lucknow",
+    state: "Uttar Pradesh",
+    seoTitle: "Bug Sweeping Services in Lucknow | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Lucknow",
+    heroSubtitle:
+      "TSCM bug sweeps for homes, offices and vehicles across Lucknow, from Hazratganj and Gomti Nagar to Alambagh, Sushant Golf City and the outer roads.",
+    intro:
+      "Lucknow brings a particular mix: government and institutional offices, family businesses, and a large rented market serving students and young professionals. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection of the places devices are usually concealed.",
+    whyUs:
+      "The question we start with is who has had lawful access and what changed. A landlord who suddenly needs entry, a contractor who came back, a device left behind by a previous tenant. Elsewhere in Uttar Pradesh, a case reported from Kanpur in May 2026 involved cameras found across hotel rooms with footage being sold on, which is a reminder that in short stays the fittings facing the bed deserve attention rather than a glance.",
+    areas: [
+      "Hazratganj & Qaiserbagh",
+      "Gomti Nagar & Vibhuti Khand",
+      "Indira Nagar & Mahanagar",
+      "Aliganj & Jankipuram",
+      "Alambagh & Krishna Nagar",
+      "Sushant Golf City & Amar Shaheed Path",
+      "Chinhat & Faizabad Road",
+    ],
+    metaDescription:
+      "Bug sweeping services in Lucknow: TSCM sweeps for homes, offices and vehicles across the city and outer roads. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Central Lucknow",
+        areas: ["Hazratganj", "Qaiserbagh", "Aminabad", "Charbagh", "Husainganj", "Lalbagh", "Chowk", "Aishbagh"],
+      },
+      {
+        zone: "Gomti Nagar side",
+        areas: ["Gomti Nagar", "Gomti Nagar Extension", "Vibhuti Khand", "Vipul Khand", "Vinay Khand", "Patrakarpuram", "Indira Nagar", "Mahanagar"],
+      },
+      {
+        zone: "North and trans-Gomti",
+        areas: ["Aliganj", "Jankipuram", "Vikas Nagar", "Sitapur Road", "IIM Road", "Madiyaon", "Kursi Road"],
+      },
+      {
+        zone: "West and south Lucknow",
+        areas: ["Alambagh", "Rajajipuram", "Krishna Nagar", "Aashiana", "Talkatora", "Sarojini Nagar", "Kanpur Road", "LDA Colony"],
+      },
+      {
+        zone: "Outer Lucknow",
+        areas: ["Sushant Golf City", "Amar Shaheed Path", "Chinhat", "Faizabad Road", "Bakshi Ka Talab", "Kakori", "Mohanlalganj", "Banthra"],
+      },
+    ],
+    jurisdiction: {
+      heading: "A commissionerate since 2020, and an online FIR that will not take your case",
+      body: [
+        "Lucknow has been policed as a commissionerate under Uttar Pradesh Police since January 2020, organised into five zones and thirteen divisions covering around fifty police stations. That matters for practical reasons as much as structural ones: guidance still addressed to a senior superintendent of police is describing an office that no longer runs the city.",
+        "Uttar Pradesh's e-FIR portal states in its own words that the facility is available only for cases with an unknown accused and for non-special-report matters. A hidden camera or tracker complaint usually points at someone with access, a landlord, an employer, a hotel operator or a former partner, which puts it outside e-FIR. The separate citizen portal takes complaints, tenant and paying guest verification and similar services, but a complaint form is not an FIR either, so the report is made at the police station.",
+        "Two Lucknow-specific routes are worth knowing. The city has its own cyber police station, listed with its contact address in the state police's published list of district cyber police stations, and 1090, the Women Power Line, is not merely a number that works here: it is run from Lucknow by the Uttar Pradesh Police Women and Child Security Organization, operating around the clock and linked to police stations across the state.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices and institutional premises",
+        desc: "Sweeps before a negotiation, a tender discussion or a sensitive meeting, in buildings where support staff and contractors hold routine access.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, smoke detectors and anything a landlord installed himself.",
+      },
+      {
+        title: "Paying guest rooms and hostels",
+        desc: "Shared accommodation around the colleges and coaching centres. A camera covering a private room is an offence whatever the house rules say.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port, for cars left with drivers or at service centres.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I file an e-FIR in Lucknow for a hidden camera?",
+        a: "Usually not. The Uttar Pradesh e-FIR portal states that the facility is only for cases with an unknown accused and non-special-report matters. A hidden camera complaint normally names or suspects someone with access, which puts it outside that route, so the report is made at the police station. The citizen portal's complaint service is a complaint, not an FIR.",
+      },
+      {
+        q: "Is 1090 useful in Lucknow, or should I call 181?",
+        a: "1090, the Women Power Line, is run from Lucknow itself by the Uttar Pradesh Police Women and Child Security Organization, operates around the clock and is linked to police stations across the state. For a woman reporting stalking or covert recording it is the more specialised route. Use 112 for an emergency and 1930 for cyber crime.",
+      },
+      {
+        q: "Does Lucknow have its own cyber police station?",
+        a: "Yes. Lucknow appears with its own entry, including a contact address, in the state police's published list of district cyber police stations. For cyber matters you can also use 1930 or the national cybercrime portal, which route the complaint to the right station.",
+      },
+      {
+        q: "What affects the cost of a sweep in Lucknow?",
+        a: "The number and size of the spaces, how cluttered they are, whether vehicles or phones are in scope, and the depth of the report. Access arrangements and after-hours scheduling for occupied offices also affect it. Ask for a written quote listing what is included.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/lucknow#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/lucknow",
+          name: "Bug Sweeping Services in Lucknow",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/lucknow#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/lucknow#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/lucknow#place",
+          name: "Lucknow",
+          address: { "@type": "PostalAddress", addressLocality: "Lucknow", addressRegion: "Uttar Pradesh", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/lucknow#service",
+          name: "Bug sweeping and TSCM services in Lucknow",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/lucknow#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/lucknow#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/lucknow#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/lucknow" },
+            { "@type": "ListItem", position: 3, name: "Lucknow" },
+          ],
+        },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

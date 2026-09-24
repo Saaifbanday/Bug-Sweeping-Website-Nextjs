@@ -724,5 +724,79 @@
     "date_modified": "",
     "notes": "Created 24 Sep 2026. Neither state force publishes a hidden-camera advisory, and weakly sourced or mislabelled local cases were excluded.",
     "revisions": []
+  },
+  {
+    "slug": "locations/ahmedabad",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/ahmedabad",
+    "page_type": "location-page",
+    "location": {
+      "city": "Ahmedabad",
+      "district": "",
+      "state": "Gujarat"
+    },
+    "primary_keyword": "bug sweeping services in ahmedabad",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Ahmedabad City Police is seven zones and 39 police stations; Gandhinagar and the GIFT City area are policed separately; jurisdiction changes reported in May 2025 moved SG Highway fringe areas into the city commissionerate; Gujarat e-FIR covers vehicle and mobile theft only, is not an FIR on submission and requires officer verification first; 181 is Gujarat Abhayam.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Excluded: the lapsed ahmedabadcitypolice.org domain (now serving gambling content) and any figure sourced to it, including the 48-police-station number; an AMC PG reclassification claim sourced only to a commercial blog; and the AirTag case detail about call records, which AppleInsider flagged as wrong. The AirTag first-in-India framing is attributed, not asserted.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/lucknow",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/lucknow",
+    "page_type": "location-page",
+    "location": {
+      "city": "Lucknow",
+      "district": "",
+      "state": "Uttar Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in lucknow",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Commissionerate since January 2020 with five zones and about 50 police stations; UP e-FIR is limited by the portal to unknown-accused and non-special-report cases; Lucknow has its own cyber police station in the state list; 1090 Women Power Line is run from Lucknow by the UP Police Women and Child Security Organization.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-24",
+    "date_modified": "",
+    "notes": "Created 24 Sep 2026. Excluded: a Lucknow landlord hidden-camera story carried only by a low-quality outlet with no mainstream corroboration. A Kanpur hotel case is referenced as elsewhere in the state rather than presented as local. Police station count published with a hedge because official corroboration sits inside an unparsed PDF.",
+    "revisions": []
   }
 ]
