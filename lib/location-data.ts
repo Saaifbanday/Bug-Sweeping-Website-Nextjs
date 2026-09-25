@@ -2006,6 +2006,908 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "surat",
+    city: "Surat",
+    state: "Gujarat",
+    seoTitle: "Bug Sweeping Services in Surat | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Surat",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, factories, homes and vehicles across Surat, from Athwalines and Vesu to the Hazira, Sachin and Pandesara industrial belts.",
+    intro:
+      "Surat's commercial sweeps are shaped by what the city does: diamond units where a single room holds enormous value, and textile businesses where designs and buyer lists are the asset. The district administration puts three quarters of the world's diamond cutting and polishing here, across more than five thousand units, alongside tens of thousands of textile enterprises. We agree the scope with you first, then work through it with radio-frequency analysis, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "The reported local case is a reminder that the device is usually ordinary. In August 2025 a cleaner at a Piplod restaurant was arrested after a customer spotted a mobile phone placed on the ventilation grill of the women's washroom, with one of the two phones seized carrying no SIM and used only for recording. Vents, grills and high fittings are where we look before anything exotic, and whatever is found is documented in position before it is moved.",
+    areas: [
+      "Athwalines & Piplod",
+      "Vesu & Dumas Road",
+      "Adajan & Palanpur",
+      "Varachha & Katargam",
+      "Udhna & Pandesara",
+      "Sachin GIDC & Hazira",
+      "Kamrej & Olpad",
+    ],
+    metaDescription:
+      "Bug sweeping services in Surat: TSCM sweeps for offices, factories, homes and vehicles across the city and its industrial belts. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "West Surat",
+        areas: ["Athwalines", "Piplod", "Vesu", "Dumas Road", "Pal", "Adajan", "Palanpur", "Rander", "City Light"],
+      },
+      {
+        zone: "North and east Surat",
+        areas: ["Varachha", "Katargam", "Kapodra", "Amroli", "Sarthana", "Nana Varachha", "Mota Varachha", "Utran"],
+      },
+      {
+        zone: "South Surat",
+        areas: ["Udhna", "Pandesara", "Limbayat", "Bhestan", "Bamroli", "Dindoli", "Parvat Patiya"],
+      },
+      {
+        zone: "Industrial belts",
+        areas: ["Hazira", "Sachin", "Sachin GIDC", "Ichchhapor", "Magdalla", "Pandesara GIDC", "Khatodara"],
+      },
+      {
+        zone: "Surat district",
+        areas: ["Kamrej", "Olpad", "Kadodara", "Palsana", "Bardoli", "Mandvi", "Kosamba", "Kim"],
+      },
+    ],
+    jurisdiction: {
+      heading: "City or district, and why the numbers you read elsewhere are stale",
+      body: [
+        "Surat City Police is a commissionerate, and its published structure is larger than most content sites suggest: two additional commissioner sectors, seven zones numbered one to seven, and fourteen divisions lettered A to N. The widely copied line about four zones, eight divisions and twenty-eight police stations describes an older arrangement, so treat any station count you read online with caution.",
+        "The split that matters commercially is city against district. Hazira, Sachin, Sachin GIDC, Pandesara and Ichchhapor are covered by named city police stations, so a plant there deals with Surat City Police. Kamrej and Olpad fall to Surat Rural, a separate superintendent's force with sixteen stations across four divisions. Dialling the wrong one costs hours on the day something is found.",
+        "On reporting, Gujarat's e-FIR facility covers vehicle and mobile phone theft only, where the accused is unidentified and no force was used, and it is not an FIR on submission: an officer verifies the complainant, reported as within forty-eight hours, before a case is registered. A covert recording complaint falls outside that route entirely. For cyber matters Surat runs a cyber crime police station with several inspector-led units on a shared line, alongside 1930 and the national portal, and the women's helpline Gujarat publishes is 181 Abhayam rather than the number used in other states.",
+      ],
+    },
+    settings: [
+      {
+        title: "Diamond and textile offices",
+        desc: "Sweeps before a negotiation, a buyer visit or a partnership change, in premises where value is concentrated in a few rooms and staff access is routine.",
+      },
+      {
+        title: "Factories and industrial units",
+        desc: "Checks across meeting rooms, cabins and vehicle bays in the Hazira, Sachin and Pandesara belts, planned around shift patterns.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, vents and anything recently installed by someone else.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks for cars and two-wheelers, working through the underbody, wheel arches, bumpers, boot and the diagnostic port under the dashboard.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Hazira or Sachin covered by Surat City Police or the district force?",
+        a: "Hazira, Sachin, Sachin GIDC, Pandesara and Ichchhapor are covered by named Surat City police stations, so they sit inside the commissionerate. Kamrej and Olpad fall to Surat Rural, which is a separate force with its own superintendent. Where a device is found decides which one takes the complaint.",
+      },
+      {
+        q: "Can I file an e-FIR in Surat for a hidden camera?",
+        a: "No. Gujarat's e-FIR covers vehicle and mobile phone theft, only where the accused is unidentified and no force was used, and it is not an FIR on submission: an officer verifies the complainant first, reported as within forty-eight hours. A covert recording complaint means attending the police station.",
+      },
+      {
+        q: "Which helpline should a woman in Surat use?",
+        a: "Gujarat publishes 181, the Abhayam helpline, which runs statewide with rescue vans and a panic-button app. Gujarat Police does not currently advertise the number used in several other states, so advice copied from elsewhere may send you to the wrong line. Use 112 for an emergency and 1930 for cyber crime.",
+      },
+      {
+        q: "What affects the cost of a sweep in Surat?",
+        a: "The number and size of the spaces, how cluttered they are, whether vehicles are in scope, and the depth of the report. In industrial premises, shift timing and access approvals often matter as much as floor area. Ask for a written quote listing what is included.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/surat#webpage", url: "https://www.bugsweepingtscm.com/locations/surat", name: "Bug Sweeping Services in Surat", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/surat#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/surat#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/surat#place", name: "Surat", address: { "@type": "PostalAddress", addressLocality: "Surat", addressRegion: "Gujarat", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/surat#service", name: "Bug sweeping and TSCM services in Surat", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/surat#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/surat#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/surat#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/surat" }, { "@type": "ListItem", position: 3, name: "Surat" } ] },
+      ],
+    },
+  },
+  {
+    slug: "nagpur",
+    city: "Nagpur",
+    state: "Maharashtra",
+    seoTitle: "Bug Sweeping Services in Nagpur | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Nagpur",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes and vehicles across Nagpur, from Civil Lines and Dharampeth to the MIHAN and Hingna industrial areas.",
+    intro:
+      "Nagpur combines government and legal offices, family businesses and the newer corporate floors around MIHAN, the multi-modal hub whose special economic zone the state development corporation puts at over a thousand hectares. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "Most covert recording reported locally involves an ordinary phone used opportunistically rather than a planted device. In a case reported in early 2025, a man was caught filming through a washroom window at a Sitabuldi cultural centre, with twenty recordings found on his phone. That shapes where we look: sightlines through windows, vents and gaps get checked alongside the fittings inside the room.",
+    areas: [
+      "Civil Lines & Sitabuldi",
+      "Dharampeth & Ramdaspeth",
+      "Sadar & Kamptee Road",
+      "Wardha Road & Ajni",
+      "MIHAN & Khapri",
+      "Hingna & MIDC",
+      "Manish Nagar & Besa",
+    ],
+    metaDescription:
+      "Bug sweeping services in Nagpur: TSCM sweeps for offices, homes and vehicles across the city, MIHAN and the industrial areas. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Nagpur",
+        areas: ["Civil Lines", "Sitabuldi", "Dhantoli", "Ramdaspeth", "Dharampeth", "Sadar", "Gandhibagh", "Itwari"],
+      },
+      {
+        zone: "South Nagpur",
+        areas: ["Ajni", "Wardha Road", "Manish Nagar", "Besa", "Beltarodi", "Sonegaon", "Jaitala", "Trimurti Nagar"],
+      },
+      {
+        zone: "East Nagpur",
+        areas: ["Nandanvan", "Sakkardara", "Wathoda", "Bhandewadi", "Kalamna", "Lakadganj", "Pardi"],
+      },
+      {
+        zone: "North and west Nagpur",
+        areas: ["Jaripatka", "Kapil Nagar", "Mankapur", "Gittikhadan", "Ambazari", "Bajaj Nagar", "Koradi", "Kamptee"],
+      },
+      {
+        zone: "Industrial and outer areas",
+        areas: ["MIHAN", "Khapri", "Hingna", "Hingna MIDC", "Butibori", "Wadi", "Kanhan", "Khaparkheda"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Nagpur uses 1091, and has two cyber police stations",
+      body: [
+        "Start with the helpline, because this is the detail most often copied wrongly. Maharashtra Police states on its own citizen portal that the 103 women's helpline runs in the Mumbai, Thane and Navi Mumbai police units, and that the rest of Maharashtra uses 1091. Nagpur City Police publishes 1091 on its own site. Any page telling a Nagpur reader to dial 103 is repeating Mumbai's number.",
+        "Nagpur City Police is separate from Nagpur Rural, which has its own superintendent, so an address outside the city limits is a different force. Unusually for a city this size, the city directory lists two cyber police stations rather than one, a north and a south, alongside a cyber crime unit at Police Bhavan in Civil Lines. Nagpur also publishes 14407 alongside the national 1930 number.",
+        "Online reporting routes through the state citizen portal, and Nagpur publishes no policy of its own about what that portal can do. Mumbai Police, which runs on the same system, states plainly that its online complaints cover only minor, non-cognizable matters and that an FIR for a cognizable crime can only be registered at a police station. Voyeurism is cognizable, so plan on attending the station.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices and chambers",
+        desc: "Sweeps before a negotiation, a hearing or a board meeting, in premises where support staff and contractors hold routine access.",
+      },
+      {
+        title: "MIHAN and industrial premises",
+        desc: "Checks across meeting rooms, cabins and vehicle bays in the special economic zone and the Hingna and Butibori belts.",
+      },
+      {
+        title: "Hotels and lodges",
+        desc: "Nagpur Police was reported in September 2026 to have ordered hotels, lodges and guest houses to verify guest identity and keep entrance camera footage for ninety days. That is a record-keeping rule, not protection inside your room, which is where we look.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, vents, window sightlines and anything recently installed by someone else.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is 103 the women's helpline in Nagpur?",
+        a: "No. Maharashtra Police states that 103 runs in the Mumbai, Thane and Navi Mumbai police units and that the rest of the state uses 1091, and Nagpur City Police publishes 1091 on its own site. Use 112 for an emergency and 1930 for cyber crime; Nagpur also publishes 14407 for cyber complaints.",
+      },
+      {
+        q: "Where do cyber complaints go in Nagpur?",
+        a: "The city directory lists two cyber police stations, a north and a south, alongside a cyber crime unit based at Police Bhavan in Civil Lines. That is a deeper structure than most cities this size. The 1930 helpline and the national portal will route a complaint if you are unsure which covers your address.",
+      },
+      {
+        q: "Can I report a hidden camera online in Nagpur?",
+        a: "Not as an FIR. Nagpur routes online complaints to the Maharashtra citizen portal and publishes no policy of its own. Mumbai Police, on the same system, states that online complaints cover only minor, non-cognizable matters and that a cognizable offence can only be registered at a police station. Voyeurism is cognizable.",
+      },
+      {
+        q: "Do you cover MIHAN, Hingna and Butibori?",
+        a: "Yes, along with the city itself. Worth checking before you report anything: Nagpur Rural is a separate force from Nagpur City Police, so an address beyond the city limits may fall to a different superintendent even though it feels like the same place.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/nagpur#webpage", url: "https://www.bugsweepingtscm.com/locations/nagpur", name: "Bug Sweeping Services in Nagpur", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/nagpur#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/nagpur#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/nagpur#place", name: "Nagpur", address: { "@type": "PostalAddress", addressLocality: "Nagpur", addressRegion: "Maharashtra", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/nagpur#service", name: "Bug sweeping and TSCM services in Nagpur", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/nagpur#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/nagpur#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/nagpur#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/nagpur" }, { "@type": "ListItem", position: 3, name: "Nagpur" } ] },
+      ],
+    },
+  },
+  {
+    slug: "indore",
+    city: "Indore",
+    state: "Madhya Pradesh",
+    seoTitle: "Bug Sweeping Services in Indore | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Indore",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hostels and vehicles across Indore, from Vijay Nagar and Palasia to Rau, Super Corridor and the outer areas.",
+    intro:
+      "Indore is the state's commercial centre and a heavy student city, so sweeps here divide between business premises and rented accommodation. We settle the scope with you first. The sweep itself runs radio-frequency analysis across the space, a non-linear junction detector over surfaces and fittings to catch electronics that are powered down, optical and thermal checks, and a physical search of the spots a device can actually be hidden in",
+    whyUs:
+      "A reported Indore case from April 2026 shows how ordinary the settings are: a camera was found in a common washroom of an office complex near Janjeerwala Square, a cleaner was arrested, and the case was registered at Tukoganj police station under the voyeurism provision of the Bharatiya Nyaya Sanhita with the devices sent for forensic examination. Shared washrooms, service areas and anything a maintenance worker can reach unobserved get close attention.",
+    areas: [
+      "Vijay Nagar & Scheme 54",
+      "Palasia & AB Road",
+      "Old Palasia & Tukoganj",
+      "Rau & Super Corridor",
+      "Bhanwarkuan & Rajendra Nagar",
+      "Sudama Nagar & Annapurna",
+      "Pithampur & Mhow side",
+    ],
+    metaDescription:
+      "Bug sweeping services in Indore: TSCM sweeps for offices, homes, hostels and vehicles across the city and outskirts. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Central Indore",
+        areas: ["Palasia", "Old Palasia", "Tukoganj", "MG Road", "Rajwada", "Sarafa", "Chhawni", "Siyaganj"],
+      },
+      {
+        zone: "East Indore",
+        areas: ["Vijay Nagar", "Scheme 54", "Scheme 78", "Nipania", "Bicholi Mardana", "Khajrana", "Bengali Square", "Ring Road"],
+      },
+      {
+        zone: "South Indore",
+        areas: ["Bhanwarkuan", "Rajendra Nagar", "Sudama Nagar", "Annapurna", "Dwarkapuri", "Silicon City", "Khandwa Road"],
+      },
+      {
+        zone: "West and north Indore",
+        areas: ["Vijay Nagar West", "Bapat Square", "Sukhliya", "Malviya Nagar", "Lasudiya", "Super Corridor", "Gandhi Nagar", "Airport area"],
+      },
+      {
+        zone: "Outer Indore",
+        areas: ["Rau", "Mhow", "Simrol", "Sanwer", "Depalpur", "Hatod", "Betma", "Pithampur"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Rau is city police, Mhow is rural, Pithampur is another district",
+      body: [
+        "Indore has been policed as a commissionerate since December 2021, organised into four zones each under a deputy commissioner. The boundary catches people out on the outskirts. Rau sits inside the commissionerate in zone one, but Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma fall to Indore Rural under a superintendent headquartered at Mhow. Pithampur is not Indore at all: it is policed by Dhar district. A sweep at a Pithampur plant that calls Indore Police is calling the wrong force.",
+        "Two helpline corrections matter in Madhya Pradesh. Both city police sites publish 1090 as the women's helpline. The 181 number, which is a women's line in several other states, is the Chief Minister's grievance helpline here, for complaints about government departments rather than police emergencies. Use 112 for an emergency, 1090 for women, 1930 for cyber crime, and the city's own cyber cell alongside them.",
+        "Madhya Pradesh does have an e-FIR, and the state police describe it as an alternative facility for getting an FIR registered rather than an FIR in itself: the complainant is expected to attend the police station within about three days, and the eligible categories centre on vehicle theft with an unidentified accused. A covert recording complaint is not in that category, so it belongs at the station. One local lever worth knowing: a standing order under the criminal procedure code requires hotels, lodges, hostels and landlords to report occupant details to the local police station, and Indore Police booked twenty-two establishments in a single drive in November 2025 for failing to do so.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices and shared premises",
+        desc: "Sweeps covering meeting rooms and the shared washrooms and service areas that the reported local case turned on.",
+      },
+      {
+        title: "Hostels and paying guest rooms",
+        desc: "Indore's student population lives in shared accommodation. Operators are already required to report occupant details to the police, which is a lever if a landlord resists questions.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, smoke detectors and anything recently installed by someone else.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Cars handed to drivers or left at a workshop get checked underneath, around the bumpers and wheel arches, inside the boot lining and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Pithampur covered by Indore Police?",
+        a: "No. Pithampur is policed by Dhar district, not Indore. Rau is inside the Indore commissionerate, while Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma fall to Indore Rural under a superintendent based at Mhow. Confirm which force covers your address before reporting anything.",
+      },
+      {
+        q: "Is 181 the women's helpline in Indore?",
+        a: "No. In Madhya Pradesh 181 is the Chief Minister's grievance helpline for complaints about government departments. Both Indore and Bhopal police publish 1090 as the women's helpline. Use 112 for an emergency and 1930 for cyber crime.",
+      },
+      {
+        q: "Can I file an e-FIR in Indore for a hidden camera?",
+        a: "No. Madhya Pradesh's e-FIR is described by the state police as an alternative way of getting an FIR registered rather than an FIR itself, with a station visit expected within about three days, and the eligible categories centre on vehicle theft with an unidentified accused. A covert recording complaint is made at the police station.",
+      },
+      {
+        q: "Can I ask a hostel or landlord in Indore about their police reporting?",
+        a: "Yes. A standing police order requires hotels, lodges, hostels and landlords to report occupant details to the local police station in a prescribed format, and Indore Police booked twenty-two establishments in one drive in November 2025 for not doing so. There is no separate paying guest licence or camera rule in the city that we could verify.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/indore#webpage", url: "https://www.bugsweepingtscm.com/locations/indore", name: "Bug Sweeping Services in Indore", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/indore#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/indore#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/indore#place", name: "Indore", address: { "@type": "PostalAddress", addressLocality: "Indore", addressRegion: "Madhya Pradesh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/indore#service", name: "Bug sweeping and TSCM services in Indore", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/indore#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/indore#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/indore#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/indore" }, { "@type": "ListItem", position: 3, name: "Indore" } ] },
+      ],
+    },
+  },
+  {
+    slug: "bhopal",
+    city: "Bhopal",
+    state: "Madhya Pradesh",
+    seoTitle: "Bug Sweeping Services in Bhopal | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Bhopal",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes and vehicles across Bhopal, from Arera Colony and MP Nagar to Kolar, Bairagarh and the outer areas.",
+    intro:
+      "Bhopal is the state capital, so a large share of the work sits around government, institutional and professional offices, alongside homes and rented flats. Scope is agreed before we arrive. The sweep then combines radio-frequency analysis, a non-linear junction detector that responds to dormant electronics, optical and thermal checks, and a hands-on inspection of fittings, voids and furniture",
+    whyUs:
+      "The local case worth knowing did not happen in a hotel. In December 2024 a mobile phone was reported found in the false ceiling of a changing room at a diagnostic centre in Arera Hills, spotted by a patient's husband, with an employee arrested. Clinics, salons, fitting rooms and any space where people change deserve the same attention as bedrooms, and false ceilings are exactly the void a quick visual check skips.",
+    areas: [
+      "MP Nagar & Arera Colony",
+      "Shyamla Hills & Shahpura",
+      "Kolar Road & Bagsewaniya",
+      "Bairagarh & Gandhi Nagar",
+      "Govindpura & Piplani",
+      "Old City & Ibrahimpura",
+      "Misrod & Bhojpur Road",
+    ],
+    metaDescription:
+      "Bug sweeping services in Bhopal: TSCM sweeps for offices, homes and vehicles across the capital and its outskirts. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "New Bhopal",
+        areas: ["MP Nagar", "Arera Colony", "Arera Hills", "Shahpura", "Shyamla Hills", "TT Nagar", "Char Imli", "Habibganj"],
+      },
+      {
+        zone: "South Bhopal",
+        areas: ["Kolar Road", "Bagsewaniya", "Bagmugaliya", "Misrod", "Katara Hills", "Bhojpur Road", "Chunabhatti"],
+      },
+      {
+        zone: "East Bhopal",
+        areas: ["Govindpura", "Piplani", "Awadhpuri", "Ayodhya Nagar", "Ashoka Garden", "Anand Nagar", "BHEL area"],
+      },
+      {
+        zone: "Old city",
+        areas: ["Ibrahimpura", "Hamidia Road", "Peer Gate", "Shahjahanabad", "Jahangirabad", "Kohefiza", "Talaiya", "Budhwara"],
+      },
+      {
+        zone: "West and outer Bhopal",
+        areas: ["Bairagarh", "Gandhi Nagar", "Khajuri Sadak", "Nishatpura", "Ratibad", "Neelbad", "Berasia", "Mandideep"],
+      },
+    ],
+    jurisdiction: {
+      heading: "What the commissionerate covers, and where it stops",
+      body: [
+        "Bhopal has been policed as a commissionerate since December 2021, and its own site describes thirty-four police stations plus four special stations organised across four zones. Bairagarh and Kolar are inside it, in the fourth zone, so they are city police rather than rural. Berasia and a handful of other stations remain outside under a rural superintendent, and Mandideep, the industrial town people often treat as part of Bhopal, is in Raisen district and policed from there.",
+        "Check the number before you need it. Bhopal Police publish 1090 for women. The 181 line, which several states use for exactly that purpose, is the Chief Minister's grievance helpline here and handles complaints about government departments rather than police emergencies, so advice copied from another state will misdirect you. Emergencies go to 112, cyber fraud to 1930, and local cyber matters to the commissionerate's cyber cell.",
+        "The state's e-FIR does not do what its name suggests. Madhya Pradesh Police present it as a route towards getting an FIR registered, not a registered FIR, and the complainant is expected at the station within roughly three days; the categories it accepts centre on vehicle theft where the accused is unknown. A covert recording complaint is outside that, so it is made in person. Bhopal is also the one city in this state where an official camera advisory exists: guidance issued in November 2025 after a hospital camera hack told people to secure their own systems and to avoid installing cameras in bedrooms, changing rooms and bathrooms. It is about hardening your own CCTV rather than finding a hidden device, and it is worth reading in that light.",
+      ],
+    },
+    settings: [
+      {
+        title: "Government and professional offices",
+        desc: "Booked ahead of a tender discussion, a negotiation or a closed meeting, in buildings where cleaning crews, vendors and visitors pass through every day.",
+      },
+      {
+        title: "Clinics, salons and changing areas",
+        desc: "The reported local case involved a phone concealed in a false ceiling at a diagnostic centre, so ceiling voids, vents and fittings above head height get checked properly.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Worth doing when a tenancy changes hands or a dispute turns bitter. We look at light fittings, sockets, detectors and any object that arrived in the room without you.",
+      },
+      {
+        title: "Vehicles",
+        desc: "A tracker sweep takes in the wheel arches, bumpers, boot lining and the diagnostic port under the dashboard, which is where a self-powered unit is easiest to leave.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Are Kolar and Bairagarh covered by Bhopal city police?",
+        a: "Yes. Both sit inside the commissionerate's fourth zone. Berasia and some neighbouring stations remain under a rural superintendent, and Mandideep is in Raisen district and policed from there, which matters if a device is found at an industrial unit that feels like part of Bhopal.",
+      },
+      {
+        q: "Is 181 the women's helpline in Bhopal?",
+        a: "No. That number is the Chief Minister's grievance helpline in this state, for complaints against government departments. The women's helpline published by Bhopal Police is 1090. Emergencies go to 112 and cyber fraud to 1930.",
+      },
+      {
+        q: "Does Bhopal have any official guidance about cameras and privacy?",
+        a: "Yes, with a caveat. Guidance issued in November 2025, after a hospital camera system was hacked, advised securing your own cameras, changing default passwords and avoiding cameras in bedrooms, changing rooms and bathrooms. It is about protecting systems you own rather than detecting a covert device someone else has placed.",
+      },
+      {
+        q: "Can I file an e-FIR in Bhopal for a hidden camera?",
+        a: "No. Madhya Pradesh Police present the e-FIR as a step towards registration rather than a registered FIR, expect the complainant at the station within roughly three days, and limit it to categories centred on vehicle theft with an unknown accused. Voyeurism is not among them, so report it in person.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/bhopal#webpage", url: "https://www.bugsweepingtscm.com/locations/bhopal", name: "Bug Sweeping Services in Bhopal", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/bhopal#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/bhopal#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/bhopal#place", name: "Bhopal", address: { "@type": "PostalAddress", addressLocality: "Bhopal", addressRegion: "Madhya Pradesh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/bhopal#service", name: "Bug sweeping and TSCM services in Bhopal", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/bhopal#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/bhopal#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/bhopal#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/bhopal" }, { "@type": "ListItem", position: 3, name: "Bhopal" } ] },
+      ],
+    },
+  },
+  {
+    slug: "kanpur",
+    city: "Kanpur",
+    state: "Uttar Pradesh",
+    seoTitle: "Bug Sweeping Services in Kanpur | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Kanpur",
+    heroSubtitle:
+      "TSCM bug sweeps for homes, offices, hotels and vehicles across Kanpur, from Civil Lines and Swaroop Nagar to the Panki, Dada Nagar and Jajmau industrial belts.",
+    intro:
+      "Kanpur mixes old industrial property, family-run businesses and a large rented market around the colleges. We agree the scope with you first, then examine it using radio-frequency analysis for devices that transmit, a non-linear junction detector for electronics that are switched off, optical and thermal checks, and a close physical inspection of the places devices are usually concealed.",
+    whyUs:
+      "The local case worth knowing shapes how we check hotel and guest rooms here. In May 2026, cameras were reported found in all ten rooms of a hotel in the Rawatpur area, concealed inside the power adapters serving the televisions, with around 250 recordings recovered and several arrests made. A charger or adapter is the one object in a room that everybody plugs into and nobody inspects, so that is where we start rather than finish.",
+    areas: [
+      "Civil Lines & Mall Road",
+      "Swaroop Nagar & Arya Nagar",
+      "Kakadeo & Kalyanpur",
+      "Govind Nagar & Kidwai Nagar",
+      "Barra & Naubasta",
+      "Panki & Dada Nagar",
+      "Jajmau & Chakeri",
+    ],
+    metaDescription:
+      "Bug sweeping services in Kanpur: TSCM sweeps for homes, offices, hotels and vehicles across the city and its industrial belts. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Kanpur",
+        areas: ["Civil Lines", "Mall Road", "Parade", "Chunniganj", "Gumti No 5", "Harsh Nagar", "Arya Nagar", "Swaroop Nagar", "Meston Road"],
+      },
+      {
+        zone: "South Kanpur",
+        areas: ["Govind Nagar", "Kidwai Nagar", "Barra", "Naubasta", "Yashoda Nagar", "Sarvodaya Nagar", "Shyam Nagar", "Hanspuram"],
+      },
+      {
+        zone: "West Kanpur",
+        areas: ["Kakadeo", "Kalyanpur", "Rawatpur", "Vikas Nagar", "Shastri Nagar", "Keshav Puram", "Gujaini", "Ratanpur"],
+      },
+      {
+        zone: "East Kanpur",
+        areas: ["Jajmau", "Chakeri", "Ashok Nagar", "Harjinder Nagar", "Defence Colony", "Tikra", "Kanpur Cantt"],
+      },
+      {
+        zone: "Industrial belts",
+        areas: ["Panki", "Panki Industrial Area", "Dada Nagar", "Fazalganj", "Jajmau tanneries", "Vijay Nagar", "Armapur"],
+      },
+      {
+        zone: "Outer Kanpur",
+        areas: ["Bithoor", "Mandhana", "Sachendi", "Bilhaur", "Ghatampur", "Chaubepur", "Narwal"],
+      },
+    ],
+    jurisdiction: {
+      heading: "A commissionerate, so the escalation ladder is different",
+      body: [
+        "Kanpur Nagar is policed as a commissionerate, which changes who you go to when a complaint stalls. Above the station house officer sits an assistant commissioner for the circle, then a deputy commissioner for the zone, the city being divided into east, west and south zones alongside separate crime and traffic wings, then the additional commissioners and the commissioner. Advice written for the rest of Uttar Pradesh, which tells you to approach a superintendent of police, is describing a structure the city no longer uses.",
+        "Kanpur Dehat is a separate district with its own force, so it is worth checking which side of the line an address sits on. The industrial areas people ask about most, Panki, Dada Nagar and Jajmau, are inside Kanpur Nagar and therefore inside the commissionerate.",
+        "Two reporting points matter here. Uttar Pradesh's e-FIR facility states on the portal itself that it is available only for cases with an unknown accused and non special report matters, so a complaint that names a hotel operator, a landlord or a former partner falls outside it and belongs at the police station. Kanpur does, however, have its own cyber police station listed in the state police's cyber index, which is the right desk for a recording or device matter alongside 1930 and the national portal.",
+      ],
+    },
+    settings: [
+      {
+        title: "Hotels and guest rooms",
+        desc: "Checks that start at the power adapters, chargers and fittings serving televisions and bedside points, which is where the reported local case concealed its cameras.",
+      },
+      {
+        title: "Offices and industrial premises",
+        desc: "Sweeps before a negotiation, a tender or a partnership discussion, in premises where contractors and maintenance staff hold routine access.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, smoke detectors and anything a landlord installed himself.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Vehicles left with a driver or at a workshop are checked underneath, at the bumpers and wheel arches, in the boot lining and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I file an e-FIR in Kanpur for a hidden camera?",
+        a: "Usually not. The Uttar Pradesh e-FIR portal states that the facility is only for cases with an unknown accused and non special report matters. A hidden camera complaint normally points at someone with access, so the report belongs at the police station. The state citizen portal's complaint service is a complaint rather than an FIR.",
+      },
+      {
+        q: "My complaint is not moving. Who do I escalate to in Kanpur?",
+        a: "Because Kanpur is a commissionerate, escalation runs from the station house officer to the assistant commissioner for the circle, then to the deputy commissioner for your zone, east, west or south, and upward to the additional commissioners and the commissioner. There is no superintendent of police in the city structure to write to.",
+      },
+      {
+        q: "Does Kanpur have its own cyber police station?",
+        a: "Yes. Kanpur appears with its own entry, including a published email address, in the Uttar Pradesh Police index of district cyber police stations. For a recording or device matter you can use that desk, and 1930 or the national cybercrime portal will route a complaint for you.",
+      },
+      {
+        q: "Do you cover Panki, Dada Nagar and Jajmau?",
+        a: "Yes, along with the rest of the city and the outer areas towards Bithoor and Mandhana. Those industrial belts sit inside Kanpur Nagar, so they fall under the commissionerate rather than the neighbouring district force, which matters if a device is found and a complaint follows.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/kanpur#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/kanpur",
+          name: "Bug Sweeping Services in Kanpur",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/kanpur#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/kanpur#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/kanpur#place",
+          name: "Kanpur",
+          address: { "@type": "PostalAddress", addressLocality: "Kanpur", addressRegion: "Uttar Pradesh", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/kanpur#service",
+          name: "Bug sweeping and TSCM services in Kanpur",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/kanpur#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/kanpur#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/kanpur#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/kanpur" },
+            { "@type": "ListItem", position: 3, name: "Kanpur" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "patna",
+    city: "Patna",
+    state: "Bihar",
+    seoTitle: "Bug Sweeping Services in Patna | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Patna",
+    heroSubtitle:
+      "TSCM bug sweeps for homes, offices, hostels and vehicles across Patna, from Gandhi Maidan and Boring Road to Kankarbagh, Danapur and Phulwari Sharif.",
+    intro:
+      "Patna runs on rented accommodation and coaching, alongside government and professional offices in the centre. Scope comes first, agreed with you before anything is booked. On site we run radio-frequency analysis, sweep surfaces with a non-linear junction detector so that a device left switched off still shows up, take optical and thermal readings, and inspect the room by hand",
+    whyUs:
+      "Student accommodation is the setting people ask about most here, and it is also where the rules changed recently. Elsewhere in Bihar, a camera was reported found above a geyser in a hostel bathroom, which is the sort of placement a glance around the room will never catch. We check fittings, fixtures and anything mounted high or recently replaced, and we document what we find in position before it is moved.",
+    areas: [
+      "Gandhi Maidan & Fraser Road",
+      "Boring Road & Patliputra",
+      "Kankarbagh & Rajendra Nagar",
+      "Bailey Road & Ashiana Nagar",
+      "Patna City & Agamkuan",
+      "Danapur & Khagaul",
+      "Phulwari Sharif & Bihta",
+    ],
+    metaDescription:
+      "Bug sweeping services in Patna: TSCM sweeps for homes, offices, hostels and vehicles across the city and outskirts. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Central Patna",
+        areas: ["Gandhi Maidan", "Fraser Road", "Exhibition Road", "Dak Bungalow", "Bankipore", "Kadamkuan", "Patna Junction area", "Buddha Colony"],
+      },
+      {
+        zone: "West Patna",
+        areas: ["Boring Road", "Boring Canal Road", "Patliputra Colony", "Rajiv Nagar", "Shastri Nagar", "Bailey Road", "Ashiana Nagar", "Rupaspur"],
+      },
+      {
+        zone: "East Patna",
+        areas: ["Kankarbagh", "Rajendra Nagar", "Bahadurpur", "Agamkuan", "Gulzarbagh", "Patna City", "Chowk", "Khajekalan"],
+      },
+      {
+        zone: "Student and coaching belt",
+        areas: ["Musallahpur Hat", "Bhikhna Pahari", "Mithapur", "Anisabad", "Jakkanpur", "Saidpur", "Machhua Toli"],
+      },
+      {
+        zone: "Outer Patna",
+        areas: ["Danapur", "Khagaul", "Phulwari Sharif", "Bihta", "Fatuha", "Masaurhi", "Naubatpur", "Bikram"],
+      },
+    ],
+    jurisdiction: {
+      heading: "There is no police commissioner in Patna",
+      body: [
+        "Patna is not a commissionerate. The district is led by a senior superintendent of police, with superintendents for the central, east, west and rural areas beneath, along with wings for traffic, crime and law and order. That means escalation runs from the station house officer to the sub-divisional police officer, then to the superintendent for your area and on to the senior superintendent. Guidance copied from Delhi, Lucknow or Kanpur, which tells you to approach a deputy commissioner, is describing an office Patna does not have.",
+        "Patna does have its own cyber police station, listed with a published email address and mobile number in the district's own police directory, and Bihar notified a cyber police station in every district from 2023. For financial fraud, 1930 remains the fastest route, with the national cybercrime portal alongside it.",
+        "Bihar has no e-FIR. The state citizen services portal lets you lodge an electronic complaint, download a copy of an FIR that already exists and request tenant, driver or domestic staff verification, but an online complaint is not an FIR, and a cognizable offence such as voyeurism is registered at the police station. One helpline correction worth making: 1090 is Uttar Pradesh's women's line and does not apply here. In Bihar the women's helpline is 181, with 112 for emergencies.",
+      ],
+    },
+    settings: [
+      {
+        title: "Hostels and paying guest rooms",
+        desc: "Since a police circular issued in February 2026, girls' hostels and lodges in Bihar are told to register, run cameras in entrances, corridors and dining areas with footage kept for thirty days, maintain a visitor register and have staff police-verified.",
+      },
+      {
+        title: "Homes and rented flats",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, smoke detectors and anything mounted high or recently replaced.",
+      },
+      {
+        title: "Offices and chambers",
+        desc: "Sweeps before a negotiation, a tender discussion or a sensitive meeting, in premises where support staff and contractors hold routine access.",
+      },
+      {
+        title: "Vehicles",
+        desc: "A tracker check works through the underbody, wheel arches, bumpers and boot, and ends at the diagnostic port, where a powered unit can sit unnoticed.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Who do I escalate a complaint to in Patna?",
+        a: "Patna is led by a senior superintendent of police rather than a commissioner, so escalation runs from the station house officer to the sub-divisional police officer, then the superintendent for the central, east, west or rural area, and then the senior superintendent. Advice telling you to write to a deputy commissioner is describing another city's structure.",
+      },
+      {
+        q: "Can I file an FIR online in Patna?",
+        a: "No. Bihar's citizen services portal takes an electronic complaint, lets you download an FIR that already exists and handles verifications, but there is no e-FIR facility in the state and an online complaint is not an FIR. For an offence such as voyeurism the report is made at the police station.",
+      },
+      {
+        q: "What can I ask a Patna hostel to show me?",
+        a: "Since a Bihar Police circular of February 2026, girls' hostels and lodges are directed to register with the competent authority, run cameras covering entrances, corridors and dining areas with footage retained for at least thirty days, keep a visitor register and have staff police-verified. Worth knowing: the Patna High Court has observed that the circular carries no penalty for non-compliance, so you may have to escalate rather than assume enforcement.",
+      },
+      {
+        q: "Is 1090 the women's helpline in Bihar?",
+        a: "No. 1090 is the Uttar Pradesh Women Power Line and does not apply in Bihar. The women's helpline here is 181, alongside 112 for emergencies, 1930 for cyber crime and 1098 for children. Patna district also publishes its own control room numbers.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/locations/patna#webpage",
+          url: "https://www.bugsweepingtscm.com/locations/patna",
+          name: "Bug Sweeping Services in Patna",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/patna#breadcrumb" },
+          about: { "@id": "https://www.bugsweepingtscm.com/locations/patna#place" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "Place",
+          "@id": "https://www.bugsweepingtscm.com/locations/patna#place",
+          name: "Patna",
+          address: { "@type": "PostalAddress", addressLocality: "Patna", addressRegion: "Bihar", addressCountry: "IN" },
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.bugsweepingtscm.com/locations/patna#service",
+          name: "Bug sweeping and TSCM services in Patna",
+          serviceType: "Technical surveillance countermeasures",
+          provider: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/patna#place" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/patna#webpage" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "bugsweepingtscm@gmail.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/locations/patna#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/patna" },
+            { "@type": "ListItem", position: 3, name: "Patna" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "visakhapatnam",
+    city: "Visakhapatnam",
+    state: "Andhra Pradesh",
+    seoTitle: "Bug Sweeping Services in Visakhapatnam | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Visakhapatnam",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hostels and vehicles across Visakhapatnam, from Dwaraka Nagar and Rushikonda to Gajuwaka and the industrial belt.",
+    intro:
+      "Visakhapatnam runs a port, a steel plant, a pharmaceutical belt and a growing corporate corridor, alongside a large student and hostel population. Scope is agreed with you at the outset. We then work the space with radio-frequency analysis, a non-linear junction detector that picks up electronics even when they are switched off, optical and thermal checks, and a close hands-on inspection",
+    whyUs:
+      "One local episode is worth knowing precisely because nothing was found. In July 2025, within Dwaraka police station limits, a group confronted and assaulted four men at a lodge beside a girls' hostel over an allegation of covert filming. Police examined the phones and the assistant commissioner stated plainly that no evidence was found; the matter was treated as a miscommunication and no case was registered. Suspicion is not evidence. A documented sweep either gives you something a police officer can act on or clears the room, and both outcomes are better than a confrontation.",
+    areas: [
+      "Dwaraka Nagar & Siripuram",
+      "MVP Colony & Seethammadhara",
+      "Rushikonda & Madhurawada",
+      "Gajuwaka & Steel Plant area",
+      "Duvvada & Kurmannapalem",
+      "Beach Road & Lawson's Bay",
+      "Pendurthi & Anandapuram",
+    ],
+    metaDescription:
+      "Bug sweeping services in Visakhapatnam: TSCM sweeps for offices, homes, hostels and vehicles across the city and its industrial belt. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Visakhapatnam",
+        areas: ["Dwaraka Nagar", "Siripuram", "Asilmetta", "Jagadamba", "Daba Gardens", "Allipuram", "Maharanipeta", "Ram Nagar"],
+      },
+      {
+        zone: "North and beach side",
+        areas: ["MVP Colony", "Seethammadhara", "Lawson's Bay Colony", "Beach Road", "Kailasagiri", "Rushikonda", "Madhurawada", "Yendada"],
+      },
+      {
+        zone: "West Visakhapatnam",
+        areas: ["Akkayyapalem", "Gopalapatnam", "NAD Junction", "Marripalem", "Kancharapalem", "Simhachalam", "Adavivaram"],
+      },
+      {
+        zone: "South and industrial",
+        areas: ["Gajuwaka", "Steel Plant township", "Kurmannapalem", "Duvvada", "Aganampudi", "Malkapuram", "Scindia", "Port area"],
+      },
+      {
+        zone: "Outer belt",
+        areas: ["Pendurthi", "Anandapuram", "Bheemili", "Sabbavaram", "Parawada", "Atchutapuram", "Rambilli", "Vizianagaram road"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Two things Visakhapatnam pages usually get wrong",
+      body: [
+        "The first is jurisdiction on the industrial side. Visakhapatnam City Police is a commissionerate with its office at Police Barracks, Suryabagh, and it covers the corporation area including Gajuwaka, the steel plant side, Duvvada, Rushikonda and Madhurawada. But after the April 2022 district reorganisation, the pharma and SEZ belt sits outside it: Atchutapuram, Rambilli, Parawada and Sabbavaram fall to the neighbouring district force. A plant manager at Atchutapuram who rings the city commissionerate is in the wrong queue on the one day that matters.",
+        "The second is the Disha framework, which a great many pages still cite. The Andhra Pradesh Disha Bill never received Presidential assent, and the state cabinet withdrew it in August 2026 after the home ministry advised that the Bharatiya Nyaya Sanhita and Bharatiya Nagarik Suraksha Sanhita already cover the ground. The Disha SOS app has been rebranded as the SHAKTHI app, which sends a short audio and video clip with your location to the control room when the SOS is pressed. The Disha Mahila police stations, including the one opened in Visakhapatnam in 2020, continue to function. So the stations and the app are real; the Act is not.",
+        "On reporting, the state citizen portal offers lodging a petition and checking its status, which is not the same as registering an FIR, and we could find no official page describing an AP e-FIR for this kind of complaint. Plan on attending the police station. The city's cyber crime police station is active but the funnel is narrow: press reporting for January to August 2026 put it at more than a thousand complaints producing around a hundred and forty FIRs. What you can document decides which side of that ratio you land on. The district administration publishes 181 as the women's helpline here, alongside 112 for emergencies and 1930 for cyber crime.",
+      ],
+    },
+    settings: [
+      {
+        title: "Corporate and port offices",
+        desc: "Timed ahead of a negotiation, a tender discussion or a change of partners, and planned around who else holds a key to the room.",
+      },
+      {
+        title: "Industrial and SEZ premises",
+        desc: "Checks across meeting rooms, cabins and vehicle bays. Worth confirming which force covers the address before anything is found.",
+      },
+      {
+        title: "Hostels and paying guest rooms",
+        desc: "Andhra Pradesh publishes no hostel registration or camera rule that we could verify, so there is no compliance record to fall back on. A sweep is the check that actually exists.",
+      },
+      {
+        title: "Homes, rented flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, vents and sockets, plus tracker checks on the underbody, wheel arches, boot and diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Atchutapuram or Parawada covered by Visakhapatnam City Police?",
+        a: "No. After the April 2022 district reorganisation, Atchutapuram, Rambilli, Parawada and Sabbavaram fall to the neighbouring district force rather than the city commissionerate. Gajuwaka, the steel plant area, Duvvada, Rushikonda and Madhurawada are inside the corporation and are city police areas.",
+      },
+      {
+        q: "Can I still invoke the Disha Act in Visakhapatnam?",
+        a: "No. The Disha Bill never received Presidential assent and the state cabinet withdrew it in August 2026, after the home ministry advised that the Bharatiya Nyaya Sanhita and Bharatiya Nagarik Suraksha Sanhita cover the same ground. The Disha Mahila police stations still function and the SOS app now runs as the SHAKTHI app.",
+      },
+      {
+        q: "Does a complaint to the Visakhapatnam cyber crime police station become an FIR?",
+        a: "Not automatically. Press reporting for January to August 2026 put the station at more than a thousand complaints producing around a hundred and forty FIRs. Evidence quality is what moves a complaint across that line, which is why a sweep report that records where a device was found matters more than a description of what you suspect.",
+      },
+      {
+        q: "Which helpline should a woman in Visakhapatnam use?",
+        a: "The district administration lists 181 as the women's helpline, with 112 for emergencies, 100 for police, 1930 for cyber financial fraud and 1098 for children. The number used in Tamil Nadu and Maharashtra is not the one published here, so advice copied from another state may send you to the wrong line.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#webpage", url: "https://www.bugsweepingtscm.com/locations/visakhapatnam", name: "Bug Sweeping Services in Visakhapatnam", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#place", name: "Visakhapatnam", address: { "@type": "PostalAddress", addressLocality: "Visakhapatnam", addressRegion: "Andhra Pradesh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#service", name: "Bug sweeping and TSCM services in Visakhapatnam", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/visakhapatnam#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/visakhapatnam" }, { "@type": "ListItem", position: 3, name: "Visakhapatnam" } ] },
+      ],
+    },
+  },
+  {
+    slug: "coimbatore",
+    city: "Coimbatore",
+    state: "Tamil Nadu",
+    seoTitle: "Bug Sweeping Services in Coimbatore | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Coimbatore",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, factories, hostels, homes and vehicles across Coimbatore, from RS Puram and Peelamedu to Saravanampatti and the outer belts.",
+    intro:
+      "Coimbatore mixes engineering and textile manufacturing with an information technology corridor and a very large student population in hostels and shared accommodation. We fix the scope with you before the visit. The sweep uses radio-frequency analysis for anything transmitting, a non-linear junction detector for electronics sitting dormant, optical and thermal checks, and a methodical physical search of fittings, vents and furniture",
+    whyUs:
+      "The district's most serious documented case was about recording used as leverage. In the Pollachi case, a group filmed assaults and used the footage to extort money and further compliance; after a central investigation, the Mahila Court in Coimbatore convicted nine men in May 2025 and sentenced them to imprisonment for the remainder of their lives, with compensation ordered for eight survivors. Recording is often not the end in itself, which is why we document what is found in position rather than simply removing it.",
+    areas: [
+      "RS Puram & Gandhipuram",
+      "Peelamedu & Hopes College",
+      "Saravanampatti & Kalapatti",
+      "Vadavalli & Thudiyalur",
+      "Singanallur & Ondipudur",
+      "Kuniyamuthur & Kurichi",
+      "Race Course & Avinashi Road",
+    ],
+    metaDescription:
+      "Bug sweeping services in Coimbatore: TSCM sweeps for offices, factories, hostels, homes and vehicles across the city. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Central Coimbatore",
+        areas: ["RS Puram", "Gandhipuram", "Town Hall", "Race Course", "Tatabad", "Sai Baba Colony", "Ram Nagar", "Sivananda Colony"],
+      },
+      {
+        zone: "East Coimbatore",
+        areas: ["Peelamedu", "Hopes College", "Avinashi Road", "Singanallur", "Ondipudur", "Ganapathy", "Uppilipalayam", "Nava India"],
+      },
+      {
+        zone: "North Coimbatore",
+        areas: ["Saravanampatti", "Kalapatti", "Thudiyalur", "Vellakinar", "Chinnavedampatti", "Vilankurichi", "Kavundampalayam", "Kovilpalayam"],
+      },
+      {
+        zone: "West Coimbatore",
+        areas: ["Vadavalli", "Veerakeralam", "Thondamuthur road", "Perur", "Selvapuram", "Podanur", "Ukkadam"],
+      },
+      {
+        zone: "South and district",
+        areas: ["Kuniyamuthur", "Kurichi", "Sundarapuram", "Madukkarai", "Pollachi", "Annur", "Sulur", "Karamadai"],
+      },
+    ],
+    jurisdiction: {
+      heading: "A new helpline, a complaint that is not an FIR, and a licence without cameras",
+      body: [
+        "Start with the number that changed this year. Tamil Nadu's police policy note records that 1091 is the dedicated line for the Singappen Special Task Force, launched across the state on 9 June 2026 and integrated with the 112 emergency system, with seventy field units operating statewide. This is not a Chennai-only arrangement, and pages written before mid-2026 will not mention it. The state's own emergency list does not include the 181 number that serves as a women's police line in some other states; in Tamil Nadu that sits with social welfare rather than the police.",
+        "Second, what an online complaint actually is. The citizen services portal lets you register a complaint, check its status, and view FIR or community service register details, and the policy note lists a registered online complaint, the status of a community service register and the status of an FIR as three separate services. A community service register entry is what a non-cognizable matter produces. Voyeurism is cognizable, so a covert recording complaint means attending the police station, and the case gets registered on the upgraded records system that went live across Tamil Nadu in February 2026.",
+        "Third, jurisdiction and hostels. Coimbatore City is one of nine commissionerates in the state and has its own cyber crime police station, in line with the policy note's rule of one per commissionerate; the city office is on Huzur Road at Uppilipalayam. Pollachi and the outer taluks are district police under a separate superintendent, Tiruppur is its own commissionerate, and railway premises fall to the railway police district rather than the city. On accommodation, the Tamil Nadu Hostels and Homes for Women and Children (Regulation) Act 2014 requires a licence from the Collector, valid for three years, and since a 2025 amendment the application runs online. Note what the rules do not say: cameras appear on the application and inspection forms only as a disclosure, asking where they are installed or what action has been taken to install them. A hostel can hold a valid licence with no cameras at all, which is precisely the gap a sweep addresses.",
+      ],
+    },
+    settings: [
+      {
+        title: "Manufacturing and engineering units",
+        desc: "Sweeps covering meeting rooms, cabins and vehicle bays where design, pricing or supplier information is discussed.",
+      },
+      {
+        title: "Offices and the IT corridor",
+        desc: "Checks before a negotiation, a client visit or a partnership change, in premises where contractors and support staff hold routine access.",
+      },
+      {
+        title: "Hostels and paying guest rooms",
+        desc: "Ask to see the licence, which comes from the Collector and runs three years. Cameras are only a disclosure item on the forms, so a licence tells you nothing about what is in the room.",
+      },
+      {
+        title: "Homes, rented flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, plus tracker checks covering the underbody, wheel arches, bumpers, boot and the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the women's helpline in Coimbatore?",
+        a: "1091, which now reaches the Singappen Special Task Force launched across Tamil Nadu on 9 June 2026 and integrated with the 112 emergency system. Tamil Nadu's official police helpline list does not carry the 181 number used elsewhere; in this state that line sits with social welfare rather than the police. Use 1930 for cyber crime.",
+      },
+      {
+        q: "Can I report a hidden camera online in Coimbatore?",
+        a: "You can register a complaint online, but that is not an FIR. The state's own service list treats a registered online complaint, a community service register entry and an FIR as three different things, and a community service register entry is what a non-cognizable matter produces. Voyeurism is cognizable, so plan on attending the police station.",
+      },
+      {
+        q: "Is Pollachi covered by Coimbatore City Police?",
+        a: "No. Pollachi and the outer taluks are district police under a separate superintendent, Tiruppur is its own commissionerate, and railway premises fall to the railway police district. The city limits expanded in 2011 to take in Saravanampatti, Kalapatti, Thudiyalur, Vadavalli, Kuniyamuthur and others, so check which station covers your street rather than assuming.",
+      },
+      {
+        q: "Are hostels in Coimbatore required to install CCTV?",
+        a: "No. Under the Tamil Nadu Hostels and Homes for Women and Children (Regulation) Act 2014 and its rules, a licence comes from the Collector and runs three years, and cameras appear on the application and inspection forms only as a disclosure, asking where they are installed or what action has been taken. Installation is not a condition of the licence.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#webpage", url: "https://www.bugsweepingtscm.com/locations/coimbatore", name: "Bug Sweeping Services in Coimbatore", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#place", name: "Coimbatore", address: { "@type": "PostalAddress", addressLocality: "Coimbatore", addressRegion: "Tamil Nadu", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#service", name: "Bug sweeping and TSCM services in Coimbatore", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/coimbatore#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations/coimbatore" }, { "@type": "ListItem", position: 3, name: "Coimbatore" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

@@ -872,5 +872,301 @@
     "date_modified": "",
     "notes": "Created 24 Sep 2026. Used the official Tamil Nadu Police policy note figures (103 law and order stations) rather than the 132 or 135 figures that circulate. The Adambakkam hostel case is dated 2018 and the camera count hedged because outlets differ. Tamil Nadu hostel licensing described as licensing, not a CCTV mandate, because the rules treat cameras as a disclosure item on a form.",
     "revisions": []
+  },
+  {
+    "slug": "locations/surat",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/surat",
+    "page_type": "location-page",
+    "location": {
+      "city": "Surat",
+      "district": "",
+      "state": "Gujarat"
+    },
+    "primary_keyword": "bug sweeping services in surat",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "The official Surat City Police structure is seven zones and fourteen divisions, not the four zones and twenty-eight stations widely copied online; Hazira, Sachin GIDC, Pandesara and Ichchhapor are city police while Kamrej and Olpad are rural; Gujarat's e-FIR covers only vehicle and mobile theft with an unidentified accused and becomes an FIR only after an officer verifies the complainant, reported as within forty-eight hours; Gujarat publishes 181 Abhayam as the women's helpline rather than the number used elsewhere.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. No station count published because the official structure and the widely syndicated figure disagree. The August 2025 Umra police station washroom case used for the local example (phone on a ventilation grill, one handset with no SIM). A GPS tracker case that surfaced in research was dropped for weak sourcing.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/nagpur",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/nagpur",
+    "page_type": "location-page",
+    "location": {
+      "city": "Nagpur",
+      "district": "",
+      "state": "Maharashtra"
+    },
+    "primary_keyword": "bug sweeping services in nagpur",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Maharashtra Police state that the 103 women's helpline runs only in the Mumbai, Thane and Navi Mumbai units and that the rest of the state uses 1091, which Nagpur City Police publishes; Nagpur has two cyber police stations, north and south, unusual for a city of its size, plus a cyber unit at Police Bhavan; the city publishes 14407 alongside 1930; online complaints route to the state portal, and Mumbai Police on the same system state that online complaints cover only non-cognizable matters.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. No station count published because sources disagree. The September 2026 hotel CCTV and ninety-day retention direction is press-reported and time-bound, so it is framed as reported and described as a record-keeping rule rather than protection inside a room. The Sitabuldi case is described accurately as filming through a window with a phone, not a planted device.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/indore",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/indore",
+    "page_type": "location-page",
+    "location": {
+      "city": "Indore",
+      "district": "",
+      "state": "Madhya Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in indore",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Rau is inside the Indore commissionerate while Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma are Indore Rural, and Pithampur is Dhar district entirely; in Madhya Pradesh 1090 is the women's helpline and 181 is the Chief Minister's grievance helpline, the reverse of several other states; the state e-FIR is an alternative route to registration rather than an FIR, expecting a station visit within about three days and limited to categories centred on vehicle theft; a standing order requires hotels, lodges, hostels and landlords to report occupant details, and twenty-two establishments were booked in a November 2025 drive.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. The 1090 against 181 correction is the most important item on the page because advice copied from other states sends Madhya Pradesh readers to a grievance line. April 2026 Tukoganj case used for the local example, with the Bharatiya Nyaya Sanhita voyeurism provision referred to in words rather than by section number.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/bhopal",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/bhopal",
+    "page_type": "location-page",
+    "location": {
+      "city": "Bhopal",
+      "district": "",
+      "state": "Madhya Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in bhopal",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Bairagarh and Kolar are inside the Bhopal commissionerate in its fourth zone while Berasia is rural and Mandideep is Raisen district; 1090 is the women's helpline and 181 is the Chief Minister's grievance helpline; the state e-FIR is a route towards registration rather than a registered FIR; guidance issued in November 2025 after a hospital camera system was hacked advised securing your own cameras and avoiding them in bedrooms, changing rooms and bathrooms, which is about hardening systems you own rather than detecting a covert device.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. The November 2025 advisory is described honestly as guidance about your own CCTV rather than a hidden-camera advisory. The December 2024 Arera Hills diagnostic centre case (phone in a false ceiling of a changing room) is used to widen the page beyond hotel rooms. Wording of the shared Madhya Pradesh facts was deliberately differentiated from the Indore page after a shingle-overlap measurement.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/kanpur",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/kanpur",
+    "page_type": "location-page",
+    "location": {
+      "city": "Kanpur",
+      "district": "",
+      "state": "Uttar Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in kanpur",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Kanpur is a commissionerate so escalation runs station officer to assistant commissioner to zonal deputy commissioner to additional commissioner to commissioner, with no superintendent in the chain, and Kanpur Dehat is a separate district; Panki, Dada Nagar and Jajmau sit inside the commissionerate; the city has its own cyber police station; Uttar Pradesh's e-FIR is limited to cases with an unknown accused and excludes special report categories, so a covert recording complaint is made in person.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. May 2026 Rawatpur hotel case used for the local example: cameras in all ten rooms concealed in television power adapters, around 250 recordings, several arrests. Sections not published because outlets differ. The cyber police station email is published but the mobile number is not, because it could not be verified on an official source.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/patna",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/patna",
+    "page_type": "location-page",
+    "location": {
+      "city": "Patna",
+      "district": "",
+      "state": "Bihar"
+    },
+    "primary_keyword": "bug sweeping services in patna",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Patna has no commissionerate: it is led by a senior superintendent with superintendents for central, east, west and rural, so escalation runs station officer to sub-divisional police officer to superintendent to senior superintendent; Bihar has no e-FIR, only an e-complaint; 1090 is an Uttar Pradesh number and the line published in Bihar is 181; a 4 February 2026 circular requires girls' hostels to register and to run cameras at entrances, corridors and dining areas with thirty-day retention, though the High Court has noted there is no penalty for non-compliance.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. The 1090 correction matters because a great deal of syndicated advice gives Bihar readers an Uttar Pradesh number. The hostel circular is presented together with the High Court observation about the absence of a penalty, so readers are not led to assume compliance.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/visakhapatnam",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/visakhapatnam",
+    "page_type": "location-page",
+    "location": {
+      "city": "Visakhapatnam",
+      "district": "",
+      "state": "Andhra Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in visakhapatnam",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "After the April 2022 district reorganisation, Atchutapuram, Rambilli, Parawada and Sabbavaram sit outside the city commissionerate while Gajuwaka, the steel plant area, Duvvada, Rushikonda and Madhurawada are inside it; the Disha Bill never received Presidential assent and was withdrawn by the state cabinet in August 2026 after home ministry advice, while the Disha Mahila police stations continue and the SOS app now runs as SHAKTHI; the city cyber crime police station turned more than a thousand complaints into about a hundred and forty FIRs between January and August 2026; the district administration publishes 181 as the women's helpline.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. The city police website did not resolve during research, so no station count, address or phone number was published from unofficial directories. No Andhra Pradesh e-FIR claim was made because every source for one traced back to aggregator sites. The July 2025 Dwaraka lodge episode is used as a case where police found no evidence, framed as a reason to sweep before accusing anyone. Telangana material that search engines surface for this query was deliberately excluded. The Gudlavalleru college story was excluded because an official probe found no cameras and it is Krishna district, not Visakhapatnam.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/coimbatore",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/coimbatore",
+    "page_type": "location-page",
+    "location": {
+      "city": "Coimbatore",
+      "district": "",
+      "state": "Tamil Nadu"
+    },
+    "primary_keyword": "bug sweeping services in coimbatore",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "1091 now reaches the Singappen Special Task Force, launched across Tamil Nadu on 9 June 2026 and integrated with the 112 system, with seventy field units statewide, so it is not a Chennai-only number; the state service list treats a registered online complaint, a community service register entry and an FIR as three different things, so an online complaint is not an FIR; Coimbatore is one of nine commissionerates and has its own cyber crime police station, while Pollachi and the outer taluks are district police, Tiruppur is a separate commissionerate and railway premises fall to the railway police district; under the Tamil Nadu Hostels and Homes Rules a licence comes from the Collector for three years and cameras appear only as a disclosure item, so a hostel can be licensed with no cameras at all.",
+    "internal_links_out": [
+      "/services",
+      "/blog/bug-sweeping-in-india",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW commercial city page. Informational intent stays with the blog guides.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-25",
+    "date_modified": "",
+    "notes": "Created 25 Sep 2026. No Coimbatore station count published because the figure circulating online predates stations that appear in the district court's own jurisdiction schedule. The Pollachi conviction of May 2025 is used for the local example because no documented hidden-camera case inside city limits was found; it is described as a district case. The expired certificate observed on the state services portal was not mentioned because it is transient.",
+    "revisions": []
   }
 ]
