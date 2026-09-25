@@ -181,45 +181,122 @@ body {
 .prose-custom figure svg { width: 100%; height: auto; display: block; }
 .prose-custom figcaption { font-size: 0.875rem; color: var(--color-muted); margin-top: 0.75rem; }
 .prose-custom .faq h3 { margin-top: 1.5rem; }
-/* ── Table of contents (opt-in per post) ── */
-.prose-custom .toc {
-  background: var(--bg-card);
-  border: 1px solid var(--color-border);
-  border-radius: 12px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2.5rem;
-}
-.prose-custom .toc-title {
-  font-size: 0.8125rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-accent);
-  margin: 0 0 0.875rem;
-}
-.prose-custom .toc ul {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.prose-custom .toc li { padding-left: 0; position: relative; }
-.prose-custom .toc li::before { content: none; }
-.prose-custom .toc li.toc-l3 { padding-left: 1rem; font-size: 0.9375rem; }
-.prose-custom .toc a {
-  color: var(--color-muted);
-  text-decoration: none;
-  line-height: 1.5;
-}
-.prose-custom .toc a:hover { color: var(--color-text); text-decoration: underline; }
-.prose-custom .toc a:focus-visible { outline: 2px solid #ff7a84; outline-offset: 2px; border-radius: 2px; }
+/* ── Blog layout: article with a table of contents beside it ── */
 /* Sticky header clearance so an anchored heading is not hidden behind it. */
 .prose-custom h2[id], .prose-custom h3[id] { scroll-margin-top: 96px; }
-@media (min-width: 640px) {
-  .prose-custom .toc { padding: 1.5rem 1.75rem; }
-  .prose-custom .toc ul { gap: 0.625rem; }
+
+.blog-layout {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.blog-article { min-width: 0; }
+
+/* Shared list styling for both the sidebar and the mobile panel */
+.toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: none;
+}
+.toc-item { margin: 0; }
+.toc-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.4rem 0.5rem 0.4rem 0.75rem;
+  border-left: 2px solid transparent;
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  transition: color 0.15s, border-color 0.15s;
+}
+.toc-link:hover { color: var(--color-text); }
+.toc-link:focus-visible { outline: 2px solid #ff7a84; outline-offset: -2px; border-radius: 2px; }
+.toc-link-active { color: var(--color-text); border-left-color: var(--color-accent); }
+.toc-item-sub .toc-link { padding-left: 1.75rem; font-size: 0.875rem; }
+
+.toc-num {
+  flex: 0 0 auto;
+  width: 1.375rem;
+  height: 1.375rem;
+  margin-top: 0.05rem;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--color-muted);
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+.toc-link-active .toc-num {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+.toc-text { overflow-wrap: anywhere; }
+
+/* Sidebar variant, shown once there is room beside the article */
+.toc-side { display: none; }
+.toc-heading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin: 0 0 1rem 0.75rem;
+}
+
+/* Compact panel used on narrow screens */
+.toc-mobile {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--bg-card);
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+}
+.toc-mobile-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.875rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.toc-mobile #toc-mobile-panel { padding: 0 0.5rem 0.75rem; }
+
+@media (min-width: 1100px) {
+  .blog-layout {
+    max-width: 78rem;
+    display: grid;
+    grid-template-columns: 16rem minmax(0, 48rem);
+    gap: 3rem;
+    justify-content: center;
+    align-items: start;
+  }
+  .toc-side {
+    display: block;
+    position: sticky;
+    top: 6rem;
+    max-height: calc(100vh - 9rem);
+    overflow-y: auto;
+    padding-right: 1.5rem;
+    border-right: 1px solid var(--color-border);
+  }
+  .toc-mobile { display: none; }
+}
+@media (min-width: 1280px) {
+  .blog-layout { grid-template-columns: 17.5rem minmax(0, 48rem); gap: 4rem; }
 }
 
 .prose-custom .note { font-size: 1rem; border-top: 1px solid var(--color-border); padding-top: 1.25rem; margin-top: 2rem; }

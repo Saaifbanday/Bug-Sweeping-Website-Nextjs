@@ -4,6 +4,7 @@ import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MoreArticles from "@/components/blog/MoreArticles";
+import BlogTableOfContents from "@/components/blog/BlogTableOfContents";
 import { blogPosts } from "@/lib/blog-data";
 import { serializeJsonLd } from "@/lib/json-ld";
 import Image from "next/image";
@@ -83,16 +84,6 @@ function buildToc(html: string) {
   return { withIds, items };
 }
 
-function tocMarkup(items: { id: string; text: string; level: number }[]) {
-  const links = items
-    .map(
-      (item) =>
-        `<li class="toc-l${item.level}"><a href="#${item.id}">${item.text}</a></li>`
-    )
-    .join("");
-  return `<nav class="toc" aria-labelledby="toc-heading"><h2 id="toc-heading" class="toc-title">On this page</h2><ul>${links}</ul></nav>`;
-}
-
 export default async function BlogPostPage({
   params,
 }: {
@@ -104,15 +95,8 @@ export default async function BlogPostPage({
 
   const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
-  let content = post.content;
-  if (post.toc) {
-    const { withIds, items } = buildToc(content);
-    const firstH2 = withIds.search(/<h2[\s>]/);
-    content =
-      items.length > 1 && firstH2 !== -1
-        ? withIds.slice(0, firstH2) + tocMarkup(items) + withIds.slice(firstH2)
-        : withIds;
-  }
+  // Every post gets heading ids and a table of contents built from its own headings.
+  const { withIds: content, items: tocItems } = buildToc(post.content);
 
   const cta = post.cta ?? {
     heading: "Concerned About Your Privacy?",
@@ -232,9 +216,12 @@ export default async function BlogPostPage({
           />
         </div>
 
-        {/* Article body */}
+        {/* Article body, with the table of contents beside it on wide screens */}
         <section className="py-16" style={{ backgroundColor: "var(--bg-surface)" }}>
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="blog-layout px-4 sm:px-6 lg:px-8">
+            <BlogTableOfContents items={tocItems} />
+
+            <div className="blog-article">
             <div
               className="prose-custom"
               style={{ color: "var(--color-muted)", fontSize: "1.0625rem", lineHeight: "1.85" }}
@@ -267,6 +254,7 @@ export default async function BlogPostPage({
                 <Phone size={16} />
                 {cta.label}
               </a>
+            </div>
             </div>
           </div>
         </section>
