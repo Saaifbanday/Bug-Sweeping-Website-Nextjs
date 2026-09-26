@@ -2255,9 +2255,9 @@ export const cities: CityData[] = [
     jurisdiction: {
       heading: "Rau is city police, Mhow is rural, Pithampur is another district",
       body: [
-        "Indore has been policed as a commissionerate since December 2021, organised into four zones each under a deputy commissioner. The boundary catches people out on the outskirts. Rau sits inside the commissionerate in zone one, but Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma fall to Indore Rural under a superintendent headquartered at Mhow. Pithampur is not Indore at all: it is policed by Dhar district. A sweep at a Pithampur plant that calls Indore Police is calling the wrong force.",
+        "Indore has been policed as a commissionerate since December 2021, organised into four zones each under a deputy commissioner. The boundary catches people out on the outskirts. Rau sits inside the commissionerate. Further out, at Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma, it is worth confirming which office covers the address before you need it: the commissionerate's published jurisdiction takes in the whole district and its villages, while rural stations are also listed separately, and our own sources disagree about where the line now falls. What is not in doubt is Pithampur, which is not Indore at all but Dhar district, so a sweep at a Pithampur plant that calls Indore Police is calling the wrong force.",
         "Two helpline corrections matter in Madhya Pradesh. Both city police sites publish 1090 as the women's helpline. The 181 number, which is a women's line in several other states, is the Chief Minister's grievance helpline here, for complaints about government departments rather than police emergencies. Use 112 for an emergency, 1090 for women, 1930 for cyber crime, and the city's own cyber cell alongside them.",
-        "Madhya Pradesh does have an e-FIR, and the state police describe it as an alternative facility for getting an FIR registered rather than an FIR in itself: the complainant is expected to attend the police station within about three days, and the eligible categories centre on vehicle theft with an unidentified accused. A covert recording complaint is not in that category, so it belongs at the station. One local lever worth knowing: a standing order under the criminal procedure code requires hotels, lodges, hostels and landlords to report occupant details to the local police station, and Indore Police booked twenty-two establishments in a single drive in November 2025 for failing to do so.",
+        "Madhya Pradesh does have an e-FIR, and the state police call it an optional facility rather than an FIR in itself. Its scope is wider than most write-ups suggest, because they describe the categories it launched with: the portal now lists theft, vehicle theft, online financial fraud and crimes against women and children. The catch is the same whatever the category. You are expected at the police station within about three days, and the portal states that the e-FIR is rejected if you do not appear, so for a covert recording it is at best a way of starting the clock rather than a way of avoiding the station. One local lever worth knowing: police commissioner orders in Indore require hotels, lodges, hostels and landlords to report occupant details, breach is an offence, and cases were filed against establishments in a drive in November 2025. Those orders run for a couple of months at a time and are reissued, so ask which one is current.",
       ],
     },
     settings: [
@@ -2281,7 +2281,7 @@ export const cities: CityData[] = [
     faqs: [
       {
         q: "Is Pithampur covered by Indore Police?",
-        a: "No. Pithampur is policed by Dhar district, not Indore. Rau is inside the Indore commissionerate, while Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma fall to Indore Rural under a superintendent based at Mhow. Confirm which force covers your address before reporting anything.",
+        a: "No. Pithampur is policed by Dhar district, not Indore, which is the clearest of the boundaries here. Rau is inside the Indore commissionerate. For Mhow, Simrol, Sanwer, Depalpur, Hatod and Betma, confirm the covering station before you report: the commissionerate's published jurisdiction covers the whole district and its villages, but rural stations are listed separately too, and sources do not agree on where the line sits.",
       },
       {
         q: "Is 181 the women's helpline in Indore?",
@@ -2289,11 +2289,11 @@ export const cities: CityData[] = [
       },
       {
         q: "Can I file an e-FIR in Indore for a hidden camera?",
-        a: "No. Madhya Pradesh's e-FIR is described by the state police as an alternative way of getting an FIR registered rather than an FIR itself, with a station visit expected within about three days, and the eligible categories centre on vehicle theft with an unidentified accused. A covert recording complaint is made at the police station.",
+        a: "You may be able to start one, but it will not finish the job. Madhya Pradesh Police call the e-FIR an optional facility, and the portal now lists theft, vehicle theft, online financial fraud and crimes against women and children rather than only the vehicle theft category it launched with. Either way you are expected at the police station within about three days, and the portal states that the e-FIR is rejected if you do not appear.",
       },
       {
         q: "Can I ask a hostel or landlord in Indore about their police reporting?",
-        a: "Yes. A standing police order requires hotels, lodges, hostels and landlords to report occupant details to the local police station in a prescribed format, and Indore Police booked twenty-two establishments in one drive in November 2025 for not doing so. There is no separate paying guest licence or camera rule in the city that we could verify.",
+        a: "Yes. Police commissioner orders in Indore require hotels, lodges, hostels and landlords to report occupant details to the local police station, breach is a punishable offence, and cases were filed against establishments in a drive in November 2025. These orders run for a couple of months and are reissued, so ask which one is current. There is no camera rule and no separate paying guest licence in the city that we could verify.",
       },
     ],
     jsonLd: {
@@ -2356,9 +2356,9 @@ export const cities: CityData[] = [
     jurisdiction: {
       heading: "What the commissionerate covers, and where it stops",
       body: [
-        "Bhopal has been policed as a commissionerate since December 2021, and its own site describes thirty-four police stations plus four special stations organised across four zones. Bairagarh and Kolar are inside it, in the fourth zone, so they are city police rather than rural. Berasia and a handful of other stations remain outside under a rural superintendent, and Mandideep, the industrial town people often treat as part of Bhopal, is in Raisen district and policed from there.",
+        "Bhopal has been policed as a commissionerate since December 2021, and its own site describes thirty-four police stations plus four special stations organised across four zones, covering the district's villages as well as the city. Bairagarh and Kolar are inside it, in the fourth zone, so they are city police rather than rural. Berasia and a handful of other stations remain outside under a rural superintendent, and Mandideep, the industrial town people often treat as part of Bhopal, is in Raisen district and policed from there.",
         "Check the number before you need it. Bhopal Police publish 1090 for women. The 181 line, which several states use for exactly that purpose, is the Chief Minister's grievance helpline here and handles complaints about government departments rather than police emergencies, so advice copied from another state will misdirect you. Emergencies go to 112, cyber fraud to 1930, and local cyber matters to the commissionerate's cyber cell.",
-        "The state's e-FIR does not do what its name suggests. Madhya Pradesh Police present it as a route towards getting an FIR registered, not a registered FIR, and the complainant is expected at the station within roughly three days; the categories it accepts centre on vehicle theft where the accused is unknown. A covert recording complaint is outside that, so it is made in person. Bhopal is also the one city in this state where an official camera advisory exists: guidance issued in November 2025 after a hospital camera hack told people to secure their own systems and to avoid installing cameras in bedrooms, changing rooms and bathrooms. It is about hardening your own CCTV rather than finding a hidden device, and it is worth reading in that light.",
+        "The state's e-FIR does not do what its name suggests. Madhya Pradesh Police call it an optional facility rather than a registered FIR. Its categories are broader than the launch-era write-ups still in circulation, covering theft, vehicle theft, online financial fraud and crimes against women and children, so a covert recording is not necessarily outside it. What does not change is the ending: you are expected at the police station within roughly three days, and the portal states the e-FIR is rejected if you do not appear. Treat it as a way of starting the record, not a way of staying at home. Bhopal is also the one city in this state where an official camera advisory exists: guidance issued in November 2025 after a hospital camera hack told people to secure their own systems and to avoid installing cameras in bedrooms, changing rooms and bathrooms. It is about hardening your own CCTV rather than finding a hidden device, and it is worth reading in that light.",
       ],
     },
     settings: [
@@ -2394,7 +2394,7 @@ export const cities: CityData[] = [
       },
       {
         q: "Can I file an e-FIR in Bhopal for a hidden camera?",
-        a: "No. Madhya Pradesh Police present the e-FIR as a step towards registration rather than a registered FIR, expect the complainant at the station within roughly three days, and limit it to categories centred on vehicle theft with an unknown accused. Voyeurism is not among them, so report it in person.",
+        a: "Partly, but it does not spare you the visit. Madhya Pradesh Police call the e-FIR an optional facility rather than a registered FIR, and the portal's categories now run wider than the vehicle theft framing that older write-ups repeat, taking in theft, online financial fraud and crimes against women and children. You are still expected at the police station within roughly three days, and the e-FIR is rejected if you do not appear.",
       },
     ],
     jsonLd: {
