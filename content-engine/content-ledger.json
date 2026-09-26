@@ -1312,5 +1312,113 @@
     "date_modified": "",
     "notes": "Created 26 Sep 2026. The commissionerate answer is sourced to the text of the Bihar Police Act rather than to secondary claims. No police station count published because the official site gives two different figures, and no SSP district count because the list moves with postings. The circular memo number was not published because it traces only to an aggregator.",
     "revisions": []
+  },
+  {
+    "slug": "locations/state/maharashtra",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/maharashtra",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Maharashtra"
+    },
+    "primary_keyword": "bug sweeping services in maharashtra",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Eleven commissionerate cities, and seven of them have a separate rural district with its own superintendent while Navi Mumbai and Pimpri-Chinchwad have none of their own and fall to Thane Rural and Pune Rural; the 103 women helpline covers only the Mumbai, Thane and Navi Mumbai units while the rest of the state uses 1091; 14407 is a statewide Maharashtra Cyber line rather than a city number; no statewide camera duty on accommodation, the Mumbai order having been a sixty day city order that expired in March 2021, while a Raigad district order requires cameras at entrances and parking and expressly not inside rooms or bathrooms.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 to 18 per cent shingle overlap against its own city pages, against a 38.7 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. No commissionerate count asserted without noting that the department's own about page still says ten against eleven on its unit list. Kolhapur and Nanded deliberately excluded because they appear as district police on the official list despite being widely listed as commissionerates online. No cyber police station count published because the authoritative listing is unreachable. The Nagpur page was corrected at the same time, since it presented 14407 as a city number.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/uttar-pradesh",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/uttar-pradesh",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Uttar Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in uttar pradesh",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "None of the seven commissionerates retains a rural superintendent: all cover the entire district after the 2022 mergers, so unlike most states there is no second office to approach, and the state police unit list of exactly 75 entries corroborates it; the e-FIR is available only for unknown accused and non special report cases, so a complaint naming a suspect cannot be filed online at all; every one of the 75 districts has a cyber police station, up from 18 at range level; 1090 is police, 181 is a women welfare department line, 1076 is the CM grievance line and the anti-corruption number is 1031 not 1064; accommodation including paying guest premises registers with the district magistrate under section 3 of the Sarais Act 1867, where cameras are a disclosure tick box rather than a requirement.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 to 18 per cent shingle overlap against its own city pages, against a 38.7 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. The commissionerate count was settled from the state police cyber station list rather than the homepage navigation, which still shows only four. The Varanasi district site still showing an SP Rural is flagged on the page as out of date rather than repeated. Creation dates given as months and years because the underlying notifications could not be opened. The September 2024 state directive about cameras was deliberately excluded because it covers food establishments, not lodging, and the claim that the 2025 bed and breakfast policy mandates cameras was excluded as aggregator-only.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/madhya-pradesh",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/madhya-pradesh",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Madhya Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in madhya pradesh",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Only Bhopal and Indore are commissionerates and both cover their whole district including its villages, so there is no rural superintendent to fall back on; 181 is the Chief Minister grievance helpline rather than a police line, the reverse of several neighbouring states, and 1090 is the women helpline; the e-FIR is an optional facility that is rejected if the complainant does not attend within about three days, and its scope is now broader than the vehicle theft framing older write-ups repeat; there is no statewide camera duty on accommodation, only two-month police commissioner orders in Bhopal and Indore requiring guest records; there is no Madhya Pradesh Police Act, the force operating under the central Police Act 1861.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 to 18 per cent shingle overlap against its own city pages, against a 38.7 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. No cyber police station count published because the state publishes no list and sources conflict. The district count is given as current rather than settled because a state reorganisation commission appointed in 2024 is still running, and Nagda is excluded because it has been announced repeatedly and never notified. The dead state cyber subdomain is mentioned so a failed link is not read as a closed service.",
+    "revisions": []
   }
 ]

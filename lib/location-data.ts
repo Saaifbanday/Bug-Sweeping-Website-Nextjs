@@ -2155,7 +2155,7 @@ export const cities: CityData[] = [
       heading: "Nagpur uses 1091, and has two cyber police stations",
       body: [
         "Start with the helpline, because this is the detail most often copied wrongly. Maharashtra Police states on its own citizen portal that the 103 women's helpline runs in the Mumbai, Thane and Navi Mumbai police units, and that the rest of Maharashtra uses 1091. Nagpur City Police publishes 1091 on its own site. Any page telling a Nagpur reader to dial 103 is repeating Mumbai's number.",
-        "Nagpur City Police is separate from Nagpur Rural, which has its own superintendent, so an address outside the city limits is a different force. Unusually for a city this size, the city directory lists two cyber police stations rather than one, a north and a south, alongside a cyber crime unit at Police Bhavan in Civil Lines. Nagpur also publishes 14407 alongside the national 1930 number.",
+        "Nagpur City Police is separate from Nagpur Rural, which has its own superintendent, so an address outside the city limits is a different force. Unusually for a city this size, the city directory lists two cyber police stations rather than one, a north and a south, alongside a cyber crime unit at Police Bhavan in Civil Lines. Nagpur also publishes 14407, which is the Maharashtra Cyber helpline rather than a Nagpur number, alongside the national 1930.",
         "Online reporting routes through the state citizen portal, and Nagpur publishes no policy of its own about what that portal can do. Mumbai Police, which runs on the same system, states plainly that its online complaints cover only minor, non-cognizable matters and that an FIR for a cognizable crime can only be registered at a police station. Voyeurism is cognizable, so plan on attending the station.",
       ],
     },
@@ -2180,7 +2180,7 @@ export const cities: CityData[] = [
     faqs: [
       {
         q: "Is 103 the women's helpline in Nagpur?",
-        a: "No. Maharashtra Police states that 103 runs in the Mumbai, Thane and Navi Mumbai police units and that the rest of the state uses 1091, and Nagpur City Police publishes 1091 on its own site. Use 112 for an emergency and 1930 for cyber crime; Nagpur also publishes 14407 for cyber complaints.",
+        a: "No. Maharashtra Police states that 103 runs in the Mumbai, Thane and Navi Mumbai police units and that the rest of the state uses 1091, and Nagpur City Police publishes 1091 on its own site. Use 112 for an emergency and 1930 for cyber crime. Nagpur also publishes 14407, which is the statewide Maharashtra Cyber line rather than a city number.",
       },
       {
         q: "Where do cyber complaints go in Nagpur?",
