@@ -9,10 +9,14 @@ import { cities } from "@/lib/location-data";
 const WHATSAPP = "https://wa.me/918882732221";
 
 // Derived from the city data so a new location page appears in the menu automatically.
-const locations = cities.map((c) => ({
-  label: `Bug Sweeping Services in ${c.city}`,
-  href: `/locations/${c.slug}`,
-}));
+// The index page leads, so every page links to it and the city list has a parent.
+const locations = [
+  { label: "All locations across India", href: "/locations" },
+  ...cities.map((c) => ({
+    label: `Bug Sweeping Services in ${c.city}`,
+    href: `/locations/${c.slug}`,
+  })),
+];
 
 const navLinks = [
   { label: "Home", href: "/" },
