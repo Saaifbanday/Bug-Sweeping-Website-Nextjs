@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-data";
 import { cities } from "@/lib/location-data";
+import { states } from "@/lib/state-data";
 
 export const dynamic = "force-static";
 
@@ -34,5 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...blogPages, ...locationPages];
+  const statePages: MetadataRoute.Sitemap = states.map((s) => ({
+    url: `${BASE}/locations/state/${s.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...blogPages, ...locationPages, ...statePages];
 }

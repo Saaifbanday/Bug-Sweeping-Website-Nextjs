@@ -1168,5 +1168,149 @@
     "date_modified": "",
     "notes": "Created 25 Sep 2026. No Coimbatore station count published because the figure circulating online predates stations that appear in the district court's own jurisdiction schedule. The Pollachi conviction of May 2025 is used for the local example because no documented hidden-camera case inside city limits was found; it is described as a district case. The expired certificate observed on the state services portal was not mentioned because it is transient.",
     "revisions": []
+  },
+  {
+    "slug": "locations",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations",
+    "page_type": "locations-index",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "India"
+    },
+    "primary_keyword": "bug sweeping services in india",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Locations index: hero, what differs between cities, cities grouped by region, state guides, FAQ with FAQPage and ItemList schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "regional grouping plus ItemList",
+    "information_gain": "Explains what actually differs city to city: which force covers an address, whether an online form produces a complaint or an FIR, and that the women's helpline varies by state including one state where 181 is a government grievance line rather than a police number.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW index page. The city set had no parent; this is the hub, not a ranking page competing with the cities.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. Built because the 22 city pages had no parent page at all. Linked from the header on every page so the set has an internal hub.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/tamil-nadu",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/tamil-nadu",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Tamil Nadu"
+    },
+    "primary_keyword": "bug sweeping services in tamil nadu",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "In eight of the nine commissionerate cities the city force and the surrounding district are separate forces, and Chennai metro splits three ways between Greater Chennai, Tambaram and Avadi; a registered online complaint, a community service register entry and an FIR are three different things; 1091 is the women's helpline and since 9 June 2026 the Singappen Special Task Force line integrated with 112, while 181 is absent from the police list entirely; since January 2025 a statutory duty requires hotels, hostels and any other precinct to take steps including installing cameras and to inform police within 24 hours, but sets no standard; the hostel licence moved from three years to ten in May 2025 and its conditions never mention cameras.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 to 19 per cent shingle overlap against its own city pages, well under the 38.7 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. The January 2025 harassment law amendment is the most actionable item and was missing from the earlier Coimbatore research; the Coimbatore page was corrected at the same time, including its stale three-year licence figure. The policy note asserts 54 cyber crime police stations while its own components sum to 53, so the components are given without asserting the total. No Mayiladuthurai G.O. number published because it could not be verified on an official source. The Criminal Laws (Tamil Nadu Amendment) Act 2025 was deliberately excluded because no assent or commencement notification has appeared.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/gujarat",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/gujarat",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Gujarat"
+    },
+    "primary_keyword": "bug sweeping services in gujarat",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Only four cities have a Police Commissioner, Ahmedabad, Surat, Vadodara and Rajkot, and each has a separate rural force, so the widely repeated seven-city and eight-city lists are wrong and Gandhinagar has been proposed but not approved; the state moved to 34 districts on 2 October 2025 with Vav-Tharad; the e-FIR covers only vehicle and mobile theft and becomes an FIR only after verification; hotels upload guest identity to the police in real time under the Pathik system and a manager was booked in February 2026 for not doing so.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 to 19 per cent shingle overlap against its own city pages, well under the 38.7 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. The four-commissionerate point corrects a press claim that circulates widely; the eight-city list people quote is the rollout list for a camera law, not commissionerates. No cyber police station total published because sources disagree. The public safety camera law is not claimed to cover hotels because the notified category list could not be read directly. The Surat page was corrected at the same time, softening a claim that Gujarat Police does not advertise 1091, which still appears on district collectorate pages.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/bihar",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/bihar",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Bihar"
+    },
+    "primary_keyword": "bug sweeping services in bihar",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "There is no police commissionerate anywhere in Bihar and the Bihar Police Act 2007 does not provide for one, so every district including Patna is SP or SSP led under the district magistrate, which makes the district magistrate a real escalation route; Bihar has no e-FIR at all, only an e-complaint, despite portal headings saying otherwise; Bagaha and Naugachhia are police districts on top of the 38 revenue districts and every police district has a cyber police station since June 2023 with the Economic Offences Unit as state nodal body; the February 2026 girls hostel circular carries no penalty, as the Patna High Court held in May 2026.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 to 19 per cent shingle overlap against its own city pages, well under the 38.7 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-26",
+    "date_modified": "",
+    "notes": "Created 26 Sep 2026. The commissionerate answer is sourced to the text of the Bihar Police Act rather than to secondary claims. No police station count published because the official site gives two different figures, and no SSP district count because the list moves with postings. The circular memo number was not published because it traces only to an aggregator.",
+    "revisions": []
   }
 ]

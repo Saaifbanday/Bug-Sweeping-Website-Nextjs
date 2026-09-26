@@ -5,8 +5,9 @@ import Footer from "@/components/layout/Footer";
 import PageHero from "@/components/ui/PageHero";
 import ContactCTA from "@/components/sections/ContactCTA";
 import { cities } from "@/lib/location-data";
+import { states } from "@/lib/state-data";
 import { serializeJsonLd, faqPageNode } from "@/lib/json-ld";
-import { MapPin, ArrowRight } from "lucide-react";
+import { MapPin, ArrowRight, Map as MapIcon } from "lucide-react";
 
 const url = "https://www.bugsweepingtscm.com/locations";
 
@@ -202,7 +203,57 @@ export default function LocationsIndexPage() {
           </div>
         </section>
 
-        <section className="py-16" style={{ backgroundColor: "var(--bg-surface)" }}>
+        {states.length > 0 && (
+          <section className="py-16" style={{ backgroundColor: "var(--bg-surface)" }}>
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2
+                className="font-bold mb-3"
+                style={{ color: "var(--color-text)", fontSize: "1.375rem", letterSpacing: "-0.02em" }}
+              >
+                State guides
+              </h2>
+              <p className="mb-7" style={{ color: "var(--color-muted)", maxWidth: "48rem" }}>
+                These cover a whole state rather than one city: how policing is organised across it,
+                what the state lets you report online, which helplines it publishes, and the
+                districts and towns we reach beyond the cities above.
+              </p>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {states.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/locations/state/${s.slug}`}
+                    className="card p-5 block"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <div className="flex items-start gap-3">
+                      <MapIcon
+                        size={18}
+                        style={{ color: "var(--color-accent)", flex: "0 0 auto", marginTop: 3 }}
+                      />
+                      <div className="min-w-0">
+                        <p
+                          className="font-bold"
+                          style={{ color: "var(--color-text)", fontSize: "1.0625rem" }}
+                        >
+                          {s.state}
+                        </p>
+                        <p className="text-sm" style={{ color: "var(--color-muted)" }}>
+                          {s.districts.length} districts
+                        </p>
+                      </div>
+                      <ArrowRight
+                        size={16}
+                        style={{ color: "var(--color-muted)", marginLeft: "auto", flex: "0 0 auto" }}
+                      />
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        <section className="py-16" style={{ backgroundColor: "var(--bg-primary)" }}>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-bold mb-8"

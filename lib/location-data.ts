@@ -1919,7 +1919,7 @@ export const cities: CityData[] = [
       },
       {
         title: "Hostels and rented accommodation",
-        desc: "Hostels for women and children in Tamil Nadu need a licence from the Collector. That is a licensing regime rather than a camera rule, so a camera inside a room remains a criminal matter, not a house rule.",
+        desc: "Hostels for women and children in Tamil Nadu need a licence from the Collector, and since May 2025 it runs ten years. The licence sets no camera standard, so a camera inside a room remains a criminal matter rather than a house rule.",
       },
       {
         title: "Homes during and after building work",
@@ -2055,7 +2055,7 @@ export const cities: CityData[] = [
       body: [
         "Surat City Police is a commissionerate, and its published structure is larger than most content sites suggest: two additional commissioner sectors, seven zones numbered one to seven, and fourteen divisions lettered A to N. The widely copied line about four zones, eight divisions and twenty-eight police stations describes an older arrangement, so treat any station count you read online with caution.",
         "The split that matters commercially is city against district. Hazira, Sachin, Sachin GIDC, Pandesara and Ichchhapor are covered by named city police stations, so a plant there deals with Surat City Police. Kamrej and Olpad fall to Surat Rural, a separate superintendent's force with sixteen stations across four divisions. Dialling the wrong one costs hours on the day something is found.",
-        "On reporting, Gujarat's e-FIR facility covers vehicle and mobile phone theft only, where the accused is unidentified and no force was used, and it is not an FIR on submission: an officer verifies the complainant, reported as within forty-eight hours, before a case is registered. A covert recording complaint falls outside that route entirely. For cyber matters Surat runs a cyber crime police station with several inspector-led units on a shared line, alongside 1930 and the national portal, and the women's helpline Gujarat publishes is 181 Abhayam rather than the number used in other states.",
+        "On reporting, Gujarat's e-FIR facility covers vehicle and mobile phone theft only, where the accused is unidentified and no force was used, and it is not an FIR on submission: an officer verifies the complainant, reported as within forty-eight hours, before a case is registered. A covert recording complaint falls outside that route entirely. For cyber matters Surat runs a cyber crime police station with several inspector-led units on a shared line, alongside 1930 and the national portal, and the women's helpline on Gujarat Police's own list is 181, the Abhayam line, though 1091 still appears on some district collectorate pages, so check which one your district publishes.",
       ],
     },
     settings: [
@@ -2087,7 +2087,7 @@ export const cities: CityData[] = [
       },
       {
         q: "Which helpline should a woman in Surat use?",
-        a: "Gujarat publishes 181, the Abhayam helpline, which runs statewide with rescue vans and a panic-button app. Gujarat Police does not currently advertise the number used in several other states, so advice copied from elsewhere may send you to the wrong line. Use 112 for an emergency and 1930 for cyber crime.",
+        a: "Gujarat Police's own helpline list gives 181, the Abhayam line, which runs statewide with rescue vans and a panic-button app and is operated by the women and child development department rather than the police. The 1091 number still appears on some district collectorate pages, so the two coexist and it is worth checking what your district publishes. Use 112 for an emergency and 1930 for cyber crime.",
       },
       {
         q: "What affects the cost of a sweep in Surat?",
@@ -2856,7 +2856,7 @@ export const cities: CityData[] = [
       body: [
         "Start with the number that changed this year. Tamil Nadu's police policy note records that 1091 is the dedicated line for the Singappen Special Task Force, launched across the state on 9 June 2026 and integrated with the 112 emergency system, with seventy field units operating statewide. This is not a Chennai-only arrangement, and pages written before mid-2026 will not mention it. The state's own emergency list does not include the 181 number that serves as a women's police line in some other states; in Tamil Nadu that sits with social welfare rather than the police.",
         "Second, what an online complaint actually is. The citizen services portal lets you register a complaint, check its status, and view FIR or community service register details, and the policy note lists a registered online complaint, the status of a community service register and the status of an FIR as three separate services. A community service register entry is what a non-cognizable matter produces. Voyeurism is cognizable, so a covert recording complaint means attending the police station, and the case gets registered on the upgraded records system that went live across Tamil Nadu in February 2026.",
-        "Third, jurisdiction and hostels. Coimbatore City is one of nine commissionerates in the state and has its own cyber crime police station, in line with the policy note's rule of one per commissionerate; the city office is on Huzur Road at Uppilipalayam. Pollachi and the outer taluks are district police under a separate superintendent, Tiruppur is its own commissionerate, and railway premises fall to the railway police district rather than the city. On accommodation, the Tamil Nadu Hostels and Homes for Women and Children (Regulation) Act 2014 requires a licence from the Collector, valid for three years, and since a 2025 amendment the application runs online. Note what the rules do not say: cameras appear on the application and inspection forms only as a disclosure, asking where they are installed or what action has been taken to install them. A hostel can hold a valid licence with no cameras at all, which is precisely the gap a sweep addresses.",
+        "Third, jurisdiction and hostels. Coimbatore City is one of nine commissionerates in the state and has its own cyber crime police station, one of the fifty four the policy note lists, which include one for each police district and one for each commissionerate; the city office is on Huzur Road at Uppilipalayam. Pollachi and the outer taluks are district police under a separate superintendent, Tiruppur is its own commissionerate, and railway premises fall to the railway police district rather than the city. On accommodation, two separate things are often run together. The Tamil Nadu Hostels and Homes for Women and Children (Regulation) Act 2014 requires a licence from the Collector for hostels housing women or children; since an amendment in May 2025 the application is online and the licence runs ten years rather than three. That licensing regime says nothing about cameras: they appear only as a self-declared line on the security annexure, with no minimum, no specification and no retention period. Separately, and this is the part worth knowing, an amendment in force since January 2025 places a statutory duty on whoever is in charge of a hostel, hotel, restaurant, cinema, mall, hospital or any other precinct to take steps including installing cameras to prevent harassment of a woman, and to inform the police within twenty four hours of a complaint. So there is a duty, but it sets no standard, and neither the duty nor the licence tells you anything about a device someone has hidden inside a room.",
       ],
     },
     settings: [
@@ -2870,7 +2870,7 @@ export const cities: CityData[] = [
       },
       {
         title: "Hostels and paying guest rooms",
-        desc: "Ask to see the licence, which comes from the Collector and runs three years. Cameras are only a disclosure item on the forms, so a licence tells you nothing about what is in the room.",
+        desc: "Ask to see the licence, which comes from the Collector and now runs ten years. Cameras on it are self-declared with no specification, so a licence tells you nothing about what is inside a room.",
       },
       {
         title: "Homes, rented flats and vehicles",
@@ -2888,11 +2888,11 @@ export const cities: CityData[] = [
       },
       {
         q: "Is Pollachi covered by Coimbatore City Police?",
-        a: "No. Pollachi and the outer taluks are district police under a separate superintendent, Tiruppur is its own commissionerate, and railway premises fall to the railway police district. The city limits expanded in 2011 to take in Saravanampatti, Kalapatti, Thudiyalur, Vadavalli, Kuniyamuthur and others, so check which station covers your street rather than assuming.",
+        a: "No. Pollachi and the outer taluks are district police under a separate superintendent, Tiruppur is its own commissionerate, and railway premises fall to the railway police district. This is the norm in Tamil Nadu rather than a quirk: in eight of the nine commissionerate cities the city and the surrounding district are two different forces, and only Chennai is policed as one. The city limits expanded in 2011 to take in Saravanampatti, Kalapatti, Thudiyalur, Vadavalli, Kuniyamuthur and others, so check which station covers your street rather than assuming.",
       },
       {
         q: "Are hostels in Coimbatore required to install CCTV?",
-        a: "No. Under the Tamil Nadu Hostels and Homes for Women and Children (Regulation) Act 2014 and its rules, a licence comes from the Collector and runs three years, and cameras appear on the application and inspection forms only as a disclosure, asking where they are installed or what action has been taken. Installation is not a condition of the licence.",
+        a: "Not by the licence. Under the Tamil Nadu Hostels and Homes for Women and Children (Regulation) Act 2014 the licence comes from the Collector and, since a May 2025 amendment, runs ten years, and cameras on it are self-declared with no specification or retention period. A separate state amendment in force since January 2025 does place a duty on the person in charge of a hostel to take steps including installing cameras to prevent harassment of a woman, but it sets no standard for them. Either way, cameras at the entrance say nothing about a device hidden in a room.",
       },
     ],
     jsonLd: {
