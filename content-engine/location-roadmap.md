@@ -8,22 +8,31 @@ The constraint that shapes this: Google's spam policy treats near-identical page
 
 Each needs verified local facts (jurisdiction, what can and cannot be filed online, helpline scope, local rules) before it is written. Target 1,200 words or more, grouped area table, per-city FAQ, Service and Place schema.
 
-Published (10): Mumbai, Delhi, Gurugram, Noida, Bengaluru, Pune, Hyderabad, Jaipur, Goa, Chandigarh.
+Published (22): Mumbai, Delhi, Gurugram, Noida, Bengaluru, Pune, Hyderabad, Jaipur, Goa, Chandigarh, Kolkata, Chennai, Ahmedabad, Lucknow, Surat, Nagpur, Indore, Bhopal, Kanpur, Patna, Visakhapatnam, Coimbatore.
 
-Queue, roughly in order of search demand and distinctness:
-1. Kolkata (Kolkata Police vs Bidhannagar for Salt Lake and Sector V)
-2. Chennai (Greater Chennai vs Tambaram and Avadi commissionerates)
-3. Ahmedabad (Ahmedabad City vs Gandhinagar, GIFT City)
-4. Lucknow (commissionerate since 2020, UP e-FIR limits, 1090 headquarters)
-5. Surat, Nagpur, Indore, Bhopal, Kanpur, Visakhapatnam, Coimbatore, Patna, Bhubaneswar, Kochi, Ludhiana, Agra, Varanasi
+States with a city page as of 26 September 2026: Maharashtra (3), Uttar Pradesh (3), Gujarat (2), Tamil Nadu (2), Madhya Pradesh (2), Delhi, Haryana, Karnataka, Telangana, Rajasthan, Goa, West Bengal, Bihar, Andhra Pradesh, Chandigarh.
+
+States with no coverage at all, and therefore the real gap: Kerala, Odisha, Punjab, Assam, Jharkhand, Chhattisgarh, Uttarakhand, Himachal Pradesh, Jammu and Kashmir, and the north east. Kochi, Bhubaneswar, Ludhiana, Guwahati, Ranchi, Raipur and Dehradun are the candidates there.
+
+Remaining city queue where a page is still likely to earn its place: Bhubaneswar, Kochi, Ludhiana, Agra, Varanasi, Guwahati, Ranchi, Raipur.
 
 Stop adding city pages when a city has no distinct, verifiable facts. Record the decision rather than publishing a thin page.
 
 ## Tier 2: state hub pages
 
-One per major state. Lists districts and major towns in a table, links down to the city pages, and carries the state-level material: the state police structure, what the state portal accepts online, state helpline scoping, and any state rule on hotels, paying guest accommodation or hostels.
+One per major state, at `/locations/state/<slug>`. A separate path from the city pages because the flat namespace is already ambiguous: Goa is a state but has a city-style page, and Delhi and Chandigarh are union territories.
+
+Each hub lists districts and major towns in a table, links down to the city pages, and carries the state-level material a single city page cannot: how policing is organised across the state, what the state portal accepts online, which helplines the state actually publishes, and any state rule on hotels, paying guest accommodation or hostels.
 
 This is where the long tail of town names belongs. A state hub naming Nashik, Aurangabad, Solapur, Kolhapur and Satara covers those places without a thin page each.
+
+Cannibalisation guard: the hub targets "bug sweeping in <state>" and owns the state layer. City detail stays on the city page and is linked, not repeated. Where a fact is genuinely state-level and already appears on a city page, the hub carries it in its own words and the city page keeps the local application.
+
+Build order: states that already have city pages first, so the hub has something to link down to. Then states with no coverage at all, where the hub doubles as the first entry point.
+
+## Tier 0: the locations index
+
+`/locations` is the parent of both tiers. Added 26 September 2026; before that the city pages had no hub. Groups cities by region, explains what actually differs between them, carries ItemList and FAQPage schema, and is linked from the header on every page.
 
 ## Tier 3: no page
 
@@ -36,7 +45,7 @@ The owner supplied a MapmyIndia "City List" PDF. Use it to check spellings and t
 ## Standing QA for every location page
 
 - Word count above 1,200, prose carrying the weight rather than lists
-- Body overlap with other city pages measured and kept low; the previous set measured 28 to 32 per cent, which is shared service furniture
+- Body overlap with other city pages measured against a moving baseline, not a fixed number. Shared chrome rises as cities are added, because the header lists every city: Delhi against Mumbai measured 28.4 per cent at 14 cities and 38.6 per cent at 22, with no content change at all. Measure two established pages first to get the floor, then require new pages to sit within a couple of points of it. Indore against Bhopal came in at 45.6 per cent on first build, which was real duplication in shared Madhya Pradesh wording, and reworded to the floor.
 - No claim that site-facts.md does not support
 - Every FAQ answer matched by the FAQPage schema
 - Local facts sourced, and gaps stated plainly rather than implied
