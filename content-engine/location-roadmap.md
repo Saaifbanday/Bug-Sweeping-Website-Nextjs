@@ -24,7 +24,9 @@ One per major state, at `/locations/state/<slug>`. A separate path from the city
 
 Each hub lists districts and major towns in a table, links down to the city pages, and carries the state-level material a single city page cannot: how policing is organised across the state, what the state portal accepts online, which helplines the state actually publishes, and any state rule on hotels, paying guest accommodation or hostels.
 
-This is where the long tail of town names belongs. A state hub naming Nashik, Aurangabad, Solapur, Kolhapur and Satara covers those places without a thin page each.
+This is where the long tail of town names belongs. A state hub naming Nashik, Chhatrapati Sambhajinagar, Solapur, Kolhapur and Satara covers those places without a thin page each.
+
+Watch the Maharashtra renamings: Aurangabad became Chhatrapati Sambhajinagar and Osmanabad became Dharashiv in September 2023, and Ahmednagar became Ahilyanagar in October 2024. Any inherited list using the old names is stale. Uttar Pradesh has 75 districts, not the 76 that 2025-dated sources report: the Maha Kumbh area of Prayagraj was a temporary district under a District Magistrate's notification that lapsed on 31 March 2025.
 
 Cannibalisation guard: the hub targets "bug sweeping in <state>" and owns the state layer. City detail stays on the city page and is linked, not repeated. Where a fact is genuinely state-level and already appears on a city page, the hub carries it in its own words and the city page keeps the local application.
 
