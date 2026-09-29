@@ -29,10 +29,24 @@ export const metadata: Metadata = {
 
 // Grouped so the page reads as a map of the country rather than one long alphabetical list.
 const regions: { region: string; states: string[] }[] = [
-  { region: "North India", states: ["Delhi", "Haryana", "Uttar Pradesh", "Chandigarh", "Rajasthan"] },
+  {
+    region: "North India",
+    states: [
+      "Delhi",
+      "Haryana",
+      "Uttar Pradesh",
+      "Chandigarh",
+      "Rajasthan",
+      "Punjab",
+      "Uttarakhand",
+      "Himachal Pradesh",
+      "Jammu and Kashmir",
+    ],
+  },
   { region: "West India", states: ["Maharashtra", "Gujarat", "Goa", "Madhya Pradesh"] },
-  { region: "South India", states: ["Karnataka", "Telangana", "Tamil Nadu", "Andhra Pradesh"] },
-  { region: "East India", states: ["West Bengal", "Bihar"] },
+  { region: "South India", states: ["Karnataka", "Telangana", "Tamil Nadu", "Andhra Pradesh", "Kerala"] },
+  { region: "East India", states: ["West Bengal", "Bihar", "Odisha", "Jharkhand", "Chhattisgarh"] },
+  { region: "North East India", states: ["Assam", "Meghalaya", "Tripura", "Manipur"] },
 ];
 
 const faqs = [

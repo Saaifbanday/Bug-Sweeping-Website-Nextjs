@@ -32,6 +32,15 @@ Cannibalisation guard: the hub targets "bug sweeping in <state>" and owns the st
 
 Build order: states that already have city pages first, so the hub has something to link down to. Then states with no coverage at all, where the hub doubles as the first entry point.
 
+Published (6), all 26 September 2026: Tamil Nadu, Gujarat, Bihar, Maharashtra, Uttar Pradesh, Madhya Pradesh. Together they name 276 districts and over 1,100 towns. Measured 15 to 19 per cent shingle overlap against their own city pages, against a 38.7 per cent shared-chrome floor, so the hubs are not competing with the cities they link to.
+
+What the first six taught, and what to carry into the rest:
+
+- The city-versus-rural answer does not transfer between states and is usually the most useful line on the page. Seven of Maharashtra's eleven commissionerate cities keep a separate rural superintendent; none of Uttar Pradesh's seven do, because the 2022 mergers took in the whole district; both of Madhya Pradesh's cover their districts including the villages; eight of Tamil Nadu's nine are split. Establish it per state, never by analogy.
+- Look for two kinds of accommodation instrument, not one. Tamil Nadu's hostel rules treat cameras as a disclosure item on a form while a separate 2025 amendment created a real statutory duty. Checking only the accommodation rules produced a confidently wrong page.
+- Official sites understate their own structure. Uttar Pradesh Police's homepage navigation lists four commissionerates against seven in its own unit list, and Maharashtra's about page says ten against eleven. Settle counts from a list or an order, never from navigation.
+- Where two sources disagree on a count, publish none. That applied to cyber police stations in Maharashtra, Madhya Pradesh and Gujarat, and to police station totals in Bihar.
+
 ## Tier 0: the locations index
 
 `/locations` is the parent of both tiers. Added 26 September 2026; before that the city pages had no hub. Groups cities by region, explains what actually differs between them, carries ItemList and FAQPage schema, and is linked from the header on every page.
