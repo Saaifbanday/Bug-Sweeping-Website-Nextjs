@@ -1564,5 +1564,77 @@
     "date_modified": "",
     "notes": "Created 29 Sep 2026. The hotel camera position is stated carefully: the Sarais Act licence checklist in one commissionerate requires camera footage to be uploaded, which is an administrative requirement of one licensing authority and not a statewide duty, so the page does not say Odisha requires hotels to have cameras. The 2025 shops and establishments amendment is described as binding a hotel as an employer of night shift women and as covering the approaches to washrooms rather than anything inside them. The official Odia transliterations of district names are explained rather than silently corrected. No police station counts published.",
     "revisions": []
+  },
+  {
+    "slug": "locations/ludhiana",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/ludhiana",
+    "page_type": "location-page",
+    "location": {
+      "city": "Ludhiana",
+      "district": "",
+      "state": "Punjab"
+    },
+    "primary_keyword": "bug sweeping services in ludhiana",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Ludhiana district is split across three separate police forces rather than two: the city commissionerate, Ludhiana Rural under a senior superintendent headquartered at Jagraon rather than in Ludhiana, and Khanna as a further separate police district, which makes Ludhiana the only commissionerate city in Punjab with two rural neighbours; the commissionerate has its own deputy commissioner for rural areas inside the city, which is a different officer from the senior superintendent of Ludhiana Rural and is the commonest local mix-up; the whole industrial belt including Focal Point, Sahnewal, Koom Kalan and Dehlon is city police, and the city runs two assistant commissioners dedicated to industrial areas; Ludhiana has its own cyber crime police station so covert recording need not go to the state division at Mohali.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 36 to 38 per cent shingle overlap against existing city pages, below the 39.3 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-29",
+    "date_modified": "",
+    "notes": "Created 29 Sep 2026. No police station count published because official listings disagree and one station appears as an office address without being on the list. The August 2026 espionage case is used because it is the only documented covert camera case in the district in the window, and it is framed throughout as an allegation before the court, with the page saying plainly that no private-space hidden camera case in Ludhiana could be found in five years. A 2014 trial room case was excluded as outside the window with no traceable outcome. Officer names and mobile numbers omitted because postings change. Industrial figures omitted: the widely syndicated unit counts and bicycle production percentages trace to one stale source and are actively contradicted between the city police site and industry associations.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/punjab",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/punjab",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Punjab"
+    },
+    "primary_keyword": "bug sweeping services in punjab",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Punjab has three commissionerates, each with a separate rural force, but Ludhiana uniquely has two rural police districts beside it; the state has twenty three revenue districts but twenty five police districts because Batala and Khanna are police districts without being revenue districts; there is no e-FIR in Punjab at all and searches for one return the system belonging to Punjab province in Pakistan; the online lost article service warns on its own face that theft requires attending a police station; 1091 is the police women helpline while 181 is a women and child development department line that police district sites label inconsistently; there is no hostel law, no paying guest statute and no statewide camera duty on any accommodation, the only camera mandate found being a single lapsed district order in Kapurthala from July 2024.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 14 per cent shingle overlap against its own city page, against a 39.3 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-29",
+    "date_modified": "",
+    "notes": "Created 29 Sep 2026. The absence of any accommodation camera duty was checked against the municipal corporation law, the tourism homestay scheme, hostel and paying guest instruments and district orders under section 163, and is stated as a positive finding. Pakistan Punjab material was a significant contamination risk throughout: the e-FIR system, a safe cities authority with tens of thousands of cameras, a temporary residence Act and a workplace harassment Act all belong to that jurisdiction and are excluded, with the e-FIR trap flagged on the page itself. No zone tier published because the official structure page no longer shows one. No police station counts published. Chandigarh kept separate as a union territory with its own force.",
+    "revisions": []
   }
 ]

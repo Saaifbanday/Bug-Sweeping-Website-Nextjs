@@ -3112,6 +3112,109 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "ludhiana",
+    city: "Ludhiana",
+    state: "Punjab",
+    seoTitle: "Bug Sweeping Services in Ludhiana | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Ludhiana",
+    heroSubtitle:
+      "TSCM bug sweeps for factories, offices, homes and vehicles across Ludhiana, from the Focal Point belt and Dhandari Kalan to Model Town and Civil Lines.",
+    intro:
+      "Ludhiana is a manufacturing city before it is anything else, built on hosiery and knitwear, bicycles and parts, and auto components, with a supplier base that runs from large plants down to single-unit workshops. Designs, costings and buyer lists are the assets worth taking. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "The documented local case is unusual and worth knowing for what it says about concealment. In August 2026 police arrested a man in connection with two internet-connected cameras installed at a rented shop on Ferozepur Road at New Sunder Nagar, a few kilometres from the Baddowal cantonment, with the case registered at Sarabha Nagar police station. Police allege the cameras were streaming to handlers across the border; the matter is before the court and nothing is proven. What makes it instructive is that the cameras were not hidden in the ordinary sense. They looked exactly like the security cameras any shop would have, which is the hardest kind to spot, because nobody questions a camera that appears to belong there. We could not find a documented hidden camera case in a private space in Ludhiana in the last five years, and we would rather say so than stretch one.",
+    areas: [
+      "Model Town & Sarabha Nagar",
+      "Civil Lines & Mall Road",
+      "Focal Point & Industrial Area",
+      "Dhandari Kalan & Sahnewal",
+      "Haibowal & Basti Jodhewal",
+      "Dugri & Jawaddi",
+      "Khanna & Jagraon",
+    ],
+    metaDescription:
+      "Bug sweeping services in Ludhiana: TSCM sweeps for factories, offices, homes and vehicles across the city and its industrial belt. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Old city",
+        areas: ["Division No. 1", "Division No. 2", "Division No. 3", "Division No. 4", "Division No. 5", "Daresi", "Chaura Bazar", "Field Ganj", "Ghumar Mandi", "Clock Tower"],
+      },
+      {
+        zone: "South and west",
+        areas: ["Model Town", "Sarabha Nagar", "Civil Lines", "BRS Nagar", "Aggar Nagar", "Kitchlu Nagar", "Rajguru Nagar", "Pakhowal Road", "Ferozepur Road", "Dugri", "Jawaddi", "Barewal"],
+      },
+      {
+        zone: "North of the Buddha Nullah",
+        areas: ["Haibowal", "Basti Jodhewal", "Salem Tabri", "Tibba", "Shimlapuri", "Moti Nagar", "Daba", "Gill Road", "Dholewal"],
+      },
+      {
+        zone: "Industrial belt",
+        areas: ["Focal Point", "Industrial Area A", "Industrial Area B", "Dhandari Kalan", "Giaspura", "Jugiana", "Sahnewal", "Tajpur Road", "Bahadur Ke Road", "Sherpur", "Hi-Tech Valley Dhanansu"],
+      },
+      {
+        zone: "Outer city and district towns",
+        areas: ["Jamalpur", "PAU", "Meharban", "Ladhowal", "Koom Kalan", "Dehlon", "Khanna", "Jagraon", "Samrala", "Payal", "Doraha", "Raikot", "Machhiwara", "Mullanpur Dakha", "Sidhwan Bet"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Three separate forces cover Ludhiana district, not two",
+      body: [
+        "Most cities split between a city force and a rural one. Ludhiana district splits three ways, and getting it wrong costs a day. The city is a commissionerate under a Commissioner of Police based on Ferozepur Road. Beyond it sit two entirely separate police districts, each under its own senior superintendent: Ludhiana Rural, headquartered not in Ludhiana at all but at Jagraon, and Khanna, headquartered at Khanna. Ludhiana is the only commissionerate city in Punjab with two rural police districts alongside it.",
+        "So the question is not city or rural but which of three. Jagraon, Raikot, Sudhar, Sidhwan Bet, Hathur, Jodhan and Mullanpur Dakha go to Ludhiana Rural at Jagraon. Khanna, Samrala, Payal, Doraha, Machhiwara and Malaud go to Khanna. Everything else, including the whole industrial belt, stays with the commissionerate.",
+        "There is a trap in the naming that catches people constantly. The commissionerate has its own deputy commissioner designated for rural areas, with an office near Dholewal Chowk inside the city. That officer is part of the city force and is not the senior superintendent of Ludhiana Rural at Jagraon. Two similar titles, two different organisations, two different towns.",
+        "For the industrial belt the good news is that it is city police. Focal Point has its own station, Sahnewal, Koom Kalan and Dehlon are commissionerate stations, and the city runs two assistant commissioners dedicated to industrial areas, which is unusual anywhere in India and reflects what the city does. Escalation in the city runs station house officer, assistant commissioner, additional deputy commissioner, deputy commissioner, additional commissioner, Commissioner. In the two rural districts it runs station house officer, deputy superintendent, additional superintendent, senior superintendent, and then the range inspector general.",
+        "Ludhiana has its own cyber crime police station, so a covert recording or leaked footage does not have to go to the state cyber division at Mohali, although financial cyber loss still goes to 1930 first. Station counts differ between official listings, so we name stations rather than counting them.",
+      ],
+    },
+    settings: [
+      {
+        title: "Factories and industrial units",
+        desc: "Sweeps across meeting rooms, sampling rooms, design areas and vehicle bays in the Focal Point, Dhandari Kalan and Sahnewal belts, planned around shift patterns.",
+      },
+      {
+        title: "Trading offices and showrooms",
+        desc: "Checks before a buyer visit, a price negotiation or a partnership change, in premises where staff and visitors pass through every day.",
+      },
+      {
+        title: "Homes and rented accommodation",
+        desc: "Checks at the start or end of a tenancy, or after a dispute, covering fittings, sockets, detectors and anything installed by someone else.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks over the underbody, wheel arches, bumpers, boot lining and the diagnostic port, for cars left with drivers or at a workshop.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which police force covers my address in Ludhiana district?",
+        a: "One of three. Ludhiana city, including the whole industrial belt, Focal Point, Sahnewal, Koom Kalan and Dehlon, is the commissionerate. Jagraon, Raikot, Sudhar, Sidhwan Bet, Hathur, Jodhan and Mullanpur Dakha go to Ludhiana Rural, headquartered at Jagraon. Khanna, Samrala, Payal, Doraha, Machhiwara and Malaud go to the Khanna police district. Confirm which before you report anything.",
+      },
+      {
+        q: "Is the DCP Rural in Ludhiana the same as the SSP Ludhiana Rural?",
+        a: "No, and this is the commonest mix-up here. The deputy commissioner designated for rural areas sits inside the city commissionerate with an office near Dholewal Chowk. The senior superintendent of Ludhiana Rural is a different officer heading a different police district, based at Jagraon. Taking a Jagraon matter to the city office sends you to the wrong organisation in the wrong town.",
+      },
+      {
+        q: "Are the Focal Point and Sahnewal covered by city police?",
+        a: "Yes. The industrial belt is commissionerate territory, with a dedicated Focal Point police station and separate stations at Sahnewal, Koom Kalan and Dehlon. The city also runs two assistant commissioners specifically for industrial areas, which is unusual and reflects how much of the city's activity is manufacturing.",
+      },
+      {
+        q: "Where do cyber complaints go in Ludhiana?",
+        a: "Ludhiana has its own cyber crime police station under the commissionerate, so a covert recording or leaked footage can be reported locally rather than at the state cyber division in Mohali. For financial cyber fraud, use 1930 and the national portal first, which will route the matter.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#webpage", url: "https://www.bugsweepingtscm.com/locations/ludhiana", name: "Bug Sweeping Services in Ludhiana", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#place", name: "Ludhiana", address: { "@type": "PostalAddress", addressLocality: "Ludhiana", addressRegion: "Punjab", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#service", name: "Bug sweeping and TSCM services in Ludhiana", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/ludhiana#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Ludhiana" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

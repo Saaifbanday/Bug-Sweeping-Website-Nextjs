@@ -850,5 +850,93 @@ export const states: StateData[] = [
       },
     ],
   },
+  {
+    slug: "punjab",
+    state: "Punjab",
+    seoTitle: "Bug Sweeping Services in Punjab | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Punjab",
+    heroSubtitle:
+      "TSCM bug sweeps across Punjab, where there is no e-FIR, no hostel law, and no statewide camera duty on any kind of accommodation.",
+    metaDescription:
+      "Bug sweeping services across Punjab: TSCM sweeps district by district, with the state's commissionerates, reporting limits and the absence of any accommodation camera duty explained.",
+    intro:
+      "Punjab is an industrial and agricultural state whose commercial risk sits mostly in manufacturing towns rather than in one dominant metropolis. The sweep is the same wherever we work, combining radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks and a physical inspection. What this page sets out is what happens afterwards, which in Punjab means being clear about several things that do not exist.",
+    policing: {
+      heading: "Three commissionerates, eight ranges, and more police districts than revenue districts",
+      body: [
+        "Punjab Police organise the state into eight ranges, each under an inspector general: Patiala, Bathinda, Ferozepur, Ludhiana, Jalandhar, Border, Rupnagar and Faridkot. Three cities are commissionerates, headed by senior officers rather than by a superintendent: Amritsar, Jalandhar and Ludhiana, introduced in 2010 under the state's police Act.",
+        "Every one of the three has a separate rural force beside it, so the pattern is consistent, but Ludhiana goes further than the others. Amritsar City sits beside Amritsar Rural and Jalandhar City beside Jalandhar Rural. Ludhiana City sits beside two separate police districts, Ludhiana Rural headquartered at Jagraon and Khanna headquartered at Khanna, which makes it the only commissionerate city in the state with two rural neighbours.",
+        "A counting point that confuses readers: Punjab has twenty three revenue districts but twenty five police districts. Batala and Khanna are police districts without being revenue districts, which is why a list of districts and a list of police units will not match. Malerkotla, created in 2021 out of Sangrur, is the newest revenue district and nothing has changed since.",
+        "On zones, older descriptions of Punjab Police include a zone tier above ranges. The current official structure page does not show one, and the page that used to describe it no longer exists. Zone now survives mainly as a crime wing designation rather than a territorial command, so the chain a reader actually meets is range, then district or commissionerate, then sub-division, then police station.",
+      ],
+    },
+    reporting: {
+      heading: "There is no e-FIR in Punjab, and the online lost property route is not a theft route",
+      body: [
+        "Punjab has no facility to register an FIR online. If you find one described, check the country: searches for a Punjab e-FIR return the system run by Punjab province in Pakistan, which is a different jurisdiction entirely. The official list of online citizen services in Punjab runs to downloading an FIR, checking complaint status, registering a complaint, searching for arrested or wanted persons, missing persons, accident FIR information, stolen vehicles and lost mobile phones. None of them registers an FIR.",
+        "Three things get confused. A complaint through the state's citizen services portal produces a tracking number and is routed to a station for enquiry. A grievance through the police grievance division or the state grievance portal is a complaint about conduct or inaction, not about a crime. An FIR is registered only at a police station. Punjab Police's own published guidance is helpful here and worth quoting back if you meet resistance: where a complaint discloses a cognizable offence, it is the complainant's right to have an FIR registered, and to receive a free copy immediately.",
+        "One trap on the portal is worth knowing in advance. The lost article service produces a lost information report, and the service itself warns that if the loss is due to theft you must attend the police station. Filing a lost article report for something stolen leaves you without an FIR.",
+        "On helplines, Punjab Police publish 112 for emergencies, 1091 as the women's helpline, 1098 for children and 1930 for cyber crime. The 181 number does exist in Punjab as a women's helpline, but it is run by the social security and women and child development department rather than by the police, and Punjab Police's own district sites label it inconsistently, so treat 1091 as the police line. One further caution: the state police headquarters page prints 1091 for both women and children, while district lists correctly give 1098 for children.",
+      ],
+    },
+    accommodation: {
+      heading: "No hostel law, no statewide camera duty, and one lapsed district order",
+      body: [
+        "Punjab has no hostel regulation at all. There is no Act and no rules governing private hostels, and the working women's hostel programme run by the social security department is a welfare scheme rather than a regulatory regime over private operators. There is also no state statute on paying guest accommodation. The only paying guest instrument found is a development authority land use policy, which governs what a residential plot may be used for rather than how an operator must behave, and we could not read it because the authority's site was unreachable, so we say nothing about its contents.",
+        "Hotels and lodging houses are licensed through the municipal trade licence in corporation cities, under the state's municipal corporation law, which gives a power to make bye-laws about hotels and lodging houses but imposes no camera duty, and we found no corporation bye-law that does. The tourism department's bed and breakfast and homestay scheme sets grades, fees and document requirements and does not mention cameras, a guest register or police verification at all.",
+        "We also looked for the second kind of instrument, a general women's safety or public safety statute that might impose a camera duty the way one does in Tamil Nadu. Punjab has no equivalent. There is no state harassment statute or safety law creating a camera obligation on private premises. Be careful with search results here: references to a safe cities authority running tens of thousands of cameras describe Punjab province in Pakistan, not this state.",
+        "The one genuine camera mandate we found anywhere in Punjab was a district magistrate's order in Kapurthala in July 2024 requiring paying guest operators to install cameras and keep a month of footage, alongside registration and guest records. Orders of that kind cover one district, lapse after two months at most unless extended, and are reissued or allowed to expire. That one has long since lapsed, and Ludhiana district publishes no such order at all. So any claim that paying guest accommodation in Punjab must have cameras is wrong. What you can check is whether a live order exists in your own district today, and expect the answer to change.",
+        "We found no advisory from Punjab Police specifically about hidden or spy cameras in hotels, hostels, trial rooms or washrooms. That was checked across their crime prevention and personal safety pages, the state women's safety handbook and the city safety pages for four cities, and it is a firm negative. Punjab Police did issue an advisory in 2026 about covert cameras planted near defence infrastructure, but that is a national security matter and not guidance about privacy in accommodation.",
+      ],
+    },
+    cityPages: ["ludhiana"],
+    districts: [
+      { district: "Ludhiana", towns: ["Ludhiana", "Khanna", "Jagraon", "Samrala", "Payal", "Raikot"] },
+      { district: "Amritsar", towns: ["Amritsar", "Majitha", "Jandiala Guru"] },
+      { district: "Jalandhar", towns: ["Jalandhar", "Phillaur", "Nakodar"] },
+      { district: "Patiala", towns: ["Patiala", "Rajpura", "Nabha"] },
+      { district: "Bathinda", towns: ["Bathinda", "Rampura Phul", "Talwandi Sabo"] },
+      { district: "S.A.S. Nagar", towns: ["Mohali", "Kharar", "Zirakpur"] },
+      { district: "Gurdaspur", towns: ["Gurdaspur", "Batala", "Qadian"] },
+      { district: "Hoshiarpur", towns: ["Hoshiarpur", "Dasuya", "Mukerian"] },
+      { district: "Kapurthala", towns: ["Kapurthala", "Phagwara", "Sultanpur Lodhi"] },
+      { district: "Sangrur", towns: ["Sangrur", "Sunam", "Dhuri"] },
+      { district: "Malerkotla", towns: ["Malerkotla", "Ahmedgarh", "Amargarh"] },
+      { district: "Barnala", towns: ["Barnala", "Tapa", "Bhadaur"] },
+      { district: "Moga", towns: ["Moga", "Baghapurana", "Nihal Singh Wala"] },
+      { district: "Ferozepur", towns: ["Ferozepur", "Zira", "Talwandi Bhai"] },
+      { district: "Fazilka", towns: ["Fazilka", "Abohar", "Jalalabad"] },
+      { district: "Faridkot", towns: ["Faridkot", "Kotkapura", "Jaitu"] },
+      { district: "Sri Muktsar Sahib", towns: ["Sri Muktsar Sahib", "Malout", "Gidderbaha"] },
+      { district: "Mansa", towns: ["Mansa", "Budhlada", "Sardulgarh"] },
+      { district: "Fatehgarh Sahib", towns: ["Sirhind", "Mandi Gobindgarh", "Bassi Pathana"] },
+      { district: "Rupnagar", towns: ["Rupnagar", "Nangal", "Anandpur Sahib"] },
+      { district: "Shahid Bhagat Singh Nagar", towns: ["Nawanshahr", "Banga", "Balachaur"] },
+      { district: "Tarn Taran", towns: ["Tarn Taran", "Patti", "Bhikhiwind"] },
+      { district: "Pathankot", towns: ["Pathankot", "Sujanpur", "Narot Jaimal Singh"] },
+    ],
+    faqs: [
+      {
+        q: "Can I file an FIR online in Punjab?",
+        a: "No. Punjab has no e-FIR. The online services let you download an FIR, register a complaint, check its status and search various records, but none registers an FIR. If you find a Punjab e-FIR described online, check the country: that system belongs to Punjab province in Pakistan. An FIR is registered only at a police station, and where your complaint discloses a cognizable offence you are entitled to registration and a free copy.",
+      },
+      {
+        q: "Which women's helpline should I use in Punjab?",
+        a: "1091, which is the police line published by Punjab Police alongside 112 for emergencies, 1098 for children and 1930 for cyber crime. The 181 number exists here as a women's helpline too, but it is run by the social security and women and child development department rather than the police, and police district sites label it inconsistently.",
+      },
+      {
+        q: "Do hotels, hostels or paying guest accommodation in Punjab need cameras?",
+        a: "No. Punjab has no hostel law at all, no statute on paying guest accommodation, no statewide camera duty and no general safety statute imposing one. The tourism department's homestay scheme does not mention cameras, a guest register or police verification. The only camera mandate we found was a district magistrate's order in Kapurthala in July 2024, which covered one district, has lapsed, and was never statewide.",
+      },
+      {
+        q: "How many districts does Punjab have?",
+        a: "Twenty three revenue districts, the newest being Malerkotla, created out of Sangrur in 2021. But Punjab Police run twenty five police districts, because Batala and Khanna are police districts without being revenue districts. That is why a list of districts and a list of police units do not match.",
+      },
+      {
+        q: "If I report something lost online in Punjab, does that cover theft?",
+        a: "No, and the portal says so itself. The lost article service produces a lost information report and warns that if the loss is due to theft you must attend the police station. Using it for a stolen item leaves you without an FIR and without an investigation.",
+      },
+    ],
+  },
 ];
 
