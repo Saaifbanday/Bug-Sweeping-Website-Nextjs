@@ -348,7 +348,7 @@ export const blogPosts: BlogPost[] = [
           name: "BugSweepingTSCM",
           url: "https://www.bugsweepingtscm.com",
           logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
-          email: "bugsweepingtscm@gmail.com",
+          email: "info@advancedetectiveagency.com",
           telephone: "+91-8882732221",
         },
         {
@@ -602,7 +602,7 @@ ${faqHtml(bugSweepingIndiaFaqs)}
           name: "BugSweepingTSCM",
           url: "https://www.bugsweepingtscm.com",
           logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
-          email: "bugsweepingtscm@gmail.com",
+          email: "info@advancedetectiveagency.com",
           telephone: "+91-8882732221",
         },
         {
@@ -777,7 +777,7 @@ ${faqHtml(bugSweepingDelhiFaqs)}
           name: "BugSweepingTSCM",
           url: "https://www.bugsweepingtscm.com",
           logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
-          email: "bugsweepingtscm@gmail.com",
+          email: "info@advancedetectiveagency.com",
           telephone: "+91-8882732221",
         },
         {

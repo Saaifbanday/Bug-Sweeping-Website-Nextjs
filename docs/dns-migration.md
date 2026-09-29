@@ -115,8 +115,9 @@ To avoid downtime:
 
 ## Email Records — IMPORTANT
 
-If the client uses `@bugsweepingtscm.com` email (e.g., `bugsweepingtscm@gmail.com`),
-the MX records must be preserved when switching DNS.
+The public contact address is `info@advancedetectiveagency.com`, which sits on a
+different domain, so this site's DNS change does not affect it. If a mailbox is ever
+created on `@bugsweepingtscm.com`, its MX records must be preserved when switching DNS.
 
 **Before changing nameservers:**
 

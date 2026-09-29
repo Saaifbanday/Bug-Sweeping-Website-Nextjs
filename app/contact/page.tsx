@@ -16,8 +16,8 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email Us",
-    lines: ["bugsweepingtscm@gmail.com"],
-    href: "mailto:bugsweepingtscm@gmail.com",
+    lines: ["info@advancedetectiveagency.com"],
+    href: "mailto:info@advancedetectiveagency.com",
   },
   {
     icon: Phone,

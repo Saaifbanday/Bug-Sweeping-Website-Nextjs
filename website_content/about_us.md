@@ -2,7 +2,7 @@
 
 [Skip to content](https://bugsweepingtscm.com/index.php/about-us/#content)
 
-[**bugsweepingtscm@gmail.com**](mailto:bugsweepingtscm@gmail.com)
+[**info@advancedetectiveagency.com**](mailto:info@advancedetectiveagency.com)
 
 [**+91 888 273 2221**](tel:+118%20899%20882)
 

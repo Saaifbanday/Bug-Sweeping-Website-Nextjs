@@ -61,7 +61,7 @@ Research, then write, then build, then QA, in the same run.
   lives at `/blog/<slug>`. There is also a "Locations" menu. Always read the current repository
   and ledger for the live inventory of posts and location pages; never rely on a remembered count.
 - **Contact data (context only, never stuffed into articles):** +91 888 273 2221,
-  bugsweepingtscm@gmail.com, WhatsApp CTA `https://wa.me/918882732221`.
+  info@advancedetectiveagency.com, WhatsApp CTA `https://wa.me/918882732221`.
 - **Sister site:** https://advancedetectiveagency.com (ADA Advance Detective Agency). Same founder.
   General detective agency with a bug-sweeping service page and many "Best Detective Agency in
   <city>" pages. **Topic ownership:** bugsweepingtscm.com owns TSCM, bug sweeping, hidden camera,
