@@ -2908,6 +2908,210 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "bhubaneswar",
+    city: "Bhubaneswar",
+    state: "Odisha",
+    seoTitle: "Bug Sweeping Services in Bhubaneswar | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Bhubaneswar",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hostels and vehicles across Bhubaneswar, from the capital core and Old Town to Infocity, Patia and Mancheswar.",
+    intro:
+      "Bhubaneswar holds the state secretariat, an information technology corridor at Chandrasekharpur and Patia, the liaison offices where mining and industrial decisions get discussed, and one of the densest student populations in eastern India. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that picks up electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "We could not find a documented hidden camera case in Bhubaneswar itself that stood up to checking, and we would rather say so than stretch one to fit. What the state does offer is a clear illustration of how ordinary these devices are: in 2026, at a government office in Jagatsinghpur district, a spy camera bought online was installed in a women's washroom and was only discovered when it fell off the wall mid-use, with a camera, phone, pen drive and hard disk seized. Nothing about that required expertise or expensive equipment, which is precisely why a room that feels routine is worth checking.",
+    areas: [
+      "Saheed Nagar & Satya Nagar",
+      "Nayapalli & IRC Village",
+      "Chandrasekharpur & Patia",
+      "Infocity & KIIT",
+      "Old Town & Lingaraj",
+      "Mancheswar & Rasulgarh",
+      "Khandagiri & Jagamara",
+    ],
+    metaDescription:
+      "Bug sweeping services in Bhubaneswar: TSCM sweeps for offices, homes, hostels and vehicles across the capital and its IT corridor. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Capital core",
+        areas: ["Saheed Nagar", "Satya Nagar", "Acharya Vihar", "Madhusudan Nagar", "Bapuji Nagar", "Ashok Nagar", "Unit-I to Unit-IX", "Forest Park"],
+      },
+      {
+        zone: "North and the IT corridor",
+        areas: ["Chandrasekharpur", "Patia", "Infocity", "Info Valley", "Kalarahanga", "Sailashree Vihar", "Niladri Vihar", "Damana", "Nalco Square", "Sainik School"],
+      },
+      {
+        zone: "West and south west",
+        areas: ["Nayapalli", "IRC Village", "Baramunda", "Khandagiri", "Jagamara", "Aiginia", "Dumduma", "Patrapada", "Pokhariput", "Kalinga Stadium"],
+      },
+      {
+        zone: "Old Town and the south east",
+        areas: ["Lingaraj Nagar", "Bindusagar", "Kapileswar", "Samantarapur", "Badagada", "BJB Nagar", "Laxmisagar", "Bhimatangi", "Kapila Prasad", "Brahmeswar Patna"],
+      },
+      {
+        zone: "East, industrial and outer",
+        areas: ["Mancheswar", "Mancheswar Industrial Estate", "IDCO Colony", "Rasulgarh", "Palasuni", "Jharapada", "Bomikhal", "Nandankanan", "Jatni", "Chandaka", "Tamando", "Balianta"],
+      },
+    ],
+    jurisdiction: {
+      heading: "The boundary is not the city limit, and Khordha is not the Commissionerate",
+      body: [
+        "Bhubaneswar is not policed on its own. It shares a commissionerate with Cuttack, created in 2008 under the Odisha Urban Police Act and split internally into two urban police districts, one for each city. Escalation runs from the inspector or officer in charge of a station to an assistant commissioner heading a numbered sub-division, then to the deputy commissioner for the Bhubaneswar urban police district, then to the additional commissioner and the commissioner. There is no superintendent in that chain.",
+        "The boundary catches almost everyone out, because it runs well past the built-up city. Jatni, Chandaka, Tamando, Balianta and Balipatna are all inside the commissionerate despite feeling rural. Khordha town, on the other hand, is not, even though Bhubaneswar sits in Khordha district: Khordha town, Tangi, Balugaon, Banapur, Bolagarh, Jankia and Nirakarpur fall to the superintendent of police for Khordha district. Sharing a district name with a city that is policed separately is an easy way to spend a day at the wrong office, and the district's own portal lists both forces' stations side by side without saying which is which.",
+        "Two station names are worth knowing before you need them. Old Town is covered by Shree Lingaraj police station, not by anything called Old Town. And Infocity and Info Valley are two different stations, so the Patia, KIIT and Infosys side is Infocity police station, which also runs an outpost at KIIT. Bhubaneswar has its own cyber crime and economic offence police station, based on the first floor of the Maitri Vihar station building near Xavier Square, alongside the national 1930 helpline; the statewide cyber police station sits with the crime branch at Cuttack.",
+        "Counts of police stations for the commissionerate vary between three different figures depending on where you look, and no official consolidated total is published, so we do not give one.",
+      ],
+    },
+    settings: [
+      {
+        title: "Government and liaison offices",
+        desc: "Sweeps before a tender discussion, a clearance meeting or a negotiation, in a city where policy-sensitive commercial information is routinely discussed.",
+      },
+      {
+        title: "IT corridor and corporate floors",
+        desc: "Checks across meeting rooms, cabins and vehicle bays at Infocity, Info Valley and the Chandrasekharpur belt, planned around access by contractors and facilities staff.",
+      },
+      {
+        title: "Student hostels and rented rooms",
+        desc: "Private hostels here are licensed and must run entry and exit cameras with thirty days of footage retained. That is a real standard you can ask about, and it still says nothing about the inside of a room.",
+      },
+      {
+        title: "Homes, flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, sockets, vents and detectors, plus tracker checks under the body, around the wheel arches and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Khordha covered by the Bhubaneswar Commissionerate?",
+        a: "Khordha town is not, even though Bhubaneswar lies in Khordha district. Khordha town, Tangi, Balugaon, Banapur, Bolagarh, Jankia and Nirakarpur fall to the district superintendent of police. Jatni, Chandaka, Tamando, Balianta and Balipatna, which feel more rural, are inside the commissionerate. Confirm which force covers your address before reporting anything.",
+      },
+      {
+        q: "Which police station covers Old Town or Patia?",
+        a: "Old Town is covered by Shree Lingaraj police station; there is no station called Old Town. Patia, KIIT and the Infosys side fall to Infocity police station, which runs an outpost at KIIT. Note that Infocity and Info Valley are two separate stations, so the names are not interchangeable.",
+      },
+      {
+        q: "Can a private hostel in Bhubaneswar be held to a camera standard?",
+        a: "Yes, and this is unusual in India. Regulations gazetted for this commissionerate in 2016 require a licensed private hostel to install cameras recording entry and exit, to retain the footage for thirty days and to produce it to the Commissioner of Police on request. A licence can be cancelled for breach and an appeal lies to the state police chief within thirty days. The regulations apply nowhere else in Odisha, and they cover entrances rather than the inside of rooms.",
+      },
+      {
+        q: "Where do cyber complaints go in Bhubaneswar?",
+        a: "To the cyber crime and economic offence police station for the commissionerate, which operates from the first floor of the Maitri Vihar police station building near Xavier Square, or through the national 1930 helpline and portal. The statewide cyber police station sits with the crime branch at Cuttack and covers cases where jurisdiction cannot be established.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#webpage", url: "https://www.bugsweepingtscm.com/locations/bhubaneswar", name: "Bug Sweeping Services in Bhubaneswar", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#place", name: "Bhubaneswar", address: { "@type": "PostalAddress", addressLocality: "Bhubaneswar", addressRegion: "Odisha", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#service", name: "Bug sweeping and TSCM services in Bhubaneswar", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/bhubaneswar#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Bhubaneswar" } ] },
+      ],
+    },
+  },
+  {
+    slug: "kochi",
+    city: "Kochi",
+    state: "Kerala",
+    seoTitle: "Bug Sweeping Services in Kochi | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Kochi",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hostels and vehicles across Kochi, from Infopark and Kakkanad to Fort Kochi, Willingdon Island and the port belt.",
+    intro:
+      "Kochi runs a port, a transhipment terminal, a refinery belt, a shipyard and an information technology corridor, and it hosts the national boards for spices and marine products alongside Kerala's only High Court. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "The local record makes an uncomfortable point: these devices turn up in corporate buildings, and they often go unsolved. In July 2025 a camera was found beneath a washbasin in a women's restroom on the second floor of Infopark Centre at Kakkanad, still working when it was discovered, and a case was registered under the voyeurism provision of the Bharatiya Nyaya Sanhita and the Information Technology Act. Nobody has been identified. A hostel case at Panangad in 2023, where a phone was pushed through a bathroom ventilator, also remains unsolved. Finding a device early, and documenting it in place rather than pulling it out, is what gives an investigation something to work with.",
+    areas: [
+      "Ernakulam & Marine Drive",
+      "Kakkanad & Infopark",
+      "Fort Kochi & Mattancherry",
+      "Willingdon Island & Harbour",
+      "Kalamassery & Eloor",
+      "Tripunithura & Maradu",
+      "Aluva & Angamaly",
+    ],
+    metaDescription:
+      "Bug sweeping services in Kochi: TSCM sweeps for offices, homes, hostels and vehicles across the city, Infopark and the port belt. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central Ernakulam",
+        areas: ["Ernakulam North", "Ernakulam South", "Marine Drive", "Ravipuram", "Kaloor", "Kadavanthra", "Panampilly Nagar", "Vyttila", "Elamkulam", "Thevara", "Kacheripady"],
+      },
+      {
+        zone: "East and the IT corridor",
+        areas: ["Kakkanad", "Infopark", "Thrikkakara", "Vazhakkala", "Palarivattom", "Edappally", "Vennala", "Padivattom", "Kangarappady", "Pukkattupady", "Ambalamugal"],
+      },
+      {
+        zone: "West, Fort Kochi and the islands",
+        areas: ["Fort Kochi", "Mattancherry", "Willingdon Island", "Thoppumpady", "Palluruthy", "Edakochi", "Mundamveli", "Vallarpadam", "Bolgatty", "Mulavukad", "Vypin"],
+      },
+      {
+        zone: "North and the Aluva side",
+        areas: ["Kalamassery", "Eloor", "Udyogamandal", "Aluva", "Muttom", "Angamaly", "North Paravur", "Perumbavoor", "Cheranelloor", "Varapuzha", "Nedumbassery"],
+      },
+      {
+        zone: "South and Tripunithura side",
+        areas: ["Tripunithura", "Hill Palace", "Eroor", "Maradu", "Nettoor", "Kundannoor", "Panangad", "Kumbalam", "Udayamperoor", "Chottanikkara"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Kochi City reaches well past the corporation, but stops before Aluva",
+      body: [
+        "Kochi is a commissionerate, recorded in police files as Ernakulam City, which is the name you will see on an FIR even though the force calls itself Kochi City Police. Escalation runs from the station house officer to an assistant commissioner heading a sub-division, then to a deputy commissioner, then to the Commissioner of Police. There is no superintendent anywhere in that chain.",
+        "Ernakulam district contains two separate police districts, and the boundary between them is not where people expect. Kochi City Police covers far more than the city corporation: Kakkanad, Infopark, Thrikkakara, Kalamassery, Eloor, Maradu, Tripunithura, Fort Kochi, Willingdon Island and Vallarpadam are all inside it. But it stops short of the northern towns. Aluva, Angamaly, Perumbavoor, Muvattupuzha, Kothamangalam, North Paravur and the airport area at Nedumbassery all fall to Ernakulam Rural, a separate district under a District Police Chief based at Aluva, where the chain runs station house officer to deputy superintendent to District Police Chief with no deputy commissioner tier at all.",
+        "Three station names are worth knowing in advance, because asking for the wrong one wastes time. There is no Tripunithura police station: that area is covered by Hill Palace police station. Willingdon Island and the surrounding backwaters belong to Harbour police station. And the transhipment terminal at Vallarpadam sits in Mulavukad panchayat, so it is Mulavukadu police station rather than anything named for the port.",
+        "Kochi also has two cyber police stations rather than one. The Ernakulam City cyber police station, based near Infopark at Kakkanad, is limited to the city force's area, while Ernakulam Rural has its own at the district police office in Aluva. For online financial fraud, Kerala Police's own pages direct people to the 1930 helpline and the national portal first. Station counts for both districts differ between official sources, so we publish none.",
+      ],
+    },
+    settings: [
+      {
+        title: "Corporate floors and the IT corridor",
+        desc: "Sweeps at Infopark, the special economic zone and the Kakkanad belt, including the shared washrooms and service areas that the reported local case turned on.",
+      },
+      {
+        title: "Port, shipping and industrial offices",
+        desc: "Checks across meeting rooms and cabins in the harbour, refinery and shipyard belt, where commercial terms and tender positions are discussed.",
+      },
+      {
+        title: "Hotels, homestays and heritage properties",
+        desc: "Fort Kochi and Mattancherry carry dense boutique and homestay stock, and occupancy peaks with the Biennale season. Rooms get checked before an extended stay.",
+      },
+      {
+        title: "Hostels, homes and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, vents, ventilators and detectors, plus tracker checks under the body and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Aluva or Angamaly covered by Kochi City Police?",
+        a: "No. Aluva, Angamaly, Perumbavoor, Muvattupuzha, Kothamangalam, North Paravur and the airport area at Nedumbassery fall to Ernakulam Rural, a separate police district under a District Police Chief based at Aluva. Kakkanad, Infopark, Kalamassery, Eloor, Maradu, Tripunithura, Fort Kochi and Willingdon Island are all Kochi City.",
+      },
+      {
+        q: "Which police station covers Tripunithura or Willingdon Island?",
+        a: "There is no station called Tripunithura; that area is covered by Hill Palace police station. Willingdon Island and the surrounding backwaters are Harbour police station. The transhipment terminal at Vallarpadam sits in Mulavukad panchayat and is covered by Mulavukadu police station.",
+      },
+      {
+        q: "Where do cyber complaints go in Kochi?",
+        a: "There are two cyber police stations. The Ernakulam City cyber police station near Infopark at Kakkanad covers the city force's area only, and Ernakulam Rural has its own at the district police office in Aluva. For online financial fraud, Kerala Police direct people to the 1930 helpline and the national portal first, which will route the matter.",
+      },
+      {
+        q: "What happens if a device is found in an office building here?",
+        a: "It is a criminal matter, not a building management issue. Kerala's police law makes it an offence to record in a way that affects a woman's reasonable privacy at any place, and it extends liability to companies and their directors. The reported Infopark case was registered under the voyeurism provision of the Bharatiya Nyaya Sanhita and the Information Technology Act. Leave the device in position and photograph it there.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/kochi#webpage", url: "https://www.bugsweepingtscm.com/locations/kochi", name: "Bug Sweeping Services in Kochi", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/kochi#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/kochi#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/kochi#place", name: "Kochi", address: { "@type": "PostalAddress", addressLocality: "Kochi", addressRegion: "Kerala", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/kochi#service", name: "Bug sweeping and TSCM services in Kochi", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/kochi#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/kochi#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "bugsweepingtscm@gmail.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/kochi#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Kochi" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

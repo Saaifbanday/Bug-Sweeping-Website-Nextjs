@@ -1420,5 +1420,149 @@
     "date_modified": "",
     "notes": "Created 26 Sep 2026. No cyber police station count published because the state publishes no list and sources conflict. The district count is given as current rather than settled because a state reorganisation commission appointed in 2024 is still running, and Nagda is excluded because it has been announced repeatedly and never notified. The dead state cyber subdomain is mentioned so a failed link is not read as a closed service.",
     "revisions": []
+  },
+  {
+    "slug": "locations/bhubaneswar",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/bhubaneswar",
+    "page_type": "location-page",
+    "location": {
+      "city": "Bhubaneswar",
+      "district": "",
+      "state": "Odisha"
+    },
+    "primary_keyword": "bug sweeping services in bhubaneswar",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Bhubaneswar shares a commissionerate with Cuttack and its boundary runs well past the built-up city, so Jatni, Chandaka, Tamando, Balianta and Balipatna are inside it while Khordha town, Tangi, Balugaon and Banapur are district police despite Bhubaneswar sitting in Khordha district; Old Town is covered by Shree Lingaraj police station and Infocity and Info Valley are two different stations; the commissionerate has its own cyber crime and economic offence police station at the Maitri Vihar building; private hostels here must run entry and exit cameras with thirty day retention under gazetted 2016 regulations that apply nowhere else in the state.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 35 to 37 per cent shingle overlap against existing city pages, below the 39.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-29",
+    "date_modified": "",
+    "notes": "Created 29 Sep 2026. No police station count published because three different figures circulate and no official consolidated total exists. No Bhubaneswar hidden camera case published because none could be verified: the 2019 Nayapalli hotel allegation was denied by the operator and its outcome is untraceable, so the page uses a 2026 Jagatsinghpur case explicitly labelled as another district. Khordha district police contact details withheld because the only listing found was on a non-government domain.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/kochi",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/kochi",
+    "page_type": "location-page",
+    "location": {
+      "city": "Kochi",
+      "district": "",
+      "state": "Kerala"
+    },
+    "primary_keyword": "bug sweeping services in kochi",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Kochi City Police covers far more than the city corporation, taking in Kakkanad, Infopark, Thrikkakara, Kalamassery, Eloor, Maradu, Tripunithura, Fort Kochi, Willingdon Island and Vallarpadam, but stops before Aluva, Angamaly, Perumbavoor and the airport, which are Ernakulam Rural under a District Police Chief at Aluva; there is no Tripunithura police station, that area being Hill Palace, while Willingdon Island is Harbour and Vallarpadam is Mulavukadu; the city has two cyber police stations, one for the city force and one for the rural district; a live camera was found under a washbasin at Infopark Centre in July 2025 and the case remains unsolved.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 35 to 37 per cent shingle overlap against existing city pages, below the 39.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-29",
+    "date_modified": "",
+    "notes": "Created 29 Sep 2026. No police station count published because official sources give 27 or 28 for the city and 33 or 34 for the rural district. The Infopark and Panangad cases are described as unsolved because they are. Infopark and special economic zone company and employee figures deliberately omitted: the widely quoted numbers are stale or single sourced and the park's own counters render as zero. Cochin Port called an Authority, not a Trust, which changed in 2021.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/kerala",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/kerala",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Kerala"
+    },
+    "primary_keyword": "bug sweeping services in kerala",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Kerala Police publish 112 as both the emergency number and the women helpline rather than 1091, after merging 100, 101 and 102 into it in 2019, while 181 here is Mithra, a women and child development counselling line and not a police number; there is no Kerala e-FIR at all, the citizen portal producing a complaint and the administrative portal a petition, with the law allowing electronic information only if signed within three days and permitting a Zero FIR at any station, both confirmed by recent High Court rulings; six cities are commissionerates and every one has a paired rural police district, the cleanest such pairing in the country; there is no camera duty on accommodation anywhere in Kerala, but the state police Act makes recording at any place in a manner affecting a woman's reasonable privacy an offence carrying up to three years, extends liability to company directors, and compels accommodation providers to produce records on lawful demand.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured about 15 per cent shingle overlap against its own city page, against a 39.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-29",
+    "date_modified": "",
+    "notes": "Created 29 Sep 2026. The absence of any accommodation camera duty was checked against the police Act, municipal and panchayat licensing, tourism scheme documents and district orders, and is stated as a positive finding. The Tamil Nadu hostel rule about fifty inmates is expressly flagged on the page as Tamil Nadu law, because it dominates search results for Kerala hostel rules and is the exact contamination that produced an earlier error on the Coimbatore page. No police station counts published. The claim that Kerala has an e-FIR traces only to aggregators and was excluded.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/odisha",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/odisha",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Odisha"
+    },
+    "primary_keyword": "bug sweeping services in odisha",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Odisha has exactly one police commissionerate, covering Bhubaneswar and Cuttack together, while Rourkela and Berhampur are police districts under superintendents rather than commissionerates as often claimed; the online route registers a genuine FIR but only for motor vehicle theft with an unknown accused, unrecovered, not used in another crime and with nobody hurt, so a covert recording complaint produces only a complaint, and an FIR copy can be downloaded without registering; Odisha publishes 181 as the women helpline rather than 1091, and it is written into a 2025 state statute; private hostels in the commissionerate must run entry and exit cameras with thirty day retention under gazetted 2016 regulations, which apply nowhere else in the state.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured about 15 per cent shingle overlap against its own city page, against a 39.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-29",
+    "date_modified": "",
+    "notes": "Created 29 Sep 2026. The hotel camera position is stated carefully: the Sarais Act licence checklist in one commissionerate requires camera footage to be uploaded, which is an administrative requirement of one licensing authority and not a statewide duty, so the page does not say Odisha requires hotels to have cameras. The 2025 shops and establishments amendment is described as binding a hotel as an employer of night shift women and as covering the approaches to washrooms rather than anything inside them. The official Odia transliterations of district names are explained rather than silently corrected. No police station counts published.",
+    "revisions": []
   }
 ]

@@ -681,5 +681,174 @@ export const states: StateData[] = [
       },
     ],
   },
+  {
+    slug: "kerala",
+    state: "Kerala",
+    seoTitle: "Bug Sweeping Services in Kerala | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Kerala",
+    heroSubtitle:
+      "TSCM bug sweeps across Kerala, where the law against covert recording is unusually strong and the reporting route is unusually narrow.",
+    metaDescription:
+      "Bug sweeping services across Kerala: TSCM sweeps district by district, with the state's commissionerates, helplines, reporting limits and privacy law explained.",
+    intro:
+      "Kerala is worth understanding in a particular order, because the strong part and the weak part are not where people assume. The state has no law requiring a hotel, hostel or paying guest establishment to install cameras, and no advisory about hidden ones. What it does have is one of the more useful criminal provisions in the country for exactly this situation. The sweep itself is unchanged wherever we work: radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a physical inspection.",
+    policing: {
+      heading: "Six commissionerates, each paired with a rural district",
+      body: [
+        "Kerala divides fourteen revenue districts into twenty police districts. Six cities are commissionerates: Thiruvananthapuram, Kochi, Kozhikode, Kollam, Thrissur and Kannur. What makes Kerala unusually predictable is that every one of those six has a matching rural police district beside it, so the pattern holds across the state rather than varying city by city as it does elsewhere. Kochi City sits beside Ernakulam Rural, headquartered at Aluva; Kozhikode City beside Kozhikode Rural at Vatakara; Kollam City beside Kollam Rural at Kottarakkara; Thrissur City beside Thrissur Rural at Irinjalakuda.",
+        "The remaining eight districts, Pathanamthitta, Kottayam, Alappuzha, Idukki, Palakkad, Malappuram, Wayanad and Kasaragod, have no city force at all and are led by a superintendent.",
+        "The consequence for you is simple and worth checking before you need it. In a commissionerate city the chain runs station house officer, assistant commissioner, deputy commissioner, Commissioner of Police. In the paired rural district it runs station house officer, deputy superintendent, District Police Chief, with no deputy commissioner tier. Those are two different offices with two different chains, and in a district like Ernakulam the boundary between them falls in the middle of the built-up area rather than at the city edge.",
+      ],
+    },
+    reporting: {
+      heading: "112 is the women's helpline, and you cannot register an FIR online",
+      body: [
+        "Kerala Police publish 112 as both the emergency number and the women's helpline. That is genuinely different from most of the country, where the women's line is 1091 or 1090, and it follows from Kerala merging 100, 101 and 102 into 112 in 2019. The rest of the published list runs 1930 for cyber crime, 1090 as the crime stopper line, 1098 for children, 1515 for the Pink Patrol and a separate anti-drug line.",
+        "The 181 number exists in Kerala but it is not a police line. It is Mithra, a women's helpline run by the state women's development corporation under the women and child development department, staffed by counsellors who connect callers onward to police, hospitals, shelters and legal aid. That makes Kerala's 181 different again from Madhya Pradesh's, where the same number is a government grievance line. Copying advice between states is how people end up on the wrong one.",
+        "On reporting, there is no Kerala e-FIR, whatever aggregator sites claim. The state citizen portal gives you a complaint with a trackable status, the administrative portal gives you a petition, and the police mobile app gives you complaints, lost property reports and the ability to download an FIR that already exists. None of them registers an FIR. Only a police station does that. What the law does allow, under the Bharatiya Nagarik Suraksha Sanhita, is giving information electronically, provided you sign it within three days, and it allows you to go to any station rather than only the one covering the address. The Kerala High Court has confirmed both points in recent judgments, holding that police cannot refuse to register an FIR merely because the complaint arrived by email, was unsigned, or concerned an offence partly outside their area.",
+      ],
+    },
+    accommodation: {
+      heading: "No camera duty at all, and a privacy offence that covers any place",
+      body: [
+        "Start with the gap, because it is complete. Kerala has no lodging house statute, no hostel or paying guest regulation, no statewide order requiring cameras in accommodation, and no district prohibitory order doing so either. Hotels, lodges and hostels are licensed through the municipal or panchayat trade licence, and those licence conditions carry no camera requirement. The only camera line anywhere in Kerala accommodation law sits in the tourism department's voluntary homestay classification scheme, where cameras in public areas are desirable for the lower grades and necessary only for the top one. That is a grading criterion an owner opts into, not a legal duty, and the sanction is losing the grade.",
+        "If you have read that hostels above a certain size must install cameras at entry and exit, keep a visitors' register and post security around the clock, that is Tamil Nadu law and it does not apply here. It dominates search results for Kerala hostel rules, which is exactly how it gets repeated.",
+        "Now the part that is stronger than most states. Kerala's own police Act makes it an offence to take photographs or record video, in the words of the provision, at any place, in a manner that affects the reasonable privacy of a woman, or to circulate such material. The phrase is any place, not any public place, so a hotel room, a bathroom, a changing room and a hostel room are all covered on the face of it. The penalty runs to three years' imprisonment or a fine, and a separate provision extends liability to companies and to their directors and managers. That is a real lever if a device is found on commercial premises and the operator would rather treat it as an internal matter.",
+        "Two further duties are worth knowing. A manager or person in charge who, by deliberate omission, fails to act or to inform the authorities when an offence against a woman happens in their presence commits an offence in their own right. And any service provider, which expressly includes those providing rest and accommodation, must hand over records of the services provided when police lawfully demand them. So while you cannot require a hotel to have cameras, you can require it to produce what it does hold.",
+        "We found no advisory from Kerala Police specifically about hidden or spy cameras in hotels, hostels, trial rooms or washrooms. Their published crime prevention material covers house theft, travel and vehicle theft, and nothing on covert recording.",
+      ],
+    },
+    cityPages: ["kochi"],
+    districts: [
+      { district: "Thiruvananthapuram", towns: ["Thiruvananthapuram", "Neyyattinkara", "Attingal", "Varkala", "Kovalam"] },
+      { district: "Kollam", towns: ["Kollam", "Punalur", "Karunagappally", "Kottarakkara", "Paravur"] },
+      { district: "Pathanamthitta", towns: ["Pathanamthitta", "Thiruvalla", "Adoor", "Pandalam", "Ranni"] },
+      { district: "Alappuzha", towns: ["Alappuzha", "Cherthala", "Kayamkulam", "Mavelikkara", "Haripad"] },
+      { district: "Kottayam", towns: ["Kottayam", "Changanassery", "Pala", "Vaikom", "Ettumanoor"] },
+      { district: "Idukki", towns: ["Painavu", "Thodupuzha", "Kattappana", "Munnar", "Kumily"] },
+      { district: "Ernakulam", towns: ["Kochi", "Aluva", "Perumbavoor", "Muvattupuzha", "Angamaly", "Kothamangalam", "North Paravur"] },
+      { district: "Thrissur", towns: ["Thrissur", "Chalakudy", "Guruvayur", "Irinjalakuda", "Kunnamkulam", "Kodungallur"] },
+      { district: "Palakkad", towns: ["Palakkad", "Ottappalam", "Shoranur", "Chittur", "Mannarkkad"] },
+      { district: "Malappuram", towns: ["Malappuram", "Manjeri", "Tirur", "Perinthalmanna", "Ponnani", "Nilambur"] },
+      { district: "Kozhikode", towns: ["Kozhikode", "Vadakara", "Koyilandy", "Feroke", "Ramanattukara"] },
+      { district: "Wayanad", towns: ["Kalpetta", "Sulthan Bathery", "Mananthavady", "Vythiri"] },
+      { district: "Kannur", towns: ["Kannur", "Thalassery", "Payyannur", "Taliparamba", "Mattannur"] },
+      { district: "Kasaragod", towns: ["Kasaragod", "Kanhangad", "Nileshwar", "Uppala"] },
+    ],
+    faqs: [
+      {
+        q: "What is the women's helpline in Kerala?",
+        a: "112, which Kerala Police publish as both the emergency number and the women's helpline after merging 100, 101 and 102 into it in 2019. The 181 number exists here as Mithra, a counselling helpline run by the women and child development side rather than the police, so it is not the number for an emergency. Pink Patrol is 1515 and cyber crime is 1930.",
+      },
+      {
+        q: "Can I register an FIR online in Kerala?",
+        a: "No. The citizen portal produces a complaint, the administrative portal produces a petition, and the police app lets you make complaints and download an FIR that already exists. Only a police station registers an FIR. You may send information electronically, but the law requires you to sign it within three days, and you can go to any station rather than only the one covering the address.",
+      },
+      {
+        q: "Do hotels or hostels in Kerala have to install cameras?",
+        a: "No. Kerala has no lodging house statute, no hostel or paying guest regulation, no statewide camera order and no district order requiring cameras in accommodation. The only camera line is in the voluntary homestay classification scheme, where cameras in public areas are desirable for lower grades and necessary only for the top one. The rule about hostels over fifty inmates that appears in search results is Tamil Nadu law, not Kerala.",
+      },
+      {
+        q: "What can I actually do if a camera is found in a room in Kerala?",
+        a: "Quite a lot. Kerala's police law makes it an offence to record, at any place, in a manner affecting the reasonable privacy of a woman, with imprisonment of up to three years, and a separate provision extends liability to companies and to their directors and managers. A manager who fails by deliberate omission to act or inform the authorities commits an offence too, and police can compel an accommodation provider to produce its records. Report it at a station and leave the device in position.",
+      },
+      {
+        q: "Which police force covers my address in Kerala?",
+        a: "Six cities are commissionerates, namely Thiruvananthapuram, Kochi, Kozhikode, Kollam, Thrissur and Kannur, and each has a paired rural police district beside it. The other eight districts have no city force and are led by a superintendent. In Ernakulam the boundary between city and rural falls inside the built-up area rather than at the city edge, which is where most confusion arises.",
+      },
+    ],
+  },
+  {
+    slug: "odisha",
+    state: "Odisha",
+    seoTitle: "Bug Sweeping Services in Odisha | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Odisha",
+    heroSubtitle:
+      "TSCM bug sweeps across Odisha, with one commissionerate, one narrow online route and a hostel camera rule that applies in only one place.",
+    metaDescription:
+      "Bug sweeping services across Odisha: TSCM sweeps district by district, with the state's single commissionerate, reporting limits and hostel rules explained.",
+    intro:
+      "Odisha concentrates its corporate and administrative activity in a small number of places, chiefly the capital, the steel and mining belt in the west and the port at Paradeep. The sweep is the same wherever we work, combining radio-frequency analysis, a non-linear junction detector that finds electronics left switched off, optical and thermal checks and a physical inspection. What this page sets out is the layer around that, which in Odisha is unusually concentrated: one commissionerate, one online route that actually registers an FIR, and one city where hostels are held to a camera standard.",
+    policing: {
+      heading: "One commissionerate for two cities, and everywhere else is a district",
+      body: [
+        "Odisha has exactly one police commissionerate, and it covers two cities: Bhubaneswar and Cuttack together, created in 2008 under the state's urban police law and split internally into an urban police district for each. Everywhere else in the state is a district under a superintendent. Rourkela and Berhampur are sometimes described as commissionerates and are not; they are separate police districts under superintendents, created because of the size of those cities. In total the state runs more police districts than revenue districts, and the official explanation of the difference does not fully account for the gap, so we describe the structure rather than asserting a breakdown.",
+        "Outside the commissionerate the chain runs inspector in charge, sub-divisional police officer, superintendent, range deputy inspector general, and then the state police chief. Inside it the chain runs inspector in charge, assistant commissioner for a numbered sub-division, deputy commissioner for the urban police district, additional commissioner, commissioner.",
+        "The state has thirty districts. One thing to expect when you look them up: the Odisha government's own English pages use Odia transliterations rather than the anglicised names most people know, so Cuttack appears as Kataka, Keonjhar as Kendujhar, Sundargarh as Sundaragada and Sonepur as Subarnapur. Different official departments are not consistent with each other either, so a name that looks wrong is often just a different official spelling.",
+      ],
+    },
+    reporting: {
+      heading: "One thing can be filed online as a real FIR, and it is not this",
+      body: [
+        "Odisha is unusual in that its online route does register a genuine FIR rather than a complaint, but the category is extremely narrow. The virtual police station accepts motor vehicle theft only, and only where the accused is unknown, the vehicle has not been recovered, it was not involved in another crime and nobody was hurt. Submit within that and an FIR is registered and the station officer is alerted. Fall outside it, which a covert recording complaint does, and the online form produces a complaint rather than an FIR.",
+        "Two other routes get confused with it. The citizen portal's complaint service is an information submission that police examine, and an FIR follows only if what you describe discloses a cognizable offence. The state grievance portal is a petition to the chief minister's office, routed to administrators rather than investigators, and is not a criminal complaint mechanism at all. One genuinely useful feature: you can view and download an FIR copy without registering on the portal.",
+        "The helpline to know is the women's line, because Odisha does not use the number most of the country does. Odisha Police publish 181 as the women's helpline, and it appears again in a 2025 state statute requiring employers to display it. The number 1091, which is the women's line in several other states, appears only on one wing's page here. The rest of the published list runs 112 as the single emergency number, 1930 for cyber crime, 1098 for children, 1095 for traffic, 1093 for coastal matters and 14567 for senior citizens, although one commissionerate page contradicts that last one.",
+      ],
+    },
+    accommodation: {
+      heading: "A real hostel camera rule, in one city only",
+      body: [
+        "This is where Odisha differs sharply from most states, and the difference is local rather than statewide. Regulations gazetted in 2016 for the Bhubaneswar and Cuttack commissionerate require private residential hostels to hold a licence and, among other conditions, to install cameras recording entry and exit, to keep the footage for thirty days and to produce it to the Commissioner of Police on request. The same regulations require a visitors' register, a boarders' register, female staff in women's hostels, a licence displayed on the noticeboard, and no hostel within two hundred metres of a liquor outlet. A licence can be cancelled for breach, and an appeal lies to the state police chief within thirty days. It is one of the few genuinely enforceable hostel camera duties in India, and it applies nowhere else in Odisha.",
+        "For hotels, lodges and guest houses the position is weaker than it first appears. They register under the central Sarais Act through the commissionerate's licensing portal, and the application checklist requires camera footage to be uploaded among the documents, which in practice means an application will not complete without cameras. But that is an administrative requirement of one licensing authority in one commissionerate, not a statutory duty and not a statewide rule. It would be wrong to say Odisha requires hotels to have cameras.",
+        "There is one genuinely statewide camera duty, and it is narrower than it sounds. A 2025 amendment to the state's shops and establishments law requires employers to provide washroom and drinking water facilities for women employees with camera surveillance and proper lighting including the approach passages, alongside written consent for night shifts, a minimum of three women per shift, vehicles fitted with tracking and police verified drivers. It binds a hotel as an employer of women on night shifts, not as an accommodation provider, and it covers the approaches to washrooms rather than anything inside them.",
+        "We found no advisory from Odisha Police specifically about hidden or spy cameras. Their published safety tips run to more than twenty categories, from cyclones to ATM counters, and none of them addresses covert recording devices.",
+      ],
+    },
+    cityPages: ["bhubaneswar"],
+    districts: [
+      { district: "Khordha", towns: ["Bhubaneswar", "Khordha", "Jatni", "Balugaon"] },
+      { district: "Cuttack", towns: ["Cuttack", "Choudwar", "Banki", "Athagarh"] },
+      { district: "Puri", towns: ["Puri", "Konark", "Nimapada", "Pipili"] },
+      { district: "Jagatsinghpur", towns: ["Jagatsinghpur", "Paradeep", "Tirtol"] },
+      { district: "Kendrapara", towns: ["Kendrapara", "Pattamundai", "Rajnagar"] },
+      { district: "Jajpur", towns: ["Jajpur", "Jajpur Road", "Vyasanagar", "Kalinga Nagar"] },
+      { district: "Bhadrak", towns: ["Bhadrak", "Basudevpur", "Chandabali", "Dhamra"] },
+      { district: "Balasore", towns: ["Balasore", "Soro", "Jaleswar", "Nilagiri"] },
+      { district: "Mayurbhanj", towns: ["Baripada", "Rairangpur", "Karanjia", "Udala"] },
+      { district: "Keonjhar", towns: ["Keonjhar", "Barbil", "Joda", "Anandapur"] },
+      { district: "Dhenkanal", towns: ["Dhenkanal", "Kamakhyanagar", "Bhuban", "Hindol"] },
+      { district: "Angul", towns: ["Angul", "Talcher", "Athamallik", "Nalco Nagar"] },
+      { district: "Sundargarh", towns: ["Sundargarh", "Rourkela", "Rajgangpur", "Biramitrapur"] },
+      { district: "Jharsuguda", towns: ["Jharsuguda", "Brajrajnagar", "Belpahar"] },
+      { district: "Sambalpur", towns: ["Sambalpur", "Burla", "Kuchinda", "Redhakhol"] },
+      { district: "Bargarh", towns: ["Bargarh", "Padampur", "Barpali", "Attabira"] },
+      { district: "Deogarh", towns: ["Deogarh", "Barkote"] },
+      { district: "Subarnapur", towns: ["Sonepur", "Binika", "Tarbha"] },
+      { district: "Balangir", towns: ["Balangir", "Titilagarh", "Kantabanji", "Patnagarh"] },
+      { district: "Nuapada", towns: ["Nuapada", "Khariar", "Khariar Road"] },
+      { district: "Kalahandi", towns: ["Bhawanipatna", "Junagarh", "Kesinga", "Dharamgarh"] },
+      { district: "Rayagada", towns: ["Rayagada", "Gunupur", "Gudari"] },
+      { district: "Koraput", towns: ["Koraput", "Jeypore", "Sunabeda", "Damanjodi"] },
+      { district: "Malkangiri", towns: ["Malkangiri", "Balimela", "Chitrakonda"] },
+      { district: "Nabarangpur", towns: ["Nabarangpur", "Umerkote", "Papadahandi"] },
+      { district: "Kandhamal", towns: ["Phulbani", "Baliguda", "G. Udayagiri"] },
+      { district: "Boudh", towns: ["Boudh", "Kantamal"] },
+      { district: "Nayagarh", towns: ["Nayagarh", "Daspalla", "Khandapada"] },
+      { district: "Ganjam", towns: ["Chhatrapur", "Berhampur", "Aska", "Gopalpur"] },
+      { district: "Gajapati", towns: ["Paralakhemundi", "Kashinagar", "Mohana"] },
+    ],
+    faqs: [
+      {
+        q: "How many police commissionerates does Odisha have?",
+        a: "One, covering Bhubaneswar and Cuttack together since 2008, with an urban police district for each city. Rourkela and Berhampur are often called commissionerates and are not; they are separate police districts under superintendents. Everywhere else in the state is a district under a superintendent.",
+      },
+      {
+        q: "Can I file an FIR online in Odisha?",
+        a: "For one thing only. The virtual police station registers a genuine FIR for motor vehicle theft where the accused is unknown, the vehicle has not been recovered, it was not used in another crime and nobody was hurt. Anything outside that, including a covert recording complaint, produces a complaint rather than an FIR. You can, however, download an FIR copy without registering on the portal.",
+      },
+      {
+        q: "Is 1091 the women's helpline in Odisha?",
+        a: "No. Odisha Police publish 181 as the women's helpline, and it is written into a 2025 state statute requiring employers to display it. The 1091 number appears only on one wing's page. Use 112 as the single emergency number and 1930 for cyber crime.",
+      },
+      {
+        q: "Do hostels in Odisha have to have cameras?",
+        a: "Only in Bhubaneswar and Cuttack. Regulations gazetted for that commissionerate in 2016 require a licensed private hostel to run cameras on entry and exit, keep thirty days of footage and produce it to the Commissioner of Police, with a licence cancellable for breach. Those regulations apply nowhere else in Odisha, and they cover entrances rather than the inside of rooms.",
+      },
+      {
+        q: "Does Odisha require hotels to install cameras?",
+        a: "Not as a matter of law. Hotels register under the central Sarais Act, and in the Bhubaneswar and Cuttack commissionerate the licence application checklist asks for camera footage to be uploaded, which in practice means cameras are needed to complete an application. That is one licensing authority's administrative requirement, not a statewide duty.",
+      },
+    ],
+  },
 ];
 
