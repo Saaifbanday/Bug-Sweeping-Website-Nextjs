@@ -47,9 +47,9 @@ const items = [
     title: "Why India's Most Privacy-Conscious Clients Trust Us",
     body: "Our clients include C-suite executives, government officials, high-net-worth individuals, and legal professionals. They come to us because the stakes are high — and they know a thorough, certified sweep requires far more than a consumer-grade detector from an online marketplace.",
     bullets: [
-      "20+ years of combined TSCM field experience",
+      "13 years of TSCM and investigative practice",
       "500+ successful sweeps across India",
-      "100% confidentiality — clients never disclosed",
+      "Client identities never disclosed, in any circumstances",
       "Detailed written report with every sweep",
     ],
     imageSrc: "/images/homepage/fourth_image.png",

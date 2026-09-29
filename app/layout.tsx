@@ -10,9 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bugsweepingtscm.com"),
-  title: "Bug Sweeping TSCM India | Professional Hidden Camera & Bug Sweep Services",
+  title: "Bug Sweeping & TSCM Services India | Award-Winning Counter-Surveillance",
   description:
-    "Expert bug sweeping & TSCM across India. We detect hidden cameras, audio bugs & GPS trackers in homes, offices & vehicles. Confidential.",
+    "Bug sweeping and TSCM across India, led by Hardesh Bhardwaj, named Investigator of the Year 2026 by the World Association of Detectives. Hidden cameras, audio bugs and GPS trackers found and documented.",
   keywords: [
     "bug sweeping",
     "TSCM",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     canonical: "https://www.bugsweepingtscm.com",
   },
   openGraph: {
-    title: "Bug Sweeping TSCM India | Professional Hidden Camera & Bug Sweep Services",
+    title: "Bug Sweeping & TSCM Services India | Award-Winning Counter-Surveillance",
     description:
-      "Expert bug sweeping & TSCM across India. We detect hidden cameras, audio bugs & GPS trackers in homes, offices & vehicles. Confidential.",
+      "Bug sweeping and TSCM across India, led by Hardesh Bhardwaj, named Investigator of the Year 2026 by the World Association of Detectives. Hidden cameras, audio bugs and GPS trackers found and documented.",
     type: "website",
     locale: "en_IN",
     siteName: "BugSweepingTSCM.com",

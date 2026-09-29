@@ -5,17 +5,17 @@ const associations = [
   {
     Icon: Award,
     label: "W.A.D.",
-    sublabel: "World Association of Detectives",
+    sublabel: "Investigator of the Year 2026",
   },
   {
     Icon: Shield,
     label: "Certified TSCM Specialists",
-    sublabel: "Internationally Trained & Certified",
+    sublabel: "Trained at W.A.D. international conferences",
   },
   {
     Icon: Star,
-    label: "20+ Years of Expertise",
-    sublabel: "Former Intelligence Officers",
+    label: "13 Years in Practice",
+    sublabel: "Investigating since 2013",
   },
 ];
 

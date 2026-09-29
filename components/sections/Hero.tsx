@@ -1,219 +1,212 @@
 import Image from "next/image";
-import { ArrowRight, Shield, Eye, Wifi } from "lucide-react";
-import HeroLogo from "@/components/ui/HeroLogo";
+import Link from "next/link";
+import { ArrowRight, Trophy, Globe2 } from "lucide-react";
+
+// Every figure here is one the credentials page can substantiate. Nothing is rounded up.
+const credentials = [
+  { value: "13 years", label: "In practice since 2013" },
+  { value: "3,000+", label: "Cases handled" },
+  { value: "500+", label: "TSCM sweeps completed" },
+  { value: "25 cities", label: "Covered in depth across India" },
+];
 
 export default function Hero() {
   return (
     <section
       className="relative overflow-hidden"
       style={{
-        background:
-          "linear-gradient(135deg, #080d1a 0%, #0d1526 50%, #080d1a 100%)",
-        minHeight: "92vh",
-        display: "flex",
-        alignItems: "center",
+        background: "linear-gradient(135deg, #080d1a 0%, #0d1526 50%, #080d1a 100%)",
       }}
     >
-      {/* Background pattern */}
+      {/* Dot grid */}
       <div
         className="absolute inset-0 opacity-5"
         style={{
-          backgroundImage:
-            "radial-gradient(circle at 2px 2px, #e63946 1px, transparent 0)",
+          backgroundImage: "radial-gradient(circle at 2px 2px, #e63946 1px, transparent 0)",
           backgroundSize: "40px 40px",
         }}
       />
-
-      {/* Red glow top-left */}
+      {/* Accent glows */}
       <div
-        className="absolute top-0 left-0 w-96 h-96 rounded-full"
+        className="absolute top-0 left-0 w-[32rem] h-[32rem] rounded-full pointer-events-none"
         style={{
-          background:
-            "radial-gradient(circle, rgba(230,57,70,0.12) 0%, transparent 70%)",
-          transform: "translate(-30%, -30%)",
+          background: "radial-gradient(circle, rgba(230,57,70,0.13) 0%, transparent 70%)",
+          transform: "translate(-30%, -35%)",
+        }}
+      />
+      <div
+        className="absolute bottom-0 right-0 w-[28rem] h-[28rem] rounded-full pointer-events-none"
+        style={{
+          background: "radial-gradient(circle, rgba(29,78,216,0.10) 0%, transparent 70%)",
+          transform: "translate(25%, 30%)",
         }}
       />
 
-      {/* Blue glow bottom-right */}
-      <div
-        className="absolute bottom-0 right-0 w-96 h-96 rounded-full"
-        style={{
-          background:
-            "radial-gradient(circle, rgba(29,78,216,0.1) 0%, transparent 70%)",
-          transform: "translate(30%, 30%)",
-        }}
-      />
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-20">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Left — Text Content */}
-          <div>
-            {/* Eyebrow */}
-            <div className="flex items-center gap-3 mb-6">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 sm:py-20 lg:py-24">
+        {/* On mobile the award photograph sits directly under the headline, so the
+            strongest proof is visible without scrolling past the body copy. */}
+        <div className="grid lg:grid-cols-12 gap-y-9 lg:gap-x-14 items-center">
+          {/* Badge and headline */}
+          <div className="lg:col-span-7 lg:col-start-1 lg:row-start-1 lg:self-end">
+            {/* Award badge */}
+            <div
+              className="inline-flex items-center gap-2.5 rounded-full pl-2.5 pr-4 py-2 mb-7"
+              style={{
+                backgroundColor: "rgba(230,57,70,0.1)",
+                border: "1px solid rgba(230,57,70,0.3)",
+              }}
+            >
               <span
-                className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase"
-                style={{
-                  backgroundColor: "rgba(230,57,70,0.12)",
-                  color: "var(--color-accent)",
-                  border: "1px solid rgba(230,57,70,0.25)",
-                }}
+                className="rounded-full p-1.5 flex items-center justify-center"
+                style={{ backgroundColor: "rgba(230,57,70,0.2)" }}
               >
-                Advanced Bug Sweeping & TSCM Solutions
+                <Trophy size={13} style={{ color: "var(--color-accent)" }} />
+              </span>
+              <span
+                className="text-xs sm:text-sm font-semibold tracking-wide"
+                style={{ color: "var(--color-text)" }}
+              >
+                Investigator of the Year 2026
+              </span>
+              <span
+                className="hidden sm:inline text-xs"
+                style={{ color: "var(--color-muted)" }}
+              >
+                World Association of Detectives, Cannes
               </span>
             </div>
 
-            {/* Headline */}
             <h1
-              className="font-bold leading-tight mb-6"
+              className="font-black mb-6"
               style={{
-                fontSize: "clamp(2rem, 4.5vw, 3.25rem)",
+                fontSize: "clamp(2.25rem, 5vw, 3.75rem)",
                 color: "var(--color-text)",
+                lineHeight: 1.08,
+                letterSpacing: "-0.035em",
               }}
             >
-              Secure Your Homes,
+              Find what should
               <br />
-              <span style={{ color: "var(--color-accent)" }}>Offices,</span> and
-              Lives
-              <br />
-              from Hidden Surveillance.
+              <span style={{ color: "var(--color-accent)" }}>not be there.</span>
             </h1>
+          </div>
 
-            {/* Subtext */}
+          {/* Right column: the award photograph */}
+          <div className="lg:col-span-5 lg:col-start-8 lg:row-start-1 lg:row-span-2 lg:self-center">
+            <div className="relative mx-auto" style={{ maxWidth: "26rem" }}>
+              <div
+                className="relative rounded-2xl overflow-hidden w-full aspect-3/4"
+                style={{ border: "1px solid var(--color-border)" }}
+              >
+                <Image
+                  src="/portfolio/award-ceremony-hero.jpg"
+                  alt="Hardesh Bhardwaj receiving the Investigator of the Year Award 2026 from the World Association of Detectives in Cannes, France"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 26rem, 26rem"
+                  className="object-cover"
+                />
+                {/* Caption gradient */}
+                <div
+                  className="absolute inset-x-0 bottom-0 p-5 pt-16"
+                  style={{
+                    background: "linear-gradient(to top, rgba(8,13,26,0.95) 15%, transparent)",
+                  }}
+                >
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <Globe2 size={13} style={{ color: "var(--color-accent)" }} />
+                    <span
+                      className="text-xs font-semibold tracking-wide uppercase"
+                      style={{ color: "var(--color-accent)" }}
+                    >
+                      Cannes, France
+                    </span>
+                  </div>
+                  <p
+                    className="text-sm font-medium leading-snug"
+                    style={{ color: "var(--color-text)" }}
+                  >
+                    Receiving the Investigator of the Year Award at the 101st W.A.D. Annual
+                    Conference, September 2026
+                  </p>
+                </div>
+              </div>
+
+              {/* Decorative rings */}
+              <div
+                className="absolute -top-5 -right-5 w-24 h-24 rounded-full border pointer-events-none"
+                style={{ borderColor: "var(--color-accent)", opacity: 0.15 }}
+              />
+              <div
+                className="absolute -bottom-5 -left-5 w-16 h-16 rounded-full border pointer-events-none"
+                style={{ borderColor: "var(--color-accent)", opacity: 0.15 }}
+              />
+            </div>
+          </div>
+
+          {/* Body copy, credentials and calls to action */}
+          <div className="lg:col-span-7 lg:col-start-1 lg:row-start-2 lg:self-start">
             <p
-              className="text-base leading-relaxed mb-3"
+              className="mb-7"
               style={{
                 color: "var(--color-muted)",
-                maxWidth: "520px",
+                fontSize: "1.125rem",
+                lineHeight: 1.75,
+                maxWidth: "36rem",
               }}
             >
-              Experience unmatched privacy protection with India&apos;s premier
-              experts in electronic counter-surveillance.
+              Technical surveillance countermeasures for boardrooms, homes and vehicles.
+              Radio-frequency analysis, non-linear junction detection, optical and thermal
+              inspection, and a written report you can act on.
             </p>
 
-            {/* Trust line */}
-            <p
-              className="text-sm font-medium mb-8 italic"
-              style={{ color: "var(--color-accent)" }}
+            {/* Founder line */}
+            <div
+              className="flex items-start gap-3 mb-9 pl-4"
+              style={{ borderLeft: "3px solid var(--color-accent)", maxWidth: "36rem" }}
             >
-              Exclusive. Discreet. Trusted by HNIs, CEOs, and celebrities.
-            </p>
+              <p style={{ color: "var(--color-text)", fontSize: "1rem", lineHeight: 1.7 }}>
+                Led by <strong>Hardesh Bhardwaj</strong>, Founder of ADA Advance Detective
+                Agency, named Investigator of the Year 2026 by the World Association of
+                Detectives at its 101st Annual Conference in Cannes.
+              </p>
+            </div>
 
-            {/* Peace of mind tagline */}
-            <p
-              className="text-base mb-8 font-semibold"
-              style={{ color: "var(--color-text)" }}
-            >
-              Get The Peace Of Mind You Deserve!
-            </p>
-
-            {/* CTAs */}
-            <div className="flex flex-wrap gap-3 mb-8 sm:mb-12">
+            <div className="flex flex-wrap gap-3 mb-10">
               <a
                 href="https://wa.me/918882732221"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-base"
               >
-                Get Started
+                Book a confidential sweep
                 <ArrowRight size={16} />
               </a>
-              <a href="#services" className="btn-secondary text-base">
-                View Services
+              <Link href="/meet-the-founder" className="btn-secondary text-base">
+                See the credentials
                 <ArrowRight size={16} />
-              </a>
+              </Link>
             </div>
 
-            {/* Trust badges */}
-            <div className="flex flex-wrap gap-6">
-              {[
-                { icon: Shield, label: "20+ Years Experience" },
-                { icon: Eye, label: "Military-Grade Equipment" },
-                { icon: Wifi, label: "Pan-India Coverage" },
-              ].map(({ icon: Icon, label }) => (
-                <div key={label} className="flex items-center gap-2">
-                  <div
-                    className="rounded-full p-1.5"
-                    style={{ backgroundColor: "rgba(230,57,70,0.12)" }}
+            {/* Credential strip */}
+            <dl className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-5">
+              {credentials.map((c) => (
+                <div key={c.label}>
+                  <dt
+                    className="font-black leading-none mb-1.5"
+                    style={{ color: "var(--color-text)", fontSize: "1.375rem", letterSpacing: "-0.02em" }}
                   >
-                    <Icon size={14} style={{ color: "var(--color-accent)" }} />
-                  </div>
-                  <span
-                    className="text-sm font-medium"
-                    style={{ color: "var(--color-muted)" }}
-                  >
-                    {label}
-                  </span>
+                    {c.value}
+                  </dt>
+                  <dd className="text-xs leading-snug" style={{ color: "var(--color-muted)" }}>
+                    {c.label}
+                  </dd>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Right — Hero image */}
-          <div className="relative flex justify-center lg:justify-end">
-            <div
-              className="relative rounded-2xl overflow-hidden w-full aspect-4/3 sm:aspect-3/4 lg:aspect-4/5"
-              style={{ maxWidth: "520px" }}
-            >
-              <HeroLogo />
-
-              {/* Floating card — stat */}
-              <div
-                className="absolute bottom-6 left-6 rounded-lg px-4 py-3"
-                style={{
-                  backgroundColor: "rgba(8,13,26,0.9)",
-                  border: "1px solid var(--color-border)",
-                  backdropFilter: "blur(8px)",
-                }}
-              >
-                <div className="flex items-center gap-3">
-                  <div
-                    className="rounded-full p-2"
-                    style={{ backgroundColor: "rgba(230,57,70,0.15)" }}
-                  >
-                    <Shield
-                      size={16}
-                      style={{ color: "var(--color-accent)" }}
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="text-lg font-bold leading-none"
-                      style={{ color: "var(--color-text)" }}
-                    >
-                      500+
-                    </div>
-                    <div
-                      className="text-xs"
-                      style={{ color: "var(--color-muted)" }}
-                    >
-                      Sweeps Completed
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Decorative ring */}
-            <div
-              className="absolute -top-4 -right-4 w-24 h-24 rounded-full border opacity-10"
-              style={{ borderColor: "var(--color-accent)" }}
-            />
-            <div
-              className="absolute -bottom-4 -left-4 w-16 h-16 rounded-full border opacity-10"
-              style={{ borderColor: "var(--color-accent)" }}
-            />
+            </dl>
           </div>
         </div>
       </div>
-
-      {/* Bottom gradient fade */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-20"
-        style={{
-          background:
-            "linear-gradient(to bottom, transparent, var(--bg-primary))",
-        }}
-      />
     </section>
   );
 }

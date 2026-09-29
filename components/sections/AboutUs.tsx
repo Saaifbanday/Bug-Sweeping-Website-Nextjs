@@ -18,8 +18,8 @@ const equipment = [
 ];
 
 const trustPoints = [
-  "20+ Years of Elite Counter-Surveillance Experience",
-  "Trusted by CEOs, Celebrities, Government Officials & HNIs",
+  "Investigator of the Year 2026, World Association of Detectives",
+  "13 years of practice and more than 500 TSCM sweeps completed",
   "Fully confidential operations with zero disruptions",
   "Pan-India service: from Mumbai penthouses to Delhi embassies, Bengaluru boardrooms to Jaipur palaces",
 ];
@@ -86,8 +86,8 @@ export default function AboutUs() {
                 BugSweepingTSCM.com
               </strong>
               , we stand at the forefront of electronic counter-surveillance (TSCM) in India
-              and beyond. With over{" "}
-              <strong style={{ color: "var(--color-accent)" }}>20 years of expertise</strong>,
+              and beyond. Practising since{" "}
+              <strong style={{ color: "var(--color-accent)" }}>2013</strong>,
               our mission is simple yet critical:
             </p>
             <blockquote

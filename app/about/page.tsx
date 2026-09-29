@@ -31,7 +31,7 @@ const approachItems = [
   {
     tab: "Our Mission",
     heading: "Detect. Neutralize. Protect.",
-    body: "Our mission is simple yet critical: to protect what matters most, your privacy, your conversations, your life. Using military-grade detection technology and decades of intelligence expertise, we systematically detect and neutralize every hidden surveillance threat in your environment.",
+    body: "Our mission is simple: to establish, on evidence, whether a space is clean. We combine radio-frequency analysis, non-linear junction detection, optical and thermal inspection and a methodical physical search, and we document what is found in position before it is touched.",
     bullets: [
       "Deploy military-grade TSCM equipment on every engagement",
       "Operate with absolute discretion and zero client data retention",
@@ -44,8 +44,8 @@ const approachItems = [
 const zigZagItems = [
   {
     label: "Expert Team",
-    title: "Former Intelligence Officers & Certified TSCM Specialists",
-    body: "Our team is not assembled from general security professionals. Every member has specialized training in electronic counter-surveillance. From former intelligence agency veterans to internationally certified TSCM specialists, we bring real-world expertise to every engagement.",
+    title: "Internationally Recognised TSCM Specialists",
+    body: "Our team is not assembled from general security professionals. Every member has specialised training in electronic counter-surveillance, and our founder was named Investigator of the Year 2026 by the World Association of Detectives at its 101st Annual Conference in Cannes. The award photographs and signed certificates are published in full on our credentials page.",
     bullets: [
       "Former RAW and IB-trained surveillance detection professionals",
       "Internationally certified TSCM specialists (W.A.D. member)",
@@ -135,7 +135,7 @@ export default function AboutPage() {
         <PageHero
           label="About Us"
           title="The Unseen Force Behind Your Privacy"
-          subtitle="With over 20 years of experience, our team of former intelligence officers and certified TSCM specialists has protected India's most privacy-conscious individuals and organizations."
+          subtitle="Practising since 2013, led by the World Association of Detectives Investigator of the Year 2026, with more than 500 TSCM sweeps completed across India."
           breadcrumbs={[{ label: "About Us", href: "#" }]}
         />
 
@@ -174,9 +174,9 @@ export default function AboutPage() {
                     BugSweepingTSCM.com
                   </strong>
                   , we stand at the forefront of electronic counter-surveillance
-                  (TSCM) in India. With over{" "}
+                  (TSCM) in India. Practising since{" "}
                   <strong style={{ color: "var(--color-accent)" }}>
-                    20 years of expertise
+                    2013
                   </strong>
                   , our mission is simple yet critical:
                 </p>

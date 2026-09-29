@@ -51,9 +51,9 @@ export default function Footer() {
               className="text-xs leading-relaxed mb-5"
               style={{ color: "var(--color-muted)" }}
             >
-              India&apos;s premier TSCM experts protecting your privacy from
-              hidden cameras, listening devices, and GPS trackers. Trusted by
-              HNIs, CEOs, celebrities, and government officials nationwide.
+              Technical surveillance countermeasures across India: hidden cameras,
+              listening devices and GPS trackers found, documented and reported.
+              Led by the World Association of Detectives Investigator of the Year 2026.
             </p>
 
             {/* Social */}

@@ -1,8 +1,8 @@
 const stats = [
-  { value: "20+", label: "Years of Elite Experience" },
-  { value: "500+", label: "Bug Sweeps Completed" },
-  { value: "100%", label: "Client Confidentiality" },
-  { value: "Pan-India", label: "Nationwide Coverage" },
+  { value: "13", label: "Years in Practice Since 2013" },
+  { value: "3,000+", label: "Cases Handled" },
+  { value: "500+", label: "TSCM Sweeps Completed" },
+  { value: "25 Cities", label: "Covered in Depth Across India" },
 ];
 
 export default function Stats() {
