@@ -1636,5 +1636,221 @@
     "date_modified": "",
     "notes": "Created 29 Sep 2026. The absence of any accommodation camera duty was checked against the municipal corporation law, the tourism homestay scheme, hostel and paying guest instruments and district orders under section 163, and is stated as a positive finding. Pakistan Punjab material was a significant contamination risk throughout: the e-FIR system, a safe cities authority with tens of thousands of cameras, a temporary residence Act and a workplace harassment Act all belong to that jurisdiction and are excluded, with the e-FIR trap flagged on the page itself. No zone tier published because the official structure page no longer shows one. No police station counts published. Chandigarh kept separate as a union territory with its own force.",
     "revisions": []
+  },
+  {
+    "slug": "locations/guwahati",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/guwahati",
+    "page_type": "location-page",
+    "location": {
+      "city": "Guwahati",
+      "district": "",
+      "state": "Assam"
+    },
+    "primary_keyword": "bug sweeping services in guwahati",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "The Guwahati commissionerate covers the whole of Kamrup Metropolitan district with no rural superintendent inside it, so places that feel rural such as Sonapur, Chandrapur and Azara are city police while Amingaon, North Guwahati and Changsari lie across the Brahmaputra in Kamrup Rural under a superintendent at Amingaon; the commissionerate runs its own cyber police station and the state cyber station at Ulubari expressly excludes the commissionerate area; a new Kahilipara police station ordered in August 2026 redrew jurisdiction in south east Guwahati.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 35 to 38 per cent shingle overlap against existing city pages, below the 40.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-30",
+    "date_modified": "",
+    "notes": "Created 30 Sep 2026. No police station count published because sources give four different figures and the only complete official list is from 2018, before two stations were added. The February 2026 TISS Jalukbari case is used because a device was physically recovered and an arrest made, and is described as still under investigation with no conviction. Charge sections not published because they were not reported.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/assam",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/assam",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Assam"
+    },
+    "primary_keyword": "bug sweeping services in assam",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Assam has a statewide camera statute most affected businesses do not know about: the Assam Public Safety (Measures) Enforcement Act 2023 requires access control and cameras at all entries, exits and common areas with thirty days of retained footage available to police, for premises including any place of business with five or more people and residential buildings above ground plus two floors, enforced by show cause notice, fines and sealing; Guwahati is the only commissionerate in the state; 181 is the women helpline rather than 1091; an online submission is an e-complaint converted to an FIR only if found acceptable; a Commissioner of Police order of August 2024 applies the Sarais Act to Guwahati hotels, lodges, homestays and hostels requiring daily guest reporting to the local police station.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 16 to 19 per cent shingle overlap against its own city page, against a 40.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-30",
+    "date_modified": "",
+    "notes": "Created 30 Sep 2026. The Public Safety Act is stated carefully: hotels and hostels are caught by category rather than named, which is described as a reading rather than a quotation, and the page says plainly that no rules, technical specification or enforcement record could be verified. The Sarais Act order is labelled as Guwahati only. No e-FIR eligibility limits published because the official page could not be opened. District count given as 35 with the 2022 merger and 2023 restoration explained, since stale figures of 31 and 27 circulate and the state portal itself still shows the pre-rename Karimganj.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/ranchi",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/ranchi",
+    "page_type": "location-page",
+    "location": {
+      "city": "Ranchi",
+      "district": "",
+      "state": "Jharkhand"
+    },
+    "primary_keyword": "bug sweeping services in ranchi",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Ranchi is not a commissionerate and neither is anywhere in Jharkhand; the district is led by a senior superintendent with two separate superintendent-rank commands beneath, one city and one rural, which is a split inside one district rather than two districts; the Deputy Commissioner sits outside the police chain but holds magisterial powers, and Jharkhand Police publish their own remedy for a station that refuses to record information, namely written notice by post to the superintendent, with a magistrate able to order investigation under a standing instruction of September 2025; the city cyber police station at Kutchery Chowk registers first information reports in its own right rather than acting as a cell; Tupudana is an outpost rather than a full station.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 35 to 38 per cent shingle overlap against existing city pages, below the 40.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-30",
+    "date_modified": "",
+    "notes": "Created 30 Sep 2026. No police station count published because three official sources disagree and none publishes a city versus rural split. No Jharkhand police statute named because the link on the state police site returns an error and the Bihar Police Act 2007 postdates separation and cannot apply. The August 2025 Chutia hotel raid is used and explicitly described as covert cameras installed for cheating at cards rather than voyeurism, because that is what it was. Five commonly used locality names were omitted because they appear on no official list.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/jharkhand",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/jharkhand",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Jharkhand"
+    },
+    "primary_keyword": "bug sweeping services in jharkhand",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Jharkhand operates no police commissionerate anywhere, all twenty four districts being headed by a superintendent or senior superintendent; the citizen portal allows complaint lodging and downloading an existing FIR but has no service that registers one; the state's own district sites contradict each other on the women helpline, Dhanbad giving 1091 and reserving 181 for the Chief Minister grievance service while Ranchi labels 181 as the women helpline; the tourism registration rules of 2021 make registration compulsory for hotels, homestays and paying guest accommodation with penalties, but contain no camera requirement and not even a disclosure field, and hostels are outside the regime entirely.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 16 to 19 per cent shingle overlap against its own city page, against a 40.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-30",
+    "date_modified": "",
+    "notes": "Created 30 Sep 2026. The helpline contradiction is shown rather than resolved silently, with 1091 recommended because the grievance service does run on 181. The absence of any camera duty was checked against the registration rules full text, the tourism policy and the building bye-laws, and is a cleaner negative than Tamil Nadu where a disclosure field and a separate statutory duty both existed. A January 2025 police headquarters proposal to require cameras at large establishments is described as never enacted. The Bihar girls hostel circular is expressly flagged on the page as Bihar law because it dominates search results for Jharkhand.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/raipur",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/raipur",
+    "page_type": "location-page",
+    "location": {
+      "city": "Raipur",
+      "district": "",
+      "state": "Chhattisgarh"
+    },
+    "primary_keyword": "bug sweeping services in raipur",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Raipur became a police commissionerate on 23 January 2026, the first and only one in Chhattisgarh, and the boundary is the municipal corporation area alone, so Naya Raipur with the state secretariat and police headquarters, the airport at Mana and the Siltara industrial belt are all outside it under the rural superintendent, while the Urla belt straddles the line; prohibitory order powers moved from the district collector to the Commissioner inside the city while licensing stayed with the collector; the range cyber police station covers five districts and at launch required a superintendent recommendation and range inspector general permission to register an FIR.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 35 to 38 per cent shingle overlap against existing city pages, below the 40.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-30",
+    "date_modified": "",
+    "notes": "Created 30 Sep 2026. The commissionerate is stated as notified and in force rather than announced, which distinguishes it from Bilaspur and Durg. The page warns that the district police website was still showing a superintendent transferred out in January 2026. No station count published because the official list and press reporting disagree. No Raipur hidden camera case published because none could be verified; the Bhilai and Kanker cases used for illustration are explicitly labelled as other districts. The 2017 covert recording litigation was excluded as contested and unresolved.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/chhattisgarh",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/chhattisgarh",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Chhattisgarh"
+    },
+    "primary_keyword": "bug sweeping services in chhattisgarh",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Chhattisgarh has no e-FIR at all, not even a narrow one, and the citizen portal's online complaint, tenant verification and character certificate services are still marked coming soon, so an FIR is registered in person or through 112; the women helpline is 1091 and the state diverges from Madhya Pradesh, where 1090 is the women line, because in Chhattisgarh 1090 is the crime stopper and 181 belongs to women and child development rather than being a Chief Minister grievance line; Raipur is the only commissionerate while Bilaspur and Durg are proposed but not notified; no law requires cameras in any accommodation, and guest record duties come from district collectors' prohibitory orders that lapse after two months.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 16 to 19 per cent shingle overlap against its own city page, against a 40.1 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-09-30",
+    "date_modified": "",
+    "notes": "Created 30 Sep 2026. The absence of an e-FIR was directly verified against the live portal rather than inferred. The helpline divergence from Madhya Pradesh is corroborated on four official sources and is the most important correction on the page, since Chhattisgarh was carved out of Madhya Pradesh and inherits much of its advice. The page notes that stale district counts of 27 and 28 appear on government sites themselves. The Raipur city police direction of September 2026 is described as a direction to keep existing cameras working rather than a duty to install them, and as commissionerate-only.",
+    "revisions": []
   }
 ]

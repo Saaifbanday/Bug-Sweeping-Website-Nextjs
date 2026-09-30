@@ -3215,6 +3215,314 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "guwahati",
+    city: "Guwahati",
+    state: "Assam",
+    seoTitle: "Bug Sweeping Services in Guwahati | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Guwahati",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hostels and vehicles across Guwahati, from Dispur and Paltan Bazaar to Jalukbari, Azara and the Khanapara belt.",
+    intro:
+      "Guwahati is the commercial gateway to the north east and the seat of a High Court whose jurisdiction reaches four states, so a great deal of legal, commercial and administrative conversation for the whole region happens inside a few square kilometres. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "A case here in early 2026 shows how little a device now costs to hide. A camera was found concealed inside a soap packet left in a bathroom at an institutional women's hostel at Jalukbari, holding around five days of recordings, and a case was registered at Jalukbari police station with an arrest made in March. The investigation continues and nothing is proven, but the method is the lesson: a small consumer object left in plain sight, in a room nobody thinks to search. That is exactly what a sweep is for, and why we photograph what is found in position rather than picking it up.",
+    areas: [
+      "Dispur & Ganeshguri",
+      "Paltan Bazaar & Pan Bazaar",
+      "Khanapara & Six Mile",
+      "Jalukbari & Maligaon",
+      "Beltola & Hatigaon",
+      "Azara & Borjhar",
+      "Chandmari & Noonmati",
+    ],
+    metaDescription:
+      "Bug sweeping services in Guwahati: TSCM sweeps for offices, homes, hostels and vehicles across the city and Kamrup Metropolitan. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central and old city",
+        areas: ["Pan Bazaar", "Paltan Bazaar", "Fancy Bazaar", "Uzan Bazaar", "Athgaon", "Chatribari", "Kumarpara", "Rehabari", "Ulubari", "Bharalumukh", "Ambari"],
+      },
+      {
+        zone: "Capital complex and east",
+        areas: ["Dispur", "Ganeshguri", "Beltola", "Six Mile", "Khanapara", "Hatigaon", "Hengrabari", "Panjabari", "Bhetapara", "Basistha", "Kahilipara", "Bhangagarh"],
+      },
+      {
+        zone: "North central and riverine",
+        areas: ["Chandmari", "Kharguli", "Silpukhuri", "Geetanagar", "Zoo Road", "Noonmati", "Narengi", "Satgaon"],
+      },
+      {
+        zone: "South and south west",
+        areas: ["Lokhra", "Lalmati", "Lalganesh", "Odalbakra", "Kerakuchi", "Betkuchi", "Dhirenpara", "Fatasil Ambari", "Birubari"],
+      },
+      {
+        zone: "West and the airport corridor",
+        areas: ["Jalukbari", "Maligaon", "Adabari", "Pandu", "Kamakhya", "Gorchuk", "Azara", "Borjhar", "Sonapur", "Amingaon", "North Guwahati", "Changsari"],
+      },
+    ],
+    jurisdiction: {
+      heading: "The river is the boundary, not the city limit",
+      body: [
+        "Guwahati has been policed as a commissionerate since the start of 2015, and unlike many cities it does not sit alongside a rural force of its own. The commissionerate covers the whole of Kamrup Metropolitan district, so there is no separate rural superintendent inside it to appeal to. Escalation runs from the officer in charge of a station to an assistant commissioner, then a deputy commissioner for one of the east, central or west police districts, then a joint commissioner, then the Commissioner of Police.",
+        "What catches people out is where that district ends. Places that feel semi-rural are inside it: Sonapur, Chandrapur and Azara are all Kamrup Metropolitan, as is the airport area at Borjhar. Meanwhile places that carry the city's own name are not. Amingaon, North Guwahati and Changsari lie across the Brahmaputra in Kamrup Rural, a different district under a superintendent based at Amingaon. A complaint about an address in North Guwahati does not belong to the Guwahati commissionerate at all, which is as counter-intuitive as jurisdiction gets.",
+        "One recent change is worth checking before you file anything. In August 2026 the state ordered a new police station at Kahilipara, carved out of Dispur and taking in Odalbakra, Bhagaduttapur and parts of the Fatasil and Lokhra stretch, while Hengrabari, Borbari and part of Panjabari moved to Geetanagar. If your address is in south-east Guwahati, confirm which station covers it rather than relying on an older list.",
+        "Cyber matters have a clean answer here. The commissionerate runs its own cyber crime police station at the Commissioner's office, and the state cyber police station at the criminal investigation department headquarters in Ulubari expressly covers all of Assam except the commissionerate area. So a Guwahati victim goes to the city's cyber station, not to the state one. Financial fraud still goes to 1930 and the national portal first. Police station counts for the city differ between sources and the only complete official list we found is several years old, so we publish none.",
+      ],
+    },
+    settings: [
+      {
+        title: "Legal chambers and corporate offices",
+        desc: "Sweeps before a hearing, an arbitration or a negotiation, in a city where matters from four states are argued and settled.",
+      },
+      {
+        title: "Regional headquarters and trading floors",
+        desc: "Checks across meeting rooms and cabins where tea auction positions, energy contracts and regional pricing are discussed.",
+      },
+      {
+        title: "Hostels and institutional accommodation",
+        desc: "The reported local case involved a camera hidden in a soap packet in a hostel bathroom. Shared washrooms and anything left lying in them get proper attention.",
+      },
+      {
+        title: "Homes, rented flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, vents and detectors, plus tracker checks under the body and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is North Guwahati covered by Guwahati city police?",
+        a: "No, despite the name. Amingaon, North Guwahati and Changsari sit across the Brahmaputra in Kamrup Rural, a separate district under a superintendent based at Amingaon. The Guwahati commissionerate covers Kamrup Metropolitan district, which does include places that feel rural such as Sonapur, Chandrapur and Azara.",
+      },
+      {
+        q: "Is there a rural superintendent I can escalate to in Guwahati?",
+        a: "Not inside the city. The commissionerate covers the whole of Kamrup Metropolitan district, so the chain runs officer in charge, assistant commissioner, deputy commissioner for the east, central or west police district, joint commissioner, then the Commissioner of Police. Kamrup Rural is a different district, not a second door for a city matter.",
+      },
+      {
+        q: "Where do cyber complaints go in Guwahati?",
+        a: "To the commissionerate's own cyber crime police station at the Commissioner's office. The state cyber police station at Ulubari covers all of Assam except the commissionerate area, so it is not the right place for a Guwahati matter. For financial fraud use 1930 and the national portal first.",
+      },
+      {
+        q: "Which police station covers my address in south east Guwahati?",
+        a: "Worth confirming, because it may have changed. A new station at Kahilipara was ordered in August 2026, taking Odalbakra, Bhagaduttapur and parts of the Fatasil and Lokhra stretch out of Dispur, while Hengrabari, Borbari and part of Panjabari moved to Geetanagar. Older lists will not reflect this.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/guwahati#webpage", url: "https://www.bugsweepingtscm.com/locations/guwahati", name: "Bug Sweeping Services in Guwahati", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/guwahati#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/guwahati#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/guwahati#place", name: "Guwahati", address: { "@type": "PostalAddress", addressLocality: "Guwahati", addressRegion: "Assam", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/guwahati#service", name: "Bug sweeping and TSCM services in Guwahati", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/guwahati#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/guwahati#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/guwahati#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Guwahati" } ] },
+      ],
+    },
+  },
+  {
+    slug: "ranchi",
+    city: "Ranchi",
+    state: "Jharkhand",
+    seoTitle: "Bug Sweeping Services in Ranchi | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Ranchi",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes and vehicles across Ranchi, from Doranda and Dhurwa to Namkum, Tupudana and the Kanke side.",
+    intro:
+      "Ranchi holds an unusual concentration of decision-making for a city its size: the state capital, the High Court, and the headquarters of the national coal exploration and mine-planning organisations alongside heavy engineering. Coal block valuations, exploration data and tender strategy with a countrywide footprint sit inside a handful of buildings here. We agree the scope with you first, then work through it using radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "Concealed cameras are not hypothetical in Ranchi hotels. In August 2025 a police raid in the Chutia station area recovered hidden cameras that had been installed inside booked hotel rooms, alongside cash and detentions. That operation was about cheating at cards rather than filming guests, and we would rather describe it accurately than dress it up as something it was not. The point that carries across is simply that rooms in this city have been fitted with covert cameras by people who had access to them, which is the situation a sweep is designed to establish either way.",
+    areas: [
+      "Doranda & Hinoo",
+      "Lalpur & Kokar",
+      "Dhurwa & HEC Township",
+      "Harmu & Argora",
+      "Kanke & Bariatu",
+      "Namkum & Tatisilwai",
+      "Tupudana & Hatia",
+    ],
+    metaDescription:
+      "Bug sweeping services in Ranchi: TSCM sweeps for offices, homes and vehicles across the capital and its industrial areas. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "Central Ranchi",
+        areas: ["Lalpur", "Lower Bazar", "Hindipiri", "Chutia", "Kokar", "Kanke Road", "Main Road"],
+      },
+      {
+        zone: "South Ranchi",
+        areas: ["Doranda", "Hinoo", "Kadru", "Hatia", "Dhurwa", "HEC Township", "Ashok Nagar", "Harmu", "Argora", "Pundag", "Sukhdeo Nagar", "Tupudana"],
+      },
+      {
+        zone: "North Ranchi",
+        areas: ["Bariatu", "Morabadi", "Khelgaon", "Hotwar", "Kanke"],
+      },
+      {
+        zone: "East Ranchi",
+        areas: ["Namkum", "Tatisilway", "Oramanjhi", "Jagannathpur", "Airport area"],
+      },
+      {
+        zone: "West and outer district",
+        areas: ["Ratu", "Piska", "Madhukam", "Hehal", "Pithoria", "Nagri", "Itki", "Mandar", "Bero", "Burmu", "Chanho", "Lapung", "Bundu", "Tamar", "Sonahatu", "Angara", "Silli", "Khalari", "McCluskieganj"],
+      },
+    ],
+    jurisdiction: {
+      heading: "No Commissioner of Police here, and two superintendents inside one district",
+      body: [
+        "Ranchi is not a commissionerate, and neither is anywhere else in Jharkhand. The district is headed by a senior superintendent of police, and the arrangement beneath is unusual: two separate superintendent-rank commands, one for the city and one for the rural side, both under the same senior superintendent. So the question is not which district covers you but which superintendent, and it is the same district either way.",
+        "Escalation runs from the officer in charge of the station to the circle deputy superintendent, then to the superintendent for city or rural, then to the senior superintendent. Above that sit the range and zone officers and the state police chief. The district's own administrative head, styled Deputy Commissioner, sits outside that chain and does not supervise investigations, but holds magisterial powers that matter if things stall.",
+        "Which matters, because Jharkhand Police publish their own route for a station that will not record your information: send it in writing, by post, to the superintendent of police. Beyond that, the criminal procedure code lets a magistrate order an investigation, and the state police issued a standing instruction on that power in September 2025. Those two steps are worth knowing before you need them.",
+        "Ranchi has a cyber crime police station at Kutchery Chowk, and it is a police station in the full sense rather than a cell: it registers first information reports, investigates and files final reports in court. That is a genuine alternative for a covert recording matter with an electronic element, and it is not something most cities offer. The state nodal body is the criminal investigation department at Doranda.",
+        "Two practical notes. Tupudana is covered by an outpost rather than a full police station, so a first information report there means going to the parent station. And the number of police stations in the district differs across three official sources, with no published split between the city and rural sides, so we describe the structure and publish no count.",
+      ],
+    },
+    settings: [
+      {
+        title: "Mining and engineering headquarters",
+        desc: "Sweeps in premises where exploration data, block valuations and tender positions with a national footprint are discussed.",
+      },
+      {
+        title: "Government and legal offices",
+        desc: "Checks before a hearing, an arbitration or a policy discussion, in a city that concentrates the state's administration and its High Court.",
+      },
+      {
+        title: "Hotels and meeting rooms",
+        desc: "Rooms in this city have been found fitted with concealed cameras by people with access to them. Worth checking before an extended stay or a sensitive meeting.",
+      },
+      {
+        title: "Homes, rented flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, sockets and detectors, plus tracker checks under the body and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Ranchi a police commissionerate?",
+        a: "No, and nor is anywhere else in Jharkhand. The district is led by a senior superintendent of police, with separate superintendents for the city and rural sides underneath. There is no Commissioner of Police to escalate to, so the chain runs officer in charge, circle deputy superintendent, superintendent for city or rural, then senior superintendent.",
+      },
+      {
+        q: "What do I do if a police station refuses to register my complaint in Ranchi?",
+        a: "Jharkhand Police publish the answer themselves: send the information in writing, by post, to the superintendent of police. If that does not resolve it, the criminal procedure code allows a magistrate to order an investigation, and the state police issued a standing instruction on that power in September 2025. The district's Deputy Commissioner holds magisterial powers but does not supervise investigations directly.",
+      },
+      {
+        q: "Where do cyber complaints go in Ranchi?",
+        a: "To the cyber crime police station at Kutchery Chowk, which registers first information reports and investigates in its own right rather than acting as a cell that passes matters on. That makes it a real option for a covert recording case with an electronic element. The state nodal body is the criminal investigation department at Doranda, and financial fraud goes to 1930 first.",
+      },
+      {
+        q: "Which areas of Ranchi district are city and which are rural?",
+        a: "Doranda, Dhurwa, Argora, Lalpur and Chutia are on the city side. Bundu, Tamar, Oramanjhi, Bero, Lapung and Khalari are among those the state police describe as rural. No official source publishes a full station by station split, so confirm before you report. Note also that Tupudana is an outpost rather than a full station.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/ranchi#webpage", url: "https://www.bugsweepingtscm.com/locations/ranchi", name: "Bug Sweeping Services in Ranchi", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/ranchi#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/ranchi#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/ranchi#place", name: "Ranchi", address: { "@type": "PostalAddress", addressLocality: "Ranchi", addressRegion: "Jharkhand", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/ranchi#service", name: "Bug sweeping and TSCM services in Ranchi", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/ranchi#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/ranchi#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/ranchi#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Ranchi" } ] },
+      ],
+    },
+  },
+  {
+    slug: "raipur",
+    city: "Raipur",
+    state: "Chhattisgarh",
+    seoTitle: "Bug Sweeping Services in Raipur | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Raipur",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, plants, homes and vehicles across Raipur, from the city centre and Telibandha to the Urla and Siltara industrial belts.",
+    intro:
+      "Raipur is one of India's largest secondary steel and power trading centres, with hundreds of rolling mills, sponge iron plants and ferro alloy units clustered around the city and a dense base of family-run trading firms. Prices, tender positions and supply arrangements are the assets worth overhearing. We agree the scope with you first, then work through it using radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "We could not find a documented hidden camera case in Raipur district in the last five years, and we would rather say that than borrow one. Elsewhere in Chhattisgarh the pattern is clear enough: at a girls' hostel in Bhilai at the end of 2021, cameras were found built into the walls of hostel rooms and monitored remotely, with a recorder holding eleven days of footage seized, and at Kanker a camera was found under a soap rack in a bathroom shared by tenants. Neither is a Raipur case and we do not present them as one, but both show how the devices are placed and how long they can run before anyone notices.",
+    areas: [
+      "Civil Lines & Devendra Nagar",
+      "Telibandha & Shankar Nagar",
+      "Pandri & Gol Bazar",
+      "Urla & Khamtarai",
+      "Tatibandh & Amanaka",
+      "Naya Raipur & Mana",
+      "Siltara & Dharsiwa",
+    ],
+    metaDescription:
+      "Bug sweeping services in Raipur: TSCM sweeps for offices, plants, homes and vehicles across the city and its industrial belts. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Core and old city",
+        areas: ["Kotwali", "Purani Basti", "Gol Bazar", "Moudhapara", "Ganj", "Tatyapara", "Brahmanpara", "Sadar Bazar", "Byron Bazar", "Malviya Road"],
+      },
+      {
+        zone: "Central and administrative",
+        areas: ["Civil Lines", "Devendra Nagar", "Shankar Nagar", "Samta Colony", "Pandri", "Telibandha"],
+      },
+      {
+        zone: "South and south east",
+        areas: ["Tikrapara", "DD Nagar", "New Rajendra Nagar", "Bhatagaon", "Deopuri", "Sejbahar"],
+      },
+      {
+        zone: "West and north",
+        areas: ["Amanaka", "Azad Chowk", "Gudhiyari", "Tatibandh", "Khamtarai", "Urla", "Kabir Nagar", "Saraswati Nagar", "Birgaon"],
+      },
+      {
+        zone: "Outside the city force",
+        areas: ["Naya Raipur", "Rakhi", "Mana", "Mandir Hasod", "Dharsiwa", "Siltara", "Abhanpur", "Arang", "Tilda Newra", "Kharora", "Gobra Nawapara"],
+      },
+    ],
+    jurisdiction: {
+      heading: "A new commissionerate, and the most sensitive addresses sit outside it",
+      body: [
+        "Raipur became a police commissionerate on 23 January 2026, the first and so far the only one in Chhattisgarh, created under the state's own police Act. Anything you read describing Raipur as a senior superintendent's district predates that, and the district police website itself was still showing an officer who had moved on, so do not take a hierarchy or a contact from an older page without checking it.",
+        "The boundary is precise and narrow: the commissionerate covers the Raipur Municipal Corporation area, and only that. Everything beyond it is Raipur Rural under a superintendent. Inside the city the chain runs station house officer, assistant commissioner, deputy commissioner for the central, north or west zone, additional commissioner, Commissioner. Outside it the chain runs station house officer, sub-divisional officer, additional superintendent, superintendent, range inspector general.",
+        "That line produces a result worth knowing before you need it. Naya Raipur, the planned capital that holds the state secretariat and the police headquarters, sits outside the commissionerate and is policed by the rural superintendent. So is the airport at Mana. So is the Siltara industrial belt, covered by Dharsiwa station. The Urla belt straddles the line, because part of it falls in a separate municipal corporation, which makes it the one place we would always confirm before reporting anything. In short, several of the most sensitive addresses in the capital are rural policed.",
+        "One more change came with the commissionerate. Inside the city, prohibitory order powers moved from the district collector to the Commissioner, though the collector still controls licensing for bars, events and entertainment venues, so there are now two doors rather than one.",
+        "For cyber matters Raipur is served by a range cyber police station operating from the anti-crime and cyber unit at Ganj, which covers five districts rather than the city alone. Reporting at launch indicated that registering a first information report there required a recommendation from the superintendent and permission from the range inspector general, so for an ordinary complaint the faster route is 1930 and the national portal, or your local station. Station counts for the district differ between the official list and press reporting, so we publish none.",
+      ],
+    },
+    settings: [
+      {
+        title: "Steel, power and trading offices",
+        desc: "Sweeps where pricing, tender positions and supply arrangements are discussed, across a market of rolling mills, sponge iron and ferro alloy units.",
+      },
+      {
+        title: "Industrial premises at Urla and Siltara",
+        desc: "Checks across meeting rooms, cabins and vehicle bays. Worth establishing first which force covers the site, because this belt straddles the boundary.",
+      },
+      {
+        title: "Government and institutional offices",
+        desc: "Sweeps in the capital's administrative buildings, noting that the secretariat complex at Naya Raipur is outside the city force's area.",
+      },
+      {
+        title: "Homes, hostels and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, sockets, vents and bathroom fixtures, plus tracker checks under the body and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Naya Raipur covered by the Raipur police commissionerate?",
+        a: "No. The commissionerate covers the Raipur Municipal Corporation area only. Naya Raipur, which holds the state secretariat and the police headquarters, is outside it and falls to Raipur Rural under a superintendent, as does the airport at Mana and the Siltara industrial belt. Several of the capital's most sensitive addresses are therefore rural policed.",
+      },
+      {
+        q: "Is Raipur still led by a senior superintendent of police?",
+        a: "No. Raipur became a commissionerate on 23 January 2026, the first in Chhattisgarh. Inside the municipal corporation area the chain runs station house officer, assistant commissioner, deputy commissioner, additional commissioner, then Commissioner of Police. Older pages, including the district police website, have been slow to update, so verify contacts rather than relying on them.",
+      },
+      {
+        q: "Where do cyber complaints go in Raipur?",
+        a: "Raipur is covered by a range cyber police station at the anti-crime and cyber unit at Ganj, which serves five districts rather than the city alone. Reporting at its launch indicated that registering a first information report there needed a superintendent's recommendation and the range inspector general's permission, so for an ordinary complaint use 1930 and the national portal, or your local police station.",
+      },
+      {
+        q: "Which force covers the Urla industrial area?",
+        a: "It depends on the exact site, which is why this belt is worth confirming before anything is reported. Part of Urla lies inside the Raipur Municipal Corporation and is therefore commissionerate territory, and part falls outside it in a separate municipal corporation and is rural policed. Siltara, by contrast, is clearly rural, covered by Dharsiwa police station.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/raipur#webpage", url: "https://www.bugsweepingtscm.com/locations/raipur", name: "Bug Sweeping Services in Raipur", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/raipur#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/raipur#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/raipur#place", name: "Raipur", address: { "@type": "PostalAddress", addressLocality: "Raipur", addressRegion: "Chhattisgarh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/raipur#service", name: "Bug sweeping and TSCM services in Raipur", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/raipur#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/raipur#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/raipur#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Raipur" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

@@ -12,9 +12,9 @@ Published (22): Mumbai, Delhi, Gurugram, Noida, Bengaluru, Pune, Hyderabad, Jaip
 
 States with a city page as of 26 September 2026: Maharashtra (3), Uttar Pradesh (3), Gujarat (2), Tamil Nadu (2), Madhya Pradesh (2), Delhi, Haryana, Karnataka, Telangana, Rajasthan, Goa, West Bengal, Bihar, Andhra Pradesh, Chandigarh.
 
-States with no coverage at all, and therefore the real gap: Kerala, Odisha, Punjab, Assam, Jharkhand, Chhattisgarh, Uttarakhand, Himachal Pradesh, Jammu and Kashmir, and the north east. Kochi, Bhubaneswar, Ludhiana, Guwahati, Ranchi, Raipur and Dehradun are the candidates there.
+States with no coverage at all, as at 30 September 2026: Uttarakhand, Himachal Pradesh, Jammu and Kashmir, and the north east beyond Assam. Dehradun, Shimla, Jammu or Srinagar, and Shillong or Agartala are the candidates there.
 
-Remaining city queue where a page is still likely to earn its place: Bhubaneswar, Kochi, Ludhiana, Agra, Varanasi, Guwahati, Ranchi, Raipur.
+Remaining city queue where a page is still likely to earn its place: Agra, Varanasi, Dehradun, Jamshedpur, Bhilai or Durg, Vadodara, Rajkot, Mysuru.
 
 Stop adding city pages when a city has no distinct, verifiable facts. Record the decision rather than publishing a thin page.
 
