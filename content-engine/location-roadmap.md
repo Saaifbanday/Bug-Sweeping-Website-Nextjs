@@ -12,7 +12,7 @@ Published (22): Mumbai, Delhi, Gurugram, Noida, Bengaluru, Pune, Hyderabad, Jaip
 
 States with a city page as of 26 September 2026: Maharashtra (3), Uttar Pradesh (3), Gujarat (2), Tamil Nadu (2), Madhya Pradesh (2), Delhi, Haryana, Karnataka, Telangana, Rajasthan, Goa, West Bengal, Bihar, Andhra Pradesh, Chandigarh.
 
-States with no coverage at all, as at 30 September 2026: Uttarakhand, Himachal Pradesh, Jammu and Kashmir, and the north east beyond Assam. Dehradun, Shimla, Jammu or Srinagar, and Shillong or Agartala are the candidates there.
+States with no coverage at all, as at 1 October 2026: only the north east beyond Assam. Shillong, Agartala, Imphal, Aizawl, Kohima, Itanagar and Gangtok are the remaining candidates, all small markets. Every other state and union territory now has at least a hub.
 
 Remaining city queue where a page is still likely to earn its place: Agra, Varanasi, Dehradun, Jamshedpur, Bhilai or Durg, Vadodara, Rajkot, Mysuru.
 

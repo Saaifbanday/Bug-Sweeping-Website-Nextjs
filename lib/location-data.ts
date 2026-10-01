@@ -3630,6 +3630,313 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "srinagar",
+    city: "Srinagar",
+    state: "Jammu and Kashmir",
+    seoTitle: "Bug Sweeping Services in Srinagar | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Srinagar",
+    heroSubtitle:
+      "TSCM bug sweeps for hotels, houseboats, offices, homes and vehicles across Srinagar, from Lal Chowk and Rajbagh to Soura, Nowgam and the Dal Lake side.",
+    intro:
+      "Srinagar runs a tourism economy built on hotels, guest houses, homestays and houseboats, alongside the commercial and administrative offices of the Kashmir division. That mix puts a lot of people into rooms they do not control, for short periods, in premises that change hands and staff often. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "Srinagar gives you something most Indian cities do not: a second route for an accommodation complaint. Alongside the ordinary police station there is a tourist police station at the Tourist Reception Centre, open around the clock, and tourism enforcement officers who hold compounding powers over harassment of tourists under the territory's tourist trade law. Worth knowing before you need it. Worth knowing too that accommodation offences here are actively prosecuted: in May 2026 one city police station registered cases against a hotel and two homestays over guest reporting breaches.",
+    areas: [
+      "Lal Chowk & Maisuma",
+      "Rajbagh & Jawahar Nagar",
+      "Dal Lake & Boulevard",
+      "Soura & Zadibal",
+      "Nowgam & Panthachowk",
+      "Hyderpora & Bemina",
+      "Nishat & Harwan",
+    ],
+    metaDescription:
+      "Bug sweeping services in Srinagar: TSCM sweeps for hotels, houseboats, offices and homes across the city. Book a discreet consultation.",
+    areaGroups: [
+      {
+        zone: "City centre",
+        areas: ["Lal Chowk", "Maisuma", "Kothibagh", "Kralkhud", "Residency Road", "Regal Chowk", "Hari Singh High Street"],
+      },
+      {
+        zone: "Civil lines and south",
+        areas: ["Rajbagh", "Jawahar Nagar", "Gogjibagh", "Wazir Bagh", "Barzulla", "Natipora", "Chanapora", "Sanat Nagar"],
+      },
+      {
+        zone: "Dal Lake and the boulevard",
+        areas: ["Dal Lake", "Boulevard Road", "Nishat", "Shalimar", "Harwan", "Brein", "Nigeen"],
+      },
+      {
+        zone: "Old city and north",
+        areas: ["Nowhatta", "Khanyar", "Rainawari", "Safa Kadal", "Zadibal", "Soura", "Lal Bazar", "Eidgah", "Batamaloo"],
+      },
+      {
+        zone: "South west and outer",
+        areas: ["Nowgam", "Panthachowk", "Pampore road", "Hyderpora", "Bemina", "Shalteng", "Parimpora", "Humhama", "Budgam side"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Two routes for a hotel complaint, and an official station list that is out of date",
+      body: [
+        "Srinagar is a police district under a senior superintendent. There is no commissionerate anywhere in Jammu and Kashmir, and there is no separate rural force here either: the city and the areas around it sit in one district, divided into sub-divisions under assistant or deputy superintendents. Escalation runs station house officer, sub-divisional officer, senior superintendent, range deputy inspector general, zone inspector general, then the territory's police chief. Because policing in a union territory sits with the Lieutenant Governor and the union home ministry rather than an elected state government, that is where the ladder ends.",
+        "The jurisdictional edge that catches people out is not a city boundary but the next police district. The airport and the Humhama side fall in Budgam, a separate district under a different superintendent, so an incident there does not escalate through Srinagar at all.",
+        "Two station level details are worth confirming before you report anything. There is no police station called Lal Chowk; that area is covered from Kothibagh, with Maisuma and Kralkhud adjoining, and exactly where the line falls is not clearly published. And five stations created in 2022, including Chanapora, Bemina and Shalteng, still do not appear on the territory police station list, so the official list is not a reliable guide to which station covers an address. Ring 112 and confirm rather than travelling to the wrong one. For the same reason we publish no station count.",
+        "For a hotel, guest house, homestay or houseboat complaint there is a genuine second route. A tourist police station operates at the Tourist Reception Centre around the clock, and the tourism department's enforcement officers hold magisterial and compounding powers in respect of cheating, overcharging and harassment of tourists. That is unusual in India and worth using alongside, not instead of, the police station. Cyber matters go to the cyber police station for the Kashmir zone at the Shergari complex, or through 1930 and the national portal.",
+      ],
+    },
+    settings: [
+      {
+        title: "Hotels, guest houses and homestays",
+        desc: "Checks before an extended stay or a sensitive meeting, covering fittings, vents, detectors and anything recently added to the room.",
+      },
+      {
+        title: "Houseboats",
+        desc: "Houseboats are legally hotels here, registered under the same tourist trade law. Small, hand-fitted interiors with a lot of joinery give plenty of places for a device.",
+      },
+      {
+        title: "Offices and trading premises",
+        desc: "Sweeps before a negotiation or a partnership change, in premises where staff and visitors pass through routinely.",
+      },
+      {
+        title: "Homes, rented rooms and vehicles",
+        desc: "Checks after a tenancy change or a dispute, plus tracker checks under the body, around the wheel arches and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is the Srinagar airport area covered by Srinagar police?",
+        a: "No. The airport and the Humhama side fall in Budgam, a separate police district under a different superintendent. Srinagar district itself runs from the old city through to Nishat, Harwan, Nowgam and Panthachowk. Confirm the covering station before you report anything, because the official station list is also out of date.",
+      },
+      {
+        q: "Which police station covers Lal Chowk?",
+        a: "There is no station called Lal Chowk. The area is covered from Kothibagh, with Maisuma and Kralkhud adjoining, and the exact boundary is not clearly published. Note also that five stations created in 2022, including Chanapora, Bemina and Shalteng, do not appear on the official list at all, so ring 112 to confirm rather than relying on it.",
+      },
+      {
+        q: "Do I have any route other than the police for a hotel or houseboat problem?",
+        a: "Yes, and it is unusual. A tourist police station operates at the Tourist Reception Centre around the clock, and tourism enforcement officers hold magisterial and compounding powers over cheating, overcharging and harassment of tourists under the tourist trade law. Houseboats count as hotels under that law, so a houseboat guest has the same standing. Use it alongside a police complaint rather than instead of one.",
+      },
+      {
+        q: "Are accommodation rules actually enforced in Srinagar?",
+        a: "Yes. In May 2026 a city police station registered cases against a hotel and two homestays for failing to report guests as required. The duty to file guest details within twenty four hours sits on the keeper of the accommodation rather than the guest, and carries substantial penalties, so a property that is casual about your details is already taking a risk.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/srinagar#webpage", url: "https://www.bugsweepingtscm.com/locations/srinagar", name: "Bug Sweeping Services in Srinagar", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/srinagar#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/srinagar#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/srinagar#place", name: "Srinagar", address: { "@type": "PostalAddress", addressLocality: "Srinagar", addressRegion: "Jammu and Kashmir", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/srinagar#service", name: "Bug sweeping and TSCM services in Srinagar", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/srinagar#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/srinagar#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/srinagar#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Srinagar" } ] },
+      ],
+    },
+  },
+  {
+    slug: "jammu",
+    city: "Jammu",
+    state: "Jammu and Kashmir",
+    seoTitle: "Bug Sweeping Services in Jammu | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Jammu",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hotels and vehicles across Jammu, from Gandhi Nagar and Channi Himmat to Bahu Plaza, Talab Tillo and the Bari Brahmana belt.",
+    intro:
+      "Jammu is the winter seat of administration, a pilgrimage transit city with heavy short stay accommodation, and the commercial centre for the region's industry. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "Jammu has something genuinely useful to anyone worried about who has had access to a property. District orders here have required landlords, property owners, contractors and businesses to file a signed declaration of every tenant, domestic helper and employee with the local station house officer, and required every police station in the district to keep a separate register of them. Where such an order is current, that register is a documented record of who had lawful access to a premises, which is exactly the question a sweep report has to be read against.",
+    areas: [
+      "Gandhi Nagar & Shastri Nagar",
+      "Channi Himmat & Trikuta Nagar",
+      "Bahu Plaza & Bahu Fort",
+      "Talab Tillo & Janipur",
+      "City & Pacca Danga",
+      "Satwari & Gangyal",
+      "Bari Brahmana & Vijaypur",
+    ],
+    metaDescription:
+      "Bug sweeping services in Jammu: TSCM sweeps for offices, homes, hotels and vehicles across the city and its industrial belt. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "South city",
+        areas: ["Gandhi Nagar", "Shastri Nagar", "Satwari", "Gangyal", "Digiana", "Sainik Colony", "Channi Rama"],
+      },
+      {
+        zone: "East city",
+        areas: ["Channi Himmat", "Trikuta Nagar", "Bahu Plaza", "Bahu Fort", "Sidhra", "Nanak Nagar", "Greater Kailash"],
+      },
+      {
+        zone: "West city",
+        areas: ["Bakshi Nagar", "Nowabad", "Janipur", "Talab Tillo", "Roop Nagar", "Subash Nagar", "Paloura"],
+      },
+      {
+        zone: "Old city and north",
+        areas: ["Pacca Danga", "Peer Mitha", "Kanak Mandi", "Parade", "Residency Road", "Raghunath Bazar", "Bus Stand"],
+      },
+      {
+        zone: "Outer district and the industrial belt",
+        areas: ["R.S. Pura", "Akhnoor", "Domana", "Nagrota", "Bishnah", "Bari Brahmana", "Vijaypur", "Samba", "Katra"],
+      },
+    ],
+    jurisdiction: {
+      heading: "The industrial belt is a different district, and the city routes through four sub-divisions",
+      body: [
+        "Jammu is a police district led by a senior superintendent, with no commissioner above him and no rural counterpart beside him, because neither exists anywhere in this territory. City and country sit together in a single district that is cut into sub-divisions rather than split between two forces. The city itself routes through four of them, broadly south around Gandhi Nagar, Satwari and Gangyal, east around Bahu Fort and Channi Himmat, west around Bakshi Nagar, Nowabad and Janipur, and north around the old city and the bus stand. Rural sub-divisions cover R.S. Pura, Akhnoor, Domana and Nagrota.",
+        "The boundary worth knowing before you need it is to the east. Bari Brahmana, the industrial belt that functions as an extension of Jammu, is not in Jammu district at all; it falls in Samba, a separate district with its own superintendent and its own sub-divisional officer. A sweep at a plant or an office there escalates through Samba, not through Jammu.",
+        "One naming point: Talab Tillo is covered by a police post rather than a full police station, so a first information report there means going to the parent station. Station counts for the territory are published inconsistently, with the police site's own figures disagreeing with its own station lists, so we publish none.",
+        "An unresolved complaint moves up through the station house officer, the sub-divisional officer, the senior superintendent, the range deputy inspector general and the zone inspector general to the police chief. Where it goes after that differs from a state: policing in a union territory answers to the Lieutenant Governor and the union home ministry, so there is no elected state home minister at the top of the ladder. For anything with an electronic element there is a cyber police station at Bagh-e-Bahu, and the national 1930 helpline and portal will route a financial fraud complaint. The emergency number 112 was confirmed operational across the Jammu zone through all police stations in August 2026.",
+      ],
+    },
+    settings: [
+      {
+        title: "Offices and administrative premises",
+        desc: "Sweeps timed around the movement of administration between the region's two capitals, when premises stand empty and then fill again.",
+      },
+      {
+        title: "Industrial premises at Bari Brahmana",
+        desc: "Checks across meeting rooms, cabins and vehicle bays. Worth establishing first that the site is in Samba district rather than Jammu.",
+      },
+      {
+        title: "Hotels and pilgrimage accommodation",
+        desc: "Heavy seasonal turnover in rooms around the city and on the Katra route. Checks before an extended stay or a sensitive meeting.",
+      },
+      {
+        title: "Homes, rented property and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, sockets, vents and detectors, plus tracker checks under the body and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Bari Brahmana covered by Jammu police?",
+        a: "No. Bari Brahmana and the industrial belt around it fall in Samba, a separate police district with its own superintendent and sub-divisional officer, even though the area functions as an extension of Jammu. A matter arising there escalates through Samba rather than Jammu, which is worth establishing before anything is reported.",
+      },
+      {
+        q: "Which police station covers my part of Jammu city?",
+        a: "The city routes through four sub-divisions: south around Gandhi Nagar, Satwari and Gangyal, east around Bahu Fort and Channi Himmat, west around Bakshi Nagar, Nowabad and Janipur, and north around the old city, Pacca Danga and the bus stand. Note that Talab Tillo is covered by a police post rather than a full station, so a first information report means attending the parent station.",
+      },
+      {
+        q: "Can I find out who had access to a rented property in Jammu?",
+        a: "Often yes, and this is unusually useful here. District orders have required landlords, property owners, contractors and businesses to file a signed declaration of every tenant, domestic helper and employee with the local station house officer, and required each police station to keep a register of them. Where such an order is current, that register documents who had lawful access. These orders run for about two months at a time, so check whether one is in force.",
+      },
+      {
+        q: "Where do cyber complaints go in Jammu?",
+        a: "To the cyber police station at Bagh-e-Bahu, or through the national 1930 helpline and portal, which will route the matter. There is a separate cyber police station for the Kashmir zone in Srinagar, and the territory runs a coordination centre above both.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/jammu#webpage", url: "https://www.bugsweepingtscm.com/locations/jammu", name: "Bug Sweeping Services in Jammu", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/jammu#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/jammu#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/jammu#place", name: "Jammu", address: { "@type": "PostalAddress", addressLocality: "Jammu", addressRegion: "Jammu and Kashmir", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/jammu#service", name: "Bug sweeping and TSCM services in Jammu", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/jammu#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/jammu#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/jammu#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Jammu" } ] },
+      ],
+    },
+  },
+  {
+    slug: "shimla",
+    city: "Shimla",
+    state: "Himachal Pradesh",
+    seoTitle: "Bug Sweeping Services in Shimla | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Shimla",
+    heroSubtitle:
+      "TSCM bug sweeps for hotels, homestays, offices and homes across Shimla, from the Mall and the Ridge to Sanjauli, New Shimla, Kufri and Shoghi.",
+    intro:
+      "Shimla is a state capital, the seat of the Himachal Pradesh High Court and a tourism town whose accommodation stock turns over constantly, from large hotels to the homestays that now dominate new registrations. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "We could not find a single documented case of a planted camera, listening device or tracker recovered anywhere in Shimla district in the last six years, and we looked in both English and Hindi across every locality. That is worth saying plainly rather than filling the gap with a case from somewhere else. What the district does have is image abuse and blackmail cases where a phone was used opportunistically, and one unverified traveller review alleging a camera in a hotel room, which is not evidence of anything. The absence of recorded cases is not the same as the absence of devices; it usually means nobody looked.",
+    areas: [
+      "The Mall & The Ridge",
+      "Chhota Shimla & Kasumpti",
+      "Sanjauli & Dhalli",
+      "New Shimla & Panthaghati",
+      "Boileauganj & Totu",
+      "Kufri & Mashobra",
+      "Shoghi & Jutogh",
+    ],
+    metaDescription:
+      "Bug sweeping services in Shimla: TSCM sweeps for hotels, homestays, offices and homes across the city and district. Book a discreet consultation.",
+    areaGroups: [
+      {
+        zone: "City centre",
+        areas: ["The Mall", "The Ridge", "Lakkar Bazar", "Lower Bazar", "Scandal Point", "Chhota Shimla", "Kasumpti", "Khalini"],
+      },
+      {
+        zone: "East and Sanjauli side",
+        areas: ["Sanjauli", "Dhalli", "Upper Dhalli", "Lower Dhalli", "Engine Ghar", "Bhattakufer", "Malyana"],
+      },
+      {
+        zone: "South and New Shimla",
+        areas: ["New Shimla", "Panthaghati", "Vikasnagar", "Kanlog", "Chakkar", "Tutikandi"],
+      },
+      {
+        zone: "West",
+        areas: ["Boileauganj", "Totu", "Summer Hill", "Jutogh", "Taradevi", "Shoghi", "Annandale"],
+      },
+      {
+        zone: "Outer district",
+        areas: ["Kufri", "Mashobra", "Fagu", "Theog", "Narkanda", "Kotkhai", "Jubbal", "Rohru", "Chopal", "Rampur", "Sunni", "Kumarsain"],
+      },
+    ],
+    jurisdiction: {
+      heading: "No Commissioner of Police, and a word that means something else here",
+      body: [
+        "Shimla is a police district under a superintendent, and there is no police commissionerate anywhere in Himachal Pradesh. One trap is worth flagging because it misleads people reading the law directly: the state's police Act does use the word Commissioner, but it defines it as the Divisional Commissioner of a revenue division, who is a revenue officer rather than a police officer. Seeing that word in the statute does not mean a commissionerate exists.",
+        "The city and the countryside sit in one district under one superintendent, with no separate rural force. The split is supervisory. Four city stations, Sadar, East Shimla, West Shimla and New Shimla, are supervised through a deputy superintendent for the city, a post which is in fact the only one of its kind in the whole state. Everything outside them runs through sub-divisional officers at Theog, Rohru and Rampur. Escalation goes station house officer, then the supervising officer, then additional superintendent, then superintendent, then the southern range inspector general, whose headquarters is also in Shimla. The state police publish that route themselves, including the step of approaching the superintendent if a station declines to register an offence.",
+        "The district magistrate, styled deputy commissioner here, sits alongside that chain rather than above it. The superintendent must keep him informed on law and order, but he is not a police superior you can appeal to for registration of a case. Where he does bind you directly is through prohibitory orders, which cover one district and lapse after two months unless extended.",
+        "Several places people think of as Shimla are outside the municipal corporation, which matters for which body you are dealing with even though the police district is the same. Kufri and Shoghi sit in separate special area development authorities, Jutogh is a cantonment board under the defence ministry, and Theog is its own municipal council about thirty kilometres east. Sanjauli, Chhota Shimla and Kufri are each covered by police posts rather than full stations, so a first information report means attending the parent station.",
+        "On cyber matters, the station that serves Shimla is a range level cyber crime police station under the state criminal investigation department, covering the southern range rather than the district alone, so it also serves Solan, Sirmaur and Kinnaur. The official station list we worked from is several years old, so confirm the covering station on 112 rather than relying on it, and we publish no station count.",
+      ],
+    },
+    settings: [
+      {
+        title: "Hotels and homestays",
+        desc: "Checks before an extended stay, covering fittings, vents, detectors and anything recently added. Homestay stock here has grown faster than hotel stock.",
+      },
+      {
+        title: "Government and legal premises",
+        desc: "Sweeps before a hearing or a policy discussion, in a city holding both the state administration and the High Court.",
+      },
+      {
+        title: "Paying guest rooms and student accommodation",
+        desc: "Student accommodation in this state sits outside the tourism registration regime entirely, so there is no licensing body inspecting it.",
+      },
+      {
+        title: "Homes and vehicles",
+        desc: "Checks after a tenancy change or a dispute, plus tracker checks under the body, around the wheel arches and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is there a Commissioner of Police in Shimla?",
+        a: "No, and there is no commissionerate anywhere in Himachal Pradesh. The state police Act does use the word Commissioner, but defines it as the Divisional Commissioner of a revenue division, a revenue officer rather than a police officer, so reading the statute can mislead. Shimla is a police district under a superintendent, with no separate rural force.",
+      },
+      {
+        q: "Which police station covers Sanjauli or Chhota Shimla?",
+        a: "Both are covered by police posts rather than full stations, Sanjauli under Dhalli and Chhota Shimla through Kasumpti under East Shimla, so a first information report means attending the parent station. The four city stations are Sadar, East Shimla, West Shimla and New Shimla. The official list we worked from is several years old, so confirm on 112.",
+      },
+      {
+        q: "Are Kufri, Shoghi and Theog part of Shimla?",
+        a: "Not municipally. Kufri and Shoghi fall under separate special area development authorities, Jutogh is a cantonment board under the defence ministry, and Theog has its own municipal council about thirty kilometres east. They sit in the same police district, so policing escalates the same way, but the civic authority is different.",
+      },
+      {
+        q: "Where do cyber complaints go in Shimla?",
+        a: "To the cyber crime police station for the southern range, which operates under the state criminal investigation department and covers Solan, Sirmaur and Kinnaur as well as Shimla, rather than to a district cyber station. Use 1930 and the national portal first for financial fraud, which will route the matter.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/shimla#webpage", url: "https://www.bugsweepingtscm.com/locations/shimla", name: "Bug Sweeping Services in Shimla", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/shimla#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/shimla#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/shimla#place", name: "Shimla", address: { "@type": "PostalAddress", addressLocality: "Shimla", addressRegion: "Himachal Pradesh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/shimla#service", name: "Bug sweeping and TSCM services in Shimla", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/shimla#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/shimla#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/shimla#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Shimla" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

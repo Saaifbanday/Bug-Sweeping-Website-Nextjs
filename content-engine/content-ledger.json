@@ -1924,5 +1924,185 @@
     "date_modified": "",
     "notes": "Created 1 Oct 2026. The factories versus hotels distinction is the most important item on the page, because the night shift camera mandate is real but does not reach accommodation, and reporting it loosely would have produced a confidently wrong page in the same way the Tamil Nadu hostel rules did. The e-FIR eligibility restriction limiting online filing to unknown accused cases was excluded as Uttar Pradesh law, not verified for this state. District count given as thirteen with the 2011 announcement of four more noted as never notified. Helpline contradiction shown rather than resolved silently.",
     "revisions": []
+  },
+  {
+    "slug": "locations/shimla",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/shimla",
+    "page_type": "location-page",
+    "location": {
+      "city": "Shimla",
+      "district": "",
+      "state": "Himachal Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in shimla",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "There is no commissionerate anywhere in Himachal and the state police Act uses the word Commissioner to mean the Divisional Commissioner of a revenue division, which misleads anyone reading the statute directly; the deputy superintendent for the city is the only post of its kind in the state; the district magistrate sits alongside the police chain rather than above it; Kufri and Shoghi fall under separate special area development authorities, Jutogh is a cantonment board and Theog has its own municipal council, while Sanjauli and Chhota Shimla are covered by police posts rather than full stations; the cyber station serving Shimla is a range body also covering Solan, Sirmaur and Kinnaur.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state or union territory. Measured 35 to 38 per cent shingle overlap against existing city pages, below the 40.8 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. No documented hidden camera, listening device or tracker case was found anywhere in Shimla district across 2020 to 2026 in either English or Hindi, and the page says so plainly rather than importing a case from elsewhere. An unverified traveller review alleging a camera in a hotel room was deliberately excluded as evidence of nothing. The September 2026 directive asking paying guest accommodations in one locality to install cameras is attributed to a drug prevention committee and not presented as a legal order. No station count published because the official list is several years old.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/himachal-pradesh",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/himachal-pradesh",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Himachal Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in himachal pradesh",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Himachal is the rare state where a homestay carries a statewide statutory duty to install cameras in common areas under rules made in 2025 while a licensed hotel carries none at all, the trade rules and the tourism Act containing no camera provision; hotel rules go further than most states on records, barring a keeper from allowing a guest into a room until their particulars are entered in the register, with registers preserved three years, yet the prescribed form captures identity document details only for foreign guests; there is no e-FIR of any kind and the state police state that a complainant must attend and sign; the women helpline landscape is unique, with the state running its own Gudiya line on 1515 while 1090 is a separate Hoshiar Singh line rather than the women's number it is in Madhya Pradesh, and 181 appears nowhere.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 17 to 21 per cent shingle overlap against its own city pages, against a 40.8 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. The homestay versus hotel inversion is the central finding and was verified by grepping the full text of both the tourism Act and the trade rules for camera references, which returned none. The homestay duty is described as covering common areas with no prescribed retention period. An aggregator claim that the state requires cameras at reception with thirty day retention was excluded as unverifiable. The page notes that the police Act defines Commissioner as a revenue officer, because that wording is a genuine trap for anyone reading the statute. Private hostels and student paying guest accommodation are recorded as outside the regime entirely.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/srinagar",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/srinagar",
+    "page_type": "location-page",
+    "location": {
+      "city": "Srinagar",
+      "district": "",
+      "state": "Jammu and Kashmir"
+    },
+    "primary_keyword": "bug sweeping services in srinagar",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Srinagar offers a second route for an accommodation complaint that most Indian cities lack, through a tourist police station at the Tourist Reception Centre open around the clock and tourism enforcement officers holding compounding powers over harassment of tourists; houseboats count as hotels under the tourist trade law so a houseboat guest has the same standing; the airport and Humhama side fall in Budgam, a separate police district; five police stations created in 2022 still do not appear on the official station list, so that list is not a reliable guide; accommodation reporting duties are actively prosecuted, with cases registered against a hotel and two homestays in May 2026.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state or union territory. Measured 35 to 38 per cent shingle overlap against existing city pages, below the 40.8 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. No station count published because the territory police's own figures disagree with their own station lists and several stations are missing from them. The page tells readers to confirm the covering station by phone rather than relying on the published list. No police station is named for Lal Chowk because the boundary between the adjoining stations is not clearly published.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/jammu",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/jammu",
+    "page_type": "location-page",
+    "location": {
+      "city": "Jammu",
+      "district": "",
+      "state": "Jammu and Kashmir"
+    },
+    "primary_keyword": "bug sweeping services in jammu",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Bari Brahmana and the industrial belt east of Jammu fall in Samba, a separate police district with its own superintendent, although the area functions as an extension of the city; the city routes through four sub-divisions which determine the covering station; Talab Tillo is a police post rather than a full station so a first information report means attending the parent station; district orders requiring landlords, contractors and businesses to file signed declarations of every tenant, domestic helper and employee with the local station house officer, with each station keeping a register, give a documented record of who had lawful access to a property, though such orders lapse after two months.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state or union territory. Measured 35 to 38 per cent shingle overlap against existing city pages, below the 40.8 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. The tenant declaration order is presented as something to check rather than assume, because these orders expire. The promised Jammu police tenant verification portal is not linked because it is not yet live. No station count published. The jurisdiction wording was deliberately rewritten to differentiate it from the Srinagar page after a shingle overlap measurement of 42.2 per cent against a 40.8 per cent chrome floor, which came down to 38.4 per cent.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/jammu-and-kashmir",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/jammu-and-kashmir",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Jammu and Kashmir"
+    },
+    "primary_keyword": "bug sweeping services in jammu and kashmir",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "Policing in this union territory answers to the Lieutenant Governor and the union home ministry rather than an elected state government, so the escalation ladder ends differently from a state; there are twenty revenue districts but twenty three police districts, Awantipora, Sopore and Handwara having no revenue twin; the police e-services portal carries the term e-FIR in its own page metadata while the term appears nowhere in its service list, so an online submission is a complaint rather than a report; the territory police publish no women helpline at all and their helpline page contains evident errors; camera duties exist only as district magistrates' orders that lapse after two months, and the ones traced in Jammu, Samba, Kishtwar and Reasi had all expired by autumn 2026; houseboats count as hotels under the tourist trade law.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 17 to 21 per cent shingle overlap against its own city pages, against a 40.8 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. The page states plainly that on any given day a hotel here is probably under no camera obligation, because every instrument found was a district order with a two month life and almost all had expired, and tells readers to check their own district rather than assume. Ladakh is expressly kept out of the district list, since stale sources still place Leh and Kargil in this jurisdiction. The guest reporting duty is attributed to central law rather than local orders. The December 2025 advisory about weak passwords on people's own camera systems is described as a different problem from a concealed device, not offered as a hidden camera advisory.",
+    "revisions": []
   }
 ]

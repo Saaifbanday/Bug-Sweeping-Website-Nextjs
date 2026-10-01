@@ -1297,5 +1297,165 @@ export const states: StateData[] = [
       },
     ],
   },
+  {
+    slug: "himachal-pradesh",
+    state: "Himachal Pradesh",
+    seoTitle: "Bug Sweeping Services in Himachal Pradesh | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Himachal Pradesh",
+    heroSubtitle:
+      "TSCM bug sweeps across Himachal Pradesh, the one state where a homestay must run cameras in common areas and a licensed hotel need not.",
+    metaDescription:
+      "Bug sweeping services across Himachal Pradesh: TSCM sweeps district by district, with the state's policing structure, helplines and homestay camera rule explained.",
+    intro:
+      "Himachal runs on tourism, and its accommodation stock has shifted sharply towards homestays, which now have their own statutory regime. That produces a situation we have not seen in any other state, and it is the single most useful thing on this page. The sweep itself is unchanged wherever we work: radio-frequency analysis, a non-linear junction detector that finds electronics left switched off, optical and thermal checks and a physical inspection.",
+    policing: {
+      heading: "No commissionerate, and a statutory word that misleads",
+      body: [
+        "Himachal Pradesh has no police commissionerate in any city. Every district is headed by a superintendent, grouped into ranges, and the sanctioned list of senior police posts contains no Commissioner of Police at all. A senior officer has publicly described a commissionerate for Shimla and Dharamsala as a priority, which is an aspiration rather than a fact.",
+        "One trap deserves naming because it catches people reading the legislation directly. The state's police Act uses the word Commissioner, and defines it as the Divisional Commissioner of a revenue division. That is a revenue officer. Passages giving the Commissioner and the district magistrate coordinating roles are therefore not evidence of a police commissionerate.",
+        "There is no separate rural force anywhere. A district is one force under one superintendent, divided internally between city stations supervised by a deputy superintendent and outer stations supervised by sub-divisional officers. The district magistrate, styled deputy commissioner, sits alongside the police chain rather than above it: the superintendent must keep him informed, but he is not the person to appeal to for registration of a case. His direct power over you is the prohibitory order, which covers one district and lapses after two months unless the state extends it.",
+        "Cyber policing is organised at range level rather than district level. Three cyber crime police stations serve the southern, central and northern ranges from Shimla, Mandi and Dharamshala, under the state criminal investigation department, so a complaint goes to a body covering several districts.",
+      ],
+    },
+    reporting: {
+      heading: "No e-FIR at all, and a women's helpline landscape unlike anywhere else",
+      body: [
+        "Himachal has no online first information report facility of any kind, not even the narrow vehicle theft version some states run. The state police say so in their own guidance: a complaint can be raised through the citizen portal, but if the enquiry shows a case should be registered, the complainant must attend the police station and sign the report. So an online submission produces a complaint number and an enquiry, never a registered case, and for a covert recording somebody has to physically attend.",
+        "The helpline position here is genuinely distinctive and easy to get wrong. Himachal runs two named lines of its own. The Gudiya helpline on 1515 is the women's and girls' line, named after a case in Shimla. The Hoshiar Singh helpline on 1090 is a separate service, and that matters because 1090 is the women's helpline in Madhya Pradesh, so anyone applying that assumption here is dialling the wrong thing. District pages also publish 1091 as a women's helpline, while the state police telephone directory labels no number as the women's line at all, and only some district pages list 112. The number 181, used for women in several other states, does not appear anywhere in Himachal. Our recommendation is to treat 112 as the emergency number and to know both 1515 and 1091.",
+      ],
+    },
+    accommodation: {
+      heading: "A homestay must have cameras in common areas; a hotel need not",
+      body: [
+        "This is the inversion that makes Himachal unusual. Rules made for homestays in 2025 require the owner to install cameras in the common areas of the unit, as an operating duty and again as a mandatory item on the registration checklist. It is a genuine statewide statutory mandate. Meanwhile the trade rules governing hotels, and the tourism Act itself, contain no camera requirement at all. We checked the full text of both and found no mention of cameras, closed circuit equipment or surveillance anywhere in them. So a small homestay carries a camera duty that a large licensed hotel does not.",
+        "Two qualifications belong with that. The duty covers common areas, not rooms, and the rules prescribe no retention period for the footage, so there is no standard to hold an operator to on how long recordings are kept. And a claim circulating online that Himachal requires cameras at reception and entrances with thirty days of retention is not something we could verify in any state instrument.",
+        "On guest records the hotel rules are stronger than most states. A hotel must keep a guest register in a prescribed form, and the rules go further than record keeping: a hotel keeper may not allow a guest into a room at all unless their particulars have first been entered in the register. Registers must be bound and paginated and preserved for three years. Homestays must keep an equivalent register, open to inspection at any time. There is a notable gap in all of it, though: the prescribed form captures passport and visa details only for foreign guests, and there is no requirement to collect or retain a photo identity document from an Indian guest. Reporting guests to the police is required for foreign nationals under central law, and we found no duty to report Indian guests at all.",
+        "Student accommodation sits outside the whole regime. The tourism Act does not mention hostels or paying guest accommodation anywhere, so private hostels and student paying guest rooms in this state are not registered, not inspected and under no camera or record duty. A directive in one locality of Shimla in September 2026 asked paying guest accommodations to install cameras, but it came from a drug prevention committee rather than under any legal provision, and it covers one area of one district.",
+        "Registration itself is enforced. No homestay may operate unregistered, penalties were raised in a 2023 amendment to a fine of one lakh rupees with cancellation as an alternative, inspectors may enter and examine registers with or without notice, and the Shimla tourism office gave operators thirty days to register in January 2026.",
+        "We found no advisory from Himachal Pradesh Police specifically about hidden or spy cameras in hotels, hostels, trial rooms or washrooms. Their published citizen guidance covers reporting offences, property precautions, hiring domestic staff and advice for tourists, with nothing on covert recording.",
+      ],
+    },
+    cityPages: ["shimla"],
+    districts: [
+      { district: "Shimla", towns: ["Shimla", "Rampur", "Theog", "Rohru", "Narkanda"] },
+      { district: "Kangra", towns: ["Dharamshala", "Palampur", "Kangra", "Nurpur", "Baijnath"] },
+      { district: "Mandi", towns: ["Mandi", "Sundernagar", "Joginder Nagar", "Karsog"] },
+      { district: "Solan", towns: ["Solan", "Baddi", "Nalagarh", "Parwanoo", "Kasauli"] },
+      { district: "Kullu", towns: ["Kullu", "Manali", "Bhuntar", "Banjar"] },
+      { district: "Una", towns: ["Una", "Amb", "Mehatpur", "Gagret"] },
+      { district: "Bilaspur", towns: ["Bilaspur", "Ghumarwin", "Naina Devi"] },
+      { district: "Hamirpur", towns: ["Hamirpur", "Nadaun", "Sujanpur", "Bhota"] },
+      { district: "Chamba", towns: ["Chamba", "Dalhousie", "Bharmour", "Khajjiar"] },
+      { district: "Sirmaur", towns: ["Nahan", "Paonta Sahib", "Rajgarh", "Renuka"] },
+      { district: "Kinnaur", towns: ["Reckong Peo", "Kalpa", "Sangla", "Pooh"] },
+      { district: "Lahaul and Spiti", towns: ["Keylong", "Kaza", "Udaipur"] },
+    ],
+    faqs: [
+      {
+        q: "Does any city in Himachal Pradesh have a police commissionerate?",
+        a: "No. Every district is headed by a superintendent and the sanctioned list of senior police posts contains no Commissioner of Police. Be careful reading the state police Act directly: it uses the word Commissioner but defines it as the Divisional Commissioner of a revenue division, who is a revenue officer rather than a police officer.",
+      },
+      {
+        q: "Can I file an FIR online in Himachal Pradesh?",
+        a: "No. There is no online first information report facility of any kind. The state police say that a complaint can be raised through the citizen portal, but if the enquiry shows a case should be registered, the complainant must attend the police station and sign it. An online submission produces a complaint number and an enquiry, never a registered case.",
+      },
+      {
+        q: "Which women's helpline should I use in Himachal Pradesh?",
+        a: "Himachal runs its own named line, the Gudiya helpline on 1515, and district pages also publish 1091. Do not assume 1090 is the women's line here as it is in Madhya Pradesh: in Himachal 1090 is the separate Hoshiar Singh helpline. The number 181, used for women in several other states, does not appear anywhere here. Use 112 for an emergency.",
+      },
+      {
+        q: "Do hotels in Himachal have to install cameras?",
+        a: "No, and this is the state's oddity. The rules made for homestays in 2025 require cameras in the common areas of the unit, as both an operating duty and a registration condition, but the trade rules governing hotels and the tourism Act itself contain no camera requirement at all. So a small homestay carries a duty that a large licensed hotel does not. The homestay duty covers common areas rather than rooms, and prescribes no retention period.",
+      },
+      {
+        q: "Are private hostels and paying guest rooms regulated in Himachal?",
+        a: "No. The tourism Act does not mention hostels or paying guest accommodation anywhere, so student accommodation here is not registered, not inspected and under no camera or record duty. A September 2026 directive asking paying guest accommodations in one Shimla locality to install cameras came from a drug prevention committee rather than under any legal provision.",
+      },
+    ],
+  },
+  {
+    slug: "jammu-and-kashmir",
+    state: "Jammu and Kashmir",
+    seoTitle: "Bug Sweeping Services in Jammu and Kashmir | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Jammu and Kashmir",
+    heroSubtitle:
+      "TSCM bug sweeps across Jammu and Kashmir, where camera duties arrive as two month district orders and almost all of them have lapsed.",
+    metaDescription:
+      "Bug sweeping services across Jammu and Kashmir: TSCM sweeps district by district, with the territory's policing structure, reporting limits and accommodation rules explained.",
+    intro:
+      "Jammu and Kashmir runs one of India's largest tourism economies relative to its size, with hotels, guest houses, homestays and houseboats across both divisions, alongside the commercial and administrative centres of Jammu and Srinagar. The sweep is the same wherever we work: radio-frequency analysis, a non-linear junction detector that finds electronics left switched off, optical and thermal checks and a physical inspection. What this page sets out is the layer around it, which here differs from a state in ways worth understanding before you need them.",
+    policing: {
+      heading: "A union territory, no commissionerates, and police districts that outnumber revenue districts",
+      body: [
+        "Jammu and Kashmir has been a union territory since 2019, and Ladakh was separated at the same time into a territory of its own, so Leh and Kargil are not part of this jurisdiction. The legislature here cannot legislate on police or public order, which sit with the Lieutenant Governor and the union home ministry. For a complainant that changes the top of the ladder: escalation runs up to the territory's police chief and then to the Lieutenant Governor and the union government, rather than to a state home department answerable to an elected state minister.",
+        "There is no police commissionerate anywhere in the territory, and no separate rural force. Jammu and Srinagar are ordinary police districts under senior superintendents, each covering its city and the country around it, divided internally into sub-divisions. Escalation runs station house officer, sub-divisional officer, senior superintendent, range deputy inspector general, zone inspector general, then the police chief. Two zones, Jammu and Kashmir, sit above seven ranges.",
+        "A counting point catches people out. There are twenty revenue districts but twenty three police districts, because Awantipora, Sopore and Handwara are police districts without a revenue twin. So the unit that polices an address may not share the district name you expect. The jurisdictional edge that matters most in practice is not a city boundary but the neighbouring police district: Budgam on the Srinagar side, Samba on the Jammu side.",
+        "Police station counts are published inconsistently by the territory police, whose own figures disagree with its own station lists, and several stations created in 2022 are missing from those lists altogether. We publish no count and suggest confirming the covering station by phone.",
+      ],
+    },
+    reporting: {
+      heading: "There is no e-FIR here, whatever the website's own metadata says",
+      body: [
+        "This one is a genuine trap. The territory's police e-services portal carries the term e-FIR in its page title and search metadata, but the term appears nowhere in the actual list of services. What the portal offers is a complaint, tenant and paying guest verification, character and employee verification, event and protest requests, the foreigner reporting form and vehicle enquiry, plus downloadable offline forms, none of which is an FIR form. The portal's own description of its benefits refers to tracking petitions and reports rather than filing them. So an online submission is a complaint or a petition, and for a cognizable offence such as voyeurism somebody has to attend the police station.",
+        "The helpline position is unusual: the territory police publish no women's helpline at all. Their own helpline page lists only control rooms and traffic units, and that page carries evident errors, including a Jammu dialling code against a Kashmir control room and a mobile number with too many digits, so it is worth treating with care. The number that does appear for women on official district pages is 1091, while 181 operates as a women's helpline run by the social welfare side through one stop centres. Given that, the most reliable local contact is the women's police station for the district, of which Srinagar and Jammu each have one. The emergency number 112 was confirmed operational across the Jammu zone through all police stations in August 2026, and earlier reporting describes it as available across the territory, so its position in the Kashmir zone is less clearly documented. Cyber financial fraud goes to 1930 and the national portal.",
+      ],
+    },
+    accommodation: {
+      heading: "Camera duties here expire, and guest reporting is the rule that is actually enforced",
+      body: [
+        "There is no standing camera duty on accommodation anywhere in Jammu and Kashmir. The tourist trade law that governs hotels contains none, there are no hostel or paying guest rules at all, and there is no general public safety or women's safety statute creating one. What exists instead is a rolling series of district magistrates' orders, and those genuinely do mandate cameras: orders in several districts have required premises including hotels and guest houses to run cameras covering entrances, exits, corridors and parking, with retention periods of fifteen or thirty days and prosecution for breach. Enforcement has been real, including first information reports against lodge owners at Katra for not installing cameras.",
+        "The catch is that such orders bind one district and lapse after two months unless extended. Working through the ones we could find, the orders in Jammu, Samba, Kishtwar and Reasi had all expired by the autumn of 2026, and the one in Shopian was at the very end of its life. So on any given day the honest answer is that a hotel here is probably under no camera obligation at all, and the only way to know is to check whether a current order exists in that particular district. Treat any blanket claim that hotels in this territory must have cameras as wrong.",
+        "The duty that is consistently enforced is guest reporting, and it comes from central law rather than local orders. The keeper of any accommodation, including hotels, homestays and hostels, must report a foreign national's stay within twenty four hours, with substantial penalties for failure, and the form is filed through the territory police portal. Cases have been registered in Srinagar and at Pahalgam for breaches of exactly this.",
+        "One definitional point is useful for travellers. Under the tourist trade law a houseboat counts as a hotel, as do guest houses, tourist lodges, camp hotels and tents. So a houseboat guest has the same statutory footing as a hotel guest, including access to the tourism department's enforcement officers, who hold compounding powers over cheating and harassment of tourists. Registration under that law runs for three years at a time.",
+        "Several districts have also ordered landlords, contractors and businesses to file signed declarations of tenants, domestic helpers and employees with the local station house officer, with each station keeping a register of them. Where such an order is current, that register is a documented record of who had lawful access to a property. Those orders expire the same way, so check before relying on one.",
+        "We found no advisory from the territory police about hidden or spy cameras in hotels, hostels, trial rooms or washrooms. The one camera related advisory they have issued, in December 2025, concerns weak passwords on people's own closed circuit systems being exploited, which is a different problem from a device somebody else has concealed.",
+      ],
+    },
+    cityPages: ["srinagar", "jammu"],
+    districts: [
+      { district: "Srinagar", towns: ["Srinagar", "Lal Chowk", "Nishat", "Harwan"] },
+      { district: "Budgam", towns: ["Budgam", "Magam", "Chadoora", "Charisharief"] },
+      { district: "Ganderbal", towns: ["Ganderbal", "Kangan", "Sonamarg"] },
+      { district: "Anantnag", towns: ["Anantnag", "Bijbehara", "Pahalgam"] },
+      { district: "Kulgam", towns: ["Kulgam", "Qazigund", "Yaripora"] },
+      { district: "Pulwama", towns: ["Pulwama", "Pampore", "Tral", "Awantipora"] },
+      { district: "Shopian", towns: ["Shopian", "Zainapora", "Keller"] },
+      { district: "Baramulla", towns: ["Baramulla", "Pattan", "Uri", "Gulmarg", "Sopore"] },
+      { district: "Bandipora", towns: ["Bandipora", "Sumbal", "Gurez"] },
+      { district: "Kupwara", towns: ["Kupwara", "Handwara", "Tangdhar", "Sogam"] },
+      { district: "Jammu", towns: ["Jammu", "R.S. Pura", "Akhnoor", "Bishnah", "Nagrota"] },
+      { district: "Samba", towns: ["Samba", "Vijaypur", "Bari Brahmana", "Ramgarh"] },
+      { district: "Kathua", towns: ["Kathua", "Basohli", "Billawar", "Hiranagar"] },
+      { district: "Udhampur", towns: ["Udhampur", "Chenani", "Ramnagar", "Majalta"] },
+      { district: "Reasi", towns: ["Reasi", "Katra", "Mahore", "Pouni"] },
+      { district: "Rajouri", towns: ["Rajouri", "Nowshera", "Thanamandi", "Sunderbani"] },
+      { district: "Poonch", towns: ["Poonch", "Mendhar", "Surankote", "Mandi"] },
+      { district: "Doda", towns: ["Doda", "Bhaderwah", "Thathri", "Gandoh"] },
+      { district: "Ramban", towns: ["Ramban", "Banihal", "Batote", "Gool"] },
+      { district: "Kishtwar", towns: ["Kishtwar", "Paddar", "Chatroo", "Dachhan"] },
+    ],
+    faqs: [
+      {
+        q: "Does Jammu and Kashmir have police commissionerates?",
+        a: "No. Jammu and Srinagar are ordinary police districts under senior superintendents, and there is no commissionerate anywhere in the territory and no separate rural force. Because this is a union territory, policing sits with the Lieutenant Governor and the union home ministry rather than an elected state government, so the escalation ladder ends there rather than with a state home department.",
+      },
+      {
+        q: "Can I file an FIR online in Jammu and Kashmir?",
+        a: "No, despite appearances. The police e-services portal carries the term e-FIR in its page metadata, but the term appears nowhere in its actual service list, which offers complaints, verifications, permissions and the foreigner reporting form. An online submission is a complaint or petition, so for a cognizable offence such as voyeurism somebody has to attend the police station.",
+      },
+      {
+        q: "Do hotels in Jammu and Kashmir have to have cameras?",
+        a: "Usually not. There is no standing camera duty in the tourist trade law, no hostel or paying guest rules, and no general safety statute creating one. Camera requirements arrive as district magistrates' orders that bind one district and lapse after two months, and the ones we traced in Jammu, Samba, Kishtwar and Reasi had all expired by autumn 2026. Check whether a current order exists in your own district rather than assuming.",
+      },
+      {
+        q: "What is the women's helpline in Jammu and Kashmir?",
+        a: "The territory police publish none, and their own helpline page lists only control rooms and traffic units, with evident errors in it. Official district pages give 1091, and 181 operates as a women's helpline run by the social welfare side. The most reliable local contact is the district women's police station, of which Srinagar and Jammu each have one. Use 112 for an emergency and 1930 for cyber financial fraud.",
+      },
+      {
+        q: "Are houseboats treated differently from hotels?",
+        a: "No, and that works in a guest's favour. Under the tourist trade law a houseboat counts as a hotel, as do guest houses, tourist lodges, camp hotels and tents, with registration renewed every three years. So a houseboat guest has the same statutory footing as a hotel guest, including recourse to tourism enforcement officers who hold compounding powers over cheating and harassment of tourists.",
+      },
+    ],
+  },
 ];
 
