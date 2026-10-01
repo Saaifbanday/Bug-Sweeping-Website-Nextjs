@@ -3523,6 +3523,113 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "dehradun",
+    city: "Dehradun",
+    state: "Uttarakhand",
+    seoTitle: "Bug Sweeping Services in Dehradun | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Dehradun",
+    heroSubtitle:
+      "TSCM bug sweeps for offices, homes, hostels and vehicles across Dehradun, from Rajpur Road and Dalanwala to Clement Town, Selaqui and the Sahastradhara Road corridor.",
+    intro:
+      "Dehradun holds an unusual concentration of sensitive work for a city its size: the state capital, a cluster of defence, survey and research institutions, the exploration and geodata arms of the national oil company, and some of the country's best known boarding schools. It also carries a large floating population of students, parents and seasonal visitors living in hostels, paying guest accommodation and homestays. We agree the scope with you first, then work through it using radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "The case worth knowing here carries a warning for business owners as much as for guests. In August 2024 a woman customer at a restaurant near Ballupur Chowk spotted a phone placed upside down in a broken section of the false ceiling of the ladies' washroom, positioned to record. A case was registered under the voyeurism provision of the Bharatiya Nyaya Sanhita, and it named not only the cleaner who placed it but the restaurant owner as well. If a device is found on premises you run, the exposure is not only the person who put it there.",
+    areas: [
+      "Rajpur Road & Dalanwala",
+      "Clock Tower & Paltan Bazaar",
+      "Patel Nagar & Ballupur",
+      "Clement Town & Prem Nagar",
+      "Raipur & Sahastradhara Road",
+      "Selaqui & Vikasnagar",
+      "Rishikesh & Mussoorie",
+    ],
+    metaDescription:
+      "Bug sweeping services in Dehradun: TSCM sweeps for offices, homes, hostels and vehicles across the city and district. Book a private consultation.",
+    areaGroups: [
+      {
+        zone: "North and the Rajpur Road axis",
+        areas: ["Rajpur", "Malsi", "Jakhan", "Salawala", "Dobhal Wala", "Vijay Colony", "Doon Vihar", "Dhoran"],
+      },
+      {
+        zone: "Central and old city",
+        areas: ["Clock Tower", "Paltan Bazaar", "Dhamawala", "Jhanda Mohalla", "Karanpur", "Chukhuwala", "Khurbura", "Tilak Road", "Arya Nagar", "Kishan Nagar"],
+      },
+      {
+        zone: "Dalanwala and Race Course",
+        areas: ["Dalanwala", "Race Course", "Rest Camp", "Yamuna Colony", "Kaulagarh"],
+      },
+      {
+        zone: "West Dehradun",
+        areas: ["Ballupur", "Panditwari", "Basant Vihar", "Vijay Park", "Indira Nagar", "Niranjanpur", "Majra", "Patel Nagar", "Dehra Khas", "Mohabbewala", "Sewala Kalan", "Clement Town", "Prem Nagar", "Selaqui"],
+      },
+      {
+        zone: "South and the bypass",
+        areas: ["Nehru Colony", "Defence Colony", "Dharampur", "Ajabpur", "Mothrowala", "Banjarawala", "Lohia Nagar", "Bharuwala Grant"],
+      },
+      {
+        zone: "East, Raipur and the district",
+        areas: ["Raipur", "Sahastradhara", "Doon IT Park", "Mokhampur", "Nathanpur", "Ladpur", "Harrawala", "Doiwala", "Bhaniyawala", "Thano", "Rishikesh", "Mussoorie", "Vikasnagar", "Herbertpur", "Chakrata", "Kalsi"],
+      },
+    ],
+    jurisdiction: {
+      heading: "There is no Commissioner of Police in Dehradun, and the magistrate still matters",
+      body: [
+        "Dehradun is an ordinary police district under a senior superintendent, and so is every other district in Uttarakhand. A commissionerate for Dehradun and Haridwar was publicly recommended by a state police chief back in 2014 and was never notified, so anyone searching for a Commissioner of Police here is looking for an office that does not exist. Escalation runs from the chowki in charge to the station house officer, then the circle officer, then a superintendent for the city or the Rishikesh side, then the senior superintendent, then the Garhwal range deputy inspector general, and then police headquarters.",
+        "Because there was never a commissionerate, magisterial powers were never transferred away from the district administration. The district magistrate and additional district magistrate still issue prohibitory orders here, and still keep the register of lodging house keepers under the old central law that governs them. So in Dehradun you effectively have two routes rather than one: the police chain, and a separate petition to the magistrate.",
+        "Jurisdiction at the edges of the district is a genuine trap. The Rishikesh urban area spans three districts, with the Muni ki Reti side in Tehri Garhwal and the Swargashram side in Pauri Garhwal, so an address that everyone calls Rishikesh may not be Dehradun district at all. Rajpur Road is split between stations along its length. Sahastradhara Road and the IT Park sit in the Raipur block although some listings place them elsewhere. Confirm the covering station on 112 before travelling to one.",
+        "On cyber matters, Dehradun has no district cyber police station. The state runs a single cyber crime police station for the Garhwal side, operating under the special task force, with a counterpart at Rudrapur for Kumaon, and every district keeps a cyber cell in the senior superintendent's office. For most people the practical route is 1930 and the national portal. One recent addition is worth knowing: since March 2026 a zero first information report can be raised through that helpline for cyber financial fraud above ten lakh rupees, and it converts into a regular first information report within three days.",
+        "Station counts for the district vary between sources, so we publish none.",
+      ],
+    },
+    settings: [
+      {
+        title: "Institutional and research offices",
+        desc: "Sweeps in a city holding survey, forestry, geology and remote sensing institutions alongside the exploration and geodata arms of the national oil company.",
+      },
+      {
+        title: "Schools, hostels and paying guest rooms",
+        desc: "Boarding school density and a large student intake mean admission disputes, custody matters and tenancy conflicts, which is where covert recording tends to appear.",
+      },
+      {
+        title: "Hotels and guest houses",
+        desc: "Since April 2026 around fifty licensed premises in the city have been required to give police access to entrance camera feeds. That covers their cameras, not a device someone else has placed in your room.",
+      },
+      {
+        title: "Homes and vehicles",
+        desc: "Checks after a tenancy change or a dispute, covering fittings, sockets, vents and false ceilings, plus tracker checks under the body and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is there a Police Commissioner in Dehradun?",
+        a: "No, and there never has been. A commissionerate for Dehradun and Haridwar was recommended in 2014 and never notified, so the city is an ordinary police district under a senior superintendent. Escalation runs station house officer, circle officer, superintendent, senior superintendent, then the Garhwal range deputy inspector general. The district magistrate also retains magisterial powers, which gives you a second route.",
+      },
+      {
+        q: "Does Dehradun have its own cyber police station?",
+        a: "No. Uttarakhand runs a single cyber crime police station for the Garhwal side under the special task force, with a counterpart at Rudrapur for Kumaon, and each district keeps a cyber cell in the senior superintendent's office. Use 1930 and the national portal first. For cyber financial fraud above ten lakh rupees a zero first information report can now be raised through that route and converts into a full report within three days.",
+      },
+      {
+        q: "Is Rishikesh covered by Dehradun police?",
+        a: "Partly, and this catches people out. The Rishikesh urban area spans three districts: the Muni ki Reti side falls in Tehri Garhwal and the Swargashram side in Pauri Garhwal, while the main town is Dehradun district. Confirm which station covers the exact address before you travel to one, which the 112 operator can do.",
+      },
+      {
+        q: "If a camera is found on my business premises, am I exposed?",
+        a: "Potentially yes. In the reported Dehradun restaurant case of August 2024, the case under the voyeurism provision named the restaurant owner alongside the cleaner who placed the device. If you run premises where the public or staff have a reasonable expectation of privacy, a device found there is not only the problem of whoever put it there.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/dehradun#webpage", url: "https://www.bugsweepingtscm.com/locations/dehradun", name: "Bug Sweeping Services in Dehradun", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/dehradun#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/dehradun#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/dehradun#place", name: "Dehradun", address: { "@type": "PostalAddress", addressLocality: "Dehradun", addressRegion: "Uttarakhand", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/dehradun#service", name: "Bug sweeping and TSCM services in Dehradun", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/dehradun#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/dehradun#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/dehradun#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Dehradun" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

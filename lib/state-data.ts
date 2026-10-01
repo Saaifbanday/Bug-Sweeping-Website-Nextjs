@@ -1221,5 +1221,81 @@ export const states: StateData[] = [
       },
     ],
   },
+  {
+    slug: "uttarakhand",
+    state: "Uttarakhand",
+    seoTitle: "Bug Sweeping Services in Uttarakhand | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Uttarakhand",
+    heroSubtitle:
+      "TSCM bug sweeps across Uttarakhand, a state whose economy runs on short stay accommodation and whose police publish no guidance at all about hidden cameras.",
+    metaDescription:
+      "Bug sweeping services across Uttarakhand: TSCM sweeps district by district, with the state's policing structure, helpline inconsistencies and accommodation rules explained.",
+    intro:
+      "Uttarakhand combines a capital city full of institutions with a tourism economy that puts a very large number of people into hotels, homestays and paying guest rooms every year. The sweep is the same wherever we work: radio-frequency analysis, a non-linear junction detector that finds electronics left switched off, optical and thermal checks and a physical inspection. What this page adds is the state layer, including one thing the state is actively checking and one thing nobody official is telling you about at all.",
+    policing: {
+      heading: "No commissionerate anywhere, and the magistrate stayed in the chain",
+      body: [
+        "Uttarakhand has no police commissionerate in any city. All thirteen districts are headed by a senior superintendent or superintendent, grouped into just two ranges, Garhwal and Kumaon. A commissionerate for Dehradun and Haridwar was recommended by a state police chief in 2014 and never notified, and almost every search result suggesting otherwise traces back to that single announcement.",
+        "One consequence follows directly. In states that moved to commissionerates, magisterial powers passed from the district administration to the police. That never happened here, so the district magistrate still issues prohibitory orders and still keeps the register of lodging house keepers. For a reader that means two separate routes exist, the police chain and a petition to the magistrate, rather than one.",
+        "There is no separate rural force either. What Uttarakhand does have is a legacy of hill areas policed by revenue officials rather than by regular police stations, an arrangement being wound down in phases since January 2023 after a high profile case, with a further tranche of villages approved for transfer in 2025. It is a thinner policing presence in parts of the hills rather than a second command, and how far it still extends in any given district is not clearly published.",
+        "The state has thirteen districts and the count has never changed since it was formed in 2000. Four more were announced in 2011 and never notified, which is worth knowing because they still appear in some lists.",
+      ],
+    },
+    reporting: {
+      heading: "An online complaint is not an FIR, and the women's number is published two ways",
+      body: [
+        "Uttarakhand runs both an online complaint service and a separate e-FIR portal, and the difference matters. The complaint service describes itself plainly as a way of escalating an allegation to the police, which generates a reference number and triggers an enquiry by the station officer. That is not a first information report. The e-FIR portal, launched in 2022, in practice covers stolen vehicles and lost documents; its formal eligibility conditions are not published, and the restriction you may have read about, limiting online filing to cases with an unknown accused, is Uttar Pradesh's rule rather than this state's. For a cognizable offence such as voyeurism, ask for a first information report, and if a station refuses, escalate in writing to the superintendent and then to a magistrate.",
+        "On helplines, the state's own pages disagree with each other and we would rather show you that than pick one. The police helpline table gives a ten digit mobile number for women related complaints, while the menu on the same site dials 1090, which is the number Uttar Pradesh uses. Neither 1091 nor 181 appears anywhere on the Uttarakhand police site, so advice quoting those for this state is wrong. At least one district site still prints 100, which the national emergency number has replaced. The number to lead with is 112. Cyber financial fraud goes to 1930, and children's matters to 1098. The state also runs a women's safety app whose alert sends location and audio to the police control room.",
+      ],
+    },
+    accommodation: {
+      heading: "The camera rule you will hear about does not apply to hotels",
+      body: [
+        "This is the point most likely to be got wrong here, in both directions. Uttarakhand does have a genuine statutory camera mandate, made in July 2023, requiring cameras along with panic buttons and tracking in the transport provided to women working night shifts, and camera coverage at entry and exit, together with a warden and a harassment policy. But it was made under the factories legislation and binds factories. A hotel, restaurant, hostel or homestay is not a factory, so it does not bind them. The state's own shops and establishments Act of 2017, which does cover hotels and restaurants as employers, requires transport and protection for women working late and says nothing about cameras.",
+        "The accommodation rules themselves are a clean negative. Tourism registration covers hotels, homestays and bed and breakfast units, with registration valid five years, limits on homestay size, a requirement that the owner be resident, and a substantial penalty for operating unregistered. Operators must keep visitor records. None of it requires cameras. The old central law on lodging houses, inherited rather than made here, requires the keeper to report the particulars of each night's guests to the local police station and the district magistrate to keep a register of keepers. That is about who stayed, never about what is recording.",
+        "What does reach accommodation is a police directive rather than a statute. A statewide instruction in February 2026 had police verify residents of apartments, rented houses, paying guest accommodation, homestays, hotels and guest houses, and inspect whether high resolution cameras at a long list of premises types, including gyms, salons and coaching institutes, exist and are actually recording. In Dehradun, a further order in April 2026 required around fifty licensed premises to give police access to their entrance feeds. Both check that a premises has working cameras of its own. Neither addresses a device somebody else has hidden inside it.",
+        "There is also no state statute registering or licensing private hostels, so a private hostel here operates outside the accommodation regime entirely.",
+        "We found no advisory from Uttarakhand Police specifically about hidden or spy cameras in hotels, hostels, trial rooms or washrooms. In a state whose economy depends on short stay accommodation, that is a conspicuous gap, and the February 2026 drive is close to its opposite: it checks that the premises camera works, not that no other camera is present.",
+      ],
+    },
+    cityPages: ["dehradun"],
+    districts: [
+      { district: "Dehradun", towns: ["Dehradun", "Rishikesh", "Mussoorie", "Vikasnagar", "Doiwala"] },
+      { district: "Haridwar", towns: ["Haridwar", "Roorkee", "Manglaur", "Laksar"] },
+      { district: "Tehri Garhwal", towns: ["New Tehri", "Narendranagar", "Muni ki Reti", "Chamba"] },
+      { district: "Pauri Garhwal", towns: ["Pauri", "Kotdwar", "Srinagar", "Lansdowne"] },
+      { district: "Uttarkashi", towns: ["Uttarkashi", "Barkot", "Purola", "Gangotri"] },
+      { district: "Chamoli", towns: ["Gopeshwar", "Joshimath", "Karnaprayag", "Badrinath"] },
+      { district: "Rudraprayag", towns: ["Rudraprayag", "Ukhimath", "Agastyamuni", "Kedarnath"] },
+      { district: "Nainital", towns: ["Haldwani", "Nainital", "Ramnagar", "Bhimtal", "Kaladhungi"] },
+      { district: "Almora", towns: ["Almora", "Ranikhet", "Dwarahat", "Kausani"] },
+      { district: "Pithoragarh", towns: ["Pithoragarh", "Didihat", "Dharchula", "Berinag"] },
+      { district: "Bageshwar", towns: ["Bageshwar", "Kapkot", "Garur"] },
+      { district: "Champawat", towns: ["Champawat", "Tanakpur", "Lohaghat", "Banbasa"] },
+      { district: "Udham Singh Nagar", towns: ["Rudrapur", "Kashipur", "Kichha", "Jaspur", "Sitarganj", "Khatima"] },
+    ],
+    faqs: [
+      {
+        q: "Does any city in Uttarakhand have a police commissionerate?",
+        a: "No. All thirteen districts are headed by a senior superintendent or superintendent, under just two ranges, Garhwal and Kumaon. A commissionerate for Dehradun and Haridwar was recommended in 2014 and never notified. Because the change never happened, the district magistrate retains magisterial powers here, which gives you a second route alongside the police chain.",
+      },
+      {
+        q: "What is the women's helpline in Uttarakhand?",
+        a: "The state's own pages disagree. The police helpline table publishes a ten digit mobile number for women related complaints, while the site's menu dials 1090, the number used in Uttar Pradesh. Neither 1091 nor 181 appears anywhere on the Uttarakhand police site, so advice quoting those is wrong for this state. Use 112 as the number to lead with, 1930 for cyber financial fraud and 1098 for children.",
+      },
+      {
+        q: "Can I file an FIR online in Uttarakhand?",
+        a: "Only in narrow circumstances. The online complaint service describes itself as a way of escalating an allegation, which starts an enquiry rather than registering a case. A separate e-FIR portal exists and in practice covers stolen vehicles and lost documents, with eligibility conditions that are not published. For a cognizable offence such as voyeurism, ask for a first information report in person and escalate in writing if refused.",
+      },
+      {
+        q: "Do hotels or homestays in Uttarakhand have to install cameras?",
+        a: "No. The tourism registration rules covering hotels, homestays and bed and breakfast units require registration, visitor records and a penalty for operating unregistered, but no cameras. The statutory camera mandate people sometimes cite, which requires cameras, panic buttons and tracking for women on night shifts, was made under the factories legislation and binds factories, not hotels. What does reach hotels is a police directive to have working cameras of their own, which is a different thing from your room being clear.",
+      },
+      {
+        q: "Does Uttarakhand Police publish guidance on hidden cameras?",
+        a: "No, and we looked carefully because this is a state built on short stay accommodation. There is no advisory about hidden or spy cameras in hotels, homestays, hostels or trial rooms. The statewide drive in February 2026 inspects whether premises cameras exist and record, which checks the opposite thing. Guidance that circulates on this is media explainer content rather than police direction.",
+      },
+    ],
+  },
 ];
 

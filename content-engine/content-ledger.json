@@ -1852,5 +1852,77 @@
     "date_modified": "",
     "notes": "Created 30 Sep 2026. The absence of an e-FIR was directly verified against the live portal rather than inferred. The helpline divergence from Madhya Pradesh is corroborated on four official sources and is the most important correction on the page, since Chhattisgarh was carved out of Madhya Pradesh and inherits much of its advice. The page notes that stale district counts of 27 and 28 appear on government sites themselves. The Raipur city police direction of September 2026 is described as a direction to keep existing cameras working rather than a duty to install them, and as commissionerate-only.",
     "revisions": []
+  },
+  {
+    "slug": "locations/dehradun",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/dehradun",
+    "page_type": "location-page",
+    "location": {
+      "city": "Dehradun",
+      "district": "",
+      "state": "Uttarakhand"
+    },
+    "primary_keyword": "bug sweeping services in dehradun",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Dehradun has no police commissionerate and never has had one, a system for Dehradun and Haridwar having been recommended in 2014 and never notified, so magisterial powers were never transferred and the district magistrate remains a separate route alongside the police chain; there is no district cyber police station, the state running a single cyber crime police station for the Garhwal side under the special task force; the Rishikesh urban area spans three districts, so an address everyone calls Rishikesh may not be in Dehradun district; in the reported August 2024 restaurant case the voyeurism charge named the premises owner as well as the cleaner who placed the device.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW commercial city page, first coverage in this state. Measured 38 per cent shingle overlap against existing city pages, below the 40.3 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. No police station count published because sources differ. The August 2024 Ballupur case is used because an arrest was made and the owner was named, which is the reader-facing point; the covering police station was not reported so none is named, and no charge sheet or conviction was found. A widely circulated GPS tracker story was excluded as Hapur in Uttar Pradesh, not Dehradun. How far the legacy revenue police arrangement still extends in the district is not clearly published, so no figure is given.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/state/uttarakhand",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/state/uttarakhand",
+    "page_type": "state-hub",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": "Uttarakhand"
+    },
+    "primary_keyword": "bug sweeping services in uttarakhand",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "State hub: hero, scope, state policing structure, reporting and helplines, accommodation law, linked city pages, district and town table, state FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "state level layer plus district and town table",
+    "information_gain": "No city in Uttarakhand has a police commissionerate and all thirteen districts sit under a senior superintendent in just two ranges, so the district magistrate retained magisterial powers and remains a second route; the state police publish a ten digit mobile for women related complaints on their helpline table while the menu on the same site dials 1090, and neither 1091 nor 181 appears anywhere, so advice quoting those numbers is wrong for this state; the statutory camera mandate covering night shift women workers was made under the factories legislation and binds factories rather than hotels, while the shops and establishments Act that does cover hotels requires transport and protection but no cameras; there is no state statute licensing private hostels at all.",
+    "internal_links_out": [
+      "/services",
+      "/locations"
+    ],
+    "gate_decision": "NEW state hub. Owns the state layer; city detail stays on the city page and is linked, not repeated. Measured 15 per cent shingle overlap against its own city page, against a 40.3 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-01",
+    "date_modified": "",
+    "notes": "Created 1 Oct 2026. The factories versus hotels distinction is the most important item on the page, because the night shift camera mandate is real but does not reach accommodation, and reporting it loosely would have produced a confidently wrong page in the same way the Tamil Nadu hostel rules did. The e-FIR eligibility restriction limiting online filing to unknown accused cases was excluded as Uttar Pradesh law, not verified for this state. District count given as thirteen with the 2011 announcement of four more noted as never notified. Helpline contradiction shown rather than resolved silently.",
+    "revisions": []
   }
 ]
