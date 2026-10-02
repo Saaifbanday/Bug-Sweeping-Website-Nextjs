@@ -2104,5 +2104,43 @@
     "date_modified": "",
     "notes": "Created 1 Oct 2026. The page states plainly that on any given day a hotel here is probably under no camera obligation, because every instrument found was a district order with a two month life and almost all had expired, and tells readers to check their own district rather than assume. Ladakh is expressly kept out of the district list, since stale sources still place Leh and Kargil in this jurisdiction. The guest reporting duty is attributed to central law rather than local orders. The December 2025 advisory about weak passwords on people's own camera systems is described as a different problem from a concealed device, not offered as a hidden camera advisory.",
     "revisions": []
+  },
+  {
+    "slug": "locations/jamshedpur",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/jamshedpur",
+    "page_type": "location-page",
+    "location": {
+      "city": "Jamshedpur",
+      "district": "East Singhbhum",
+      "state": "Jharkhand"
+    },
+    "primary_keyword": "bug sweeping services in jamshedpur",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/ranchi",
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "There is no municipal corporation for central Jamshedpur: civic services come from a Tata Steel subsidiary under a lease alongside a nominated notified area committee, and the area was notified an industrial township in December 2023, a notification now under challenge before the Supreme Court with the Union impleaded in January 2026, yet none of this touches policing and company security has no power to register or investigate anything; Adityapur and the vendor belt across the Kharkai river fall in Saraikela-Kharsawan district rather than East Singhbhum, so a sweep at a vendor plant and at the customer office are two different police districts meeting only at the range office in Chaibasa; the district has a city and rural split beneath one senior superintendent, with Ghatshila side matters going to a separate court; the cyber crime police station is headed by a deputy superintendent rather than an inspector and registers cases in its own right.",
+    "internal_links_out": [
+      "/services",
+      "/locations",
+      "/locations/state/jharkhand"
+    ],
+    "gate_decision": "NEW commercial city page under an existing state hub. Measured 37.7 per cent shingle overlap against Ranchi, below the 41.0 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-02",
+    "date_modified": "",
+    "notes": "Created 2 Oct 2026. Research corrected a premise of mine: Mango is a municipal corporation since 2017, not a notified area committee, and the district website is stale on this. No police station count published because three official sources give 35, 36 plus outposts, and 25. The industrial township notification is described as under challenge and pending, not as stayed, because only a local outlet reported a stay while LiveLaw reporting the same hearing recorded only notice. No station named for Dimna Lake because no official jurisdiction maps exist for any station in this district. No street address published for the cyber police station because the official page gives none. No documented covert device case found in East Singhbhum across 2020 to 2026, stated plainly, with the caveat that several local outlets block automated access. The page expressly warns that the widely reported Tata Electronics hostel spy camera case is Hosur in Tamil Nadu, because the brand name makes it read as local.",
+    "revisions": []
   }
 ]

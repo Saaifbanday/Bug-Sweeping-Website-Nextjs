@@ -3937,6 +3937,113 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "jamshedpur",
+    city: "Jamshedpur",
+    state: "Jharkhand",
+    seoTitle: "Bug Sweeping Services in Jamshedpur | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Jamshedpur",
+    heroSubtitle:
+      "TSCM bug sweeps for plants, offices, homes and vehicles across Jamshedpur, from Bistupur and Sakchi to Telco, Golmuri, Mango and the Adityapur side.",
+    intro:
+      "Jamshedpur is a single anchor industrial city with an unusually dense supplier tail, and that shapes the risk. The same small pool of people move between plant, vendor, contractor and transporter roles, often socially as well as commercially, so information about one firm's tender is information about everyone's. The exposure sits in procurement meetings, rate negotiations, vendor review rooms and contract renewals rather than anywhere dramatic. We agree the scope with you first, then work through it using radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "We could not trace a single reported discovery of a hidden camera, listening device or tracker anywhere in East Singhbhum district between 2020 and 2026, and we searched in both English and Hindi including the local outlets directly. We would rather tell you that than borrow a case. One caution, because the search results here are actively misleading: a well publicised spy camera case at a Tata Electronics women's hostel happened at Hosur in Tamil Nadu, and the brand name makes it read as though it were local. It was not. What the absence of reported cases actually reflects, in a state whose police publish no hidden camera guidance at all, is that very few people are looking.",
+    areas: [
+      "Bistupur & Sakchi",
+      "Golmuri & Tinplate",
+      "Sonari & Kadma",
+      "Telco & Birsanagar",
+      "Mango & Dimna Road",
+      "Jugsalai & Parsudih",
+      "Burmamines & Govindpur",
+    ],
+    metaDescription:
+      "Bug sweeping services in Jamshedpur: TSCM sweeps for plants, offices, homes and vehicles across the city and East Singhbhum. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "City centre",
+        areas: ["Bistupur", "Sakchi", "Kashidih", "Aambagan", "Dhatkidih", "Beldih", "Northern Town", "Circuit House Area"],
+      },
+      {
+        zone: "Golmuri and Sidhgora belt",
+        areas: ["Golmuri", "Tinplate", "Cable Town", "Tuiladungri", "Sidhgora", "Agrico", "Sitaramdera", "Burmamines"],
+      },
+      {
+        zone: "West bank, Kharkai side",
+        areas: ["Sonari", "Adarshnagar", "Khutadih", "Domuhani", "Kadma", "Uliyan", "Bhuiyandih"],
+      },
+      {
+        zone: "North, Mango and the Dimna corridor",
+        areas: ["Mango", "Azad Nagar", "Olidih", "Dimna Road", "Jawaharnagar", "Sabirnagar", "Kedarbagan"],
+      },
+      {
+        zone: "East and south",
+        areas: ["Telco Colony", "Kharangajhar", "Birsanagar", "Baridih", "Nildih", "Jojobera", "Govindpur", "Jugsalai", "Bagbera", "Karandih", "Parsudih", "Sarjamda"],
+      },
+      {
+        zone: "Elsewhere in the district",
+        areas: ["Ghatshila", "Galudih", "Musabani", "Jadugora", "Potka", "Patamda", "Bodam", "Dhalbhumgarh", "Bahragora", "Chakulia"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Who collects your rubbish and who takes your complaint are different questions here",
+      body: [
+        "Jamshedpur is unusual in India: there is no municipal corporation for the main city. Civic services across the central area are delivered by a Tata Steel subsidiary under a lease, alongside a notified area committee run by a nominated Special Officer rather than an elected council, and the area was notified an industrial township at the end of 2023 under a provision of the state municipal law. That notification is under challenge before the Supreme Court, where the Union was impleaded in January 2026 and the matter remains pending, so treat anything describing it as settled with caution.",
+        "None of that touches policing, and the distinction matters. Bistupur, Sakchi, Golmuri, Sonari, Kadma, Telco and Burmamines are ordinary Jharkhand Police stations in East Singhbhum district, reporting through the same chain as anywhere else in the state. Company security inside the leasehold runs gate control, passes and its own cameras, and has no power to register a case, investigate or seize anything. An estate rule or a gate pass changes nothing about where a complaint goes.",
+        "Within the district there is a city and rural split beneath a single senior superintendent, with separate superintendents for each side, plus a deputy superintendent for the Ghatshila subdivision. Escalation runs officer in charge, circle inspector or sub-divisional officer, then the superintendent for city or rural, then the senior superintendent, then the range deputy inspector general, whose headquarters is at Chaibasa rather than here. Ghatshila side matters also go to the Ghatshila court rather than the Jamshedpur one. The Dimna Lake side sits in Bodam block on the rural side, and since no official jurisdiction maps are published for any station in this district we would not name a single station for the lake itself.",
+        "The boundary that costs people the most is to the west. Adityapur, the large industrial area across the Kharkai river, is not in this district at all: it falls in Saraikela-Kharsawan, with its own superintendent, as do Gamharia, Kandra, Kapali and Chandil. A device found at a vendor plant in Adityapur and a device found at the customer's office in Bistupur are two different police districts, and the chains only meet one level up at the range office in Chaibasa.",
+        "Two further points worth knowing. The cyber crime police station here is headed by a deputy superintendent rather than a station level inspector, which is unusually senior, and it registers and investigates in its own right rather than passing matters up, so a device and data matter does not have to start at a territorial station. And a women's police station exists in the city, listed in the district court's station records although the district police page omits it. Station counts for the district differ across three official sources, so we publish none.",
+      ],
+    },
+    settings: [
+      {
+        title: "Procurement and negotiation rooms",
+        desc: "Sweeps before a rate negotiation, a vendor review or a contract renewal, which is where value actually concentrates in this city.",
+      },
+      {
+        title: "Plants and vendor premises",
+        desc: "Checks across meeting rooms, cabins and vehicle bays. Worth confirming first whether the site is East Singhbhum or Saraikela-Kharsawan.",
+      },
+      {
+        title: "Head offices and guest houses",
+        desc: "The head office, guest house and visiting leadership footprint sits on a short list of streets around Bistupur and Northern Town rather than across a city.",
+      },
+      {
+        title: "Homes, rented flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, plus tracker checks under the body, around the wheel arches and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Adityapur covered by Jamshedpur police?",
+        a: "No. Adityapur lies across the Kharkai river in Saraikela-Kharsawan district, under its own superintendent, as do Gamharia, Kandra, Kapali and Chandil. A matter at a vendor unit there escalates separately from one at the customer's Jamshedpur office, and the two chains meet only at the range office in Chaibasa. Ghatshila and Musabani, by contrast, are in this district, though they go through the Ghatshila sub-divisional officer and the Ghatshila court.",
+      },
+      {
+        q: "Does the Tata township arrangement affect who investigates a complaint?",
+        a: "No, and this is the thing most often got wrong. Civic services in central Jamshedpur come from a Tata Steel subsidiary under a lease and from a nominated notified area committee, and the area was notified an industrial township in 2023, a notification now under challenge before the Supreme Court. Policing is unaffected. Bistupur, Sakchi, Golmuri and the rest are ordinary Jharkhand Police stations, and company security has no power to register, refuse or investigate anything.",
+      },
+      {
+        q: "Who do I escalate to if a complaint stalls in Jamshedpur?",
+        a: "Within the district the chain runs officer in charge, circle inspector or sub-divisional officer, then the superintendent for the city or rural side, then the senior superintendent. Above that the range deputy inspector general sits at Chaibasa, not here, so escalating past the senior superintendent means writing to another district. There is no commissioner anywhere in Jharkhand, and the district's Deputy Commissioner holds magisterial powers rather than police command.",
+      },
+      {
+        q: "Where do cyber complaints go in Jamshedpur?",
+        a: "The city has a cyber crime police station that is headed by a deputy superintendent rather than an inspector, which is unusually senior, and it registers first information reports and investigates in its own right. So a covert recording matter with an electronic element can start there rather than at a territorial station. A woman complainant also has a women's police station available in the city.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#webpage", url: "https://www.bugsweepingtscm.com/locations/jamshedpur", name: "Bug Sweeping Services in Jamshedpur", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#place", name: "Jamshedpur", address: { "@type": "PostalAddress", addressLocality: "Jamshedpur", addressRegion: "Jharkhand", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#service", name: "Bug sweeping and TSCM services in Jamshedpur", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/jamshedpur#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Jamshedpur" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",
