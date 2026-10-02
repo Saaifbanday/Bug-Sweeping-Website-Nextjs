@@ -8,13 +8,13 @@ The constraint that shapes this: Google's spam policy treats near-identical page
 
 Each needs verified local facts (jurisdiction, what can and cannot be filed online, helpline scope, local rules) before it is written. Target 1,200 words or more, grouped area table, per-city FAQ, Service and Place schema.
 
-Published (22): Mumbai, Delhi, Gurugram, Noida, Bengaluru, Pune, Hyderabad, Jaipur, Goa, Chandigarh, Kolkata, Chennai, Ahmedabad, Lucknow, Surat, Nagpur, Indore, Bhopal, Kanpur, Patna, Visakhapatnam, Coimbatore.
+Published (36), as at 2 October 2026: Mumbai, Delhi, Gurugram, Noida, Bengaluru, Pune, Hyderabad, Jaipur, Goa, Chandigarh, Kolkata, Chennai, Ahmedabad, Lucknow, Surat, Nagpur, Indore, Bhopal, Kanpur, Patna, Visakhapatnam, Coimbatore, Bhubaneswar, Kochi, Ludhiana, Guwahati, Ranchi, Raipur, Dehradun, Srinagar, Jammu, Shimla, Jamshedpur, Agra, Varanasi, Vadodara.
 
-States with a city page as of 26 September 2026: Maharashtra (3), Uttar Pradesh (3), Gujarat (2), Tamil Nadu (2), Madhya Pradesh (2), Delhi, Haryana, Karnataka, Telangana, Rajasthan, Goa, West Bengal, Bihar, Andhra Pradesh, Chandigarh.
+States with more than one city page: Uttar Pradesh (4), Gujarat (3), Maharashtra (3), Tamil Nadu (2), Madhya Pradesh (2), Jammu and Kashmir (2).
 
-States with no coverage at all, as at 1 October 2026: only the north east beyond Assam. Shillong, Agartala, Imphal, Aizawl, Kohima, Itanagar and Gangtok are the remaining candidates, all small markets. Every other state and union territory now has at least a hub.
+States with no coverage at all, as at 2 October 2026: only the north east beyond Assam. Shillong, Agartala, Imphal, Aizawl, Kohima, Itanagar and Gangtok are the remaining candidates, all small markets. Every other state and union territory now has at least a hub.
 
-Remaining city queue where a page is still likely to earn its place: Agra, Varanasi, Dehradun, Jamshedpur, Bhilai or Durg, Vadodara, Rajkot, Mysuru.
+Remaining city queue where a page is still likely to earn its place: Rajkot, Mysuru, Bhilai or Durg, Nashik, Thiruvananthapuram. Each still needs the jurisdiction question answered before it is written, not after.
 
 Stop adding city pages when a city has no distinct, verifiable facts. Record the decision rather than publishing a thin page.
 
@@ -32,9 +32,12 @@ Cannibalisation guard: the hub targets "bug sweeping in <state>" and owns the st
 
 Build order: states that already have city pages first, so the hub has something to link down to. Then states with no coverage at all, where the hub doubles as the first entry point.
 
-Published (6), all 26 September 2026: Tamil Nadu, Gujarat, Bihar, Maharashtra, Uttar Pradesh, Madhya Pradesh. Together they name 276 districts and over 1,100 towns. Measured 15 to 19 per cent shingle overlap against their own city pages, against a 38.7 per cent shared-chrome floor, so the hubs are not competing with the cities they link to.
+Published (15), as at 2 October 2026: Tamil Nadu, Gujarat, Bihar, Maharashtra, Uttar Pradesh, Madhya Pradesh, Kerala, Odisha, Punjab, Assam, Jharkhand, Chhattisgarh, Uttarakhand, Himachal Pradesh, Jammu and Kashmir. Measured 15 to 21 per cent shingle overlap against their own city pages, so the hubs are not competing with the cities they link to.
 
-What the first six taught, and what to carry into the rest:
+What the hubs and the city pages under them have taught, and what to carry into the rest:
+
+- In a commissionerate city, look for the Commissioner's own standing orders before anything else. Vadodara publishes its section 163 BNSS orders as scanned notices, and the camera order reaches hotels, guest houses, societies and private companies generally with a thirty day retention duty, which is precisely the gap the state public safety camera law leaves open because that law only bites on premises notified by footfall. A page that checks only state statute will report that a hotel has no camera obligation and be wrong. These orders run about two months and are renewed, so date them and tell the reader to check the current one. The companion orders on contract labour, security guards and domestic staff carry recitals naming the documented local threat, which is better evidence than any crime statistic.
+- Prefer the force's own records to anything a search engine surfaces for an institutional date. Vadodara's commissionerate dates to October 1981 on its own incumbency chart; the 1971 and 1992 dates that rank well belong to a central excise commissionerate of the same name.
 
 - The city-versus-rural answer does not transfer between states and is usually the most useful line on the page. Seven of Maharashtra's eleven commissionerate cities keep a separate rural superintendent; none of Uttar Pradesh's seven do, because the 2022 mergers took in the whole district; both of Madhya Pradesh's cover their districts including the villages; eight of Tamil Nadu's nine are split. Establish it per state, never by analogy.
 - Look for two kinds of accommodation instrument, not one. Tamil Nadu's hostel rules treat cameras as a disclosure item on a form while a separate 2025 amendment created a real statutory duty. Checking only the accommodation rules produced a confidently wrong page.

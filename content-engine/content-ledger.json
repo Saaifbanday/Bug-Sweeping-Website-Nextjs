@@ -2220,5 +2220,42 @@
     "date_modified": "",
     "notes": "Created 2 Oct 2026. The guest house case is reported using the original Hindi account, in which a case was registered and the recorder seized, rather than the English syndication which claimed arrests; no charge sections were ever reported and no charge sheet or conviction followed, and the page says the record stops at the complaint. Two near misses were excluded: a university hostel camera case filed under a Varanasi category tag that actually happened in Jaunpur district, and a 2025 blackmail case that involved filming during an assault rather than a concealed device. No station count published because the figure depends entirely on whether specialist stations are counted. The page warns that the district website is unreliable in both directions.",
     "revisions": []
+  },
+  {
+    "slug": "locations/vadodara",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/vadodara",
+    "page_type": "location-page",
+    "location": {
+      "city": "Vadodara",
+      "district": "Vadodara",
+      "state": "Gujarat"
+    },
+    "primary_keyword": "bug sweeping services in vadodara",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/ahmedabad",
+      "/locations/surat"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "The Commissioner of Police issues orders under section 163 BNSS across the whole commissionerate, and the camera order reaches hotels, guest houses, party plots, malls, banks, jewellers, petrol pumps, residential societies, multi-storey buildings and private companies generally, requiring thirty days of retention, continuous recording, entry, exit and parking coverage, night-vision or infra-red cameras and a technician reachable so an officer can inspect the recorder, which is a duty the state public safety camera law does not reach because that law needs premises to be notified by footfall; companion orders require contract labour to be registered within seven days and departures within three, out-of-state security guards to be filed with licences and police clearance, and domestic or service staff to be notified before engagement, each recital naming pretext access and the trusted insider as the documented local routes; the commissionerate names its own boundary check posts at Dumad, Bajwa, Koyali, Sevasi Canal, Jambuva, Tarsali, Atladara, Waghodia, Ajwa Road and Golden, so the limit of city jurisdiction is publicly traceable road by road; Nandesari and the Koyali refinery township are city policed despite sitting outside the corporation limit while Vemali, merged into the corporation in 2020, was still in rural Manjusar jurisdiction in a 2025 court order; Makarpura's estate is split between two stations so the covering station depends on the plot; Vadodara Taluka police station is rural but sits physically inside the city; the Cyber Crime Police Station can register an FIR in its own right and occupies the third floor of the Panigate station building, with a separate Cyber Crime Range station appearing alongside it in court allotment orders; and the city police's own site states the zero number rule for complainants who attend the wrong station.",
+    "internal_links_out": [
+      "/services",
+      "/locations",
+      "/locations/state/gujarat"
+    ],
+    "gate_decision": "NEW commercial city page, third in Gujarat. Measured 39.3 per cent shingle overlap against Ahmedabad and 39.4 per cent against Surat, both below the 41.1 per cent Delhi against Mumbai chrome floor and below the 42.3 per cent Ahmedabad against Surat pair, so the page is less similar to its own state's cities than two established pages are to each other. State layer left on the Gujarat hub and linked rather than repeated: no e-FIR scope, helpline or hotel upload material was carried onto this page.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-02",
+    "date_modified": "",
+    "notes": "Created 2 Oct 2026. No purpose-built hidden camera, concealed recording device or GPS tracker case was found anywhere in Vadodara district across the last five years; every verifiable local case is mobile phone recording, and the page says so plainly. The April 2025 Kalyannagar case is used because it also demonstrates that locality names do not track station names, the incident being reported in the Fatehgunj area and registered at Sayajigunj. A 2019 Gotri swimming pool case was excluded as outside the five year window and because the reported section, IPC 365(c), does not exist. No station count published: the commissionerate's own crime reporting page still describes a twenty-one station structure predating the 2020 additions while its 30 September 2026 telephone list gives more, and duplicate inspector posts at one station cause automated counts to overcount. Deliberately excluded as unverifiable or stale: the thirty five per cent power transmission equipment share and the Vadodara Stock Exchange, both from an unmaintained district economy page; any petrochemical production share; Nandesari unit counts, where the association's own 2000+ figure refers to the regional hazardous waste catchment rather than units on the estate; largest industrial estate in Asia, false on GIDC's own areas; third largest city and all population figures, which the sources disagree on; and city crime statistics, the official page not having been updated since June 2021. Commissionerate dated to October 1981 from the force's own incumbency chart, with the 1971 and 1992 dates flagged as belonging to a central excise commissionerate. Industrial naming checked: Hitachi Energy rather than ABB at Maneja and Savli, Alstom rather than Bombardier at Savli, GAIL Vaghodia described as LPG and naphtha rather than petrochemical, and Halol and Panelav noted as Panchmahal rather than Vadodara. Nizampura's covering station and Por-Ramangamdi GIDC were left unstated because no official or named source confirmed them.",
+    "revisions": []
   }
 ]

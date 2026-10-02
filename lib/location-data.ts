@@ -4256,6 +4256,127 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "vadodara",
+    city: "Vadodara",
+    state: "Gujarat",
+    seoTitle: "Bug Sweeping Services in Vadodara | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Vadodara",
+    heroSubtitle:
+      "TSCM bug sweeps for plants, offices, homes and vehicles across Vadodara, from Alkapuri and Raopura out to Makarpura, Nandesari and the Koyali refinery belt.",
+    intro:
+      "Vadodara is a petrochemical, engineering and pharmaceutical city, and the risk here tends to follow the contract rather than the boardroom. Specifications, tender rates, licensing terms and plant drawings move between a company, its consultants and a long tail of contractors and labour suppliers, and the exposure sits in the negotiation room, the technical review and the guest house where a visiting team stays. The city police's own compulsory monthly returns include separate statements for oil theft and chemical theft, which tells you what the local economy is without a single borrowed statistic. We agree the scope with you first, then work through it using radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "We could not trace a single reported case anywhere in Vadodara district, across the last five years, of a purpose-built hidden camera, a concealed recording device or a GPS tracker. Every local case that holds up involves an ordinary mobile phone, and we would rather tell you that than borrow a case from elsewhere. The most instructive is from April 2025, when a woman in a housing block at Kalyannagar noticed someone filming her through a bathroom ventilator grille. The society's own cameras identified him, the case was registered at Sayajigunj police station under section 77 of the Bharatiya Nyaya Sanhita, and the phone went for forensic examination. In April 2026 a labourer working at the house next door recorded a woman at an open washing area off Ajwa Road, and that case went to Bapod police station. Both point the same way. The device is usually mundane, the sightline is the real vulnerability, and the person holding it was usually already allowed to be there.",
+    areas: [
+      "Alkapuri & Sayajigunj",
+      "Fatehgunj & Nizampura",
+      "Gotri, Vasna & Akota",
+      "Manjalpur & Makarpura",
+      "Karelibaug & Bapod",
+      "Nandesari & the Koyali belt",
+      "Savli, Waghodia & Padra",
+    ],
+    metaDescription:
+      "Bug sweeping services in Vadodara: TSCM sweeps for plants, offices, homes and vehicles across the city, Nandesari, Koyali and Vadodara Rural. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Central and the walled city",
+        areas: ["Raopura", "Mandvi", "Lehripura", "Gendigate", "Navapura", "Babajipura", "Nagarwada", "Shiyapura", "Fatehpura", "Panigate", "Gajrawadi"],
+      },
+      {
+        zone: "West and north-west",
+        areas: ["Alkapuri", "Pratapgunj", "Sayajigunj", "Fatehgunj", "Navayard", "Nizampura", "Subhanpura", "Ellora Park", "Samta", "Gorwa"],
+      },
+      {
+        zone: "North",
+        areas: ["Chhani", "Sama", "Dashrath", "Padmala", "Bajwa", "Dumad"],
+      },
+      {
+        zone: "Gotri and the west belt",
+        areas: ["Gotri", "Sevasi", "Vasna", "Bhayli", "Tandalja", "Mujmahuda", "Harinagar", "Jetalpur", "Akota", "Atladara"],
+      },
+      {
+        zone: "South",
+        areas: ["Manjalpur", "Vadsar", "Makarpura", "Maneja", "Tarsali", "Danteshwar", "Jambuva", "Kapurai", "Sayajipura"],
+      },
+      {
+        zone: "East",
+        areas: ["Karelibaug", "Warasiya", "Kumbharwada", "Bapod", "Kishanwadi", "Ektanagar", "Ajwa Road", "Waghodia Road", "Harni", "Darjipura"],
+      },
+      {
+        zone: "Outside municipal limits, still city police",
+        areas: ["Nandesari", "Jawaharnagar", "Koyali", "Ranoli", "Sankarda", "Anagadh"],
+      },
+      {
+        zone: "Vadodara Rural, a separate force",
+        areas: ["Savli", "Manjusar", "Waghodia", "Jarod", "Padra", "Vadu", "Dabhoi", "Chanod", "Karjan", "Varnama", "Sinor", "Desar", "Bhadarva"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Who polices your address here, and what the Commissioner already requires of it",
+      body: [
+        "Vadodara City Police is a commissionerate, and has been one since October 1981 on the force's own record, an incumbency chart of Commissioners running unbroken from then to the present. Search for that date and you will be offered 1971 or 1992 instead; both belong to a central excise commissionerate of the same name and have nothing to do with the police. The city is organised into four zones numbered one to four and eight divisions lettered A to H. Escalation runs from the inspector in charge of the station to the assistant commissioner of the lettered division, then the deputy commissioner of the zone, then the joint or additional commissioner, then the Commissioner. We publish no station count, and the reason is worth knowing: the commissionerate's own crime reporting page still describes a twenty-one station structure that predates the four stations added in 2020, its telephone list dated 30 September 2026 lists more than that, and anyone counting rows in the officer directory will overcount again, because two or three inspector posts at a single station each appear on their own line.",
+        "Where the city force stops is better documented here than in most cities, because the commissionerate names its own boundary check posts. Dumad on the Ahmedabad side, Bajwa to the north-west, Koyali on the refinery road, Sevasi Canal to the west, Jambuva and Tarsali to the south, Atladara to the south-west, Waghodia and Ajwa Road to the east, and Golden on the airport side. Those are the points at which city jurisdiction ends on each arterial road. Treat them as road markers rather than a surveyed line, but if your address lies beyond one of them, assume Vadodara Rural until somebody tells you otherwise.",
+        "The municipal boundary is not the police boundary, and here it misleads in both directions. Nandesari and its industrial estate are policed by the city, in A Division of Zone 1, although the estate sits well outside the corporation limit and that station's beats take in villages further out still. So is the Koyali refinery township, through Jawaharnagar police station in B Division, whose beats are named for the refinery itself. Pulling the other way, Vemali, one of seven villages brought inside the corporation in June 2020, still appeared in Manjusar police station's jurisdiction in a district court order of 2025, and Manjusar is rural. Savli, Manjusar, Waghodia, Jarod, Padra, Vadu, Dabhoi, Chanod, Karjan and Varnama are all Vadodara Rural, under a superintendent of police rather than the Commissioner. Confirm by street address, never by a municipal map.",
+        "Two further traps are worth naming. Makarpura's industrial estate is split between Makarpura and Manjalpur police stations, both in F Division, so the covering station depends on your plot rather than on the estate's name: when a Makarpura company's own cameras caught employees removing copper scrap in September 2026, the complaint went to Manjalpur. And Vadodara Taluka police station, which is rural, sits physically inside the city at Bhadra Kacheri near Panigate, sharing that address with the city's own crime branch, so walking into the nearest police building tells you nothing about which force you are in. Locality names do not track station names either. The Kalyannagar incident described above was reported as being in the Fatehgunj area and was registered at Sayajigunj.",
+        "If that sounds like an easy way to be sent away, the city police have published the answer themselves. Their own law and order page states that where a complainant cannot reach the station in whose area the offence happened, or does not know which station that is, the officer at the station they do attend must register the offence at zero number and forward it, so that nobody is harassed over station limits. The same pages state that a complaint cannot be refused or delayed, that the complainant must be given a copy, and that women and children under fifteen are not to be called to a police station at all, their statements being recorded where they live. For anything with an electronic element, Vadodara has a Cyber Crime Police Station rather than a cell, which means it can register a first information report in its own right. It occupies the third floor of the Panigate police station building on Ajwa Road, with the division's assistant commissioner a floor below it and the zone's deputy commissioner a floor above. A separate Cyber Crime Range station also exists, which is why two different cyber stations appear in the district court's case allotment orders, and establishing which of them holds your matter can save weeks.",
+        "The most commercially useful thing to know before a sweep is that your own recordings may already be a legal obligation. The Commissioner of Police issues orders under section 163 of the Bharatiya Nagarik Suraksha Sanhita which apply across the whole commissionerate, and the camera order current at the time of writing, dated 23 August 2026 and running to 24 October 2026, reaches hotels, restaurants, guest houses, lodging and boarding houses, party plots, malls, multiplexes, banks, jewellers, petrol and gas filling stations, multi-storey buildings and residential societies, large religious places, toll nakas and, in terms, all private companies. It requires recordings to be kept for at least thirty days, cameras to run continuously, coverage of entry and exit routes and of basement or ground floor parking clear enough to identify every person and vehicle, night-vision or infra-red cameras with enough lighting to make night footage usable, and a technician on site or reachable by phone so that an authorised officer can inspect the monitor and the recorder on demand. That last requirement is the one businesses fail. An investigation into a device far more often collapses at the recorder than anywhere else, so retention is the first thing to check. These orders run about two months and are renewed, so verify the one in force rather than relying on the dates here.",
+        "Three further orders of the same kind concern the people who come through your door, and their stated reasoning is unusually frank. Contract labour must be registered with the local police station on a separate form for each worker within seven days, and departures reported within three, because investigations into house-breakings in the city found that the accused had taken labouring work at newly built premises, at industrial companies and at trenching work in the days beforehand, in order to survey the surroundings first. Private security companies must file the particulars and licences of out-of-state guards, with police clearance from both their home and local areas, after incidents in which guards gained a factory owner's trust and then stole from inside the plant. And no householder, hotel, lodge, gym, resort or spa may engage domestic or other staff without first notifying the police station and supplying the prescribed particulars with a photograph. Pretext access and the trusted insider are the routes the local force actually sees, and they are the same two routes a sweep most often ends up explaining.",
+      ],
+    },
+    settings: [
+      {
+        title: "Negotiation and technical review rooms",
+        desc: "Sweeps before a rate negotiation, a specification review or a licensing discussion, which is where value concentrates in an engineering and chemicals city.",
+      },
+      {
+        title: "Plants, estates and contractor premises",
+        desc: "Checks across meeting rooms, cabins and vehicle bays. Worth settling first whether the plot is city or rural policed, because at Makarpura and Nandesari the answer is not the obvious one.",
+      },
+      {
+        title: "Guest houses and visiting leadership",
+        desc: "Rooms, fittings and sightlines where a visiting team stays. Hotels and guest houses here sit under the Commissioner's camera order, so an access record usually exists.",
+      },
+      {
+        title: "Homes, rented flats and vehicles",
+        desc: "Checks after a tenancy change or a dispute, with attention to ventilators, grilles and lines of sight from adjoining property, plus tracker checks under the body, around the wheel arches and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Nandesari or the Koyali refinery area covered by Vadodara City Police?",
+        a: "Yes, and it surprises people. Nandesari and its industrial estate fall in A Division of Zone 1 under the city commissionerate, and the Koyali refinery township falls under Jawaharnagar police station in B Division, even though both sit outside the municipal corporation limit. The municipal map is not the police map in either direction, so confirm by street address.",
+      },
+      {
+        q: "Which police cover Savli, Waghodia, Padra and Dabhoi?",
+        a: "Vadodara Rural, which is a separate force under a superintendent of police rather than the Commissioner. Savli, Manjusar, Waghodia, Jarod, Padra, Vadu, Dabhoi, Chanod, Karjan and Varnama are all on that side. Note also that several institutions commonly described as being in Vadodara, including campuses at Limda and near Jarod, are in Waghodia taluka rather than the city.",
+      },
+      {
+        q: "Does my hotel or office in Vadodara have to keep CCTV footage?",
+        a: "Very probably. The Commissioner of Police issues orders under section 163 of the Bharatiya Nagarik Suraksha Sanhita covering hotels, guest houses, party plots, malls, banks, jewellers, petrol pumps, residential societies, multi-storey buildings and private companies generally, requiring at least thirty days of retention, continuous recording, coverage of entry, exit and parking, night-vision or infra-red cameras, and a technician reachable so that an officer can inspect the recorder. A business keeping a week of footage is already short. These orders run about two months and are renewed, so check the current one.",
+      },
+      {
+        q: "What if a police station says my matter is not in their area?",
+        a: "The city police's own site answers this. Where a complainant cannot reach, or does not know, the station whose area the offence falls in, the officer at the station they do attend must register the offence at zero number and forward it, so that nobody is harassed over station limits. The same pages state that a complaint cannot be refused or delayed and that the complainant must be given a copy.",
+      },
+      {
+        q: "Where do cyber complaints go in Vadodara?",
+        a: "The city has a Cyber Crime Police Station, not merely a cell, so it can register a first information report in its own right. It is on the third floor of the Panigate police station building on Ajwa Road. A separate Cyber Crime Range station also exists for the wider range, which is why two cyber stations appear in the district court's case allotment orders. 1930 and the national cyber portal remain the parallel route if you are unsure.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/vadodara#webpage", url: "https://www.bugsweepingtscm.com/locations/vadodara", name: "Bug Sweeping Services in Vadodara", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/vadodara#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/vadodara#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/vadodara#place", name: "Vadodara", address: { "@type": "PostalAddress", addressLocality: "Vadodara", addressRegion: "Gujarat", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/vadodara#service", name: "Bug sweeping and TSCM services in Vadodara", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/vadodara#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/vadodara#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/vadodara#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Vadodara" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

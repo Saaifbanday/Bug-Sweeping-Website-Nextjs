@@ -161,7 +161,7 @@ export const states: StateData[] = [
         "We found no advisory from Gujarat Police specifically about hidden or spy cameras. Its own public awareness campaigns cover online fraud, grooming, sextortion and deepfakes, and do not touch covert recording devices.",
       ],
     },
-    cityPages: ["ahmedabad", "surat"],
+    cityPages: ["ahmedabad", "surat", "vadodara"],
     districts: [
       { district: "Ahmedabad", towns: ["Ahmedabad", "Dholka", "Sanand", "Bavla", "Viramgam", "Dhandhuka"] },
       { district: "Gandhinagar", towns: ["Gandhinagar", "Kalol", "Dehgam", "Mansa", "Pethapur", "Chhatral"] },
