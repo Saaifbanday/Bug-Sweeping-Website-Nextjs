@@ -4044,6 +4044,218 @@ export const cities: CityData[] = [
     },
   },
   {
+    slug: "agra",
+    city: "Agra",
+    state: "Uttar Pradesh",
+    seoTitle: "Bug Sweeping Services in Agra | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Agra",
+    heroSubtitle:
+      "TSCM bug sweeps for homes, hotels, offices and vehicles across Agra, from Taj Ganj and Fatehabad Road to Sikandra, Kamla Nagar and Trans Yamuna.",
+    intro:
+      "Agra carries one of the densest hotel and guest house stocks in the country relative to its size, a long established leather and footwear export trade, and a very large volume of visitors passing through for a night or two. We agree the scope with you first, then work through it using radio-frequency analysis for anything transmitting, a non-linear junction detector that finds electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "The honest picture in Agra is not the one you would expect from the hotel count. Across six years we could not find a single verifiable case of a hotel or guest house here recording a guest, in Taj Ganj, on Fatehabad Road or anywhere in the district. What is documented, repeatedly, is domestic: cameras installed inside homes by a husband, a father in law or a brother in law, filming a wife or daughter in law, usually inside a wider matrimonial complaint, with cases reported at Hariparvat, New Agra and the Trans Yamuna side. So the realistic risk for most people here is in their own bedroom and bathroom rather than in a hotel room. That absence of hotel cases is not a track record of enforcement, and we would not present it as one: transient guests tend to discover a device and leave rather than file.",
+    areas: [
+      "Taj Ganj & Fatehabad Road",
+      "Sadar Bazar & Civil Lines",
+      "Kamla Nagar & Sikandra",
+      "Dayalbagh & New Agra",
+      "Lohamandi & Shahganj",
+      "Trans Yamuna & Etmaddaula",
+      "Fatehpur Sikri & Etmadpur",
+    ],
+    metaDescription:
+      "Bug sweeping services in Agra: TSCM sweeps for homes, hotels, offices and vehicles across the city and district. Book a discreet consultation.",
+    areaGroups: [
+      {
+        zone: "Walled city and centre",
+        areas: ["Kotwali", "Mantola", "Nai Ki Mandi", "Belanganj", "Rawat Para", "Pipal Mandi", "Moti Ganj", "Freeganj", "Rakabganj", "Chhatta"],
+      },
+      {
+        zone: "Civil Lines and commercial core",
+        areas: ["Sanjay Place", "Civil Lines", "MG Road", "Hariparvat", "Bhagwan Talkies", "Wazir Pura"],
+      },
+      {
+        zone: "North and the Sikandra axis",
+        areas: ["Sikandra", "Kamla Nagar", "Khandari", "Balkeshwar", "Rajpur Chungi", "Dayalbagh", "Swamibagh", "New Agra"],
+      },
+      {
+        zone: "West and Lohamandi side",
+        areas: ["Lohamandi", "Jagdishpura", "Shahganj", "Idgah", "Bodla", "Shastripuram", "Awas Vikas Colony", "Bichpuri", "Namner"],
+      },
+      {
+        zone: "Taj Ganj and the hotel belt",
+        areas: ["Taj Ganj", "Fatehabad Road", "Basai", "Purani Mandi", "Pratappura", "Trans Yamuna", "Kalindi Vihar", "Etmaddaula", "Nunhai"],
+      },
+      {
+        zone: "District towns inside the commissionerate",
+        areas: ["Fatehpur Sikri", "Etmadpur", "Achhnera", "Kirawali", "Kheragarh", "Shamsabad", "Bah", "Pinahat", "Jagner", "Khandauli", "Barhan", "Fatehabad", "Kagaraul"],
+      },
+    ],
+    jurisdiction: {
+      heading: "Fatehabad Road is not Fatehabad, and the commissioner covers the whole district",
+      body: [
+        "Start with the mistake that costs the most time here. Fatehabad Road is the hotel spine beside the Taj Mahal, and it is covered by Tajganj police station in the City Zone. Fatehabad police station is a completely different place: a rural circle headquarters roughly thirty five kilometres to the south east, in the East Zone. Anyone with a problem in a Fatehabad Road hotel who searches for Fatehabad police station will be sent to the wrong end of the district.",
+        "Agra has been a commissionerate since November 2022, organised into three zones, City, East and West, with fourteen assistant commissioner circles beneath them. Escalation runs station house officer, assistant commissioner of the circle, deputy commissioner of the zone, additional commissioner, then the Commissioner of Police. There is no superintendent anywhere in that chain, and the commissioner's writ covers the entire district, all six tehsils, out to Bah, Pinahat and Kagaraul.",
+        "That surprises people in two directions. Fatehpur Sikri reads as a separate heritage town with its own identity and is inside the commissionerate, in the Achhnera circle. Etmadpur, which many treat as being on Firozabad's side of the map, is a circle headquarters here, and sits in the West Zone despite lying east of the city, which is an administrative quirk rather than an error. Note also that a proposal to split the City Zone in two was reported in September 2026 and was awaiting approval, so the zone structure may change.",
+        "Two further station level points. Dayalbagh is covered by a police chowki reporting to New Agra police station, not a station in its own right, and it is separately a nagar panchayat outside the municipal corporation, which is part of why things about it get filed in the wrong place. And Kamla Nagar sits in the Chhatta circle rather than Hariparvat, even though Hariparvat is geographically nearer.",
+        "On cyber matters, the city's cyber crime police station sits in the Hariparwat circle of the City Zone, so a complaint that stalls escalates through the assistant commissioner there and the zone's deputy commissioner rather than through a crime wing. Ignore any source saying it also covers Mathura, Mainpuri or Firozabad; that describes a superseded range level arrangement, and there is now a cyber police station for every district and commissionerate in the state. We publish no address for it because it is due to move into a new integrated headquarters, and no station count for the district because the official sources disagree.",
+        "One geographic fact that matters for vehicles. Agra sits within about forty five minutes of two other states. Bharatpur and Dhaulpur are Rajasthan, Morena is Madhya Pradesh across the Chambal from the Pinahat circle, and Tundla, which many Agra travellers use, is in Firozabad district. A tracker planted on a car here can cross into a different state police force quickly.",
+      ],
+    },
+    settings: [
+      {
+        title: "Homes in matrimonial disputes",
+        desc: "This is the documented Agra pattern. Checks cover bedrooms, bathrooms, fittings, sockets, detectors and anything installed by a family member with access.",
+      },
+      {
+        title: "Hotels and guest houses",
+        desc: "Checks before an extended stay or a sensitive meeting in the Taj Ganj and Fatehabad Road belt, where rooms turn over constantly.",
+      },
+      {
+        title: "Export and trading offices",
+        desc: "Sweeps where buyer lists, sampling and order pricing are discussed, which in a long established export cluster is what is worth overhearing.",
+      },
+      {
+        title: "Vehicles",
+        desc: "Tracker checks under the body, around the wheel arches, in the boot lining and at the diagnostic port, which matter more here given how close two other states are.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which police station covers a hotel on Fatehabad Road in Agra?",
+        a: "Tajganj police station, in the City Zone. Fatehabad police station is a different place entirely, a rural circle headquarters about thirty five kilometres south east in the East Zone. This is the commonest and costliest mix-up in the city, because the names are nearly identical and a search will send you to the wrong one.",
+      },
+      {
+        q: "Are Fatehpur Sikri and Etmadpur covered by Agra police?",
+        a: "Yes. The commissioner's writ covers the whole district, all six tehsils, so Fatehpur Sikri sits in the Achhnera circle and Etmadpur is a circle headquarters in the West Zone, despite lying east of the city. There is no superintendent of police for Agra to appeal to. What is not covered is Tundla, which is Firozabad district, and Mathura, Bharatpur, Dhaulpur and Morena, the last three being in other states.",
+      },
+      {
+        q: "Where do I report something that happened at Dayalbagh?",
+        a: "At New Agra police station. Dayalbagh is covered by a police chowki that reports there rather than being a station in its own right, and it is separately a nagar panchayat outside the municipal corporation, which is why matters about it are often filed in the wrong place. Escalation runs through the Hariparwat circle and the City Zone deputy commissioner.",
+      },
+      {
+        q: "Where do cyber complaints go in Agra?",
+        a: "To the city's cyber crime police station, which sits in the Hariparwat circle of the City Zone, so it escalates through that circle rather than through a crime wing. Ignore any source saying it also covers Mathura, Mainpuri or Firozabad: that is a superseded range level arrangement, and every district and commissionerate in the state now has its own. Use 1930 and the national portal first for financial fraud.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/agra#webpage", url: "https://www.bugsweepingtscm.com/locations/agra", name: "Bug Sweeping Services in Agra", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/agra#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/agra#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/agra#place", name: "Agra", address: { "@type": "PostalAddress", addressLocality: "Agra", addressRegion: "Uttar Pradesh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/agra#service", name: "Bug sweeping and TSCM services in Agra", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/agra#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/agra#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/agra#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Agra" } ] },
+      ],
+    },
+  },
+  {
+    slug: "varanasi",
+    city: "Varanasi",
+    state: "Uttar Pradesh",
+    seoTitle: "Bug Sweeping Services in Varanasi | TSCM Sweeps",
+    heroTitle: "Bug Sweeping Services in Varanasi",
+    heroSubtitle:
+      "TSCM bug sweeps for guest houses, homes, offices and vehicles across Varanasi, from the ghats and Godowlia to Lanka, Sigra, Sarnath and Ramnagar.",
+    intro:
+      "Varanasi's accommodation stock is enormous, highly fragmented and weighted towards small guest houses, lodges and dharamshalas rather than branded hotels, with a large student and rented population around the university on top. Operators here often run a recorder in house, with no written privacy terms and guests who stay three days. We agree the scope with you first, then work through it using radio-frequency analysis, a non-linear junction detector for electronics left switched off, optical and thermal checks, and a close physical inspection.",
+    whyUs:
+      "Varanasi has the case that most cities do not. In October 2022 a group of visiting schoolgirls were told to change in a ground floor dormitory at a guest house near Cantt station, and found a camera in the room, wired to the property's own recorder. Police seized the recorder and registered a case against the owner and the manager. Two things about it are worth carrying. The complaint was registered at Sigra police station, not Cantt, even though the property sits beside Cantt station. And the record stops there: no charge sections were ever reported, and no charge sheet or conviction followed. The practical lesson is unglamorous, which is that checking the room yourself beforehand has a far better record than complaining afterwards.",
+    areas: [
+      "Dashashwamedh & Godowlia",
+      "Lanka & BHU",
+      "Sigra & Maldahiya",
+      "Cantt & Ardali Bazar",
+      "Sarnath & Pandeypur",
+      "Bhelupur & Assi",
+      "Ramnagar & Rajatalab",
+    ],
+    metaDescription:
+      "Bug sweeping services in Varanasi: TSCM sweeps for guest houses, homes, offices and vehicles across the city and district. Book a consultation.",
+    areaGroups: [
+      {
+        zone: "Old city and the ghats",
+        areas: ["Dashashwamedh", "Godowlia", "Chowk", "Vishwanath Gali", "Maidagin", "Kabir Chaura", "Jagatganj", "Chetganj", "Lahurabir", "Prahlad Ghat", "Madanpura", "Bazardiha"],
+      },
+      {
+        zone: "South and the university belt",
+        areas: ["Lanka", "BHU campus", "Bhelupur", "Durgakund", "Sankat Mochan", "Assi", "Nagwa", "Naria", "Susuwahi", "Karaundi", "Sunderpur", "Bhadaini", "Shivala", "Khojwan"],
+      },
+      {
+        zone: "Cantonment and civil belt",
+        areas: ["Cantt", "Sigra", "Nadeshar", "Ardali Bazar", "Mahmoorganj", "Lahartara", "Sikraul", "Maldahiya"],
+      },
+      {
+        zone: "North and across the Varuna",
+        areas: ["Adampur", "Jaitpura", "Pandeypur", "Lalpur", "Bhojubir", "Shivpur", "Hukulganj", "Rajghat", "Konia", "Sarnath", "Aktha"],
+      },
+      {
+        zone: "West and outer district",
+        areas: ["Manduadih", "Lohta", "Chitaipur", "Rohania", "Shivdaspur", "Ramnagar", "Gangapur", "Rajatalab", "Mirzamurad", "Kapsethi", "Jansa", "Baragaon", "Phulpur", "Sindhaura", "Cholapur", "Babatpur"],
+      },
+    ],
+    jurisdiction: {
+      heading: "The airport is not policed from the city, and Mughalsarai is not Varanasi at all",
+      body: [
+        "Two boundaries here cost people days, and both involve places visitors actually arrive at. Mughalsarai, renamed Pandit Deen Dayal Upadhyaya Nagar, along with its railway junction, is in Chandauli district rather than Varanasi, fifteen to eighteen kilometres away, and an incident there goes to the district superintendent of police for Chandauli rather than to the Commissioner of Police here. And the airport at Babatpur is twenty six kilometres out in Pindra tehsil, covered by Phulpur police station in the Gomti Zone, so somebody with a problem at the airport who walks into Cantt police station is in the wrong place.",
+        "Varanasi has been a commissionerate since 2021, and was reorganised in November 2022 into three zones, Kashi, Varuna and the new Gomti Zone, which absorbed what used to be the rural wing, across nine circles. Escalation runs station house officer, assistant commissioner of the circle, deputy commissioner of the zone, then one of two joint commissioners, one for law and order and one for headquarters and crime, then the Commissioner. The commissioner covers the whole district, all three tehsils.",
+        "A warning about looking this up. There is no standalone website for the Varanasi commissionerate, and the district website is unreliable in both directions: it still lists a rural superintendent and circle officers whose posts no longer exist, while its list of current officers predates the 2022 reorganisation entirely, missing a whole zone and four of the nine circles, and it omits the cyber and tourist police stations. Use the state police listings instead.",
+        "Three station level traps are worth knowing. Pindra is a tehsil, a block, a constituency and a circle, but there is no Pindra police station, so being told to go to Pindra thana is advice that cannot be followed. Sigra is one of the busiest central stations and people assume it is a circle headquarters; it is not, and escalates through the Chetganj circle. And Ramnagar, which sits across the Ganga and is a separate town area outside the municipal corporation, is nonetheless in Varanasi district, in the Kotwali circle. Being across the river tells you nothing here; the district boundary does.",
+        "The commissionerate runs over a hundred police outposts, which is where most walk-in complaints land first. That matters because a first information report is registered at a police station, not an outpost, so it is worth knowing which station your local outpost reports to before you go. We publish no station count, because what the figure means depends entirely on whether specialist stations are included, and the official sources disagree.",
+        "Varanasi has its own cyber crime police station, although it does not appear on the district website at all, so the obvious place a resident would look does not list it. Use 1930 and the national portal for financial fraud. Note also that local reporting uses cyber cell and cyber thana interchangeably; they are different things.",
+      ],
+    },
+    settings: [
+      {
+        title: "Guest houses, lodges and dharamshalas",
+        desc: "The one documented local case was a guest house recording a dormitory on its own equipment. Room checks before an extended stay are the realistic use here.",
+      },
+      {
+        title: "Student accommodation around the university",
+        desc: "Lanka, Naria, Susuwahi and Sunderpur are a dense belt of rented rooms with high turnover, informal landlords and almost no written privacy terms.",
+      },
+      {
+        title: "Trading and weaving premises",
+        desc: "Sweeps where designs, buyer lists and pre-order pricing are discussed. Note that the Bhadohi carpet belt, though commercially continuous, is a separate district.",
+      },
+      {
+        title: "Homes and vehicles",
+        desc: "Checks after a tenancy change or a dispute, plus tracker checks under the body, around the wheel arches and at the diagnostic port.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Mughalsarai covered by Varanasi police?",
+        a: "No. Mughalsarai, now called Pandit Deen Dayal Upadhyaya Nagar, and its railway junction are in Chandauli district, about fifteen to eighteen kilometres away. An incident there goes to the district superintendent of police for Chandauli, not to the Varanasi Commissioner of Police, and filing at a Varanasi station costs days.",
+      },
+      {
+        q: "Which police station covers Varanasi airport?",
+        a: "Phulpur police station, in the Gomti Zone. The airport at Babatpur is twenty six kilometres out in Pindra tehsil, so it is not policed from the city, and walking into Cantt police station with an airport matter is a wasted trip. Note also that Pindra is a circle name but has no police station of its own.",
+      },
+      {
+        q: "Is Ramnagar part of Varanasi for police purposes?",
+        a: "Yes. Ramnagar sits across the Ganga and is a separate town area outside the municipal corporation, which leads people to assume it is a different district. It is not: Ramnagar police station is in the Kotwali circle of the Kashi Zone. Being across the river tells you nothing about jurisdiction here; the district boundary is what matters.",
+      },
+      {
+        q: "Has a guest house in Varanasi been caught recording guests?",
+        a: "Yes, once on the public record. In October 2022 a camera wired to the property's own recorder was found in a ground floor dormitory at a guest house near Cantt station where visiting schoolgirls had been told to change. Police seized the recorder and registered a case against the owner and manager. No charge sections were reported and no charge sheet or conviction followed, so the enforcement record stops at the complaint. The case was registered at Sigra police station, not Cantt, despite the location.",
+      },
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "WebPage", "@id": "https://www.bugsweepingtscm.com/locations/varanasi#webpage", url: "https://www.bugsweepingtscm.com/locations/varanasi", name: "Bug Sweeping Services in Varanasi", inLanguage: "en-IN", isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" }, breadcrumb: { "@id": "https://www.bugsweepingtscm.com/locations/varanasi#breadcrumb" }, about: { "@id": "https://www.bugsweepingtscm.com/locations/varanasi#place" } },
+        { "@type": "WebSite", "@id": "https://www.bugsweepingtscm.com/#website", url: "https://www.bugsweepingtscm.com", name: "BugSweepingTSCM.com", publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" }, inLanguage: "en-IN" },
+        { "@type": "Place", "@id": "https://www.bugsweepingtscm.com/locations/varanasi#place", name: "Varanasi", address: { "@type": "PostalAddress", addressLocality: "Varanasi", addressRegion: "Uttar Pradesh", addressCountry: "IN" } },
+        { "@type": "Service", "@id": "https://www.bugsweepingtscm.com/locations/varanasi#service", name: "Bug sweeping and TSCM services in Varanasi", serviceType: "Technical surveillance countermeasures", provider: { "@id": "https://www.bugsweepingtscm.com/#organization" }, areaServed: { "@id": "https://www.bugsweepingtscm.com/locations/varanasi#place" }, mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/locations/varanasi#webpage" } },
+        { "@type": "Organization", "@id": "https://www.bugsweepingtscm.com/#organization", name: "BugSweepingTSCM", url: "https://www.bugsweepingtscm.com", logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png", email: "info@advancedetectiveagency.com", telephone: "+91-8882732221" },
+        { "@type": "BreadcrumbList", "@id": "https://www.bugsweepingtscm.com/locations/varanasi#breadcrumb", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" }, { "@type": "ListItem", position: 2, name: "Locations", item: "https://www.bugsweepingtscm.com/locations" }, { "@type": "ListItem", position: 3, name: "Varanasi" } ] },
+      ],
+    },
+  },
+  {
     slug: "chandigarh",
     city: "Chandigarh",
     state: "Punjab & Haryana",

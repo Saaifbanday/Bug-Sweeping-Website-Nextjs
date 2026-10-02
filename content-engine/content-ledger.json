@@ -2142,5 +2142,83 @@
     "date_modified": "",
     "notes": "Created 2 Oct 2026. Research corrected a premise of mine: Mango is a municipal corporation since 2017, not a notified area committee, and the district website is stale on this. No police station count published because three official sources give 35, 36 plus outposts, and 25. The industrial township notification is described as under challenge and pending, not as stayed, because only a local outlet reported a stay while LiveLaw reporting the same hearing recorded only notice. No station named for Dimna Lake because no official jurisdiction maps exist for any station in this district. No street address published for the cyber police station because the official page gives none. No documented covert device case found in East Singhbhum across 2020 to 2026, stated plainly, with the caveat that several local outlets block automated access. The page expressly warns that the widely reported Tata Electronics hostel spy camera case is Hosur in Tamil Nadu, because the brand name makes it read as local.",
     "revisions": []
+  },
+  {
+    "slug": "locations/agra",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/agra",
+    "page_type": "location-page",
+    "location": {
+      "city": "Agra",
+      "district": "",
+      "state": "Uttar Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in agra",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/lucknow",
+      "/locations/kanpur",
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Fatehabad Road, the hotel spine beside the Taj Mahal, is covered by Tajganj police station in the City Zone, while Fatehabad police station is a rural circle headquarters about thirty five kilometres away in the East Zone, so the near identical names send people to the wrong end of the district; the commissioner covers all six tehsils so Fatehpur Sikri and Etmadpur are inside it and there is no superintendent to appeal to; Dayalbagh is a chowki reporting to New Agra police station and separately a nagar panchayat outside the municipal corporation; Kamla Nagar sits in the Chhatta circle rather than Hariparvat; the cyber police station escalates through the Hariparwat circle rather than a crime wing, and the widely syndicated claim that it also covers Mathura, Mainpuri and Firozabad describes a superseded range era model.",
+    "internal_links_out": [
+      "/services",
+      "/locations",
+      "/locations/state/uttar-pradesh"
+    ],
+    "gate_decision": "NEW commercial city page under an existing state hub. Measured 33 to 40 per cent shingle overlap against other Uttar Pradesh city pages, below the 41.4 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-02",
+    "date_modified": "",
+    "notes": "Created 2 Oct 2026. The page states plainly that no verifiable case of a hotel or guest house recording a guest was found in the district across six years despite very high hotel density, and that the documented pattern is instead domestic, with cameras installed inside homes by family members in matrimonial disputes. That absence is described as probable under-reporting rather than a record of enforcement. No station count published because three official sources give 44, 47 and 48. No address published for the cyber police station because it is due to move to a new integrated headquarters. A police station name appearing in local reporting could not be found on any official list and was excluded. A spy camera case involving an Agra resident was excluded because the offence and arrest were in Delhi, and a hostel case circulating on an Agra branded domain was excluded because it happened in Prayagraj.",
+    "revisions": []
+  },
+  {
+    "slug": "locations/varanasi",
+    "canonical_url": "https://www.bugsweepingtscm.com/locations/varanasi",
+    "page_type": "location-page",
+    "location": {
+      "city": "Varanasi",
+      "district": "",
+      "state": "Uttar Pradesh"
+    },
+    "primary_keyword": "bug sweeping services in varanasi",
+    "secondary_keywords": [],
+    "h2_outline": [],
+    "structure_pattern": "Commercial city page: hero, scope and method, areas, grouped coverage table, jurisdiction section, local situations, report and limits, city FAQ with FAQPage schema, CTA",
+    "compared_against": [
+      "/locations/lucknow",
+      "/locations/kanpur",
+      "/locations/delhi",
+      "/locations/mumbai"
+    ],
+    "main_device": "jurisdiction section plus grouped coverage table",
+    "information_gain": "Mughalsarai, now Pandit Deen Dayal Upadhyaya Nagar, and its railway junction are in Chandauli district rather than Varanasi, so an incident there goes to a district superintendent rather than the Commissioner of Police; the airport at Babatpur is twenty six kilometres out in Pindra tehsil and is covered by Phulpur police station in the Gomti Zone; Pindra is a tehsil, block, constituency and circle but has no police station at all; Ramnagar sits across the Ganga and outside the municipal corporation yet is inside Varanasi district in the Kotwali circle; a guest house near Cantt station was found in October 2022 to have a camera wired to its own recorder in a dormitory, and the case went to Sigra police station rather than Cantt.",
+    "internal_links_out": [
+      "/services",
+      "/locations",
+      "/locations/state/uttar-pradesh"
+    ],
+    "gate_decision": "NEW commercial city page under an existing state hub. Measured 33 to 40 per cent shingle overlap against other Uttar Pradesh city pages, below the 41.4 per cent shared-chrome floor.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-02",
+    "date_modified": "",
+    "notes": "Created 2 Oct 2026. The guest house case is reported using the original Hindi account, in which a case was registered and the recorder seized, rather than the English syndication which claimed arrests; no charge sections were ever reported and no charge sheet or conviction followed, and the page says the record stops at the complaint. Two near misses were excluded: a university hostel camera case filed under a Varanasi category tag that actually happened in Jaunpur district, and a 2025 blackmail case that involved filming during an assault rather than a concealed device. No station count published because the figure depends entirely on whether specialist stations are counted. The page warns that the district website is unreliable in both directions.",
+    "revisions": []
   }
 ]
