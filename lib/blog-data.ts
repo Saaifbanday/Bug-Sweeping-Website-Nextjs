@@ -106,173 +106,759 @@ const bugSweepingIndiaFaqs: Faq[] = [
   },
 ];
 
+const officeBuggedFaqs: Faq[] = [
+  {
+    q: "Do clicks or static on a call mean my office phone is tapped?",
+    a: "No. Interception is carried out inside the operator's network rather than by adding anything to your line, your handset or your room, so there is nothing for you to hear. Microsoft's own call quality guidance attributes robotic audio to jitter once it passes roughly 30 milliseconds, gaps and clipped speech to packet loss, and echo to the microphone picking up the loudspeaker again. Noise on a call is information about your network and the acoustics of the room.",
+  },
+  {
+    q: "Does *#21# tell me if my phone is tapped?",
+    a: "No. It is a supplementary service code defined in the GSM standards, where service code 21 means call forwarding unconditional. Dialling it asks the network whether every incoming call is being forwarded somewhere, and it returns that and nothing else. If it shows forwarding is active that is worth taking up with your operator, because unexpected call forwarding is a genuine problem, but it is not interception and it says nothing about your office.",
+  },
+  {
+    q: "Do bug detector apps work?",
+    a: "No, and the limitation is architectural rather than a matter of app quality. Android exposes motion, environmental and position sensors, with no sensor type for radio frequency spectrum and no interface that gives an application raw spectrum. Such apps generally fall back on the magnetometer, which measures the ambient geomagnetic field so that a compass works, and responds to screws, hinges, desk frames and speaker magnets at close range. That is why they alarm almost continuously in a furnished office.",
+  },
+  {
+    q: "A competitor knew our pricing. Does that prove the boardroom is bugged?",
+    a: "Not on its own. A competitor pricing just under you can usually be modelled from the market, so it is weak evidence. What carries weight is an arbitrary detail that could not have been guessed or reconstructed: a verbatim phrase, a number that was wrong in the room and wrong again outside it, or a named internal objection. Before concluding that a device is involved, rule out insider disclosure, document and email leaks, shared calendars that expose a meeting's existence and attendees, and third parties who legitimately hold the same fact.",
+  },
+  {
+    q: "If a sweep finds nothing, does that mean my office is clean?",
+    a: "No, and this is the limitation worth understanding before you commission one. A sweep reports what was found in the areas accessed, by the methods used, at the time of the visit. A recorder that stores to internal memory transmits nothing, so a radio search cannot exclude it. A device that was not transmitting while the team was there will not appear either. A compromised laptop or conferencing system is a cybersecurity matter that no radio sweep addresses. A sweep that found no signals is not the same statement as a room with nothing in it.",
+  },
+  {
+    q: "What should I do if I find a device in my office?",
+    a: "If anyone is in immediate danger, call 112. Otherwise leave the object exactly where it is, because pulling it apart or taking it away destroys what would make it useful later. Photograph it in position, note where it was, and write down who has had access to that room and when. A suspected offence is a matter for the local police, and cyber complaints including the publication of private images can be filed at cybercrime.gov.in. Note that 1930 is the helpline for urgent financial cyber fraud rather than a general number for this situation.",
+  },
+];
+
+const hiddenCameraFaqs: Faq[] = [
+  {
+    q: "Can a hidden camera work without Wi-Fi?",
+    a: "Yes, and this is the case that defeats most detection advice. A camera can record to a memory card inside itself with its radio switched off, which means it joins no network, appears in no Wi-Fi scan and emits nothing for a radio detector to find. Whoever placed it has to come back for the card, which is why several Indian cases involve the same person returning on a pretext. In a Delhi case reported in September 2024 the accused repeatedly asked for the flat keys saying he needed to do electrical repairs, in order to collect footage.",
+  },
+  {
+    q: "Does the phone torch and infrared trick actually find hidden cameras?",
+    a: "Only sometimes, and a negative result proves nothing. The torch can catch a glint from a lens, but only when you are nearly square on to it, which is exactly the geometry a recessed pinhole lens avoids. The infrared check only finds a camera whose infrared illuminators are switched on, and those run in the dark, so a camera in a lit room or one with no illuminators shows nothing. Rear cameras on phones usually carry an infrared cut filter. Apple's own support documentation puts it plainly, saying that some cameras might detect infrared light, which is a manufacturer confirming the test is camera dependent.",
+  },
+  {
+    q: "Do hidden camera detector apps work?",
+    a: "No. The limit is the hardware rather than the app. A phone has no sensor for radio spectrum and no interface that would give an app raw spectrum, so these apps fall back on the magnetometer, which exists to make a compass work and reacts to screws, hinges and speaker magnets at close range. Others scan the Wi-Fi network, which misses any camera recording to a memory card, any camera running its own hotspot, and anything on the building's own network rather than the one you joined.",
+  },
+  {
+    q: "Is it illegal to put a hidden camera in a hotel room in India?",
+    a: "Two provisions are usually in play and they protect different people. Section 77 of the Bharatiya Nyaya Sanhita, 2023, which came into force on 1 July 2024, covers watching, capturing or circulating the image of a woman engaged in a private act where she would expect not to be observed, and carries a minimum of one year rising to three, or three to seven on a second conviction. Section 66E of the Information Technology Act, 2000 applies to any person regardless of gender, but only to the image of a private area as that term is defined in the section, and carries up to three years or a fine up to two lakh rupees or both.",
+  },
+  {
+    q: "Which number should I call if I find a camera in my room?",
+    a: "Call 112, the national emergency number, and go to the police for a first information report. Do not call 1930. That is the helpline for urgent financial cyber fraud, run as the front end of the financial fraud reporting system, and its own published guidance asks callers for transaction details. It is the wrong desk for a hidden camera, and it is one of the most commonly repeated errors in Indian advice on this subject. Use cybercrime.gov.in in addition if the footage is being circulated online or used to make demands.",
+  },
+  {
+    q: "Can I report it at a police station away from where it happened?",
+    a: "Yes. Section 173(1) of the Bharatiya Nagarik Suraksha Sanhita, 2023 says that information about a cognizable offence may be given irrespective of the area where the offence was committed, which is what people mean by a zero first information report. So a traveller who finds a camera in another state can report it after getting home. The same provision allows the information to be given by electronic communication, to be signed within three days, and where a woman gives information about an offence under section 77 it is to be recorded by a woman police officer or any woman officer. Section 173(2) entitles you to a free copy of what was recorded.",
+  },
+  {
+    q: "Does a hidden camera have to be found by equipment?",
+    a: "Often not. In the Indian cases that reached arrest, the cue was mundane. A tenant in Hyderabad noticed a loose screw on a bathroom light fitting that had recently been repaired. A woman in Delhi noticed an unfamiliar laptop session logged into her messaging account and then searched her flat. In a company hostel in Tamil Nadu a resident simply spotted the device and told the warden. Noticing that something has changed in a room you know well is a better early signal than any consumer gadget.",
+  },
+];
+
+const corporateEspionageFaqs: Faq[] = [
+  {
+    q: "Is there a trade secrets law in India?",
+    a: "No. There is no separate statute protecting trade secrets or undisclosed information in India, a point the World Intellectual Property Organization states plainly in its country overview. What protects confidential business information instead is contract, the equitable action for breach of confidence, and a scattering of provisions in the criminal law and the Information Technology Act. The Law Commission of India recommended a dedicated statute in March 2024 and annexed a draft bill to its report. It has not been enacted, and no such bill appears on the PRS legislative tracker as at October 2026.",
+  },
+  {
+    q: "Is a non-compete clause enforceable in India after an employee leaves?",
+    a: "Generally no. A negative covenant that operates during employment can be enforced, but a restraint that operates after the employment ends is void under section 27 of the Indian Contract Act, 1872. The Law Commission records that this interpretation has been consistent since 1874 and has been approved by the Supreme Court, and that in an overwhelming majority of decisions courts have refused to restrain a former employee from joining a competitor. The idea that a post-employment restraint survives if it is reasonable in time and area is English law, not Indian law, and it is one of the most common errors in Indian commentary on this subject.",
+  },
+  {
+    q: "Can an employee be prosecuted for copying our customer database?",
+    a: "There are routes, though none is as straightforward as people expect. Section 43(b) of the Information Technology Act, 2000 covers copying or extracting data without the permission of the owner, and section 66 makes doing that dishonestly or fraudulently a criminal offence. Criminal breach of trust under section 316 of the Bharatiya Nyaya Sanhita, 2023 is often the better fit for an employee, because it turns on entrustment and on breach of a contract touching the discharge of that trust, which maps onto a confidentiality clause; where the accused is a clerk or servant it carries up to seven years. Theft is awkward, because theft requires movable property and no Indian court has settled whether data is movable property.",
+  },
+  {
+    q: "Does the Official Secrets Act cover corporate information?",
+    a: "No. The Law Commission's 2024 report says the Act focuses on protecting government information and does not adequately address trade secrets or confidential business information in the private sector, since it is built around defence, military and prohibited place concepts. This matters because the most publicised Indian case in this area is often described as an Official Secrets Act matter. On the record of the first information report and the chargesheet, the charges were ordinary property, forgery and conspiracy provisions, and the Act was not invoked.",
+  },
+  {
+    q: "If we recover a device, can the recordings be used in evidence?",
+    a: "Only with the right certificate, and the provision changed recently. Most Indian commentary still refers to section 65B of the Indian Evidence Act, 1872. That Act was replaced by the Bharatiya Sakshya Adhiniyam, 2023 from 1 July 2024, and the governing provision is now section 63. The certificate has to be submitted with the electronic record at each instance it is tendered for admission, not once, and it has to be signed both by the person in charge of the device and by an expert, in the form set out in the Schedule. That form requires the make, model and serial or identifying number of the device and the hash value of the record with the algorithm named, with the hash report enclosed.",
+  },
+  {
+    q: "Will a bug sweep protect our confidential information?",
+    a: "It addresses one layer of three, and the smallest one in most organisations. A sweep looks for devices placed in a space. It does not reach a compromised laptop or conferencing system, where the microphone is already in the room and audio leaves as ordinary encrypted traffic, and it does not reach an insider who is entitled to the information and simply passes it on. Those need governance and records rather than instruments, and Indian law already requires some of those records.",
+  },
+];
+
+const vehicleTrackerFaqs: Faq[] = [
+  {
+    q: "Is it illegal to put a GPS tracker on someone's car in India?",
+    a: "There is no Indian offence of covertly tracking an adult's location as such, which surprises most people. Cases are prosecuted by analogy. Stalking under section 78 of the Bharatiya Nyaya Sanhita, 2023 is the provision usually cited, but on its own words it applies only where the offender is a man and the person protected is a woman, and its two limbs concern repeated contact and the monitoring of a woman's use of electronic communication rather than her location. Criminal trespass under section 329 is gender neutral and fits the physical act of interfering with your vehicle, though the penalty is small. If the installation damaged the car, mischief may apply.",
+  },
+  {
+    q: "Will my phone tell me if there is a tracker on my car?",
+    a: "Only for Bluetooth item trackers, and only some of them. Apple and Google shipped unwanted tracking alerts in May 2024, on iOS 17.5 and later and on Android 6 and later. Google's own documentation says the alerts work with Find Hub network compatible tags, headphones and Apple AirTags, and its list does not include Tile or Samsung Galaxy SmartTag. No phone alert of any kind detects a cellular GPS tracker, which is the type used in the serious Indian cases. A silent phone is not a clean car.",
+  },
+  {
+    q: "Why did my iPhone not warn me about a tracker?",
+    a: "The alerts have conditions that are easy to break without realising. Apple's documentation requires iOS 17.5 or later, Location Services on, Significant Locations switched on under System Services, Bluetooth on, tracking notifications allowed, and the device not in Airplane Mode. Someone who turns Significant Locations off for privacy has switched off their own tracker detection. Apple also notes that if an item has been with you overnight its identifier may have changed, and the system uses that identifier to work out that the same item is moving with you.",
+  },
+  {
+    q: "Should I remove a tracker as soon as I find one?",
+    a: "Not automatically, and Google's own guidance declines to give a blanket instruction. Two things are in tension. Turning the device off stops further tracking, but Google notes that some trackers, if turned off, may be factory reset and no longer linked to their original owner, in which case law enforcement cannot establish who owned it. And if you believe the person tracking you may react badly to losing the signal, leaving it in place while you get help may be the safer course. Photograph it where it sits, note the position, and take advice before disturbing it.",
+  },
+  {
+    q: "Can a bug detector find a GPS tracker on my car?",
+    a: "Less reliably than the marketing suggests, and the name is misleading. A tracker receives GPS, which emits nothing. What can be detected is the device talking to the mobile network, and it only does that while transmitting. Cellular trackers are commonly configured to sleep with the modem switched off and wake briefly to upload, and many are motion triggered, so a device can be silent precisely while a parked car is being swept. A logger that stores to internal memory and transmits at all is not detectable by any radio method. Physical search is what finds these.",
+  },
+  {
+    q: "Can I use a GPS jammer to block a tracker on my own car?",
+    a: "No. The Department of Telecommunications advisory publicised in July 2022 states that use of a cellular signal jammer, GPS blocker or other signal jamming device is generally illegal except as specifically permitted by the Government of India, and that private organisations and individuals cannot procure or use jammers in India. The current jammer guidelines confine procurement to central and state government bodies, defence forces and security agencies, through two designated public sector undertakings. There is no route by which a private individual in India can lawfully obtain one.",
+  },
+  {
+    q: "Where do I report a tracker found on my vehicle?",
+    a: "The local police, not 1930. That helpline is for urgent financial cyber fraud, so a physical device bolted to a car is the wrong desk for it. Under section 173(1) of the Bharatiya Nagarik Suraksha Sanhita, 2023 information about a cognizable offence may be given at any police station irrespective of where the offence happened, and may be given electronically and signed within three days. One thing worth knowing: for offences punishable with three years or more but less than seven, section 173(3) lets the station officer, with permission from an officer of at least Deputy Superintendent rank, run a preliminary enquiry for up to fourteen days before registering a case. If you are told the matter is being looked into first, ask whether such an enquiry has been authorised.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-detect-hidden-cameras",
-    title: "How to Detect Hidden Cameras in Your Hotel Room or Office",
+    title: "How to Detect Hidden Cameras: What Works, What Does Not, and the Law in India",
+    seoTitle: "How to Detect Hidden Cameras: What Works and What Does Not",
+    metaDescription:
+      "How to detect hidden cameras: which phone checks actually work, why a Wi-Fi scan misses memory card cameras, and what Indian law and the police route really are.",
     excerpt:
-      "Hidden cameras are cheaper and more accessible than ever. Before you settle into your hotel room or step into a private meeting, here's what you need to know, and what professionals do differently.",
+      "Most advice on finding hidden cameras oversells the phone in your hand and skips the law entirely. This guide sets out what each check can and cannot establish, where cameras have actually been found in India, and the reporting route, including the helpline that is the wrong one to call.",
     date: "2025-03-18",
-    readTime: "6 min read",
+    dateModified: "2026-10-03",
+    readTime: "11 min read",
     category: "Bug Sweep Tips",
     coverImage: "/images/blogs/image_1.png",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about a room, a rental or a hotel stay?",
+      text: "If something in a room does not add up, a private consultation can help you decide whether a sweep is warranted and what it should cover. Please get in touch from a phone and a place away from the room you are worried about.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras",
+          name: "How to Detect Hidden Cameras: What Works and What Does Not",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/image_1.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#article",
+          headline: "How to Detect Hidden Cameras: What Works, What Does Not, and the Law in India",
+          description:
+            "How to detect hidden cameras: which phone checks actually work, why a Wi-Fi scan misses memory card cameras, and what Indian law and the police route really are.",
+          datePublished: "2025-03-18",
+          dateModified: "2026-10-03",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Hidden camera detection" },
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "How to Detect Hidden Cameras" },
+          ],
+        },
+        faqJsonLd(hiddenCameraFaqs, "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#faq"),
+      ],
+    },
     content: `
-      <p>The miniaturisation of electronics has made covert cameras frighteningly affordable. A pinhole camera no larger than a shirt button, capable of recording 1080p video, is available online for under ₹1,000. This reality means that hotel rooms, rented apartments, changing rooms, and even corporate meeting spaces face a genuine and growing surveillance threat.</p>
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> To detect hidden cameras, look first at what has changed in the room: fittings that have recently been repaired, objects that face the bed or the bathroom, and screws or covers that do not match their neighbours. Phone checks help a little. They cannot find a camera that records to a memory card and transmits nothing, which is the type found in several recent Indian cases.</p>
+      </div>
 
-      <h2>Common Hiding Spots</h2>
-      <p>Over hundreds of professional sweeps, our TSCM technicians consistently find hidden cameras in a predictable set of locations:</p>
-      <ul>
-        <li><strong>Smoke detectors and fire alarms</strong>: a near-perfect concealment, as they face into the room and are rarely disturbed.</li>
-        <li><strong>Power adapters and USB chargers</strong>: many commercially available spy cameras are built directly into working adapters.</li>
-        <li><strong>Air vents and ceiling tiles</strong>: pinhole lenses are undetectable to the naked eye from any distance.</li>
-        <li><strong>Televisions and set-top boxes</strong>: the bezels of flat screens provide ample room for a small lens.</li>
-        <li><strong>Decorative objects</strong>: clocks, photo frames, plants, and lamps are all common carriers.</li>
-      </ul>
+      <p>Almost every guide to this subject makes the same two moves. It lists the places a camera might be concealed, and it tells you to wave your phone around. Neither is wrong exactly, but together they leave a reader believing they have checked a room when they have not, and they say nothing about what to do next. This guide takes each method in turn, says what it can and cannot establish, and sets out the Indian legal position and the reporting route, including one helpline that is widely recommended and is the wrong number to call.</p>
 
-      <h2>What Consumer Detectors Miss</h2>
-      <p>The handheld lens-reflection detectors available online (the ones that flash a red LED and ask you to look through a viewfinder) are effective only against cameras with an active lens in direct line of sight. They fail entirely against:</p>
-      <ul>
-        <li>Cameras behind tinted or smoked plastic</li>
-        <li>Cameras that are switched off and recording passively to an SD card</li>
-        <li>IR (night vision) cameras during the day</li>
-        <li>Wide-aperture micro-lenses embedded in fabrics or wallpaper</li>
-      </ul>
+      <p>A hidden camera, in the sense people mean when they search for this, is a camera concealed in an object or a fitting so that the people being recorded do not know it is there. The important distinction is not where it is hidden but how it stores and sends what it records. A networked camera joins a Wi-Fi network or runs its own and can in principle be found by looking at network traffic. A locally recording camera writes to a memory card inside itself and may have its radio switched off entirely, which means it appears on no network and emits nothing at all. A camera of the second kind has to be physically collected by whoever placed it. That single difference decides which of the checks below has any chance of working.</p>
 
-      <h2>The Professional Difference</h2>
-      <p>A certified TSCM sweep combines several detection methods simultaneously. A <strong>Non-Linear Junction Detector (NLJD)</strong> identifies the semiconductor junctions inside any electronic device, whether it is powered on or off, by transmitting a low-power RF signal and analysing the harmonic response. A <strong>FLIR thermal camera</strong> reveals the heat signature of any active recording device, even through walls and ceilings. A <strong>spectrum analyser</strong> running from 10 kHz to 24 GHz catches any wireless transmission the camera may be sending.</p>
-      <p>Together, these tools provide detection coverage that no consumer product can replicate.</p>
+      <h2>Where cameras have actually been found in India</h2>
+      <p>It is more useful to look at cases that reached an arrest than at a generic list of hiding places. Four recent Indian ones are worth knowing because each carries a lesson that the standard advice misses.</p>
+      <p>In October 2022 The Tribune reported that two men booked a room at a hotel in Noida listed on a booking platform, concealed a camera, checked out, and returned to rebook the same room a week later to collect the device and its footage, which they then used to try to extort the couple who had been recorded. Hotel staff were questioned and found not to be involved. The threat model there is the previous guest, not the management.</p>
+      <p>In September 2024 the Free Press Journal reported the arrest of a landlord's son in Shakarpur, Delhi, who had concealed cameras inside the light bulb holders of a tenant's bathroom and bedroom. She found out because she noticed an unfamiliar laptop session logged into her messaging account, logged every device out, and then searched the flat. He had repeatedly asked for the keys saying he needed to carry out electrical repairs, in order to retrieve the memory card.</p>
+      <p>In October 2025 The Siasat Daily reported that a tenant in Yousufguda, Hyderabad had reported a faulty bathroom light fitting, the landlord had entered with an electrician while the couple were at work, and nine days later the tenants noticed a loose screw on that fitting and found a camera behind it. And in November 2025 a device was found in a bathroom at a women's hostel run by an electronics manufacturer at Hosur in Tamil Nadu; a resident spotted it and raised it with the warden, and the enquiry established that another resident had installed it at a third person's instigation.</p>
+      <p>Two patterns run through these. The concealment is usually a mains powered fitting, because a camera needs power and a light fitting or socket supplies it without anyone noticing a cable. And the access is usually legitimate: a repair visit, a previous booking, a fellow resident. In three of the four, the person had a reason to be in the room.</p>
 
-      <h2>Practical Steps You Can Take</h2>
-      <p>While no substitute for a professional sweep, the following steps reduce your exposure in unfamiliar environments:</p>
-      <ul>
-        <li>On arrival, scan the room for objects that seem out of place or that face an unusual direction.</li>
-        <li>Check all USB charging ports for extra lenses; use your smartphone torch and zoom in.</li>
-        <li>Switch off the room lights and scan for tiny infrared LEDs with your phone camera (phone cameras often detect IR light that the human eye cannot).</li>
-        <li>If you are in a corporate or government setting where confidentiality is critical, schedule a sweep before sensitive discussions take place, not after.</li>
-      </ul>
+      <h2>What the checks on your phone can and cannot do</h2>
+      <p>Searches for this topic are dominated by people asking how to check with the phone in their hand. Here is each method against what is actually known about it.</p>
 
-      <p>If you have any reason to believe your space is compromised, contact our TSCM team immediately. We provide same-day emergency sweeps across India with zero disclosure of your engagement.</p>
+      <h3>The torch and the glint of a lens</h3>
+      <p>This one rests on real physics. A lens with a sensor at its focal plane behaves as a retroreflector, sending light back along the axis it came in on far more brightly than a dull surface would. The optical detection patent that underlies commercial lens finders describes exactly that, and it also describes the limitation: vignetting means a large part of the returned light is lost when the geometry is not right. In practice the glint comes back only when your eye, the light and the lens are close to being in line and the lens is squarely facing you. A lens recessed behind a small aperture, or mounted at an angle, is precisely the case where this fails. It is worth doing in a darkened room, and a negative result means very little.</p>
+
+      <h3>The infrared check</h3>
+      <p>The claim that a phone camera reveals infrared illuminators is the one most often stated without conditions, including on the earlier version of this page. The honest position has three parts. Silicon image sensors genuinely do respond to near infrared, which is why camera makers place an infrared cut filter in front of the sensor, so that pictures look the way the eye sees them. Whether any given phone shows infrared therefore depends on the phone and on which camera you use, and the rear camera is usually the filtered one. Apple's own support documentation on its face recognition hardware says that <a href="https://support.apple.com/en-in/102381" rel="noopener noreferrer" target="_blank">some cameras might detect infrared light</a>, which is a manufacturer confirming in writing that this is camera dependent rather than a method.</p>
+      <p>The part that settles it is simpler. The check can only find a camera whose infrared illuminators are switched on, and those come on in darkness. A camera recording in a lit room, or one with no illuminators at all, emits nothing to see. A negative result from this test tells you nothing whatsoever.</p>
+
+      <h3>Detector apps</h3>
+      <p>These cannot work, and the reason is the hardware rather than the quality of the app. A phone has no sensor for radio spectrum and no interface that would hand an application raw spectrum. The sensor such apps generally fall back on is the magnetometer, which exists so the compass works and which responds to screws, hinges, desk frames and speaker magnets at close range, which is why they alarm almost continuously in a furnished room.</p>
+
+      <h3>Scanning the Wi-Fi network</h3>
+      <p>A network scan can list the devices on a network you control, which makes it a reasonable inventory tool for your own home. It is much weaker in the situation people actually ask about. A camera recording to a memory card with its radio off has no network presence at all. A camera running its own access point is not on the network you joined. A camera on the building's own network, which is the likely arrangement in a hotel or a let flat, is invisible from the guest network. And the old trick of identifying a device from the manufacturer prefix in its hardware address has largely stopped working, because <a href="https://source.android.com/docs/core/connect/wifi-mac-randomization" rel="noopener noreferrer" target="_blank">Android has randomised those addresses by default since Android 10</a>, so an address you cannot resolve is now most likely an ordinary phone.</p>
+
+      <h2>Can a hidden camera work without Wi-Fi?</h2>
+      <p>Yes, and this is the question that decides how much any of the above is worth. A camera that stores to a memory card and keeps its radio off produces no radio emission, joins no network and leaves nothing for a scan or a radio detector to find. It is not an exotic configuration. It is what was used in the Noida hotel case and in the Delhi flat case above, and in both the person who placed it had to come back for the card, which is why both involved a return visit on a pretext.</p>
+      <p>This is also the honest limit of professional radio equipment, and the clearest evidence for it comes from the firms that make that equipment. A manufacturer of technical surveillance instruments explains in its own product documentation that its non-linear junction detector exists precisely because it detects the physical properties of a device rather than energy or emissions, so it responds even when the object is switched off. A company that sells spectrum equipment markets a second and completely different instrument on the ground that radio search cannot find a device that is not emitting.</p>
+
+      <h2>What professional instruments add, and what they do not</h2>
+      <p>A sweep is a visual, physical and electronic examination, and the electronic part is the smallest of the three more often than people expect. It is worth being specific about what each class of instrument does, because the marketing around them is florid.</p>
+      <p>A <strong>non-linear junction detector</strong> transmits a signal and listens for the second and third harmonics that a semiconductor junction sends back, which means it finds electronics whether or not they are powered. What it does not do is identify a camera: it detects the presence of silicon, so a dead charger, a thermostat and a camera module all answer it. It also responds to what the manufacturers call false junctions, where two dissimilar or corroded metals touch, so in a real room it reacts to rusted screws, bed frames and fittings. The usual rule for telling these apart is that electronics return a strong second harmonic and a false junction a strong third, and the same manufacturer documentation notes that some circuits return a strong third harmonic too, so the rule can mislead in both directions. The manufacturer's own manual states plainly that it makes no guarantee about the unit's performance when attempting to detect hidden electronic devices. Half the work is interpretation, which is the real argument for an experienced operator rather than a gadget.</p>
+      <p><strong>Thermal imaging</strong> is useful and routinely oversold. The earlier version of this page said a thermal camera reveals heat through walls and ceilings, which is wrong. The largest manufacturer in the field <a href="https://www.flir.com/discover/home-outdoor/can-thermal-imaging-see-through-walls/" rel="noopener noreferrer" target="_blank">states plainly</a> that thermal cameras cannot see through walls, that glass behaves like a mirror so you see nothing through a window, and that they can never see through metal. What a thermal camera reads is surface temperature, so it can show a warm patch on the face of a fitting where something powered sits behind it. It follows from the same manufacturer's point about glass that a camera behind a mirror or a glass panel is thermally invisible.</p>
+      <p><strong>Radio spectrum analysis</strong> finds things that are transmitting, at the time they are transmitting. It is the right tool for a networked camera and useless against the memory card case above.</p>
+
+      <h2>The law: two sections that protect different people</h2>
+      <p>This is where Indian readers are served worst, and where the position is genuinely worth knowing before anything happens. Two provisions are usually in play, and they do not cover the same ground.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Comparison of section 77 of the Bharatiya Nyaya Sanhita 2023 and section 66E of the Information Technology Act 2000</caption>
+          <thead>
+            <tr><th scope="col"></th><th scope="col">BNS section 77</th><th scope="col">IT Act section 66E</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Who it protects</th><td>A woman only, in the words of the section</td><td>Any person, regardless of gender</td></tr>
+            <tr><th scope="row">Covers watching with no recording</th><td>Yes</td><td>No</td></tr>
+            <tr><th scope="row">Subject matter</th><td>A private act, defined inclusively</td><td>The image of a private area, defined exhaustively</td></tr>
+            <tr><th scope="row">Covers audio</th><td>No</td><td>No</td></tr>
+            <tr><th scope="row">Minimum sentence</th><td>One year, three on a second conviction</td><td>None</td></tr>
+            <tr><th scope="row">Maximum</th><td>Three years, seven on a second conviction</td><td>Three years, or a fine up to two lakh rupees, or both</td></tr>
+            <tr><th scope="row">In force since</th><td>1 July 2024</td><td>27 October 2009</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Section 77 of the <a href="https://egazette.gov.in/WriteReadData/2023/250883.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nyaya Sanhita, 2023</a> punishes whoever watches, captures the image of, or circulates the image of a woman engaged in a private act where she would ordinarily expect not to be observed. Three things follow from the wording that are easy to miss. Watching alone is the offence, with no recording needed. There is a mandatory minimum of one year. And an explanation to the section makes circulating an image an offence even where the subject consented to it being taken but not to it being shared.</p>
+      <p>Section 66E of the Information Technology Act, 2000 is gender neutral but much narrower in subject matter. It reaches capturing, publishing or transmitting the image of a private area, and the section defines that term exhaustively rather than inclusively, so an image that does not show a private area as defined falls outside it.</p>
+      <p>Put the two together and two gaps appear that no other page on this subject seems to mention. A man who finds a camera in his hotel bathroom has no voyeurism offence available to him, because section 77 is limited by its own words to a woman; he is left with section 66E, and only if what was captured meets its definition. And nobody of any gender is protected by either section against a covert audio recording, because section 77 speaks of an image and section 66E of a visual image. If your concern is a microphone rather than a lens, neither of these sections is the answer.</p>
+      <p>On hotels specifically, there is no central Indian rule requiring a hotel to disclose or prohibit cameras in guest rooms. The Ministry of Tourism's star classification scheme is voluntary and its only mention of cameras is a line requiring closed circuit television at strategic locations, which is about security coverage of public areas rather than guest privacy. The Ministry of Home Affairs told Parliament in 2015 that states had been advised to require surveillance systems in places with large footfalls including hotels, and that policing and public order are state subjects, which is the constitutional reason the rules differ by state. Our <a href="/locations">state and city pages</a> set out what individual states actually require.</p>
+
+      <h2>If you find a camera: what to do, and the number not to call</h2>
+      <p>Safety first. If you believe you are in danger, call 112, which is the national emergency number and routes to a police dispatcher.</p>
+      <p>Then leave the device where it is. Do not pull it apart, unplug it or take it away, and do not let the premises staff take it, because handling it destroys the thing that would make it useful later. Photograph it in position, note exactly where it was and what it faced, and write down who has had access to the room and when. This is practical advice rather than a legal requirement, but it is the difference between a case that can be proved and one that cannot.</p>
+      <p>Report it as a first information report at a police station. Section 173(1) of the <a href="https://egazette.gov.in/WriteReadData/2023/250884.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nagarik Suraksha Sanhita, 2023</a> carries three rights worth knowing. Information about a cognizable offence may be given irrespective of the area where the offence was committed, which is the zero first information report, so a traveller can report after getting home rather than only at the scene. The information may be given by electronic communication, to be signed within three days. And where a woman gives information about an offence under section 77, the proviso says it shall be recorded by a woman police officer or any woman officer. Section 173(2) entitles the informant to a copy of what was recorded, free of cost and forthwith.</p>
+      <p>If the footage is circulating online, or someone is making demands with it, use cybercrime.gov.in in addition. And the correction that matters most: <strong>do not call 1930</strong>. That number is the national helpline for urgent financial cyber fraud, operating as the front end of the financial fraud reporting system, and its published guidance asks callers for transaction details. It is recommended constantly in Indian advice on hidden cameras and it is the wrong desk.</p>
+      <p>One more thing worth carrying. Reporting in this area frequently misstates the law: a 2025 report of a changing room case in Madhya Pradesh cited section numbers that mix the new code with the old one and do not exist as given. And in a widely covered 2022 case at a university in Punjab, the allegation that drove national protest, that dozens of videos of other residents had been taken and leaked, was not borne out by the police investigation, which reported finding no objectionable videos of other women on the accused's phone. Numbers circulate faster in these cases than investigations can correct them, which is a good reason to check the provision and the findings rather than rely on a summary.</p>
+
+      <h2>What a sweep can and cannot establish</h2>
+      <p>A sweep reports what was found in the areas examined, by the methods used, under the conditions present, at the time of the visit. It cannot prove that a room has never been watched, and it cannot keep it clean afterwards. A camera that was powered down during the visit, or one storing to a memory card, may leave nothing for any instrument to register, which is why the physical examination matters as much as anything electronic. If you want the preparation sequence before a sweep, including what to agree in advance about a device that is found, our <a href="/blog/bug-sweeping-in-india">national guide</a> covers it, and the <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> covers the workplace version of the same question.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(hiddenCameraFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. The provisions cited were checked against the official texts of the Bharatiya Nyaya Sanhita, 2023, the Bharatiya Nagarik Suraksha Sanhita, 2023 and the Information Technology Act, 2000, and the reporting routes against the Ministry of Home Affairs and the Indian Cybercrime Coordination Centre, on 3 October 2026. This is general information and not legal advice. Take advice about your own situation, and confirm current details with the linked sources.</p>
+      </div>
     `,
   },
   {
     slug: "signs-your-office-is-bugged",
-    title: "5 Signs Your Office or Boardroom May Be Bugged",
+    title: "Signs Your Office Is Bugged: Which Ones Actually Mean Anything",
+    seoTitle: "Signs Your Office Is Bugged: What Actually Means Anything",
+    metaDescription:
+      "Most signs your office is bugged are unreliable. What clicks on a call, flickering lights and detector apps really indicate, and the two signs that matter.",
     excerpt:
-      "Competitors knowing your strategy before you execute it. Confidential negotiations leaking to the other side. These are not coincidences. They are the fingerprints of electronic surveillance. Here's what to look for.",
+      "Clicks on the line, a hot phone, flickering lights: the classic warnings are repeated on almost every page about this, and most of them have ordinary technical explanations. This guide separates the folklore from the two indicators that genuinely change the odds.",
     date: "2025-04-02",
-    readTime: "5 min read",
+    dateModified: "2026-10-03",
+    readTime: "8 min read",
     category: "Corporate Security",
     coverImage: "/images/blogs/image_2.png",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure whether what you are seeing means anything?",
+      text: "If a specific access event or a specific leak is worrying you, a private consultation can help you work out whether a sweep is the right response and what it should cover. Please get in touch from a phone and a place away from the room in question.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged",
+          name: "Signs Your Office Is Bugged: What Actually Means Anything",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/image_2.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#article",
+          headline: "Signs Your Office Is Bugged: Which Ones Actually Mean Anything",
+          description:
+            "Most signs your office is bugged are unreliable. What clicks on a call, flickering lights and detector apps really indicate, and the two signs that matter.",
+          datePublished: "2025-04-02",
+          dateModified: "2026-10-03",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+            { "@type": "Thing", name: "Covert listening device" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Signs Your Office Is Bugged" },
+          ],
+        },
+        faqJsonLd(officeBuggedFaqs, "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#faq"),
+      ],
+    },
     content: `
-      <p>Corporate espionage costs Indian businesses billions of rupees every year. The most effective method of gathering competitive intelligence is also the most invisible: a small electronic listening device planted in a boardroom, conference room, or executive office. The following five signs are the most common indicators that surveillance may be active on your premises.</p>
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Most of the classic signs that an office is bugged are unreliable. Clicks on a call, a hot phone and flickering lights all have ordinary technical causes that have nothing to do with surveillance. Two things genuinely change the odds: unexplained physical access to the room, and a closely held fact surfacing where it could not have been guessed.</p>
+      </div>
 
-      <h2>1. Competitors React to Information Only You Should Have</h2>
-      <p>This is the clearest signal and the one most often dismissed as coincidence. If a rival company adjusts its pricing immediately after your internal pricing discussion, or counters a proposal with terms that mirror your internal negotiations, the explanation is rarely luck. Sensitive strategic discussions should be treated as compromised until a physical sweep proves otherwise.</p>
+      <p>Search this question and you will find the same five or six warning signs repeated almost word for word. Very few of those pages say where the claims come from, and several of them describe effects that stopped being diagnostic when telephone networks went digital. This guide takes each one, gives the actual mechanism, and says plainly whether it tells you anything.</p>
 
-      <h2>2. Unusual Objects Have Appeared in the Room</h2>
-      <p>Planted devices are typically concealed inside objects that belong in the environment. A new power strip you did not order. A replacement smoke detector installed by an unknown contractor. A gift left on a desk after a visitor meeting. Any object that arrived unexpectedly, especially if it is near a meeting table or executive desk, warrants physical inspection.</p>
+      <p>Electronic eavesdropping in an office means a device or a piece of software capturing conversation or images without the consent of the people in the room. It falls into three classes that behave very differently. A planted radio transmitter emits a signal and can in principle be found by a radio search. A passive recorder stores to internal memory and emits nothing at all, so there is no signal to find. A compromised endpoint, such as a laptop, a desk phone or a video conferencing codec, uses a microphone that is already in the room and sends audio out inside ordinary encrypted network traffic. Technical surveillance countermeasures (TSCM) is the discipline of searching for the first two. The third is a cybersecurity problem, and no radio sweep will find it.</p>
 
-      <h2>3. Your Phone or Video Conferencing Equipment Behaves Strangely</h2>
-      <p>Clicks, static, or volume drops on phone calls are frequently cited as signs of a tap. Whilst modern digital taps produce none of these symptoms, older analogue taps on copper lines do. More relevant today: if your video conferencing system shows unexpected activity logs, unexplained active sessions, or firmware that has been modified, these are serious indicators of compromise.</p>
+      <h2>Which classic signs survive scrutiny</h2>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Commonly cited signs that an office is bugged, the actual mechanism behind each, and whether it indicates surveillance</caption>
+          <thead>
+            <tr><th scope="col">The classic sign</th><th scope="col">What is actually happening</th><th scope="col">Does it indicate bugging?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Clicks, static or echo on a call</td><td>Network jitter, packet loss, or a microphone re-capturing the loudspeaker output</td><td>No</td></tr>
+            <tr><td>Dialling *#21# reveals a tap</td><td>A GSM code that reports call forwarding status</td><td>No</td></tr>
+            <tr><td>Radios or speakers buzz in the room</td><td>Audio rectification of burst transmissions from 2G handsets</td><td>Rarely, and much less than it once did</td></tr>
+            <tr><td>Phone battery drains, phone runs hot</td><td>Ordinary battery, app and charging behaviour</td><td>No, and there is no physical path from a room device to your phone</td></tr>
+            <tr><td>Lights flicker</td><td>Loose or degraded neutral, motor inrush, LED driver and dimmer mismatch</td><td>No</td></tr>
+            <tr><td>A detector app alarms</td><td>The magnetometer responding to metal, or a Wi-Fi scan listing the neighbours</td><td>No</td></tr>
+            <tr><td>A closely held fact appears elsewhere</td><td>Depends entirely on how specific the fact was and how small the group holding it</td><td>Sometimes, with discipline</td></tr>
+            <tr><td>Unexplained access to the room</td><td>Someone had the opportunity to place something</td><td>Yes, this is the strongest one</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-      <h2>4. Unusual Radio Frequency Activity</h2>
-      <p>A spectrum analyser sweep will immediately reveal any active RF transmitter operating in your space. If you notice that a particular device (a smoke detector, a wall socket, a piece of furniture) causes interference on a nearby radio or wireless device, it may be transmitting. This is not something you can diagnose without professional equipment, but it is worth noting as a trigger for a sweep.</p>
+      <h2>Why clicks and static are not evidence of a tap</h2>
+      <p>The clicking telephone belongs to an era of physical bridging taps on analogue copper lines. Interception today is carried out inside the operator's network by reconfiguring equipment there, which means nothing is added to your line, your handset or your room for you to hear. In India that activity sits under the Telecommunications Act 2023, with the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024 made under section 20, and an interception order runs for a limited period before it must be renewed. None of that machinery touches your office.</p>
+      <p>The noises people actually hear have documented causes. Microsoft's own call quality guidance for Teams attributes robotic or garbled audio to jitter once it rises past roughly 30 milliseconds, and gaps, clipped syllables and choppy speech to packet loss from congestion or a failing link. Echo it attributes to the microphone picking up the loudspeaker again, which is why a headset usually cures it. A click or a burst of static is telling you about your network and the acoustics of the room (<a href="https://learn.microsoft.com/en-us/microsoftteams/quality-of-experience-review-guide" rel="noopener noreferrer" target="_blank">Microsoft Learn</a>).</p>
 
-      <h2>5. You Have Recently Hosted External Visitors in Your Boardroom</h2>
-      <p>The most common vector for a planted device is physical access. A visitor who arrives early and is left alone in the meeting room, a maintenance contractor who works unsupervised, a delivered package that was opened inside the office: all of these represent planting opportunities. If any of these have occurred before a period of unusual information leakage, a sweep is warranted.</p>
+      <h2>Does *#21# show whether your phone is tapped?</h2>
+      <p>No. That string is a supplementary service code defined in the GSM standards, specifically the man machine interface codes in 3GPP TS 22.030. The interrogation form asks the network about a given service, and service code 21 is call forwarding unconditional, the setting that sends every incoming call somewhere else. Dialling it returns the status of call forwarding and nothing else.</p>
+      <p>It has no relationship to interception, which is not implemented as call forwarding and is designed not to be visible to the subscriber. The code circulates because the response looks technical and alarming to someone who has not seen one before. If it reports that forwarding is active, the useful conclusion is that someone may have set up call forwarding on the account, which is worth sorting out with the operator, and is a different problem.</p>
 
-      <h2>What to Do</h2>
-      <p>Do not alert anyone inside the organisation until after a sweep has been completed. If a device is found, it provides forensic evidence. Removing it prematurely, or broadcasting that you suspect a bug, gives the opposing party time to cover their tracks. Contact our team for a confidential, same-day sweep. Our technicians arrive in unmarked vehicles and the engagement is covered by NDA from the first call.</p>
+      <h2>The one sign with real physics behind it, and why it has faded</h2>
+      <p>The buzz that a mobile phone produces in nearby speakers is a genuine, well documented effect. Texas Instruments describes the mechanism in its application note on time division multiple access noise: a GSM transmitter can draw more than an amp, pulsing at a repetition rate of 217 hertz with a pulse width of about half a millisecond, and that envelope is rectified by semiconductor junctions in nearby audio circuits, which makes it audible (<a href="https://www.ti.com/lit/an/snaa033d/snaa033d.pdf" rel="noopener noreferrer" target="_blank">TI application note</a>).</p>
+      <p>So the effect is real. The inference drawn from it is not. That buzz is the signature of 2G burst transmission, and it is produced identically by any ordinary 2G capable handset in the room, including the ones belonging to the people in the meeting. Newer uplinks do not have the same abrupt on and off envelope, so the effect has largely receded with the networks that caused it. Hearing it tells you a 2G class transmitter is near your cabling. It does not distinguish a covert device from a colleague's old phone, and its absence tells you nothing at all about Wi-Fi, Bluetooth, or anything that is recording without transmitting.</p>
+
+      <h2>Why detector apps on a phone cannot do this</h2>
+      <p>The limitation here is architectural rather than a question of app quality. Android's sensor framework exposes motion sensors, environmental sensors and position sensors, and there is no sensor type for radio frequency spectrum and no interface that hands an application raw spectrum (<a href="https://developer.android.com/develop/sensors-and-location/sensors/sensors_overview" rel="noopener noreferrer" target="_blank">Android developer documentation</a>). The radios in a phone are tuned receivers for particular standards, so they can list Wi-Fi networks and Bluetooth advertisements, which is a network scan rather than a search of the airwaves. A transmitter that does not speak a protocol the phone implements is invisible to it.</p>
+      <p>The sensor these apps usually fall back on is the magnetometer, which measures the ambient geomagnetic field in microtesla and exists to make a compass work. It responds to screws, hinges, desk frames and speaker magnets at close range, which is why such apps alarm almost continuously in a furnished office. The camera is no better placed, because camera modules carry an infrared cut filter, and covert illuminators commonly sit at a wavelength chosen to be invisible.</p>
+      <p>There is credible research in this direction, and it is worth knowing how narrow it is. Work presented at ACM SenSys in 2021 used the time of flight sensor on a phone to detect the retro-reflection from a camera lens, reporting detection of 88.9 per cent of hidden cameras against 46.0 per cent for the naked eye in a study with 379 participants. That result needs a time of flight sensor, finds camera lenses only, says nothing whatever about microphones, and is a research prototype rather than anything in an app store.</p>
+
+      <h2>What actually changes the risk: who had access to the room</h2>
+      <p>A device has to be placed. Placement needs opportunity, which is why an unexplained opportunity is a real change in your risk while a symptom almost always has a duller explanation. Access events have the further advantage of being checkable against records, which symptoms are not: visitor logs, work orders, access control data and camera footage either show something or they do not.</p>
+      <p>The events worth taking seriously are mundane. Contractors or technicians left unsupervised in sensitive rooms, including electrical, air conditioning, audio visual and cleaning work after hours. Fit out or maintenance work that opens ceilings, walls, power or data runs, which is the one routine reason for anyone to be inside the building fabric. Visitors left alone in a boardroom, including during a break. New mains powered objects nobody ordered, and fittings or faceplates that have moved. Keys and access cards that were never returned, and the escort rule waived once as a favour.</p>
+      <p>Two Indian cases make the point better than any list. In the most prominent Indian corporate espionage prosecution, reported in February 2015, documents were taken from ministry offices in Delhi by junior officials using duplicate keys at night and passed on through intermediaries. There was no device at all: it was access, key control and paper. And in May 2026 a junior revenue assistant at a district rural development agency office in Jagatsinghpur, Odisha was arrested after a camera he had placed in the women's washroom fell while an employee was using it; the office's own camera records then corroborated his movements (<a href="https://www.orissapost.com/odisha-clerical-staffer-arrested-for-installing-spy-camera-in-womens-washroom-of-office/" rel="noopener noreferrer" target="_blank">Odisha Post</a>). An insider with ordinary access, discovered by accident and by records, not by any of the classic signs.</p>
+
+      <h2>When a leak really is evidence</h2>
+      <p>Information surfacing where it should not is the one lay indicator with genuine weight, and it is only as strong as the fact that leaked. A generic outcome, such as a competitor pricing just under you, is weak evidence because it can be modelled from the market. An arbitrary and specific detail is strong: a verbatim phrase, a number that was wrong in the room and wrong again outside it, a named internal objection, a date that was never written down. The question to ask is whether the detail could have been guessed, inferred or reconstructed. If it could, it is not evidence.</p>
+      <p>There is a statistical trap here that deserves naming. Stefan Axelsson's work on the base rate fallacy in intrusion detection, published in ACM Transactions on Information and System Security in 2000, showed that when the underlying event is rare, even a detector with a low false alarm rate produces alerts that are overwhelmingly false, because the result depends on how rare the event is and not on the detector's sensitivity alone. Covert devices in a given office are rare and coincidences are common. Once somebody suspects a bug, every click and flicker gets recruited as confirmation, so a suspicion assembled from a stack of individually weak signs is weaker than it feels, not stronger.</p>
+      <p>Before reaching for the device explanation, rule out the ones that are usually likelier. Insider disclosure, including by people on their way out. Inference from public signals such as filings, hiring and vendor movement. Carelessness in lifts, cabs, airport lounges and open plan floors. Document and email leaks, forwards and misdirected mail. Shared calendars, which are chronically underrated: a meeting title, an attendee list and a room booking are often visible far beyond the people in the room, and they give away the existence, timing and participants of a confidential discussion without any device. Third parties who legitimately hold the fact, such as counsel, bankers and auditors. And a participant simply recording on the phone in front of them, which is not bugging and which no sweep will ever find.</p>
+      <p>The cautionary example is a senior one. In 2010 the then Finance Minister asked for an inquiry into adhesive found at sixteen points across his office suite in North Block. The Intelligence Bureau examined the rooms and concluded the substance was chewing gum, noting that there was no groove or cavity at the points concerned and that at one of them the adhesive carried a coat of paint, indicating it had been there for months (<a href="https://www.dnaindia.com/india/report-intelligence-bureau-bug-in-pranab-mukherjee-s-office-is-chewing-gum-1557660" rel="noopener noreferrer" target="_blank">DNA India, June 2011</a>). The most senior office in the country, a real suspicion, national technical capability brought to bear, and the answer was mundane.</p>
+
+      <h2>The threat a modern office is more likely to face</h2>
+      <p>MITRE's ATT&amp;CK knowledge base records audio capture as an observed technique in which an adversary uses the microphone, webcam or call application already on a machine, through ordinary operating system and application interfaces, writing audio to disk and sending it out later. MITRE's own note on it is worth quoting: this kind of technique cannot easily be mitigated with preventive controls, because it abuses features the system is supposed to have (<a href="https://attack.mitre.org/techniques/T1123/" rel="noopener noreferrer" target="_blank">MITRE ATT&amp;CK T1123</a>).</p>
+      <p>Set that against a planted transmitter. The laptop or room codec is already in the room, already has a microphone, already has mains power and a network path out, and has a legitimate reason to be there. A planted transmitter needs covert installation, a power source and an emission that can be found. The cheaper option for an adversary is usually the equipment you installed yourself, and a radio sweep does not detect it, because the traffic leaving the building looks like all the other encrypted traffic.</p>
+
+      <h2>What a sweep can and cannot establish</h2>
+      <p>A sweep reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It cannot establish a negative, and the distance between those two statements is where most misunderstandings live. Specifically, it cannot establish that a recorder storing to internal memory is absent, because such a device emits nothing to detect. It cannot establish that a device which was not transmitting during the visit is absent, since voice activated and remotely triggered devices are silent most of the time. It says nothing about areas that were not accessed, about a compromised laptop or cloud account, or about a participant recording the meeting. And it cannot keep the room clean after the team leaves.</p>
+      <p>That last point has an official statement behind it. The United States Department of Defense instruction governing its own countermeasures programme defines a survey as a thorough visual, electronic and physical examination, three modalities precisely because an electronic search alone is not sufficient, and it records that surveys of facilities with open access have proven counterproductive by giving occupants a false sense of security. A sweep of a room that anyone can walk into is worth less than fixing who can walk into it.</p>
+      <p>So the sentence to keep hold of is this: a sweep that found no signals is not the same statement as a room with nothing in it. Any firm willing to blur those two is selling reassurance rather than a result. Our <a href="/blog/bug-sweeping-in-india">national guide</a> covers what a sweep involves in more detail, and the <a href="/blog/how-to-detect-hidden-cameras">guide to hidden cameras</a> covers the checks worth doing yourself.</p>
+
+      <h2>If you think you have found something</h2>
+      <p>Safety comes before evidence. If anyone is in immediate danger, call 112. Otherwise, leave the object where it is: do not pull it apart, unplug it or take it away, because handling it destroys the thing that would make it useful later. Photograph it in position, note where it was, and write down who has had access to that room and when.</p>
+      <p>A suspected offence is a matter for the local police. Cyber complaints, including the publication of private images, can be filed at cybercrime.gov.in. It is worth knowing that 1930 is the helpline for urgent financial cyber fraud rather than a general number for this situation, which is a common mix up. If the room may still be live, make these arrangements from a different phone in a different place, and tell only the people who have to approve access.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(officeBuggedFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Technical claims were checked against manufacturer, standards and platform documentation, and legal and reporting points against official sources, on 3 October 2026. This is general information and not legal advice. Standards, networks and rules change, so confirm current details with the linked sources and take advice about your own situation.</p>
+      </div>
     `,
   },
   {
     slug: "corporate-espionage-india",
-    title: "Corporate Espionage in India: How TSCM Protects Your Business Secrets",
+    title: "Corporate Espionage in India: What the Law Actually Protects",
+    seoTitle: "Corporate Espionage in India: What the Law Actually Protects",
+    metaDescription:
+      "Corporate espionage in India: why there is no trade secrets statute, what the courts actually enforce, why post-employment non-competes fail, and the evidence rule that changed in 2024.",
     excerpt:
-      "India's rapidly growing corporate sector has become an attractive target for industrial espionage. Understanding the threat and how TSCM countermeasures work is the first step to protecting what matters.",
+      "India has no trade secrets statute, no reliable figure for what corporate espionage costs, and no reported criminal judgment for the theft of business information. This guide sets out what the law does protect, what the courts have actually enforced, and what a sweep does and does not reach.",
     date: "2025-04-20",
-    readTime: "7 min read",
+    dateModified: "2026-10-03",
+    readTime: "11 min read",
     category: "Corporate Security",
     coverImage: "/images/blogs/image_3.png",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Reviewing how a confidential discussion is protected?",
+      text: "If a specific negotiation, boardroom or project is the concern, a private consultation can help you work out which layer the risk actually sits in and whether a sweep is part of the answer. Please get in touch from a phone you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/corporate-espionage-india",
+          name: "Corporate Espionage in India: What the Law Actually Protects",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/image_3.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#article",
+          headline: "Corporate Espionage in India: What the Law Actually Protects",
+          description:
+            "Corporate espionage in India: why there is no trade secrets statute, what the courts actually enforce, why post-employment non-competes fail, and the evidence rule that changed in 2024.",
+          datePublished: "2025-04-20",
+          dateModified: "2026-10-03",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Corporate espionage" },
+            { "@type": "Thing", name: "Trade secret" },
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Corporate Espionage in India" },
+          ],
+        },
+        faqJsonLd(corporateEspionageFaqs, "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#faq"),
+      ],
+    },
     content: `
-      <p>India's economic growth has created a competitive environment where information is among the most valuable assets a company holds. Merger discussions, acquisition targets, product launch timelines, client lists, pricing models: this data can be worth crores in the wrong hands. Technical Surveillance Counter-Measures (TSCM) is the discipline that protects it.</p>
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> India has no dedicated trade secrets statute. Confidential business information is protected by contract, by the equitable action for breach of confidence, and by a scattering of criminal and Information Technology Act provisions. Courts protect a secret you can identify precisely and show you took steps to keep. They refuse where the claim is a vague assertion over customer contact details.</p>
+      </div>
 
-      <h2>The Threat Landscape in India</h2>
-      <p>Corporate espionage in India takes several forms. The most prevalent:</p>
-      <ul>
-        <li><strong>Planted electronic devices</strong> in boardrooms, executive offices, and hotel meeting rooms used for sensitive negotiations.</li>
-        <li><strong>GPS vehicle tracking</strong> used to map the movements of senior executives and identify undisclosed business visits.</li>
-        <li><strong>Telephone and VoIP interception</strong>: particularly relevant for businesses that discuss strategy over unencrypted calls.</li>
-        <li><strong>Insider threats</strong>: employees approached by competitors to install surveillance hardware, often in exchange for financial incentives.</li>
-      </ul>
+      <p>Most pages on this subject open with a number: what corporate espionage supposedly costs Indian business every year. This one does not, because no such number exists in any form worth repeating. What follows instead is the legal position, what Indian courts have actually done when companies brought these claims, and an honest account of where the criminal route stops.</p>
 
-      <h2>High-Risk Sectors</h2>
-      <p>Certain industries face disproportionate exposure to electronic surveillance threats in India:</p>
-      <ul>
-        <li><strong>Real estate and construction</strong>: land acquisition discussions and tender information are high-value targets.</li>
-        <li><strong>Pharmaceutical and biotech</strong>: clinical trial data, regulatory submissions, and pricing strategy.</li>
-        <li><strong>Financial services</strong>: deal flow, client relationships, and fund positioning.</li>
-        <li><strong>Entertainment and media</strong>: content distribution rights, talent negotiations, and upcoming production details.</li>
-        <li><strong>Legal and advisory</strong>: client matter discussions that, if intercepted, can destroy privileged relationships.</li>
-      </ul>
+      <p>The vocabulary is worth settling first, because it is used loosely everywhere else. The Law Commission of India distinguishes these terms by who is doing it. In economic espionage the actor targeting a company or a government entity to take its trade secrets is a foreign government. In industrial espionage the actor is another company or commercial entity. Misappropriation of trade secrets, which is what most Indian businesses are actually worried about, is a third thing again and is usually committed by somebody who was given the information in the ordinary course of work. These are not interchangeable, and the remedies differ.</p>
 
-      <h2>What a Professional TSCM Programme Looks Like</h2>
-      <p>Effective protection is not a single sweep. It is an ongoing programme. Our recommended approach for corporate clients:</p>
-      <ul>
-        <li><strong>Pre-event sweeps</strong>: conducted before board meetings, investor presentations, and major negotiations. Typically 2–4 hours for a full floor sweep.</li>
-        <li><strong>Quarterly baseline sweeps</strong>: establishes what is normal in your environment, making anomalies immediately apparent.</li>
-        <li><strong>Vendor and visitor protocols</strong>: physical inspection of maintenance work and unattended visitor periods.</li>
-        <li><strong>Vehicle sweeps</strong>: GPS device checks for executive vehicles before critical travel.</li>
-      </ul>
+      <h2>There is no reliable figure for what this costs, and that is a finding</h2>
+      <p>Three statistics circulate in Indian coverage of this subject: that a third of companies have been involved in some form of espionage, that business espionage ranks around ninth among threats to Indian companies with only a fraction of cases detected, and that losses run as high as a given percentage. All three appear in the Law Commission's own report, and the report's footnotes show what they rest on: two newspaper articles, one from 2010 and one from 2018. Neither underlying survey is identified anywhere by title, year, sample or method.</p>
+      <p>The Commission then says the quiet part itself. Its report records that because of the inherent nature of corporate espionage, there is no reporting, leading to an absence of cases in this regard. That is India's law reform body stating that the conduct is not reported and therefore cannot be counted. It is a better sentence for a business to act on than any figure, and it is why this page carries none.</p>
+      <p>One related caution. Reports on the cost of a data breach are not measurements of corporate espionage. They measure incident response, notification, customer churn and regulatory cost after a breach, usually from vendor-sponsored surveys. Borrowing those numbers to describe espionage is a category error that appears constantly in this niche.</p>
 
-      <h2>What TSCM Cannot Do</h2>
-      <p>A physical sweep detects and neutralises electronic surveillance devices present at the time of the sweep. It does not protect against cyber intrusion, compromised telecommunications infrastructure, or human intelligence (insider threats). A comprehensive security programme addresses all three layers (physical, electronic, and human), but TSCM is the foundation, because without controlling the physical environment, all other security measures can be circumvented.</p>
+      <h2>What actually protects confidential business information</h2>
+      <p>The World Intellectual Property Organization's country overview puts it plainly: there is no separate and exclusive statute to protect undisclosed information or trade secrets in India. Protection comes instead from three directions. Contract does most of the work, through confidentiality clauses and non-disclosure agreements, with damages for breach and injunctions available. Where there is no contract, the equitable action for breach of confidence is the remedy. And a set of criminal and Information Technology Act provisions apply in particular circumstances.</p>
+      <p>The Law Commission's own summary of the position is that the law as it stands is fragmented and difficult to navigate. In <a href="https://lawcommissionofindia.nic.in/report_twentysecond/" rel="noopener noreferrer" target="_blank">Report No. 289 of March 2024</a> it recommended a dedicated statute and annexed a draft Protection of Trade Secrets Bill, and separately recommended a second law on economic espionage, on the reasoning that fines and damages lack deterrent impact where a foreign state is the actor. Neither has been enacted, and no such bill appears on the PRS legislative tracker as at October 2026. A parliamentary standing committee had made a similar recommendation in 2021, and a National Innovation Bill drafted in 2008 was never enacted either.</p>
 
-      <p>Our corporate TSCM clients receive a detailed written report after every sweep, documenting the areas covered, equipment deployed, findings, and recommendations. This report can be shared with legal counsel and used as evidence if a device is discovered and prosecution is pursued.</p>
+      <h2>What the courts have actually done</h2>
+      <p>Four Delhi High Court matters set the shape of this, and the pattern across them is more useful than any one of them.</p>
+      <p>In <a href="https://indiankanoon.org/doc/1023088/" rel="noopener noreferrer" target="_blank">Diljeet Titus v. Alfred A. Adebare</a>, decided on 8 May 2006, departing associates of a law firm were restrained from using material they had copied, including the client database. Two things in that judgment are routinely overstated by people citing it. It is an interim order on an injunction application, not a final decree. And it draws a line that cuts against the employer: the court said it was possible that part of the information was retained in the defendants' memory, and if that was used no grievance could be made, which is different from a copy made of the list. They remained free to practise and to use what they had mentally retained.</p>
+      <p>A fortnight later, in <a href="https://indiankanoon.org/doc/445135/" rel="noopener noreferrer" target="_blank">American Express Bank v. Priya Puri</a>, decided on 24 May 2006, the same court refused an injunction against a departing head of wealth management. Customer names, addresses and financial details were held not to be trade secrets on those facts, being obtainable independently at small expense. The court said a trade secret is something like a formula, technical know-how or a peculiar mode of business unknown to others, and that routine day to day affairs known to many are not. Its warning about what the bank was really asking for is worth quoting in substance: an injunction of that kind would create a position of once a customer of the bank, always a customer, and in the garb of confidentiality the employer could not be allowed to perpetuate forced employment.</p>
+      <p>In <a href="https://indiankanoon.org/doc/65671346/" rel="noopener noreferrer" target="_blank">Stellar Information Technology v. Rakesh Kumar</a>, decided on 29 August 2016, interim relief was again refused, and the court made the structural point: by expanding the definition of confidential information to include material in the public domain, the employer was not protecting proprietary information but seeking a restraint on trade, which is void. An over-broad confidentiality clause does not protect more. It risks protecting nothing.</p>
+      <p>The fourth is a trap for anyone reading older commentary. In Navigators Logistics v. Kashif Qureshi, a single judge rejected the plaint outright in September 2018, holding among other things that the plaintiff had not identified the author of the compilation it claimed copyright in, and that its confidentiality pleading was too vague to put to trial. That judgment is quoted everywhere as settled law. It was <a href="https://indiankanoon.org/doc/97547525/" rel="noopener noreferrer" target="_blank">set aside on appeal on 20 November 2024</a>, by a Division Bench which held that the court had gone beyond the plaint and relied on material that belonged at trial, and restored the suit. Only the finding that the post-employment non-compete was void survived. Anyone citing the 2018 reasoning as current authority is working from a judgment that no longer stands.</p>
+      <p>The pattern is consistent and it is the practical lesson. Courts protect confidential information where the claimant identifies the secret with precision and can show the steps it actually took to keep it secret. They refuse where the claim is a general assertion over customer contact data dressed up as a trade secret. Which means the security measures you can evidence are not merely operational hygiene. They are part of what makes the information legally protectable in the first place.</p>
+
+      <h2>Post-employment non-competes do not work in India</h2>
+      <p>This is the single most misreported point in Indian commercial content. Section 27 of the Indian Contract Act, 1872 makes an agreement restraining anyone from exercising a lawful profession, trade or business void to that extent. A negative covenant operating during the employment can be enforced. A restraint operating after the employment ends is void.</p>
+      <p>The Law Commission's report sets out the position: the Supreme Court upheld a covenant restricting an employee during the term of the contract, and in a later judgment distinguished covenants during employment from covenants after it, holding the latter void. That interpretation, the Commission records, has been uniform and consistent from 1874 onwards, followed by all the High Courts and expressly reaffirmed by the Supreme Court, and in an overwhelming majority of decisions courts have refused to restrain a former employee from joining a competitor.</p>
+      <p>The notion that a post-employment restraint survives if it is reasonable in duration and geography is English law. It is not Indian law, and an Indian employment contract drafted on that assumption is likely to be unenforceable in the part that matters most.</p>
+
+      <h2>The criminal route, and where it actually stops</h2>
+      <p>Several provisions are available, and each has a catch worth knowing.</p>
+      <p>Criminal breach of trust under section 316 of the Bharatiya Nyaya Sanhita, 2023 is usually the strongest fit for an employee, because it turns on entrustment and on dishonest use in violation of a legal contract touching the discharge of that trust, which maps directly onto a confidentiality clause. Where the person is a clerk or servant it carries up to seven years. Theft is a poorer fit, because theft requires movable property, and whether information is movable property has never been settled by an Indian court. The nearest Supreme Court authority points the other way: in a 1964 decision the Court observed that electricity is not movable property and that abstracting it was an offence only because the Electricity Act created one by a statutory fiction. No Indian statute creates such a fiction for data.</p>
+      <p>On the technology side, section 43(b) of the Information Technology Act, 2000 covers downloading, copying or extracting data without the permission of the owner, and section 66 makes doing so dishonestly or fraudulently criminal. Two corrections are due here, because both errors are widespread. Section 43 is a civil provision adjudicated by an adjudicating officer, with section 66 as its criminal counterpart, and an Indian company therefore has a statutory compensation route as well as a police complaint. And section 72, which many pages offer as the remedy for employee leaks, applies to people who secured access through powers conferred under the Act, meaning officials and certifying authorities. It does not apply to an ordinary employee.</p>
+      <p>Then the honest part. We could not establish that any Indian criminal prosecution for the theft or misappropriation of business information has reached a reported judgment, in either direction. The matters on the public record stop at first information report, chargesheet, or proceedings being quashed. The most publicised Indian case of this kind, arising from documents taken from central ministry offices in Delhi in February 2015, is instructive precisely because of how it is usually described. It is commonly presented as an Official Secrets Act prosecution. On the record of the first information report and the chargesheet, the charges were ordinary provisions on trespass, theft, cheating, forgery, receiving stolen property and conspiracy, and the Act was not invoked. A tribunal order of January 2019, in service proceedings brought by one of the suspended employees, records the matter as still pending almost four years after the arrests. No conviction, acquittal or discharge has been publicly reported since. We name no individuals here: every person involved was an accused, and nothing against any of them appears to have been judicially established.</p>
+
+      <h2>The evidence rule changed in 2024, and most advice has not caught up</h2>
+      <p>If you recover a device, a camera or a storage medium, what it holds is admissible only with a statutory certificate. Almost every page on this subject, and a great deal of Indian legal commentary, still refers to section 65B of the Indian Evidence Act, 1872. That Act was replaced by the <a href="https://egazette.gov.in/WriteReadData/2023/250882.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Sakshya Adhiniyam, 2023</a> with effect from 1 July 2024, and the governing provision is now section 63.</p>
+      <p>The differences are practical. The certificate has to be submitted along with the electronic record at each instance it is tendered for admission, rather than once. It must be signed by the person in charge of the device or of the relevant activities and also by an expert. And it has to be in the form set out in the Schedule, which has a part for the person in charge and a part for the expert, and which requires the device make, model and identifying number along with the hash value of the record, with the algorithm named and the hash report enclosed.</p>
+      <p>The consequence for anyone who finds something is simple. A recovered device is worth what its chain of custody and its hash are worth. That is the real reason not to pull a device apart, hand it around the office or let building staff take it away, and it is a better reason than any assurance about reports.</p>
+
+      <h2>Three layers, and what a sweep actually reaches</h2>
+      <p>Protection here divides into three layers that behave differently, and being honest about which one a sweep addresses is more useful than claiming it is the foundation of everything.</p>
+      <p>The first layer is physical and electronic surveillance of a space: a device placed in a room, a vehicle or a fitting. This is what technical surveillance countermeasures address. It is also the layer where the law is clearest, because unlawful interception of a message is an offence under the Telecommunications Act, 2023, which carries up to three years or a substantial fine, and which came into force in June 2024.</p>
+      <p>The second layer is intrusion into systems, where the microphone is already in the room because it belongs to a laptop or a conferencing unit, and the audio leaves inside ordinary encrypted traffic. No radio sweep detects that. Our <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> goes into why that is now the likelier threat in a modern office.</p>
+      <p>The third layer is the insider, and it has no technical countermeasure at all. What it has is governance, and Indian law already requires some of it. The rules defining reasonable security practices under the Information Technology Act expressly include physical security control measures alongside managerial, technical and operational ones, which gives a physical security programme a legal footing rather than merely a prudential one. And a listed company is already required, under the insider trading regulations, to maintain a structured digital database recording who unpublished price sensitive information was shared with, maintained internally with time stamping and audit trails and preserved for at least eight years. That register is exactly the record that makes a leak investigable, and no sweep substitutes for it.</p>
+      <p>One last caution about expectations. Even a Supreme Court appointed technical committee, examining devices in the Pegasus matter, reported finding malware in five of the twenty nine devices it examined while being unable to confirm what it was. Detection and attribution are different problems, and attribution is frequently not achievable. Any firm that promises to tell you who was listening is promising something the best resourced investigations in the country have not delivered.</p>
+
+      <h2>What a sweep can and cannot establish</h2>
+      <p>A sweep reports what was found in the areas examined, by the methods used, at the time of the visit. It cannot prove a room has never been compromised and it cannot keep it clean afterwards. Against the three layers above, it addresses the first and leaves the second and third to other disciplines. If the concern is a specific negotiation or boardroom, our <a href="/blog/bug-sweeping-in-india">national guide</a> sets out what a sweep involves, and the <a href="/locations">location pages</a> cover how reporting and local rules differ by state.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(corporateEspionageFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Statutory provisions were checked against the official gazette texts of the Bharatiya Nyaya Sanhita, 2023 and the Bharatiya Sakshya Adhiniyam, 2023 and the consolidated Information Technology Act, 2000, and the judgments against their reported texts, on 3 October 2026. This is general information and not legal advice. Take advice about your own situation before acting, and confirm current details with the linked sources.</p>
+      </div>
     `,
   },
   {
     slug: "vehicle-gps-tracking",
-    title: "GPS Tracking Devices on Vehicles: Signs, Risks & How to Find Them",
+    title: "GPS Trackers on Vehicles: How They Are Actually Found, and the Law in India",
+    seoTitle: "GPS Tracker on Car: How to Find One, and the Law in India",
+    metaDescription:
+      "GPS tracker on your car: why phone alerts only catch some devices, why radio detection usually fails, how these are really found, and what Indian law does and does not cover.",
     excerpt:
-      "A GPS tracker smaller than a matchbox can be magnetically attached to your vehicle in under 30 seconds. Here's how to know if you're being tracked, and what a professional sweep actually involves.",
+      "Phone alerts now catch some Bluetooth tags, but no phone detects a cellular tracker, and radio detection misses more than it finds. This guide explains what each device actually emits, how the documented Indian cases were really discovered, and where the law has a gap.",
     date: "2025-05-05",
-    readTime: "5 min read",
+    dateModified: "2026-10-03",
+    readTime: "11 min read",
     category: "Vehicle Sweeps",
     coverImage: "/images/blogs/image_4.png",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried that a vehicle is being followed?",
+      text: "If a specific vehicle and a specific period of access are the concern, a private consultation can help you decide what a check should cover and what it can realistically establish. Please get in touch from a phone you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking",
+          name: "GPS Tracker on Car: How to Find One, and the Law in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/image_4.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#article",
+          headline: "GPS Trackers on Vehicles: How They Are Actually Found, and the Law in India",
+          description:
+            "GPS tracker on your car: why phone alerts only catch some devices, why radio detection usually fails, how these are really found, and what Indian law does and does not cover.",
+          datePublished: "2025-05-05",
+          dateModified: "2026-10-03",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "GPS tracking device" },
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "GPS Trackers on Vehicles" },
+          ],
+        },
+        faqJsonLd(vehicleTrackerFaqs, "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#faq"),
+      ],
+    },
     content: `
-      <p>GPS tracking devices have become extraordinarily small, inexpensive, and long-lasting. The latest generation of covert trackers operate for 60–90 days on a single charge, transmit real-time location data over GSM networks, and cost less than ₹3,000. They can be attached to any metal surface on a vehicle in seconds, with no access to the interior required.</p>
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> A phone will warn you about some Bluetooth item trackers and about none of the cellular ones. Radio detection only works while a device is transmitting, and these are built to stay silent. In every documented Indian case, the tracker was found by physical inspection, usually at a workshop. A silent phone and a clean radio scan are not the same thing as a clean car.</p>
+      </div>
 
-      <h2>Who Plants Vehicle GPS Trackers?</h2>
-      <p>The motivations are varied:</p>
-      <ul>
-        <li><strong>Business rivals</strong> tracking executive movements to identify undisclosed client visits, supplier meetings, or acquisition target locations.</li>
-        <li><strong>Domestic and personal disputes</strong>: tracking a partner's or family member's movements without consent.</li>
-        <li><strong>Stalking and harassment</strong>: the ease of GPS deployment has made vehicle tracking a common tool in stalking cases.</li>
-        <li><strong>Pre-crime intelligence</strong>: criminal groups tracking high-value targets (cash movements, jewellery transport) before an assault.</li>
-      </ul>
+      <p>The phrase that causes most of the confusion here is "GPS detector". A tracker does not transmit GPS. It receives it, passively, the way a radio receives a broadcast, and that reception emits nothing at all. What a tracker does transmit is a report to a mobile network, and only when it has something to send. Everything useful about finding one follows from that distinction, and almost no page on this subject makes it.</p>
 
-      <h2>Common Hiding Locations</h2>
-      <p>Our vehicle sweep technicians find GPS trackers most frequently in these locations:</p>
-      <ul>
-        <li><strong>Under the chassis</strong>: the magnetic base grips any flat metal surface; the device is invisible from outside the vehicle.</li>
-        <li><strong>Inside the wheel wells</strong>: protected from weather and hidden from view even during a casual under-vehicle inspection.</li>
-        <li><strong>Behind the front and rear bumpers</strong>: particularly popular because GPS signals penetrate plastic.</li>
-        <li><strong>Inside the OBD-II port</strong>: a self-powered tracker that draws power directly from the vehicle's diagnostic port, typically located below the dashboard.</li>
-        <li><strong>Inside the boot/trunk</strong>: particularly in larger vehicles where access is easier during a valet or service visit.</li>
-      </ul>
+      <p>There are three device classes and they behave so differently that advice written for one is misleading for another. A <strong>consumer Bluetooth item tracker</strong>, such as an AirTag or a similar tag, is cheap, has no SIM, and reports its position by borrowing passing phones. A <strong>cellular tracker</strong> carries its own SIM, is usually battery powered with a magnet or wired into the vehicle, and uploads over the mobile network. A <strong>passive logger</strong> stores positions to internal memory and transmits nothing whatever, so somebody has to come back and collect it. The detection method that works against the first is useless against the third.</p>
 
-      <h2>Signs You May Have a Tracker</h2>
-      <ul>
-        <li>Someone who should not know your routine demonstrates awareness of your movements.</li>
-        <li>Your vehicle was recently valet-parked, serviced, or left unattended in a public space for an extended period.</li>
-        <li>You have recently ended a high-conflict relationship or business partnership.</li>
-        <li>You carry or transport high-value assets on a regular schedule.</li>
-      </ul>
+      <h2>What your phone will and will not tell you</h2>
+      <p>This is the one area where things have genuinely improved. Apple and Google proposed a joint specification for detecting unwanted location trackers in May 2023 and shipped it on 13 May 2024, in iOS 17.5 and on Android 6 and later. It is a real capability and it works.</p>
+      <p>Its limits are set by the platforms rather than by you. Google's own documentation states that unknown tracker alerts work with Find Hub network compatible tags, headphones and Apple AirTags, and the manufacturers it gives switch-off instructions for are a short list. <a href="https://support.google.com/android/answer/13658562" rel="noopener noreferrer" target="_blank">That list does not include Tile, and it does not include Samsung's Galaxy SmartTag.</a> So even within Bluetooth tags, silence from your phone does not mean nothing is there.</p>
+      <p>The conditions are easy to break without realising. Apple's support documentation requires iOS 17.5 or later, Location Services on, <strong>Significant Locations switched on</strong> under System Services, Bluetooth on, tracking notifications allowed, and the phone not in Airplane Mode. Significant Locations is exactly the setting a privacy-minded person turns off. Doing so switches off their own tracker detection, and nothing tells them that.</p>
+      <p>Two further limitations come from Apple itself and deserve to be better known. If an item has been with you overnight, <a href="https://support.apple.com/en-in/119874" rel="noopener noreferrer" target="_blank">its identifier may have changed</a>, and the system uses that identifier to decide that the same item is moving with you, so the detection can break on precisely the device that has been with you longest. And disabling Find My, Bluetooth or Location Services on your own phone does not stop the tag's owner seeing its location. Switching off your own radios protects nobody.</p>
+      <p>Google's manual scan is useful but narrow: it takes about ten seconds, and Google notes that trackers appearing in a manual scan are near you now but may not have been travelling with you. Past alerts are deleted after forty eight hours, so a screenshot at the time is worth more than a memory of it.</p>
+      <p><strong>And no phone alert of any kind detects a cellular tracker.</strong> The alerts work by watching Bluetooth advertisements from tags that participate in a finder network. A device with its own SIM is not advertising to your phone and never appears.</p>
 
-      <h2>What a Professional Vehicle Sweep Involves</h2>
-      <p>A professional vehicle GPS sweep uses the <strong>WolfHound Pro</strong> cellular detector to identify any active GSM transmissions originating from the vehicle, including passive trackers that ping their server periodically. A physical inspection with mirrors, torches, and a borescope camera covers the 40+ common hiding locations on a typical passenger vehicle. Our technicians also check the OBD-II port and inspect the engine bay and spare tyre cavity.</p>
-      <p>The sweep typically takes 45–90 minutes. If a device is found, we document it photographically before removal, providing evidence for any legal or police action you may wish to take.</p>
+      <h2>Why scanning for signals mostly fails</h2>
+      <p>Radio detection can only find a transmitter while it is transmitting, and cellular trackers are designed around not transmitting. Manufacturer documentation for this class of device describes sleep modes in which the positioning receiver is put to sleep and the mobile modem is switched off entirely, with the device storing positions and waking briefly to upload before shutting the modem down again. One consequence the manufacturers state plainly is that you cannot even send the device a message while it is in that state, because its modem is off most of the time.</p>
+      <p>Many deployments are also motion triggered, waking on movement. Put those together and the implication for a sweep is uncomfortable but honest: a parked car being examined for twenty minutes is being examined during exactly the period when a well configured tracker has least reason to say anything. A clean radio result over a short window is weak evidence.</p>
+      <p>The passive logger sets the hard ceiling. It has no modem at all, so there is no emission to detect at any price point, and the only way it is ever found is by somebody looking.</p>
+      <p>Where radio work does have a future, the method is instructive. Researchers at NYU Tandon School of Engineering presented work at a USENIX vehicle security workshop in August 2025 on detecting concealed cellular trackers using an inexpensive handheld spectrum analyser, by monitoring the mobile network uplink bands that the tracker uses to talk to the network, at close range. Note what they watch: not GPS, which the device only listens to, but the device's own transmissions outward. That is the correct mental model for anyone assessing a detection claim.</p>
+
+      <h2>How the Indian cases were actually discovered</h2>
+      <p>Four documented Indian matters make the point better than any argument, because in none of them did a detector find the device.</p>
+      <p>In the murder of a former Haryana MLA at Bahadurgarh in February 2024, a CBI chargesheet filed the following May recorded that his vehicle had been tracked for days using a portable GPS device attached magnetically to the spare wheel, bought from a shop in Delhi and activated using a false identity, with the account accessed from an overseas address. The device was recovered when the vehicle was taken to a dealership for inspection, after the murder, prompted by what the arrested men said. Nobody had checked the car while it mattered.</p>
+      <p>In Delhi in 2025 a portable GPS device was found on a vehicle belonging to a political party's state president, and the trigger was an intercepted phone call rather than any sweep. A police team was sent to conduct an anti sabotage check and found it. The same report carries a detail worth holding on to: in other cases the devices had later been removed by the people who placed them. A covert tracker is often retrieved, which means a sweep conducted after the fact can come back genuinely clean and still not answer the question you are asking.</p>
+      <p>In Ahmedabad in 2023 a woman's iPhone warned her in May that an AirTag was moving with her. The alerts recurred over the following months, including for her driver and her daughter. She raised it with the cyber cell in July, and it was only at the end of August, with help at a car service station, that the tag was located, stuck under the seat cover behind the driver's seat. The platform alert worked and did its job. What it could not do was tell her where the device was. A workshop and a physical search did that.</p>
+      <p>And in Gurugram in 2021 a doctor found a portable tracker, with a SIM inside it, entirely by accident, when her phone slipped from her hand near the gearbox and she saw a box fixed inside the car. She alleged it had been installed with the help of her car dealer, who had access to her keys. Every one of these turns on physical access to the vehicle: a dealership, a service visit, a driver, a valet, somebody with a spare key. That is the thing to audit.</p>
+
+      <h2>What Indian law does and does not cover</h2>
+      <p>Here is the uncomfortable part, and it is stated wrongly almost everywhere. <strong>There is no Indian offence of covertly tracking an adult's location.</strong> Cases are prosecuted by analogy, under provisions written for other things.</p>
+      <p>Stalking under section 78 of the Bharatiya Nyaya Sanhita, 2023 is the provision usually cited, and it carries real limits on its own words. It opens with "any man who" and protects "a woman", so it is gender specific in both directions: a man who finds a tracker, or a woman tracked by another woman, or a company director tracked by a competitor, is outside it. Its first limb requires following together with repeated attempts at contact, which a silent tracker generating no contact does not obviously satisfy. Its second limb covers monitoring a woman's use of the internet, email or other electronic communication, which is not the same as monitoring where her car is. Where tracking is accompanied by calls, messages or someone turning up, the provision becomes much stronger.</p>
+      <p>The provisions that fit the physical act better are less glamorous. Criminal trespass under section 329 is gender neutral and covers entering upon property in another's possession with intent to commit an offence or to intimidate, insult or annoy, which is a low threshold. Its penalty is small, up to three months or a fine of five thousand rupees, and because a car is not a dwelling the heavier house trespass penalty does not apply. If installing the device involved cutting or splicing, as a hardwired unit would, mischief may also be available.</p>
+      <p>One correction worth making, because Indian reporting repeats it. Section 66E of the Information Technology Act is sometimes cited in tracker cases, including in the Ahmedabad matter. On its own text that section requires the image of a private area, as the section exhaustively defines that term. It does not cover location data, and a charge under it for a Bluetooth tag looks hard to sustain. A better argument exists for a device plugged into a vehicle's diagnostic port, which can be framed as access to a computer resource without the owner's permission under sections 43 and 66, but we have found no Indian judgment applying those sections to a vehicle, so treat it as arguable rather than settled. A magnet stuck to the chassis touches no computer resource at all.</p>
+
+      <h2>Reporting it, and the fourteen day rule nobody mentions</h2>
+      <p>Report to the local police, not to 1930. That helpline is for urgent financial cyber fraud, and a device bolted to a car is the wrong desk for it. Use the national cyber portal only if there is a genuine electronic element alongside, such as an account compromise.</p>
+      <p>Section 173(1) of the Bharatiya Nagarik Suraksha Sanhita, 2023 lets information about a cognizable offence be given at any police station irrespective of where the offence was committed, orally or by electronic communication, with an electronic report to be signed within three days, and section 173(2) entitles you to a free copy forthwith. Where a woman gives information about a section 78 offence, the proviso requires it to be recorded by a woman police officer or any woman officer.</p>
+      <p>The provision worth knowing in advance is section 173(3). For a cognizable offence punishable with three years or more but less than seven, the station officer may, with prior permission from an officer not below Deputy Superintendent rank, conduct a preliminary enquiry for up to fourteen days to see whether a prima facie case exists, instead of registering a case immediately. Stalking under section 78 carries up to three years on a first conviction, which puts it inside that band. So being told the matter will be looked into first is not necessarily obstruction. Ask whether a preliminary enquiry under section 173(3) has been authorised, and by whom. If information is refused altogether, section 173(4) lets you send the substance in writing by post to the Superintendent of Police, and if that fails, to apply to a Magistrate.</p>
+      <p>On identifying the owner, both platforms route this through the police rather than through you. Apple says law enforcement can request available information to support an investigation, and Google says the same. There is one trap in the sequence. Google's documentation notes that some trackers, if switched off, may be factory reset and no longer linked to their original owner, in which case law enforcement cannot establish who owned it. Switching the device off protects your movements and can destroy the attribution at the same time. Google declines to give a blanket instruction for exactly this reason, noting that you may prefer to leave a tracker on if turning it off could be unsafe. Photograph it in place, record where it was, and take advice before disturbing it.</p>
+
+      <h2>Why a jammer is not an answer</h2>
+      <p>People reach for this quickly and it is worth being unambiguous. The Department of Telecommunications advisory publicised by the Press Information Bureau in July 2022 states that the use of a cellular signal jammer, GPS blocker or other signal jamming device is generally illegal except as specifically permitted by the Government of India, that private sector organisations and private individuals cannot procure or use jammers in India, and that advertising, selling, distributing or importing them is unlawful.</p>
+      <p>The operative policy has moved on since, which most pages have not noticed: the current jammer guidelines, updated at the end of December 2025, confine procurement to central ministries, state governments and union territory administrations, the defence forces, central armed police forces and security agencies under government control, through two designated public sector undertakings, with model approval by a board of officers. There is no route by which a private individual lawfully obtains one. Enforcement sits with the wireless wing of the Department of Telecommunications, which can seize equipment and have a case registered.</p>
+      <p>There is also a practical reason the advice is bad. Delhi police reporting in 2023 described a car theft gang using jammers to defeat tracking on stolen vehicles, and noted that jammers are bought by people who suspect they are being followed. Using one puts you in the same legal category as the people stealing the cars, and it does nothing about a logger that was never transmitting.</p>
+
+      <h2>What a vehicle check can and cannot establish</h2>
+      <p>A vehicle check reports what was found in the areas examined, by the methods used, at the time of the visit. Against this threat it is mostly a physical search, because that is what actually works: the documented cases were resolved at workshops and by hand, not by instruments. It cannot establish that a device was never fitted, since trackers are routinely retrieved by whoever placed them, and it cannot establish that nothing is recording without transmitting beyond the areas that were opened and examined.</p>
+      <p>The more useful question is usually access. Who has had the keys, when was the car last serviced or valet parked, and who had an unsupervised period with it. Our <a href="/blog/bug-sweeping-in-india">national guide</a> sets out how a sweep is scoped, the <a href="/blog/how-to-detect-hidden-cameras">guide to hidden cameras</a> covers the same reasoning for rooms, and the <a href="/locations">location pages</a> cover how reporting differs by state.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(vehicleTrackerFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Statutory provisions were checked against the official gazette texts of the Bharatiya Nyaya Sanhita, 2023 and the Bharatiya Nagarik Suraksha Sanhita, 2023, the platform behaviour against Apple's and Google's own support documentation, and the jammer position against the Press Information Bureau release and the current Cabinet Secretariat guidelines, on 3 October 2026. This is general information and not legal advice. Take advice about your own situation, and confirm current details with the linked sources.</p>
+      </div>
     `,
   },
   {

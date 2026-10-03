@@ -2,7 +2,7 @@
   {
     "slug": "how-to-detect-hidden-cameras",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras",
-    "page_type": "concept-spoke",
+    "page_type": "concept-pillar",
     "location": {
       "city": "",
       "district": "",
@@ -10,74 +10,144 @@
     },
     "primary_keyword": "how to detect hidden cameras",
     "secondary_keywords": [
-      "hidden camera in hotel room",
-      "hidden camera detector"
+      "how to detect hidden cameras in hotel room",
+      "how to find hidden camera in mirror",
+      "can a hidden camera work without wifi",
+      "do hidden cameras need wifi",
+      "do hidden camera detector apps work",
+      "how to detect hidden camera with phone",
+      "is hidden camera legal in india",
+      "what does a hidden camera screw look like",
+      "hidden camera in hotel news india"
     ],
     "h2_outline": [
-      "Common Hiding Spots",
-      "What Consumer Detectors Miss",
-      "The Professional Difference",
-      "Practical Steps You Can Take"
+      "Where cameras have actually been found in India",
+      "What the checks on your phone can and cannot do",
+      "Can a hidden camera work without Wi-Fi?",
+      "What professional instruments add, and what they do not",
+      "The law: two sections that protect different people",
+      "If you find a camera: what to do, and the number not to call",
+      "What a sweep can and cannot establish",
+      "Frequently asked questions"
     ],
-    "structure_pattern": "pre-engine legacy post",
-    "compared_against": [],
-    "main_device": "bulleted lists",
-    "information_gain": "",
-    "internal_links_out": [],
-    "gate_decision": "existing post, pre-engine",
+    "structure_pattern": "Grounded in documented Indian cases first, then a method-by-method honesty pass over each phone check, then the storage question that decides whether any of them can work, then instrument classes with their documented limits, then a two-column statutory comparison table, then the response procedure. Deliberately not the competitor shape, which is a hiding-place list followed by phone tips.",
+    "compared_against": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india",
+      "/blog/bug-sweeping-in-mumbai"
+    ],
+    "main_device": "statutory comparison table plus per-method capability and limitation analysis",
+    "information_gain": "Sets out that the two Indian provisions in play protect different people and leave two named gaps, verified from the gazette texts: BNS section 77 is limited by its own words to a woman but criminalises watching alone and carries a one year minimum, while IT Act section 66E is gender neutral but confined to the image of a private area as exhaustively defined and carries no minimum, so a man who finds a camera in a hotel bathroom has no voyeurism offence available and nobody of any gender is protected by either section against covert audio. Adds the procedural rights from BNSS section 173: a zero first information report irrespective of where the offence happened, information by electronic communication signed within three days, the proviso naming section 77 that requires a woman officer to record a woman's information, and a free copy forthwith under 173(2). Corrects the most repeated error in Indian advice on this subject, that 1930 is the number to call, when the Indian Cybercrime Coordination Centre's own guidance scopes it to financial cyber fraud and asks callers for transaction details. Establishes that no central Indian rule requires hotels to disclose or prohibit cameras in guest rooms, from the Ministry of Tourism's voluntary classification scheme and the Ministry of Home Affairs' 2015 answer to Parliament that policing and public order are state subjects. On the technical side it replaces the unconditional infrared claim with the manufacturer position, including Apple's written statement that some cameras might detect infrared light, and the decisive point that the test can only find illuminators that are switched on; debunks thermal seeing through walls from the thermal manufacturer's own published answer, which also establishes that a camera behind glass or a mirror is thermally invisible; explains that non-linear junction detectors find silicon rather than cameras and that the manufacturer's own manual disclaims any guarantee of performance against hidden devices; and explains why a Wi-Fi scan misses a memory card camera, a camera in its own access point mode, and anything on the building's own network, with Android MAC randomisation since Android 10 having broken the vendor prefix lookup.",
+    "internal_links_out": [
+      "/locations",
+      "/blog/bug-sweeping-in-india",
+      "/blog/signs-your-office-is-bugged",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "REPLACE on the existing slug after an intent review of the live page. One thing on the old page was correct and is carried forward and strengthened: that consumer detectors fail against a camera recording passively to a memory card. Everything else was replaced. Reclassified from concept-spoke to concept-pillar, at about 3,000 words of prose, which is within the pillar range of 2,000 to 3,000. Four Indian cases are used in place of a generic hiding-place list, each chosen for a lesson the standard advice misses.",
     "status": "published",
     "review": {
       "status": "awaiting",
-      "reviewer": "",
+      "reviewer": "Hardesh Bhardwaj",
       "date": "",
       "approved_version": ""
     },
     "date_published": "2025-03-18",
-    "date_modified": "",
-    "notes": "Pre-engine content. Contains claims needing evidence review (same-day emergency sweeps across India, detection range figures, price under Rs 1,000). Date provenance to confirm with owner (Section 20 item 4).",
-    "revisions": []
+    "date_modified": "2026-10-03",
+    "notes": "Rebuilt 3 Oct 2026. Legal points verified at primary source by the research pass: BNS 2023 from the Gazette of India CG-DL-E-25122023-250883, commencement from MHA S.O. 850(E) appointing 1 July 2024, BNSS 2023 from CG-DL-E-25122023-250884, and IT Act section 66E from the India Code consolidated text with its 27 October 2009 insertion. Deliberately not published: whether BNS 77 is bailable, because the BNSS First Schedule column alignment could not be read reliably; any coverage count for 112, because the Ministry of Home Affairs page gives none and the only sourced figure is seven years old; the 850 and 940 nanometre infrared wavelength distinction, because no primary emitter datasheet was obtained; a lens detector false positive rate, because the one academic treatment is paywalled, so the limitation is given as a consequence of the retroreflection geometry instead; and the admissibility of covert footage in evidence, which is a repeatedly observed search intent but was outside the research scope and is not answered from reasoning. Three news hyperlinks were written during drafting and removed before publication because the URLs had been constructed rather than verified; those cases are now attributed in prose by outlet and date only. The five surviving external links were tested: Apple and Android return 200, both gazette PDFs return 200 and parse as 102 and 249 page PDFs, and the thermal manufacturer page returns 403 to automated requests through bot protection although its content was fetched and quoted verbatim during research. Search discovery is autocomplete only, observed 3 Oct 2026 across Google India locale and Bing en-IN; no People Also Ask or related searches block could be observed and none was invented. Hinglish completions were observed to be live but no Hinglish content was written, because the engine specifies English only. Two cases were used with care: a Madhya Pradesh changing room report whose cited section numbers do not exist as given, used as an illustration that reporting misstates the law, and a 2022 university case where the allegation that drove national protest was not borne out by the police investigation, used narrowly to make the point that numbers circulate faster than investigations correct them. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px at mobile, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, JSON-LD valid with seven FAQ questions matching seven visible. One promotional-claim flag reviewed in context and passed: the word guarantee appears only in reporting a manufacturer's own disclaimer that it makes no guarantee about its unit's performance, which the engine permits as an accurate limitation.",
+    "revisions": [
+      {
+        "date": "2026-10-03",
+        "action": "replaced",
+        "previous_state": {
+          "page_type": "concept-spoke",
+          "primary_keyword": "how to detect hidden cameras",
+          "structure_pattern": "pre-engine legacy post",
+          "information_gain": "",
+          "status": "published",
+          "date_published": "2025-03-18"
+        },
+        "reason": "Rebuilt in full. The previous version was about 624 words of body content and carried claims the site's evidence record does not permit: a certified TSCM sweep, a named thermal camera brand and a spectrum analyser range presented as equipment in use (site-facts row 9 permits instrument classes only), same-day emergency sweeps across India (rows 7 and 12), zero disclosure of the engagement, an experience line about what our technicians consistently find over hundreds of sweeps when field-notes.md is empty, an invented device price, and the technically false claim that thermal imaging reveals heat through walls and ceilings. It stated that phone cameras often detect infrared, with no condition attached. It cited no law at all and gave no reporting route."
+      }
+    ]
   },
   {
     "slug": "signs-your-office-is-bugged",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged",
-    "page_type": "concept-spoke",
+    "page_type": "concept-pillar",
     "location": {
       "city": "",
       "district": "",
       "state": ""
     },
     "primary_keyword": "signs your office is bugged",
-    "secondary_keywords": [],
-    "h2_outline": [
-      "1. Competitors React to Information Only You Should Have",
-      "2. Unusual Objects Have Appeared in the Room",
-      "3. Your Phone or Video Conferencing Equipment Behaves Strangely",
-      "4. Unusual Radio Frequency Activity",
-      "5. You Have Recently Hosted External Visitors in Your Boardroom",
-      "What to Do"
+    "secondary_keywords": [
+      "how to tell if your office is bugged",
+      "is my office bugged",
+      "how to tell if your phone is tapped",
+      "signs your phone is tapped",
+      "*#21# phone tapped",
+      "do bug detector apps work",
+      "how to detect listening devices in office",
+      "what can a bug sweep find"
     ],
-    "structure_pattern": "pre-engine legacy post, numbered listicle",
-    "compared_against": [],
-    "main_device": "numbered signs",
-    "information_gain": "",
-    "internal_links_out": [],
-    "gate_decision": "existing post, pre-engine",
+    "h2_outline": [
+      "Which classic signs survive scrutiny",
+      "Why clicks and static are not evidence of a tap",
+      "Does *#21# show whether your phone is tapped?",
+      "The one sign with real physics behind it, and why it has faded",
+      "Why detector apps on a phone cannot do this",
+      "What actually changes the risk: who had access to the room",
+      "When a leak really is evidence",
+      "The threat a modern office is more likely to face",
+      "What a sweep can and cannot establish",
+      "If you think you have found something",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Myth versus reality verdict table as the main explanatory device, then a sourced mechanism section per debunked sign, then the two indicators that do carry weight, then limitations and a safety-first response procedure. Deliberately not a listicle of warning signs, which is the form every inspected competitor page takes.",
+    "compared_against": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/corporate-espionage-india"
+    ],
+    "main_device": "myth versus reality verdict table plus per-sign mechanism explanations",
+    "information_gain": "Separates the classic warning signs into those with a real mechanism and those without, each sourced: call clicks and echo explained by jitter, packet loss and loudspeaker re-capture from Microsoft's own call quality guidance, against an interception architecture that sits inside the operator's network; *#21# identified as a GSM supplementary service code for call forwarding unconditional under 3GPP TS 22.030, which no inspected competitor page addresses although it is an observed autocomplete query; the speaker buzz explained as audio rectification of 2G burst transmission from a Texas Instruments application note, with the honest point that the effect has faded with the networks that caused it and never distinguished a covert device from a colleague's handset; detector apps ruled out architecturally from Android's own sensor documentation, with the ACM SenSys 2021 time-of-flight research named along with its narrow bounds; the base-rate fallacy from Axelsson's 2000 ACM TISSEC paper applied to leak-based suspicion; MITRE ATT&CK T1123 used to show that the realistic modern threat is the microphone already in the room, which no radio sweep detects; and the US Department of Defense countermeasures instruction quoted for the admission that surveys of open-access facilities have proven counterproductive by giving occupants a false sense of security. Indian cases carry the access thesis: the 2015 ministry documents prosecution involved duplicate keys and paper rather than any device, the 2026 Jagatsinghpur office camera was placed by an insider and found by accident then by camera records, and the 2010 North Block suspicion was examined by the Intelligence Bureau and turned out to be chewing gum.",
+    "internal_links_out": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "REPLACE on the existing slug after an intent review of the live page. Nothing on the old page was worth keeping: its two defensible points, physical access and information leakage, are carried forward and strengthened with sourcing and base-rate discipline, and its unsourced claims are removed. Reclassified from concept-spoke to concept-pillar and recorded as a deviation: the skill's spoke range is 900 to 1,400 words and this runs to about 2,700 words of prose, because the research supported ten distinct sourced findings. The length is not padding, and each section carries at least one verified fact, but the original estimate of 1,400 to 1,600 words was wrong and is recorded as such.",
     "status": "published",
     "review": {
       "status": "awaiting",
-      "reviewer": "",
+      "reviewer": "Hardesh Bhardwaj",
       "date": "",
       "approved_version": ""
     },
     "date_published": "2025-04-02",
-    "date_modified": "",
-    "notes": "Pre-engine content with unevidenced claims (unmarked vehicles, NDA, same-day). Review with owner.",
-    "revisions": []
+    "date_modified": "2026-10-03",
+    "notes": "Rebuilt 3 Oct 2026. Every claim removed that site-facts.md does not permit: no certified sweep, no same-day or coverage promise, no unmarked vehicles or NDA language, no equipment models (FLIR and WolfHound Pro both appeared on sibling stub pages and are self-reported with owner confirmation pending), and no experience lines, because field-notes.md is empty. The billions of rupees statistic is deleted. Indian interception law is stated only to the level verified: the Telecommunications Act 2023 and the Interception Rules 2024 made under section 20 were confirmed from Department of Telecommunications sources, but the Department's site returned HTTP 403 to direct fetches, so the identity of the competent authority was deliberately not published. The research agent sourced that detail from a law firm note, which the engine's source ladder does not accept for a legal proposition. Search discovery is partial and recorded as such: Google and Bing SERP fetches returned no People Also Ask or related searches blocks, so the keyword evidence log rests on Google autocomplete only, observed 3 Oct 2026. Hindi and transliterated seeds returned no suggestions, so no Hindi keyword section was built. One competitor source, tscm.com/warningsigns.html, could not be loaded because of a TLS certificate mismatch and is not cited. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching the six visible ones.",
+    "revisions": [
+      {
+        "date": "2026-10-03",
+        "action": "replaced",
+        "previous_state": {
+          "page_type": "concept-spoke",
+          "primary_keyword": "signs your office is bugged",
+          "structure_pattern": "pre-engine legacy post, numbered listicle",
+          "information_gain": "",
+          "status": "published",
+          "date_published": "2025-04-02"
+        },
+        "reason": "Rebuilt in full. The previous version was about 695 words of body content and carried claims the site's own evidence record does not permit: a reference to a certified sweep, a same-day service promise, unmarked vehicles and an NDA from the first call (site-facts rows 11 and 12, both blocked or pending owner confirmation), and an unsourced statistic that corporate espionage costs Indian businesses billions of rupees every year. It had no FAQ, no JSON-LD and no limitations section. None of the five signs it listed was sourced, and two of them are not diagnostic at all."
+      }
+    ]
   },
   {
     "slug": "corporate-espionage-india",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india",
-    "page_type": "concept-spoke",
+    "page_type": "concept-pillar",
     "location": {
       "city": "",
       "district": "",
@@ -85,36 +155,70 @@
     },
     "primary_keyword": "corporate espionage india",
     "secondary_keywords": [
-      "TSCM for business"
+      "trade secret law india",
+      "is there a trade secrets act in india",
+      "non compete enforceable india",
+      "section 27 indian contract act non compete",
+      "industrial espionage india",
+      "employee stole company data india",
+      "section 65b evidence act replaced"
     ],
     "h2_outline": [
-      "The Threat Landscape in India",
-      "High-Risk Sectors",
-      "What a Professional TSCM Programme Looks Like",
-      "What TSCM Cannot Do"
+      "There is no reliable figure for what this costs, and that is a finding",
+      "What actually protects confidential business information",
+      "What the courts have actually done",
+      "Post-employment non-competes do not work in India",
+      "The criminal route, and where it actually stops",
+      "The evidence rule changed in 2024, and most advice has not caught up",
+      "Three layers, and what a sweep actually reaches",
+      "What a sweep can and cannot establish",
+      "Frequently asked questions"
     ],
-    "structure_pattern": "pre-engine legacy post",
-    "compared_against": [],
-    "main_device": "bulleted lists",
-    "information_gain": "",
-    "internal_links_out": [],
-    "gate_decision": "existing post, pre-engine",
+    "structure_pattern": "Opens by refusing the statistic the genre is built on and explaining why no attributable Indian figure exists, then the legal spine (no statute, what the courts enforce, why non-competes fail), then the criminal route and its dead end, then the 2024 evidence change, then the three-layer scope boundary. Deliberately not the competitor shape of threat list plus sector list plus service pitch.",
+    "compared_against": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-detect-hidden-cameras"
+    ],
+    "main_device": "legal spine with case-by-case analysis of what Indian courts actually enforced",
+    "information_gain": "Traces every circulating Indian corporate-espionage statistic into Law Commission Report No. 289 and shows its footnotes rest on two newspaper articles from 2010 and 2018, then quotes the Commission's own admission that because of the inherent nature of corporate espionage there is no reporting and therefore an absence of cases, which lets the page state that no reliable Indian figure exists with a government citation rather than inventing one. Establishes from WIPO's country overview that India has no separate trade secrets statute and that protection runs through contract, breach of confidence and scattered statutory provisions. Sets out what four Delhi High Court matters actually held: Diljeet Titus (2006) as interim relief carrying the memory versus copy distinction that leaves a departing employee free to use what they mentally retained; Priya Puri (2006) refusing an injunction and holding customer contact data not to be a trade secret, with its warning against perpetuating forced employment; Stellar (2016) holding that an over-broad confidentiality definition is a disguised restraint of trade and void; and the correction that the much-quoted 2018 Navigators Logistics reasoning was set aside on appeal on 20 November 2024 and the suit restored, so anyone citing it as current authority is wrong. States the post-employment non-compete position correctly, that such restraints are void under section 27 and that the reasonableness test which rescues them is English rather than Indian law. On the criminal side, identifies criminal breach of trust under BNS section 316 as the better fit than theft, explains that theft requires movable property and that no Indian court has settled whether data is, notes that IT Act section 43 is civil with section 66 as its criminal counterpart, and corrects the widespread claim that section 72 covers employee leaks when it applies to those with access under powers conferred by the Act. Reports honestly that no Indian criminal prosecution for business-information theft could be found to have reached a reported judgment. Finally flags that the admissibility certificate moved from section 65B of the Evidence Act to section 63 of the Bharatiya Sakshya Adhiniyam from 1 July 2024, requiring a certificate with each tender, signed by an expert as well as the person in charge, with the device identifiers and a hash value and hash report.",
+    "internal_links_out": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india",
+      "/locations",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "REPLACE on the existing slug after an intent review. The ledger recorded no information gain for the previous version and nothing on it was worth preserving. Reclassified from concept-spoke to concept-pillar. The February 2015 ministry documents case is deliberately handled differently from the way the rebuilt office-indicators page uses it: that page uses it for the access thesis, this one uses only the charge heads and the absence of any reported outcome, so the two do not retell the same story.",
     "status": "published",
     "review": {
       "status": "awaiting",
-      "reviewer": "",
+      "reviewer": "Hardesh Bhardwaj",
       "date": "",
       "approved_version": ""
     },
     "date_published": "2025-04-20",
-    "date_modified": "",
-    "notes": "Pre-engine content. Corporate intent; nearest existing page to a national bug sweeping article.",
-    "revisions": []
+    "date_modified": "2026-10-03",
+    "notes": "Rebuilt 3 Oct 2026. A premise in my own research brief was wrong and the research corrected it: the billions of rupees statistic was never on this page, it was the opening line of signs-your-office-is-bugged, and it had already been deleted in that rebuild earlier the same day. The real violations on this page were in the shared blog CTA, which asserted certified specialists available 24/7 for emergency sweeps across India, against site-facts rows 7, 11 and 12. That CTA was the template default in app/blog/[slug]/page.tsx rather than post data, so it was invisible to a source-level audit of the post object and was reaching every post without its own cta. The default has been rewritten and all four rebuilt posts now carry their own. No individual or company connected with the 2015 case is named, because every person involved was an accused and nothing appears to have been judicially established; a tribunal order of January 2019 records the matter still pending. Deliberately not published: any cost figure; the Official Secrets Act as a charge in that case, since the first information report and chargesheet section lists do not include it; the exact text of section 27 of the Contract Act, which could not be opened at India Code, so the position is given from Report 289 instead; and the Percept D'Mark citation, where two sources disagree on the volume. The claim that the 2018 Navigators judgment was set aside was treated as the load-bearing item: two research agents disagreed about whether the appellate judgment exists, so it was verified directly before publication, confirming RFA(OS)(COMM) 3/2019, decided 20 November 2024, allowing the appeal, setting aside the impugned judgment and listing the suit before the single judge. All six external links were tested and return 200. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible.",
+    "revisions": [
+      {
+        "date": "2026-10-03",
+        "action": "replaced",
+        "previous_state": {
+          "page_type": "concept-spoke",
+          "primary_keyword": "corporate espionage india",
+          "structure_pattern": "pre-engine legacy post",
+          "information_gain": "",
+          "status": "published",
+          "date_published": "2025-04-20"
+        },
+        "reason": "Rebuilt in full. The previous version was about 568 words of body content, had no recorded information gain in the ledger and was marked a pre-engine legacy post. It carried a service claim about detailed written reports after every sweep that site-facts row 12 marks as pending owner confirmation, an invented sweep duration, and a sector list with no sourcing. It cited no statute, no judgment and no authority of any kind on a subject that is almost entirely legal."
+      }
+    ]
   },
   {
     "slug": "vehicle-gps-tracking",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking",
-    "page_type": "concept-spoke",
+    "page_type": "concept-pillar",
     "location": {
       "city": "",
       "district": "",
@@ -122,31 +226,64 @@
     },
     "primary_keyword": "gps tracking device on vehicle",
     "secondary_keywords": [
-      "how to find gps tracker on car"
+      "how to find gps tracker on my car",
+      "is someone tracking my car",
+      "airtag found moving with you",
+      "unknown tracker alert android",
+      "is it illegal to put a gps tracker on someone's car in india",
+      "gps jammer legal india",
+      "obd port tracker"
     ],
     "h2_outline": [
-      "Who Plants Vehicle GPS Trackers?",
-      "Common Hiding Locations",
-      "Signs You May Have a Tracker",
-      "What a Professional Vehicle Sweep Involves"
+      "What your phone will and will not tell you",
+      "Why scanning for signals mostly fails",
+      "How the Indian cases were actually discovered",
+      "What Indian law does and does not cover",
+      "Reporting it, and the fourteen day rule nobody mentions",
+      "Why a jammer is not an answer",
+      "What a vehicle check can and cannot establish",
+      "Frequently asked questions"
     ],
-    "structure_pattern": "pre-engine legacy post",
-    "compared_against": [],
-    "main_device": "bulleted lists",
-    "information_gain": "",
-    "internal_links_out": [],
-    "gate_decision": "existing post, pre-engine",
+    "structure_pattern": "Opens by correcting the category error in the phrase GPS detector, then separates three device classes by what each emits, then platform alerts and their documented conditions, then why radio detection fails, then four Indian cases organised by how each was actually found, then the legal gap, reporting, and the jammer refusal. Deliberately not the competitor shape of hiding-place list plus who-plants-trackers list.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/bug-sweeping-in-india",
+      "/blog/signs-your-office-is-bugged"
+    ],
+    "main_device": "device classes separated by what each emits, then case-by-case discovery analysis",
+    "information_gain": "Corrects the category error the whole genre rests on: a tracker receives GPS passively and emits nothing by doing so, and what is detectable is its uplink to the mobile network, which is why the NYU Tandon work presented at a USENIX vehicle security workshop in August 2025 monitors mobile uplink bands rather than GPS. Sets out the Apple and Google unwanted tracking alerts shipped on 13 May 2024 with their documented limits, including that Google's own list of supported trackers excludes Tile and Samsung Galaxy SmartTag, that Apple's alerts require Significant Locations to be switched on so a privacy-minded user has disabled their own detection, that an identifier may rotate overnight and break the moving-with-you determination, and that disabling your own radios does not stop the owner seeing the tag. States plainly that no phone alert detects a cellular tracker. Explains from manufacturer documentation why radio sweeps miss cellular trackers, which sleep with the modem switched off and wake briefly to upload and are often motion triggered, and that a passive logger emits nothing at any price point. Shows that in all four documented Indian cases the device was found physically, at a dealership inspection after a murder, by an anti sabotage check prompted by an intercepted call, at a car service station months after the phone alert, and by accident when a phone slipped near the gearbox, with the access route in each case being keys, servicing or a dealer. On law, states that India has no offence of covertly tracking an adult's location, that BNS section 78 stalking is gender specific in both directions and its limbs concern repeated contact and monitoring of communications rather than location, that criminal trespass under section 329 fits the physical act but carries a small penalty, and that IT Act section 66E does not cover location data despite being charged in the Ahmedabad case. Adds the reporting provision nobody writes about, BNSS section 173(3), under which an offence punishable with three years to under seven may be preceded by a fourteen day preliminary enquiry authorised by an officer of at least Deputy Superintendent rank, which is where a stalking complaint sits. Notes the attribution trap in Google's own words, that a tracker switched off may factory reset and cease to be linked to its owner, so switching it off can destroy the attribution.",
+    "internal_links_out": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/locations",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "REPLACE on the existing slug after an intent review. Nothing on the old page survived except the general observation that trackers are concealed around the chassis, wheel arches and diagnostic port, which is now carried as part of the access and physical search discussion rather than as a hiding-place list. Reclassified from concept-spoke to concept-pillar.",
     "status": "published",
     "review": {
       "status": "awaiting",
-      "reviewer": "",
+      "reviewer": "Hardesh Bhardwaj",
       "date": "",
       "approved_version": ""
     },
     "date_published": "2025-05-05",
-    "date_modified": "",
-    "notes": "Pre-engine content. Names specific equipment (WolfHound Pro) not yet in site-facts.",
-    "revisions": []
+    "date_modified": "2026-10-03",
+    "notes": "Rebuilt 3 Oct 2026. The previous version named a specific cellular detection product as equipment in use, which site-facts row 9 permits only as instrument classes, and carried four invented figures. All are gone. Deliberately not published: whether BNS section 78 is cognizable or bailable, because the BNSS First Schedule column alignment could not be read reliably; any battery life, price, detection range or count of hiding places; the milliamp sleep-current figures from the manufacturer wiki, which was behind bot protection and read only through a search index; any list of what an OBD-II device can read, because the standards defining it are paywalled and ARAI AIS-137 Part 3 could not be retrieved; the three foot detection range from the NYU press release, which was not confirmed against the paper; and the police-quoted jammer price and range figures from a 2023 newspaper report. The Ahmedabad case is reported as said to be the first of its kind rather than as the first, because one outlet doubted the claim. The Gurugram case section list is omitted because mainstream and trade reports disagree. The jammer position is given from the Press Information Bureau release of 4 July 2022 and the Cabinet Secretariat guidelines updated 29 December 2025, and the page does not claim the Indian Telegraph Act or the Indian Wireless Telegraphy Act have been repealed, because section 60 of the Telecommunications Act 2023 was not found in any commencement tranche. Search discovery is autocomplete only; no People Also Ask block could be observed and none was invented. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with seven FAQ questions matching seven visible, and both platform documentation links returning 200.",
+    "revisions": [
+      {
+        "date": "2026-10-03",
+        "action": "replaced",
+        "previous_state": {
+          "page_type": "concept-spoke",
+          "primary_keyword": "gps tracking device on vehicle",
+          "structure_pattern": "pre-engine legacy post",
+          "information_gain": "",
+          "status": "published",
+          "date_published": "2025-05-05"
+        },
+        "reason": "Rebuilt in full. The previous version was about 572 words of body content and named a specific cellular detection product as equipment the firm deploys, which site-facts row 9 does not permit, alongside four invented figures: a device price, a battery life range, a sweep duration range and a count of common hiding locations. It cited no law at all, gave no reporting route, and said nothing about the Apple and Google unwanted tracking alerts that had been shipping for a year before it was written."
+      }
+    ]
   },
   {
     "slug": "bug-sweeping-in-india",

@@ -100,7 +100,7 @@ export default async function BlogPostPage({
 
   const cta = post.cta ?? {
     heading: "Concerned About Your Privacy?",
-    text: "Our certified TSCM specialists are available 24/7 for emergency sweeps across India. Every enquiry is treated with complete confidentiality.",
+    text: "If something does not add up, a private consultation can help you work out whether a sweep is the right response and what it should cover. Please get in touch from a phone you trust.",
     label: "Book a Sweep on WhatsApp",
   };
 
