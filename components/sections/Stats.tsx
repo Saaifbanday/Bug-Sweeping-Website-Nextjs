@@ -32,6 +32,12 @@ export default function Stats() {
             </div>
           ))}
         </div>
+        <p
+          className="text-center mt-8 text-xs"
+          style={{ color: "rgba(255,255,255,0.72)" }}
+        >
+          Case and sweep totals are the firm&apos;s own reported figures, as at October 2026.
+        </p>
       </div>
     </section>
   );

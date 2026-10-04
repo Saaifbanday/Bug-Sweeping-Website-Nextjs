@@ -204,6 +204,9 @@ export default function Hero() {
                 </div>
               ))}
             </dl>
+            <p className="text-xs mt-3" style={{ color: "var(--color-muted)", opacity: 0.8 }}>
+              Case and sweep totals are the firm&apos;s own reported figures.
+            </p>
           </div>
         </div>
       </div>

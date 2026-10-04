@@ -6,9 +6,9 @@ import ContactForm from "@/components/sections/ContactForm";
 import { Mail, Phone, MapPin, Clock, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us for a Bug Sweep | Confidential TSCM Services India",
+  title: "Contact Us for a Bug Sweep | 24/7 Confidential TSCM Services",
   description:
-    "Considering a bug sweep? Talk to us in confidence about home, office and vehicle sweeps, what one would cover and what it can establish.",
+    "Considering a bug sweep? We take emergency calls 24/7. Talk to us in confidence about home, office and vehicle sweeps and what one can establish.",
   alternates: { canonical: "https://www.bugsweepingtscm.com/contact" },
 };
 
@@ -34,7 +34,7 @@ const contactDetails = [
   {
     icon: Clock,
     label: "Availability",
-    lines: ["Advance bookings: Mon to Sat, 9 AM to 7 PM", "Urgent matters: call and we will advise"],
+    lines: ["24 / 7 for emergency sweeps", "Advance bookings: Mon to Sat, 9 AM to 7 PM"],
     href: null,
   },
 ];
@@ -57,8 +57,8 @@ const ourApproach = [
   },
   {
     step: "04",
-    title: "Full Written Report",
-    desc: "Post-sweep, you receive a comprehensive report covering all findings, evidence, and recommended countermeasures.",
+    title: "What We Found",
+    desc: "After the sweep we go through what was examined, what was found, what could not be established, and what we would suggest doing next.",
   },
 ];
 
@@ -84,8 +84,8 @@ export default function ContactPage() {
                 <div>
                   <p className="section-label mb-4">Reach Us Directly</p>
                   <h2 className="section-title mb-5" style={{ fontSize: "clamp(1.75rem, 3vw, 2.25rem)" }}>
-                    Talk to Us{" "}
-                    <span style={{ color: "var(--color-accent)" }}>in Confidence</span>
+                    We&apos;re Here{" "}
+                    <span style={{ color: "var(--color-accent)" }}>24 / 7</span>
                   </h2>
                   <p style={{ color: "var(--color-muted)", fontSize: "1.0625rem", lineHeight: "1.75" }}>
                     For emergency sweeps, contact us directly by phone. For advance bookings and general enquiries, use the form or email us.
