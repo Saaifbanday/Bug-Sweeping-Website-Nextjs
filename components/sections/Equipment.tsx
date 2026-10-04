@@ -157,11 +157,12 @@ export default function Equipment() {
         <div className="text-center mb-14">
           <p className="section-label mb-3">Equipment We Use</p>
           <h2 className="section-title mb-4">
-            Military-Grade TSCM Equipment for Bug Sweeps
+            The Instruments Used in a Sweep
           </h2>
           <p className="section-subtitle mx-auto">
-            We deploy advanced, military-grade TSCM tools, from spectrum analyzers to
-            NLJDs, ensuring no hidden device escapes detection.
+            A sweep combines several instrument classes, because no single one is
+            sufficient: spectrum analysis for devices that transmit, non-linear junction
+            detection for electronics that are switched off, and thermal and optical checks.
           </p>
         </div>
 

@@ -9,7 +9,7 @@ const associations = [
   },
   {
     Icon: Shield,
-    label: "Certified TSCM Specialists",
+    label: "Specialist TSCM Practice",
     sublabel: "Trained at W.A.D. international conferences",
   },
   {
@@ -79,7 +79,7 @@ export default function TrustBadges() {
             className="inline-flex items-center gap-2 text-sm font-semibold transition-colors"
             style={{ color: "var(--color-accent)" }}
           >
-            View Our Certifications &amp; Portfolio
+            View Our Credentials &amp; Portfolio
             <ArrowRight size={14} />
           </Link>
         </div>

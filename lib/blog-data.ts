@@ -235,7 +235,10 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-10-03",
     readTime: "11 min read",
     category: "Bug Sweep Tips",
-    coverImage: "/images/blogs/image_1.png",
+    coverImage: "/images/blogs/how-to-detect-hidden-cameras.webp",
+    ogImage: "/images/blogs/how-to-detect-hidden-cameras.png",
+    coverImageAlt:
+      "How to Detect Hidden Cameras guide cover: a row of wall fittings on a dark grid, with one ringed in red and marked by a detection point",
     publishedBy: "BugSweepingTSCM",
     cta: {
       heading: "Worried about a room, a rental or a hotel stay?",
@@ -266,7 +269,7 @@ export const blogPosts: BlogPost[] = [
         {
           "@type": "ImageObject",
           "@id": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras#primaryimage",
-          url: "https://www.bugsweepingtscm.com/images/blogs/image_1.png",
+          url: "https://www.bugsweepingtscm.com/images/blogs/how-to-detect-hidden-cameras.png",
           width: 1200,
           height: 630,
         },
@@ -408,7 +411,10 @@ ${faqHtml(hiddenCameraFaqs)}
     dateModified: "2026-10-03",
     readTime: "8 min read",
     category: "Corporate Security",
-    coverImage: "/images/blogs/image_2.png",
+    coverImage: "/images/blogs/signs-your-office-is-bugged.webp",
+    ogImage: "/images/blogs/signs-your-office-is-bugged.png",
+    coverImageAlt:
+      "Signs Your Office Is Bugged guide cover: a mostly flat signal trace on a dark grid with a single red spike marked by a detection point",
     publishedBy: "BugSweepingTSCM",
     cta: {
       heading: "Not sure whether what you are seeing means anything?",
@@ -439,7 +445,7 @@ ${faqHtml(hiddenCameraFaqs)}
         {
           "@type": "ImageObject",
           "@id": "https://www.bugsweepingtscm.com/blog/signs-your-office-is-bugged#primaryimage",
-          url: "https://www.bugsweepingtscm.com/images/blogs/image_2.png",
+          url: "https://www.bugsweepingtscm.com/images/blogs/signs-your-office-is-bugged.png",
           width: 1200,
           height: 630,
         },
@@ -575,7 +581,10 @@ ${faqHtml(officeBuggedFaqs)}
     dateModified: "2026-10-03",
     readTime: "11 min read",
     category: "Corporate Security",
-    coverImage: "/images/blogs/image_3.png",
+    coverImage: "/images/blogs/corporate-espionage-india.webp",
+    ogImage: "/images/blogs/corporate-espionage-india.png",
+    coverImageAlt:
+      "Corporate Espionage in India guide cover: a row of document files on a dark grid with one pulled forward and outlined in red",
     publishedBy: "BugSweepingTSCM",
     cta: {
       heading: "Reviewing how a confidential discussion is protected?",
@@ -606,7 +615,7 @@ ${faqHtml(officeBuggedFaqs)}
         {
           "@type": "ImageObject",
           "@id": "https://www.bugsweepingtscm.com/blog/corporate-espionage-india#primaryimage",
-          url: "https://www.bugsweepingtscm.com/images/blogs/image_3.png",
+          url: "https://www.bugsweepingtscm.com/images/blogs/corporate-espionage-india.png",
           width: 1200,
           height: 630,
         },
@@ -725,7 +734,10 @@ ${faqHtml(corporateEspionageFaqs)}
     dateModified: "2026-10-03",
     readTime: "11 min read",
     category: "Vehicle Sweeps",
-    coverImage: "/images/blogs/image_4.png",
+    coverImage: "/images/blogs/vehicle-gps-tracking.webp",
+    ogImage: "/images/blogs/vehicle-gps-tracking.png",
+    coverImageAlt:
+      "GPS Trackers on Vehicles guide cover: a car silhouette on a dark grid with a small module under the chassis ringed in red",
     publishedBy: "BugSweepingTSCM",
     cta: {
       heading: "Worried that a vehicle is being followed?",
@@ -756,7 +768,7 @@ ${faqHtml(corporateEspionageFaqs)}
         {
           "@type": "ImageObject",
           "@id": "https://www.bugsweepingtscm.com/blog/vehicle-gps-tracking#primaryimage",
-          url: "https://www.bugsweepingtscm.com/images/blogs/image_4.png",
+          url: "https://www.bugsweepingtscm.com/images/blogs/vehicle-gps-tracking.png",
           width: 1200,
           height: 630,
         },

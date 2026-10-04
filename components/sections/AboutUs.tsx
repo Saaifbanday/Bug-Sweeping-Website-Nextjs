@@ -10,8 +10,8 @@ const services = [
 ];
 
 const equipment = [
-  "REI OSCOR Green Spectrum Analyzers (10 kHz to 24 GHz)",
-  "ORION NLJD: detects electronics even when off",
+  "Radio spectrum analysis across the bands covert transmitters use",
+  "Non-linear junction detection, which finds electronics even when switched off",
   "Wi-Fi Hunter & Bluetooth Locators",
   "Thermal Imagers & Video Pole Cameras for hidden spaces",
   "Digital TDR Line Analyzers for phone & VoIP",
@@ -103,7 +103,7 @@ export default function AboutUs() {
             <p className="text-sm leading-relaxed" style={{ color: "var(--color-muted)" }}>
               We are a team of seasoned professionals, including{" "}
               <strong style={{ color: "var(--color-text)" }}>
-                former intelligence officers, cyber experts, and certified TSCM specialists
+                technicians who do this work full time
               </strong>
               , trained to detect even the most sophisticated threats. Our reputation is built
               on{" "}
@@ -150,12 +150,12 @@ export default function AboutUs() {
               className="text-2xl font-bold mb-2"
               style={{ color: "var(--color-text)" }}
             >
-              Military-Grade TSCM Technology
+              The Instruments Used in a Sweep
             </h3>
             <p className="text-sm mb-6" style={{ color: "var(--color-muted)" }}>
               We deploy only{" "}
               <strong style={{ color: "var(--color-accent)" }}>
-                military-grade TSCM equipment
+                instruments suited to the space
               </strong>
               , including:
             </p>

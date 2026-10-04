@@ -12,7 +12,7 @@ import { CheckCircle2, Award, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us | India's Leading Bug Sweeping & TSCM Specialists",
   description:
-    "India's leading counter-surveillance experts. Our certified specialists provide elite bug sweeping to protect your privacy. 100% discreet.",
+    "A specialist counter-surveillance practice in India. How we scope a bug sweep, which instruments we use and what a sweep can and cannot establish.",
   alternates: { canonical: "https://www.bugsweepingtscm.com/about" },
 };
 
@@ -20,7 +20,7 @@ const approachItems = [
   {
     tab: "Our Vision",
     heading: "A Privacy-Secure India",
-    body: "Our vision is to create a world where individuals and organizations can operate with complete confidence that their private conversations, strategic decisions, and personal lives are free from covert surveillance. We envision BugSweepingTSCM.com as India's most trusted name in electronic counter-surveillance.",
+    body: "Our vision is to create a world where individuals and organizations can operate with complete confidence that their private conversations, strategic decisions, and personal lives are free from covert surveillance. We want BugSweepingTSCM.com to be known for saying plainly what a sweep found, and what it could not establish.",
     bullets: [
       "Leading the fight against illegal eavesdropping across India",
       "Building awareness of modern surveillance threats",
@@ -33,7 +33,7 @@ const approachItems = [
     heading: "Detect. Neutralize. Protect.",
     body: "Our mission is simple: to establish, on evidence, whether a space is clean. We combine radio-frequency analysis, non-linear junction detection, optical and thermal inspection and a methodical physical search, and we document what is found in position before it is touched.",
     bullets: [
-      "Deploy military-grade TSCM equipment on every engagement",
+      "Use radio-frequency analysis, non-linear junction detection, thermal and optical checks on every engagement",
       "Operate with absolute discretion and zero client data retention",
       "Deliver comprehensive sweep reports post-inspection",
       "Provide pan-India coverage with zero compromise on quality",
@@ -48,7 +48,7 @@ const zigZagItems = [
     body: "Our team is not assembled from general security professionals. Every member has specialised training in electronic counter-surveillance, and our founder was named Investigator of the Year 2026 by the World Association of Detectives at its 101st Annual Conference in Cannes. The award photographs and signed certificates are published in full on our credentials page.",
     bullets: [
       "Former RAW and IB-trained surveillance detection professionals",
-      "Internationally certified TSCM specialists (W.A.D. member)",
+      "Member of the World Association of Detectives",
       "Cyber forensics and digital intelligence experts on staff",
       "Continuous training on emerging bugging technologies",
     ],
@@ -57,7 +57,7 @@ const zigZagItems = [
     cta: { label: "Contact Our Team", href: "/contact" },
   },
   {
-    label: "Military-Grade Technology",
+    label: "The Instruments We Use",
     title: "Equipment That Leaves No Device Undetected",
     body: "Standard security firms use consumer-grade detectors. We deploy the same tools used by government intelligence agencies worldwide — from REI OSCOR Green 24 GHz spectrum analyzers that scan every radio frequency to ORION NLJDs that detect powered-off electronics as tiny as a grain of rice.",
     bullets: [
@@ -67,16 +67,16 @@ const zigZagItems = [
       "BlueSleuth & ORIUS: detect Bluetooth and Wi-Fi spy devices",
     ],
     imageSrc: "/images/about_us/rel_image_3.jpeg",
-    imageAlt: "Military-grade TSCM equipment",
+    imageAlt: "TSCM instruments laid out before a sweep",
     cta: { label: "View All Equipment", href: "/#equipment" },
   },
   {
     label: "Absolute Confidentiality",
     title: "Your Privacy Is Our First Priority",
-    body: "We understand that even the fact of needing a sweep is sensitive information. Every engagement is handled with complete discretion — no signage, unmarked vehicles, NDA-bound operatives. Our team arrives, performs the sweep professionally, and departs without drawing attention.",
+    body: "We understand that even the fact of needing a sweep is sensitive information. Every engagement is handled discreetly. We agree a time that suits you, keep the visit low key, and do not discuss who we work for.",
     bullets: [
       "All team members sign binding NDAs before every engagement",
-      "Unmarked vehicles and plain-clothes operatives on all jobs",
+      "A low key visit, arranged at a time that suits you",
       "Zero client data retained after sweep completion",
       "No social media mentions or case studies without explicit permission",
     ],
@@ -87,7 +87,7 @@ const zigZagItems = [
   {
     label: "Pan-India Coverage",
     title: "Serving Every Corner of India",
-    body: "Privacy threats don't stop at city limits — and neither do we. From Mumbai's financial corridors and Delhi's diplomatic zones to Bengaluru's tech campuses and Jaipur's palatial residences, our certified TSCM specialists deploy nationwide with zero compromise on service quality.",
+    body: "Privacy threats don't stop at city limits — and neither do we. From Mumbai's financial corridors and Delhi's diplomatic zones to Bengaluru's tech campuses and Jaipur's palatial residences, we travel to the site and scope the work the same way wherever it is.",
     bullets: [
       "Mumbai — corporate headquarters, luxury residences, private jets",
       "New Delhi — embassies, ministerial offices, government buildings",
@@ -119,7 +119,7 @@ const faqs = [
   },
   {
     q: "Is the sweep completely confidential?",
-    a: "Absolutely. All engagements are covered by strict NDAs. We use unmarked vehicles, plain-clothes operatives, and retain zero client data after the sweep is complete.",
+    a: "Yes. We do not disclose client identities or engagement details, and we keep no more of your information than we need to carry out and record the work.",
   },
   {
     q: "What areas of India do you cover?",
@@ -159,11 +159,11 @@ export default function AboutPage() {
               <div>
                 <p className="section-label mb-4">Who We Are</p>
                 <h2 className="section-title mb-6">
-                  India&apos;s Premier{" "}
+                  A Specialist{" "}
                   <span style={{ color: "var(--color-accent)" }}>
                     Counter-Surveillance
                   </span>{" "}
-                  Experts
+                  Practice
                 </h2>
                 <p
                   className="leading-relaxed mb-5"
@@ -196,8 +196,7 @@ export default function AboutPage() {
                 >
                   We are a team of seasoned professionals, including{" "}
                   <strong style={{ color: "var(--color-text)" }}>
-                    former intelligence officers, cyber experts, and certified
-                    TSCM specialists
+                    technicians who do this work full time
                   </strong>
                   , trained to detect even the most sophisticated surveillance
                   threats. Our reputation is built on{" "}
@@ -224,7 +223,7 @@ export default function AboutPage() {
               <div>
                 <p className="section-label mb-4">International Recognition</p>
                 <h2 className="section-title mb-6">
-                  Certified by the{" "}
+                  A Member of the{" "}
                   <span style={{ color: "var(--color-accent)" }}>
                     World Association of Detectives
                   </span>
@@ -237,7 +236,7 @@ export default function AboutPage() {
                   <strong style={{ color: "var(--color-text)" }}>
                     Hardesh Bhardwaj
                   </strong>
-                  , is a certified member of the{" "}
+                  , is a member of the{" "}
                   <strong style={{ color: "var(--color-accent)" }}>
                     World Association of Detectives (W.A.D.)
                   </strong>
@@ -256,10 +255,10 @@ export default function AboutPage() {
                 </p>
                 <div className="flex flex-col gap-3">
                   {[
-                    "W.A.D. Certified Professional Member",
+                    "W.A.D. Professional Member",
                     "International TSCM Conference Attendee",
-                    "Trained in Financial Crime & Cyber Threat Intelligence",
-                    "Cross-border Investigation & Compliance Expertise",
+                    "Conference sessions on financial crime and cyber threat intelligence",
+                    "Conference sessions on cross-border investigation and compliance",
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-3">
                       <Award
@@ -458,7 +457,7 @@ export default function AboutPage() {
 
         <ContactCTA
           title="Ready to Secure Your Privacy?"
-          subtitle="Book a confidential consultation with India's premier TSCM specialists."
+          subtitle="Book a confidential consultation and we will talk through what a sweep would cover."
           variant="accent"
         />
       </main>

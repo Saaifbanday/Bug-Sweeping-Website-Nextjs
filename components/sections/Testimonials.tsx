@@ -3,50 +3,18 @@
 import { useRef, useEffect } from "react";
 import { Star, Quote } from "lucide-react";
 
-const testimonials = [
-  {
-    name: "Rajesh Malhotra",
-    role: "CEO, Mumbai-based Conglomerate",
-    rating: 5,
-    text: "We had a sensitive board meeting and needed absolute assurance. The BugSweepingTSCM team swept our entire corporate floor with military-grade equipment. Their discretion and professionalism were impeccable. Worth every rupee.",
-    initial: "R",
-  },
-  {
-    name: "Priya Sharma",
-    role: "Senior Government Official, New Delhi",
-    rating: 5,
-    text: "After suspicious activity in our ministerial office, they found a GSM-based listening device embedded in a power adapter — something our in-house IT team had completely missed. Exceptional expertise.",
-    initial: "P",
-  },
-  {
-    name: "Vikram Nair",
-    role: "Business Owner, Bengaluru",
-    rating: 5,
-    text: "The team's comprehensive sweep of my office and residence gave me complete peace of mind. They explained every step clearly and delivered a detailed report. No drama, no fuss — just results.",
-    initial: "V",
-  },
-  {
-    name: "Anita Desai",
-    role: "HNI Client, Jaipur",
-    rating: 5,
-    text: "Discovered a covert tracking device in my personal vehicle. The team was on-site within hours, professional from start to finish, and maintained complete confidentiality throughout. Highly trusted.",
-    initial: "A",
-  },
-  {
-    name: "Suresh Kapoor",
-    role: "MD, Real Estate Firm, Hyderabad",
-    rating: 5,
-    text: "Our boardroom sweep before a major acquisition revealed two RF transmitters hidden inside smoke detectors. Without BugSweepingTSCM, we would have had a serious breach. Exceptional service.",
-    initial: "S",
-  },
-  {
-    name: "Meera Iyer",
-    role: "Celebrity Client, Chennai",
-    rating: 5,
-    text: "Privacy is everything in my line of work. This team is the only one I trust. Their home sweep was thorough, discreet, and gave me genuine peace of mind. I now schedule quarterly sweeps.",
-    initial: "M",
-  },
-];
+// NOTE (4 Oct 2026): the five testimonials previously here named individuals with sensitive
+// roles and described specific findings. Nothing in content-engine/site-facts.md or
+// field-notes.md supports them, and skill section 1A blocks client names and titles.
+// They were removed and this component was unhooked from /services. Do not re-enable it
+// until real, consented, anonymised case summaries are recorded in field-notes.md.
+const testimonials: {
+  name: string;
+  role: string;
+  rating: number;
+  text: string;
+  initial: string;
+}[] = [];
 
 // Triple the cards so the loop is seamless across all screen widths
 const CARDS = [...testimonials, ...testimonials, ...testimonials];
@@ -170,7 +138,7 @@ export default function Testimonials() {
 
       {/* Badges */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 flex flex-wrap justify-center gap-4">
-        {["100% Confidential", "Verified Professionals", "Satisfaction Guaranteed"].map(
+        {["Confidential", "Specialist practice"].map(
           (badge) => (
             <div
               key={badge}

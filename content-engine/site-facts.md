@@ -21,6 +21,47 @@ Publication rule: see SKILL.md Section 1A. Seeded 19 September 2026 from the ski
 
 Profile URL: https://www.bugsweepingtscm.com/meet-the-founder
 
+## Sitewide claims cleanup, 4 October 2026
+
+Every page in the built output was audited against the rows above and the Section 1A blocked
+list. Removed from live copy: "military-grade" (/about, /services, Equipment, AboutUs,
+Testimonials); "certified" applied to people (/about, /contact, /services, homepage CTA,
+HomeAbout, TrustBadges); "former intelligence officers" (/about, AboutUs); "India's premier",
+"India's leading", "India's Most Trusted" (/about, HomeAbout); "100% Confidential" and
+"Satisfaction Guaranteed" (/contact, privacy meta, Testimonials badges); 24/7 and emergency
+availability (/contact title, meta, availability card, heading); "unmarked vehicles" and
+"NDA-bound operatives" (/about, /contact, HomeAbout); "detailed written report with every
+sweep" (HomeAbout); and the clientele claim naming C-suite executives, government officials and
+high-net-worth individuals (HomeAbout). The blog template's default CTA, which asserted
+certified specialists available 24/7 for emergency sweeps across India, was rewritten on
+3 October 2026; it had been reaching every post without its own CTA.
+
+W.A.D. wording corrected throughout: membership and conference attendance are no longer
+presented as certification. "Certified by the W.A.D." is now "A member of the W.A.D.",
+"certified member" is "member", and "W.A.D. Certified Professional Member" is "W.A.D.
+Professional Member". The founder page's certificate list is unchanged, because each item is
+already accurately titled (Certificate of Attendance, of Participation, of Incorporation); only
+the section label changed, from "Certifications & Credentials" to "Credentials & Documents".
+
+Testimonials: the five entries named individuals with sensitive roles (a senior government
+official, an HNI client, named executives) and described specific findings. Nothing in this file
+or in field-notes.md supports them. The component was unhooked from /services and the data
+removed. It must not be re-enabled until real, consented, anonymised case summaries exist in
+field-notes.md.
+
+Verified clean after the change: all 70 built HTML pages, checked for each phrase above.
+
+## Still pending the owner's confirmation (not yet resolved)
+
+These are facts only the owner can settle. They are currently published and should either be
+confirmed and recorded here, or removed.
+
+| Item | Where it still appears | What is needed |
+|---|---|---|
+| Equipment ownership: REI OSCOR Green, REI ORION 2.4, REI ANDRE, ORIUS Wi-Fi Hunter, FLIR thermal camera, VPC-62 pole camera, BlueSleuth, WolfHound Pro | Equipment section (homepage), HomeAbout bullet list | Confirmation that the firm owns and uses these specific models. Row 9 is self-reported; until confirmed, naming models is an equipment ownership claim. |
+| "3,000+ cases handled", "500+ TSCM sweeps completed" | Hero, Stats, HomeAbout ("500+ successful sweeps across India"), /meet-the-founder stat cards | Row 6 permits these in the author box only, attributed as the firm's reported figures with a date. They are currently in homepage body copy. |
+| Service coverage "across India" | /locations, layout metadata, Coverage section | Row 7 is self-reported, owner confirmation pending. Left in place for now because the site publishes 36 city pages and 15 state hubs at the owner's direction, but it is not independently evidenced. |
+
 ## sameAs profiles (same entity only)
 None recorded yet. Do not add sameAs until the owner lists them.
 

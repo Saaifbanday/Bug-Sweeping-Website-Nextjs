@@ -100,7 +100,7 @@ export default function HomePage() {
         <TSCMPoints />
         <ContactCTA
           title="Discover How Easily We Can Secure Your Privacy"
-          subtitle="Free initial consultation with our certified TSCM specialists."
+          subtitle="A first consultation costs nothing. Tell us what is worrying you."
           variant="accent"
         />
         <HomeAbout />

@@ -6,9 +6,9 @@ import ContactForm from "@/components/sections/ContactForm";
 import { Mail, Phone, MapPin, Clock, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us for Bug Sweeps | 24/7 Confidential TSCM Services India",
+  title: "Contact Us for a Bug Sweep | Confidential TSCM Services India",
   description:
-    "Need a bug sweep? Contact our certified TSCM experts today. Available 24/7 across India for discreet home, office & vehicle sweeps.",
+    "Considering a bug sweep? Talk to us in confidence about home, office and vehicle sweeps, what one would cover and what it can establish.",
   alternates: { canonical: "https://www.bugsweepingtscm.com/contact" },
 };
 
@@ -34,7 +34,7 @@ const contactDetails = [
   {
     icon: Clock,
     label: "Availability",
-    lines: ["24 / 7 for Emergency Sweeps", "Advance bookings: Mon–Sat, 9 AM–7 PM"],
+    lines: ["Advance bookings: Mon to Sat, 9 AM to 7 PM", "Urgent matters: call and we will advise"],
     href: null,
   },
 ];
@@ -43,7 +43,7 @@ const ourApproach = [
   {
     step: "01",
     title: "Confidential First Call",
-    desc: "Tell us your concerns over a secure call. Everything shared is strictly confidential, covered by NDA from the first word.",
+    desc: "Tell us your concerns over a call. We will talk through what is worrying you and what a sweep could and could not establish.",
   },
   {
     step: "02",
@@ -53,7 +53,7 @@ const ourApproach = [
   {
     step: "03",
     title: "Discreet Deployment",
-    desc: "Our team arrives in unmarked vehicles at a time of your choosing — no disruption, no attention drawn.",
+    desc: "We agree a time that suits you and keep the visit low key, so that it draws as little attention as possible.",
   },
   {
     step: "04",
@@ -70,7 +70,7 @@ export default function ContactPage() {
         <PageHero
           label="Contact Us"
           title="Get in Touch: Completely Confidential"
-          subtitle="Whether you suspect surveillance or simply want peace of mind, our certified TSCM specialists are ready to help. Every enquiry is handled with absolute discretion."
+          subtitle="If you suspect surveillance, or simply want a space checked, we will talk it through with you plainly. Every enquiry is handled discreetly."
           breadcrumbs={[{ label: "Contact Us", href: "#" }]}
         />
 
@@ -84,8 +84,8 @@ export default function ContactPage() {
                 <div>
                   <p className="section-label mb-4">Reach Us Directly</p>
                   <h2 className="section-title mb-5" style={{ fontSize: "clamp(1.75rem, 3vw, 2.25rem)" }}>
-                    We&apos;re Here{" "}
-                    <span style={{ color: "var(--color-accent)" }}>24 / 7</span>
+                    Talk to Us{" "}
+                    <span style={{ color: "var(--color-accent)" }}>in Confidence</span>
                   </h2>
                   <p style={{ color: "var(--color-muted)", fontSize: "1.0625rem", lineHeight: "1.75" }}>
                     For emergency sweeps, contact us directly by phone. For advance bookings and general enquiries, use the form or email us.
@@ -140,7 +140,7 @@ export default function ContactPage() {
                 >
                   <Shield size={22} style={{ color: "var(--color-accent)", flexShrink: 0, marginTop: "2px" }} />
                   <p style={{ color: "var(--color-muted)", fontSize: "0.9375rem", lineHeight: "1.75" }}>
-                    <strong style={{ color: "var(--color-text)" }}>100% Confidential.</strong> All enquiries are covered by strict NDA. We do not disclose client identities or engagement details under any circumstances.
+                    <strong style={{ color: "var(--color-text)" }}>Confidential.</strong> We do not disclose client identities or engagement details.
                   </p>
                 </div>
               </div>

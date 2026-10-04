@@ -3,14 +3,13 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import PageHero from "@/components/ui/PageHero";
 import ZigZagSection from "@/components/ui/ZigZagSection";
-import Testimonials from "@/components/sections/Testimonials";
 import ContactCTA from "@/components/sections/ContactCTA";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Bug Sweeping Services | Corporate, Home & Vehicle TSCM Sweeps",
   description:
-    "Comprehensive bug sweeps for business, home & vehicles. We deploy military-grade equipment to detect hidden cameras, bugs & GPS trackers.",
+    "Bug sweeps for offices, homes and vehicles: radio-frequency analysis, non-linear junction detection, thermal and optical checks, and a physical search.",
   alternates: { canonical: "https://www.bugsweepingtscm.com/services" },
 };
 
@@ -114,7 +113,7 @@ export default function ServicesPage() {
         <PageHero
           label="Our Services"
           title="Comprehensive Bug Sweeping & TSCM Services"
-          subtitle="From boardrooms to bedrooms, vehicles to VoIP lines. Our certified TSCM specialists deploy military-grade equipment to detect and neutralize every surveillance threat."
+          subtitle="From boardrooms to bedrooms, vehicles to telephone lines. We agree the scope with you first, then work through it systematically and report what we found and what we could not establish."
           breadcrumbs={[{ label: "Services", href: "#" }]}
         />
 
@@ -191,7 +190,7 @@ export default function ServicesPage() {
                 {
                   step: "02",
                   title: "Equipment Deployment",
-                  desc: "Our team arrives discreetly with the appropriate military-grade TSCM tools for your specific environment.",
+                  desc: "The team arrives discreetly with the instruments suited to your environment: spectrum analysis, non-linear junction detection, thermal imaging and optical inspection.",
                 },
                 {
                   step: "03",
@@ -227,12 +226,9 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* ── Sliding testimonials ── */}
-        <Testimonials />
-
         <ContactCTA
           title="Ready to Book Your Sweep?"
-          subtitle="Speak to a certified TSCM specialist, completely confidential."
+          subtitle="Speak to us in confidence about what a sweep would cover."
           variant="accent"
         />
       </main>

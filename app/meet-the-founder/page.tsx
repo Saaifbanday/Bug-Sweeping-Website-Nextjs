@@ -182,14 +182,14 @@ export default function PortfolioPage() {
                 Conference in Cannes, France. Since 2013, Hardesh Bhardwaj has run
                 corporate, personal, and technical-security investigations for clients
                 in India and abroad. This page collects the awards, conference
-                recognitions, and certifications behind that work.
+                recognitions, and documents behind that work.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="/contact" className="btn-primary">
                   Book a Confidential Sweep
                 </a>
                 <a href="#certifications" className="btn-secondary">
-                  View Certifications
+                  View Credentials
                 </a>
               </div>
             </div>
@@ -347,7 +347,7 @@ export default function PortfolioPage() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <p className="section-label mb-4">Certifications &amp; Credentials</p>
+            <p className="section-label mb-4">Credentials &amp; Documents</p>
             <h2 className="section-title mb-5">Verified Documentation</h2>
             <p className="section-subtitle mx-auto">
               Official certificates and registration documents. Click any card

@@ -5,12 +5,12 @@ import Link from "next/link";
 const items = [
   {
     label: "Who We Are",
-    title: "India's Most Trusted TSCM Specialists",
+    title: "A Specialist TSCM Practice",
     body: "BugSweepingTSCM is a dedicated technical surveillance countermeasure (TSCM) firm operated by trained security professionals. We exist for one purpose: to find and neutralise hidden surveillance devices before they cause irreparable damage to your business, your family, or your reputation.",
     bullets: [
-      "Certified TSCM technicians with field-proven expertise",
+      "Technicians who do this work full time, not as a sideline",
       "Strictly confidential. NDA-covered from the first call",
-      "Unmarked vehicles, discreet arrival, zero attention drawn",
+      "Low key arrival at a time that suits you",
       "Deployed across India — Mumbai, Delhi, Bengaluru & beyond",
     ],
     imageSrc: "/images/homepage/first_image.png",
@@ -44,13 +44,13 @@ const items = [
   },
   {
     label: "Why Choose Us",
-    title: "Why India's Most Privacy-Conscious Clients Trust Us",
-    body: "Our clients include C-suite executives, government officials, high-net-worth individuals, and legal professionals. They come to us because the stakes are high — and they know a thorough, certified sweep requires far more than a consumer-grade detector from an online marketplace.",
+    title: "Why People Come to a Specialist",
+    body: "People come to us when the stakes are high enough that they want the question settled properly. A thorough sweep takes more than a consumer detector bought online: it means agreeing what is in scope, working through it with several different instrument classes, and being told plainly what was found and what could not be established.",
     bullets: [
       "13 years of TSCM and investigative practice",
       "500+ successful sweeps across India",
       "Client identities never disclosed, in any circumstances",
-      "Detailed written report with every sweep",
+      "A written account of what was examined and what was found",
     ],
     imageSrc: "/images/homepage/fourth_image.png",
     imagePlaceholderLabel: "why-choose-us",
