@@ -438,7 +438,12 @@ export default async function CityPage({
                 <Link href="/blog/bug-sweeping-in-india" style={{ color: "var(--color-accent)" }}>
                   national guide
                 </Link>{" "}
-                covers how to prepare, what drives the cost, and what to do if you find a device. The
+                covers how to prepare, what drives the cost, and what to do if you find a device. If the
+                concern is commercial rather than personal, our{" "}
+                <Link href="/blog/corporate-espionage-india" style={{ color: "var(--color-accent)" }}>
+                  guide to corporate espionage
+                </Link>{" "}
+                sets out what Indian law actually protects, and what it does not. The
                 credentials behind the work, including company registration and award documentation, are on the{" "}
                 <Link href="/meet-the-founder" style={{ color: "var(--color-accent)" }}>
                   founder page

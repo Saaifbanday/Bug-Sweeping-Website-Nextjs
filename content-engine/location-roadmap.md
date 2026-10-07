@@ -44,6 +44,30 @@ What the hubs and the city pages under them have taught, and what to carry into 
 - Official sites understate their own structure. Uttar Pradesh Police's homepage navigation lists four commissionerates against seven in its own unit list, and Maharashtra's about page says ten against eleven. Settle counts from a list or an order, never from navigation.
 - Where two sources disagree on a count, publish none. That applied to cyber police stations in Maharashtra, Madhya Pradesh and Gujarat, and to police station totals in Bihar.
 
+## Internal linking, 7 October 2026
+
+Measured before any change: every city page linked to the national guide through the template,
+but all fifteen state hubs linked to no article at all, and the four concept pillars had six to
+nine inbound links each against forty five for the national guide. On a site whose Search Console
+reported eleven pages discovered but not yet crawled, that is the gap worth closing before
+writing anything new.
+
+Three changes. The state hub template gained a short closing section linking to four guides in
+prose. The city template's closing paragraph gained the corporate espionage guide, for readers
+whose concern is commercial. And the four rebuilt pillars gained contextual links inside existing
+sentences, to the cities and states their own cases already name, plus to each other.
+
+Result: pillar inbound links went from 9, 9, 8 and 6 to 24, 24, 44 and 21; the national guide
+from 45 to 60; and location pages with no article link from fifteen to zero. The two city guides
+were deliberately left at six and seven, because inflating them would mean linking the Delhi
+guide from pages where Delhi is irrelevant.
+
+Cost, recorded honestly: hub against hub overlap rose from the previously recorded range to
+22.3 and 23.4 per cent, because roughly a hundred shared words now appear on all fifteen hubs.
+That is navigational boilerplate, it sits far below the 42.0 per cent city against city chrome
+floor, and hub against city overlap is unchanged at 14.0 per cent. Watch it if the hub template
+grows further.
+
 ## Tier 0: the locations index
 
 `/locations` is the parent of both tiers. Added 26 September 2026; before that the city pages had no hub. Groups cities by region, explains what actually differs between them, carries ItemList and FAQPage schema, and is linked from the header on every page.

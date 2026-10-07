@@ -292,6 +292,39 @@ export default async function StatePage({
           </div>
         </section>
 
+        {/* Guides: the state layer is on this page, the method and legal detail is in the guides */}
+        <section className="py-14" style={{ backgroundColor: "var(--bg-surface)" }}>
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+              className="font-bold mb-5"
+              style={{ color: "var(--color-text)", fontSize: "1.375rem", letterSpacing: "-0.02em" }}
+            >
+              Before you arrange a sweep in {data.state}
+            </h2>
+            <p style={{ color: "var(--color-muted)", lineHeight: 1.8, fontSize: "1.0625rem" }}>
+              This page covers what is specific to {data.state}. The questions that come before it are
+              answered in our guides.{" "}
+              <Link href="/blog/how-to-detect-hidden-cameras" style={{ color: "var(--color-accent)" }}>
+                Detecting hidden cameras
+              </Link>{" "}
+              sets out which checks on a phone actually work, and which two provisions of Indian law
+              apply to whom.{" "}
+              <Link href="/blog/signs-your-office-is-bugged" style={{ color: "var(--color-accent)" }}>
+                Signs an office is bugged
+              </Link>{" "}
+              separates the warning signs that mean something from the ones that do not. And{" "}
+              <Link href="/blog/vehicle-gps-tracking" style={{ color: "var(--color-accent)" }}>
+                GPS trackers on vehicles
+              </Link>{" "}
+              explains why a phone alert catches some devices and no cellular tracker at all. Our{" "}
+              <Link href="/blog/bug-sweeping-in-india" style={{ color: "var(--color-accent)" }}>
+                national guide
+              </Link>{" "}
+              covers how a sweep is scoped and what it can honestly establish.
+            </p>
+          </div>
+        </section>
+
         <ContactCTA subtitle={`Tell us where in ${data.state} you are and what prompted the concern, and we will explain what a sweep would cover.`} />
       </main>
       <Footer />
