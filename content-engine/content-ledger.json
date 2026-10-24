@@ -1,5 +1,67 @@
 [
   {
+    "slug": "is-someone-monitoring-your-phone",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "is someone monitoring your phone",
+    "secondary_keywords": [
+      "how to know if your phone is being monitored",
+      "is my husband tracking my phone",
+      "is my partner monitoring my phone",
+      "how to find spy app on android",
+      "how to detect spyware on android phone",
+      "stalkerware detection",
+      "do spy app detector apps work",
+      "how is my wife monitoring my phone",
+      "how to remove spyware from phone"
+    ],
+    "h2_outline": [
+      "Why the symptoms everyone lists prove nothing",
+      "The checks that actually establish something",
+      "Sometimes there is no app at all",
+      "One thing worth switching on now",
+      "Why a detector app is not the answer",
+      "What Indian law actually covers, and who it leaves out",
+      "The court judgments people are misreading",
+      "Where help actually exists in India",
+      "If you decide to act",
+      "What a sweep can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Safety guidance first, before any detection content, because the organisations working with survivors state that removal may be noticed and may increase the abuse. Then the stalkerware versus mercenary spyware split, then the symptom debunk, then per-platform settings audits, then the account-compromise route where no app exists, then the law, then helplines with their scope limits, then response ordering. Deliberately inverts the competitor shape, which puts symptoms first and removal second.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/vehicle-gps-tracking"
+    ],
+    "main_device": "per-platform settings audit plus a helpline table carrying each number's scope limits",
+    "information_gain": "Publishes the fact that the women's helpline 181 is not operational everywhere in India: the Ministry of Women and Child Development's own scheme page, last updated 23 October 2026 and verified independently before publication, states it is operational in all States and Union Territories except West Bengal. Of four competitor pages inspected, not one gave an Indian reader any helpline at all. Separates commercial stalkerware from mercenary spyware and gives each its own route, where competitor content collapses them. Corrects the symptom myth from the Coalition Against Stalkerware's own wording, which covers both failure modes, and pairs it with Apple's and Google's own documentation of ordinary causes for the same symptoms. Gives the one conclusive user-runnable test on either platform, Apple's statement that if no configuration profiles are listed then no device management profile is installed, plus Apple's rarely mentioned check for an unexpected Face ID or Touch ID fingerprint. Corrects the common instruction to check Android's Permission manager, since accessibility services, notification access, usage access and device admin are not entries there. Covers Android Intrusion Logging, a tamper-resistant twelve-month log of app installation events that no competitor page carries, with its honest limit that it is prospective only. Explains the account-compromise route where no app exists on the phone at all. On law, pairs IT Act sections 43 and 66 as civil wrong and criminal counterpart, adds the procedural facts that section 66 is cognizable but bailable under section 77B and must be investigated by an officer not below Inspector rank under section 78, notes the one crore cap was removed in 2009, and explains that BNS section 78 limb two fits phone monitoring far better than it fits a GPS tracker because it covers monitoring the use of electronic communication. States the gender gap in both directions: the stalking offence is closed to male victims, but the computer misuse offences are gender neutral, so the common claim that men have no protection is wrong. Finally separates admissibility from legality, since the July 2025 Supreme Court decision on spousal recordings is being read as a licence to monitor, while two April 2026 Bombay High Court at Goa judgments recorded an admitted installation of a named monitoring app and rejected the resulting evidence both times.",
+    "internal_links_out": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/vehicle-gps-tracking",
+      "/blog/signs-your-office-is-bugged",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run across the ledger, the repository and the sister site: no dedicated page existed on bugsweepingtscm.com, none on advancedetectiveagency.com despite its 64 TSCM pages, and none on the competitor whose 32 TSCM articles were audited. Existing mentions were incidental and are now linked rather than duplicated. Inbound links were then built from the city page template and from four existing posts, taking the new page from zero to 45 inbound.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-24",
+    "date_modified": "",
+    "notes": "Created 24 Oct 2026. Deliberately omitted two Indian resources for technology-facilitated abuse, and the page says so. TechSakhi was dropped because its operator's own pages give three different sets of opening hours, the about page contains unfilled placeholder text, no site content later than 2024 could be found, and the only way to confirm it is staffed is to telephone it, which could not be done. Meri Trustline was dropped because the RATI Foundation's own site presents it as a service for children facing online harms while a partner page describes it as open to anyone, and adult eligibility could not be confirmed; sending an adult in danger to a children's service is not an acceptable risk. Access Now and Amnesty's Security Lab are named only as mandate-restricted to journalists, activists and human rights defenders, which is itself the gap the page reports. The 181 West Bengal exception was re-verified directly against the ministry page before publication rather than relied on from research. Also not published: any count of operational One Stop Centres or of states covered by 112, because no fetched official page gave one; per-product antivirus detection percentages, because the underlying AV-Comparatives PDF was not retrieved, so the Electronic Frontier Foundation's November 2025 finding is given as a spread with Play Protect among the weakest; the current status of the Supreme Court Pegasus petitions, which were last reported heard on 29 April 2025 and could not be confirmed from the Registry; and any Hinglish keyword targeting, since Google autocomplete at India locale returned nothing for transliterated seeds and the engine specifies English only. Word count recorded as a deviation: about 3,900 words of prose against the 2,000 to 3,000 pillar range. The overshoot is real and is not padding, since the page covers two platforms, the account-compromise route, the statutory position, the admissibility distinction and the helpline landscape, each sourced; but it is the third consecutive article where my length estimate was too low, and splitting it would fragment safety-critical guidance. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px, one H1, no heading skips, zero em or en dashes, zero emoji, zero blocked claims, JSON-LD valid with seven FAQ questions matching seven visible, and no internal link pointing at a missing page. One banned-phrase flag reviewed in context and passed: unlock appears only in the literal senses of an unlocked device and of the device being locked and unlocked.",
+    "revisions": []
+  },
+  {
     "slug": "how-to-detect-hidden-cameras",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/how-to-detect-hidden-cameras",
     "page_type": "concept-pillar",

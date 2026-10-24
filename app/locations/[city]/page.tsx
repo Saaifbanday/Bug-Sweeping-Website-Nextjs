@@ -443,7 +443,12 @@ export default async function CityPage({
                 <Link href="/blog/corporate-espionage-india" style={{ color: "var(--color-accent)" }}>
                   guide to corporate espionage
                 </Link>{" "}
-                sets out what Indian law actually protects, and what it does not. The
+                sets out what Indian law actually protects, and what it does not. If the worry is a
+                phone rather than a room, our{" "}
+                <Link href="/blog/is-someone-monitoring-your-phone" style={{ color: "var(--color-accent)" }}>
+                  guide to phone monitoring
+                </Link>{" "}
+                covers which checks establish anything and where help exists. The
                 credentials behind the work, including company registration and award documentation, are on the{" "}
                 <Link href="/meet-the-founder" style={{ color: "var(--color-accent)" }}>
                   founder page

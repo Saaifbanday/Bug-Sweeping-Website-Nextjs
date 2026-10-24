@@ -102,7 +102,7 @@ const bugSweepingIndiaFaqs: Faq[] = [
   },
   {
     q: "Does a bug sweep check my phone for spyware?",
-    a: "Not automatically. A room or vehicle sweep looks for physical devices; checking a phone for spyware or stalkerware is separate work that has to be agreed in the scope. If you suspect a partner or family member is monitoring your phone, seek help from a device they cannot access, and do not reset the phone or delete apps first, because that can alert them and erase evidence.",
+    a: "Not automatically. A room or vehicle sweep looks for physical devices; checking a phone for spyware or stalkerware is separate work that has to be agreed in the scope. If you suspect a partner or family member is monitoring your phone, seek help from a device they cannot access, and do not reset the phone or delete apps first, because that can alert them and erase evidence. Our guide on whether someone is monitoring your phone sets out the checks that establish something and where help exists in India.",
   },
 ];
 
@@ -222,7 +222,224 @@ const vehicleTrackerFaqs: Faq[] = [
   },
 ];
 
+const phoneMonitoringFaqs: Faq[] = [
+  {
+    q: "How do I know if my phone is being monitored?",
+    a: "Not from how the phone behaves. The checks that actually tell you something are a settings audit rather than a scan: on an iPhone, Settings then General then VPN and Device Management, where Apple states that if you see no profiles then no device management profile is installed; on Android, the full app list under Settings then Apps then See all apps, plus device admin apps, accessibility services and special app access. Then check your accounts, because a good deal of monitoring involves no app on the phone at all.",
+  },
+  {
+    q: "Does battery drain or an overheating phone mean spyware?",
+    a: "No, and treating it as evidence works in both directions. The Coalition Against Stalkerware puts it plainly: unusual behaviour such as rapid battery drain or data spikes may be a sign, but it does not have to be, and some monitoring software runs with no such side effects at all. Apple's and Google's own support pages list ordinary causes for exactly these symptoms, including software updates, battery ageing, heat, streaming and background refresh, and neither mentions spyware. The better signal is the other person knowing things they should have no way of knowing.",
+  },
+  {
+    q: "Do spy app detector apps work?",
+    a: "On an iPhone, no. Apple documents that all third party apps are sandboxed, that the sandbox is designed to prevent apps gathering information stored by other apps, and that system files are shielded from apps, so an App Store app has no documented mechanism for inspecting other apps or the filesystem. On Android it is different: a security app can enumerate installed packages and match them against known monitoring software, which is why reputable products detect a good deal of it. Independent testing published by the Electronic Frontier Foundation with AV-Comparatives in November 2025 found wide variation, with Google Play Protect among the weakest performers.",
+  },
+  {
+    q: "Should I delete the app as soon as I find it?",
+    a: "Not automatically, and this is the most important thing on this page. The Coalition Against Stalkerware warns that removing monitoring software, or making significant changes, may be detected by the person who installed it and could increase the abuse, and that deleting it also deletes the evidence you would need if you later report it. Their advice is to make a safety plan first, using a device the other person has not had access to, and to attempt removal only if you believe it is safe. If you are in immediate danger, call 112.",
+  },
+  {
+    q: "Is it illegal for a husband or wife to install spyware on the other's phone in India?",
+    a: "Installing monitoring software on another adult's phone without permission engages section 43 of the Information Technology Act, 2000, which covers accessing a device and downloading or copying data without the permission of the owner, and carries a civil liability to pay compensation. Section 66 makes the same conduct a criminal offence where it is done dishonestly or fraudulently, punishable with up to three years or a fine up to five lakh rupees. Where the person monitored is a woman and the person monitoring is a man, section 78 of the Bharatiya Nyaya Sanhita, 2023 covers monitoring a woman's use of electronic communication.",
+  },
+  {
+    q: "I am a man and my wife is monitoring my phone. Do I have any protection?",
+    a: "Partly, and the position is worth stating precisely because it is usually got wrong in both directions. The stalking offence is closed to you: section 78 of the Bharatiya Nyaya Sanhita can only be committed by a man against a woman, in its own words, and we could not find a gender neutral Indian stalking offence. But the computer misuse provisions are gender neutral. Section 43 of the Information Technology Act applies to any person accessing a device without the owner's permission, and section 66 applies to any person doing so dishonestly or fraudulently.",
+  },
+  {
+    q: "Where can I get help in India?",
+    a: "For an emergency, 112, which is the national emergency number. The women's helpline is 181, but check one thing first: the Ministry of Women and Child Development's own page, last updated 23 October 2026, states that it is operational in all States and Union Territories except West Bengal. The National Commission for Women runs 14490 for complaint registration and referral, and its own page says that for emergencies you should call 112 instead. There is no Government of India helpline specifically for someone whose phone is being monitored by a partner, which is a real gap.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "is-someone-monitoring-your-phone",
+    title: "Is Someone Monitoring Your Phone? How to Check Safely, and What Indian Law Says",
+    seoTitle: "Is Someone Monitoring Your Phone? How to Check Safely",
+    metaDescription:
+      "Is someone monitoring your phone? Which checks actually work on iPhone and Android, why battery drain proves nothing, what Indian law covers, and where to get help.",
+    excerpt:
+      "Most advice on this subject tells you to look for battery drain and then delete the app. Both are wrong, and the second can put someone in danger. This guide sets out the checks that actually establish something, the Indian legal position, and where help exists.",
+    date: "2026-10-24",
+    readTime: "12 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/is-someone-monitoring-your-phone.webp",
+    ogImage: "/images/blogs/is-someone-monitoring-your-phone.png",
+    coverImageAlt:
+      "Is Someone Monitoring Your Phone guide cover: a phone outline on a dark grid with a hidden process marked in red behind the screen",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Need to talk this through with someone?",
+      text: "If a specific device and a specific period of access are the concern, a private consultation can help you work out what can realistically be established and in what order. Please get in touch from a phone and a place the other person has no access to.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone",
+          name: "Is Someone Monitoring Your Phone? How to Check Safely",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-someone-monitoring-your-phone.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#article",
+          headline: "Is Someone Monitoring Your Phone? How to Check Safely, and What Indian Law Says",
+          description:
+            "Is someone monitoring your phone? Which checks actually work on iPhone and Android, why battery drain proves nothing, what Indian law covers, and where to get help.",
+          datePublished: "2026-10-24",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Stalkerware" },
+            { "@type": "Thing", name: "Spyware" },
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is Someone Monitoring Your Phone?" },
+          ],
+        },
+        faqJsonLd(phoneMonitoringFaqs, "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Before anything else.</strong> If you think someone is monitoring your phone, that person can probably see what you search for, including this page. Look for help from a different device, one they have never had access to. Do not delete anything yet: removal can be noticed, and it destroys the evidence. If you are in immediate danger, call <strong>112</strong>.</p>
+      </div>
+
+      <p>Almost every guide to this subject does two things, and both are wrong. It tells you to watch for a hot phone and a draining battery, which proves nothing in either direction. And it then tells you to find the app and delete it, which in the situation most readers are actually in is the single most dangerous instruction available. This guide puts the order the other way round, because that is what the organisations working on this subject advise.</p>
+
+      <p>There are two completely different problems under the word spyware, and advice written for one is useless for the other. <strong>Commercial stalkerware</strong> is bought off the internet and installed by hand, usually by a partner or family member. The Coalition Against Stalkerware notes that it requires no particular technical skill, and that on Android the person almost always needs physical access to the unlocked device. <strong>Mercenary spyware</strong>, of the kind associated with state actors, is delivered without you touching anything, costs a great deal, and is aimed at what Apple describes as a very small number of specific individuals, often journalists, activists, politicians and diplomats. Apple states plainly that the vast majority of users will never be targeted by attacks of that nature. If the person you suspect has had your phone in their hands or knows your account password, you are almost certainly in the first case, and the rest of this page is written for that.</p>
+
+      <h2>Why the symptoms everyone lists prove nothing</h2>
+      <p>The Coalition Against Stalkerware addresses this directly on its page for survivors. Unusual behaviour such as a rapidly draining battery, spikes in data usage or strange notifications may be a sign of monitoring software, it says, but it does not have to be, and some monitoring software runs without any such side effects. That single sentence covers both failure modes: symptoms without monitoring, and monitoring without symptoms.</p>
+      <p>The ordinary explanations are documented by the platform makers themselves. Apple's support page on a warm device lists first time setup, restoring from a backup, a major software update, wireless charging, processor-intensive apps and video streaming, and says these conditions are normal. Its battery page explains that a battery's capacity diminishes as it chemically ages and that performance management can cause longer app launch times, dimming and background apps reloading. Google's battery page notes that a phone drains much faster when hot, and that after a software update it is normal for the battery to drain more than usual while the phone optimises. None of those pages mentions spyware, because they are not about spyware. They are about the ordinary causes of exactly the symptoms that get attributed to it.</p>
+      <p>What the Coalition offers instead is a better signal, and it is behavioural rather than technical: the most common sign is the other person's own change in behaviour, when they know too much about your activity and there is no other explanation. They also suggest keeping a written log of what you are experiencing, which helps establish a pattern and gives you a history if you later go to the police.</p>
+
+      <h2>The checks that actually establish something</h2>
+      <p>These are settings audits, not scans. Neither platform offers a spyware scanner, which is covered further down.</p>
+
+      <h3>On an iPhone</h3>
+      <p>The one conclusive, user-runnable test on either platform is the configuration profile check. Apple's own personal safety guide explains that configuration profiles and mobile device management tools may allow access to data or location information on the device, and gives the path: Settings, then General, then VPN and Device Management. Apple's wording is unusually definite: if you do not see any profiles, then no device management profile is installed. Note Apple's own caution alongside it, that if the device belongs to a school or employer you should check with the administrator before deleting anything.</p>
+      <p>Apple's Checklist 1 adds several manual reviews that are quick and rarely mentioned anywhere else. Review the devices signed in to your Apple Account under Settings and your name, and remove any you do not recognise. Review the apps installed for anything you do not remember installing. Check whether iPhone Mirroring is set up. And check the device for an unexpected Face ID or Touch ID fingerprint, which takes seconds and which no competitor page we inspected mentions at all.</p>
+      <p><strong>Safety Check</strong> is the Apple feature closest to this situation, at Settings, then Privacy and Security, then Safety Check. It lets you review who has access to your information including your location, stop sharing with everyone at once through Emergency Reset, review the devices connected to your Apple Account and reset app privacy permissions. It covers sharing through Apple features such as Find My location, Shared Albums, Shared Notes, Shared Passwords, Home and Health, and third party app access to things like the camera, microphone, contacts and location.</p>
+      <p>Two warnings about Safety Check matter more than the feature itself. Apple provides a Quick Exit button precisely because, in its words, individuals in abusive situations may need to rapidly hide their use of Safety Check. But Quick Exit hides your use of the settings screen, not the effect of the change. <strong>Apple nowhere states that the other party is not notified when you stop sharing</strong>, and its own documentation says that some apps or services notify you when sharing resumes. Any page telling you the other person will not notice is making a claim Apple does not support. Apple's own instruction is to plan for your safety before making changes.</p>
+
+      <h3>On Android</h3>
+      <p>Four screens matter, and three of them are not where most guides send you. Start with the full app list at Settings, then Apps, then See all apps, which is a different surface from the launcher's app drawer. Then <strong>Device admin apps</strong>, under Security, which Google describes as where you find or remove apps that can administer your phone. Then <strong>Accessibility</strong>, where a service with permission to inspect window content can read text from the screen and act on your behalf. Then <strong>Special app access</strong>, under Apps, which holds notification access and usage access.</p>
+      <p>That last point is the correction worth carrying away: <strong>accessibility services, notification access, usage access and device admin are not entries in the Permission manager.</strong> Content telling you to check Permission manager for monitoring software is pointing you at the wrong screen for the three grants that matter most.</p>
+      <p>It is also worth knowing why some apps resist removal. Android's own developer documentation states that to uninstall a device admin app, users need first to unregister the app as an administrator. That is the sourced answer to a question readers ask constantly.</p>
+      <p>Two false alarms to avoid. Android has a legitimate private space feature where apps are hidden from the app list when it is locked, and a work profile on a managed device legitimately shows apps badged with a briefcase. Neither is evidence of anything.</p>
+      <p>On scanning, Google Play Protect checks apps for harmful behaviour and may deactivate or remove them, and it analyses apps requesting sensitive permissions such as reading text messages or controlling accessibility features. Google also notes it is on by default but can be turned off, which is the practical limit: an all clear from Play Protect means little if somebody else has had administrative access to the handset. Independent testing published by the Electronic Frontier Foundation with AV-Comparatives in November 2025, across seventeen monitoring products, found detection varied widely between security products, with Play Protect among the weakest, and the Foundation's own explanation is that because it is the default on so many phones, some monitoring software ships with instructions for disabling it during installation.</p>
+
+      <h2>Sometimes there is no app at all</h2>
+      <p>This is the case that defeats every scanner and most advice. The Coalition Against Stalkerware notes that some iPhone and iPad monitoring works by taking data from backups stored in iCloud, and suggests checking whether iCloud Backup is enabled when you did not enable it yourself, under Settings, your name, then your device. It says plainly that if someone is secretly tracking your online activities, monitoring software may not be involved at all.</p>
+      <p>Look at what Apple's own remediation tools actually address and the point becomes obvious: signed in devices, trusted phone numbers, shared location, shared albums, shared passwords, calendars and notes. Those are accounts and sharing, not malware. A device scan cannot find any of it, and a factory reset does not fix it, because the access lives in the account rather than on the handset.</p>
+
+      <h2>One thing worth switching on now</h2>
+      <p>Google added an optional feature called Intrusion Logging, within Advanced Protection, which records device activity including app installations, updates and removals, network connections and when the device is locked and unlocked. The logs are end to end encrypted, stored for a rolling twelve months, and decryptable only by you, since Google states it does not know your screen lock or password. The path is Settings, then Security and privacy, then Advanced Protection.</p>
+      <p>Why it matters here: installing commercial monitoring software requires hands-on access, and this is the first platform feature that gives an ordinary user a tamper-resistant record of app installation events. The Coalition Against Stalkerware, writing on 21 October 2026, noted that although the feature was designed with more advanced spyware in mind, it also helps detect commercial stalkerware, and is especially useful where someone is supporting a survivor directly and can set up logging and then read through the activity with them.</p>
+      <p>Its limits are real and should be stated. It is <strong>prospective only</strong> and cannot detect intrusions retroactively, it requires a Google account, and it has to be enabled before anything happens. On version, Amnesty's analysis and the Android developer documentation describe it as Android 16 or later, while Google's October 2026 announcement describes the wider Advanced Protection feature set as available on Android 17 devices. If you suspect monitoring today, this answers nothing about today. It makes the same question answerable later.</p>
+
+      <h2>Why a detector app is not the answer</h2>
+      <p>On an iPhone the obstacle is architectural. Apple's platform security documentation states that all third party apps are sandboxed, that sandboxing is designed to prevent apps from gathering or modifying information stored by other apps, and that system files and resources are shielded from apps. Apple documents no mechanism by which an App Store app could inspect other apps or walk the filesystem, which is why there is no real antivirus on iOS and why an iPhone spy app detector cannot do what its name implies.</p>
+      <p>On Android the honest answer is different, and the blanket dismissal you will read elsewhere is wrong. Android's developer documentation explains that from Android 11 the list of installed apps is filtered by default, treating it as personal and sensitive user data, and that an app needs a declared queries element or the approved QUERY_ALL_PACKAGES permission to see more. A security app with that approval can enumerate installed packages and match them against known monitoring software, which is exactly how the testing above was possible. What it still cannot do is read inside another app's sandbox, or find the account-compromise cases above, because there is no app involved in those at all.</p>
+
+      <h2>What Indian law actually covers, and who it leaves out</h2>
+      <p>Two provisions of the <a href="https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf" rel="noopener noreferrer" target="_blank">Information Technology Act, 2000</a> do the work, and they are a pair. Section 43 covers a person who, without the permission of the owner or the person in charge, accesses a computer or downloads, copies or extracts data from it, and makes them liable to pay compensation. Section 66 makes the same conduct a criminal offence where it is done dishonestly or fraudulently, punishable with up to three years or a fine up to five lakh rupees or both. The difference between the civil wrong and the crime is entirely the state of mind.</p>
+      <p>Two procedural facts follow that nobody seems to publish. Under section 77B an offence punishable with three years is bailable, and section 66 carries a three year maximum, so it is cognizable but bailable: a first information report can be registered without a magistrate's order, and equally an arrest does not follow automatically. And section 78 of the same Act requires that an offence under it be investigated by a police officer not below the rank of Inspector, which is worth knowing if a constable turns you away.</p>
+      <p>Section 43 also has a compensation route most people never hear about. Under section 46 an adjudicating officer, an official not below the rank of Director to the Government of India or the equivalent in a State, decides claims up to five crore rupees, with larger claims going to a court. The one crore ceiling that older articles mention was removed by the 2009 amendment.</p>
+      <p>Where the person monitored is a woman and the person monitoring is a man, section 78 of the <a href="https://egazette.gov.in/WriteReadData/2023/250883.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nyaya Sanhita, 2023</a>, in force since 1 July 2024, is directly on point. Its second limb covers a man who monitors the use by a woman of the internet, email or any other form of electronic communication. Phone monitoring software whose whole function is to capture messages, calls and browsing is monitoring the use of electronic communication in the most literal sense, with no analogy required. Note two things about that limb: unlike the first limb it needs no repetition and no prior indication of disinterest, which makes it materially easier to establish. It carries up to three years on a first conviction and up to five on a second.</p>
+      <p>Now the gap, stated plainly in both directions. <strong>The stalking offence is gender specific both ways.</strong> It can be committed only by a man, and only against a woman. A man whose phone is monitored by his wife has no remedy under it, and we could not find a gender neutral Indian stalking offence. But he is not without remedy, and the common claim that men have no protection is wrong: sections 43 and 66 of the Information Technology Act both apply to any person, and so does the interception offence under the Telecommunications Act, 2023. The accurate line is that the computer misuse offences are gender neutral and the stalking offence is not.</p>
+      <p>On parents monitoring a minor child, and employers monitoring a company device, the honest answer is that the Indian position is unsettled. Both sections 43 and 66 turn on acting without the permission of the owner or the person in charge of the device, and a parent or an employer may well be the person in charge, which if accepted would mean no contravention at all. We found no Indian judgment deciding the point either way. What is clearer is platform policy, which is not law: Google Play's own stalkerware policy permits monitoring apps only for parents monitoring children or enterprises monitoring employees, requires a persistent notification at all times while running and a unique identifying icon, and states in terms that these apps cannot be used to track anyone else, a spouse for example, even with their knowledge and permission.</p>
+
+      <h2>The court judgments people are misreading</h2>
+      <p>Indian courts have recently made it easier to use material obtained by spouses as evidence. They have not made it lawful to obtain. Confusing the two is the most consequential error available on this subject, and it is being made in both directions.</p>
+      <p>In a decision of 14 July 2025 the Supreme Court held that the spousal privilege in section 122 of the Evidence Act does not apply in proceedings between married persons, so a recording made by one spouse of their own conversation with the other is not barred, and remarked that the phone on which a conversation is recorded is no different from an eavesdropper. That case concerned a spouse recording his own conversations. It contains no holding that installing software on another person's phone is lawful and no finding on criminal liability at all.</p>
+      <p>What happened when an Indian court did face an admitted installation is more instructive. In two judgments in April 2026, the Bombay High Court at Goa recorded that a husband had loaded a named commercial monitoring app onto his wife's phone, admittedly without her consent. In the first the data had never been forensically examined and the husband was not a qualified expert, so the evidence was rejected as unreliable and the appeal dismissed. In the second the court held there was no proof of the electronic evidence and no compliance with the certificate requirements, that relying on it would be unsafe, and dismissed that appeal too. An admitted installation, twice, and the material it produced was thrown out both times.</p>
+      <p>One further absence is worth recording. A search of reported Indian judgments on 24 October 2026 found no conviction, and no reported judgment, under section 43, 66 or 66E of the Information Technology Act arising from a partner or family member installing monitoring software on another's phone. The only reported Indian judgments in which such an installation appears at all are those two matrimonial appeals. Nor could we find any Indian enforcement action against the sellers of these apps, which is part of why they remain openly purchasable here.</p>
+
+      <h2>Where help actually exists in India</h2>
+      <p>This is where most pages on this topic give you nothing at all. Of four competitor pages we inspected, not one gave an Indian reader a single helpline number.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Indian helplines relevant to phone monitoring and abuse, with what each one does and does not do</caption>
+          <thead>
+            <tr><th scope="col">Number</th><th scope="col">What it is</th><th scope="col">What it does not do</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">112</th><td>The national emergency number, reaching police, fire and medical services</td><td>It is emergency dispatch, not a cyber or device service</td></tr>
+            <tr><th scope="row">181</th><td>Women Helpline, connecting to emergency services, One Stop Centres, legal aid and counselling</td><td><strong>Not operational in West Bengal.</strong> It routes you onward; it does not examine a phone</td></tr>
+            <tr><th scope="row">14490</th><td>National Commission for Women helpline, for registering a complaint and referral to police, hospitals, legal services and One Stop Centres</td><td>The Commission's own page says that for emergency assistance you should call 112 instead</td></tr>
+            <tr><th scope="row">1930</th><td>The cyber crime helpline, scoped to urgent financial cyber fraud</td><td>Not a line for a monitored phone, unless money has moved</td></tr>
+            <tr><th scope="row">1098</th><td>National child helpline</td><td>Children only</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>On 181, one detail is worth more than the number itself. The Ministry of Women and Child Development's own scheme page, last updated on 23 October 2026, states that the Women Helpline is presently operational in all States and Union Territories except West Bengal. Every page we inspected lists 181 flatly as a national number. A reader in West Bengal following that advice reaches nothing.</p>
+      <p>You may also see 1091 recommended. Treat it as city or state specific rather than national: Delhi Police publishes it for women in distress, but it does not appear on the National Commission for Women's own list of helplines, so check what your own city actually publishes before relying on it. One Stop Centres, sometimes called Sakhi Centres, bring police facilitation, medical aid, legal aid and counselling together in one place and work alongside 181.</p>
+      <p>Two honest gaps. <strong>There is no Government of India helpline specifically for technology-facilitated abuse.</strong> Every number above exists for another primary purpose, and none is scoped to someone monitoring your device. And the organisations capable of forensically answering whether a phone is infected, such as Amnesty International's Security Lab and the Access Now Digital Security Helpline, restrict their mandates to journalists, activists and human rights defenders, so an ordinary person monitored by a partner generally will not qualify. Internationally the Coalition Against Stalkerware maintains information for survivors and a directory of support organisations, which is genuinely useful, but it is a directory and an information resource rather than a helpline, and it handles no cases itself.</p>
+
+      <h2>If you decide to act</h2>
+      <p>The order matters more than any individual step, and this is where the organisations working with survivors disagree sharply with most published advice.</p>
+      <p>Make a safety plan first, developed on a safer device and, where possible, with a support organisation. Preserve what exists before changing anything, because deleting monitoring software deletes the evidence you would need to report it. Attempt removal only if you believe it is safe to do so, because removal or any significant change may be noticed by the person who installed it and can increase the abuse. Expect that it may be reinstalled. On getting rid of it, the Coalition's own assessment is that the best way is a new phone, with a factory reset almost as effective. And if the access is through your accounts rather than the handset, neither a new phone nor a reset will help until the accounts are secured.</p>
+      <p>One practical note about our own work, because it bears on who can help. The forensic tool most often named in this area, Amnesty's Mobile Verification Toolkit, is licensed on a consensual use condition: the owner of the data must explicitly consent, free of coercion and fully informed. It is also documented by its own authors as a tool for technologists and investigators that is not intended for end-user self-assessment. A firm running it on someone else's phone at a client's request would be breaching that licence, and we will not do it.</p>
+
+      <h2>What a sweep can and cannot establish</h2>
+      <p>A room or vehicle sweep looks for physical devices in a space. It does not examine a phone, and the two are separate pieces of work that have to be agreed in the scope. Where a phone is the concern, the realistic route is the settings and account audit above, kept alongside a written log, rather than any instrument.</p>
+      <p>Even forensic analysis cannot tell you a device is clean. Amnesty's own documentation states that public indicators of compromise are insufficient to determine that a device is clean and that relying on them alone can miss recent traces and give a false sense of security. Anyone promising a definitive clean result for a phone is overstating what is possible. Our <a href="/blog/bug-sweeping-in-india">national guide</a> covers how a sweep is scoped, the <a href="/blog/how-to-detect-hidden-cameras">guide to hidden cameras</a> covers rooms, the <a href="/blog/vehicle-gps-tracking">guide to vehicle trackers</a> covers cars, and the <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> covers the workplace version of the same question.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(phoneMonitoringFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. Statutory provisions were checked against the consolidated text of the Information Technology Act, 2000 and the gazette text of the Bharatiya Nyaya Sanhita, 2023; platform behaviour against Apple's and Google's own support and developer documentation; and helpline scope against the Ministry of Women and Child Development and the National Commission for Women, on 24 October 2026. Two Indian resources for technology-facilitated abuse were deliberately left out of this page because their current status could not be confirmed. This is general information and not legal advice, and it is not a safety plan for your particular situation. Take advice about your own circumstances, and confirm current details with the linked sources.</p>
+      </div>
+    `,
+  },
   {
     slug: "how-to-detect-hidden-cameras",
     title: "How to Detect Hidden Cameras: What Works, What Does Not, and the Law in India",
@@ -376,7 +593,7 @@ export const blogPosts: BlogPost[] = [
       </div>
       <p>Section 77 of the <a href="https://egazette.gov.in/WriteReadData/2023/250883.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nyaya Sanhita, 2023</a> punishes whoever watches, captures the image of, or circulates the image of a woman engaged in a private act where she would ordinarily expect not to be observed. Three things follow from the wording that are easy to miss. Watching alone is the offence, with no recording needed. There is a mandatory minimum of one year. And an explanation to the section makes circulating an image an offence even where the subject consented to it being taken but not to it being shared.</p>
       <p>Section 66E of the Information Technology Act, 2000 is gender neutral but much narrower in subject matter. It reaches capturing, publishing or transmitting the image of a private area, and the section defines that term exhaustively rather than inclusively, so an image that does not show a private area as defined falls outside it.</p>
-      <p>Put the two together and two gaps appear that no other page on this subject seems to mention. A man who finds a camera in his hotel bathroom has no voyeurism offence available to him, because section 77 is limited by its own words to a woman; he is left with section 66E, and only if what was captured meets its definition. And nobody of any gender is protected by either section against a covert audio recording, because section 77 speaks of an image and section 66E of a visual image. If your concern is a microphone rather than a lens, neither of these sections is the answer.</p>
+      <p>Put the two together and two gaps appear that no other page on this subject seems to mention. A man who finds a camera in his hotel bathroom has no voyeurism offence available to him, because section 77 is limited by its own words to a woman; he is left with section 66E, and only if what was captured meets its definition. And nobody of any gender is protected by either section against a covert audio recording, because section 77 speaks of an image and section 66E of a visual image. If your concern is a microphone rather than a lens, neither of these sections is the answer. Where the worry is the phone itself rather than the room, our <a href="/blog/is-someone-monitoring-your-phone">guide to phone monitoring</a> covers that separately.</p>
       <p>On hotels specifically, there is no central Indian rule requiring a hotel to disclose or prohibit cameras in guest rooms. The Ministry of Tourism's star classification scheme is voluntary and its only mention of cameras is a line requiring closed circuit television at strategic locations, which is about security coverage of public areas rather than guest privacy. The Ministry of Home Affairs told Parliament in 2015 that states had been advised to require surveillance systems in places with large footfalls including hotels, and that policing and public order are state subjects, which is the constitutional reason the rules differ by state. Our <a href="/locations">state and city pages</a> set out what individual states actually require.</p>
 
       <h2>If you find a camera: what to do, and the number not to call</h2>
@@ -509,7 +726,7 @@ ${faqHtml(hiddenCameraFaqs)}
             <tr><td>Clicks, static or echo on a call</td><td>Network jitter, packet loss, or a microphone re-capturing the loudspeaker output</td><td>No</td></tr>
             <tr><td>Dialling *#21# reveals a tap</td><td>A GSM code that reports call forwarding status</td><td>No</td></tr>
             <tr><td>Radios or speakers buzz in the room</td><td>Audio rectification of burst transmissions from 2G handsets</td><td>Rarely, and much less than it once did</td></tr>
-            <tr><td>Phone battery drains, phone runs hot</td><td>Ordinary battery, app and charging behaviour</td><td>No, and there is no physical path from a room device to your phone</td></tr>
+            <tr><td>Phone battery drains, phone runs hot</td><td>Ordinary battery, app and charging behaviour (see the <a href="/blog/is-someone-monitoring-your-phone">phone monitoring guide</a>)</td><td>No, and there is no physical path from a room device to your phone</td></tr>
             <tr><td>Lights flicker</td><td>Loose or degraded neutral, motor inrush, LED driver and dimmer mismatch</td><td>No</td></tr>
             <tr><td>A detector app alarms</td><td>The magnetometer responding to metal, or a Wi-Fi scan listing the neighbours</td><td>No</td></tr>
             <tr><td>A closely held fact appears elsewhere</td><td>Depends entirely on how specific the fact was and how small the group holding it</td><td>Sometimes, with discipline</td></tr>
@@ -705,7 +922,7 @@ ${faqHtml(officeBuggedFaqs)}
       <h2>Three layers, and what a sweep actually reaches</h2>
       <p>Protection here divides into three layers that behave differently, and being honest about which one a sweep addresses is more useful than claiming it is the foundation of everything.</p>
       <p>The first layer is physical and electronic surveillance of a space: a device placed in a room, a vehicle or a fitting. This is what technical surveillance countermeasures address. It is also the layer where the law is clearest, because unlawful interception of a message is an offence under the Telecommunications Act, 2023, which carries up to three years or a substantial fine, and which came into force in June 2024.</p>
-      <p>The second layer is intrusion into systems, where the microphone is already in the room because it belongs to a laptop or a conferencing unit, and the audio leaves inside ordinary encrypted traffic. No radio sweep detects that. Our <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> goes into why that is now the likelier threat in a modern office.</p>
+      <p>The second layer is intrusion into systems, where the microphone is already in the room because it belongs to a laptop or a conferencing unit, and the audio leaves inside ordinary encrypted traffic. No radio sweep detects that. Our <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> goes into why that is now the likelier threat in a modern office, and the <a href="/blog/is-someone-monitoring-your-phone">guide to phone monitoring</a> covers the handset version of the same problem.</p>
       <p>The third layer is the insider, and it has no technical countermeasure at all. What it has is governance, and Indian law already requires some of it. The rules defining reasonable security practices under the Information Technology Act expressly include physical security control measures alongside managerial, technical and operational ones, which gives a physical security programme a legal footing rather than merely a prudential one. And a listed company is already required, under the insider trading regulations, to maintain a structured digital database recording who unpublished price sensitive information was shared with, maintained internally with time stamping and audit trails and preserved for at least eight years. That register is exactly the record that makes a leak investigable, and no sweep substitutes for it.</p>
       <p>One last caution about expectations. Even a Supreme Court appointed technical committee, examining devices in the Pegasus matter, reported finding malware in five of the twenty nine devices it examined while being unable to confirm what it was. Detection and attribution are different problems, and attribution is frequently not achievable. Any firm that promises to tell you who was listening is promising something the best resourced investigations in the country have not delivered.</p>
 
@@ -1050,7 +1267,7 @@ ${faqHtml(vehicleTrackerFaqs)}
 
       <h2>What a bug sweep cannot tell you</h2>
       <p>A sweep reports findings within the areas it accessed, using the methods it used, under the conditions and at the time it was carried out. Finding no device does not prove that none exists, and no honest provider promises complete detection or future protection. A device installed the day after a sweep will not appear in its report.</p>
-      <p>A physical sweep also does not cover every route by which information leaks. Spyware on a phone, a compromised email account, a shared cloud folder or an insider repeating conversations are separate problems that need different checks. Treat any provider that guarantees "100% detection" with caution; the claim is not something the technology can support.</p>
+      <p>A physical sweep also does not cover every route by which information leaks. <a href="/blog/is-someone-monitoring-your-phone">Spyware on a phone</a>, a compromised email account, a shared cloud folder or an insider repeating conversations are separate problems that need different checks. Treat any provider that guarantees "100% detection" with caution; the claim is not something the technology can support.</p>
 
       <h2>How much does bug sweeping cost in India?</h2>
       <p>There is no standard national rate, and published prices vary widely between providers. Rather than rely on a headline figure, ask for a written quote that shows how the price was built. These are the factors that usually move it:</p>
