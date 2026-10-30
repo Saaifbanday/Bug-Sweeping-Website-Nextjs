@@ -253,7 +253,217 @@ const phoneMonitoringFaqs: Faq[] = [
   },
 ];
 
+const sweepFrequencyFaqs: Faq[] = [
+  {
+    q: "How often should a business sweep for bugs?",
+    a: "There is no published answer, and anyone giving you one is giving you their opinion. No government authority we could find sets an interval. The United States Department of Defense instruction that governs its own countermeasures programme states that facilities may not automatically receive a recurrent sweep, and makes the trigger a documented threat analysis of that specific facility. The United Kingdom's Cabinet Office guidance for TOP SECRET meeting spaces says sweeps should be undertaken periodically and names no number. If the British government will not put an interval on a TOP SECRET meeting room, a vendor cannot honestly put one on your boardroom.",
+  },
+  {
+    q: "Is there any Indian law that requires a bug sweep?",
+    a: "None that we could verify, in any sector. What does exist is adjacent. The Information Technology Rules of 2011 require a compliant information security programme to contain physical security control measures alongside managerial, technical and operational ones, with an annual independent audit as the condition of a safe harbour rather than as a universal duty. The security manual for licensed defence industries requires a yearly internal and two-yearly external security audit. SEBI's cybersecurity framework requires physical access control for critical systems. None of these names a sweep.",
+  },
+  {
+    q: "Our provider recommends quarterly sweeps. Is that right?",
+    a: "It may be right for your situation, but ask what it is based on. We read fourteen provider pages on this question, in India and abroad, asserting everything from annual to four times a year per area. Not one cited a standard, a regulator, a statute, a study or a government instruction. Two of them directly contradicted each other. A quarterly interval for a room that hosts two sensitive discussions a year is not caution, it is a subscription. The better question is what has changed in that room since it was last examined.",
+  },
+  {
+    q: "What triggers a sweep, if not the calendar?",
+    a: "The triggers that published doctrine actually names are events rather than dates. Before, during and after a sensitive discussion held in a space that is not normally secured. After construction, renovation or modification of the area. Before new electronic systems such as video conferencing or telephony go live, which is the cheap moment rather than the expensive one. On suspicion or on a specific indicator. And the one almost nobody mentions: when a new item enters the room. Both the United States Department of Energy and the United Kingdom's guidance for TOP SECRET areas trigger on equipment, furnishings and gifts entering a space.",
+  },
+  {
+    q: "What is the difference between a survey and an inspection?",
+    a: "A survey is the comprehensive examination that establishes what the space looks like when it is clean: a thorough technical, physical and visual examination to identify hazards and any devices present. An inspection is a limited activity that evaluates what has changed in that environment since, to see whether a modification or upgrade has created a vulnerability. The first establishes a reference state; the second checks against it. A first examination and a repeat examination are therefore not the same purchase, which is a distinction most providers do not draw.",
+  },
+  {
+    q: "When is a sweep the wrong thing to buy?",
+    a: "When the room has no access control to protect. The Department of Defense instruction records that surveys of facilities open to uncontrolled access have proven counterproductive by giving occupants a false sense of security, and that such requests should be approved only if no other facility is available. There is a second case. The documented technique for capturing conversation is frequently the microphone already in the room, in a laptop or a conferencing unit, which no radio search detects. An organisation that has not controlled devices or access has cheaper work to do first.",
+  },
+  {
+    q: "Does ISO 27001 require a bug sweep?",
+    a: "No control in it names eavesdropping, sweeping or technical surveillance countermeasures, as far as we can establish. The standard's physical controls cover security perimeters, entry, securing offices and rooms, physical security monitoring and protection against physical threats. The standard itself is paywalled, so we do not quote its text. The Indian link is that the Information Technology Rules of 2011 name ISO 27001 as one standard that can satisfy reasonable security practices, with annual independent audit as the condition. Even that route never names a sweep.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-often-should-a-business-sweep-for-bugs",
+    title: "How Often Should a Business Sweep for Bugs? What the Doctrine Actually Says",
+    seoTitle: "How Often Should a Business Sweep for Bugs? The Honest Answer",
+    metaDescription:
+      "How often should a business sweep for bugs? No authority publishes an interval, and no Indian law requires a sweep. What actually determines frequency, with sources.",
+    excerpt:
+      "Providers assert intervals from annual to quarterly per area, a twelvefold spread, and not one cites anything. The published doctrine refuses to name a number and says no facility automatically earns a recurring sweep. Here is what actually determines it.",
+    date: "2026-10-30",
+    readTime: "12 min read",
+    category: "Corporate Security",
+    coverImage: "/images/blogs/how-often-should-a-business-sweep-for-bugs.webp",
+    ogImage: "/images/blogs/how-often-should-a-business-sweep-for-bugs.png",
+    coverImageAlt:
+      "How Often Should a Business Sweep for Bugs guide cover: a calendar grid on a dark background with one date marked in red and the rest left blank",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Working out whether a sweep is the right spend?",
+      text: "If you are deciding between a one-off examination, a recurring programme or neither, a private consultation can help you work out which of the three your situation actually calls for. We would rather tell you it is not warranted than sell you a schedule.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs",
+          name: "How Often Should a Business Sweep for Bugs? The Honest Answer",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/how-often-should-a-business-sweep-for-bugs.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#article",
+          headline: "How Often Should a Business Sweep for Bugs? What the Doctrine Actually Says",
+          description:
+            "How often should a business sweep for bugs? No authority publishes an interval, and no Indian law requires a sweep. What actually determines frequency, with sources.",
+          datePublished: "2026-10-30",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+            { "@type": "Thing", name: "Security audit" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "How Often Should a Business Sweep for Bugs?" },
+          ],
+        },
+        faqJsonLd(sweepFrequencyFaqs, "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> No published authority sets an interval. The United States Department of Defense instruction governing its own programme states that facilities may not automatically receive a recurrent sweep. The United Kingdom's Cabinet Office tells TOP SECRET meeting spaces to sweep periodically and names no number. And no Indian law we could verify requires a sweep at all. Frequency should follow the threat and the changes to a room, not a calendar.</p>
+      </div>
+
+      <p>We read fourteen provider pages on this question, eight Indian and six overseas. They assert intervals ranging from once a year to four times a year per area, a spread of roughly twelve to one. Two of them contradict each other outright, one arguing that an annual cadence leaves too long a gap and another calling annual a sound baseline. Across roughly twenty two thousand words, <strong>not one cites a standard, a regulator, a statute, a study or a government instruction</strong> in support of any interval. A buyer cannot adjudicate between them, because there is nothing to adjudicate.</p>
+
+      <p>The published doctrine does exist. It simply says something none of those pages says.</p>
+
+      <h2>No Indian law requires a sweep. Here is what actually applies</h2>
+      <p>We looked for an obligation across data protection, securities regulation, banking, telecom licensing, defence production and government security policy. <strong>We could not verify a single Indian law, rule, regulation, circular, direction or licence condition that requires a technical surveillance countermeasures sweep, at any interval, in any sector.</strong> What exists is adjacent, and it is worth knowing precisely because it tells you where the regulatory weight actually sits.</p>
+      <p>The <strong>Information Technology Rules of 2011</strong> are the only Indian instrument that names physical security in this context. Rule 8(1) treats a body corporate as compliant if it has a documented information security programme containing managerial, technical, operational and physical security control measures commensurate with the information assets being protected. There is a precision point here that most commentary gets wrong. Rule 8(4)'s requirement of an audit at least once a year by a government approved independent auditor is <strong>not a freestanding universal duty</strong>. It is the condition of a deemed compliance safe harbour for organisations taking the ISO 27001 route or a notified code of best practices. An organisation relying on Rule 8(1) directly is not under an express annual audit obligation; its duty on a breach is to demonstrate that it implemented what its own documented programme said.</p>
+      <p>The <strong>security manual for licensed defence industries</strong>, revised by the Ministry of Defence in June 2025 and imposed as a condition of the industrial licence, is India's most security prescriptive published document of this kind. It requires an internal security audit at least yearly and an external audit by Ministry agencies once in two years. It describes mobile phones as effective, unobtrusive listening devices for eavesdropping, and its prescribed control is an outright ban: phones are not permitted inside conference halls, operations rooms or at official briefings even in switched off mode, and visitors deposit theirs at reception. Across both the current edition and the 2014 edition it replaced, the terms technical surveillance, TSCM, sweep, bugging and covert appear <strong>zero times</strong>. India's most prescriptive security manual does not require a sweep. It requires banning the phone and auditing annually.</p>
+      <p>One further detail from that manual is worth carrying, because it cuts against the instinct that more is always better: the 2014 edition required an internal audit twice a year. The 2025 revision <strong>relaxed it to yearly</strong>.</p>
+      <p>The rest of the Indian landscape points consistently in one direction. SEBI's insider trading regulations require a structured digital database recording who unpublished price sensitive information was shared with, maintained internally with time stamping and audit trails and preserved for at least eight years. SEBI's cybersecurity framework of August 2024 requires physical access to critical systems to be restricted, monitored and recorded continuously, and sets half yearly cyber audits for market infrastructure institutions and annual ones for other regulated entities. The Reserve Bank's technology directions require physical and environmental controls at data centres and disaster recovery sites. The CERT-In directions of April 2022 require incident reporting within six hours and 180 days of rolling logs, and their twenty incident categories do not include a covert listening device, a hidden camera or any physical surveillance device at all.</p>
+      <p>Read together, the pattern is unmistakable. <strong>Every Indian instrument that actually binds anyone points at logs, access control and records. None points at the room.</strong> SEBI will ask for your database. Nobody will ask whether the boardroom was examined.</p>
+
+      <h2>And the one Indian rule that says "physical" is on a clock</h2>
+      <p>This is the part that has moved recently and that nobody has written about. The Digital Personal Data Protection Act, 2023 was brought into force in tranches by a <a href="https://egazette.gov.in/WriteReadData/2025/267647.pdf" rel="noopener noreferrer" target="_blank">commencement notification</a> published in November 2025. Most of the operative provisions, including section 8(5) on reasonable security safeguards, sit in the eighteen month tranche, which falls around the middle of May 2027. So does section 44(2), which omits section 43A of the Information Technology Act and the rule making power under which the 2011 Rules were made.</p>
+      <p>What replaces Rule 8 is Rule 6 of the Digital Personal Data Protection Rules, 2025, which sets a minimum list of reasonable security safeguards: encryption, obfuscation or masking; access control to <em>computer resources</em>; visibility through logs, monitoring and review; backups; one year log retention; contractual terms with processors; and appropriate technical and organisational measures. <strong>The word physical does not appear anywhere in it</strong>, and its access control limb is expressly scoped to computer resources as the Information Technology Act defines them.</p>
+      <p>So the honest story is the opposite of a sales pitch. India's incoming data protection regime is <strong>narrower</strong> on physical security than the one it replaces. One caveat worth stating: the 2025 Rules contain no repeal or savings clause for the 2011 Rules, so what formally happens to them once section 43A goes is unresolved on the face of the instruments.</p>
+
+      <h2>What the published doctrine actually says about frequency</h2>
+      <p>The clearest statement comes from the United States Department of Defense instruction that governs its own countermeasures programme. Its programme managers are told to recommend a facility technical threat analysis to determine whether a sweep is warranted at all, and then, in six words that contradict the entire vendor consensus: <strong>facilities may not automatically receive a recurrent TSCM.</strong> Approval is for facilities assessed as probable and feasible targets. There is no interval anywhere in the document.</p>
+      <p>Note which thing that doctrine treats as continuous. It defines a technical threat analysis as a <em>continual process</em> of compiling and examining information on technical surveillance activities. The sweep is the discrete, requested, approved output of that process. Provider content has inverted this: the sweep becomes continual and the threat analysis is absent.</p>
+      <p>The United States federal control catalogue is more interesting still. <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf" rel="noopener noreferrer" target="_blank">NIST Special Publication 800-53</a> contains control RA-6, a technical surveillance countermeasures survey, described as including visual, electronic and physical examinations of a facility internally and externally. Two things about it matter. The control makes frequency an <strong>organisation defined parameter</strong>, and offers "when the following events or indicators occur" as an alternative to any frequency at all. The authority declines to pick a number in the control's own syntax.</p>
+      <p>And then it goes further. We checked NIST's machine readable baseline files directly. <strong>RA-6 is selected for no baseline: not Low, not Moderate, not High.</strong> Vulnerability scanning sits in all three. The most security conscious published control catalogue in the world defines a TSCM survey, then declines to make it a default at any impact level. It remains available by tailoring, when an organisation's own risk assessment calls for it. That is precisely the argument of this page, stated by the framework's own authors.</p>
+      <p>British practice says the same thing in gentler language. The Cabinet Office's guidance for working at <a href="https://www.gov.uk/government/publications/government-security-classifications/guidance-12-working-at-secret-html" rel="noopener noreferrer" target="_blank">SECRET</a> tells organisations to <em>also consider</em> periodic counter eavesdropping sweeps of controlled office areas that <em>frequently host</em> SECRET meetings, which makes the trigger usage rather than the calendar. The guidance for <a href="https://www.gov.uk/government/publications/government-security-classifications/guidance-13-working-at-top-secret-html" rel="noopener noreferrer" target="_blank">TOP SECRET</a> says sweeps "should be undertaken periodically to ensure the integrity of the meeting space", and names no number. If the British government will not set an interval for TOP SECRET meeting rooms, nobody can honestly set one for a boardroom.</p>
+      <p>One more thing is worth saying plainly, because it is occasionally claimed otherwise. The Department of Defense instruction notes that its activities are conducted in accordance with a manual whose designation marks it Secret. <strong>There is no public TSCM methodology standard.</strong> Anyone citing one is mistaken.</p>
+
+      <h2>The triggers that are defensible</h2>
+      <p>If not the calendar, then what. These are the triggers that published doctrine actually names.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Event-based triggers for a technical surveillance countermeasures examination, and the authority that names each</caption>
+          <thead>
+            <tr><th scope="col">Trigger</th><th scope="col">Where it comes from</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Before, during and after a sensitive discussion held in a space that is not normally secured</td><td>US Department of Energy facilities security plan, in-conference inspection</td></tr>
+            <tr><td>Where a space frequently hosts sensitive meetings</td><td>UK Cabinet Office guidance at SECRET</td></tr>
+            <tr><td>Periodically, to preserve a standing secure meeting space</td><td>UK Cabinet Office guidance at TOP SECRET</td></tr>
+            <tr><td>After construction, renovation or modification of the area</td><td>Department of Energy: an inspection evaluates changes to an operating environment</td></tr>
+            <tr><td>Before new electronic systems go live, including conferencing and telephony</td><td>Department of Energy advice and assistance, to avoid costly later modification</td></tr>
+            <tr><td><strong>When a new item enters the room</strong>, including equipment, furnishings and gifts</td><td>Department of Energy, and UK guidance on furniture entering a TOP SECRET area</td></tr>
+            <tr><td>On suspicion, or on a specific indicator</td><td>NIST RA-6's event selection; Department of Defense discovery procedures</td></tr>
+            <tr><td>When a documented facility threat analysis says so</td><td>Department of Defense instruction</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The sixth is the one we would single out, because no provider page we inspected mentions it. Two national authorities independently trigger on <strong>entry</strong> rather than on the calendar. A boardroom that has just taken delivery of a new video conferencing system and a boardroom that nothing has entered since the last examination are on an identical schedule under every vendor model, and on completely different footings under the official one.</p>
+
+      <h2>Survey and inspection: why a first examination and a repeat are not the same purchase</h2>
+      <p>The Department of Energy's facilities security plan draws a distinction that providers almost never do. A <strong>survey</strong> is the most comprehensive activity: a thorough technical, physical and visual examination of an area to identify hazards and the presence of devices. An <strong>inspection</strong> is a limited activity addressing specific concerns, which evaluates the changes to an operating environment to see whether modification or upgrade has inadvertently created a vulnerability.</p>
+      <p>The survey establishes the reference state. The inspection checks what has changed against it. NIST's description of RA-6 closes the loop: a survey provides useful input for risk assessments and information about organisational exposure, which is to say that the first examination partly exists to <em>generate the information that sets the interval</em>.</p>
+      <p>We should be honest about the vocabulary. The word baseline is ours, not theirs; the structure is in the primary documents, the term is not. It is worth noting that where provider pages use the word at all, they use it to mean a default interval, which is close to the opposite of this meaning.</p>
+
+      <h2>When a sweep is the wrong thing to buy</h2>
+      <p>This is the section no competitor writes, and the sourcing for it is better than the sourcing for any interval.</p>
+      <p>The Department of Defense's earlier instruction addressed facilities not normally used for sensitive discussion and open to uncontrolled access. Surveys of such facilities, it records, <strong>have proven counterproductive by having given the occupant or occupants a false sense of security</strong>, and such requests should be approved only if no other facility is available, because they consume scarce resources that could serve more sensitive sites. That is a government authority stating that a sweep in the wrong place is worse than no sweep, not merely wasteful.</p>
+      <p>The second case is the device that is already in the room. MITRE's <a href="https://attack.mitre.org/techniques/T1123/" rel="noopener noreferrer" target="_blank">catalogue of observed techniques</a> records adversaries using a computer's microphone, webcam or call applications to capture conversation, written to disk and sent out later. No radio search detects that. And the primary control that three national authorities actually prescribe for this risk is not a sweep: it is the phone ban in India's defence security manual, the device restriction in the Ministry of Home Affairs information security guidelines, and, tellingly, one of the five things the United Kingdom's national counter eavesdropping authority says an inspection checks is <em>human behaviour</em>, meaning whether people are obeying procedures such as the ban on phones.</p>
+      <p>Which licenses a blunt conclusion. An organisation that has not banned and enforced the phone is buying an examination of a control it does not have. One with no physical access log, no device policy and no record of who was told what has cheaper, and in some cases legally required, work to do first.</p>
+
+      <h2>What a programme covers that one sweep does not</h2>
+      <p>If recurrence is warranted, what you are buying should be more than the same visit repeated. The Department of Energy's plan enumerates six distinct services, of which the comprehensive sweep is one: survey, inspection, in-conference inspection, advice and assistance, education, and special services for unforeseen circumstances.</p>
+      <p>Four of those are worth naming because they are routinely absent from what gets sold. <strong>Change detection</strong> against a known reference state, with entry of new equipment, furnishings or gifts as a trigger. <strong>Pre-installation advice</strong>, before a conferencing or telephone system goes live, which is the cheap moment. <strong>Education</strong>, so that the people using the room understand the threat and the procedures. And the operational security of the engagement itself: the Department of Energy is explicit that discussions and requests about a pending examination must not take place in the area to be examined, and the Department of Defense requires requests to come via secure communications from outside the facility concerned. A client who emails a provider from the boardroom to arrange an examination of that boardroom has already undermined it.</p>
+      <p>One claim often made here we will not make for you as doctrine. It is widely said that a sweep's result is valid only for the moment it was performed. No authority we read states that in terms. What they do say is that environments change, that inspections exist to evaluate those changes, that repetition preserves the integrity of a meeting space, and that threat analysis is continual. The conclusion follows from those, but it is an inference rather than a quotation, and we would rather label it as one.</p>
+
+      <h2>The Indian record, stated honestly</h2>
+      <p>We looked for a documented Indian case of a covert device found because of a periodic or scheduled check. <strong>We could not find one.</strong></p>
+      <p>Deliberate scheduled sweeping in India demonstrably exists: the Parliament complex runs daily anti sabotage checks across both Houses when in session. The documented finds from them are a bundle of cash on a member's seat and explosive material near an event route. Not surveillance devices. India's institutional sweeping culture is shaped by the physical threat, not the signals one.</p>
+      <p>The best documented Indian commissioned sweep found nothing. In 2010 a suspected bugging at a Union ministry led to a sweep arranged through a private agency, and then to an Intelligence Bureau examination that concluded the adhesive found at sixteen points was chewing gum. Former intelligence officials publicly questioned the use of a private agency. The episode ended unresolvable, and it ended that way partly because there was no reference state to compare against and no clean chain of custody. We covered how that case reads as a cautionary tale about interpreting objects in a room in our <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a>. Read for this question, it argues for a baseline rather than for a schedule.</p>
+      <p>Every other documented Indian discovery we could trace was accidental: someone noticing a camera while changing, a driver finding trackers while cleaning a vehicle, an employee seeing a device fall. That is a finding about how these things actually surface, and it is not an argument for a quarterly invoice.</p>
+
+      <h2>So how should you decide</h2>
+      <p>Start with the question the doctrine starts with: is this space a probable and feasible target, on a documented assessment rather than on a feeling. If the answer is no, the honest recommendation is not to buy. If it is yes, the inputs that published authorities actually name are the sensitivity of what is discussed in that specific room, how often it is genuinely used for that, what access control and device policy already exist and whether they are enforced, whether the space shares walls, floors or services with tenants you do not control, what has physically changed since it was last examined, and whether there is any known or suspected hostile technical activity in the area.</p>
+      <p>Those inputs produce a plan for a particular organisation. They do not produce a number that can be printed on a web page, which is exactly why no authority prints one, and why we will not either.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>An examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It cannot prove a room has never been compromised, and it cannot keep it clean afterwards. It does not reach a compromised laptop or conferencing system, and it does not reach the person in the room who simply repeats what was said. If you want the mechanics of how a sweep is scoped and what it involves, our <a href="/blog/bug-sweeping-in-india">national guide</a> covers it; the <a href="/blog/corporate-espionage-india">guide to corporate espionage</a> sets out what Indian law actually protects when information leaves a company, and the <a href="/blog/is-someone-monitoring-your-phone">guide to phone monitoring</a> covers the handset, which no room examination touches.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+${faqHtml(sweepFrequencyFaqs)}
+      </div>
+
+      <div class="note">
+        <p><strong>About this guide.</strong> Published by BugSweepingTSCM. The site's founder is <a href="/meet-the-founder">Hardesh Bhardwaj</a>, founder of ADA Advance Detective Agency Pvt. Ltd. (CIN U74999DL2021PTC390132) and in practice since 2013. The Indian regulatory position was checked against the Gazette commencement notification for the Digital Personal Data Protection Act and the 2025 Rules, the Information Technology Rules of 2011, SEBI's regulations and cybersecurity framework, Reserve Bank directions, the CERT-In directions and the Ministry of Defence security manual for licensed defence industries. The doctrinal position was checked against United States Department of Defense and Department of Energy publications, NIST Special Publication 800-53 and its machine readable baselines, and United Kingdom Cabinet Office guidance, on 30 October 2026. ISO 27001 is paywalled and is therefore described rather than quoted. This is general information and not legal advice; confirm current details with the linked sources and take advice on your own obligations.</p>
+      </div>
+    `,
+  },
   {
     slug: "is-someone-monitoring-your-phone",
     title: "Is Someone Monitoring Your Phone? How to Check Safely, and What Indian Law Says",
@@ -604,7 +814,7 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>One more thing worth carrying. Reporting in this area frequently misstates the law: a 2025 report of a changing room case in Madhya Pradesh cited section numbers that mix the new code with the old one and do not exist as given. And in a widely covered 2022 case at a university in Punjab, the allegation that drove national protest, that dozens of videos of other residents had been taken and leaked, was not borne out by the police investigation, which reported finding no objectionable videos of other women on the accused's phone. Numbers circulate faster in these cases than investigations can correct them, which is a good reason to check the provision and the findings rather than rely on a summary.</p>
 
       <h2>What a sweep can and cannot establish</h2>
-      <p>A sweep reports what was found in the areas examined, by the methods used, under the conditions present, at the time of the visit. It cannot prove that a room has never been watched, and it cannot keep it clean afterwards. A camera that was powered down during the visit, or one storing to a memory card, may leave nothing for any instrument to register, which is why the physical examination matters as much as anything electronic. If you want the preparation sequence before a sweep, including what to agree in advance about a device that is found, our <a href="/blog/bug-sweeping-in-india">national guide</a> covers it, the <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> covers the workplace version of the same question, and if the space you are worried about is a car rather than a room, the <a href="/blog/vehicle-gps-tracking">guide to vehicle trackers</a> is the one to read.</p>
+      <p>A sweep reports what was found in the areas examined, by the methods used, under the conditions present, at the time of the visit. It cannot prove that a room has never been watched, and it cannot keep it clean afterwards, which is the honest starting point for <a href="/blog/how-often-should-a-business-sweep-for-bugs">deciding how often to repeat one</a>. A camera that was powered down during the visit, or one storing to a memory card, may leave nothing for any instrument to register, which is why the physical examination matters as much as anything electronic. If you want the preparation sequence before a sweep, including what to agree in advance about a device that is found, our <a href="/blog/bug-sweeping-in-india">national guide</a> covers it, the <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> covers the workplace version of the same question, and if the space you are worried about is a car rather than a room, the <a href="/blog/vehicle-gps-tracking">guide to vehicle trackers</a> is the one to read.</p>
 
       <h2>Frequently asked questions</h2>
       <div class="faq">
@@ -770,7 +980,7 @@ ${faqHtml(hiddenCameraFaqs)}
       <h2>What a sweep can and cannot establish</h2>
       <p>A sweep reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It cannot establish a negative, and the distance between those two statements is where most misunderstandings live. Specifically, it cannot establish that a recorder storing to internal memory is absent, because such a device emits nothing to detect. It cannot establish that a device which was not transmitting during the visit is absent, since voice activated and remotely triggered devices are silent most of the time. It says nothing about areas that were not accessed, about a compromised laptop or cloud account, or about a participant recording the meeting. And it cannot keep the room clean after the team leaves.</p>
       <p>That last point has an official statement behind it. The United States Department of Defense instruction governing its own countermeasures programme defines a survey as a thorough visual, electronic and physical examination, three modalities precisely because an electronic search alone is not sufficient, and it records that surveys of facilities with open access have proven counterproductive by giving occupants a false sense of security. A sweep of a room that anyone can walk into is worth less than fixing who can walk into it.</p>
-      <p>So the sentence to keep hold of is this: a sweep that found no signals is not the same statement as a room with nothing in it. Any firm willing to blur those two is selling reassurance rather than a result. Our <a href="/blog/bug-sweeping-in-india">national guide</a> covers what a sweep involves in more detail, the <a href="/blog/how-to-detect-hidden-cameras">guide to hidden cameras</a> covers the checks worth doing yourself, and the <a href="/blog/corporate-espionage-india">guide to corporate espionage</a> sets out what Indian law actually protects when information leaves a company.</p>
+      <p>So the sentence to keep hold of is this: a sweep that found no signals is not the same statement as a room with nothing in it. If that raises the question of how often an examination should be repeated, our <a href="/blog/how-often-should-a-business-sweep-for-bugs">guide to sweep frequency</a> sets out what the published doctrine actually says, which is not what providers say. Any firm willing to blur those two is selling reassurance rather than a result. Our <a href="/blog/bug-sweeping-in-india">national guide</a> covers what a sweep involves in more detail, the <a href="/blog/how-to-detect-hidden-cameras">guide to hidden cameras</a> covers the checks worth doing yourself, and the <a href="/blog/corporate-espionage-india">guide to corporate espionage</a> sets out what Indian law actually protects when information leaves a company.</p>
 
       <h2>If you think you have found something</h2>
       <p>Safety comes before evidence. If anyone is in immediate danger, call 112. Otherwise, leave the object where it is: do not pull it apart, unplug it or take it away, because handling it destroys the thing that would make it useful later. Photograph it in position, note where it was, and write down who has had access to that room and when.</p>
@@ -927,7 +1137,7 @@ ${faqHtml(officeBuggedFaqs)}
       <p>One last caution about expectations. Even a Supreme Court appointed technical committee, examining devices in the Pegasus matter, reported finding malware in five of the twenty nine devices it examined while being unable to confirm what it was. Detection and attribution are different problems, and attribution is frequently not achievable. Any firm that promises to tell you who was listening is promising something the best resourced investigations in the country have not delivered.</p>
 
       <h2>What a sweep can and cannot establish</h2>
-      <p>A sweep reports what was found in the areas examined, by the methods used, at the time of the visit. It cannot prove a room has never been compromised and it cannot keep it clean afterwards. Against the three layers above, it addresses the first and leaves the second and third to other disciplines. If the concern is a specific negotiation or boardroom, our <a href="/blog/bug-sweeping-in-india">national guide</a> sets out what a sweep involves, and the <a href="/locations">location pages</a> cover how reporting and local rules differ by state. Where executive travel is part of the picture, the <a href="/blog/vehicle-gps-tracking">guide to vehicle trackers</a> covers what can and cannot be found on a car, and our <a href="/locations/mumbai">Mumbai</a> and <a href="/locations/gurugram">Gurugram</a> pages deal with the two places corporate work concentrates most.</p>
+      <p>A sweep reports what was found in the areas examined, by the methods used, at the time of the visit. It cannot prove a room has never been compromised and it cannot keep it clean afterwards, which is why <a href="/blog/how-often-should-a-business-sweep-for-bugs">how often to repeat one</a> is a question worth answering from doctrine rather than from a vendor's calendar. Against the three layers above, it addresses the first and leaves the second and third to other disciplines. If the concern is a specific negotiation or boardroom, our <a href="/blog/bug-sweeping-in-india">national guide</a> sets out what a sweep involves, and the <a href="/locations">location pages</a> cover how reporting and local rules differ by state. Where executive travel is part of the picture, the <a href="/blog/vehicle-gps-tracking">guide to vehicle trackers</a> covers what can and cannot be found on a car, and our <a href="/locations/mumbai">Mumbai</a> and <a href="/locations/gurugram">Gurugram</a> pages deal with the two places corporate work concentrates most.</p>
 
       <h2>Frequently asked questions</h2>
       <div class="faq">

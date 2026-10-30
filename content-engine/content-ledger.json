@@ -1,5 +1,65 @@
 [
   {
+    "slug": "how-often-should-a-business-sweep-for-bugs",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "how often should a business sweep for bugs",
+    "secondary_keywords": [
+      "tscm audit",
+      "tscm frequency",
+      "how often tscm sweep",
+      "bug sweep frequency",
+      "is a bug sweep required by law in india",
+      "tscm survey vs inspection",
+      "does iso 27001 require a bug sweep"
+    ],
+    "h2_outline": [
+      "No Indian law requires a sweep. Here is what actually applies",
+      "And the one Indian rule that says physical is on a clock",
+      "What the published doctrine actually says about frequency",
+      "The triggers that are defensible",
+      "Survey and inspection: why a first examination and a repeat are not the same purchase",
+      "When a sweep is the wrong thing to buy",
+      "What a programme covers that one sweep does not",
+      "The Indian record, stated honestly",
+      "So how should you decide",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Argues against the genre rather than joining it. Opens by refusing to name an interval, then establishes that no Indian law requires a sweep at all, then shows what the published doctrine actually says, then gives event-based triggers in place of a calendar, then the counter-case for when a sweep is the wrong spend. Deliberately inverts the competitor shape, which asserts an interval and then justifies it after the fact.",
+    "compared_against": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/corporate-espionage-india",
+      "/blog/signs-your-office-is-bugged"
+    ],
+    "main_device": "event-trigger table with the authority behind each, plus a sourced counter-case against routine sweeping",
+    "information_gain": "States, after checking data protection, securities regulation, banking, telecom licensing, defence production and government security policy, that no Indian law, rule, regulation, circular, direction or licence condition could be verified as requiring a TSCM sweep at any interval in any sector, and sets out what does exist instead. Reports that India's most prescriptive published security document, the Ministry of Defence security manual for licensed defence industries revised June 2025, contains zero occurrences of TSCM, technical surveillance, sweep, bugging or covert, and prescribes an outright phone ban in conference halls plus a yearly internal audit, with the further detail that its 2025 revision relaxed the internal audit from twice yearly to yearly. Flags that the Information Technology Rules 2011 are the only Indian text naming physical security control measures, that their annual audit requirement is the condition of a deemed-compliance safe harbour rather than a universal duty, and that the provision they hang on is scheduled to be omitted around the middle of May 2027 by the Digital Personal Data Protection Act's eighteen-month tranche, with the replacement Rule 6 not using the word physical at all and scoping access control to computer resources. On doctrine, quotes the current US Department of Defense instruction that facilities may not automatically receive a recurrent sweep, notes that the thing that doctrine treats as continual is the threat analysis rather than the sweep, and reports that NIST Special Publication 800-53 makes frequency an organisation-defined parameter with event triggers as an alternative. Verified independently against NIST's own machine-readable baseline files that control RA-6 is selected for no baseline, not Low, Moderate or High, while vulnerability scanning sits in all three. Quotes UK Cabinet Office guidance telling TOP SECRET meeting spaces to sweep periodically without naming an interval. Gives event triggers each with the authority behind it, including the one no competitor mentions, that both the US Department of Energy and UK guidance trigger on new items entering a room. Distinguishes a comprehensive survey that establishes a reference state from a limited inspection that evaluates change. And reports the finding that no documented Indian case could be found of a covert device discovered because of a periodic or scheduled check, while scheduled Indian sweeping at Parliament is documented finding cash and explosive material rather than surveillance devices.",
+    "internal_links_out": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/corporate-espionage-india",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/is-someone-monitoring-your-phone",
+      "/meet-the-founder"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the ledger and the repository: no page covered frequency, scheduling or audits, and the national pillar covers what a sweep is and how it runs without ever addressing when or how often. Interlinked from three existing posts at points where they already raise the time-bounded nature of a sweep.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-30",
+    "date_modified": "",
+    "notes": "Created 30 Oct 2026. Two load-bearing claims were verified by me directly rather than taken from the research pass, because the whole page rests on them: NIST's LOW, MODERATE and HIGH baseline files were fetched and the RA control lists read, confirming RA-6 is absent from all three while RA-5 is present in all three; and the UK Cabinet Office TOP SECRET guidance page was fetched and the sentence about periodic sweeps read in place, confirming it names no interval. All six external links were tested and return 200. Deliberately not published: any interval of our own; ISO 27001 Annex A control text, because the standard is paywalled and no free primary source for it could be reached, so the controls are described rather than quoted; RBI's Annex 1 baseline requirements, because the RBI document host served a human-verification challenge; any claim that a sweep's result is valid only at the moment it was performed, which is presented in the page as an inference from three sourced propositions rather than as a quotation, because no authority states it in terms; and change of occupancy as a trigger, because it could not be found in any primary source. The 2010 Union ministry sweep is referenced only by a link to the office-indicators guide, which already tells that story, so the two pages do not retell it. The 2012 Ministry of Defence case was excluded entirely because the Government denied it and a later report suggested the account may have been fabricated. Search discovery recorded an uncomfortable finding that is worth keeping: on Google India autocomplete, four of five target frequency queries return no suggestions at all, and how often bug sweep collapses into cost suggestions, so the frequency question has little direct search demand in India and this page's value is in authority, citation and buyers who ask directly rather than in query volume. Prose measured at about 3,130 words against the 2,000 to 3,000 pillar range, a small overshoot recorded rather than trimmed. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with seven FAQ questions matching seven visible, and no internal link pointing at a missing page. Note for a future pass: the competitor audit covering this topic included advancedetectiveagency.com, the owner's own sister site, which carries an unsourced claim that corporate espionage costs above 2.24 trillion dollars annually and a two-decades-of-experience claim against its own 2013 founding date.",
+    "revisions": []
+  },
+  {
     "slug": "is-someone-monitoring-your-phone",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/is-someone-monitoring-your-phone",
     "page_type": "concept-pillar",
