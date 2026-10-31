@@ -1,5 +1,71 @@
 [
   {
+    "slug": "hidden-cameras-in-hotel-rooms-and-pgs",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "hidden camera in hotel room",
+    "secondary_keywords": [
+      "chances of hidden camera in hotel room",
+      "how to find hidden camera in hotel room",
+      "camera in hotel room what to do",
+      "camera in hotel room legal",
+      "cameras in hotel rooms india",
+      "does oyo have hidden cameras",
+      "oyo hidden camera check",
+      "hidden camera in pg",
+      "hidden camera in rented flat",
+      "hidden camera hostel bathroom",
+      "hidden camera hotel room mirror",
+      "airbnb hidden camera policy",
+      "scan hotel wifi for cameras",
+      "found hidden camera in hotel room"
+    ],
+    "h2_outline": [
+      "Who actually placed the camera in the Indian cases that can be checked",
+      "How likely is this, really",
+      "One test that embarrassed the standard advice",
+      "Why the Wi-Fi scan advice fails hardest in a hotel",
+      "What you can and cannot do in a room that is not yours",
+      "Who is answerable depends on how you booked",
+      "A PG, a hostel or a rented flat is a different relationship",
+      "If you find something",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Organised by responsibility and constraint rather than by detection method, which is what every competitor page and our own hidden camera guide already do. Opens with a four row table of sourced Indian incidents answering who placed the device, uses that to reframe the threat model, then tests the standard advice against one documented experiment, then sets out what a guest is actually permitted to do in someone else's room, then splits liability three ways by booking channel, then separates the paying guest and tenancy case. Deliberately avoids re-explaining torch, infrared, detector app and network methods, which the hidden camera guide owns.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/bug-sweeping-in-india",
+      "/blog/signs-your-office-is-bugged"
+    ],
+    "main_device": "who-placed-it case table across four sourced Indian incidents, plus a permitted-action table contrasting your own home with a room you are staying in",
+    "information_gain": "Establishes from four sourced Indian incidents that the person who placed the camera was a previous guest or a fellow resident rather than the operator: a Noida hotel room in October 2022 where two men booked the room, left a camera, checked out and rebooked a week later to collect it; a Sector 22 Chandigarh paying guest house in November 2023 where the device sat on top of the geyser in the shared washroom and the person charged had moved in five days earlier at a non-resident's instruction; a Hosur women's hostel in November 2025 where a resident placed it at a friend's urging; and a Krishna district engineering college hostel in August 2024 where an allegation drew a Chief Minister's enquiry and the official conclusion that no hidden cameras were found and no evidence of the allegations was found. Records that the Noida first information report was registered under cheating, extortion, criminal intimidation, forgery and conspiracy rather than voyeurism, so the case reached a police station because of the extortion rather than the filming. Traces the eleven per cent figure that circulates in almost all coverage to a 2019 IPX1031 survey that asked about Airbnb properties and produced no hotel figure at all, notes that later articles restate it as hotels, and records that the same report quoted a former police officer saying cameras inside a hotel room are not common practice; also records that a claim of one traveller in four and a claim that above sixty per cent of hotel cameras are in bathrooms could not be traced to any published study. Reports the CNBC test of January 2024 with its per method breakdown out of twenty seven hidden cameras: naked eye one, phone three, radio frequency detector zero while beeping constantly including in rooms with no cameras, basic lens detector two, advanced lens detector eleven, more than every other method combined, which inverts the way the detector market is sold. Explains why the standard Wi-Fi scanning advice fails hardest in rented accommodation by naming the mechanism, wireless client isolation, sourced to Ruckus documentation describing it as preventing wireless clients from communicating with each other directly with unicast isolation enabled by default. Splits accountability by booking channel, quoting Airbnb's own help page that it does not allow cameras monitoring indoor spaces, that this applies even if the devices are turned off, that hidden cameras have always been prohibited, and that the rules took effect on 30 April 2024, against the position a source gave PTI in the Noida case that the aggregator operates no hotels and only lists properties. And records that no reported Indian consumer forum decision on a hidden camera in a hotel room could be found, so the route that has demonstrably worked is the criminal one.",
+    "internal_links_out": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/bug-sweeping-in-india",
+      "/locations/noida",
+      "/locations/chandigarh"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 61 record ledger and the repository. The candidate originally considered for this slot, a What is TSCM definitional pillar, was REJECTED at the gate: bug-sweeping-in-india already holds what is a bug sweep and tscm vs debugging as secondaries and runs to about 4,160 words covering definition, tools, legality, cost, do it yourself and provider choice, so a definitional pillar would have cannibalised it. Setting-specific accommodation coverage was genuinely absent: homestay and Airbnb appeared nowhere in the repository, and hotel appeared only as passing mentions. The hidden camera guide does own the detection methods, the Indian criminal provisions, the Ministry of Tourism classification point and the Noida case, so this page summarises and links rather than restating them, and its Noida table cell was deliberately shortened to a pointer after the overlap was found.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-10-31",
+    "date_modified": "",
+    "notes": "Created 31 Oct 2026, first article of the daily content programme the owner asked for. Demand was checked before the topic was chosen: Google India autocomplete returns full suggestion sets for hidden camera in hotel room, camera in hotel room what to do, camera in hotel room legal, cameras in hotel rooms india, chances of hidden camera in hotel room, oyo hidden camera check and does oyo have hidden cameras, which is a sharp contrast with the sweep frequency page published the day before, where four of five target queries returned no suggestions at all. Every load-bearing source was read in place rather than taken from a search summary: Airbnb's own help article 3061 was fetched and its wording and 30 April 2024 effective date read directly; the Ruckus client isolation article was fetched and its definition read; the Tribune reports on Noida and on the Chandigarh paying guest case were fetched in full, which is where the geyser detail, the five day tenancy and the non-voyeurism charge list came from; the Hosur and Andhra Pradesh reports were fetched and their dates corrected against the search summary, Hosur being November 2025 rather than 2024. Deliberately not published: any verbatim quotation of BNSS section 173 on zero FIR, because indiacode blocked both fetching and direct download and the gazette PDF of the Sanhita uses a font encoding that defeated text extraction, so the point was dropped entirely rather than cited from law blogs; Booking.com's surveillance policy, because its partner help page returned 403 and two third-party accounts of it disagreed; the Leela Palace consumer compensation figure, because the only account found was a secondhand blog post; and any Ministry of Tourism classification claim, because the hidden camera guide already carries it. Prose measured at 2,832 words against the 2,000 to 3,000 pillar range, with the FAQ taking the page total to about 3,280; the FAQ answers were cut once to reduce the overshoot rather than leaving it, after three earlier posts ran long. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px, all three tables scrolling inside their wrappers on mobile with none escaping the viewport, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, two promotional-word flags both non-promotional in context (best access, best performer), JSON-LD valid with seven FAQ questions matching seven visible, all @id references resolving, and all internal and external links returning 200. One tooling note worth keeping: the width QA script had been silently reporting nulls because Git Bash path-converts a leading-slash argument into a Windows path, so the headless browser was being handed an invalid URL and measuring a blank page; MSYS_NO_PATHCONV=1 fixes it, and the script now refuses to report a measurement from a page that did not load.",
+    "revisions": []
+  },
+  {
     "slug": "how-often-should-a-business-sweep-for-bugs",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/how-often-should-a-business-sweep-for-bugs",
     "page_type": "concept-pillar",

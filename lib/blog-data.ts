@@ -284,7 +284,251 @@ const sweepFrequencyFaqs: Faq[] = [
   },
 ];
 
+const hotelCameraFaqs: Faq[] = [
+  {
+    q: "What are the chances of a hidden camera in a hotel room?",
+    a: "There is no reliable figure, for India or anywhere. The number that circulates, eleven per cent, comes from a 2019 IPX1031 survey that asked about Airbnb properties and produced no hotel figure at all. Later articles restate it as hotels. Documented Indian cases are real and rare enough that each one is news.",
+  },
+  {
+    q: "How do I check a hotel room for a hidden camera?",
+    a: "Look before you scan. With the lights off, move a torch slowly across glass, mirrors, vents and anything facing the bed or the shower, watching for a small bright return. Then check the high bathroom fittings: the geyser, the exhaust and the cistern. Do not unscrew or dismantle anything that is not yours.",
+  },
+  {
+    q: "Can I scan the hotel Wi-Fi to find a camera?",
+    a: "Usually not. Guest networks are normally configured so devices cannot see each other, so a scanning app may list nothing useful. A camera can also sit on its own network, or record to a memory card with its radio off. A clean scan in a hotel establishes almost nothing.",
+  },
+  {
+    q: "Is it legal for a hotel in India to have a camera in a guest room?",
+    a: "Recording a guest in a private space without consent engages the criminal law, and the applicable Indian sections are set out in our hidden camera guide. A camera in a lobby or corridor is a separate question from one in a room or bathroom. For your own situation, take legal advice.",
+  },
+  {
+    q: "Does OYO have hidden cameras in its rooms?",
+    a: "There is no verified basis for saying any hotel brand's rooms contain cameras. In the widely reported Noida case of 2022, police said two men who booked the room planted the camera, checked out and returned a week later for it. A source told PTI the company operates no hotels and only lists properties.",
+  },
+  {
+    q: "What should I do if I find a camera in a hotel room?",
+    a: "If you believe you are in immediate danger, call 112. Otherwise, and only if it is safe, leave the device where it is, photograph it in place with enough of the surroundings to show its position, note the time, and report it to the police. A dismantled device is a damaged exhibit.",
+  },
+  {
+    q: "Does the fingernail test on the bathroom mirror work?",
+    a: "It checks for the wrong thing. A two-way mirror is not the pattern in any Indian case we could verify. Those cases involved a small camera placed in or on an object, such as one left on top of a geyser in a shared washroom. Time on the mirror is time not spent on the fittings overhead.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "hidden-cameras-in-hotel-rooms-and-pgs",
+    title: "Hidden Cameras in Hotel Rooms, PGs and Rented Flats: Who Actually Puts Them There",
+    seoTitle: "Hidden Camera in a Hotel Room: What Actually Works in India",
+    metaDescription:
+      "Hidden camera in a hotel room, PG or rented flat? In every Indian case we could verify, a guest or fellow resident placed it, not the operator. What to check.",
+    excerpt:
+      "In the Indian hotel, paying guest and hostel cases that can actually be sourced, the camera was left by a previous guest or a fellow resident, not by the operator. That changes where to look, what you are allowed to touch, and who is answerable.",
+    date: "2026-10-31",
+    readTime: "11 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/hidden-cameras-in-hotel-rooms-and-pgs.webp",
+    ogImage: "/images/blogs/hidden-cameras-in-hotel-rooms-and-pgs.png",
+    coverImageAlt:
+      "Hidden cameras in hotel rooms guide cover: a dark room outline with a door key tag and a single red lens glint above the bathroom fittings",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure whether what you found is a camera?",
+      text: "If you have found something in a room you are staying in and you are not sure what it is, a private consultation can help you work out whether it needs a professional examination and what to preserve in the meantime. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+          name: "Hidden Camera in a Hotel Room: What Actually Works in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/hidden-cameras-in-hotel-rooms-and-pgs.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#article",
+          headline: "Hidden Cameras in Hotel Rooms, PGs and Rented Flats: Who Actually Puts Them There",
+          description:
+            "Hidden camera in a hotel room, PG or rented flat? In every Indian case we could verify, a guest or fellow resident placed it, not the operator. What to check.",
+          datePublished: "2026-10-31",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Hidden camera detection" },
+            { "@type": "Thing", name: "Accommodation privacy" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Hidden Cameras in Hotel Rooms, PGs and Rented Flats" },
+          ],
+        },
+        faqJsonLd(hotelCameraFaqs, "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> In the Indian cases that can actually be sourced, a hidden camera in a hotel room, paying guest house or hostel was placed by a previous guest or by a fellow resident, not by the operator. There is no reliable figure for how often this happens. And in a room you do not control, the checks worth doing are optical and physical, not network scans.</p>
+      </div>
+
+      <p>The question people actually type is some version of "chances of a hidden camera in a hotel room". It has no honest numerical answer, and the pages that answer it anyway are quoting a number that was never about hotels. Meanwhile the two things that would genuinely change what a worried guest does are missing almost everywhere: who puts these devices there, and what you are actually allowed to touch in a room that belongs to somebody else.</p>
+
+      <p>This page is about rooms you do not own: hotel rooms, properties booked through an aggregator, homestays, paying guest accommodation, hostels and rented flats. The detection methods themselves, and the two Indian criminal provisions that protect different people, are covered in detail in our guide on <a href="/blog/how-to-detect-hidden-cameras">how to detect hidden cameras</a>. What follows is only what changes when the room is not yours.</p>
+
+      <p>A hidden camera in rented accommodation, in the sense people mean when they search for it, is a camera concealed in a fitting or an object so the occupant does not know it is recording. Two features decide everything that follows. The first is storage: a camera that writes to a memory card inside itself can keep its radio switched off entirely, so it joins no network and emits nothing. The second is who placed it. In accommodation, the person with the best access is often not the operator. A guest who books a room can leave a device behind and come back for it. A resident of a paying guest house shares the washroom with the people being recorded. Both patterns are in the Indian record, and they are the ones that actually happened.</p>
+
+      <h2>Who actually placed the camera in the Indian cases that can be checked</h2>
+      <p>We looked for reported Indian incidents where the facts were specific enough to say who was responsible. Four are set out below. The pattern across them is the single most useful thing on this page.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Reported Indian hidden camera incidents in rented accommodation, and who placed the device</caption>
+          <thead>
+            <tr><th scope="col">Where and when</th><th scope="col">What was reported</th><th scope="col">Who placed it</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hotel room, <a href="/locations/noida">Noida</a>, October 2022</td>
+              <td>Two men booked the room, left a camera, checked out, then rebooked a week later to collect it, and attempted to extort the couple they had filmed. Our <a href="/blog/how-to-detect-hidden-cameras">hidden camera guide</a> tells this case in full.</td>
+              <td>Previous guests</td>
+            </tr>
+            <tr>
+              <td>Paying guest house, Sector 22, <a href="/locations/chandigarh">Chandigarh</a>, November 2023</td>
+              <td>A device was found on top of the geyser in the washroom shared by women tenants on the top floor. Another tenant noticed it, checked what it was, and told the landlord, who called the police.</td>
+              <td>A tenant who had moved in five days earlier, at the instruction of a man who did not live there</td>
+            </tr>
+            <tr>
+              <td>Women's hostel, Nagamangalam, Hosur, November 2025</td>
+              <td>A camera was found in a bathroom in an eleven floor hostel housing over six thousand women employees. Hundreds protested. Two arrests followed within days.</td>
+              <td>A resident of the hostel, at the urging of a friend from outside</td>
+            </tr>
+            <tr>
+              <td>Engineering college hostel, Krishna district, Andhra Pradesh, August 2024</td>
+              <td>Students alleged cameras in a washroom and protested from midnight. The Chief Minister ordered an enquiry, a minister, the District Collector and the Superintendent of Police visited, and the suspects' devices were examined in front of students and staff.</td>
+              <td>No camera was found</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>In not one of these cases was the operator the person who placed the device. The hotel did not install it in Noida; the landlord called the police in Chandigarh; the hostel's own residents were both the victims and, in two cases, the person charged.</p>
+      <p>One detail from the Noida case deserves its own sentence, because it shows how these matters actually reach a police station. The first information report was registered under the Indian Penal Code provisions on cheating, extortion, criminal intimidation, forgery and criminal conspiracy, together with section 120B. <strong>Not voyeurism.</strong> The filming became a case because the footage was used to demand money. That is worth knowing before anyone assumes a complaint will be framed the way they expect.</p>
+      <p>The practical consequence is a change of emphasis. A camera left by a guest has to be retrievable without tools, because the person who left it has to come back as a paying customer and pick it up. That points at objects and surfaces rather than at the building: on top of things, inside items that can be lifted, among the room's own clutter. And it means the operator is a party you are informing, not automatically the party at fault.</p>
+
+      <h2>How likely is this, really</h2>
+      <p>The figure that circulates in almost every article on this subject is eleven per cent. We traced it. It comes from a <strong>2019 survey by IPX1031</strong>, which reported that fifty eight per cent of participants were worried about hidden cameras inside Airbnbs and that eleven per cent said they had found a hidden camera inside an Airbnb property. The survey produced <strong>no hotel figure at all</strong>. Several later reports restate the eleven per cent as hotel rooms, which the original does not support. The same report that carried the survey also quoted a former police officer saying that to find cameras inside a hotel room "is not common practice".</p>
+      <p>Two other numbers in wide circulation could not be traced to any published study: a claim that one traveller in four has found a hidden camera, and a claim that more than sixty per cent of cameras found in hotel rooms are in the bathroom. We could not locate the research behind either.</p>
+      <p>And the Andhra Pradesh case in the table above is a reminder of the other direction this can run. A serious allegation, mass protest, a Chief Minister's enquiry, an inspection, and the official conclusion that no hidden cameras were found in the hostel and no evidence of the allegations was found.</p>
+      <p>So the honest position is this. The documented cases are real, and for the people involved they are grave. None of the available numbers measures how often this happens in Indian accommodation, because no such study appears to exist. Anyone quoting you a percentage for Indian hotels is quoting something that has not been measured.</p>
+
+      <h2>One test that embarrassed the standard advice</h2>
+      <p>In January 2024 CNBC ran a test that is more useful than any of the surveys. Twenty seven cameras were hidden in a house, and an examiner searched for them using five methods. He found seventeen of the twenty seven in total. The breakdown is the interesting part.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Cameras found by each detection method in the CNBC test of January 2024, out of twenty seven hidden</caption>
+          <thead>
+            <tr><th scope="col">Method</th><th scope="col">Cost, as reported</th><th scope="col">Cameras found</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Naked eye</td><td>nothing</td><td>1</td></tr>
+            <tr><td>Phone: Wi-Fi scanning app plus the torch</td><td>about 25 dollars a year</td><td>3</td></tr>
+            <tr><td>Radio frequency detector</td><td>100 to 200 dollars</td><td><strong>0</strong></td></tr>
+            <tr><td>Basic lens detector</td><td>about 50 dollars</td><td>2</td></tr>
+            <tr><td>Advanced lens detector</td><td>about 400 dollars</td><td><strong>11</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Three findings matter for a hotel room. The radio frequency detector, the product category marketed as the serious option, found nothing, and the report notes that it beeped constantly, including in rooms with no cameras. In a hotel, where dozens of rooms are radiating Wi-Fi through the walls on both sides of you, that failure mode gets worse rather than better.</p>
+      <p>The Wi-Fi scanning app listed twenty two connected devices and flagged no cameras. And the single best performer was the optical method: the advanced lens detector found more cameras than every other method combined. An optical check does not care whether a camera is transmitting, because it is looking for the one thing every camera must have, which is a lens pointing at you.</p>
+      <p>The limitation has to be stated with the result. This is one test, in one house, by one examiner, with cameras placed deliberately by people who knew a search was coming. It does not establish detection rates in general. What it does establish is that the cheapest advice is weaker than it sounds, and that the method people are least often told to use is the one that worked.</p>
+
+      <h2>Why the Wi-Fi scan advice fails hardest in a hotel</h2>
+      <p>The most repeated tip on this subject is to install a network scanner and look for a camera on the Wi-Fi. On hotel guest Wi-Fi it is close to useless, for a reason that has nothing to do with cameras.</p>
+      <p>Guest wireless networks are normally configured so that the devices on them cannot see each other. <a href="https://support.ruckuswireless.com/articles/000014743" rel="noopener noreferrer" target="_blank">Ruckus's documentation</a> describes wireless client isolation as preventing wireless clients from communicating with each other directly, while leaving the gateway, DHCP, DNS and the internet reachable, and notes that isolation of ordinary unicast traffic is enabled by default. Shared guest Wi-Fi in a hotel or a hostel is precisely the deployment that setting exists for. A scanning app on that network may enumerate nothing at all, and the emptiness tells you nothing about the room.</p>
+      <p>Two further gaps sit behind that one. A camera need not be on the guest network: in the CNBC test the cameras were on a separate wireless network, which is why the app could register that devices existed without locating any camera. And a camera need not be on a network at all. A device recording to a memory card is invisible to every network method there is, and that is the type the Chandigarh case involved, since somebody had to physically return for it.</p>
+      <p>Treat a network scan as something that can only ever add information, never remove a worry. A clean scan in a hotel room means almost nothing.</p>
+
+      <h2>What you can and cannot do in a room that is not yours</h2>
+      <p>Most detection advice is written as though the reader owns the room. In rented accommodation, half of it is either impossible or inadvisable.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">What is reasonable to do in your own home compared with a hotel, paying guest or rented room</caption>
+          <thead>
+            <tr><th scope="col">Action</th><th scope="col">Your own home</th><th scope="col">A room you are staying in</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Look carefully, including at high and awkward places</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Lights off, torch swept slowly across glass and lenses</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Lift or move a loose object to look behind or underneath</td><td>Yes</td><td>Reasonable</td></tr>
+            <tr><td>Unscrew or open a fixture, vent, smoke detector or fitting</td><td>Your property, your call</td><td>No</td></tr>
+            <tr><td>Dismantle a suspected device</td><td>Inadvisable</td><td>No</td></tr>
+            <tr><td>Remove the device from the room</td><td>Inadvisable</td><td>No</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The reason is not only that the fittings belong to someone else. A dismantled device is a damaged exhibit. In the Chandigarh case the investigation went on to seize phones in order to establish whether data had been deleted, and to obtain shop footage of the camera being bought. Both of those lines of enquiry start from a device and a scene that arrived intact.</p>
+      <p>That same case also suggests where to actually point the torch. The device sat <strong>on top of the geyser</strong> in a shared washroom, and a tenant found it with no equipment whatsoever. High bathroom fittings are the right class of place to examine: they are above standing eye level, they are never cleaned, they already carry brackets and wiring so one more small object does not look wrong, and an item left there is easy for the person who left it to retrieve. The geyser, the exhaust fan, the cistern and the shelf above the mirror are worth more of your attention than the mirror itself.</p>
+
+      <h2>Who is answerable depends on how you booked</h2>
+      <p>This is where the three kinds of accommodation genuinely diverge, and almost nobody writing about hotel cameras in India mentions it.</p>
+      <p><strong>A property booked on Airbnb</strong> is covered by a platform rule you can point at. Airbnb's own help page states that it does not allow hosts to have security cameras or recording devices that monitor indoor spaces, that this applies "even if these devices are turned off", and that "Hidden cameras have always been prohibited and will continue to be prohibited". Exterior cameras are permitted but their location must be disclosed in the listing. Those rules took effect on <strong>30 April 2024</strong>. A host who breaks them risks the listing or the account.</p>
+      <p><strong>A hotel booked through an aggregator</strong> gives a different answer. In the Noida case, a source told PTI that the company does not operate any hotels or guest houses, and that it only lists verified properties on its platform and provides technology support to them. Whether that is a sufficient answer in law is not something this page can settle, but it is the stated position, and it is plainly not the same undertaking Airbnb has given.</p>
+      <p><strong>A hotel booked directly</strong> leaves the consumer route largely untested. We searched for an Indian consumer forum decision on a hidden camera in a hotel room and <strong>could not find a reported one</strong>. Deficiency of service claims against Indian hotels have succeeded on hygiene and on rooms not being supplied as booked. On a camera we found no reported order.</p>
+      <p>So the route that has demonstrably worked in India is the criminal one, a complaint to the police, rather than a contractual or consumer one. That is an observation about the reported record, not legal advice, and what applies to your situation is a question for a lawyer.</p>
+
+      <h2>A PG, a hostel or a rented flat is a different relationship</h2>
+      <p>Possession changes both halves of the problem. Because the room is yours for the duration, you can inspect it properly: in daylight, more than once, including the high fittings in a shared bathroom that a one night guest would never reach. And because the people with routine access are the people who live there, the person most likely to have placed a device is a co-resident.</p>
+      <p>That is what the Indian record shows. In Chandigarh the person charged had moved in five days earlier. In Hosur it was a resident of the hostel. In both the location was a <strong>shared washroom</strong>, not a bedroom. If you are deciding where to spend five careful minutes, the shared bathroom is the answer, and it is the fittings above head height within it.</p>
+      <p>Note also how the Chandigarh discovery travelled: a tenant noticed an object, checked with another occupant, worked out what it was, told the landlord, and the landlord called the police. A camera in a space shared by residents is a police matter rather than a house rule matter, but the landlord is often the fastest route to the police. Cameras in genuinely common areas such as an entrance or a corridor raise a different question from a camera in a washroom, and the two should not be argued as one thing.</p>
+
+      <h2>If you find something</h2>
+      <p>Safety comes before evidence and before certainty.</p>
+      <p>If you believe you are in immediate danger, call <strong>112</strong>. Otherwise, and only if it is safe to do so, leave the device exactly where it is. Photograph it in place, including enough of the surroundings to show where it was and what it faced, and note the time. Do not handle it, unplug it, open it or take it with you. Do not confront the person you suspect: in the Noida case the people who had placed the camera came back to the room for it, and in Chandigarh and Hosur the people charged were living alongside the complainants.</p>
+      <p>Then report it to the police. Where images may already have been shared, a complaint can also be filed on the national cybercrime portal at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>. Our <a href="/blog/how-to-detect-hidden-cameras">hidden camera guide</a> sets out the full reporting route, which Indian provisions apply to whom, and one widely recommended helpline that is the wrong number for this. If you are also worried that a phone rather than a room is the problem, that is a separate examination and our guide on <a href="/blog/is-someone-monitoring-your-phone">whether someone is monitoring your phone</a> covers it.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A check of a room you are staying in reports what was found in the places you could reach, by the methods you used, in the conditions at the time. It cannot establish that a room has never been recorded, and it cannot keep it private after you leave. A professional examination widens the methods and the access considerably, and our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping in India</a> explains what those instruments add and what they do not, but the same limitation holds: finding nothing is not the same statement as there being nothing. In a room that dozens of other people have occupied and will occupy, that limitation is the honest frame for the whole exercise.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(hotelCameraFaqs)}
+    `,
+  },
   {
     slug: "how-often-should-a-business-sweep-for-bugs",
     title: "How Often Should a Business Sweep for Bugs? What the Doctrine Actually Says",
@@ -804,7 +1048,7 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>Section 77 of the <a href="https://egazette.gov.in/WriteReadData/2023/250883.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nyaya Sanhita, 2023</a> punishes whoever watches, captures the image of, or circulates the image of a woman engaged in a private act where she would ordinarily expect not to be observed. Three things follow from the wording that are easy to miss. Watching alone is the offence, with no recording needed. There is a mandatory minimum of one year. And an explanation to the section makes circulating an image an offence even where the subject consented to it being taken but not to it being shared.</p>
       <p>Section 66E of the Information Technology Act, 2000 is gender neutral but much narrower in subject matter. It reaches capturing, publishing or transmitting the image of a private area, and the section defines that term exhaustively rather than inclusively, so an image that does not show a private area as defined falls outside it.</p>
       <p>Put the two together and two gaps appear that no other page on this subject seems to mention. A man who finds a camera in his hotel bathroom has no voyeurism offence available to him, because section 77 is limited by its own words to a woman; he is left with section 66E, and only if what was captured meets its definition. And nobody of any gender is protected by either section against a covert audio recording, because section 77 speaks of an image and section 66E of a visual image. If your concern is a microphone rather than a lens, neither of these sections is the answer. Where the worry is the phone itself rather than the room, our <a href="/blog/is-someone-monitoring-your-phone">guide to phone monitoring</a> covers that separately.</p>
-      <p>On hotels specifically, there is no central Indian rule requiring a hotel to disclose or prohibit cameras in guest rooms. The Ministry of Tourism's star classification scheme is voluntary and its only mention of cameras is a line requiring closed circuit television at strategic locations, which is about security coverage of public areas rather than guest privacy. The Ministry of Home Affairs told Parliament in 2015 that states had been advised to require surveillance systems in places with large footfalls including hotels, and that policing and public order are state subjects, which is the constitutional reason the rules differ by state. Our <a href="/locations">state and city pages</a> set out what individual states actually require.</p>
+      <p>On hotels specifically, there is no central Indian rule requiring a hotel to disclose or prohibit cameras in guest rooms. The Ministry of Tourism's star classification scheme is voluntary and its only mention of cameras is a line requiring closed circuit television at strategic locations, which is about security coverage of public areas rather than guest privacy. The Ministry of Home Affairs told Parliament in 2015 that states had been advised to require surveillance systems in places with large footfalls including hotels, and that policing and public order are state subjects, which is the constitutional reason the rules differ by state. Our <a href="/locations">state and city pages</a> set out what individual states actually require, and our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotel rooms, PGs and rented flats</a> covers who placed the devices in the Indian cases and who is answerable depending on how the room was booked.</p>
 
       <h2>If you find a camera: what to do, and the number not to call</h2>
       <p>Safety first. If you believe you are in danger, call 112, which is the national emergency number and routes to a police dispatcher.</p>
@@ -1500,7 +1744,7 @@ ${faqHtml(vehicleTrackerFaqs)}
       <p>A quote that is far below others usually means fewer methods, less time or a thinner report. Compare what is included, not only the total. The types of sweep BugSweepingTSCM offers for businesses, homes and vehicles are described on the <a href="/services">services page</a>.</p>
 
       <h2>Can you check for bugs yourself?</h2>
-      <p>You can reduce obvious risks yourself, especially in a hotel room or rental. Some popular advice works; some gives false comfort.</p>
+      <p>You can reduce obvious risks yourself, especially in a hotel room or rental, where <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">what you are actually allowed to touch</a> turns out to matter as much as what you look for. Some popular advice works; some gives false comfort.</p>
       <ul>
         <li><strong>Look at what faces the bed, shower or desk.</strong> Chargers, clocks, smoke detectors and decorative items pointing at private areas are worth a close look.</li>
         <li><strong>The torch test.</strong> Shining a phone torch across a dark room can catch the glint of a camera lens. It misses lenses behind tinted covers and gives no information about audio bugs.</li>
