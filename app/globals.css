@@ -314,3 +314,32 @@ body {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+
+/* ── Footer profile chips ── */
+.social-chip {
+  color: var(--color-muted);
+  transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+.social-chip:hover,
+.social-chip:focus-visible {
+  color: #fff;
+  background-color: var(--color-accent) !important;
+  border-color: var(--color-accent) !important;
+  transform: translateY(-2px);
+}
+.social-chip:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.group-site-link:hover,
+.group-site-link:focus-visible {
+  color: var(--color-accent) !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .social-chip,
+  .social-chip:hover,
+  .social-chip:focus-visible {
+    transition: none;
+    transform: none;
+  }
+}

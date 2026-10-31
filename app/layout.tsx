@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { siteEntityGraph } from "@/lib/site-entity";
+import { serializeJsonLd } from "@/lib/json-ld";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -51,6 +53,14 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${inter.variable} h-full`}>
+      <head>
+        {/* Sitewide identity graph: Organization, WebSite and the founder Person, so the
+            @id references used by page-level graphs resolve on every route. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(siteEntityGraph) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col antialiased">{children}</body>
     </html>
   );

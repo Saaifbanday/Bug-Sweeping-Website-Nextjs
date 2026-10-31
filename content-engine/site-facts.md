@@ -73,3 +73,48 @@ Three items were put to the owner. Two were confirmed and one was partly confirm
 | Service coverage "across India" / "Pan-India Coverage" | /contact service area card, /locations, layout metadata, Coverage section | Row 7 is still self-reported. Left in place because the owner directs publication of 36 city pages and 15 state hubs, but it is not independently evidenced and was not part of the 4 Oct confirmations. |
 | Physical office addresses | not published | Row 13 unresolved. No addresses and no LocalBusiness schema anywhere. |
 | "20+ years experience" | not published | Row 10 blocked. Removed earlier; the founder page's "since 2013" is the documentary figure. |
+
+## Entity and social profiles, 31 October 2026
+
+The owner supplied four URLs and asked for visible profiles sitewide plus a strong entity. Six
+profiles were verified and are now recorded here, which is what Section 11 requires before any
+of them may appear in `sameAs`. Two of the six were not supplied by the owner: they were found
+on advancedetectiveagency.com during verification and added because they identify the same firm.
+
+**Entity relationship, confirmed by the owner on 31 October 2026.** bugsweepingtscm.com is the
+TSCM brand of Advance Detective Agency Pvt. Ltd., not a separate company. One Organization node
+therefore carries the firm's domains and channels. This was put to the owner because the two
+sites described the relationship differently: hardeshbhardwaj.com calls BugSweepingTSCM "the
+technical-security unit" of the practice, while advancedetectiveagency.com lists
+bugsweepingtscm.com under "Our Partner Websites". The owner's answer governs; the wording on
+advancedetectiveagency.com now understates the relationship and is worth correcting there.
+
+| # | Profile | Entity | Checked | Status | Where used |
+|---|---|---|---|---|---|
+| 14 | https://www.linkedin.com/in/hardesh-b-85a64811b/ | Person | 2026-10-31 | first-party documentary; linked from both hardeshbhardwaj.com and advancedetectiveagency.com. HTTP 999, which is LinkedIn's anti-scraping response, not a dead link | Person `sameAs`, footer, founder page |
+| 15 | https://hardeshbhardwaj.com/ | Person | 2026-10-31 | first-party documentary; fetched and read. Names Hardesh Bhardwaj as founder-director of Advance Detective Agency and says he leads the practice working as BugSweepingTSCM | Person `sameAs`, footer, founder page |
+| 16 | https://www.advancedetectiveagency.com/ | Organization | 2026-10-31 | first-party documentary; fetched, HTTP 200. Copyright line gives "Advance Detective Agency Pvt. Ltd." | Organization `sameAs`, footer |
+| 17 | https://www.instagram.com/advancedetectiveagency_ | Organization | 2026-10-31 | first-party documentary; HTTP 200, linked from both owner sites | Organization `sameAs`, footer |
+| 18 | https://x.com/advancedetectiv | Organization | 2026-10-31 | first-party documentary; HTTP 200, linked from both owner sites. ADA's own site links the twitter.com form of the same handle | Organization `sameAs`, footer |
+| 19 | https://www.youtube.com/@adaadvancedetectiveagencyp7889 | Organization | 2026-10-31 | first-party documentary; HTTP 200, found on advancedetectiveagency.com. Not supplied by the owner | Organization `sameAs`, footer |
+| 20 | https://g.page/AdvDetectiveAgent | Organization | 2026-10-31 | first-party documentary; resolves to the firm's Google Business Profile. Not supplied by the owner | Organization `sameAs` only, no footer icon |
+| 21 | https://www.facebook.com/AdvanceDetectiveAgencyOfficial/ | Organization | 2026-10-31 | **unconfirmed**; returns HTTP 400 to all three URL variants tested. It was already in the footer before this change and is linked from advancedetectiveagency.com, so it is likely a Facebook anti-bot response rather than a dead page | Organization `sameAs`, footer, pending an owner browser check |
+| 22 | https://wa.me/918882732221 | Organization | 2026-10-31 | messaging deep link, not an identity profile | Footer only. Deliberately excluded from `sameAs` |
+
+**Entity model now in force** (`lib/site-entity.ts`, rendered from the root layout so it ships on
+every route):
+
+- `#organization` carries `legalName`, `foundingDate`, `areaServed`, `memberOf`, `founder` and
+  the organisation `sameAs` list.
+- `meet-the-founder#person` carries the founder's `sameAs`, `award`, `knowsAbout` and `worksFor`.
+- Person profiles never appear on the Organization and organisation profiles never appear on the
+  Person, which Section 11 requires.
+
+**A duplicate entity was removed in the same pass.** The home page previously defined its own
+Person node at `#founder` while Section 11 specifies `meet-the-founder#person`, so one human had
+two identifiers. The home page's Organization and Person definitions were deleted and their
+richer properties moved into the sitewide node, leaving one identifier for each entity.
+
+Open item for the owner: confirm the Facebook page URL in a browser, and consider changing the
+"Our Partner Websites" wording on advancedetectiveagency.com so both sites describe the
+relationship the same way.

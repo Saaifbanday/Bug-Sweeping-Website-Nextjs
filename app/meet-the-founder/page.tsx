@@ -192,6 +192,31 @@ export default function PortfolioPage() {
                   View Credentials
                 </a>
               </div>
+
+              {/* Verified profiles for this person, kept separate from the firm's channels
+                  in the footer. These are the URLs asserted in the Person sameAs. */}
+              <p className="mt-6 text-sm" style={{ color: "var(--color-muted)" }}>
+                Profiles:{" "}
+                <a
+                  href="https://www.linkedin.com/in/hardesh-b-85a64811b/"
+                  target="_blank"
+                  rel="noopener noreferrer me"
+                  className="group-site-link"
+                  style={{ color: "var(--color-muted)", textDecoration: "underline" }}
+                >
+                  LinkedIn
+                </a>{" "}
+                ·{" "}
+                <a
+                  href="https://hardeshbhardwaj.com/"
+                  target="_blank"
+                  rel="noopener noreferrer me"
+                  className="group-site-link"
+                  style={{ color: "var(--color-muted)", textDecoration: "underline" }}
+                >
+                  hardeshbhardwaj.com
+                </a>
+              </p>
             </div>
 
             <div className="relative rounded-2xl overflow-hidden aspect-3/4 w-full max-w-md mx-auto lg:max-w-none">

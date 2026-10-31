@@ -36,41 +36,10 @@ const jsonLd = {
       isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
       about: { "@id": "https://www.bugsweepingtscm.com/#organization" },
     },
-    {
-      "@type": "Organization",
-      "@id": "https://www.bugsweepingtscm.com/#organization",
-      name: "BugSweepingTSCM",
-      legalName: "ADA Advance Detective Agency Private Limited",
-      url: "https://www.bugsweepingtscm.com",
-      logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
-      email: "info@advancedetectiveagency.com",
-      telephone: "+91-8882732221",
-      foundingDate: "2021-11-18",
-      areaServed: { "@type": "Country", name: "India" },
-      founder: { "@id": "https://www.bugsweepingtscm.com/#founder" },
-      memberOf: {
-        "@type": "Organization",
-        name: "World Association of Detectives",
-      },
-    },
-    {
-      "@type": "Person",
-      "@id": "https://www.bugsweepingtscm.com/#founder",
-      name: "Hardesh Bhardwaj",
-      jobTitle: "Founder and Lead TSCM Specialist",
-      url: "https://www.bugsweepingtscm.com/meet-the-founder",
-      image:
-        "https://www.bugsweepingtscm.com/portfolio/award-ceremony-hero.jpg",
-      worksFor: { "@id": "https://www.bugsweepingtscm.com/#organization" },
-      award: "Investigator of the Year 2026, World Association of Detectives",
-      knowsAbout: [
-        "Technical surveillance countermeasures",
-        "Hidden camera detection",
-        "Covert audio device detection",
-        "GPS tracker detection",
-        "Corporate counter-espionage",
-      ],
-    },
+    // The Organization and Person nodes are defined once in the root layout
+    // (lib/site-entity.ts), so they ship on every route with one @id each. This page
+    // only references them, which keeps a single entity for the firm and a single one
+    // for the founder instead of the two Person nodes that existed before.
     {
       "@type": "Service",
       "@id": "https://www.bugsweepingtscm.com/#service",
