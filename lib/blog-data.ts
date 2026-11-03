@@ -198,7 +198,7 @@ const vehicleTrackerFaqs: Faq[] = [
   },
   {
     q: "Will my phone tell me if there is a tracker on my car?",
-    a: "Only for Bluetooth item trackers, and only some of them. Apple and Google shipped unwanted tracking alerts in May 2024, on iOS 17.5 and later and on Android 6 and later. Google's own documentation says the alerts work with Find Hub network compatible tags, headphones and Apple AirTags, and its list does not include Tile or Samsung Galaxy SmartTag. No phone alert of any kind detects a cellular GPS tracker, which is the type used in the serious Indian cases. A silent phone is not a clean car.",
+    a: "Only for Bluetooth item trackers, and only some of them. Apple and Google shipped unwanted tracking alerts in May 2024, on iOS 17.5 and later and on Android 6 and later. Google's own documentation says the alerts work with Find Hub network compatible tags, headphones and Apple AirTags, and its list does not include Tile or Samsung Galaxy SmartTag. No phone alert of any kind detects a cellular GPS tracker, which is the type used in the serious Indian cases. If it is a Bluetooth tag you have been warned about, our guide to <a href=\"/blog/unknown-tracker-detected\">what an unknown tracker alert actually proves</a> covers the alert wordings, the published specification and the order to act in. A silent phone is not a clean car.",
   },
   {
     q: "Why did my iPhone not warn me about a tracker?",
@@ -315,7 +315,228 @@ const hotelCameraFaqs: Faq[] = [
   },
 ];
 
+const unknownTrackerFaqs: Faq[] = [
+  {
+    q: "What does \"Unknown Accessory Detected\" mean?",
+    a: "It means your iPhone has seen a Find My compatible accessory travelling with you that is separated from its owner, and could not identify it fully. Apple's guidance is precise on one point most articles get wrong: this particular wording covers AirPods and other accessories, not AirTags. An AirTag produces \"AirTag Found Moving With You\" instead.",
+  },
+  {
+    q: "Someone put an AirTag in my car. How do I find it?",
+    a: "Expect it to be inside rather than underneath. In the Ahmedabad case the tag was glued under the seat cover behind the driver's seat, and was found at a car service station, not by hand. Play the sound, then search the cabin: under and inside seat upholstery, the boot lining, the spare wheel well and the glovebox. Our vehicle guide covers a full search.",
+  },
+  {
+    q: "Can I check for an AirTag on an Android phone?",
+    a: "Yes. Android 6 and later carry unknown tracker alerts, and you can run a manual scan under Settings, then Safety and Emergency, then Unknown tracker alerts, then Scan now. Google says the scan takes about ten seconds. You can play a sound on what it finds, but Apple's Precision Finding, which walks you to the tag by distance and direction, needs an Ultra Wideband iPhone.",
+  },
+  {
+    q: "Will the owner know if I play the sound on the tracker?",
+    a: "No. Google states plainly that you will not notify the owner if you play the sound. Disabling the tracker is different: that stops future location updates, which the owner may notice, and they may still see its last recorded location. So locating it is a quieter step than switching it off.",
+  },
+  {
+    q: "Does turning off Bluetooth or using airplane mode stop them tracking me?",
+    a: "No. Both Apple and Google say switching off your own Bluetooth, location or Find My does not stop the tracker's owner seeing where it is. The tag reports through other people's passing phones, not through yours. Only disabling the tag itself stops the updates.",
+  },
+  {
+    q: "How long before my phone alerts me about an unknown tracker?",
+    a: "There is no guaranteed time. The published specification sets no deadline for how quickly a platform must notify you, and in the Ahmedabad case the first alert came in May and the device was only found at the end of August. Treat the alert as a signal that something is there, never as a measure of how long it has been there.",
+  },
+  {
+    q: "Is tracking someone with an AirTag illegal in India?",
+    a: "There is no provision naming trackers, but conduct has been charged. The Ahmedabad cyber cell registered its FIR under the stalking provision of the Indian Penal Code and section 66E of the Information Technology Act. The penal code has since been replaced by the Bharatiya Nyaya Sanhita, so the section numbering has moved. Take legal advice on your own situation.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "unknown-tracker-detected",
+    title: "Unknown Tracker Detected: What the Alert Means, and What to Do Next",
+    seoTitle: "Unknown Tracker Detected? What the Alert Means in India",
+    metaDescription:
+      "Your phone says an unknown tracker is moving with you. What the alert proves, what the published specification actually guarantees, and the order to act in.",
+    excerpt:
+      "An alert tells you something is there. It does not tell you where, or for how long. In India's first reported AirTag stalking case the first alert came in May and the tag was found at the end of August, glued under a seat cover.",
+    date: "2026-11-03",
+    readTime: "12 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/unknown-tracker-detected.webp",
+    ogImage: "/images/blogs/unknown-tracker-detected.png",
+    coverImageAlt:
+      "Unknown Tracker Detected guide cover: concentric red signal rings radiating from a small tag on a dark grid background",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Found a tracker, or cannot find one you were warned about?",
+      text: "If your phone keeps alerting and a search has turned up nothing, a private consultation can help you work out whether a physical examination is warranted and what to preserve for a complaint. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected",
+          name: "Unknown Tracker Detected? What the Alert Means in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/unknown-tracker-detected.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#article",
+          headline: "Unknown Tracker Detected: What the Alert Means, and What to Do Next",
+          description:
+            "Your phone says an unknown tracker is moving with you. What the alert proves, what the published specification actually guarantees, and the order to act in.",
+          datePublished: "2026-11-03",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Bluetooth item tracker" },
+            { "@type": "Thing", name: "Unwanted tracking detection" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Unknown Tracker Detected" },
+          ],
+        },
+        faqJsonLd(unknownTrackerFaqs, "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> An unknown tracker alert means a Bluetooth tag separated from its owner has been travelling with you. It does not tell you where the tag is, and it does not tell you how long it has been there. The published specification behind these alerts sets no deadline for how quickly you must be warned, and in India's first reported case the alerts began in May and the tag was found at the end of August.</p>
+      </div>
+
+      <p>This page is for the moment your phone buzzes with something like <em>AirTag Found Moving With You</em> or <em>Unknown Accessory Detected</em>. That alert is a genuinely useful piece of engineering, and almost everything written about it in India either reprints Apple's steps or sells a detector. Neither tells you the two things that decide what you should do: what the alert actually proves, and what it is incapable of telling you.</p>
+
+      <p>A Bluetooth item tracker is a coin-sized tag with no SIM and no satellite receiver. It does not know where it is. It advertises a short radio identifier, and any passing phone on the right network relays that identifier with its own location to the tag's owner. That is why the tag works at long range on a battery that lasts a year, and it is also why switching off your own phone's radios changes nothing. The tag is borrowing strangers' phones, not yours. A cellular GPS tracker is a different device with a different detection problem, and our guide to <a href="/blog/vehicle-gps-tracking">GPS trackers on vehicles</a> covers that one.</p>
+
+      <h2>What each alert actually says, and what it means</h2>
+      <p>The exact wording matters, because the different alerts are not interchangeable and one of them is widely misreported.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Unknown tracker alert wordings and what each one indicates</caption>
+          <thead>
+            <tr><th scope="col">What you see</th><th scope="col">What it indicates</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>AirTag Found Moving With You</td><td>An AirTag, separated from its owner, has been travelling with you.</td></tr>
+            <tr><td>Unknown Accessory Detected</td><td><strong>Not an AirTag.</strong> Apple states this wording covers AirPods and other accessories, where the Find My app could not connect to the item or its server.</td></tr>
+            <tr><td>AirPods Detected, or [Product Name] Found Moving With You</td><td>A named Find My accessory or a third party tag that identified itself.</td></tr>
+            <tr><td>Your location can be seen by the owner of this AirTag</td><td>Shown after tapping through. This is the sentence the complainant in the Ahmedabad case saw.</td></tr>
+            <tr><td>Android: an unknown tracker alert, or a manual scan result</td><td>Android 6 and later. Google says the alerts work with Find Hub network compatible tags, headphones and Apple AirTags.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><a href="https://support.apple.com/en-in/HT212227" rel="noopener noreferrer" target="_blank">Apple's guidance on these alerts</a> also sets out what has to be true before one reaches you at all on an iPhone: iOS 17.5 or later for the full set of compatible trackers, Location Services and Bluetooth on, tracking notifications allowed, and Airplane Mode off. A phone that someone has quietly configured for you may not be a phone that will warn you.</p>
+
+      <h2>India's first reported case shows the gap between the alert and the answer</h2>
+      <p>In September 2023 the <a href="https://www.deccanherald.com/india/gujarat/ahmedabad-woman-stalked-using-airtag-said-to-be-first-such-case-in-country-2669953" rel="noopener noreferrer" target="_blank">Deccan Herald reported</a> what was described as India's first case of stalking using an AirTag. The Ahmedabad cyber cell registered an FIR against the complainant's former partner under the stalking provision of the Indian Penal Code and section 66E of the Information Technology Act. The detail worth reading closely is the timeline.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Timeline of the Ahmedabad AirTag case as reported</caption>
+          <thead>
+            <tr><th scope="col">When</th><th scope="col">What happened</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>May</td><td>The complainant, using an iPhone 13 Pro Max, saw the alert "AirTag Found Moving With You" for the first time.</td></tr>
+            <tr><td>Days later</td><td>The same alert while driving from home to the office.</td></tr>
+            <tr><td>July</td><td>She told Cyber Cell officials that her driver and her daughter were receiving similar alerts on their phones.</td></tr>
+            <tr><td>29 August</td><td>Alerts again on the way to the office. On one occasion her driver tapped the notification and saw "Your location can be seen by the owner of this AirTag".</td></tr>
+            <tr><td>Afterwards</td><td>She went to a car service station to locate the device. Police said the AirTag was found <strong>glued under the seat cover behind the driver's seat</strong>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Three things follow from that account, and they are the reason this page exists.</p>
+      <p>The <strong>alert system worked and it still took months</strong>. The warning is not the discovery. It tells you something is present; finding it is a separate physical job that the phone cannot do for you once the tag is under upholstery.</p>
+      <p>The <strong>alerts followed the car, not the person</strong>. Her driver and daughter received them too. If several people who share a vehicle are being warned and one person is not, that pattern is itself information about where the tag is.</p>
+      <p>And the tag was <strong>glued under a seat cover</strong>. The standard advice to check your jacket pockets and the outer compartments of your bag is sound advice for a tag dropped into a handbag. It is useless against a tag fixed inside a car's interior, which is why that search ended at a service station.</p>
+
+      <h2>What the published specification actually requires</h2>
+      <p>Apple and Google wrote a joint specification for this, <a href="https://datatracker.ietf.org/doc/html/draft-ledvina-apple-google-unwanted-trackers-03" rel="noopener noreferrer" target="_blank">Detecting Unwanted Location Trackers</a>, whose current revision is dated 25 June 2026. It is worth knowing what it guarantees, because the guarantees are narrower than the coverage suggests.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Requirements in the Detecting Unwanted Location Trackers draft specification</caption>
+          <thead>
+            <tr><th scope="col">Requirement</th><th scope="col">What the draft says</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>A speaker</td><td>The accessory MUST include a sound maker to play sound when in the separated state.</td></tr>
+            <tr><td>How loud</td><td>MUST emit a minimum of 60 Phon peak loudness, as defined by ISO 532-1:2017.</td></tr>
+            <tr><td>How long it sounds</td><td>Minimum 5 seconds, maximum 30 seconds, with 12 seconds recommended.</td></tr>
+            <tr><td>When it counts as separated</td><td>The preferred trigger is physical separation from the owner's device for more than 30 minutes.</td></tr>
+            <tr><td>How to switch it off</td><td>Disablement SHALL be done by a physical action, for example a button press, a gesture or removing the battery.</td></tr>
+            <tr><td>How fast you must be told</td><td><strong>Nothing. The draft sets no deadline for how quickly a platform must notify you.</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Two honest caveats belong with that table. The first is that this document is an <strong>individual Internet-Draft with Informational intended status, not endorsed by the IETF and carrying no formal standing</strong>. It is an industry agreement between two companies, published in the IETF's format, and it is often described as a standard when it is not one.</p>
+      <p>The second is the last row. Every requirement about the tag is specific and measurable, and the one thing a worried person actually wants, a bound on how long a tracker can follow them before their phone says so, is the one thing nobody has committed to. The Ahmedabad timeline is what that absence looks like in practice.</p>
+
+      <h2>The Android problem nobody states plainly</h2>
+      <p>According to <a href="https://gs.statcounter.com/os-market-share/mobile/india" rel="noopener noreferrer" target="_blank">StatCounter's figures for October 2026</a>, Android holds about 94.8 per cent of the Indian mobile operating system market and iOS about 5.1 per cent. Almost every phone in this country is an Android phone.</p>
+      <p>Android is not left out of this: unknown tracker alerts run from Android 6 upwards, and there is a manual scan under Settings, then Safety and Emergency, then Unknown tracker alerts, then Scan now, which Google says takes about ten seconds. That manual scan is genuinely useful and almost nobody knows it is there.</p>
+      <p>But the strongest tool is not available. Apple's Precision Finding, which walks you towards an AirTag by distance and direction rather than by listening for a chime, requires an iPhone with Ultra Wideband, and Apple limits it to AirTags and the AirPods Pro 3 charging case. On Android you can make the tag beep and then search by ear. So the country where roughly nineteen phones in twenty are Android is the country working with the weaker half of the toolset, against a tag that may be glued under upholstery where a 12 second chime is muffled.</p>
+      <p>Coverage has gaps in the other direction too. Google's alerts are scoped to Find Hub network compatible tags, headphones and Apple AirTags, which is not every tracker sold. Silence from your phone is not a clean bill of health.</p>
+
+      <h2>Before you touch it: the order that matters</h2>
+      <p>Most guidance jumps straight to disabling the tracker. For someone who has found a neighbour's lost tag in their shopping, that is fine. For someone who suspects a person, it is the wrong first move, and the reason is the same one that governs <a href="/blog/is-someone-monitoring-your-phone">suspected phone monitoring</a>: an action the other person can notice is a decision, not a precaution.</p>
+      <p>Two facts make the ordering clear, and both come from the platforms themselves.</p>
+      <p><strong>Playing the sound does not tell the owner anything.</strong> <a href="https://support.google.com/android/answer/13658562" rel="noopener noreferrer" target="_blank">Google states</a> that you will not notify the owner if you play the sound. Locating the tag is therefore a quiet step, and you can take it before deciding anything else.</p>
+      <p><strong>Disabling it is visible in effect.</strong> Turning the tag off stops future location updates, which is exactly what someone watching the dots will see, and Google notes the owner may still see its last recorded location. If that last recorded location is your home, switching the tag off at home achieves very little and may announce that you have found it.</p>
+      <p>So the order is: stay safe, locate, record, then decide. If you believe you are in immediate danger, call <strong>112</strong>. Apple's own guidance says that if you cannot find the item and feel unsafe, go to a safe public place and contact law enforcement. Our <a href="/blog/is-someone-monitoring-your-phone">phone monitoring guide</a> sets out how to seek help from a device the other person has never had access to, which applies here too.</p>
+
+      <h2>What to capture before anything moves</h2>
+      <p>This is the most useful paragraph on the page for anyone who may end up making a complaint, and it is missing from almost every Indian article on the subject.</p>
+      <p>If the tag is an AirTag, hold the top of any NFC capable phone, Android included, against its white side and tap the notification that appears. A web page opens showing the AirTag's <strong>serial number and the last four digits of the phone number of the person who registered it</strong>. Screenshot that page. Apple says that where an item is found to be unlawfully tracking someone, law enforcement can request the available information from Apple, and that they may need the item itself and its serial number. Google gives the same advice in shorter form: save the tracker's information, including screenshots, serial numbers and owner details.</p>
+      <p>Photograph the tag where you found it before removing it, with enough of the surroundings to show its position, and note the date and time. Do not dismantle it. On an iPhone you can also review what has already been flagged: open Find My, tap Items, then Unknown Items Detected With You.</p>
+      <p>One gap to be aware of while you do this. Apple's support page lists victim support organisations for the United States, the United Kingdom and Australia. <strong>It names none for India.</strong> The routes that do exist here are 112 for immediate danger, a complaint to the local police, and the national cybercrime portal at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a> where images or recordings may have been shared.</p>
+
+      <h2>Where these tags actually turn up</h2>
+      <p>Search in the order of how hard a place is to reach, because that is the order a person planting a tag thinks in too.</p>
+      <p>On a person or their belongings: the lining and outer pockets of a bag, a jacket hung in a cloakroom, a laptop sleeve, a child's school bag, the inside of a frequently carried box or case. These are the places Apple's own instruction to check your belongings is written for, and a 12 second chime is usually audible in them.</p>
+      <p>In a vehicle the problem changes completely. The Ahmedabad tag was inside the cabin under seat upholstery, not clamped to the chassis underneath, which is where most guides tell people to look. Seat covers, boot lining, the spare wheel well, under floor mats and the glovebox are all cabin spaces where a tag is hidden from view and its sound is deadened. Our <a href="/blog/vehicle-gps-tracking">vehicle guide</a> sets out a full search and explains why the cellular trackers used in the more serious Indian cases will not trigger any phone alert at all.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>An alert that stops does not mean a tag has gone, and a phone that has never alerted does not mean nothing is there: the alert covers one family of Bluetooth tags on supported platforms, and nothing else. A physical search reports what was found in the places examined, by the methods used, at the time. It cannot establish that you have never been tracked, and it cannot prevent a new tag being placed tomorrow. A professional examination widens the methods and the access, and our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping in India</a> explains what instruments add and what they do not, but the limitation holds there too: finding nothing is not the same statement as there being nothing.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(unknownTrackerFaqs)}
+    `,
+  },
   {
     slug: "hidden-cameras-in-hotel-rooms-and-pgs",
     title: "Hidden Cameras in Hotel Rooms, PGs and Rented Flats: Who Actually Puts Them There",
@@ -1496,7 +1717,7 @@ ${faqHtml(corporateEspionageFaqs)}
       <p>This is the one area where things have genuinely improved. Apple and Google proposed a joint specification for detecting unwanted location trackers in May 2023 and shipped it on 13 May 2024, in iOS 17.5 and on Android 6 and later. It is a real capability and it works.</p>
       <p>Its limits are set by the platforms rather than by you. Google's own documentation states that unknown tracker alerts work with Find Hub network compatible tags, headphones and Apple AirTags, and the manufacturers it gives switch-off instructions for are a short list. <a href="https://support.google.com/android/answer/13658562" rel="noopener noreferrer" target="_blank">That list does not include Tile, and it does not include Samsung's Galaxy SmartTag.</a> So even within Bluetooth tags, silence from your phone does not mean nothing is there.</p>
       <p>The conditions are easy to break without realising. Apple's support documentation requires iOS 17.5 or later, Location Services on, <strong>Significant Locations switched on</strong> under System Services, Bluetooth on, tracking notifications allowed, and the phone not in Airplane Mode. Significant Locations is exactly the setting a privacy-minded person turns off. Doing so switches off their own tracker detection, and nothing tells them that.</p>
-      <p>Two further limitations come from Apple itself and deserve to be better known. If an item has been with you overnight, <a href="https://support.apple.com/en-in/119874" rel="noopener noreferrer" target="_blank">its identifier may have changed</a>, and the system uses that identifier to decide that the same item is moving with you, so the detection can break on precisely the device that has been with you longest. And disabling Find My, Bluetooth or Location Services on your own phone does not stop the tag's owner seeing its location. Switching off your own radios protects nobody.</p>
+      <p>Two further limitations come from Apple itself and deserve to be better known. If an item has been with you overnight, <a href="https://support.apple.com/en-in/119874" rel="noopener noreferrer" target="_blank">its identifier may have changed</a>, and the system uses that identifier to decide that the same item is moving with you, so the detection can break on precisely the device that has been with you longest. And disabling Find My, Bluetooth or Location Services on your own phone does not stop the tag's owner seeing its location, which is one reason <a href="/blog/unknown-tracker-detected">an unknown tracker alert needs a different response</a> from a suspected app. Switching off your own radios protects nobody.</p>
       <p>Google's manual scan is useful but narrow: it takes about ten seconds, and Google notes that trackers appearing in a manual scan are near you now but may not have been travelling with you. Past alerts are deleted after forty eight hours, so a screenshot at the time is worth more than a memory of it.</p>
       <p><strong>And no phone alert of any kind detects a cellular tracker.</strong> The alerts work by watching Bluetooth advertisements from tags that participate in a finder network. A device with its own SIM is not advertising to your phone and never appears.</p>
 

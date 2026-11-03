@@ -1,5 +1,66 @@
 [
   {
+    "slug": "unknown-tracker-detected",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "unknown tracker detected",
+    "secondary_keywords": [
+      "unknown accessory detected near you",
+      "airtag tracking me not mine",
+      "airtag found moving with you",
+      "someone put an airtag in my car how do i find it",
+      "how to check for airtags on android",
+      "how to find an airtag on my car",
+      "tracker card detected near you",
+      "airtag stalking",
+      "bluetooth tracker stalking",
+      "unknown tracker alerts android",
+      "will the owner know if i play the sound",
+      "is tracking someone with an airtag illegal in india"
+    ],
+    "h2_outline": [
+      "What each alert actually says, and what it means",
+      "India's first reported case shows the gap between the alert and the answer",
+      "What the published specification actually requires",
+      "The Android problem nobody states plainly",
+      "Before you touch it: the order that matters",
+      "What to capture before anything moves",
+      "Where these tags actually turn up",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Trigger-driven rather than device-driven: the page follows the alert itself, from the exact wording on screen, through a documented Indian case that shows how far the alert falls short of an answer, to what the published specification actually promises, and only then to action. Two tables carry the argument: the alert wordings and what each indicates, and the specification's measurable requirements ending on the one thing it does not require. Deliberately unlike the vehicle guide, which is organised around a device class and a physical search, and unlike the phone guide, which is organised around scrutinising symptoms.",
+    "compared_against": [
+      "/blog/vehicle-gps-tracking",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "main_device": "alert-wording table plus a specification requirements table whose final row is the absence of any notification deadline, anchored by a dated timeline of the Ahmedabad case",
+    "information_gain": "Reads the Apple and Google joint specification, Detecting Unwanted Location Trackers, at revision 03 dated 25 June 2026, and reports its measurable requirements: the accessory MUST include a sound maker, MUST emit a minimum of 60 Phon peak loudness as defined by ISO 532-1:2017, MUST play for a minimum of 5 and a maximum of 30 seconds with 12 seconds recommended, treats separation from the owner device for more than 30 minutes as the preferred trigger for separated mode, and requires disablement to be a physical action. Then states the finding that matters: the draft sets no deadline for how quickly a platform must notify a user, so the one guarantee a worried person wants is the one nobody has given. Records the honest status caveat that this document is an individual Internet-Draft with Informational intended status, not endorsed by the IETF and carrying no formal standing, although it is widely described as a standard. Sets out the Ahmedabad case of 2023, reported as India's first AirTag stalking case, as a dated timeline showing the alert system working and still taking from May to 29 August before the tag was found, that the complainant's driver and daughter received alerts too because the tag followed the car rather than the person, and that the tag was glued under the seat cover behind the driver's seat and found at a car service station rather than by hand, which defeats the standard advice to check pockets and bag compartments. Quantifies the Indian asymmetry with StatCounter's October 2026 figures, Android about 94.8 per cent against iOS about 5.1 per cent, against the fact that Apple's Precision Finding needs an Ultra Wideband iPhone and is limited to AirTags and the AirPods Pro 3 charging case, so the overwhelmingly Android country holds the weaker half of the toolset. Corrects the widespread misreading that Unknown Accessory Detected refers to AirTags, when Apple states it covers AirPods and other accessories. Establishes a safety ordering from the vendors' own statements: Google says playing the sound does not notify the owner, so locating is a quiet step, while disabling stops location updates in a way an observer can notice and the owner may still see the last recorded location. Gives the evidence step almost no Indian article carries, that an NFC tap on an AirTag with any NFC phone including Android returns the serial number and the last four digits of the registering owner's phone number, which should be screenshotted, and that Apple says law enforcement can request available information and may need the item and its serial number. And notes that Apple's own support page lists victim support organisations for the United States, the United Kingdom and Australia and names none for India.",
+    "internal_links_out": [
+      "/blog/vehicle-gps-tracking",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 62 record ledger and the built HTML. vehicle-gps-tracking was the real risk: it already carries the Bluetooth versus cellular distinction, the May 2024 alert rollout, the Find Hub coverage gap and the alert preconditions. It was kept and linked rather than duplicated, because it is scoped to vehicles and to cellular trackers, while the observed query cluster is alert-driven and person-centric: unknown accessory detected near you, airtag tracking me not mine, tracker card detected near you, how to check for airtags on android. Nothing on the site covered the alert wordings, the specification, the Android asymmetry, the NFC evidence step or the Ahmedabad case. Verified absent from the repository before writing: 354D, Internet-Draft, StatCounter and the Android share figure.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-03",
+    "date_modified": "",
+    "notes": "Created 3 Nov 2026, third article of the daily programme and the first item taken from the saved content queue. Demand checked before writing: Google India autocomplete returns full suggestion sets for airtag tracking me, unknown tracker detected, someone put an airtag in my car, airtag stalking, how to find an airtag on my car, unknown accessory detected near you, tracker card detected near you and how to check for airtags, including the exact alert strings people are typing straight off their screens. Sources read in place rather than summarised: Apple's support article HT212227, Google's support article 13658562, the IETF draft at revision 03, StatCounter's India mobile OS page, and the Deccan Herald report of 1 September 2023 by Satish Jha, which was reachable only through its AMP URL with a browser user agent. Deliberately not published: any verbatim quotation of the stalking provision, because the Bharatiya Nyaya Sanhita gazette PDF again defeated text extraction on section 78 exactly as it did on section 77 in the 31 October pass, so the law is referenced and handed off to the vehicle guide, which already carries a verified account of section 78; and the Sacramento killing of an Indian-origin woman who had found an AirTag under her car, because it was only available at search-summary depth and a killing used as illustration would be fear-selling without adding anything the Ahmedabad facts do not already establish. Prose measured at 2,165 words, 2,639 including the FAQ, inside the 2,000 to 3,000 pillar range on the full-page figure for the first time after four posts that ran long. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px, all three tables scrolling inside their wrappers on mobile, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims after context review, JSON-LD valid with seven FAQ questions matching seven visible, all @id references resolving across both the page graph and the sitewide identity graph, and all six external links returning 200 to a browser user agent. Two process notes worth keeping. First, the draft cited Apple's and Google's guidance in prose without linking to either, which the QA link list exposed; both citations were added before publication. Second, an inbound link inserted into the vehicle guide broke the build, because the anchor sentence sat inside a double-quoted FAQ string rather than a template literal, so the href quotes terminated the string early. Inner quotes must be escaped when editing a Faq array entry.",
+    "revisions": []
+  },
+  {
     "slug": "hidden-cameras-in-hotel-rooms-and-pgs",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hotel-rooms-and-pgs",
     "page_type": "concept-pillar",
