@@ -373,7 +373,208 @@ const listeningDeviceFaqs: Faq[] = [
   },
 ];
 
+const phoneListeningFaqs: Faq[] = [
+  {
+    q: "Is my phone listening to me for ads?",
+    a: "No evidence supports it, and the one company that sold the idea was penalised for it. In May 2026 the United States Federal Trade Commission charged Cox Media Group and two partner firms over a service marketed as listening to conversations overheard by smart devices in real time. The FTC found it did not listen in on conversations or use voice data at all, and that the business consisted of reselling email lists obtained from other data brokers at a significant markup. The three firms agreed to pay 930,000 dollars in total.",
+  },
+  {
+    q: "Then why do I see ads about something I only talked about?",
+    a: "Because the targeting does not need your microphone to reach you. Advertising systems already know your location, your network, the contacts and accounts you share things with, what you and the people around you have browsed and bought, and what data brokers have sold about you. The person you were talking to may simply have searched for it. There is also a recall effect: you notice the one ad that matches a conversation and forget the thousands that did not.",
+  },
+  {
+    q: "Are voice assistants always listening?",
+    a: "In a narrow and honest sense, yes. A wake word only works if the device processes incoming audio continuously to check whether the wake word was said, so the microphone is active even when the assistant is not responding. That is different from a permanent recording being sent somewhere. False activations are an inherent property of wake word detection, and every major assistant lets you review and delete the voice history it has stored.",
+  },
+  {
+    q: "How do I check whether an app is using my microphone right now?",
+    a: "Look for the indicator. On Android, Samsung describes the green dot at the top of the screen as a tool that tells you when an application is accessing the camera or microphone, and tapping it in the notification panel shows which app. iPhones show an equivalent indicator when the microphone is in use. To review standing permissions on Android, Samsung's guidance is Settings, then Privacy, then Permission Manager.",
+  },
+  {
+    q: "How do I stop my phone from listening to me?",
+    a: "Revoke microphone permission from the apps that have no reason to hold it, through the permission manager on Android or privacy settings on iPhone. Turn the wake word off in the assistant's own settings if you do not use it, and delete the stored voice history while you are there. None of this is dramatic and none of it requires an app: the controls are already on the phone, and a detector app will not add anything.",
+  },
+  {
+    q: "Is a privacy or detector app worth installing to stop this?",
+    a: "No. An app cannot see what another app is doing with the microphone any better than the operating system already shows you, and installing one adds another party with permissions on your phone. The useful controls are the built-in ones. Our guide to the signs an office is bugged explains in more detail why phone-based detector apps cannot do what they claim.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "is-my-phone-listening-to-me",
+    title: "Is Your Phone Listening to You? What the Evidence Actually Shows",
+    seoTitle: "Is My Phone Listening to Me? What the Evidence Shows",
+    metaDescription:
+      "The firm that sold ad targeting from overheard conversations was fined, because it never listened at all. What researchers found instead, and what to check.",
+    excerpt:
+      "The company that marketed ad targeting based on overheard conversations was fined 930,000 dollars, because the regulator found it had never listened to anything. It was reselling email lists. The real leak researchers found was not the microphone at all.",
+    date: "2026-11-07",
+    readTime: "11 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/is-my-phone-listening-to-me.webp",
+    ogImage: "/images/blogs/is-my-phone-listening-to-me.png",
+    coverImageAlt:
+      "Is Your Phone Listening to You guide cover: a permission-locked microphone beside an unlocked screen streaming data out, on a dark grid background",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried it is not an app but a device?",
+      text: "If your concern is a specific room, vehicle or phone rather than advertising in general, that is a different question and it has a different answer. A private consultation can help you work out whether a physical examination is warranted. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me",
+          name: "Is My Phone Listening to Me? What the Evidence Shows",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-my-phone-listening-to-me.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#article",
+          headline: "Is Your Phone Listening to You? What the Evidence Actually Shows",
+          description:
+            "The firm that sold ad targeting from overheard conversations was fined, because it never listened at all. What researchers found instead, and what to check.",
+          datePublished: "2026-11-07",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Mobile device privacy" },
+            { "@type": "Thing", name: "Targeted advertising" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is My Phone Listening to Me?" },
+          ],
+        },
+        faqJsonLd(phoneListeningFaqs, "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Almost certainly not. The one company that openly sold ad targeting based on overheard conversations was penalised for it in 2026, because regulators found it had never listened to anything. When researchers examined 17,260 Android apps, none was caught sending audio anywhere. What they did catch was apps recording the screen, which needs no permission at all.</p>
+      </div>
+
+      <p>This is the most common privacy question people ask, and it is usually asked after an uncanny moment: you mention a product out loud, and within a day an ad for it appears. The feeling that follows is specific and unpleasant, and it deserves a real answer rather than reassurance.</p>
+
+      <p>The honest answer has three parts. The famous evidence that phones listen collapsed under regulatory examination. The largest independent study of the question found no audio leaving any app. And the thing researchers did find was worse in one respect and more fixable in another, because it was never about the microphone.</p>
+
+      <p>Worth separating two different worries before going further. One is ambient commercial surveillance: the companies whose software you installed yourself, operating at scale, interested in you only as an advertising profile. The other is targeted surveillance: a specific person who wants to know what you in particular are doing. They have different evidence, different law and different answers, and most writing on this subject mixes them. This page is about the first. For the second, our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a> deals with software installed to watch one person, and our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> deals with physical devices in a room.</p>
+
+      <h2>The case everyone cites, and how it ended</h2>
+      <p>In late 2024 a marketing pitch deck leaked. It belonged to Cox Media Group and described a product called Active Listening, which claimed to use the microphones in phones, smart televisions and other devices to capture conversations and turn them into advertising intent data. It was reported worldwide and became, for most people, the proof that phones listen.</p>
+
+      <p>It is now the strongest evidence for the opposite conclusion.</p>
+
+      <p>On 21 May 2026 the United States Federal Trade Commission brought a complaint against CMG Media Corporation, MindSift and 1010 Digital Works. The <a href="https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived" rel="noopener noreferrer" target="_blank">FTC's own account</a> says the firms claimed the service listened in on consumers' conversations overheard by smart devices, in real time, to target advertising. The FTC found that it "did not, in fact, listen in on consumers' conversations or use voice data at all", and that the business "consisted of reselling, at a significant markup, email lists obtained from other data brokers".</p>
+
+      <p>The firms also told clients that consumers had opted in. The FTC's answer to that is the sentence worth remembering: "Clicking through mandatory terms of service does not constitute 'opt-in consent' for such an invasive service."</p>
+
+      <p>CMG agreed to pay 880,000 dollars, and MindSift and 1010 Digital Works 25,000 dollars each, a total of 930,000 dollars. The <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/242-3029-cmg-media-corporation-matter" rel="noopener noreferrer" target="_blank">final complaint and decision and order</a> were issued on 27 August 2026. None of the firms admitted wrongdoing. The product that convinced the world its phone was listening was a data broker's email list with a story attached.</p>
+
+      <h2>What happened when researchers actually checked</h2>
+      <p>The question has also been tested directly, at a scale no journalist could manage. A team from Northeastern University and TU Wien built an automated system to run Android apps, capture everything they sent over the network, and pull media files out of that traffic.</p>
+
+      <p>Their paper, <a href="https://petsymposium.org/popets/2018/popets-2018-0030.pdf" rel="noopener noreferrer" target="_blank">Panoptispy: Characterizing Audio and Video Exfiltration from Android Applications</a>, covered 17,260 apps from Google Play and three other app stores, of which 9,100 were run and interacted with automatically. On audio the finding is unambiguous, and they state it plainly: "We did not find any true positive audio files in our extracted dataset, i.e., no apps appeared to exfiltrate audio in our tests."</p>
+
+      <p>That is not proof that no app anywhere has ever done it. It is the result of the largest systematic attempt to catch one doing it, and the result was nothing. Their own limitations section says the same about covert recording generally: from 17,260 apps they "uncovered few instances of covert recording", and they call that good news.</p>
+
+      <h2>The permission nobody has to ask for</h2>
+      <p>The study is far more interesting for what it did find, and this is the part almost no coverage of the microphone question mentions.</p>
+
+      <p>On Android, using the microphone requires the RECORD_AUDIO permission, and using the camera requires the CAMERA permission. You see those requests and you can refuse them. The researchers point out the asymmetry that follows: "Unlike the camera and audio APIs, the APIs for taking screenshots and recording video of the screen are not protected by any permission."</p>
+
+      <p>So they went looking there, and found third-party libraries embedded inside ordinary apps that, in the paper's words, "record and upload screenshots and videos of the screen without informing the user and without requiring any permissions". In one case a delivery app's screen recordings, including personally identifiable information, were going to a domain belonging to an analytics firm. The researchers reported it, and the analytics library was pulled from that app's Android and iOS builds.</p>
+
+      <p>Think about what is actually on your screen. Card numbers as you type them, passwords before they turn into dots, one-time passcodes, messages you decided not to send. The sensor people guard is the one the operating system already guards for them. The channel that was leaking was the one nobody thinks of as a sensor at all.</p>
+
+      <h2>So why does the ad match the conversation?</h2>
+      <p>Because the targeting never needed to hear you. By the time you spoke, the system had better inputs than a microphone would give it.</p>
+
+      <p>It knows where you are and which network you are on, so it knows who you are sitting with. It knows the accounts and contacts you share things with. It knows what you and the people physically near you have searched, browsed and bought. And, as the FTC case shows in detail, it can buy lists about you from data brokers who assembled them from somewhere else entirely. The friend you were talking to may simply have looked the thing up, on the same Wi-Fi, an hour earlier.</p>
+
+      <p>There is also a recall effect doing quiet work. You notice the one advertisement that lands on a conversation you remember having. The thousands that missed are not stored as evidence of anything, because there is nothing to notice about an ad that is merely irrelevant. A single hit after a memorable conversation feels like proof; it is a sample of one against an enormous background.</p>
+
+      <p>None of this makes the targeting innocent. It makes it a data problem rather than a microphone problem, which matters because it changes entirely what you should do about it.</p>
+
+      <h2>Are assistants always listening? In one narrow sense, yes</h2>
+      <p>This deserves a straight answer rather than a comforting one. A wake word can only work if the device is continuously processing incoming audio to decide whether the wake word was spoken. The microphone is genuinely active. "Always listening" is a fair description of that mechanism.</p>
+
+      <p>What follows from it is narrower than people assume. Detecting a wake word is not the same as recording a conversation and sending it somewhere, and the detection is imperfect in a predictable direction: a system tuned to catch its wake word reliably will sometimes fire on something that merely sounds like it. Those false activations are a property of the design, not a secret.</p>
+
+      <p>The practical consequence is simple. If an assistant captured something after a false activation, it is usually in the voice history that the assistant itself keeps, and every major assistant lets you review that history and delete it. If you do not use the wake word, turn it off. The control is in the assistant's settings, not in a third-party app.</p>
+
+      <h2>What you can check on your own phone in a few minutes</h2>
+      <p>These checks are useful because they are built into the operating system, which means nothing has to be trusted beyond what is already running your phone.</p>
+      <ol>
+        <li><strong>Watch the indicator.</strong> Samsung's own guidance describes the green dot at the top of the screen as a tool that lets you know when an application is accessing the camera or microphone, showing "whether the microphone, camera, or both are in use". Open the notification panel and tap it, and, in Samsung's words, "you can easily see which application is using the camera or microphone". iPhones show an equivalent indicator when the microphone is active.</li>
+        <li><strong>Audit standing permissions.</strong> Samsung's <a href="https://www.samsung.com/in/support/mobile-devices/know-what-the-green-dot-at-the-top-of-your-screen-means/" rel="noopener noreferrer" target="_blank">support page</a> gives the path as Settings, then Privacy, then Permission Manager, where you can review which apps hold camera and microphone access. Revoke it from anything with no reason to need it. A torch app does not need a microphone.</li>
+        <li><strong>Review and clear the assistant's voice history</strong> in the assistant's own settings, and turn the wake word off if you do not use it.</li>
+        <li><strong>Do not install a detector app.</strong> It cannot see what other apps do with the microphone any better than the system already shows you, and it adds one more party holding permissions on your device. Our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office is bugged</a> sets out why phone-based detector apps fail at this in general.</li>
+      </ol>
+
+      <h2>India's consent rules are not in force yet</h2>
+      <p>The FTC's position on click-through consent is worth holding next to where India actually stands, because the gap is larger than most people assume.</p>
+
+      <p>The Digital Personal Data Protection Rules, 2025 were notified in November 2025 under the Act of 2023, and they commence in three stages rather than all at once. A first group took effect on publication, covering definitions and the Data Protection Board. Registration of Consent Managers follows one year after publication. The provisions that matter most to the question on this page, the notice and consent requirements, sit in the final group, which commences eighteen months after publication, in May 2027. The Ministry of Electronics and Information Technology publishes the framework on its <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener noreferrer" target="_blank">data protection pages</a>.</p>
+
+      <p>So the practical position in India today is that the detailed notice and consent duties are still ahead, and the click-through acceptance that the FTC refused to treat as opt-in consent remains, for now, how most of this works. That is not a reason for alarm. It is a reason to treat the permissions you grant as the real control, because at the moment they are.</p>
+
+      <h2>When it is a device, and not advertising at all</h2>
+      <p>Everything above is about commercial systems that treat you as one profile among millions. A different and much narrower worry is a specific person who wants to know what you specifically are saying, and that worry has nothing to do with ad targeting.</p>
+
+      <p>The signals are different too. Ambient ad targeting shows up as eerie coincidences about products. Targeted surveillance shows up as somebody knowing things about your plans, your conversations or your movements that they had no ordinary way to know. If that is the pattern, the question is not which app has microphone permission; it is who had access to your phone, your accounts or your rooms. Our guides to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring</a> and to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> deal with those two cases, and <a href="/blog/bug-sweeping-in-india">bug sweeping in India</a> explains what a professional examination covers.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>If this concern leads to a professional examination, it is worth knowing in advance what one can honestly conclude, because the limits are real.</p>
+
+      <p>An examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was there. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing. It says nothing about what an application on your phone is doing with data you have granted it access to, which is a software and permissions question rather than a radio one, and no sweep of a room will answer it.</p>
+
+      <p>Finding nothing does not prove nothing is there. For the ordinary version of this worry, the version that begins with an uncanny advertisement, the honest answer is that an examination is not the right instrument, and the permission manager already on your phone is.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(phoneListeningFaqs)}
+    `,
+  },
   {
     slug: "how-to-find-a-listening-device",
     title: "How to Find a Listening Device: Start With the Power Supply",
@@ -554,7 +755,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>It can establish that nothing was transmitting in the bands examined while the examiner was present, and report what was physically found in the places opened.</p>
 
-      <p>It cannot establish that a device recording to internal memory is absent, because such a device emits nothing. Nor can it establish that a device dormant during the visit is absent, since voice-triggered and call-activated devices are silent almost all the time, which is the direct consequence of the power ratio at the top of this page. And it says nothing about areas not accessed, or about a compromised phone or laptop in the room, which is a different problem with a different answer.</p>
+      <p>It cannot establish that a device recording to internal memory is absent, because such a device emits nothing. Nor can it establish that a device dormant during the visit is absent, since voice-triggered and call-activated devices are silent almost all the time, which is the direct consequence of the power ratio at the top of this page. And it says nothing about areas not accessed, or about a compromised phone or laptop in the room, which is a different problem with a different answer. If the worry is advertising rather than a planted device, our guide to <a href="/blog/is-my-phone-listening-to-me">whether your phone is listening to you</a> sets out what the research and the regulators actually found.</p>
 
       <p>Finding nothing does not prove that nothing is there, and no examination promises complete detection or future protection. Where a space genuinely needs assurance over time rather than once, the question is a programme rather than a single visit, which our guide to <a href="/blog/how-often-should-a-business-sweep-for-bugs">how often a business should sweep for bugs</a> addresses directly.</p>
 
@@ -1238,7 +1439,7 @@ ${faqHtml(sweepFrequencyFaqs)}
         <p><strong>Before anything else.</strong> If you think someone is monitoring your phone, that person can probably see what you search for, including this page. Look for help from a different device, one they have never had access to. Do not delete anything yet: removal can be noticed, and it destroys the evidence. If you are in immediate danger, call <strong>112</strong>.</p>
       </div>
 
-      <p>Almost every guide to this subject does two things, and both are wrong. It tells you to watch for a hot phone and a draining battery, which proves nothing in either direction. And it then tells you to find the app and delete it, which in the situation most readers are actually in is the single most dangerous instruction available. This guide puts the order the other way round, because that is what the organisations working on this subject advise.</p>
+      <p>Almost every guide to this subject does two things, and both are wrong. It tells you to watch for a hot phone and a draining battery, which proves nothing in either direction. And it then tells you to find the app and delete it, which in the situation most readers are actually in is the single most dangerous instruction available. This guide puts the order the other way round, because that is what the organisations working on this subject advise. If your worry is not a specific person but the sense that your phone is listening in order to target advertising, that is a different question with a different answer, and our guide to <a href="/blog/is-my-phone-listening-to-me">whether your phone is listening to you</a> deals with it.</p>
 
       <p>There are two completely different problems under the word spyware, and advice written for one is useless for the other. <strong>Commercial stalkerware</strong> is bought off the internet and installed by hand, usually by a partner or family member. The Coalition Against Stalkerware notes that it requires no particular technical skill, and that on Android the person almost always needs physical access to the unlocked device. <strong>Mercenary spyware</strong>, of the kind associated with state actors, is delivered without you touching anything, costs a great deal, and is aimed at what Apple describes as a very small number of specific individuals, often journalists, activists, politicians and diplomats. Apple states plainly that the vast majority of users will never be targeted by attacks of that nature. If the person you suspect has had your phone in their hands or knows your account password, you are almost certainly in the first case, and the rest of this page is written for that.</p>
 

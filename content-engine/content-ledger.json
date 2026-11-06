@@ -1,5 +1,74 @@
 [
   {
+    "slug": "is-my-phone-listening-to-me",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "is my phone listening to me",
+    "secondary_keywords": [
+      "is my phone listening to me for ads",
+      "is my phone listening to me all the time",
+      "how to stop my phone from listening to me",
+      "how to stop my phone from listening to me android",
+      "how to stop my phone from listening to me iphone",
+      "is google listening to my conversations",
+      "is alexa listening to my conversations",
+      "is alexa listening all the time",
+      "does instagram listen to your conversations",
+      "does instagram listen to your conversations for ads",
+      "why do i see ads about things i talked about",
+      "why do i get ads after talking about something",
+      "is my smart tv listening to me",
+      "smart speaker privacy",
+      "green dot android microphone",
+      "are voice assistants always listening",
+      "microphone permission android"
+    ],
+    "h2_outline": [
+      "The case everyone cites, and how it ended",
+      "What happened when researchers actually checked",
+      "The permission nobody has to ask for",
+      "So why does the ad match the conversation?",
+      "Are assistants always listening? In one narrow sense, yes",
+      "What you can check on your own phone in a few minutes",
+      "India's consent rules are not in force yet",
+      "When it is a device, and not advertising at all",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Evidence-led debunking that resolves into a correction rather than a reassurance. The page opens on the single piece of evidence everyone cites for the claim, shows how it ended under regulatory examination, then brings the largest independent study to bear, and only then delivers the actual finding: the sensor people guard is the one the operating system already guards, and the channel that leaked needed no permission at all. Carries no tables at all, which is deliberate variance from the two preceding pillars, both of which used two tables each; the explanatory devices here are a dated enforcement narrative and a four-step built-in-controls checklist. Separates ambient commercial surveillance from targeted surveillance in the intro and hands the second off, which is what keeps it clear of the stalkerware and listening device pillars.",
+    "compared_against": [
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "main_device": "a dated regulatory narrative in which the famous proof collapses, set against a verbatim negative finding from a 17,260 app study, resolving into the permission asymmetry between the microphone and the screen",
+    "information_gain": "Takes the Cox Media Group Active Listening pitch deck, which is the single most cited piece of evidence that phones listen for advertising, and reports how it actually ended. The United States Federal Trade Commission brought a complaint against CMG Media Corporation, MindSift and 1010 Digital Works on 21 May 2026, with the final complaint and decision and order issued on 27 August 2026 under Matter 242 3029 and Docket C-4838. The FTC found the service did not, in fact, listen in on consumers' conversations or use voice data at all, and that the business consisted of reselling, at a significant markup, email lists obtained from other data brokers. CMG paid 880,000 dollars and the other two 25,000 dollars each, a total of 930,000 dollars. Quotes the FTC's ruling on the consent claim directly: clicking through mandatory terms of service does not constitute opt-in consent for such an invasive service. Sets that beside the Panoptispy study from Northeastern University and TU Wien, published in Proceedings on Privacy Enhancing Technologies 2018 issue 4, which analysed 17,260 Android apps across four app stores and dynamically ran 9,100 of them, and quotes its finding verbatim: the authors did not find any true positive audio files in their extracted dataset, so no apps appeared to exfiltrate audio in their tests. Then delivers the information gain almost no coverage of this question carries: the same paper records that unlike the camera and audio APIs, the APIs for taking screenshots and recording video of the screen are not protected by any permission, and that third-party libraries embedded in ordinary apps record and upload screenshots and videos of the screen without informing the user and without requiring any permissions, exposing whatever is on screen including card numbers, passwords and unsent messages. Gives the India-specific consent position: the Digital Personal Data Protection Rules, 2025 were notified in November 2025 and commence in three tranches, with the notice and consent requirements in the final tranche eighteen months after publication, in May 2027, so the click-through acceptance the FTC refused to treat as consent remains the operative position in India for now. Carries verified, India-localised actionable guidance from Samsung's own support page: the green dot tells you when an application is accessing the camera or microphone, tapping it in the notification panel shows which app, and standing permissions are reviewed at Settings, then Privacy, then Permission Manager. Concedes honestly that wake word detection does mean the microphone is continuously active, and explains why that is narrower than it sounds.",
+    "internal_links_out": [
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 64 record ledger and the built HTML. This was a clean gap: the repository contained zero occurrences of smart speaker, Alexa, Google Assistant, Siri, wake word, ad targeting, app permission or data broker anywhere in lib/blog-data.ts. Demand is large and well structured in Google India autocomplete across is my phone listening to me, is alexa listening, is google listening to my conversations, does instagram listen to your conversations, how to stop my phone from listening, why do i see ads about things i talked about and is my tv listening to me, the last of which returns a full set of brand variants. The adjacency risk was is-someone-monitoring-your-phone, which owns stalkerware, symptom debunking, detector apps and the legal position on phone monitoring. Resolved by an explicit split stated in the intro: that post covers a specific person who installed something to watch one individual, this one covers ambient commercial surveillance by software the reader installed themselves. The two link to each other. Inbound links added from is-someone-monitoring-your-phone and how-to-find-a-listening-device.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-07",
+    "date_modified": "",
+    "notes": "Created 7 Nov 2026, fifth article of the daily programme. The topic was not on the original queue: it was added on 6 Nov from autocomplete evidence gathered while researching the listening device post, where the seed is someone listening to my conversations came back dominated by Instagram, Google, Alexa, TikTok, Meta and Facebook rather than by planted devices. Sources read in place rather than summarised: the FTC press release of May 2026 and the FTC case page for Matter 242 3029, the full Panoptispy paper PDF from petsymposium.org, extracted locally after WebFetch could not read it, and Samsung India's support page on the green dot. The Panoptispy extraction is worth noting as a success after a run of failures: the scratchpad extractor produced 73KB of readable text from that PDF where the Quectel and ISO documents had defeated it entirely. Deliberately not published, each for a stated reason. The Apple Siri settlement in Lopez v. Apple, 95 million dollars, which would have been a useful counterweight showing assistants do sometimes capture audio after unintended activation, because every account of it reachable was press reporting and no primary document was read; the same point is instead made from first principles about wake word detection, which needs no citation and is more useful to an Indian reader than a United States class action they cannot join. The exact day of the DPDP Rules notification, because sources split between 13 and 14 November 2025, so the article says November 2025 and relies only on the three-tranche structure, which is consistent across every source. Exact iPhone settings paths and Apple's own wording on the orange indicator, because no Apple first-party page could be reached, so the article states only that iPhones show an equivalent indicator and gives verified paths for Android alone, which also matches India's device mix. Length was budgeted at outline time for the first time, following the note added to memory on 6 Nov after four of five pillars overshot: prose measured 1,998 words, 2,510 including the FAQ, 2,654 on the full rendered page, inside the 2,000 to 3,000 range on the first pass with no trim passes needed. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all four internal links resolving against the export, and all five external citations returning 200. This post carries no tables, so the table-cell size check returned null rather than a value; rather than record that as a pass, the minimum rendered font size inside the article body was measured directly at 360px and came back at 17px against a 14px floor, with the page confirmed loaded at 15,773 characters of text.",
+    "revisions": []
+  },
+  {
     "slug": "how-to-find-a-listening-device",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device",
     "page_type": "concept-pillar",
