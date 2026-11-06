@@ -1,5 +1,75 @@
 [
   {
+    "slug": "is-my-smart-tv-spying-on-me",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "is my smart tv spying on me",
+    "secondary_keywords": [
+      "is my smart tv watching me",
+      "is my samsung smart tv listening to me",
+      "is my lg smart tv listening to me",
+      "do smart tvs listen to your conversations",
+      "smart tv spying on you",
+      "what is acr on a smart tv",
+      "automatic content recognition smart tv",
+      "turn off acr samsung tv",
+      "how to turn off acr on samsung tv",
+      "how to stop your smart tv from tracking what you watch",
+      "how to disable smart tv tracking",
+      "samsung viewing information services",
+      "lg live plus",
+      "vizio viewing data",
+      "smart tv camera",
+      "does my smart tv have a camera",
+      "smart tv microphone remote"
+    ],
+    "h2_outline": [
+      "It does not stop at the television's own apps",
+      "You almost certainly agreed to it, in about two seconds",
+      "What changed in Texas, and what did not",
+      "The microphone is in the remote, and the camera is probably not there at all",
+      "What to switch off, and what each brand calls it",
+      "Where India stands on this",
+      "When the worry is not the television",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "A correction that redirects the question rather than answering it as asked: the reader arrives asking whether the television listens, and the page establishes in the first screen that it watches the screen instead, then spends its length on the consequences of that. Organised as an inventory of the three channels people conflate, content recognition, the remote microphone and the camera, ranked by how much each actually does, which is the inverse of how much each is asked about. Carries no tables, like the preceding post, but differs from it structurally: that one was a debunk-then-correct narrative built on a collapsing piece of evidence, this one is a channel inventory whose hinge is a jurisdictional comparison showing the same hardware behaving differently where the law requires it to ask.",
+    "compared_against": [
+      "/blog/is-my-phone-listening-to-me",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs"
+    ],
+    "main_device": "a three-channel inventory ranked against how often each is asked about, hinged on the Texas settlement, which shows the same television asking differently depending on the law where it sits",
+    "information_gain": "Corrects the premise of the question almost every page on this subject accepts. Televisions are not meaningfully listening: they run automatic content recognition, which samples the picture on screen, converts each sample to a signature and matches it against a database of known content. Quotes Samsung's own support documentation, which describes its implementation as generating unique signatures that allow the capture of certain information regarding viewership, and lists viewing history and IP address among what is captured. Establishes the point most readers do not expect, that the input is irrelevant because the fingerprint is taken from the screen, using the Federal Trade Commission and New Jersey Attorney General action against Vizio of February 2017: software collected viewing data on 11 million televisions without consumers' knowledge or consent, capturing second-by-second information about video displayed on the smart TV from cable, broadband, set-top box, DVD, over-the-air broadcasts and streaming devices alike, with sex, age, income, marital status, household size, education level, home ownership and household value appended before sale to third parties, all under a feature marketed as Smart Interactivity that enables program offers and suggestions. Vizio paid 2.2 million dollars, was ordered to delete data collected before 1 March 2016 and to prominently disclose and obtain affirmative express consent. Names the consent moment precisely: Samsung states that ACR only runs if you opted in by consenting to the Viewing Information Services notice, which is a screen in the first-run setup wizard. Then uses the jurisdictional hinge, which is the piece of information that makes the rest actionable: the Attorney General of Texas sued Samsung, Sony, LG, Hisense and TCL in December 2025 under the Texas Deceptive Trade Practices Act, and on 26 February 2026 Samsung settled, agreeing to stop collecting and processing ACR viewing data without first obtaining consent from Texas consumers and to rewrite its consent screens. The settlement did not switch ACR off and did not change the technology; it changed how the question is put, and only for one American state. Separates the two components wrongly blamed: on Samsung's own privacy supplement the microphone is on the remote control and interactive voice commands are collected only when you make a specific search request by pressing the activation button, and most televisions have no camera at all. Gives the settings to look for by name rather than by menu path, because labels have been stable while menus move: Viewing Information Services on Samsung, Live Plus on LG, Viewing Data on Vizio, Samba Interactive TV on Sony, and the use-information-from-TV-inputs option on Roku-based sets including many TCL and Hisense models. Closes the India position: the notice and consent requirements of the Digital Personal Data Protection Rules, 2025 commence eighteen months after publication, in May 2027, so an Indian household is currently in the position Texas occupied before December 2025.",
+    "internal_links_out": [
+      "/blog/is-my-phone-listening-to-me",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/bug-sweeping-in-india",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs"
+    ],
+    "gate_decision": "NEW POST plus interlink, taken as queue item 2 after queue item 1 was rejected at the gate. Rule 0 run against the 65 record ledger and the built HTML. Clean gap: the repository held zero occurrences of smart tv, automatic content recognition, ACR, Vizio, Roku, set-top box or viewing data, and only three incidental uses of the word television. The adjacency risk was the 7 November post on whether a phone is listening, which covers advertising surveillance generally; that post mentions televisions only inside its description of the Cox Media Group pitch deck and carries no ACR content, no television settings and no television-specific mechanism, while the query cluster here is entirely its own, running to brand-level specificity across is my samsung smart tv listening to me, is my lg smart tv watching me and turn off acr samsung tv. The two posts link to each other. Anti-template risk was real and was handled deliberately: both posts could have been written as regulator-catches-someone plus mechanism plus India consent gap, so this one was restructured as a channel inventory with a jurisdictional hinge instead. Inbound links added from is-my-phone-listening-to-me and signs-your-office-is-bugged. The hotel and paying guest post was considered as a third referrer and rejected, because it never mentions a television and the link would have been forced.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "notes": "Created 8 Nov 2026, sixth article of the daily programme. Queue item 1, a TSCM versus cybersecurity definitional pillar, was rejected at the gate and removed permanently rather than deferred again. Two independent reasons: Google India autocomplete returns zero completions for tscm vs cybersecurity, difference between tscm and cyber security and is tscm part of cyber security, so there is no demand; and the territory is already saturated, with corporate-espionage-india carrying a dedicated Three layers H2 that is exactly this distinction, how-often-should-a-business-sweep-for-bugs carrying the full regulatory comparison across the Information Technology Rules of 2011, ISO 27001, the SEBI cybersecurity framework, Reserve Bank directions and the CERT-In directions, and signs-your-office-is-bugged already stating that the third class is a cybersecurity problem no radio sweep will find. Sources read in place rather than summarised: the FTC press release on the Vizio settlement, Samsung's own ACR support article ANS10010616, Samsung's Smart TV privacy supplement, and The Record's report of the Texas settlement. Deliberately not published, each for a stated reason. The reported LG settlement with Texas, because only one source carried it and the others described LG as still in litigation. The Vault 7 Weeping Angel material about a television exploit, because it would need primary sourcing and a 2017 intelligence-agency story used as illustration would be fear-selling in a page whose whole argument is that the ordinary answer is duller than the fear. Any claim about whether ACR ships enabled on units sold in India, because that was not verified and the honest statement is the legal one about what obliges a manufacturer to ask. Exact tap-by-tap menu paths as a primary device, because they vary by model and software version; the page gives the setting names instead, which are more stable and more useful, with the paths implied only for Samsung. Length budgeted at outline time again: prose measured 1,752 words, 2,202 including the FAQ, inside the 2,000 to 3,000 range on the first pass with no trim passes, which is now two posts running. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all six internal links resolving against the export, and all five external citations returning 200. This post carries no tables, so the table-cell check returned null again and the minimum rendered font size was measured directly instead: 17px against a 14px floor, page confirmed loaded at 14,116 characters. Two defects were caught by QA and fixed before publication. Samsung's own documentation was quoted three times in prose with no link to Samsung anywhere, which is the same failure the external-link list caught on 3 November with Apple and Google; both Samsung pages are now linked. And the meta description ran to 160 characters against a target of about 150 to 155, which took two attempts to correct because the first rewrite happened to be exactly the same length as the original.",
+    "revisions": []
+  },
+  {
     "slug": "is-my-phone-listening-to-me",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me",
     "page_type": "concept-pillar",

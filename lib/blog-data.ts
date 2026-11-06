@@ -400,7 +400,195 @@ const phoneListeningFaqs: Faq[] = [
   },
 ];
 
+const smartTvFaqs: Faq[] = [
+  {
+    q: "Is my smart TV listening to my conversations?",
+    a: "Almost certainly not. On Samsung's own account the microphone sits in the remote control, and the company says it collects interactive voice commands only when you make a specific search request by pressing the activation button. The television's real data collection is not audio at all: it is automatic content recognition, which identifies what is on the screen rather than what is said in the room.",
+  },
+  {
+    q: "What is ACR on a smart TV?",
+    a: "Automatic content recognition. The television samples what is on the screen, turns each sample into a signature, and matches that signature against a database of known content to work out what you are watching. Samsung describes its own implementation as generating unique signatures that allow the capture of certain information regarding viewership, including viewing history and IP address. It identifies content, not conversation.",
+  },
+  {
+    q: "Does ACR see what I watch through a set-top box?",
+    a: "Yes, and this is the part most people do not expect. Because the fingerprint is taken from the screen itself, the input does not matter. In the Federal Trade Commission's 2017 case against Vizio, the televisions captured second-by-second information about video displayed on the screen from cable, broadband, set-top box, DVD, over-the-air broadcasts and streaming devices alike.",
+  },
+  {
+    q: "Did I agree to this?",
+    a: "Probably, during setup. Samsung states that ACR only runs if you opted in by consenting to the Viewing Information Services notice, which is one of the screens in the first-run wizard. That is the same kind of click-through acceptance the United States Federal Trade Commission refused to treat as opt-in consent in a separate 2026 case about advertising.",
+  },
+  {
+    q: "How do I turn off tracking on my smart TV?",
+    a: "Look for the setting by name rather than by menu path, because the menus move between models and software versions. On Samsung it is Viewing Information Services, usually under the terms and privacy section of Settings, alongside a separate interest-based advertising toggle. On LG the equivalent is Live Plus, on Vizio it is Viewing Data, on Sony it is Samba Interactive TV, and on Roku-based sets, including many TCL and Hisense models, it is the option to use information from TV inputs. Switching it off does not affect picture or sound.",
+  },
+  {
+    q: "Does my smart TV have a camera?",
+    a: "Most do not. A handful of older models shipped with a built-in camera for video calling, and a few current premium sets support a clip-on camera sold separately, which is only present if somebody attached it. If your television has no visible lens and no camera accessory plugged into it, there is no camera. The televisions worth worrying about in a room are not the ones you bought.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "is-my-smart-tv-spying-on-me",
+    title: "Is Your Smart TV Spying on You? What It Actually Collects",
+    seoTitle: "Is My Smart TV Spying on Me? What It Actually Collects",
+    metaDescription:
+      "Your TV is not listening to you. It identifies what is on screen, including from your set-top box. What it collects, and what to switch off today.",
+    excerpt:
+      "The worry is that the television is listening. What it is actually doing is taking fingerprints of the picture on screen and matching them against a database to identify what you are watching, including whatever arrives through your set-top box.",
+    date: "2026-11-08",
+    readTime: "11 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/is-my-smart-tv-spying-on-me.webp",
+    ogImage: "/images/blogs/is-my-smart-tv-spying-on-me.png",
+    coverImageAlt:
+      "Is Your Smart TV Spying on You guide cover: a set-top box feeding a television whose screen shows a fingerprint, with data leaving to the right",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about a camera in the room, not the television?",
+      text: "If the concern is a device somebody else put in a room rather than a setting on your own television, that is a different question with a different answer. A private consultation can help you decide whether a physical examination is warranted. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me",
+          name: "Is My Smart TV Spying on Me? What It Actually Collects",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-my-smart-tv-spying-on-me.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#article",
+          headline: "Is Your Smart TV Spying on You? What It Actually Collects",
+          description:
+            "Your TV is not listening to you. It identifies what is on screen, including from your set-top box. What it collects, and what to switch off today.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Automatic content recognition" },
+            { "@type": "Thing", name: "Smart television privacy" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is My Smart TV Spying on Me?" },
+          ],
+        },
+        faqJsonLd(smartTvFaqs, "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> It is almost certainly not listening to your conversations. It is taking repeated fingerprints of the picture on your screen and matching them against a database to identify what you are watching, including whatever arrives through your set-top box. The microphone, where there is one, is usually in the remote control.</p>
+      </div>
+
+      <p>This question is almost always asked in the wrong direction, and the wrong direction is the one that lets the real answer go unnoticed. People ask whether the television is listening. Televisions are not, in any meaningful sense, listening. They are watching the screen, which is a stranger thing to do and considerably more productive for whoever is paying for the data.</p>
+
+      <p>Automatic content recognition, usually shortened to ACR, is the feature at the centre of this. It samples what is displayed on the television, converts each sample into a compact signature, and matches that signature against a database of known programmes, films and advertisements to work out what is playing. Samsung's own <a href="https://www.samsung.com/us/support/answer/ANS10010616/" rel="noopener noreferrer" target="_blank">support documentation</a> describes its implementation as generating "unique signatures that allow the capture of certain information regarding viewership", and lists viewing history and IP address among what may be captured. The important word is <em>viewership</em>. ACR identifies content, not conversation, and that distinction decides everything about what it can and cannot tell anybody about you.</p>
+
+      <h2>It does not stop at the television's own apps</h2>
+      <p>Most people assume that whatever the television knows is limited to what they watch through its built-in streaming apps, and that anything arriving from a separate box is outside its view. That assumption is wrong, and it is wrong for a structural reason: the fingerprint is taken from the screen, so the input makes no difference.</p>
+
+      <p>The clearest statement of this comes from a regulator rather than a manufacturer. In February 2017 the United States Federal Trade Commission and the New Jersey Attorney General <a href="https://www.ftc.gov/news-events/news/press-releases/2017/02/vizio-pay-22-million-ftc-state-new-jersey-settle-charges-it-collected-viewing-histories-11-million" rel="noopener noreferrer" target="_blank">settled charges against Vizio</a> over software that collected viewing data on 11 million televisions "without consumers' knowledge or consent". The televisions captured "second-by-second information about video displayed on the smart TV", and the FTC spells out the sources: "video from consumer cable, broadband, set-top box, DVD, over-the-air broadcasts, and streaming devices".</p>
+
+      <p>So the cable connection, the set-top box, the DVD player and the antenna were all equally visible. The agencies also described what was added afterwards. Vizio appended sex, age, income, marital status, household size, education level, home ownership and household value to the viewing data, then sold it to third parties who used it to target advertising across devices.</p>
+
+      <p>The feature had been marketed as "Smart Interactivity", which "enables program offers and suggestions". The complaint was that consumers were not told the same setting switched on the data collection. Vizio paid 2.2 million dollars, was ordered to delete data collected before 1 March 2016, and was required to "prominently disclose and obtain affirmative express consent" in future.</p>
+
+      <h2>You almost certainly agreed to it, in about two seconds</h2>
+      <p>The uncomfortable part of this subject is that for most people it is not a secret and never was. It is a consent you gave and do not remember giving.</p>
+
+      <p>Samsung <a href="https://www.samsung.com/us/support/answer/ANS10010616/" rel="noopener noreferrer" target="_blank">states the position plainly</a>: ACR is optional, and it "only runs if you opted in by consenting to the Viewing Information Services notice". That notice is one of the screens in the first-run setup wizard, somewhere between the network password and the channel scan, at the moment when a person who has just unboxed a television wants to watch something. Everybody presses accept. That is what the screen is designed to achieve.</p>
+
+      <p>Whether a click-through acceptance of that kind is really consent is now a live question in more than one jurisdiction, and at least one regulator has answered it. In a separate matter in 2026 concerning advertising claims, the United States Federal Trade Commission stated that clicking through mandatory terms of service does not constitute opt-in consent for an invasive service. Our guide to <a href="/blog/is-my-phone-listening-to-me">whether your phone is listening to you</a> covers that case and what it found.</p>
+
+      <h2>What changed in Texas, and what did not</h2>
+      <p>The most useful recent development is a demonstration that the behaviour of these televisions is set by law rather than by engineering.</p>
+
+      <p>In December 2025 the Attorney General of Texas sued several television manufacturers, including Samsung, Sony, LG, Hisense and TCL, over ACR data collection, under the Texas Deceptive Trade Practices Act. On 26 February 2026 <a href="https://therecord.media/samsung-updates-acr-privacy-practices-texas" rel="noopener noreferrer" target="_blank">Samsung settled</a>, agreeing to stop collecting and processing ACR viewing data without first obtaining consent from Texas consumers, to update its smart television privacy notices, and to change its consent screens so that the choice is an informed one. Cases against several of the other manufacturers were reported as continuing.</p>
+
+      <p>Read that settlement for what it actually is. It did not switch ACR off, and it did not change the technology. It changed how the question is put, and it changed it for people in one American state. The same television, running the same software, asks differently depending on where the law requires it to ask. That is the single most useful thing to understand about this subject, because it tells you what determines your own default.</p>
+
+      <h2>The microphone is in the remote, and the camera is probably not there at all</h2>
+      <p>Two components get blamed for ACR, and neither is doing it.</p>
+
+      <p>On the microphone, Samsung's <a href="https://www.samsung.com/us/info/privacy/smarttv/" rel="noopener noreferrer" target="_blank">smart television privacy supplement</a> is specific: voice commands are captured by "the microphone on the remote control", and the company says it collects interactive voice commands "only when you make a specific search request" by pressing the activation button, after which the audio goes to a third-party provider to be converted into text. That is push to talk. It is a different mechanism from ACR, it is governed by a different setting, and you can switch it off separately at the cost of losing voice search.</p>
+
+      <p>On the camera, most televisions do not have one. A small number of older models shipped with a built-in camera for video calling, and some current premium sets accept a clip-on camera sold as an accessory, which is only present if somebody physically attached it. If there is no visible lens on the bezel and nothing clipped to the top of the set, there is no camera. A concealed camera in a room is a real problem, but it is not usually a television, and our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> deals with the devices that actually turn up.</p>
+
+      <h2>What to switch off, and what each brand calls it</h2>
+      <p>Find these settings by name rather than by a tap-by-tap path, because the menus move between models and software versions while the labels have stayed fairly stable. Switching any of them off changes nothing about picture or sound.</p>
+      <ol>
+        <li><strong>The content recognition setting.</strong> On Samsung it is <em>Viewing Information Services</em>, in the terms and privacy section of Settings. On LG look for <em>Live Plus</em>, on Vizio <em>Viewing Data</em>, on Sony <em>Samba Interactive TV</em>, and on Roku-based sets, which includes many TCL and Hisense models, the option to use information from TV inputs.</li>
+        <li><strong>The advertising setting,</strong> which is usually separate from the one above and has to be switched off on its own. Samsung lists interest-based advertising as its own choice alongside Viewing Information Services.</li>
+        <li><strong>Voice services,</strong> if you never use voice search. This is the one with a real cost: turning it off removes the feature.</li>
+        <li><strong>Check again after a software update.</strong> Settings are occasionally reintroduced or re-prompted when the television updates itself or when you sign in to a new account, so a choice made two years ago is worth confirming.</li>
+      </ol>
+
+      <h2>Where India stands on this</h2>
+      <p>India has a data protection statute, and the part of it that would govern this particular consent is not yet operating.</p>
+
+      <p>The Digital Personal Data Protection Rules, 2025 were notified in November 2025 under the Act of 2023, and they commence in three stages. Definitions and the Data Protection Board took effect on publication. Registration of Consent Managers follows one year after. The notice and consent requirements, which are the provisions that would decide whether a setup-wizard screen is good enough, sit in the final stage, eighteen months after publication, in May 2027. The Ministry of Electronics and Information Technology publishes the framework on its <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener noreferrer" target="_blank">data protection pages</a>.</p>
+
+      <p>So an Indian household today is in the position Texas was in before December 2025. The feature is the same, the software is the same, and the setting is there to be switched off, but nothing currently obliges a manufacturer to ask in a way designed to be understood rather than accepted. Until that changes, the control that exists is the one in the menu, which is a reason to go and look at it rather than a reason for alarm.</p>
+
+      <h2>When the worry is not the television</h2>
+      <p>Everything above concerns a product behaving as its manufacturer documented, in a way you can switch off from the sofa. A different worry sometimes arrives wearing the same words, and it needs separating out.</p>
+
+      <p>If the concern is that a specific person knows things about your private life that no advertising system would have any interest in, the question is not what the television collects. It is who has had access to the room, the phone or the accounts. Ad targeting produces eerie coincidences about products; targeted surveillance produces somebody knowing your plans. Our guides to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> and to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring</a> deal with those cases, and <a href="/blog/bug-sweeping-in-india">bug sweeping in India</a> sets out what a professional examination covers.</p>
+
+      <p>One place where the two genuinely meet is accommodation you do not control. A television in a hotel room or a short-stay rental is not your television, you did not run its setup, and you cannot see what was agreed on it. That is a sensible reason to treat such a room differently, and our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotels and paying guest accommodation</a> covers what is worth checking there.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>If this leads anyone to consider a professional examination, the honest scope is worth stating in advance.</p>
+
+      <p>An examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was there. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
+
+      <p>And it will not tell you anything about ACR. A television sending viewing signatures to its manufacturer is doing so inside ordinary encrypted internet traffic, over the network connection you gave it, exactly as documented. There is no emission to find and nothing hidden to locate. That question is answered in the settings menu, not with instruments, which is the most practical thing on this page.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(smartTvFaqs)}
+    `,
+  },
   {
     slug: "is-my-phone-listening-to-me",
     title: "Is Your Phone Listening to You? What the Evidence Actually Shows",
@@ -530,7 +718,7 @@ export const blogPosts: BlogPost[] = [
       <h2>So why does the ad match the conversation?</h2>
       <p>Because the targeting never needed to hear you. By the time you spoke, the system had better inputs than a microphone would give it.</p>
 
-      <p>It knows where you are and which network you are on, so it knows who you are sitting with. It knows the accounts and contacts you share things with. It knows what you and the people physically near you have searched, browsed and bought. And, as the FTC case shows in detail, it can buy lists about you from data brokers who assembled them from somewhere else entirely. The friend you were talking to may simply have looked the thing up, on the same Wi-Fi, an hour earlier.</p>
+      <p>It knows where you are and which network you are on, so it knows who you are sitting with. The television in the same room reports its own stream, which our guide to <a href="/blog/is-my-smart-tv-spying-on-me">what a smart TV actually collects</a> sets out. It knows the accounts and contacts you share things with. It knows what you and the people physically near you have searched, browsed and bought. And, as the FTC case shows in detail, it can buy lists about you from data brokers who assembled them from somewhere else entirely. The friend you were talking to may simply have looked the thing up, on the same Wi-Fi, an hour earlier.</p>
 
       <p>There is also a recall effect doing quiet work. You notice the one advertisement that lands on a conversation you remember having. The thousands that missed are not stored as evidence of anything, because there is nothing to notice about an ad that is merely irrelevant. A single hit after a memorable conversation feels like proof; it is a sample of one against an enormous background.</p>
 
@@ -1804,7 +1992,7 @@ ${faqHtml(hiddenCameraFaqs)}
 
       <p>Search this question and you will find the same five or six warning signs repeated almost word for word. Very few of those pages say where the claims come from, and several of them describe effects that stopped being diagnostic when telephone networks went digital. This guide takes each one, gives the actual mechanism, and says plainly whether it tells you anything.</p>
 
-      <p>Electronic eavesdropping in an office means a device or a piece of software capturing conversation or images without the consent of the people in the room. It falls into three classes that behave very differently. A planted radio transmitter emits a signal and can in principle be found by a radio search. A passive recorder stores to internal memory and emits nothing at all, so there is no signal to find. A compromised endpoint, such as a laptop, a desk phone or a video conferencing codec, uses a microphone that is already in the room and sends audio out inside ordinary encrypted network traffic. Technical surveillance countermeasures (TSCM) is the discipline of searching for the first two, and our guide to <a href="/blog/how-to-find-a-listening-device">how to find a listening device</a> sets out the power and acoustic limits that decide where either of them can realistically sit. The third is a cybersecurity problem, and no radio sweep will find it.</p>
+      <p>Electronic eavesdropping in an office means a device or a piece of software capturing conversation or images without the consent of the people in the room. It falls into three classes that behave very differently. A planted radio transmitter emits a signal and can in principle be found by a radio search. A passive recorder stores to internal memory and emits nothing at all, so there is no signal to find. A compromised endpoint, such as a laptop, a desk phone or a video conferencing codec, uses a microphone that is already in the room and sends audio out inside ordinary encrypted network traffic. A meeting room display is a networked device of the same family, and our guide to <a href="/blog/is-my-smart-tv-spying-on-me">what a smart TV actually collects</a> covers what one reports by default. Technical surveillance countermeasures (TSCM) is the discipline of searching for the first two, and our guide to <a href="/blog/how-to-find-a-listening-device">how to find a listening device</a> sets out the power and acoustic limits that decide where either of them can realistically sit. The third is a cybersecurity problem, and no radio sweep will find it.</p>
 
       <h2>Which classic signs survive scrutiny</h2>
       <div class="table-wrap">
