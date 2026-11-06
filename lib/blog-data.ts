@@ -346,7 +346,222 @@ const unknownTrackerFaqs: Faq[] = [
   },
 ];
 
+const listeningDeviceFaqs: Faq[] = [
+  {
+    q: "Can a cell phone detect a listening device?",
+    a: "Not reliably, and not in the way the apps imply. A phone has receivers tuned to the bands it needs for mobile, Wi-Fi, Bluetooth, GNSS and NFC. It has no general purpose radio power meter, so it cannot sweep across the spectrum looking for an unexplained transmitter. What the apps actually read is the magnetometer, which responds to any lump of ferrous metal, including a screw or a hinge. Our guide to the signs an office is bugged sets out why these apps fail in more detail.",
+  },
+  {
+    q: "Can a listening device work without Wi-Fi?",
+    a: "Yes, by three different routes. It can carry a SIM and use the mobile network, which needs no Wi-Fi at all. It can transmit on its own short range radio link to a receiver somewhere nearby. Or it can record to internal memory and transmit nothing, in which case someone has to come back for it. That third kind emits no signal at all, which is why a radio-only check cannot clear a room.",
+  },
+  {
+    q: "How long can a listening device keep working?",
+    a: "That depends on where its power comes from, not on how good it is. Quectel's figures for its M66 cellular module put the peak transmit current at 1.6 A against a sleep current of 1.3 mA, a ratio of more than a thousand to one. Months of operation means mains power, or long silences, or a device someone retrieves and recharges.",
+  },
+  {
+    q: "How far away can a listening device hear a conversation?",
+    a: "Much less far than the marketing suggests, because the physics works against it. Sound pressure falls by roughly 6 dB each time the distance doubles, while the room's own noise from air conditioning, traffic and computer fans does not fall off at all. A microphone four times further from the talkers loses about 12 dB of their speech and gains nothing against the background, which is why these devices sit close to where people are.",
+  },
+  {
+    q: "What does a hidden listening device look like?",
+    a: "Often, like nothing at all. The most heavily examined bugging allegation in Indian government history, the 2011 dispute over the Union Finance Minister's office in North Block, ended with no device recovered: what was actually found was adhesive, which one agency called planted and another concluded was chewing gum. In practice you are looking for an object that has a reason to be powered and no reason to be where it is, not for a recognisable gadget.",
+  },
+  {
+    q: "Is it illegal to put a listening device in an office in India?",
+    a: "The provisions that bite are not the ones people expect, because the privacy offences usually quoted concern images rather than audio. For a device carrying a SIM, read section 42(3) of the Telecommunications Act, 2023: it covers obtaining a telecommunication identifier by fraud, cheating or personation, and knowingly possessing radio equipment that uses unauthorised or tampered identifiers, with up to three years, a fine up to fifty lakh rupees, or both. Section 42(7) makes those offences cognizable and non-bailable. How it applies to your situation is a question for a lawyer.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-find-a-listening-device",
+    title: "How to Find a Listening Device: Start With the Power Supply",
+    seoTitle: "How to Find a Listening Device: Where to Look First",
+    metaDescription:
+      "A listening device needs power, and that one constraint tells you where it can be and how long it can have been there. What to check, and in what order.",
+    excerpt:
+      "A cellular radio draws more than a thousand times as much current to transmit as it does to doze. That ratio decides where a listening device can hide, how long it can have been there, and what you should check first.",
+    date: "2026-11-06",
+    readTime: "12 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/how-to-find-a-listening-device.webp",
+    ogImage: "/images/blogs/how-to-find-a-listening-device.png",
+    coverImageAlt:
+      "How to Find a Listening Device guide cover: a small microphone outline wired to a power symbol on a dark grid background",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure whether what you found is a device?",
+      text: "If you have found something you cannot explain, or you have reason to think a room is being listened to, a private consultation can help you decide whether a physical examination is warranted and what to preserve first. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device",
+          name: "How to Find a Listening Device: Where to Look First",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/how-to-find-a-listening-device.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#article",
+          headline: "How to Find a Listening Device: Start With the Power Supply",
+          description:
+            "A listening device needs power, and that one constraint tells you where it can be and how long it can have been there. What to check, and in what order.",
+          datePublished: "2026-11-06",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Covert listening device" },
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "How to Find a Listening Device" },
+          ],
+        },
+        faqJsonLd(listeningDeviceFaqs, "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> A listening device has to solve one problem you can use against it. Capturing sound is cheap. Getting that sound out of the room is not. A cellular module draws around 1.6 A in a transmit burst against 1.3 mA asleep, so anything transmitting continuously needs mains power. Find the power and you have narrowed the search.</p>
+      </div>
+
+      <p>Almost everything written about how to find a listening device starts with a list of hiding places: smoke detectors, plug sockets, pen stands, the underside of a desk. The list is not wrong, but it leaves out the question that decides what is possible. Every covert microphone is limited by the same three things: where its power comes from, how it moves sound out of the room, and how far away it can hear anything worth hearing.</p>
+
+      <p>Those constraints are not negotiable, which is what makes them useful. They tell you how long a device can have been in place, and why the one you are probably imagining, sitting silently in a corner for a year and sending everything to somebody, mostly does not exist.</p>
+
+      <p>A covert listening device, often called an audio bug, is a concealed microphone with a way of delivering what it hears to somebody who is not in the room. The delivery method is what defines it, not the microphone, because microphones are now smaller and cheaper than the batteries that run them. Technical surveillance countermeasures (TSCM) work is the discipline of searching for such devices, and a competent examination is built around the constraints below rather than around a list of furniture. Our national guide to <a href="/blog/bug-sweeping-in-india">bug sweeping in India</a> covers what instruments a professional examination uses and what each of them can reach; this page is about the physics that tells you where to point them.</p>
+
+      <h2>The three ways sound gets out of a room</h2>
+      <p>There are only three, and the right search is different for each. This is the distinction consumer advice almost always collapses.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">The three routes audio can take out of a room, what each one requires, and what limits how long it can run</caption>
+          <thead>
+            <tr><th scope="col">Route out</th><th scope="col">What it must have</th><th scope="col">What limits its endurance</th><th scope="col">Where that pushes it physically</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Over the mobile network, using a SIM</td><td>A cellular module, a SIM and network coverage where it sits</td><td>Transmitting is the most expensive thing it does. It must sleep, or be called, or be triggered by sound</td><td>Towards mains power, or towards long silences. Deep inside a metal enclosure it loses signal</td></tr>
+            <tr><td>Over its own short range radio link</td><td>A transmitter, and a receiver within range that someone maintains</td><td>Continuous transmission drains a small battery in hours. Range falls fast through walls and concrete</td><td>Towards mains power, and towards somewhere a receiver can plausibly sit nearby</td></tr>
+            <tr><td>Not at all: recorded to internal memory</td><td>Storage, and someone who can come back for it</td><td>Memory and battery, extended enormously by recording only when it hears sound</td><td>Anywhere, including inside metal. But it must be retrievable by whoever placed it</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Read the third row again, because it defeats the most popular shortcut. A device that records to memory emits no signal at all, so no radio check, app or detector can find it by listening for a transmission. It is found physically, or by the instrument classes that respond to electronic components rather than to signals, or not at all.</p>
+
+      <h2>Power is the constraint that decides everything else</h2>
+      <p>The single most useful number in this subject is a ratio, and it comes from a manufacturer's own specification rather than from anybody selling detection. Quectel publishes figures for two of its GSM modules, the kind of part a device needs in order to reach the mobile network. For the <a href="https://www.quectel.com/product/m65-m66-compatible-design/" rel="noopener noreferrer" target="_blank">M66 and the M65</a>, the peak current during a transmit burst is 1.6 A and 2.0 A respectively. Their sleep currents are 1.3 mA and 1.2 mA.</p>
+
+      <p>That is a ratio of more than a thousand to one between talking and dozing. Everything these devices do follows from it.</p>
+
+      <p>It is why they sleep by default and wake on a trigger, whether that trigger is an incoming call or a sound in the room. It is why continuous transmission is not a realistic design on a small cell: a device drawing hundreds of milliamps while it transmits empties the sort of battery that fits inside a pen in a matter of hours, not months. And it is why, when somebody describes a device that has been quietly sending audio from their office since last year, the device they are describing is almost certainly plugged into something.</p>
+
+      <p><strong>The practical consequence is a search order.</strong> Mains power changes the arithmetic completely and is the thing to account for first: anything permanently connected to the electrical supply has no endurance limit at all. Next come the objects that are powered intermittently but predictably. Last come true battery devices, which are the most likely to be found by a physical search precisely because they cannot afford to transmit and so must be collected by hand.</p>
+
+      <h2>How far can a listening device actually hear?</h2>
+      <p>Less far than the product descriptions claim, and the reason is acoustics rather than electronics. Sound pressure in a free field falls by roughly 6 dB every time the distance from the source doubles. A microphone two metres from a conversation receives a quarter of the sound power of one at one metre; at eight metres it is around 18 dB down.</p>
+
+      <p>The background noise in the room does not behave that way. Air conditioning, traffic through a window, a ceiling fan, computer fans and the building's own services fill the space fairly evenly, so moving the microphone further from the talkers loses their speech without losing any of the noise. Distance costs a listening device signal and gains it nothing.</p>
+
+      <p>India's own noise regulations give a sense of scale for what that background can lawfully be. The Schedule to the <a href="https://cpcb.gov.in/noise-pollution/" rel="noopener noreferrer" target="_blank">Noise Pollution (Regulation and Control) Rules, 2000</a>, notified as S.O. 123(E) on 14 February 2000, sets ambient standards of 65 dB(A) Leq by day in a commercial area and 55 dB(A) in a residential one, with day running from 6.00 a.m. to 10.00 p.m. Those are permitted limits for an area rather than measurements of any particular office, but they describe the environment a concealed microphone has to work in. A device across the room from a normal conversation, in a commercial district, by day, is competing with a great deal.</p>
+
+      <p>So useful devices sit close to where people actually talk. The underside of the table, and the objects that live permanently on a desk, are better positions than a light fitting four metres up.</p>
+
+      <h2>Where to look first when you are trying to find a listening device</h2>
+      <p>Order the search by power source, because that is the order in which the possibilities narrow. These are not the likeliest places. They are the places where the constraints above are satisfied.</p>
+      <ol>
+        <li><strong>Things that are permanently connected to mains power.</strong> Plug-in adaptors and chargers left behind by somebody, extension boards, table lamps, clocks that are wired rather than battery driven, and devices plugged in behind furniture. An object drawing power indefinitely is the only kind that can run indefinitely.</li>
+        <li><strong>Things that contain mains power but are not obviously electrical.</strong> Socket and switch plates, light fittings and the back boxes behind them. This is electrical work and not a do-it-yourself inspection: do not open wiring.</li>
+        <li><strong>Objects with their own batteries that sit close to where people talk.</strong> Items on or under a meeting table or desk, pen stands, picture frames, air fresheners, soft furnishings on a sofa where people sit, and anything presented as a gift that has no obvious use.</li>
+        <li><strong>In a car, whatever has power and sits close to the cabin.</strong> The accessory socket and anything plugged into it, dashboard camera wiring that runs somewhere unexpected, and the cabin trim rather than the underside: a device under the chassis hears road noise. Our guide to <a href="/blog/vehicle-gps-tracking">GPS trackers on vehicles</a> covers location tracking, which has different physics and different hiding places.</li>
+        <li><strong>What has changed, and who had access.</strong> An object that was not there last month matters more than any category on this list, and so does who has been alone in the room. Our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office is bugged</a> explains why that beats any instrument reading, and why the classic symptoms people report are not evidence.</li>
+      </ol>
+
+      <h2>The Indian case that shows what an examination actually concludes</h2>
+      <p>The most thoroughly examined bugging allegation in recent Indian public life produced no device at all, and it is worth knowing about before you start searching, because it sets a realistic expectation of what a search concludes.</p>
+
+      <p>In 2011 a dispute became public over whether the office of the Union Finance Minister in North Block had been bugged. As <a href="https://www.dnaindia.com/india/report-intelligence-bureau-bug-in-pranab-mukherjee-s-office-is-chewing-gum-1557660" rel="noopener noreferrer" target="_blank">DNA reported on 21 June 2011</a>, the Central Board of Direct Taxes claimed there had been tiny devices in the office which were pasted and then pulled out. The Intelligence Bureau, after what the report describes as an in-depth forensic and technical examination, concluded that the adhesive was chewing gum. Pranab Mukherjee himself said the Intelligence Bureau investigation had found nothing.</p>
+
+      <p>Two government agencies examined the same material in the same rooms and reached incompatible conclusions, and no device was ever recovered. That is not a story about incompetence. It is what this work usually looks like. Residue, marks and objects that are hard to account for are common; recovered devices are rare; and the gap between the two is where almost all honest disagreement in this field lives.</p>
+
+      <p>It also answers the most popular question on this subject more usefully than any photograph could. People ask what a hidden listening device looks like, expecting a picture of a component. The practical answer is that you are not looking for a recognisable gadget. You are looking for an object that has a reason to be powered and no reason to be where it is.</p>
+
+      <h2>What the law reaches, and what it does not</h2>
+      <p>The legal position on audio is not the one most pages assume, and the difference matters if you are deciding whether to involve the police.</p>
+
+      <p>The privacy provisions quoted most often in Indian coverage of hidden devices are built around images: the capture of visual material in circumstances violating privacy, and the specified private acts involving a woman, which our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets out with their separate penalty ranges. A microphone recording a boardroom fits neither comfortably, which is why advice written for cameras transfers badly to audio.</p>
+
+      <p>Where a device carries a SIM, the provision to read is section 42 of the <a href="https://www.dot.gov.in/acts-policies/telecommunications-act-2023" rel="noopener noreferrer" target="_blank">Telecommunications Act, 2023</a>. Section 42(3) makes it an offence to obtain a SIM or other telecommunication identifier by fraud, cheating or personation, and separately to knowingly possess radio equipment using an unauthorised or tampered identifier: up to three years, a fine up to fifty lakh rupees, or both. Section 42(2) deals with unlawfully intercepting a message, with a fine ceiling of two crore rupees.</p>
+
+      <p>Two details matter more than the penalty. First, the SIM is the weak point: it has to be registered to somebody, and a SIM obtained in another person's name is itself the offence under section 42(3), independent of anything the device recorded. Second, section 42(7) makes every offence under that section cognizable and non-bailable. A cognizable offence is one the police can register and investigate without a magistrate's prior order, which is the practical difference between a complaint that moves and one that does not.</p>
+
+      <p>Section 42 came into force on 26 June 2024 under notification S.O. 2408(E). Other parts of the same Act have had their own separate commencement history, so do not assume the whole statute switched on at once, and how any of it applies to your situation is a question for a lawyer. On using a recording as evidence, our guide to <a href="/blog/corporate-espionage-india">corporate espionage in India</a> covers the 2024 change in the electronic evidence rules, and recordings made by a participant in their own conversation are dealt with in our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring</a>.</p>
+
+      <h2>If you think you have found one</h2>
+      <p>Safety first, evidence second. Neither requires you to stay in the room or confront anybody.</p>
+      <ol>
+        <li><strong>If you believe you are in immediate danger, call 112.</strong> Nothing below this matters more than that.</li>
+        <li><strong>Do not dismantle it, unplug it or take it apart.</strong> Note exactly where it is. Photograph it in place, from a distance and then closer, without handling it.</li>
+        <li><strong>Leave the room to make calls.</strong> If a device is live, a conversation about what to do next is the one conversation you would least like it to carry.</li>
+        <li><strong>Report it to the local police</strong> for a suspected offence. Cybercrime complaints, including the publication of private material, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police. A portal complaint does not automatically become an FIR.</li>
+        <li><strong>Write down who had access</strong> to the space, and when, before memory blurs. This is the material that actually supports a complaint.</li>
+      </ol>
+      <p>If the suspected device is connected to someone you live with or share accounts with, seek help through a device and a network you believe is safe, and do not remove or reset anything first. Removal can alert the person and destroy what a complaint would rest on.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>An examination reports findings within the areas it accessed, the methods it used, the conditions it worked in and the time it spent. That scope is the honest limit of the result.</p>
+
+      <p>It can establish that nothing was transmitting in the bands examined while the examiner was present, and report what was physically found in the places opened.</p>
+
+      <p>It cannot establish that a device recording to internal memory is absent, because such a device emits nothing. Nor can it establish that a device dormant during the visit is absent, since voice-triggered and call-activated devices are silent almost all the time, which is the direct consequence of the power ratio at the top of this page. And it says nothing about areas not accessed, or about a compromised phone or laptop in the room, which is a different problem with a different answer.</p>
+
+      <p>Finding nothing does not prove that nothing is there, and no examination promises complete detection or future protection. Where a space genuinely needs assurance over time rather than once, the question is a programme rather than a single visit, which our guide to <a href="/blog/how-often-should-a-business-sweep-for-bugs">how often a business should sweep for bugs</a> addresses directly.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(listeningDeviceFaqs)}
+    `,
+  },
   {
     slug: "unknown-tracker-detected",
     title: "Unknown Tracker Detected: What the Alert Means, and What to Do Next",
@@ -1388,7 +1603,7 @@ ${faqHtml(hiddenCameraFaqs)}
 
       <p>Search this question and you will find the same five or six warning signs repeated almost word for word. Very few of those pages say where the claims come from, and several of them describe effects that stopped being diagnostic when telephone networks went digital. This guide takes each one, gives the actual mechanism, and says plainly whether it tells you anything.</p>
 
-      <p>Electronic eavesdropping in an office means a device or a piece of software capturing conversation or images without the consent of the people in the room. It falls into three classes that behave very differently. A planted radio transmitter emits a signal and can in principle be found by a radio search. A passive recorder stores to internal memory and emits nothing at all, so there is no signal to find. A compromised endpoint, such as a laptop, a desk phone or a video conferencing codec, uses a microphone that is already in the room and sends audio out inside ordinary encrypted network traffic. Technical surveillance countermeasures (TSCM) is the discipline of searching for the first two. The third is a cybersecurity problem, and no radio sweep will find it.</p>
+      <p>Electronic eavesdropping in an office means a device or a piece of software capturing conversation or images without the consent of the people in the room. It falls into three classes that behave very differently. A planted radio transmitter emits a signal and can in principle be found by a radio search. A passive recorder stores to internal memory and emits nothing at all, so there is no signal to find. A compromised endpoint, such as a laptop, a desk phone or a video conferencing codec, uses a microphone that is already in the room and sends audio out inside ordinary encrypted network traffic. Technical surveillance countermeasures (TSCM) is the discipline of searching for the first two, and our guide to <a href="/blog/how-to-find-a-listening-device">how to find a listening device</a> sets out the power and acoustic limits that decide where either of them can realistically sit. The third is a cybersecurity problem, and no radio sweep will find it.</p>
 
       <h2>Which classic signs survive scrutiny</h2>
       <div class="table-wrap">
@@ -1861,7 +2076,7 @@ ${faqHtml(vehicleTrackerFaqs)}
       <p>Most people search for a bug sweep when something already feels wrong: a competitor seems to know last week's pricing discussion, an ex-partner turns up wherever you go, or a charger in a rented room looks slightly odd. This guide explains what a sweep in India actually involves, where the law stands, how to book one without alerting whoever may be listening, and how to judge whether a provider is worth hiring.</p>
 
       <h2>What is bug sweeping?</h2>
-      <p>Bug sweeping, known in the security industry as technical surveillance countermeasures (TSCM) and often called a "debugging service" in India, is the systematic search of a defined space for devices that capture or transmit audio, video or location without the occupants' consent. A sweep usually covers three kinds of threat. Transmitting devices, such as GSM (SIM-card) bugs, Wi-Fi cameras and radio-frequency (RF) transmitters, emit signals. Non-transmitting devices, such as SD-card voice recorders and pinhole cameras, store data locally and emit nothing. Trackers attached to vehicles report location over mobile networks or Bluetooth. Because no single instrument catches all three, a professional sweep combines a spectrum analyser, a non-linear junction detector (NLJD), optical and thermal checks and a close physical inspection. The result is a written account of the areas examined, the methods used and any findings. A sweep describes a space at the time it was inspected; it does not certify that the space will stay clean.</p>
+      <p>Bug sweeping, known in the security industry as technical surveillance countermeasures (TSCM) and often called a "debugging service" in India, is the systematic search of a defined space for devices that capture or transmit audio, video or location without the occupants' consent. A sweep usually covers three kinds of threat. Transmitting devices, such as GSM (SIM-card) bugs, Wi-Fi cameras and radio-frequency (RF) transmitters, emit signals. Non-transmitting devices, such as SD-card voice recorders and pinhole cameras, store data locally and emit nothing, which is one reason <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> starts with its power supply rather than with a radio check. Trackers attached to vehicles report location over mobile networks or Bluetooth. Because no single instrument catches all three, a professional sweep combines a spectrum analyser, a non-linear junction detector (NLJD), optical and thermal checks and a close physical inspection. The result is a written account of the areas examined, the methods used and any findings. A sweep describes a space at the time it was inspected; it does not certify that the space will stay clean.</p>
 
       <h2>Which tool finds which device?</h2>
       <p>The most useful thing to understand before hiring anyone is that each detection method covers a different gap. A provider who brings only one instrument is only checking for one kind of device.</p>

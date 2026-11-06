@@ -1,5 +1,77 @@
 [
   {
+    "slug": "how-to-find-a-listening-device",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/how-to-find-a-listening-device",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "how to find a listening device",
+    "secondary_keywords": [
+      "hidden listening device",
+      "what does a hidden listening device look like",
+      "how to find a listening device in my room",
+      "how to find a listening device in my car",
+      "how to find a listening device in my house",
+      "how to detect hidden listening devices",
+      "where do people hide listening devices",
+      "can a listening device work without wifi",
+      "does a listening device need wifi",
+      "how far can a listening device hear",
+      "how long does a listening device last",
+      "can a cell phone detect a listening device",
+      "listening device detector app",
+      "how to check if your room is bugged",
+      "how to check if your office is bugged",
+      "is it legal to have listening devices in the workplace",
+      "audio bug",
+      "gsm bug detector"
+    ],
+    "h2_outline": [
+      "The three ways sound gets out of a room",
+      "Power is the constraint that decides everything else",
+      "How far can a listening device actually hear?",
+      "Where to look first when you are trying to find a listening device",
+      "The Indian case that shows what an examination actually concludes",
+      "What the law reaches, and what it does not",
+      "If you think you have found one",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Constraint-driven rather than place-driven or device-driven. The page is organised around the three physical limits every covert microphone obeys (power, route out of the room, acoustic range) and derives the search order from them, so the list of hiding places arrives as a consequence rather than as the opening move. Two devices carry the argument: a table of the three routes audio can take out of a room with an endurance column, and a numbered search order ranked by power source. Deliberately unlike signs-your-office-is-bugged, which is organised around debunking folklore symptoms, and unlike bug-sweeping-in-india, which is a service explainer organised around instruments and buying decisions.",
+    "compared_against": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/vehicle-gps-tracking"
+    ],
+    "main_device": "a three-route table whose decisive column is endurance, plus a search order ranked by power source, anchored by a manufacturer's published current figures and by a documented Indian case in which no device was ever recovered",
+    "information_gain": "Builds the page on a ratio taken from a manufacturer's own specification rather than from anyone selling detection: Quectel publishes a peak transmit current of 1.6 A for its M66 GSM module against a sleep current of 1.3 mA, and 2.0 A against 1.2 mA for the M65, which is more than a thousand to one between transmitting and dozing. Derives from that the consequences almost no consumer page states: that continuous transmission is not a realistic design on a small cell, that months of operation implies mains power or long silences, and that the search should therefore be ordered by power source rather than by hiding place. Answers the range question with acoustics instead of marketing: sound pressure falls roughly 6 dB per doubling of distance while room noise does not fall off at all, and gives the Indian scale for that background by citing the Schedule to the Noise Pollution (Regulation and Control) Rules, 2000, notified as S.O. 123(E) on 14 February 2000, which permits 65 dB(A) Leq by day in a commercial area and 55 dB(A) in a residential one, with day running 6.00 a.m. to 10.00 p.m. Uses the 2011 North Block dispute over the Union Finance Minister's office, reported by DNA on 21 June 2011, as the honest centrepiece: the Central Board of Direct Taxes claimed tiny devices had been pasted and pulled out, the Intelligence Bureau concluded after a forensic and technical examination that the adhesive was chewing gum, Pranab Mukherjee said the Intelligence Bureau had found nothing, and no device was ever recovered, which is the realistic expectation a reader should carry into a search and the real answer to what a hidden listening device looks like. On law, moves off the image-based privacy offences that dominate Indian coverage and onto section 42 of the Telecommunications Act, 2023, in force since 26 June 2024 under S.O. 2408(E): section 42(3) covers obtaining a telecommunication identifier by fraud, cheating or personation and knowingly possessing radio equipment using an unauthorised or tampered identifier, with up to three years, a fine up to fifty lakh rupees, or both, and section 42(7) makes those offences cognizable and non-bailable, which is the practical difference between a complaint that moves and one that does not. Names the SIM as the evidential weak point of a planted cellular device.",
+    "internal_links_out": [
+      "/blog/bug-sweeping-in-india",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/vehicle-gps-tracking",
+      "/blog/corporate-espionage-india",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-often-should-a-business-sweep-for-bugs"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 63 record ledger and the built HTML. The site already held audio-bug material in two places: bug-sweeping-in-india carries a device table with GSM and SD-card recorder rows and the NLJD explanation, and signs-your-office-is-bugged carries the three-class framing and the limitation about voice-activated devices. Neither owns the query cluster, which the Google India autocomplete shows is dominated by how to find a listening device in my room, house and car, what does a hidden listening device look like, where do people hide listening devices, can a listening device work without wifi, how far can a listening device hear and how long does a listening device last. Those were absent from the repository. Two deliberate scope decisions. First, the head term audio bug was rejected as a primary keyword because Google India autocomplete returns almost entirely video game results for it (Rainbow Six, Division 2, Battlefield, Crimson Desert, Windows 11); listening device is the vocabulary that actually carries the intent. Second, can a cell phone detect a listening device and the detector-app cluster were deliberately kept out of the H2 plan and answered only in the FAQ with a link out, because signs-your-office-is-bugged and is-someone-monitoring-your-phone already own that argument. Inbound links added from signs-your-office-is-bugged and bug-sweeping-in-india.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-06",
+    "date_modified": "",
+    "notes": "Created 6 Nov 2026, fourth article of the daily programme and the second item taken from the saved content queue. Demand checked before writing against the Google India autocomplete endpoint for audio bug, listening device, hidden listening device, how to find a listening device, how to detect listening device in room, listening device in car, what does a listening device look like, where do people hide listening devices, does a listening device need wifi, how far can a listening device hear, bug detector, rf detector, gsm bug, sim card bug, how to check if your room is bugged and is someone listening to my conversations. Two of those seeds returned findings worth keeping: audio bug is almost entirely a video game query in India, and is someone listening to my conversations is dominated by Instagram, Google, Alexa, TikTok, Meta and Facebook rather than by planted devices. Sources read in place rather than summarised: Quectel's M65 and M66 compatible design page for the current figures, the bare text of sections 2, 3 and 42 of the Telecommunications Act, 2023 together with its commencement footnotes, a reproduction of the Schedule to the Noise Pollution (Regulation and Control) Rules, 2000, and the DNA report of 21 June 2011 on the North Block dispute. Deliberately not published, each for a stated reason. ISO 9921's A-weighted speech levels by vocal effort, because the only copy reachable was a scan of CCITT fax images with no OCR available, so the 6 dB per doubling rule is stated as acoustics without a precise speech level attached. The exact GSM transmit burst timing, because the SIMCom hardware design document could not be read in place and the Quectel specification PDF defeated text extraction in the same way the Bharatiya Nyaya Sanhita gazette did on 31 October. MEMS microphone current and sensitivity figures, for the same extraction reason. Section 3(1)(c) of the Telecommunications Act, which requires authorisation to possess radio equipment and would have been the neatest legal hook, because section 3 appears in neither the 26 June 2024 nor the 5 July 2024 commencement tranche and its current status could not be confirmed from a government source; the article therefore rests only on section 42, which is verifiably in force, and says explicitly that other parts of the Act have had their own commencement history. The 16 locations and the 7 September 2010 letter in the North Block case, because Deccan Herald returned 403 and only the DNA account could be read in place. A seventh FAQ on police use of listening devices was drafted and then removed, because India's lawful interception framework was never read at source and the answer could only be vague; removing it was a verify-or-omit decision that also helped the length. Prose measured at 2,375 words, 2,894 including the FAQ on the same basis the 3 November post was recorded at, inside the 2,000 to 3,000 pillar range; the full rendered page including the byline, the consultation block and the screen-reader table captions measures 3,032. Three trim passes were needed to get there, which is now four posts in five that have had to be cut back. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, table cells 15px, both tables scrolling inside their wrappers on mobile, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving across the page graph and the sitewide identity graph, all seven internal links resolving against the export, and all five external citations returning 200. One process note worth keeping: cpcb.nic.in now redirects to cpcb.gov.in and the old noise rules PDF paths 404, while indiacode.nic.in returned 504 throughout the session, so the Act is linked to the Department of Telecommunications page and the noise rules to CPCB's own page, both verified 200.",
+    "revisions": []
+  },
+  {
     "slug": "unknown-tracker-detected",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/unknown-tracker-detected",
     "page_type": "concept-pillar",
