@@ -1,5 +1,72 @@
 [
   {
+    "slug": "is-my-laptop-camera-hacked",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-laptop-camera-hacked",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "is my laptop camera hacked",
+    "secondary_keywords": [
+      "how to tell if your laptop camera is hacked",
+      "how to know if your laptop webcam is hacked",
+      "can someone watch me through my laptop camera",
+      "can someone see me through my laptop camera",
+      "can hackers see me through my laptop camera",
+      "can my employer watch me through my laptop camera",
+      "can my work see me through my laptop camera",
+      "how to know if someone is using my webcam",
+      "how to know if someone is spying through your webcam",
+      "why does my laptop camera turn on by itself",
+      "laptop camera light turns on by itself",
+      "should i cover my laptop camera",
+      "webcam hacked what to do",
+      "laptop camera spyware",
+      "camera indicator light",
+      "windows camera permissions"
+    ],
+    "h2_outline": [
+      "The research that defeated the light, and what it actually proves",
+      "What your machine guarantees now",
+      "Why the camera light comes on by itself",
+      "How to see what is actually using the camera",
+      "Can your employer watch you through it?",
+      "Should you cover it?",
+      "If you think it really is compromised",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Built around the evidential weight of a single signal rather than around a device, a threat or a mechanism. The reader has exactly one piece of direct evidence, the indicator light, so the page asks what that light is physically wired to, who has broken that wiring, and what the reader's own machine documents today, and only then moves to action. This is deliberately unlike the three preceding pillars: the listening device post was organised by physical constraints, the phone post was a debunk-then-correct narrative, and the smart TV post was a channel inventory with a jurisdictional hinge. Carries no tables, with an ordered list for the mundane causes and another for the response steps.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/is-my-smart-tv-spying-on-me"
+    ],
+    "main_device": "the indicator light treated as a piece of evidence and tested for how much weight it bears, against the one published attack that defeated it and against what the vendors document now",
+    "information_gain": "Reads the primary research rather than the press coverage of it. Brocker and Checkoway's iSeeYou, presented at the 23rd USENIX Security Symposium in 2014, is quoted from its own abstract: disabling the LED on a class of Apple internal iSight webcams enables video to be captured without any visual indication to the user and can be accomplished entirely in user space by an unprivileged non-root application. Carries the architectural detail that makes the finding intelligible, which almost no secondary account includes: the camera module was designed around a microprocessor and a separate image sensor with an indicator LED sitting between them, such that whenever the image sensor is transmitting images to the microcontroller a hardware interlock illuminates the LED, and the attack reprogrammed the microcontroller's firmware to reconfigure the image sensor and bypass that interlock. Also carries the scope, which secondary accounts routinely drop: it applied to previous generation Apple products including the iMac G5 and early Intel-based iMacs, MacBooks and MacBook Pros until roughly 2008, and the unit studied came from a 2008 MacBook. Sets that against what the vendors document now: Apple's consumer guidance says the camera cannot be activated without the camera indicator light also turning on, and Apple's platform security documentation describes an architecture on recent hardware intended to stop untrusted software, even with root or kernel privileges in macOS, from engaging the camera without also visibly lighting the on-screen camera indicator light. States the honest limit of that claim, which is that the strongest documented guarantee is described for particular recent hardware rather than offered for every computer, and that on Windows the indicator is wired by each manufacturer for its own models. Gives a Windows limitation taken from Microsoft's own documentation that is widely missed: camera privacy settings for desktop apps cannot be changed at an individual desktop app level, so classic desktop programs, which is most software on a typical Indian laptop, are governed as one group. Answers the employer sub-cluster with the best documented instance rather than with speculation, and it is an institution rather than a criminal: the same Johns Hopkins paper records that at the beginning of the 2008 school year the Lower Merion School District issued a MacBook to every enrolled student preloaded with a remote administration tool that let officials capture images from the webcams. And carries Apple's counter-intuitive caution on camera covers, that closing a MacBook with one installed may damage the display because the clearance between display and keyboard is designed to very tight tolerances, that a cover should be no thicker than an average piece of printer paper at 0.1 mm, and that covering the camera may interfere with the ambient light sensor.",
+    "internal_links_out": [
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, taken as queue item 1. Rule 0 run against the 66 record ledger and the built HTML. Clean gap: the repository held no page on webcams, no discussion of camera indicator lights and nothing on device cameras as distinct from planted ones. The only prior occurrences were incidental, being the television camera paragraph in the smart TV post, two references to MITRE ATT&CK recording webcam capture as a technique, and the front-camera infrared test in the hidden camera and Mumbai pages. Demand confirmed across two autocomplete passes: how to tell if your laptop camera is hacked returns nine completions, can someone watch me through my laptop camera returns nine, how to know if someone is using my webcam returns six, and why does my laptop camera turn on by itself returns four. One finding shaped the outline: four of the nine completions under can someone watch me through my laptop camera are about employers, so that sub-cluster was given its own H2 and answered from the Lower Merion case, while the broader employer monitoring topic was deliberately left for its own queued page rather than absorbed here. Distinct from how-to-detect-hidden-cameras, which is about cameras somebody else placed in a room, and from is-someone-monitoring-your-phone, which is about software installed to watch one person on a phone. Inbound links added from signs-your-office-is-bugged, where the MITRE entry explicitly names the webcam, and from is-my-smart-tv-spying-on-me, where the camera paragraph hands off naturally.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-09",
+    "date_modified": "",
+    "notes": "Created 9 Nov 2026, seventh article of the daily programme. Sources read in place rather than summarised: the full iSeeYou paper, extracted locally after WebFetch could not read the PDF, Apple's platform security documentation on the Mac camera indicator, Apple's support article 102177 on camera covers, and Microsoft's own camera permissions page. Deliberately not published, each for a stated reason. The line in the iSeeYou paper citing a Washington Post report that the FBI had developed webcam surveillance malware, because it is a newspaper claim quoted inside a research paper, two steps from any primary source, and an intelligence agency used as illustration would be fear-selling on a page whose argument is that the ordinary explanation is usually the right one. The Windows recent-activity camera log, which would have been the single most actionable Windows instruction, because Microsoft's own documentation does not describe it and only third-party how-to sites do; the page gives the documented controls instead. Any India-specific sextortion framing, because the autocomplete seeds for it returned no completions at all, and building a page on a topic without demand is the mistake that got the TSCM versus cybersecurity page rejected the day before. Length budgeted at outline time: prose measured 1,797 words, 2,374 including the FAQ, inside the 2,000 to 3,000 range on the first pass with no trim passes, which is now three posts running. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all four internal links resolving against the export, and all three external citations returning 200. No tables again, so the minimum rendered font size was measured directly rather than recorded as a pass from a null: 17px against a 14px floor. Three QA items were resolved before publication. The banned-phrase check failed on the word unlocks, in the sentence about a laptop signing you in by face; the use was literal rather than the marketing sense the list targets, but Section 10 bans the word in any context, so the sentence was rephrased rather than argued with. The promotional-claim check flagged six occurrences for context review, two of best documented used as an evidential qualifier about the Lower Merion case and four of guarantee used about hardware guarantees and their limits, including the sentence saying the light is a hardware guarantee and not a law of nature; none is a claim about this firm's service, so all six pass on review. And the meta description ran to 162 characters and was rewritten to 156, which is within the section 15 tolerance of about 150 to 155. One link-quality fix: the Microsoft camera permissions URL resolved through a redirect, so the destination URL is used instead.",
+    "revisions": []
+  },
+  {
     "slug": "is-my-smart-tv-spying-on-me",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me",
     "page_type": "concept-pillar",
