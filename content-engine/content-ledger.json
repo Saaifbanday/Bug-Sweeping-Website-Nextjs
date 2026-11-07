@@ -1,5 +1,74 @@
 [
   {
+    "slug": "can-my-employer-monitor-me",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "can my employer monitor me",
+    "secondary_keywords": [
+      "is employee monitoring legal in india",
+      "employee monitoring laws in india",
+      "can my employer read my teams messages",
+      "can my employer see my teams messages",
+      "can my company read my teams messages",
+      "can my company see my screen",
+      "can my employer see my screen remotely",
+      "can my boss see my screen at home",
+      "is my work laptop monitored",
+      "is my company laptop monitored",
+      "how to know if my work laptop is being monitored",
+      "can my employer monitor me working from home",
+      "can my employer monitor me on cctv",
+      "can my employer monitor my social media",
+      "dpdp act employee data",
+      "intune what can my company see"
+    ],
+    "h2_outline": [
+      "In India, consent is not the mechanism",
+      "What device management can and cannot see",
+      "Whose device is it? The line that actually decides",
+      "What is discoverable in Teams and Microsoft 365",
+      "How to find out what applies to you",
+      "What this is not",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Law first, then architecture, then ownership as the hinge. The page deliberately refuses the framing every competing article uses, which is consent, and replaces it with the two questions that actually decide the answer in India: what the statute permits without consent, and what the software on a particular device exposes. Distinct from the four preceding pillars: the webcam post weighed a single piece of evidence, the smart TV post was a channel inventory, the phone post was a debunk narrative and the listening device post was built on physical constraints. This one is a rights-and-architecture page, and it is the first of the recent run written for a reader who is not frightened but is wondering what is visible.",
+    "compared_against": [
+      "/blog/corporate-espionage-india",
+      "/blog/is-my-laptop-camera-hacked",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/how-often-should-a-business-sweep-for-bugs"
+    ],
+    "main_device": "a statutory ground that bypasses consent, set against two vendor documentation lists of what is and is not visible, with device ownership as the line that resolves both",
+    "information_gain": "Corrects the framing rather than answering the question as asked. Section 7 of the Digital Personal Data Protection Act, 2023 sets out certain legitimate uses that stand alongside consent rather than beneath it, and clause (i) covers processing for the purposes of employment or those related to safeguarding the employer from loss or liability, with the clause itself giving examples including guarding against spying by competitors and keeping business secrets confidential. The clause number matters and the secondary commentary is split on it: several sources cite 7(f), and the statutory text at Indian Kanoon shows it is clause (i), which was read in place to settle the point. Then gives both halves of the visibility question from vendor documentation rather than from speculation. Microsoft's Intune data visibility page, updated April 2026, lists what an organisation can never see, and that list includes calling and web browsing history, email and text messages, contacts, calendar, passwords, pictures including the camera roll, and the content of user-created documents. The same page states that for a corporate-owned Windows device the organisation can query hardware and operating system environment information, installed certificate details, file paths and file names, operating system user and group information, registry and event log entries, and details about running processes. Reading those two lists together is the page's main argument: management software is not built to read messages, it is built to know the machine completely. Draws the ownership line from the same source, which states that an organisation can view a lost corporate-owned device's location but cannot view a personal device's location, sees all installed apps on a corporate device against only the managed app inventory on a personal one, and sees the full phone number on a corporate device against the last four digits on a personal one. On messaging, uses Microsoft's current Purview eDiscovery documentation for Teams: messages in one to one and group chats are stored in the Exchange Online mailbox of all participants, channel messages in the mailbox associated with the team, the discoverable content list includes chats with yourself, meeting metadata covers start and end time, duration and join and leave events for each participant, and, the detail most likely to surprise, if the user is on hold then previous versions of edited messages are also preserved. States the caveat that keeps the page honest: all of this describes what the management platform exposes and says nothing about separate monitoring software an employer may install.",
+    "internal_links_out": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/is-my-phone-listening-to-me",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/is-my-laptop-camera-hacked",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/corporate-espionage-india",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, taken as queue item 1. Rule 0 run against the 67 record ledger and the built HTML. Clean gap: the repository held no employee-side material at all, the only hits for the vocabulary being incidental uses of screenshot in the phone post, Teams in the office indicators post and employment contract in the corporate espionage post. Demand is sharp and highly specific: can my employer read my teams messages returns ten completions, can my company see my screen returns ten including without me knowing and remotely, is my work laptop monitored returns seven including how to check, and is employee monitoring legal in india returns three, confirming India-specific demand. The adjacency risks were handled deliberately. corporate-espionage-india covers the same arrangements from the employer's side and is now cross-linked in both directions. The 6 Nov webcam post already answered the camera slice of this question using the Lower Merion case, so this page leaves the camera alone and covers what was left: statutory basis, device management visibility, messaging discovery and ownership. Inbound links added from corporate-espionage-india and from is-my-laptop-camera-hacked, where the existing sentence saying employer disclosure is a larger subject than that page now hands off here.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-07",
+    "date_modified": "",
+    "notes": "Created 7 Nov 2026, eighth article of the daily programme and the first on a genuinely new day after four were written in one sitting on 6 Nov. Sources read in place rather than summarised: the text of Section 7 of the DPDP Act at Indian Kanoon, Microsoft's Intune data visibility page, and Microsoft's current Purview eDiscovery documentation for Teams. Deliberately not published, each for a stated reason. The Teams private channel storage location, because Microsoft's documentation is internally inconsistent on it during a migration that Message Center notice MC1134737 placed between October 2025 and April 2026; the page uses the one to one, group and standard channel locations, which are stable, and leaves private channels alone. Any claim about what specific employee monitoring products can do, because that would mean citing vendor marketing as fact. Any instruction that would help an employee evade monitoring on an employer's device, which is not the purpose of the page. The clause reference was nearly published wrong: several commentaries cite Section 7(f) for employment, and only reading the statutory text established that it is clause (i). QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all seven internal links resolving against the export, and all three external citations returning 200. Length budgeted at outline time: prose 1,637 words, 2,148 including the FAQ, inside range on the first pass with no trim passes, now four posts running. One defect caught by QA and fixed before publication: the post quoted Section 7(i) repeatedly but linked nothing to the Act, which is the third time the external-link list has caught an uncited authority after Apple and Google on 3 Nov and Samsung on 8 Nov. indiacode.nic.in has returned 504 across every session since 6 Nov, so the Act is cited to MeitY's framework page as in the two other posts that reference it.",
+    "revisions": []
+  },
+  {
     "slug": "is-my-laptop-camera-hacked",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-laptop-camera-hacked",
     "page_type": "concept-pillar",
@@ -61,10 +130,15 @@
       "date": "",
       "approved_version": ""
     },
-    "date_published": "2026-11-09",
+    "date_published": "2026-11-06",
     "date_modified": "",
     "notes": "Created 9 Nov 2026, seventh article of the daily programme. Sources read in place rather than summarised: the full iSeeYou paper, extracted locally after WebFetch could not read the PDF, Apple's platform security documentation on the Mac camera indicator, Apple's support article 102177 on camera covers, and Microsoft's own camera permissions page. Deliberately not published, each for a stated reason. The line in the iSeeYou paper citing a Washington Post report that the FBI had developed webcam surveillance malware, because it is a newspaper claim quoted inside a research paper, two steps from any primary source, and an intelligence agency used as illustration would be fear-selling on a page whose argument is that the ordinary explanation is usually the right one. The Windows recent-activity camera log, which would have been the single most actionable Windows instruction, because Microsoft's own documentation does not describe it and only third-party how-to sites do; the page gives the documented controls instead. Any India-specific sextortion framing, because the autocomplete seeds for it returned no completions at all, and building a page on a topic without demand is the mistake that got the TSCM versus cybersecurity page rejected the day before. Length budgeted at outline time: prose measured 1,797 words, 2,374 including the FAQ, inside the 2,000 to 3,000 range on the first pass with no trim passes, which is now three posts running. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all four internal links resolving against the export, and all three external citations returning 200. No tables again, so the minimum rendered font size was measured directly rather than recorded as a pass from a null: 17px against a 14px floor. Three QA items were resolved before publication. The banned-phrase check failed on the word unlocks, in the sentence about a laptop signing you in by face; the use was literal rather than the marketing sense the list targets, but Section 10 bans the word in any context, so the sentence was rephrased rather than argued with. The promotional-claim check flagged six occurrences for context review, two of best documented used as an evidential qualifier about the Lower Merion case and four of guarantee used about hardware guarantees and their limits, including the sentence saying the light is a hardware guarantee and not a law of nature; none is a claim about this firm's service, so all six pass on review. And the meta description ran to 162 characters and was rewritten to 156, which is within the section 15 tolerance of about 150 to 155. One link-quality fix: the Microsoft camera permissions URL resolved through a redirect, so the destination URL is used instead.",
-    "revisions": []
+    "revisions": [
+      {
+        "date": "2026-11-06",
+        "change": "Publication date corrected from 2026-11-09 to 2026-11-06, the true date per the git history. The original value was set by assuming each content request arrived on a separate day; all four posts of that run were written and pushed on 2026-11-06. Metadata correction only, so dateModified was deliberately not set."
+      }
+    ]
   },
   {
     "slug": "is-my-smart-tv-spying-on-me",
@@ -131,10 +205,15 @@
       "date": "",
       "approved_version": ""
     },
-    "date_published": "2026-11-08",
+    "date_published": "2026-11-06",
     "date_modified": "",
     "notes": "Created 8 Nov 2026, sixth article of the daily programme. Queue item 1, a TSCM versus cybersecurity definitional pillar, was rejected at the gate and removed permanently rather than deferred again. Two independent reasons: Google India autocomplete returns zero completions for tscm vs cybersecurity, difference between tscm and cyber security and is tscm part of cyber security, so there is no demand; and the territory is already saturated, with corporate-espionage-india carrying a dedicated Three layers H2 that is exactly this distinction, how-often-should-a-business-sweep-for-bugs carrying the full regulatory comparison across the Information Technology Rules of 2011, ISO 27001, the SEBI cybersecurity framework, Reserve Bank directions and the CERT-In directions, and signs-your-office-is-bugged already stating that the third class is a cybersecurity problem no radio sweep will find. Sources read in place rather than summarised: the FTC press release on the Vizio settlement, Samsung's own ACR support article ANS10010616, Samsung's Smart TV privacy supplement, and The Record's report of the Texas settlement. Deliberately not published, each for a stated reason. The reported LG settlement with Texas, because only one source carried it and the others described LG as still in litigation. The Vault 7 Weeping Angel material about a television exploit, because it would need primary sourcing and a 2017 intelligence-agency story used as illustration would be fear-selling in a page whose whole argument is that the ordinary answer is duller than the fear. Any claim about whether ACR ships enabled on units sold in India, because that was not verified and the honest statement is the legal one about what obliges a manufacturer to ask. Exact tap-by-tap menu paths as a primary device, because they vary by model and software version; the page gives the setting names instead, which are more stable and more useful, with the paths implied only for Samsung. Length budgeted at outline time again: prose measured 1,752 words, 2,202 including the FAQ, inside the 2,000 to 3,000 range on the first pass with no trim passes, which is now two posts running. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all six internal links resolving against the export, and all five external citations returning 200. This post carries no tables, so the table-cell check returned null again and the minimum rendered font size was measured directly instead: 17px against a 14px floor, page confirmed loaded at 14,116 characters. Two defects were caught by QA and fixed before publication. Samsung's own documentation was quoted three times in prose with no link to Samsung anywhere, which is the same failure the external-link list caught on 3 November with Apple and Google; both Samsung pages are now linked. And the meta description ran to 160 characters against a target of about 150 to 155, which took two attempts to correct because the first rewrite happened to be exactly the same length as the original.",
-    "revisions": []
+    "revisions": [
+      {
+        "date": "2026-11-06",
+        "change": "Publication date corrected from 2026-11-08 to 2026-11-06, the true date per the git history. The original value was set by assuming each content request arrived on a separate day; all four posts of that run were written and pushed on 2026-11-06. Metadata correction only, so dateModified was deliberately not set."
+      }
+    ]
   },
   {
     "slug": "is-my-phone-listening-to-me",
@@ -200,10 +279,15 @@
       "date": "",
       "approved_version": ""
     },
-    "date_published": "2026-11-07",
+    "date_published": "2026-11-06",
     "date_modified": "",
     "notes": "Created 7 Nov 2026, fifth article of the daily programme. The topic was not on the original queue: it was added on 6 Nov from autocomplete evidence gathered while researching the listening device post, where the seed is someone listening to my conversations came back dominated by Instagram, Google, Alexa, TikTok, Meta and Facebook rather than by planted devices. Sources read in place rather than summarised: the FTC press release of May 2026 and the FTC case page for Matter 242 3029, the full Panoptispy paper PDF from petsymposium.org, extracted locally after WebFetch could not read it, and Samsung India's support page on the green dot. The Panoptispy extraction is worth noting as a success after a run of failures: the scratchpad extractor produced 73KB of readable text from that PDF where the Quectel and ISO documents had defeated it entirely. Deliberately not published, each for a stated reason. The Apple Siri settlement in Lopez v. Apple, 95 million dollars, which would have been a useful counterweight showing assistants do sometimes capture audio after unintended activation, because every account of it reachable was press reporting and no primary document was read; the same point is instead made from first principles about wake word detection, which needs no citation and is more useful to an Indian reader than a United States class action they cannot join. The exact day of the DPDP Rules notification, because sources split between 13 and 14 November 2025, so the article says November 2025 and relies only on the three-tranche structure, which is consistent across every source. Exact iPhone settings paths and Apple's own wording on the orange indicator, because no Apple first-party page could be reached, so the article states only that iPhones show an equivalent indicator and gives verified paths for Android alone, which also matches India's device mix. Length was budgeted at outline time for the first time, following the note added to memory on 6 Nov after four of five pillars overshot: prose measured 1,998 words, 2,510 including the FAQ, 2,654 on the full rendered page, inside the 2,000 to 3,000 range on the first pass with no trim passes needed. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all four internal links resolving against the export, and all five external citations returning 200. This post carries no tables, so the table-cell size check returned null rather than a value; rather than record that as a pass, the minimum rendered font size inside the article body was measured directly at 360px and came back at 17px against a 14px floor, with the page confirmed loaded at 15,773 characters of text.",
-    "revisions": []
+    "revisions": [
+      {
+        "date": "2026-11-06",
+        "change": "Publication date corrected from 2026-11-07 to 2026-11-06, the true date per the git history. The original value was set by assuming each content request arrived on a separate day; all four posts of that run were written and pushed on 2026-11-06. Metadata correction only, so dateModified was deliberately not set."
+      }
+    ]
   },
   {
     "slug": "how-to-find-a-listening-device",

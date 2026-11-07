@@ -454,7 +454,198 @@ const laptopCameraFaqs: Faq[] = [
   },
 ];
 
+const employerMonitoringFaqs: Faq[] = [
+  {
+    q: "Is employee monitoring legal in India?",
+    a: "There is no dedicated employee monitoring statute, and the Digital Personal Data Protection Act, 2023 does not make consent the mechanism. Section 7 sets out certain legitimate uses, which sit alongside consent rather than under it, and clause (i) covers processing for the purposes of employment or those related to safeguarding the employer from loss or liability, giving examples such as guarding against spying by competitors and keeping business secrets confidential. Processing for a purpose outside that is a different question. How the clause applies to a particular arrangement is a matter for a lawyer.",
+  },
+  {
+    q: "Can my employer read my Microsoft Teams messages?",
+    a: "The content exists in a form the organisation can search. Microsoft's current eDiscovery documentation states that messages in one to one chats and group chats are stored in the Exchange Online mailbox of every participant, and that channel messages are stored in the mailbox associated with the team. Chat messages discoverable through those tools include chats with yourself. Whether anyone actually looks is a matter of policy and permissions, not of technical possibility.",
+  },
+  {
+    q: "If I edit or delete a message, is the original gone?",
+    a: "Not necessarily. Microsoft's eDiscovery documentation says that if the user is on hold, previous versions of edited messages are also preserved. A hold is something an organisation applies, usually when litigation or an investigation is anticipated. Editing a message changes what colleagues see in the client. It does not necessarily change what the compliance record holds.",
+  },
+  {
+    q: "Can my employer see my browsing history on a managed device?",
+    a: "Not through device management itself. Microsoft's Intune documentation lists what an organisation can never see, and that list includes calling and web browsing history, email and text messages, contacts, calendar, passwords, pictures including the camera roll, and the content of user-created documents. That is a statement about what the management platform exposes, not about separate monitoring software an employer may also install, or about browsing done through a company network or a company browser profile.",
+  },
+  {
+    q: "Can my employer see my location or my personal apps?",
+    a: "It depends on who owns the device, and Microsoft's documentation draws the line clearly. An organisation can view a lost corporate-owned device's location, and Microsoft states plainly that they cannot view a personal device's location. On app inventory, a corporate-owned device shows all installed apps, while a personal device shows the managed app inventory, which is work and school apps. Microsoft adds that some configurations allow organisations to see more than the managed app inventory on a personal device.",
+  },
+  {
+    q: "How do I tell whether my work laptop is being monitored?",
+    a: "Start from ownership and enrolment rather than from a search for hidden software. Check whether the device is enrolled in management, look at what is installed, and read the acceptable use or IT policy you were given, which is where any monitoring should be described. If a company-owned Windows device is managed, Microsoft documents that the organisation can query details including file paths and file names, registry and event log entries, and details about running processes.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "can-my-employer-monitor-me",
+    title: "Can Your Employer Monitor You? What the Law and the Software Allow",
+    seoTitle: "Can My Employer Monitor Me? India Law and What Is Visible",
+    metaDescription:
+      "In India your employer does not need your consent to process employment data. What device management can and cannot see, and what is discoverable in Teams.",
+    excerpt:
+      "Most advice on this starts with consent. In India that is the wrong starting point, because the data protection law lets an employer process employee data for employment purposes without it. What is actually visible then depends on whose device it is.",
+    date: "2026-11-07",
+    readTime: "11 min read",
+    category: "Corporate Security",
+    coverImage: "/images/blogs/can-my-employer-monitor-me.webp",
+    ogImage: "/images/blogs/can-my-employer-monitor-me.png",
+    coverImageAlt:
+      "Can Your Employer Monitor You guide cover: a company laptop shown lit and legible beside a dimmed personal phone, divided by a line",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "A workplace concern that is not about policy?",
+      text: "If the worry is not ordinary monitoring but a device somebody placed in a room, or a specific person with access they should not have, that is a different question and a physical examination can address it. A private consultation can help you decide whether one is warranted.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me",
+          name: "Can My Employer Monitor Me? India Law and What Is Visible",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/can-my-employer-monitor-me.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#article",
+          headline: "Can Your Employer Monitor You? What the Law and the Software Allow",
+          description:
+            "In India your employer does not need your consent to process employment data. What device management can and cannot see, and what is discoverable in Teams.",
+          datePublished: "2026-11-07",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Workplace monitoring" },
+            { "@type": "Thing", name: "Digital Personal Data Protection Act" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Can My Employer Monitor Me?" },
+          ],
+        },
+        faqJsonLd(employerMonitoringFaqs, "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> In India, consent is not the mechanism. The Digital Personal Data Protection Act, 2023 treats processing for the purposes of employment as a legitimate use that stands alongside consent rather than requiring it. What is actually visible to your employer then turns on a different question entirely: who owns the device.</p>
+      </div>
+
+      <p>Nearly every article on this subject opens by asking whether your employer has your consent. For an Indian employee that is the wrong first question, and starting there produces an answer that is both reassuring and wrong.</p>
+
+      <p>There are really two questions worth separating. What is an employer permitted to do, which is law. And what can the software on a particular device actually see, which is documented by the companies that make it and is more specific than most people expect in both directions. This page takes them in that order.</p>
+
+      <p>One boundary first, because it decides whether this page is the right one. Ordinary workplace monitoring is an organisation applying policy to equipment it owns, at scale, with no interest in you personally. That is what follows. If your concern is a particular individual with access they should not have, or a device somebody placed in a room, that is targeted surveillance, it has different evidence and different answers, and our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office is bugged</a> is the better starting point.</p>
+
+      <h2>In India, consent is not the mechanism</h2>
+      <p>The <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener noreferrer" target="_blank">Digital Personal Data Protection Act, 2023</a> is built around consent, but it does not make consent the only lawful basis. Section 7 sets out what it calls certain legitimate uses, which sit alongside consent rather than beneath it, and one of them is about employment.</p>
+
+      <p>Clause (i) of Section 7 covers processing "for the purposes of employment or those related to safeguarding the employer from loss or liability", and the clause itself gives examples: guarding against spying by competitors, keeping business secrets and sensitive government-classified material confidential, and providing a service or benefit that an employee asks for. Processing on that basis does not run through employee consent at all.</p>
+
+      <p>Two things follow, and they point in opposite directions, which is why this provision is so often reported badly. The first is that an Indian employee asking "but did I agree to this?" is usually asking a question the statute does not turn on. The second is that the clause is tied to stated purposes. It covers employment, and protecting the employer from loss or liability. It is not a general permission to do anything with employee data, and a purpose outside those bounds is a different legal question.</p>
+
+      <p>Worth adding that the detailed notice and consent machinery under the Digital Personal Data Protection Rules, 2025 commences eighteen months after their publication, in May 2027, as our guide to <a href="/blog/is-my-phone-listening-to-me">whether your phone is listening to you</a> sets out. How any of this applies to your own employment is a question for a lawyer, not for a web page.</p>
+
+      <h2>What device management can and cannot see</h2>
+      <p>Here the documentation is unusually precise, and it is worth reading because it contradicts the fears in one direction and the complacency in the other.</p>
+
+      <p>Microsoft publishes a page describing exactly <a href="https://learn.microsoft.com/en-us/intune/user-help/enrollment/data-visibility" rel="noopener noreferrer" target="_blank">what an organisation can see on an enrolled device</a>. It opens with a list headed things your organisation can never see, and that list is: calling and web browsing history, email and text messages, contacts, calendar, passwords, pictures including what is in the photos app or camera roll, and the content of user-created documents.</p>
+
+      <p>That is more protective than most people assume. Now the other direction. For a corporate-owned Windows device, the same page states that the organisation can query hardware and operating system environment information, installed certificate details, file paths and file names, operating system user and group information, registry and event log entries, and details about running processes.</p>
+
+      <p>Read those two lists together and the shape of it appears. Management software is not built to read your messages. It is built to know your machine completely: what is installed, what is running, what files exist and what the system has logged.</p>
+
+      <p><strong>The caveat that matters most.</strong> Everything above describes what the management platform exposes. It says nothing about separate monitoring software an employer may choose to install on a device it owns, which is a different product category with different capabilities. A page documenting what Intune shows is not a guarantee about everything running on your laptop.</p>
+
+      <h2>Whose device is it? The line that actually decides</h2>
+      <p>Almost every practical difference in this subject comes back to ownership, and Microsoft's documentation draws the line explicitly rather than leaving it to inference.</p>
+
+      <p>On location, an organisation can view a lost corporate-owned device's location, and the documentation states plainly that they cannot view a personal device's location. On installed software, a corporate-owned device shows all installed apps, while a personal device shows only the managed app inventory, meaning work and school apps, though Microsoft adds that some configurations allow organisations to see more than that on a personal device. Even the phone number is scoped: the full number on a corporate-owned device, the last four digits on a personal one.</p>
+
+      <p>This is why the single most useful habit in this entire subject is not technical. Keep personal things on personal devices and accounts, and work things on work ones. Not because anyone is necessarily watching, but because that one separation removes most of the questions before they arise.</p>
+
+      <h2>What is discoverable in Teams and Microsoft 365</h2>
+      <p>The messaging question is the one people ask most, and the honest answer is about where the content lives rather than about who is reading it.</p>
+
+      <p>Microsoft's current <a href="https://learn.microsoft.com/en-us/purview/edisc-search-teams" rel="noopener noreferrer" target="_blank">eDiscovery documentation for Teams</a> sets out the storage. Messages in one to one chats are stored in the Exchange Online mailbox of all chat participants. Messages in group chats are stored the same way. All channel messages and posts are stored in the Exchange Online mailbox associated with the team. The content is in the organisation's tenant, in a form its compliance tools can search, whatever the chat window suggests.</p>
+
+      <p>Three details from that page are worth having, because they are the ones that surprise people.</p>
+      <ol>
+        <li><strong>Chats with yourself are included.</strong> Microsoft's list of discoverable chat messages covers content in standard channels, one to one chats, group chats, chats with guests, and chats with yourself. The self-chat people use as a scratchpad is not a private notebook.</li>
+        <li><strong>Editing does not necessarily erase.</strong> The documentation states that if the user is on hold, previous versions of edited messages are also preserved. A hold is applied by the organisation, typically when litigation or an investigation is anticipated. Editing changes what colleagues see. It does not necessarily change the compliance record.</li>
+        <li><strong>Meeting metadata is its own category.</strong> Discoverable meeting metadata includes meeting start and end time and duration, and join and leave events for each participant. Attendance and timing exist as records independently of anything said.</li>
+      </ol>
+      <p>None of this means somebody is reading your messages. Retrieval through these tools is permissioned and, in a well-run organisation, logged and reserved for defined purposes. It means the content is retrievable, which is a different and more durable fact.</p>
+
+      <h2>How to find out what applies to you</h2>
+      <p>Approach this as a question about your own arrangements rather than as a hunt for hidden software, because the answer is usually written down somewhere you have already been given.</p>
+      <ol>
+        <li><strong>Read the acceptable use or IT policy</strong> you were issued, and your employment contract. If monitoring is being done properly it is described there, and that document is the first thing any adviser would ask you for.</li>
+        <li><strong>Establish who owns the device,</strong> because as shown above that single fact changes what is visible.</li>
+        <li><strong>Check whether the device is enrolled in management</strong> and look at what is installed on it. On a managed company Windows machine, assume the organisation can see what is installed and running, because that is what the documentation says it can query.</li>
+        <li><strong>Ask your IT team directly.</strong> Microsoft's own page tells users to contact their IT admin to learn more about what the organisation collects. A reasonable employer can answer that question, and an unwillingness to answer it is itself information.</li>
+      </ol>
+
+      <h2>What this is not</h2>
+      <p>It is worth saying plainly what this page has not been about, because the two situations get confused and the confusion is expensive.</p>
+
+      <p>Ordinary monitoring is systematic, applies to a category of people and equipment, and is boring. The pattern that is not ordinary is a specific person knowing things they have no route to: what was said in a closed room, where you went at the weekend, what you discussed on a personal device. That is a different problem. Our guides to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a>, to <a href="/blog/is-my-laptop-camera-hacked">whether a laptop camera has been hacked</a> and to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> deal with those cases.</p>
+
+      <p>If the concern is the opposite way round, that information is leaving your organisation rather than that your organisation is watching you, our guide to <a href="/blog/corporate-espionage-india">corporate espionage in India</a> is written from that side.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination of a room reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing.</p>
+
+      <p>None of that answers a question about workplace monitoring, and it is worth being direct about why. Management software on a company laptop is not hidden, is not a radio transmitter, and is doing exactly what the organisation configured it to do. There is no unexplained emission to find and nothing concealed to locate. The answer lies in the policy you were given and the configuration of the device, which is a governance and forensics question rather than a sweep of a room. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what an examination does cover.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(employerMonitoringFaqs)}
+    `,
+  },
   {
     slug: "is-my-laptop-camera-hacked",
     title: "Is Someone Watching Through Your Laptop Camera? Start With the Light",
@@ -463,7 +654,7 @@ export const blogPosts: BlogPost[] = [
       "The indicator light is your evidence. Researchers defeated it once, on old hardware. What your laptop promises now, and how to see what is using the camera.",
     excerpt:
       "The indicator light is the only direct evidence most people have. In 2014 researchers disabled it on a class of Mac webcams, from an ordinary application without root privileges. What that proves, what it does not, and what your machine guarantees now.",
-    date: "2026-11-09",
+    date: "2026-11-06",
     readTime: "11 min read",
     category: "TSCM Guides",
     coverImage: "/images/blogs/is-my-laptop-camera-hacked.webp",
@@ -510,7 +701,7 @@ export const blogPosts: BlogPost[] = [
           headline: "Is Someone Watching Through Your Laptop Camera? Start With the Light",
           description:
             "The indicator light is your evidence. Researchers defeated it once, on old hardware. What your laptop promises now, and how to see what is using the camera.",
-          datePublished: "2026-11-09",
+          datePublished: "2026-11-06",
           image: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-laptop-camera-hacked#primaryimage" },
           mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-laptop-camera-hacked#webpage" },
           inLanguage: "en-IN",
@@ -594,7 +785,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>The capability exists, it is sold as ordinary administration software, and the best documented case was not a criminal. The same Johns Hopkins paper records that at the beginning of the 2008 school year the Lower Merion School District issued a MacBook to every enrolled student, preloaded with a remote administration tool that allowed district officials, among other things, to capture images from the webcams. An institution, standard management software, laptops it owned.</p>
 
-      <p>So on a device your employer owns and manages, the honest questions are not technical. They are what software is installed on it, and what you were told. The indicator light applies to management software exactly as it applies to anything else, which means the same evidence is available to you. What the law requires an employer to disclose is a separate subject, and a larger one than this page.</p>
+      <p>So on a device your employer owns and manages, the honest questions are not technical. They are what software is installed on it, and what you were told. The indicator light applies to management software exactly as it applies to anything else, which means the same evidence is available to you. What the law requires an employer to disclose is a separate subject, and our guide to <a href="/blog/can-my-employer-monitor-me">what an employer can actually monitor</a> takes it up, including why consent is not the mechanism in India.</p>
 
       <p>If your concern is that a particular person, rather than an organisation, is watching you through a device you own, the pattern to look at is access rather than capability. Our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a> deals with that case, including why removing software first is usually the wrong move.</p>
 
@@ -634,7 +825,7 @@ ${faqHtml(laptopCameraFaqs)}
       "Your TV is not listening to you. It identifies what is on screen, including from your set-top box. What it collects, and what to switch off today.",
     excerpt:
       "The worry is that the television is listening. What it is actually doing is taking fingerprints of the picture on screen and matching them against a database to identify what you are watching, including whatever arrives through your set-top box.",
-    date: "2026-11-08",
+    date: "2026-11-06",
     readTime: "11 min read",
     category: "TSCM Guides",
     coverImage: "/images/blogs/is-my-smart-tv-spying-on-me.webp",
@@ -681,7 +872,7 @@ ${faqHtml(laptopCameraFaqs)}
           headline: "Is Your Smart TV Spying on You? What It Actually Collects",
           description:
             "Your TV is not listening to you. It identifies what is on screen, including from your set-top box. What it collects, and what to switch off today.",
-          datePublished: "2026-11-08",
+          datePublished: "2026-11-06",
           image: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#primaryimage" },
           mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-smart-tv-spying-on-me#webpage" },
           inLanguage: "en-IN",
@@ -795,7 +986,7 @@ ${faqHtml(smartTvFaqs)}
       "The firm that sold ad targeting from overheard conversations was fined, because it never listened at all. What researchers found instead, and what to check.",
     excerpt:
       "The company that marketed ad targeting based on overheard conversations was fined 930,000 dollars, because the regulator found it had never listened to anything. It was reselling email lists. The real leak researchers found was not the microphone at all.",
-    date: "2026-11-07",
+    date: "2026-11-06",
     readTime: "11 min read",
     category: "TSCM Guides",
     coverImage: "/images/blogs/is-my-phone-listening-to-me.webp",
@@ -842,7 +1033,7 @@ ${faqHtml(smartTvFaqs)}
           headline: "Is Your Phone Listening to You? What the Evidence Actually Shows",
           description:
             "The firm that sold ad targeting from overheard conversations was fined, because it never listened at all. What researchers found instead, and what to check.",
-          datePublished: "2026-11-07",
+          datePublished: "2026-11-06",
           image: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#primaryimage" },
           mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-listening-to-me#webpage" },
           inLanguage: "en-IN",
@@ -2397,6 +2588,7 @@ ${faqHtml(officeBuggedFaqs)}
       <p>The consequence for anyone who finds something is simple. A recovered device is worth what its chain of custody and its hash are worth. That is the real reason not to pull a device apart, hand it around the office or let building staff take it away, and it is a better reason than any assurance about reports.</p>
 
       <h2>Three layers, and what a sweep actually reaches</h2>
+      <p>This page is written from the employer's side, for an organisation protecting its own information. The same arrangements look different from the other end, and our guide to <a href="/blog/can-my-employer-monitor-me">what an employer can actually monitor</a> sets out what an employee can and cannot be seen doing.</p>
       <p>Protection here divides into three layers that behave differently, and being honest about which one a sweep addresses is more useful than claiming it is the foundation of everything.</p>
       <p>The first layer is physical and electronic surveillance of a space: a device placed in a room, a vehicle or a fitting. This is what technical surveillance countermeasures address. It is also the layer where the law is clearest, because unlawful interception of a message is an offence under the Telecommunications Act, 2023, which carries up to three years or a substantial fine, and which came into force in June 2024.</p>
       <p>The second layer is intrusion into systems, where the microphone is already in the room because it belongs to a laptop or a conferencing unit, and the audio leaves inside ordinary encrypted traffic. No radio sweep detects that. Our <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> goes into why that is now the likelier threat in a modern office, and the <a href="/blog/is-someone-monitoring-your-phone">guide to phone monitoring</a> covers the handset version of the same problem.</p>
