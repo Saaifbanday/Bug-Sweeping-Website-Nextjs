@@ -1,5 +1,229 @@
 [
   {
+    "page_type": "concept-spoke",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "who-has-access-to-my-google-account",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account",
+    "primary_keyword": "who has access to my google account",
+    "secondary_keywords": [
+      "see who has access to my google account",
+      "how to know who has access to my google account",
+      "someone has access to my google account",
+      "how to see if someone is logged into your google account",
+      "how to check login history on google account",
+      "google account devices",
+      "google security checkup",
+      "remove device from google account"
+    ],
+    "h2_outline": [
+      "The route Google publishes",
+      "Why one phone appears several times",
+      "The gap a sign-out leaves behind",
+      "What to check, in order",
+      "When the account is the symptom rather than the problem",
+      "What an examination can and cannot establish"
+    ],
+    "structure_pattern": "Built around two misreadings of one screen rather than around a procedure, which is what separates it from every generic account-security listicle. The ordered checklist arrives late and is sequenced so that the account's state is observed before it is disturbed, with recovery details placed above the password change because reversing that order is the common and costly mistake.",
+    "compared_against": [
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/can-my-employer-monitor-me",
+      "/blog/can-someone-read-my-whatsapp-messages"
+    ],
+    "main_device": "two documented properties of the device list, sessions rather than devices, and app access surviving a sign-out, which between them explain both the false alarms and the missed exposures",
+    "information_gain": "Takes the two things Google documents that readers consistently misread. First, the list shows sessions, which Google defines as a period of time during which you are signed in to your account, so several entries for one phone are normal rather than alarming, and the operational consequence is that signing out of one session on a device with several achieves almost nothing. Second, Google's stated scope is devices where you are currently signed in or have been in the last few weeks, which means an absence from the list is not evidence that nothing happened. Names the gap that a session sign-out leaves untouched, which is third-party application access granted separately and surviving every sign-out, and which is the most common blind spot in account hygiene. Sequences the checks so that recovery phone number and email address are reviewed before the password is changed, because somebody who has altered recovery details can recover the account afterwards, and includes mail forwarding, which survives a password change and is invisible in ordinary use. Treats a returning session as a distinct evidential event rather than a repeat of the first one.",
+    "internal_links_out": [
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/can-someone-read-my-whatsapp-messages",
+      "/blog/can-my-employer-monitor-me",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 70 record ledger and the built HTML: the repository had one incidental mention of a Google account and nothing on account access, sessions or security checkup. Demand is strong: who has access to my google account returns ten completions and how to check if someone is logged into my account returns ten more. Distinct from can-my-employer-monitor-me, which is about a managed device rather than a personal account, and from is-someone-monitoring-your-phone, which is about installed software; both are cross-linked. Inbound link added from the employer post.",
+    "notes": "Created 8 Nov 2026. Source read in place: Google's support article on devices with account access. Deliberately not published: the 28 day figure for the device list window, because Google's support article says the last few weeks while a separate Google guidebook says 28 days, and the two could not be reconciled; the page uses Google's own wording from the support article. Also not published: exact menu paths for third-party app access and mail forwarding, because those interfaces change and only the devices route was read at source; the page names what to look for instead. Length: 1,431 words including the FAQ against a concept-spoke range of 900 to 1,400, recorded as a deviation. QA measured: no overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all four internal links resolving and the external citation returning 200."
+  },
+  {
+    "page_type": "concept-spoke",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "is-hotel-and-public-wifi-safe",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe",
+    "primary_keyword": "is hotel wifi safe",
+    "secondary_keywords": [
+      "is public wifi safe",
+      "is hotel wifi safe to use",
+      "is hotel wifi safe with vpn",
+      "is public wifi safe for banking",
+      "is public wifi safe with vpn",
+      "is hotel wifi secure",
+      "do i need a vpn on public wifi",
+      "public wifi risks",
+      "https adoption"
+    ],
+    "h2_outline": [
+      "What the numbers actually say",
+      "What has not been closed",
+      "Where a VPN helps, and where it does not",
+      "What Chrome is about to change",
+      "What to actually do",
+      "What an examination can and cannot establish"
+    ],
+    "structure_pattern": "A risk reassessment rather than a warning or a debunk. It concedes the old advice was right for its time, shows what changed with measured figures, and then narrows to the three exposures that survive, which is a different movement from the correction-shaped posts that precede it. The VPN section is written as a trade rather than a recommendation, which is the part most comparable pages get wrong in one direction or the other.",
+    "compared_against": [
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/unknown-device-on-my-wifi",
+      "/blog/is-my-phone-listening-to-me"
+    ],
+    "main_device": "measured HTTPS adoption figures set against the vendor's own warning that an attacker needs only a single insecure navigation",
+    "information_gain": "Uses Google's October 2025 account of HTTPS by default for figures rather than impressions: limited to public sites, Windows increases from 95 to 98 per cent HTTPS, both Android and Mac increase to over 99 per cent, and Linux jumps from 84 to nearly 97 per cent. Then refuses the comfortable conclusion by quoting Google against itself: since attackers only need a single insecure navigation, and many plaintext HTTP connections today are entirely invisible to users because redirects conceal them. Identifies the three exposures that survive, which are the remaining insecure sites, captive portals that intercept the first connection and train people to click through warnings, and simply being on a shared local network, for which Google's own line is that insecure traffic to private sites can only be abused by an attacker also on your local network. Carries the imminent change: in Chrome 154, in October 2026, Always Use Secure Connections turns on by default for public sites, with Chrome 147 in April 2026 enabling it for Enhanced Safe Browsing users. Treats the VPN as moving the trust to the provider rather than removing the risk, and says plainly that it does not make an insecure site secure.",
+    "internal_links_out": [
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/unknown-device-on-my-wifi",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 70 record ledger and the built HTML: nothing on the site addressed network safety on a connection the reader does not control, the nearest material being why Wi-Fi scanning fails to find cameras in a hotel, which is a different question. Demand is strong: is public wifi safe returns ten completions and is hotel wifi safe returns nine, with the VPN and banking variants prominent in both. Adjacent to the 8 Nov unknown device post, which covers the network the reader does control; the two are cross-linked and their arguments do not overlap. Inbound link added from that post.",
+    "notes": "Created 8 Nov 2026. Source read in place: Google's HTTPS by default post, reached after the security.googleblog.com URL redirected to blog.google. Deliberately not published: a single headline HTTPS percentage, because Google's own figures differ by platform and by whether private sites are excluded, and quoting one number would misrepresent the measurement; the page gives the platform breakdown instead. Also not published: any claim about specific VPN providers, and any figure for how often attacks on public networks actually occur, for which no verified source was found. Length: 1,572 words including the FAQ against a concept-spoke range of 900 to 1,400, recorded as a deviation. QA measured: no overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all three internal links resolving and the external citation returning 200."
+  },
+  {
+    "page_type": "concept-spoke",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "can-someone-read-my-whatsapp-messages",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages",
+    "primary_keyword": "can someone read my whatsapp messages",
+    "secondary_keywords": [
+      "can someone read my whatsapp messages from another phone",
+      "can someone read my whatsapp messages by scanning qr code",
+      "can someone read my whatsapp messages without me knowing",
+      "can someone read my whatsapp messages remotely",
+      "how to see devices logged into my whatsapp",
+      "how to check devices logged in on whatsapp",
+      "whatsapp linked devices",
+      "whatsapp security"
+    ],
+    "h2_outline": [
+      "How linked devices actually work",
+      "The 14 day rule that works in your favour",
+      "The screen to open",
+      "The other copy of your messages",
+      "If the suspicion is about a specific person",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Narrows a broad fear to one mechanism and then to one screen, which is the opposite of the survey shape most articles on this use. Clears the encryption question out of the way early precisely because it is the answer people reach for and the wrong one, then treats the endpoint as the whole subject. Ends on sequencing rather than on a checklist, because for the reader most likely to be here the order of actions matters more than the actions.",
+    "compared_against": [
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/who-has-access-to-my-google-account",
+      "/blog/is-my-phone-tapped"
+    ],
+    "main_device": "the linked-device mechanism treated as the whole answer, with its four device limit and its 14 day expiry as the two facts that bound the risk",
+    "information_gain": "Replaces the encryption framing with the endpoint framing and then gives the mechanism precisely. WhatsApp's own guidance states that a primary phone can link up to four companion devices, and that you must log in on the primary phone at least every 14 days to keep linked devices connected. That second fact is the one almost no coverage carries and it cuts both ways: a covertly linked device has a built-in expiry, and an empty list today says nothing about a device linked two months ago. Establishes that linking is physical by design, requiring a code scanned on the user's own open handset, so the threat model is somebody who had the phone in their hands for about a minute rather than anything remote. Adds the check that converts suspicion into evidence, which is to look at the Linked Devices screen again a week after removing an entry, because a returning entry proves continuing access in a way a single reading cannot. Names the backup as a second copy governed by a different account entirely.",
+    "internal_links_out": [
+      "/blog/who-has-access-to-my-google-account",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 70 record ledger and the built HTML. WhatsApp appeared 19 times in the repository and every one was the consultation CTA label; there was zero WhatsApp content. Demand is large and specific: can someone read my whatsapp messages returns ten completions including from another phone, by scanning qr code, remotely and without me knowing, and how to see devices logged into my whatsapp returns six. Distinct from is-someone-monitoring-your-phone, which covers software installed on a handset rather than an account feature working as designed. That post now links here. Inbound link added from it at the point where it turns to defensive steps.",
+    "notes": "Created 8 Nov 2026. Source read in place: WhatsApp's own help page on linked devices. Deliberately not published: WhatsApp's statement on end-to-end encryption for companion devices specifically, because the help pages reached were truncated and only the four device and 14 day facts could be read; the page therefore states the encryption position generally and does not attribute a specific claim about linked devices to WhatsApp. Also not published: any count of how many devices a typical account has linked, for which no figure exists. Length: 1,469 words including the FAQ against a concept-spoke range of 900 to 1,400, recorded as a deviation. QA measured: no overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible, all three internal links resolving and the external citation returning 200. Two defects caught by QA. The banned-phrase check failed on unlocked, used literally of a phone that is not locked, which took two passes to clear because the same idea appeared in six places with different wording. And the post quoted WhatsApp's figures with no link to WhatsApp, the same uncited-authority pattern caught on the phone tapping post in the same batch."
+  },
+  {
+    "page_type": "concept-spoke",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "is-my-phone-tapped",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped",
+    "primary_keyword": "is my phone tapped",
+    "secondary_keywords": [
+      "how to check if my phone is tapped",
+      "how to check if my phone is tapped by police",
+      "how to check if my phone is tapped or hacked",
+      "how to tell if my phone is tapped",
+      "phone tapping law india",
+      "lawful interception india",
+      "who can authorise phone tapping india",
+      "telecommunications interception rules 2024",
+      "section 20 telecommunications act"
+    ],
+    "h2_outline": [
+      "Who can authorise it",
+      "How long it can last",
+      "Who checks that it was lawful",
+      "What happens to the recordings",
+      "Why none of this is detectable from your phone",
+      "The problem you probably do have",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Answers a detection question by showing that detection is structurally impossible, then spends its length on the framework the reader can actually know. The page is organised as the life cycle of an interception order, authorisation, duration, review, destruction, which is a shape none of the other posts use, and it closes by redirecting the reader to the problem they are more likely to have.",
+    "compared_against": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-to-find-a-listening-device"
+    ],
+    "main_device": "the life cycle of a lawful interception order, from the Home Secretary's signature to the destruction timetable, used to show there is nothing on the handset to find",
+    "information_gain": "Reads the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024 and reports their specifics rather than gesturing at them. The competent authority under rule 2(1)(c) is the Union Home Secretary for the Centre and the Secretary in charge of the Home Department for a State. Under rule 3(8)(c) an order remains in force, unless revoked earlier, for a period not exceeding sixty days and may be renewed, but no order may remain in force beyond a total of 180 days. Rule 3(5) requires every order to go to a review committee within seven working days. Under rule 5 the Central committee is chaired by the Cabinet Secretary with the Secretaries of Legal Affairs and Telecommunications, the State committee by the Chief Secretary with the Law Secretary or Legal Remembrancer and a Secretary other than the Home Secretary, and it meets every two months. Rule 5(4) lets it set aside a non-compliant order and direct destruction of the copies. Rule 4(8) requires the authorised agency, competent authority and review committee to destroy records every six months, and the Department of Telecommunications and telecom entities to do so within two months of discontinuation. The architectural conclusion is the one the page leads with: the interception happens at the operator, nothing is installed on the handset, so no app, code or symptom can reveal it and nobody can sell a detection service for it.",
+    "internal_links_out": [
+      "/blog/signs-your-office-is-bugged",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/corporate-espionage-india",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, taken as queue item 1. Rule 0 run against the 70 record ledger and the built HTML. The gap was identified from the inside on 6 Nov, when a drafted FAQ on police use of listening devices was deleted because the lawful interception framework had never been read at source. signs-your-office-is-bugged names the Act, the 2024 Rules and the renewal requirement in a single sentence, used there to say the machinery does not touch an office; it does not set out who authorises, for how long, who reviews or what happens to the material. That post now links here. Demand confirmed: how to check if my phone is tapped returns ten completions and the by police variant is the one nothing on the site answered.",
+    "notes": "Created 8 Nov 2026. Source read in place: a full reproduction of the Rules with rule numbering, after the India Code PDF returned 403 as it has all week. Deliberately not published: the urgent-cases provision, which the page mentions exists without detailing it because the reproduction did not set it out completely; and any claim about how often interception is used in India, for which no verified figure was found. Length: 1,590 words including the FAQ against a concept-spoke range of 900 to 1,400, recorded as a deviation rather than trimmed, because the extra length is the rule-by-rule specifics that are the entire value of the page. QA measured: no overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible, all five internal links resolving and the external citation returning 200. One defect caught by QA: the post cited the Act and the Rules throughout with no external link anywhere, the fourth time the external-link list has caught an uncited authority; the Act is now linked to the Department of Telecommunications page. The meta description also ran to 162 characters and was rewritten to 158."
+  },
+  {
     "slug": "unknown-device-on-my-wifi",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi",
     "page_type": "concept-pillar",

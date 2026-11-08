@@ -535,7 +535,674 @@ const wifiDeviceFaqs: Faq[] = [
   },
 ];
 
+const phoneTappedFaqs: Faq[] = [
+  {
+    q: "How can I tell if my phone is tapped?",
+    a: "Not from the handset, and that is the honest answer nobody sells. A lawful interception in India happens at the telecom operator, not on your device, so there is nothing on the phone to find and no code to dial that reveals it. Unlawful interception of your conversations almost always means software installed on the device instead, which is a different problem with different evidence. The folklore signs, clicks, static, a warm battery, were debunked decades ago.",
+  },
+  {
+    q: "Who can authorise a phone tap in India?",
+    a: "Under the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024, the competent authority is the Union Home Secretary for the Centre and the Secretary in charge of the Home Department for a State. It is not a police officer's decision, not a court order in the ordinary sense, and not something a telecom operator can do on request.",
+  },
+  {
+    q: "How long can an interception order last?",
+    a: "Each order stays in force, unless revoked earlier, for a period not exceeding sixty days, and it can be renewed. The Rules set an outer limit: no order may remain in force beyond a total of 180 days. That ceiling is one of the most useful things to know, because it means lawful interception is time-bound by design rather than open-ended.",
+  },
+  {
+    q: "Is anyone checking that these orders are lawful?",
+    a: "Yes, and the machinery is specified. Every order must go to a review committee within seven working days. At the Centre that committee is chaired by the Cabinet Secretary with the Secretaries of Legal Affairs and Telecommunications; in a State it is chaired by the Chief Secretary. The committee meets every two months, and if it finds an order does not comply with section 20 it may set aside the order and direct destruction of the copies of the intercepted messages.",
+  },
+  {
+    q: "What happens to the recordings afterwards?",
+    a: "The Rules impose destruction timetables rather than leaving it open. Records held by the authorised agency, the competent authority and the review committee are to be destroyed every six months, unless they are or are likely to be required for functional requirements or under court directions. The Department of Telecommunications and the telecom entities involved must destroy their records within two months of the interception order being discontinued.",
+  },
+  {
+    q: "Does *#21# or any similar code show whether my phone is tapped?",
+    a: "No. Those codes report call forwarding settings, which is a different thing entirely and tells you nothing about interception. Our guide to the signs an office is bugged takes that particular myth apart along with the clicks and static that people have reported for decades.",
+  },
+];
+
+const whatsappFaqs: Faq[] = [
+  {
+    q: "Can someone read my WhatsApp messages from another phone?",
+    a: "The realistic route is linked devices rather than interception. WhatsApp lets you link up to four companion devices to one account, and a linked device then receives your messages. Linking requires somebody to scan a QR code on your phone while it is open and in your hands, which is why the risk here is physical access to your handset rather than anything remote. The Linked Devices screen in WhatsApp lists what is currently linked, and anything there can be logged out.",
+  },
+  {
+    q: "How do I see which devices are logged into my WhatsApp?",
+    a: "Open WhatsApp, go to Settings and then Linked Devices. The screen lists every companion device currently linked to your account, along with when it was last active. Anything you do not recognise can be logged out from that same screen, which takes effect immediately. Checking this periodically is the single most useful habit for this particular worry.",
+  },
+  {
+    q: "Does a linked device stay connected forever?",
+    a: "No, and this is a useful property. WhatsApp requires you to log in on your primary phone at least every 14 days to keep linked devices connected. A companion device that somebody linked without your knowledge therefore has a built-in expiry, and it will drop off if your primary phone stops checking in. It also means a device linked a month ago and never used since may already be gone.",
+  },
+  {
+    q: "Can someone read my WhatsApp by scanning a QR code?",
+    a: "That is exactly how linking works, which is why the QR code screen deserves respect. The code has to be scanned by a device while your own phone is open and showing the linking screen, so the scenario is somebody with your handset in their hands for a minute, not somebody at a distance. The defence is the same as for most phone-based surveillance: a lock screen nobody else can open, and knowing who has had the device.",
+  },
+  {
+    q: "Is WhatsApp itself reading or handing over my messages?",
+    a: "Message content on WhatsApp is end-to-end encrypted, which is a different protection from the one most people are asking about. It means the content is not readable in transit. It does not protect against somebody who has access to one of the endpoints, which is to say your own phone in somebody else's hands, or a device you have linked. Almost every real case is about an endpoint rather than about the encryption.",
+  },
+  {
+    q: "What about my WhatsApp backup?",
+    a: "A backup is a separate copy living in a cloud account rather than on the phone, so whoever controls that cloud account is a separate consideration from whoever controls WhatsApp. If you are working through who can reach your messages, the account holding the backup belongs on the same list, and our guide to checking who has access to your Google account covers how to audit one of them.",
+  },
+];
+
+const publicWifiFaqs: Faq[] = [
+  {
+    q: "Is hotel Wi-Fi safe to use?",
+    a: "Far safer than the standard advice assumes, because the threat that advice was written for has largely been closed. Google reports that when the analysis is limited to public sites, HTTPS adoption reaches 98 per cent on Windows and over 99 per cent on Android and Mac. Encrypted traffic cannot be read by somebody else on the same network. The residual risk is the small fraction that is not encrypted, and Google's own framing is the useful one: an attacker only needs a single insecure navigation.",
+  },
+  {
+    q: "Do I need a VPN on public Wi-Fi?",
+    a: "A VPN moves the trust rather than removing the risk, and that is the honest way to think about it. It stops the local network and its operator from seeing where you connect, which is a genuine benefit. It does not make an insecure site secure, and it hands the same visibility to the VPN provider instead. If you would not trust the hotel with that information, the question becomes whether you trust the VPN company more, which is a real question rather than a rhetorical one.",
+  },
+  {
+    q: "What actually changed to make public Wi-Fi less dangerous?",
+    a: "Encryption became the default on the web. The classic warning described an attacker on the same network reading your traffic, and that depended on traffic being readable. With HTTPS now covering almost all public browsing, the content and the specific pages are no longer visible to somebody sitting in the same cafe. Chrome is going further: in Chrome 154, in October 2026, the Always Use Secure Connections setting turns on by default for public sites, warning users before a first insecure connection.",
+  },
+  {
+    q: "What is still actually risky on a shared network?",
+    a: "Three things rather than the general sense of danger. The sites that are still plain HTTP, which Google notes are often invisible to the user because redirects hide them. Captive portal pages, which deliberately intercept your first connection and train people to accept warnings. And other devices on the same network, which matters because being on somebody's local network is precisely the position that lets an attacker exploit insecure local traffic.",
+  },
+  {
+    q: "Is it safe to do banking on hotel Wi-Fi?",
+    a: "Banking is among the better-protected things you can do, because banks were early and thorough on encryption and add their own authentication on top. The ordinary advice to avoid it on public networks is a holdover from the era this page describes. If you want a rule that is simple and still correct, use mobile data for anything you would be unwilling to redo, and do not dismiss a certificate warning on any network, ever.",
+  },
+  {
+    q: "Should I worry about the hotel itself watching my traffic?",
+    a: "The network operator sees which servers you connect to, even when it cannot read the content, and that metadata is real. This is the one place a VPN genuinely helps. It is also a different concern from the one most people have in a hotel room, and if the worry is the room rather than the network, our guide to hidden cameras in hotels and paying guest accommodation is the better page.",
+  },
+];
+
+const googleAccessFaqs: Faq[] = [
+  {
+    q: "How do I see who has access to my Google account?",
+    a: "Google publishes the route. Open your Google Account, go to Security and sign-in, and in the Your devices panel choose Manage all devices. Google says the list shows devices where you are currently signed in or have been in the last few weeks. Read every entry rather than scanning for something alarming, because a device you set up yourself and forgot looks exactly like one you did not.",
+  },
+  {
+    q: "Why does one device appear several times in the list?",
+    a: "Because Google lists sessions rather than only devices. Google describes a session as a period of time during which you are signed in to your account, and several sessions on a single device are normal rather than suspicious. The practical consequence is that if you decide to sign a device out, and it shows multiple sessions, you need to sign out of all of them rather than just the first.",
+  },
+  {
+    q: "I signed a device out and it came back. What does that mean?",
+    a: "It means whoever is using it still has a way in, and that is more informative than the original entry was. A session that returns after being removed points at either a saved password somebody else holds or continuing physical access to a device. At that point the useful step is changing the password and reviewing two-step verification rather than signing the session out again.",
+  },
+  {
+    q: "Does signing a device out remove an app's access as well?",
+    a: "No, and this is the gap most people miss. Third-party applications and services that you connected to your account hold their own access, granted separately, and a session sign-out does not revoke it. Those connections are listed in the same security settings under third-party access and need reviewing on their own terms, because an old app you no longer use may still be able to reach your data.",
+  },
+  {
+    q: "What should I check first if I think somebody is in my account?",
+    a: "In this order: the device and session list, recent security activity, the account recovery phone number and email address, and anything forwarding your mail onward. Recovery details matter most, because somebody who has changed them can take the account back after you remove them. Do all of it from a device you believe is clean, and change the password before you finish rather than after.",
+  },
+  {
+    q: "Is this the same problem as spyware on my phone?",
+    a: "No, and the difference decides what you should do. Account access means somebody has your credentials or a live session, and it is fixed in the account's own settings. Software installed on a device is a different problem with different evidence, and removing it first can be the wrong move. Our guide to phone monitoring and stalkerware deals with that case.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "who-has-access-to-my-google-account",
+    title: "Who Has Access to Your Google Account? How to Check Properly",
+    seoTitle: "Who Has Access to My Google Account? How to Check",
+    metaDescription: "Google lists sessions, not just devices, and signing one out does not revoke app access. The route Google publishes, and the four things to check in order.",
+    excerpt: "The device list is the place to look, and it is easy to misread. Google lists sessions rather than devices, multiple entries for one phone are normal, and signing a device out leaves third-party app access untouched.",
+    date: "2026-11-08",
+    readTime: "10 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/who-has-access-to-my-google-account.webp",
+    ogImage: "/images/blogs/who-has-access-to-my-google-account.png",
+    coverImageAlt: "Who Has Access to Your Google Account guide cover: a list of session entries beside an account key, with one entry marked in red",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Think the access started with the device rather than the account?",
+      text: "If somebody has had physical access to your phone or your home, the account is one symptom rather than the whole problem. A private consultation can help you work out what can realistically be established, and in what order.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account",
+          name: "Who Has Access to My Google Account? How to Check",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/who-has-access-to-my-google-account.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#article",
+          headline: "Who Has Access to Your Google Account? How to Check Properly",
+          description: "Google lists sessions, not just devices, and signing one out does not revoke app access. The route Google publishes, and the four things to check in order.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Who Has Access to My Google Account?" },
+          ],
+        },
+        faqJsonLd(googleAccessFaqs, "https://www.bugsweepingtscm.com/blog/who-has-access-to-my-google-account#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Open your Google Account, go to Security and sign-in, and under Your devices choose Manage all devices. Google shows devices signed in now or in the last few weeks. Two things catch people out: the list shows sessions rather than devices, so repeats are normal, and signing a device out does not revoke third-party app access.</p>
+      </div>
+
+      <p>An email account is the most consequential thing most people own online, because it is the reset route for everything else. Somebody with access to it does not need access to anything else; they can obtain it. That is why this check is worth doing carefully rather than quickly.</p>
+
+      <p>It is also worth doing calmly. The overwhelming majority of unfamiliar entries in these lists turn out to be the reader's own devices, an old phone, a browser on a work computer, a tablet somebody in the house uses. The point of the exercise is to account for every entry positively, not to find something frightening.</p>
+
+      <h2>The route Google publishes</h2>
+      <p>Google documents this rather than leaving it to be discovered, and the steps are short. In its guidance on <a href="https://support.google.com/accounts/answer/3067630?hl=en" rel="noopener noreferrer" target="_blank">devices with account access</a>, the route is: open your Google Account, go to "Security & sign-in", and in the "Your devices" panel select "Manage all devices".</p>
+
+      <p>What you get is described precisely: "You'll see devices where you're currently signed in to your Google Account or have been in the last few weeks." That window matters. An absence from this list is not proof that nothing happened, only that nothing has happened recently.</p>
+
+      <h2>Why one phone appears several times</h2>
+      <p>This is the detail that generates most of the false alarms, and Google explains it plainly without most people reading that far.</p>
+
+      <p>The list shows sessions, not only devices. A session, in Google's words, is "a period of time during which you're signed in to our Google Account", and several sessions on one device are entirely normal. A phone that has signed in through different apps, or over time, can therefore occupy several rows.</p>
+
+      <p>It has a practical consequence worth holding on to: if you decide to remove a device and it shows multiple sessions, signing out of one achieves very little. Google's own instruction is that where a device name shows several sessions, you sign out of all of them.</p>
+
+      <h2>The gap a sign-out leaves behind</h2>
+      <p>Removing a session ends that sign-in. It does not touch a second kind of access that sits alongside it and is far easier to forget.</p>
+
+      <p>Third-party applications and services that you have connected to your account hold permissions granted separately from any sign-in. An app you authorised years ago and have not opened since may still be able to reach your mail, your files or your calendar, and no amount of signing devices out will change that. Those connections live in the same security settings and have to be reviewed on their own terms.</p>
+
+      <p>This is the single most common blind spot in account hygiene, and it is the reason a reader who has already "checked their devices" may still have an open door.</p>
+
+      <h2>What to check, in order</h2>
+      <p>Do this from a device you believe is clean, not from the one you are suspicious about.</p>
+      <ol>
+        <li><strong>The device and session list,</strong> accounting for every entry rather than looking for an obvious intruder.</li>
+        <li><strong>Recent security activity,</strong> which records events such as sign-ins and password changes and is often more informative than the device list on its own.</li>
+        <li><strong>Recovery phone number and email address.</strong> This is the step people skip and it matters most. Somebody who has changed the recovery details can take the account back after you have removed them, so a password change alone does not settle it.</li>
+        <li><strong>Anything forwarding your mail onward,</strong> including filters that quietly send copies elsewhere. Forwarding survives a password change and is invisible in ordinary use.</li>
+        <li><strong>Third-party app access,</strong> as described above.</li>
+        <li><strong>Then change the password and review two-step verification.</strong> Doing it in this order means you have seen the state of the account before disturbing it.</li>
+      </ol>
+
+      <h2>When the account is the symptom rather than the problem</h2>
+      <p>If you remove a session and it returns, the information has changed, and it is worth stopping to notice that rather than simply removing it again.</p>
+
+      <p>A session that comes back means a live route in: somebody holding the password, or continuing physical access to a device that is signed in. The same is true if recovery details change back, or if forwarding reappears. At that point the question is no longer about the account. It is about who has had your devices or your credentials.</p>
+
+      <p>If the person you suspect is someone close to you, sequence matters more than speed, because removing their access is visible to them. Our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a> sets out why acting in the wrong order can make things worse, and our guide to <a href="/blog/can-someone-read-my-whatsapp-messages">whether someone can read your WhatsApp messages</a> covers the linked-device version of the same problem.</p>
+
+      <p>Where the access came from an employer's equipment rather than an individual, that is a different relationship again, and our guide to <a href="/blog/can-my-employer-monitor-me">what an employer can actually monitor</a> covers it.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing.</p>
+
+      <p>None of that reaches an account question, and it is worth saying so before anybody spends money in the wrong place. Who is signed into your email is answered in the account's own settings, in the list Google publishes, in about ten minutes. A sweep of a room cannot tell you anything about it. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what an examination does cover, and this sits outside it.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(googleAccessFaqs)}
+    `,
+  },
+  {
+    slug: "is-hotel-and-public-wifi-safe",
+    title: "Is Hotel and Public Wi-Fi Still Dangerous? What Actually Changed",
+    seoTitle: "Is Hotel and Public Wi-Fi Safe? What Actually Changed",
+    metaDescription: "The warning was written for an era of readable traffic. HTTPS now covers almost all public browsing. What that closed, what it did not, and where a VPN helps.",
+    excerpt: "The advice to avoid public Wi-Fi was built on a threat that encryption has largely closed. Google reports HTTPS above 99 per cent on some platforms. What remains is narrower, stranger and worth knowing precisely.",
+    date: "2026-11-08",
+    readTime: "10 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/is-hotel-and-public-wifi-safe.webp",
+    ogImage: "/images/blogs/is-hotel-and-public-wifi-safe.png",
+    coverImageAlt: "Is Hotel and Public Wi-Fi Safe guide cover: a shared network with most connections drawn as sealed locked links and one left open in red",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about the room rather than the network?",
+      text: "A hotel network and a hotel room are different problems. If the concern is a device in the room, a physical examination is the right instrument, and a private consultation can help you decide whether one is warranted.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe",
+          name: "Is Hotel and Public Wi-Fi Safe? What Actually Changed",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-hotel-and-public-wifi-safe.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#article",
+          headline: "Is Hotel and Public Wi-Fi Still Dangerous? What Actually Changed",
+          description: "The warning was written for an era of readable traffic. HTTPS now covers almost all public browsing. What that closed, what it did not, and where a VPN helps.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is Hotel and Public Wi-Fi Safe?" },
+          ],
+        },
+        faqJsonLd(publicWifiFaqs, "https://www.bugsweepingtscm.com/blog/is-hotel-and-public-wifi-safe#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Much less dangerous than the advice suggests, because the advice was written for a web where traffic could be read. Google reports HTTPS adoption at 98 per cent on Windows and above 99 per cent on Android and Mac for public sites. What remains is a narrow and specific set of risks, and a VPN addresses only one of them.</p>
+      </div>
+
+      <p>The standard warning about public Wi-Fi is one of the most repeated pieces of security advice in existence, and it describes a world that has largely gone. It was written when a person sitting in the same cafe could watch your traffic go past in readable form, because most of it was readable.</p>
+
+      <p>That changed, and it changed almost completely. Understanding what replaced it is more useful than either the old fear or the breezy dismissal that has started to replace it, because the risks that remain are specific and are not the ones people guard against.</p>
+
+      <h2>What the numbers actually say</h2>
+      <p>Google publishes measurements of how much browsing happens over encrypted connections, and in <a href="https://blog.google/security/https-by-defau/" rel="noopener noreferrer" target="_blank">its October 2025 account of HTTPS by default</a> it gives figures by platform.</p>
+
+      <p>Limiting the analysis to public sites, Windows "increases from 95% to 98% HTTPS", while "both Android and Mac increase to over 99% HTTPS". Linux "jumps from 84% HTTPS to nearly 97% HTTPS" under the same measure. Once private sites such as local addresses are excluded, in Google's words, "the distribution becomes much tighter across platforms".</p>
+
+      <p>Encrypted traffic cannot be read by somebody else on the same network. So the classic scenario, a stranger in the lobby reading your messages and seeing your passwords, is not a description of what happens on a modern network with modern sites. It is a description of 2012.</p>
+
+      <h2>What has not been closed</h2>
+      <p>Google's own framing of the remaining gap is the most useful sentence on the subject, and it is not reassuring: "Since attackers only need a single insecure navigation."</p>
+
+      <p>That reframes the percentage. Ninety-nine per cent coverage is not ninety-nine per cent safety if one unencrypted request is enough, and the company adds that "many plaintext HTTP connections today are entirely invisible to users", because a site that loads over HTTP and then redirects leaves no trace the user would notice.</p>
+
+      <p>Three specific exposures follow, and they are worth separating from the general sense of danger.</p>
+      <ol>
+        <li><strong>The remaining insecure sites,</strong> which you cannot reliably identify in advance because redirects conceal them.</li>
+        <li><strong>Captive portals,</strong> the sign-in pages hotels and airports put in front of their networks. These work by intercepting your first connection, which is the same behaviour an attacker would produce, and they routinely teach people to click through security warnings in order to get online.</li>
+        <li><strong>Being on a shared local network at all.</strong> Google notes that insecure traffic to private sites "can only be abused by an attacker also on your local network". On a hotel or cafe network, that describes everybody else connected to it.</li>
+      </ol>
+
+      <h2>Where a VPN helps, and where it does not</h2>
+      <p>A VPN is the standard recommendation here and it is worth being precise about what it does, because the usual framing oversells it in one direction and dismisses it in another.</p>
+
+      <p>What it does: it hides which servers you are connecting to from the local network and whoever operates it. That metadata is real and the hotel can otherwise see it, even when the content is encrypted. If that is your concern, a VPN addresses it directly.</p>
+
+      <p>What it does not do: it does not make an insecure site secure. Traffic to a plain HTTP site is still plain HTTP at the far end of the tunnel. And it moves the visibility rather than removing it, because the VPN provider now occupies the position the hotel did. That is a real trade rather than a rhetorical point: the question is whether you trust that company more than the network you are on, and for a reputable provider against an unknown cafe the answer may well be yes.</p>
+
+      <h2>What Chrome is about to change</h2>
+      <p>The remaining gap is being closed by the browsers rather than by user behaviour, and the timing is immediate.</p>
+
+      <p>Google has said that in Chrome 154, in October 2026, the "Always Use Secure Connections" setting turns on by default in its public-sites form, warning users before a first insecure connection to a public site. An earlier release, Chrome 147 in April 2026, enabled it for users on Enhanced Safe Browsing.</p>
+
+      <p>The practical effect for anyone reading this is that the warning you have been told to watch for is becoming something the browser does for you. Which makes one old piece of advice more important rather than less: when a browser does warn you about a connection, that warning now means considerably more than it used to.</p>
+
+      <h2>What to actually do</h2>
+      <p>Short, and in order of how much it buys you.</p>
+      <ol>
+        <li><strong>Never dismiss a certificate or connection warning,</strong> on any network. This is the single highest-value habit and it costs nothing.</li>
+        <li><strong>Use mobile data for anything you would be unwilling to redo.</strong> Not because the Wi-Fi will definitely betray you, but because the cost of the rule is almost zero.</li>
+        <li><strong>Treat the captive portal page as untrusted.</strong> Sign in, do not enter anything beyond what it requires, and never accept a warning to get through it.</li>
+        <li><strong>Use a VPN if the network operator seeing your destinations matters to you,</strong> and choose the provider as carefully as you would choose who else gets that list.</li>
+      </ol>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing.</p>
+
+      <p>None of that addresses a network question, and the distinction matters when deciding what to spend money on. Whether a hotel network is trustworthy is answered by how your traffic is protected, not by sweeping a room. The room is a separate question, and a real one: our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotels and paying guest accommodation</a> covers what is worth checking there, and our guide to <a href="/blog/unknown-device-on-my-wifi">an unknown device on your Wi-Fi</a> deals with the network you do control. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what an examination covers.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(publicWifiFaqs)}
+    `,
+  },
+  {
+    slug: "can-someone-read-my-whatsapp-messages",
+    title: "Can Someone Read Your WhatsApp Messages? Check the Linked Devices",
+    seoTitle: "Can Someone Read My WhatsApp Messages? What to Check",
+    metaDescription: "The realistic route is a linked device, not interception. How linking works, the 14 day rule that limits it, and the one screen that shows you everything.",
+    excerpt: "Almost every real case comes down to one screen most people have never opened. WhatsApp allows four linked devices, linking needs your own phone in somebody's hands for a minute, and a linked device expires if your phone stops checking in.",
+    date: "2026-11-08",
+    readTime: "10 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/can-someone-read-my-whatsapp-messages.webp",
+    ogImage: "/images/blogs/can-someone-read-my-whatsapp-messages.png",
+    coverImageAlt: "Can Someone Read Your WhatsApp Messages guide cover: a phone with four linked device slots beside it, one of them marked in red",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Think the access is wider than one app?",
+      text: "If somebody has had your phone, the question is rarely limited to one application. A private consultation can help you work out what can realistically be established, and in what order. Please get in touch from a device the other person has never had access to.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages",
+          name: "Can Someone Read My WhatsApp Messages? What to Check",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/can-someone-read-my-whatsapp-messages.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#article",
+          headline: "Can Someone Read Your WhatsApp Messages? Check the Linked Devices",
+          description: "The realistic route is a linked device, not interception. How linking works, the 14 day rule that limits it, and the one screen that shows you everything.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Can Someone Read My WhatsApp Messages? What to Check" },
+          ],
+        },
+        faqJsonLd(whatsappFaqs, "https://www.bugsweepingtscm.com/blog/can-someone-read-my-whatsapp-messages#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Almost certainly through a linked device rather than anything remote. WhatsApp allows up to four companion devices, linking requires somebody to scan a code on your own open phone, and the Linked Devices screen lists every one of them. Open it, and log out anything you do not recognise.</p>
+      </div>
+
+      <p>This worry usually arrives with a specific suspicion attached: a particular person seems to know what was said in a conversation they were not part of. The useful thing about that version of the question is that it has a short list of possible answers, and one of them accounts for most real cases.</p>
+
+      <p>It is worth clearing away the answer people reach for first. WhatsApp message content is end-to-end encrypted, which means it is not readable in transit between devices. That is a real protection and it is also not the protection most people are actually asking about, because the common failure is not somebody intercepting your messages on the way. It is somebody who has access to one end of the conversation.</p>
+
+      <p>An endpoint means your own phone in somebody else’s hands, or a device that your account has been linked to. That second one is the mechanism worth understanding, because it is designed to be invisible in normal use.</p>
+
+      <h2>How linked devices actually work</h2>
+      <p>WhatsApp supports companion devices: a computer, a tablet, a second phone, which receive and send your messages alongside your main handset. <a href="https://faq.whatsapp.com/1317564962315842?lang=en" rel="noopener noreferrer" target="_blank">WhatsApp's own guidance</a> says your primary phone can link up to four of them.</p>
+
+      <p>Linking is deliberately physical. A code is displayed on the device that wants to join, and it has to be scanned using your own phone, already open, from inside WhatsApp. There is no way to do it from a distance and no way to do it without the handset.</p>
+
+      <p>So the scenario that matters is narrow and concrete: somebody had your phone in their hands, already open, for about a minute. That is the whole attack. It is also why the defences are the ordinary ones, a lock screen nobody else can open and knowing who has had the device, rather than anything exotic.</p>
+
+      <h2>The 14 day rule that works in your favour</h2>
+      <p>There is a limit built into the feature that very few people know about, and it is genuinely useful here.</p>
+
+      <p>WhatsApp requires you to <a href="https://faq.whatsapp.com/1317564962315842?lang=en" rel="noopener noreferrer" target="_blank">log in on your primary phone at least every 14 days</a> in order to keep linked devices connected. A companion device is not a permanent grant. It depends on your main handset continuing to check in, and it falls away if that stops.</p>
+
+      <p>The practical consequence is that a covert linked device has an expiry date attached to it from the moment it is created. It also means that if you are looking back at something that happened months ago, a device linked then may well have dropped off on its own, which is worth knowing before you conclude anything from an empty list today.</p>
+
+      <h2>The screen to open</h2>
+      <p>Everything above resolves into one check, and it takes less time than reading about it.</p>
+      <ol>
+        <li><strong>Open WhatsApp, go to Settings, then Linked Devices.</strong> The screen lists every companion device currently linked to your account, with when each was last active.</li>
+        <li><strong>Read the list rather than skimming it.</strong> A device you set up yourself and forgot about looks identical to one you did not, so account for each entry positively rather than looking for something alarming.</li>
+        <li><strong>Log out anything you cannot account for.</strong> It takes effect immediately, and a device that is logged out stops receiving your messages.</li>
+        <li><strong>Check the list again in a week.</strong> If an entry you removed has returned, that tells you something a single check cannot: somebody still has access to the handset.</li>
+      </ol>
+      <p>That fourth step is the one most advice omits, and it is the one that converts a suspicion into evidence.</p>
+
+      <h2>The other copy of your messages</h2>
+      <p>There is a second place your conversations exist, and it is governed by a different account entirely.</p>
+
+      <p>A WhatsApp backup lives in a cloud account rather than on the handset. Whoever can reach that account is a separate question from whoever can reach WhatsApp, and in practice people who worry carefully about one often never think about the other. If you are making a list of who can reach your messages, the account holding the backup belongs on it, and our guide to <a href="/blog/who-has-access-to-my-google-account">checking who has access to your Google account</a> works through how to audit one of them properly.</p>
+
+      <h2>If the suspicion is about a specific person</h2>
+      <p>When the worry is a partner, a family member or an ex rather than a stranger, the order in which you act matters more than what you find, and the usual instinct is the wrong one.</p>
+
+      <p>Removing a linked device is visible to whoever placed it, because their access stops. If that person is someone whose reaction you have reason to be careful about, think about sequence before acting, and get advice from a device and a network they have never had access to. Our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a> sets out why deleting things first is usually the wrong move, including what it destroys.</p>
+
+      <p>The broader pattern is also worth checking. Somebody who could link a device had your phone open in their hands, and that same access reaches your accounts, your messages and anything else on it. One application is rarely the whole picture.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing.</p>
+
+      <p>Applied here the division is clean, and worth stating because it saves people money. A sweep of a room cannot tell you anything about an application on your phone. This question is answered on the handset, in a settings screen you can open yourself in under a minute, and if it goes further than that it becomes device forensics rather than a sweep. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what an examination does cover.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(whatsappFaqs)}
+    `,
+  },
+  {
+    slug: "is-my-phone-tapped",
+    title: "Is Your Phone Tapped? What Indian Law Actually Allows",
+    seoTitle: "Is My Phone Tapped? What Indian Law Actually Allows",
+    metaDescription: "A lawful tap in India happens at the operator, not on your handset. Who can authorise it, how long it can last, and why there is nothing on the phone to find.",
+    excerpt: "There is no code to dial and no symptom to look for, because a lawful tap never touches your handset. The Rules that govern it are specific about who may authorise one, for how long, and what happens to the recordings.",
+    date: "2026-11-08",
+    readTime: "11 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/is-my-phone-tapped.webp",
+    ogImage: "/images/blogs/is-my-phone-tapped.png",
+    coverImageAlt: "Is Your Phone Tapped guide cover: a handset shown clean and inert while interception happens at a network node further up the line",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about a device rather than a warrant?",
+      text: "Unlawful listening usually means something in a room or on a device rather than an order served on an operator. A private consultation can help you work out which problem you have and whether a physical examination is warranted.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped",
+          name: "Is My Phone Tapped? What Indian Law Actually Allows",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-my-phone-tapped.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#article",
+          headline: "Is Your Phone Tapped? What Indian Law Actually Allows",
+          description: "A lawful tap in India happens at the operator, not on your handset. Who can authorise it, how long it can last, and why there is nothing on the phone to find.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is My Phone Tapped? What Indian Law Actually Allows" },
+          ],
+        },
+        faqJsonLd(phoneTappedFaqs, "https://www.bugsweepingtscm.com/blog/is-my-phone-tapped#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> You cannot tell from the handset, because a lawful tap in India does not happen on the handset. It happens at the telecom operator, under an order that only the Union Home Secretary or a State Home Secretary can sign, lasts at most 180 days in total, and is reviewed by a committee chaired by the Cabinet Secretary.</p>
+      </div>
+
+      <p>This question is asked constantly and answered badly almost everywhere, because most of the answers describe things you could notice on your phone. Clicks on the line. A battery running hot. A code to dial. None of that is evidence of interception, and the reason is structural rather than technical.</p>
+
+      <p>A lawful interception is carried out by the telecommunication entity that carries your calls and messages. Your handset is not modified, not contacted and not involved. There is nothing on it to find, which means no app, no code and no symptom can tell you about it. That is worth knowing before anyone sells you a detection service for it.</p>
+
+      <p>What you can know is the framework, and in India it is unusually specific. Section 20 of the <a href="https://www.dot.gov.in/acts-policies/telecommunications-act-2023" rel="noopener noreferrer" target="_blank">Telecommunications Act, 2023</a> provides the power, and the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024 set out the procedure. The rest of this page is what those Rules actually say.</p>
+
+      <h2>Who can authorise it</h2>
+      <p>Not a police officer, and not a telecom operator on request. The Rules name a competent authority, and it sits high.</p>
+
+      <p>For the Centre it is the Union Home Secretary in the Ministry of Home Affairs. For a State it is the Secretary to the State Government in charge of the Home Department. That is the signature an interception order requires, and the seniority is the point: the framework is designed so that this is a political and administrative decision taken at the top of a ministry, with a name attached to it.</p>
+
+      <p>The Rules do provide for urgent situations, but the structure above is the ordinary route, and everything that follows exists to check it.</p>
+
+      <h2>How long it can last</h2>
+      <p>This is the provision most worth knowing, and it is a ceiling rather than a discretion.</p>
+
+      <p>An interception order remains in force, unless revoked earlier, for a period not exceeding sixty days from the date specified in it. It may be renewed. But the Rules set an outer limit on the whole exercise: no such order may remain in force beyond a total of 180 days.</p>
+
+      <p>So lawful interception in India is time-bound by design. It is not a tap that is attached and forgotten. Somebody has to decide, at sixty day intervals, that it is still justified, and after six months the authority ends regardless.</p>
+
+      <h2>Who checks that it was lawful</h2>
+      <p>The Rules build in a review mechanism with named office-holders, fixed deadlines and a power to undo what was done.</p>
+      <ol>
+        <li><strong>Every order goes to a review committee within seven working days</strong> of being issued or confirmed.</li>
+        <li><strong>At the Centre that committee is chaired by the Cabinet Secretary,</strong> sitting with the Secretary of the Department of Legal Affairs and the Secretary of the Department of Telecommunications.</li>
+        <li><strong>In a State it is chaired by the Chief Secretary,</strong> with the Law Secretary or Legal Remembrancer and a Secretary other than the Home Secretary.</li>
+        <li><strong>The committee meets every two months.</strong></li>
+        <li><strong>If it finds an order does not comply with section 20,</strong> it may set aside that order and direct the destruction of the copies of the intercepted messages.</li>
+      </ol>
+      <p>That last power is the one that gives the rest its force. A review that could only record disapproval would be a formality. A review that can order the material destroyed is a check.</p>
+
+      <h2>What happens to the recordings</h2>
+      <p>The Rules do not leave retention open-ended, and the timetables differ by who is holding the material.</p>
+
+      <p>Records held by the authorised agency, the competent authority and the review committee are to be destroyed every six months, unless those records are, or are likely to be, required for functional requirements or under directions of a court. The Department of Telecommunications and the telecommunication entities involved must destroy their records within two months of the interception order being discontinued.</p>
+
+      <p>Two months and six months are short periods, and they are the answer to the common assumption that once a tap exists the material exists forever.</p>
+
+      <h2>Why none of this is detectable from your phone</h2>
+      <p>Put the architecture and the law together and the conclusion is unavoidable, which is why it is worth stating plainly rather than leaving implied.</p>
+
+      <p>The interception happens on the operator's side of the connection. Nothing is installed on your device, so there is nothing for an app to detect, no process to find and no battery drain to notice. No dialled code reveals it, and codes like the ones people circulate report call forwarding settings, which is an unrelated feature. Our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office is bugged</a> deals with the clicks, static and other folklore in detail, including why they stopped meaning anything when networks went digital.</p>
+
+      <p>There is also a simple structural check on the fear. The framework above requires a Home Secretary's signature, a review by the Cabinet Secretary's committee and renewal every sixty days. It is not a resource that gets pointed at people casually.</p>
+
+      <h2>The problem you probably do have</h2>
+      <p>When somebody is genuinely listening to a person's conversations without authority, it is almost never through the network. It is through the device or the room, because those are reachable without a Home Secretary.</p>
+
+      <p>Software installed on the handset by somebody with physical access is the common case, and it leaves evidence on the device, which is why it can be investigated. Our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a> sets out what that evidence looks like and, importantly, why removing it first is usually the wrong move.</p>
+
+      <p>A device in a room is the other case, and it obeys physical constraints that narrow the search considerably, which our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> works through. If the worry is a boardroom rather than a handset, our guide to <a href="/blog/corporate-espionage-india">corporate espionage in India</a> sets out which layer the risk actually sits in.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing.</p>
+
+      <p>On the specific question this page is about, the limit is absolute rather than partial. No sweep of a room and no examination of a handset can establish whether a lawful interception order exists at your operator, because the activity leaves no trace on your side of the network at all. Anyone offering to determine that for you is selling something that cannot be done. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what an examination does cover, and this is firmly outside it.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(phoneTappedFaqs)}
+    `,
+  },
   {
     slug: "unknown-device-on-my-wifi",
     title: "There Is an Unknown Device on Your Wi-Fi. What Is It?",
@@ -680,6 +1347,7 @@ export const blogPosts: BlogPost[] = [
       <p>That last one is the reason to check more than once, at different times, before concluding anything from an absence.</p>
 
       <h2>A better arrangement than auditing forever</h2>
+      <p>A network you do not control is a different question again, and a less alarming one than it used to be: our guide to <a href="/blog/is-hotel-and-public-wifi-safe">whether hotel and public Wi-Fi is still dangerous</a> covers what encryption closed and what it did not.</p>
       <p>If your router supports a guest network, the most useful thing you can do is put every connected appliance on it and keep your phones and computers on the main one.</p>
       <p>This helps in two ways. It separates the devices you cannot inspect and do not fully control from the ones holding your accounts and documents, so a compromised appliance has far less to reach. And it makes the main network's client list short enough to actually recognise, which turns the question this page is about from an annual panic into something you can resolve in a minute.</p>
 
@@ -995,6 +1663,7 @@ ${faqHtml(landlordCameraFaqs)}
       <p>None of this means somebody is reading your messages. Retrieval through these tools is permissioned and, in a well-run organisation, logged and reserved for defined purposes. It means the content is retrievable, which is a different and more durable fact.</p>
 
       <h2>How to find out what applies to you</h2>
+      <p>If the worry is a personal account rather than a managed device, that is answered in the account itself, and our guide to <a href="/blog/who-has-access-to-my-google-account">who has access to your Google account</a> sets out the route.</p>
       <p>Approach this as a question about your own arrangements rather than as a hunt for hidden software, because the answer is usually written down somewhere you have already been given.</p>
       <ol>
         <li><strong>Read the acceptable use or IT policy</strong> you were issued, and your employment contract. If monitoring is being done properly it is described there, and that document is the first thing any adviser would ask you for.</li>
@@ -2419,6 +3088,7 @@ ${faqHtml(sweepFrequencyFaqs)}
       <p>Look at what Apple's own remediation tools actually address and the point becomes obvious: signed in devices, trusted phone numbers, shared location, shared albums, shared passwords, calendars and notes. Those are accounts and sharing, not malware. A device scan cannot find any of it, and a factory reset does not fix it, because the access lives in the account rather than on the handset.</p>
 
       <h2>One thing worth switching on now</h2>
+      <p>Before that, one check takes under a minute and covers the most common route into a person's messages: the linked devices list in WhatsApp, which our guide to <a href="/blog/can-someone-read-my-whatsapp-messages">whether someone can read your WhatsApp messages</a> works through.</p>
       <p>Google added an optional feature called Intrusion Logging, within Advanced Protection, which records device activity including app installations, updates and removals, network connections and when the device is locked and unlocked. The logs are end to end encrypted, stored for a rolling twelve months, and decryptable only by you, since Google states it does not know your screen lock or password. The path is Settings, then Security and privacy, then Advanced Protection.</p>
       <p>Why it matters here: installing commercial monitoring software requires hands-on access, and this is the first platform feature that gives an ordinary user a tamper-resistant record of app installation events. The Coalition Against Stalkerware, writing on 21 October 2026, noted that although the feature was designed with more advanced spyware in mind, it also helps detect commercial stalkerware, and is especially useful where someone is supporting a survivor directly and can set up logging and then read through the activity with them.</p>
       <p>Its limits are real and should be stated. It is <strong>prospective only</strong> and cannot detect intrusions retroactively, it requires a Google account, and it has to be enabled before anything happens. On version, Amnesty's analysis and the Android developer documentation describe it as Android 16 or later, while Google's October 2026 announcement describes the wider Advanced Protection feature set as available on Android 17 devices. If you suspect monitoring today, this answers nothing about today. It makes the same question answerable later.</p>
@@ -2777,7 +3447,7 @@ ${faqHtml(hiddenCameraFaqs)}
       </div>
 
       <h2>Why clicks and static are not evidence of a tap</h2>
-      <p>The clicking telephone belongs to an era of physical bridging taps on analogue copper lines. Interception today is carried out inside the operator's network by reconfiguring equipment there, which means nothing is added to your line, your handset or your room for you to hear. In India that activity sits under the Telecommunications Act 2023, with the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024 made under section 20, and an interception order runs for a limited period before it must be renewed. None of that machinery touches your office.</p>
+      <p>The clicking telephone belongs to an era of physical bridging taps on analogue copper lines. Interception today is carried out inside the operator's network by reconfiguring equipment there, which means nothing is added to your line, your handset or your room for you to hear. In India that activity sits under the Telecommunications Act 2023, with the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024 made under section 20, and an interception order runs for a limited period before it must be renewed. Our guide to <a href="/blog/is-my-phone-tapped">whether your phone is tapped</a> sets that machinery out in full, including who signs the order and the 180 day ceiling on it. None of it touches your office.</p>
       <p>The noises people actually hear have documented causes. Microsoft's own call quality guidance for Teams attributes robotic or garbled audio to jitter once it rises past roughly 30 milliseconds, and gaps, clipped syllables and choppy speech to packet loss from congestion or a failing link. Echo it attributes to the microphone picking up the loudspeaker again, which is why a headset usually cures it. A click or a burst of static is telling you about your network and the acoustics of the room (<a href="https://learn.microsoft.com/en-us/microsoftteams/quality-of-experience-review-guide" rel="noopener noreferrer" target="_blank">Microsoft Learn</a>).</p>
 
       <h2>Does *#21# show whether your phone is tapped?</h2>
