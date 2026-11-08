@@ -1,5 +1,128 @@
 [
   {
+    "slug": "unknown-device-on-my-wifi",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "unknown device on my wifi",
+    "secondary_keywords": [
+      "how to identify unknown device on my wifi",
+      "unknown device connected to my wifi",
+      "why is there an unknown device on my wifi",
+      "unknown phone on my wifi",
+      "is someone using my wifi",
+      "how to check who is connected to my wifi",
+      "how to check who is connected to my wifi jio",
+      "how to check who is connected to my wifi airtel",
+      "someone is using my wifi how to block",
+      "unknown device connected to my network",
+      "mac address randomisation",
+      "private wifi address"
+    ],
+    "h2_outline": [
+      "What your own phones are actually doing",
+      "How to identify the entry",
+      "Would a hidden camera appear in the list?",
+      "What the list does not show you",
+      "A better arrangement than auditing forever",
+      "When an unknown device is worth taking seriously",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Starts by dissolving the premise, that the list is a list of devices when it is a list of addresses those devices chose to present, and then works outward from that one fact to identification, limits and action. The counter-surveillance section is placed in the middle rather than at the front, because the honest finding is that the camera question is a minority case and leading with it would be fear-selling on a page whose answer is usually mundane. Differs from the other recent correction-shaped pages by ending on an arrangement rather than a verdict: the guest network recommendation replaces the audit instead of improving it.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/is-my-smart-tv-spying-on-me"
+    ],
+    "main_device": "a correction of the premise using both platform vendors' own randomisation documentation, followed by a four case list of the cameras a device list cannot see",
+    "information_gain": "Corrects the usual explanation rather than repeating it. The standard advice says an unknown entry is just MAC randomisation and the addresses churn constantly, so it can be ignored. Both vendors' documentation says otherwise and the difference is the point of the page. Google's Android documentation states that for devices running Android 10 or higher the framework uses a randomized MAC address by default, that the default kind is persistent, generated from the network profile's parameters, that it stays the same until a factory reset, and that forgetting the network and rejoining does not change it. Apple's guidance says a device will identify itself to each network using a different Wi-Fi address, that the control has existed since iOS 14 and iPadOS 14, that iOS 18 and later offer off, fixed and rotating, and that rotating changes the address every two weeks. So a genuinely new entry appearing today is not automatically explained by randomisation, which inverts the usual advice: identify rather than dismiss. Gives the counter-surveillance answer with its limits named rather than implied, listing the four camera configurations that never appear in a client list at all: one running its own hotspot, one with a mobile SIM, a wired one, and one recording to a memory card that transmits nothing. States the conclusion that follows, that a clean device list is evidence about a network and not about a room. Adds the blind spots of the list itself, which are wired devices omitted by provider apps, mesh nodes and extenders producing duplicate or missing entries, separately listed guest networks, and devices that are simply asleep when you look, which is the reason to check more than once before concluding anything from an absence.",
+    "internal_links_out": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/signs-your-office-is-bugged",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, chosen as the second article of the day after a demand scan across several candidates. Rule 0 run against the 68 record ledger and the built HTML: the site had no page on routers, networks or client lists, and mentioned Wi-Fi only in the context of why scanning for cameras fails. The framing was decided by evidence rather than by preference. The camera-first phrasings return no autocomplete completions at all, with how to find hidden camera on wifi network and can i see a hidden camera on my router both empty, while unknown device on my wifi returns seven completions and how to check who is connected to my wifi returns ten including Jio, Jio Fiber and Airtel. Writing it as a hidden camera page would therefore have been chasing a topic without demand, which is the mistake that got the TSCM versus cybersecurity page rejected on 8 Nov and the sextortion framing dropped on 6 Nov. It is written as an identification page with the camera question answered honestly inside it, which is what keeps it in the site's lane. A SIM swap page was considered as the second article and rejected on scope: it is financial fraud rather than surveillance, and Section 1 of the engine assigns investigation and fraud topics to the sister site. Inbound links added from how-to-detect-hidden-cameras and signs-your-office-is-bugged.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "notes": "Created 8 Nov 2026, tenth article of the daily programme and the second of two written that day. Sources read in place: Apple's support article on private Wi-Fi addresses, published 9 December 2025, and the Android Open Source Project documentation on MAC randomization behaviour. Deliberately not published, each for a stated reason. The Android 12 non-persistent re-randomisation threshold, because two revisions of the AOSP page give different figures, four hours against twenty-four, and the page says only that persistent is the default and non-persistent applies in narrow overlay-gated cases. Specific router menu paths, because they differ by manufacturer, model and whether the reader is using the provider app or the router's own administration page; the page tells the reader to use the equipment in front of them instead. Any claim about what Indian internet providers expose in their apps, which was not verified. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px against a 14px floor since the post carries no tables, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all four internal links resolving and both external citations returning 200. The Android citation resolves through a locale redirect to the Hindi version from an Indian address, which is ordinary content negotiation on a correct base URL and was left alone. Length: the first draft measured 1,717 words including the FAQ, below the concept-pillar range, and gained two sections that were genuinely missing, on the blind spots of the client list and on using a guest network to separate appliances from personal devices, bringing it to 1,992 in source and 2,106 on the rendered page.",
+    "revisions": []
+  },
+  {
+    "slug": "can-my-landlord-put-cameras",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras",
+    "page_type": "concept-pillar",
+    "location": {
+      "city": "",
+      "district": "",
+      "state": ""
+    },
+    "primary_keyword": "can my landlord put cameras",
+    "secondary_keywords": [
+      "landlord camera laws",
+      "can my landlord put cameras inside the house",
+      "can my landlord put cameras outside my house",
+      "can my landlord put up security cameras",
+      "are landlords allowed to put cameras",
+      "landlord cameras in house",
+      "landlord camera in living room",
+      "landlord has cameras outside",
+      "landlord surveillance camera laws",
+      "neighbour cctv pointing at my house",
+      "cctv common area housing society",
+      "tenant privacy cctv india"
+    ],
+    "h2_outline": [
+      "What an Indian court said this month",
+      "Where the line actually falls",
+      "Told about it, or not told about it",
+      "What to settle before you take the flat",
+      "If there is a camera you object to",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Organised around a single reframing, that the question is the field of view rather than the title deed, and then around a fresh judicial statement that says so. Unlike the other camera pages on the site, this one assumes the camera is visible and known: there is no detection content at all, which is what keeps it clear of the hotel and PG page and the hidden camera pillar. The three contested positions are set out as a numbered list of concrete situations rather than as a rule, and the action section is ordered so that each step preserves the reader's position for the next.",
+    "compared_against": [
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/bug-sweeping-in-delhi",
+      "/blog/bug-sweeping-in-mumbai"
+    ],
+    "main_device": "a six day old High Court holding on where a private camera may point, used to replace the ownership framing with a field-of-view framing, plus the time-bound District Magistrate remedy the court actually directed",
+    "information_gain": "Carries a judicial statement that was six days old at publication and is squarely on the question readers are asking. LiveLaw reported on 2 November 2026 that the Allahabad High Court, on a petition by Yogendra Maurya whose neighbour's CCTV camera covered the entry and exit points of his house, held that no private CCTV camera can be installed and positioned in such a manner as to interfere with the privacy of a neighbour, before a bench of Justice Ajit Kumar and Justice Garima Prashad. Reports the remedy as carefully as the holding, because it is the part a reader can use and almost nobody knows about: the court did not order the camera removed or repositioned, it disposed of the writ petition and directed the petitioner to apply to the District Magistrate, who must decide within one month. Then does the work the existing hotel and paying guest page explicitly declines, which is to separate the common area camera question from the private space question and to name the three positions where real disputes actually sit: an entrance camera that also sees inside a doorway when it opens, a camera angled at a window or balcony, and a camera covering the only approach to a door that records who visits and when. Adds the disclosure axis as distinct from the position axis, since a camera that was never mentioned is a fact about intent rather than a disagreement about angle. States the Indian legal position honestly: no dedicated statute governs landlords and cameras, and the notice and consent machinery under the Digital Personal Data Protection Rules, 2025 commences in May 2027, so what a landlord or society must tell residents is not yet operating.",
+    "internal_links_out": [
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-find-a-listening-device"
+    ],
+    "gate_decision": "NEW POST plus interlink, taken as the last remaining queue item and passed only after an intent review, because the risk here was real. hidden-cameras-in-hotel-rooms-and-pgs carries 12 landlord or tenant mentions and a dedicated H2 on how a PG, hostel or rented flat is a different relationship, and how-to-detect-hidden-cameras carries the Shakarpur landlord's son case. What decided the gate was a sentence in the PG page itself, which says that cameras in genuinely common areas raise a different question from a camera in a washroom and that the two should not be argued as one thing, and then does not argue the first one. That is the gap, and the observed demand sits exactly in it: landlord camera laws, can my landlord put cameras inside the house, can my landlord put cameras outside my house, landlord surveillance camera laws. The existing pages are about detection, this one assumes the camera is visible and asks whether it is lawful. Recorded honestly: the India-specific phrasings returned no autocomplete completions at all, so the page serves generic queries for an Indian reader rather than an observed Indian query set. Inbound link added from the PG page at the exact sentence that declines the question.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-08",
+    "date_modified": "",
+    "notes": "Created 8 Nov 2026, ninth article of the daily programme, first of two written that day on request. Sources read in place: the LiveLaw report of the Allahabad High Court order. Deliberately not published, each for a stated reason. The Model Tenancy Act, 2021 entry-notice provision, which looked promising as an India-specific spine and was abandoned on two grounds: the official PDF on a state government host is a scanned CCITTFax document that defeated text extraction, and secondary sources disagree on both the section number, 17 against 18, and the time-of-day restriction, sunrise to sunset against 7am to 8pm; it is also a model law that binds no state unless adopted, so it would have needed heavy caveating for little gain. Any reasoning attributed to Article 21 in the Allahabad order, because the LiveLaw report is paywalled beyond its opening paragraphs and only the holding and the remedy could be read. The case number, for the same reason. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px against a 14px floor since the post carries no tables, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible, all @id references resolving, all four internal links resolving and both external citations returning 200. Length: the first draft measured 1,903 words including the FAQ, which fell between the concept-spoke range of 900 to 1,400 and the concept-pillar range of 2,000 to 3,000. Rather than record a deviation it gained a section that was genuinely missing, on what to settle before taking the flat, bringing it to 2,070 in source and 2,172 on the rendered page.",
+    "revisions": []
+  },
+  {
     "slug": "can-my-employer-monitor-me",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/can-my-employer-monitor-me",
     "page_type": "concept-pillar",

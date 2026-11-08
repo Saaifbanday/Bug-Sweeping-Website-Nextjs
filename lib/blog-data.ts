@@ -481,7 +481,380 @@ const employerMonitoringFaqs: Faq[] = [
   },
 ];
 
+const landlordCameraFaqs: Faq[] = [
+  {
+    q: "Can my landlord put cameras inside the house I rent?",
+    a: "Inside the part of the premises you occupy, a camera is in the space the tenancy gives you, and in a bathroom, bedroom or changing area it moves out of the realm of house rules entirely and into the voyeurism and privacy provisions of criminal law. Ownership of the building does not create a right to watch the inside of a home somebody else is living in. A camera in a genuinely common entrance is a different question from a camera in a living room, and the two should never be argued as one thing.",
+  },
+  {
+    q: "Can my landlord or neighbour point a camera at my door?",
+    a: "An Indian court has now said no in terms. On 2 November 2026 LiveLaw reported that the Allahabad High Court, hearing a petition by a man whose neighbour's camera covered the entry and exit points of his house, held that no private CCTV camera can be installed and positioned in such a manner as to interfere with the privacy of a neighbour. The court did not order the camera moved. It disposed of the petition and directed the petitioner to apply to the District Magistrate, who must decide within one month.",
+  },
+  {
+    q: "What should I do about a camera I object to?",
+    a: "Start by establishing what it actually covers, because that is the question everything else turns on, and photograph its position from where you stand rather than handling it. Raise it in writing with the landlord or the society so there is a record and a dated request. The Allahabad High Court's route in the neighbour case was an application to the District Magistrate. If the camera covers a bathroom, bedroom or changing area, that is not a dispute to negotiate, it is a police matter.",
+  },
+  {
+    q: "Is a camera in the common entrance of my building allowed?",
+    a: "A camera covering a shared entrance, lift or corridor is an ordinary security measure and is treated very differently from one covering a private space. The line is not the building, it is what falls inside the frame. A camera at an entrance that also covers the inside of a doorway, or that is angled to see into a window or a balcony, stops being an entrance camera in substance whatever it is called.",
+  },
+  {
+    q: "Does India have a law about landlords and CCTV specifically?",
+    a: "No dedicated statute governs it, which is why the question is answered through general privacy and criminal provisions and, now, through what courts say about where a private camera may point. The notice and consent machinery under the Digital Personal Data Protection Rules, 2025 commences in May 2027, so the separate question of what a landlord or a housing society must tell residents about cameras is not yet operating. How any of this applies to your tenancy is a question for a lawyer.",
+  },
+  {
+    q: "Can I remove or cover a camera I think is unlawful?",
+    a: "Removing or disabling something is rarely the right first move, because it destroys the evidence of what it was and where it pointed, and it can turn your complaint into a dispute about your own conduct. Record what exists, raise it in writing, and take the route that fits: the landlord or society for a camera in a shared area, the police for one covering a private space. Our guide to hidden cameras in hotels and paying guest accommodation covers the case where the camera was never disclosed at all.",
+  },
+];
+
+const wifiDeviceFaqs: Faq[] = [
+  {
+    q: "Why is there an unknown device on my Wi-Fi?",
+    a: "Most often because a phone you own is not using its real hardware address. Apple's devices identify themselves to each network using a different Wi-Fi address, and Android has used a randomised address by default since Android 10. The router only ever sees that address, so a device you have used for years can appear under a name it does not recognise. An unfamiliar entry is a prompt to identify, not evidence of an intruder.",
+  },
+  {
+    q: "Does a randomised address change every day?",
+    a: "Usually not, and this is where most advice is wrong. Android's default is persistent randomisation: the address is derived from the network profile and, in Google's own words, stays the same until a factory reset, with forgetting and rejoining the network making no difference. On Apple devices the rotating option changes the address every two weeks, and the fixed option does not rotate at all. So a genuinely new entry appearing today is not automatically explained by randomisation.",
+  },
+  {
+    q: "How do I work out which device an unknown entry is?",
+    a: "Match addresses rather than guessing from names. Open the Wi-Fi settings on each of your own devices, find the address it reports for that specific network, and compare it with the list on the router. Work through the household one device at a time, including the ones nobody thinks of, such as televisions, set-top boxes, speakers, printers, consoles and anything with an app. The entry that remains after everything known is accounted for is the only one worth worrying about.",
+  },
+  {
+    q: "Would a hidden camera show up in the list?",
+    a: "Only if it is on your network, and that is a real limitation rather than a technicality. A camera joined to your Wi-Fi appears like any other client. A camera that runs its own hotspot, uses a mobile SIM, is wired, or simply records to a memory card and transmits nothing, does not appear at all, because it is not using your network. That last kind emits nothing to find by any network method, which is why a device list cannot clear a room.",
+  },
+  {
+    q: "Should I just change my Wi-Fi password?",
+    a: "It is a reasonable step and it is more effective than blocking an address. Changing the password disconnects everything and forces each device to rejoin, which both removes anything that should not be there and gives you a clean list to work from as your own devices come back one by one. Blocking by address is weaker, because the address is the thing that can be changed.",
+  },
+  {
+    q: "Can my internet provider or the router see more than I can?",
+    a: "The router sees the addresses and traffic volumes of everything connected to it, which is more than the app interface usually shows you. Logging into the router's own administration page rather than the provider's mobile app will often give you a fuller client list, including wired devices that the app omits. Which of these your provider exposes differs between operators and between router models, so the honest answer is to check your own equipment.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "unknown-device-on-my-wifi",
+    title: "There Is an Unknown Device on Your Wi-Fi. What Is It?",
+    seoTitle: "Unknown Device on My Wi-Fi: What It Actually Is",
+    metaDescription:
+      "Usually it is a phone you already own, identifying itself with a randomised address. How to tell which, and whether a hidden camera would appear at all.",
+    excerpt:
+      "An unfamiliar entry in the router's device list is alarming and is almost always something you own. Modern phones do not give the router their real address. What that means, how to identify the entry, and what a device list cannot tell you.",
+    date: "2026-11-08",
+    readTime: "10 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/unknown-device-on-my-wifi.webp",
+    ogImage: "/images/blogs/unknown-device-on-my-wifi.png",
+    coverImageAlt:
+      "Unknown Device on My Wi-Fi guide cover: a router with four identified client entries and one unlabelled entry highlighted in red",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried the device is not on the network at all?",
+      text: "A device list cannot see a camera that is not using your Wi-Fi. If you have reason to think something is in a room rather than on your network, a physical examination is the right instrument, and a private consultation can help you decide whether one is warranted.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi",
+          name: "Unknown Device on My Wi-Fi: What It Actually Is",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/unknown-device-on-my-wifi.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#article",
+          headline: "There Is an Unknown Device on Your Wi-Fi. What Is It?",
+          description:
+            "Usually it is a phone you already own, identifying itself with a randomised address. How to tell which, and whether a hidden camera would appear at all.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Wi-Fi network security" },
+            { "@type": "Thing", name: "MAC address randomization" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Unknown Device on My Wi-Fi" },
+          ],
+        },
+        faqJsonLd(wifiDeviceFaqs, "https://www.bugsweepingtscm.com/blog/unknown-device-on-my-wifi#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> It is usually a phone or tablet you already own. Modern devices do not give the router their real hardware address, so your own equipment can appear as a stranger. Identify it by matching addresses rather than names. And note the limitation that matters here: a camera that is not using your Wi-Fi will not appear in the list at all.</p>
+      </div>
+
+      <p>The router app shows a list of connected things, most of them have sensible names, and one of them says something like <em>unknown device</em> or a string of letters and numbers. It is a genuinely unsettling moment, and it is worth knowing that the overwhelming majority of these turn out to be a phone belonging to somebody in the house.</p>
+
+      <p>The reason is a privacy feature that works well and confuses everybody. A router identifies each connected device by its hardware address, and for most of the history of Wi-Fi that address was fixed and unique. It was therefore a perfect tracking identifier, which is why operating systems stopped handing out the real one.</p>
+
+      <p>So the list you are reading is not a list of devices. It is a list of addresses that devices chose to present, and the gap between those two things is where the confusion lives.</p>
+
+      <h2>What your own phones are actually doing</h2>
+      <p>Both major platforms document this, and the detail is worth having because it decides whether an unfamiliar entry is explained or not.</p>
+
+      <p>Apple's guidance on <a href="https://support.apple.com/en-in/102509" rel="noopener noreferrer" target="_blank">private Wi-Fi addresses</a> says the device will "identify itself to each network using a different Wi-Fi address". The control has existed since iOS 14 and iPadOS 14, and on iOS 18 and later it offers three states: off, fixed, and rotating. In rotating mode the address changes every two weeks.</p>
+
+      <p>Google's <a href="https://source.android.com/docs/core/connect/wifi-mac-randomization-behavior" rel="noopener noreferrer" target="_blank">Android documentation</a> states that "for devices running Android 10 or higher, the framework uses a randomized MAC address by default". The default kind is persistent: Android generates the address from the network profile's parameters, and it stays the same until a factory reset. Forgetting the network and rejoining it does not change the address.</p>
+
+      <p><strong>That last point is the one most advice gets wrong.</strong> The usual explanation is that randomisation makes addresses churn constantly, so an unknown entry can always be shrugged off. The documentation says otherwise. Android's default address is stable for a given network until the phone is factory reset, and Apple's rotating option moves every two weeks rather than every day. A genuinely new entry that appeared today is therefore not automatically explained by randomisation, which is exactly why it is worth identifying rather than dismissing.</p>
+
+      <h2>How to identify the entry</h2>
+      <p>Match addresses. Names in a router list are guesses the router makes, and they are frequently wrong or blank, so they are the wrong thing to reason from.</p>
+      <ol>
+        <li><strong>Open the router's own administration page</strong> rather than only the provider's mobile app. The app often shows a simplified list and sometimes omits wired devices entirely. What your operator exposes differs between providers and router models, so use the equipment in front of you.</li>
+        <li><strong>Write down the unknown address</strong> exactly as shown, along with whether it is currently connected.</li>
+        <li><strong>Go to each of your own devices</strong> and read the address it reports for this specific network, which is shown in the network's own settings rather than in the general device information. Compare it with the list.</li>
+        <li><strong>Work through everything, not just the phones.</strong> Televisions, set-top boxes, streaming sticks, speakers, printers, consoles, air conditioners, water purifiers and doorbells all hold addresses. Households routinely have twice as many connected things as the people in them believe.</li>
+        <li><strong>Change the Wi-Fi password</strong> if an entry survives all of that. Everything disconnects and rejoins, which both removes whatever should not be there and gives you a clean list to rebuild from as your own devices come back one at a time.</li>
+      </ol>
+      <p>Changing the password is better than blocking the address, for a reason this page has already given: the address is the part that can be changed.</p>
+
+      <h2>Would a hidden camera appear in the list?</h2>
+      <p>This is the question that brings people from the previous section to this site, and the answer has a sharp limit that is worth stating before the reassurance.</p>
+
+      <p>A camera that is joined to your Wi-Fi does appear. It is an ordinary client, it takes an address from your router, and it sits in the list like a printer. If somebody has placed one and connected it to the network it is using, a careful audit of that list can find it.</p>
+
+      <p>Four kinds will not appear at all, and between them they cover most of what actually turns up in Indian cases.</p>
+      <ol>
+        <li><strong>A camera running its own hotspot.</strong> It creates a network rather than joining yours, and whoever placed it connects to that. Your router never sees it.</li>
+        <li><strong>A camera with a mobile SIM,</strong> which uses the cellular network and has no reason to touch your Wi-Fi.</li>
+        <li><strong>A wired camera,</strong> which may not appear in a list that is showing wireless clients only.</li>
+        <li><strong>A camera that records to a memory card and transmits nothing.</strong> There is no connection to see, because there is no connection. This is the kind that defeats every network method and most consumer advice.</li>
+      </ol>
+      <p>So a clean device list is evidence about your network. It is not evidence about your room. Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers what does work, and our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotels and paying guest accommodation</a> explains why network scanning fails hardest in a room you do not control, where you are not on the same network as the device in the first place.</p>
+
+      <h2>What the list does not show you</h2>
+      <p>Before drawing conclusions from a clean list, it is worth knowing where the list itself has blind spots, because several of them are common in Indian homes.</p>
+      <ol>
+        <li><strong>Wired devices.</strong> Many provider apps show wireless clients only. A desktop, a set-top box or a camera on a cable can be absent from the view you are looking at while being very much connected.</li>
+        <li><strong>Mesh systems and extenders.</strong> Where a second unit repeats the signal, devices attached to it sometimes appear under the extender rather than individually, or appear twice. A duplicate entry is far more often this than an intruder.</li>
+        <li><strong>The guest network.</strong> If your router runs one, it may be listed separately or not at all, and anything on it will not appear beside your main clients.</li>
+        <li><strong>Devices that are simply asleep.</strong> A list usually shows what is connected now. Something that wakes for a few minutes a day will be missing almost every time you look.</li>
+      </ol>
+      <p>That last one is the reason to check more than once, at different times, before concluding anything from an absence.</p>
+
+      <h2>A better arrangement than auditing forever</h2>
+      <p>If your router supports a guest network, the most useful thing you can do is put every connected appliance on it and keep your phones and computers on the main one.</p>
+      <p>This helps in two ways. It separates the devices you cannot inspect and do not fully control from the ones holding your accounts and documents, so a compromised appliance has far less to reach. And it makes the main network's client list short enough to actually recognise, which turns the question this page is about from an annual panic into something you can resolve in a minute.</p>
+
+      <h2>When an unknown device is worth taking seriously</h2>
+      <p>Having done the work above, a few patterns do deserve more than a shrug.</p>
+
+      <p>An entry that is present when the household is out, and absent when everyone is home, is behaving unlike a household device. So is one that appears only at particular hours. So is an entry that survives a password change, which should not be possible unless whoever is using it has the new password, and that is a question about who has had access to your home or your written-down credentials rather than a question about Wi-Fi.</p>
+
+      <p>If that is the pattern, the useful question is the one this site keeps returning to: who has had physical access. Our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office is bugged</a> makes the case that access is more informative than any instrument reading, and the same holds at home.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
+
+      <p>Applied to this question, the division is clean. A device list answers what is on your network. A physical examination answers what is in your room. Neither answers the other, and a provider who offers to settle a question about your Wi-Fi by sweeping your living room, or to clear your living room by reading your router, is offering the wrong instrument. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what an examination does cover.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(wifiDeviceFaqs)}
+    `,
+  },
+  {
+    slug: "can-my-landlord-put-cameras",
+    title: "Can Your Landlord Put Cameras Up? Where the Line Falls in India",
+    seoTitle: "Can My Landlord Put Cameras Up? The Line in India",
+    metaDescription:
+      "The question is not who owns the building. It is where the camera points. What an Indian court said this month, and what to do about a camera you object to.",
+    excerpt:
+      "Most arguments about landlord cameras start with who owns the property, which is the wrong question. What decides it is what falls inside the frame, and an Indian High Court has just said so in terms.",
+    date: "2026-11-08",
+    readTime: "10 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/can-my-landlord-put-cameras.webp",
+    ogImage: "/images/blogs/can-my-landlord-put-cameras.png",
+    coverImageAlt:
+      "Can Your Landlord Put Cameras Up guide cover: a wall-mounted camera whose cone of view crosses a dashed boundary line towards a doorway",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure whether there is a camera you have not been told about?",
+      text: "A camera you can see is a question about where it points. A camera nobody mentioned is a different problem, and a physical examination can address it. A private consultation can help you decide whether one is warranted.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras",
+          name: "Can My Landlord Put Cameras Up? The Line in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#primaryimage" },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/can-my-landlord-put-cameras.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#article",
+          headline: "Can Your Landlord Put Cameras Up? Where the Line Falls in India",
+          description:
+            "The question is not who owns the building. It is where the camera points. What an Indian court said this month, and what to do about a camera you object to.",
+          datePublished: "2026-11-08",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Tenant privacy" },
+          ],
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Can My Landlord Put Cameras Up?" },
+          ],
+        },
+        faqJsonLd(landlordCameraFaqs, "https://www.bugsweepingtscm.com/blog/can-my-landlord-put-cameras#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Owning the building does not settle it. What settles it is where the camera points. A camera covering a shared entrance is an ordinary security measure; one covering a bedroom, bathroom or changing area is a criminal matter; and on 2 November 2026 the Allahabad High Court held that no private camera may be positioned so as to interfere with a neighbour's privacy.</p>
+      </div>
+
+      <p>Almost every argument about this starts in the wrong place. The landlord says it is their property. The tenant says it is their home. Both are true, and neither decides anything, because the law here is not organised around who holds the title deed.</p>
+
+      <p>It is organised around what falls inside the frame. A single camera, bolted to the same wall by the same person, can be unremarkable or criminal depending on which way it is turned. Once you see that, the question stops being a standoff about ownership and becomes something you can actually investigate and act on.</p>
+
+      <p>This page is about a camera you can see, or have been told about, and want to know your position on. A camera nobody mentioned is a different problem with a different answer, and our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotels and paying guest accommodation</a> deals with that case, including what the Indian record shows about who actually places them.</p>
+
+      <h2>What an Indian court said this month</h2>
+      <p>The clearest recent statement on this is only days old, and it concerns a neighbour rather than a landlord, which makes it more useful rather than less, because the principle it states is about position rather than about the relationship between the parties.</p>
+
+      <p>On 2 November 2026 <a href="https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-private-cctv-cameras-interfere-neighbour-privacy-556879" rel="noopener noreferrer" target="_blank">LiveLaw reported</a> that the Allahabad High Court, on a petition by Yogendra Maurya, whose neighbour's CCTV camera covered the entry and exit points of his house, held that "no private CCTV camera can be installed and positioned in such a manner as to interfere with the privacy of a neighbour". The bench was Justice Ajit Kumar and Justice Garima Prashad.</p>
+
+      <p>Read the remedy as carefully as the holding, because it is the part you can use. The court did not order the camera removed or repositioned. It disposed of the writ petition and directed the petitioner to apply to the District Magistrate, and said that if he does, the District Magistrate must decide the application within one month.</p>
+
+      <p>That is a practical route most people do not know exists. The instinct in these disputes is to argue with the neighbour, complain to the society, or do nothing. A time-bound application to the District Magistrate is a fourth option, and a court has now pointed to it.</p>
+
+      <h2>Where the line actually falls</h2>
+      <p>The useful way to think about this is not a list of permitted places but a single question asked of each camera: what is inside its field of view, and does any part of that view belong to somebody's private life?</p>
+
+      <p>A camera covering a shared entrance, a lift, a staircase or a corridor is an ordinary security measure, and buildings everywhere have them. A camera covering a bathroom, a bedroom or a changing area is not a tenancy dispute at all; it falls squarely within the criminal provisions on voyeurism and on capturing images in circumstances that violate privacy, which our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets out in full with their separate penalty ranges.</p>
+
+      <p>Between those two lies the ground where most real disagreements sit, and it is worth naming the cases precisely.</p>
+      <ol>
+        <li><strong>A camera at a shared entrance that also sees inside your doorway</strong> when the door opens. It was installed as an entrance camera and is described as one. In substance it covers part of your home every time you come and go.</li>
+        <li><strong>A camera angled at a window or a balcony.</strong> The camera may sit entirely on the landlord's or neighbour's property and still have your private space in its frame, which is exactly the situation the Allahabad High Court was considering.</li>
+        <li><strong>A camera covering the only approach to your door,</strong> recording who visits you and at what hour. Nothing private is captured inside, and a complete record of your associations is captured outside.</li>
+      </ol>
+      <p>None of these is settled by asking who paid for the camera. All of them are approached by establishing, concretely, what the lens can see.</p>
+
+      <h2>Told about it, or not told about it</h2>
+      <p>There is a second distinction that changes the character of the problem, and it is about disclosure rather than position.</p>
+
+      <p>A camera you were shown when you took the flat, or that is plainly visible at the entrance, is something you can raise, negotiate and if necessary escalate. You know it exists, you can establish what it covers, and the dispute is about where it points.</p>
+
+      <p>A camera you were not told about is a different thing entirely, whatever it covers. Concealment is itself a fact about intent, and it moves the matter away from a disagreement between a landlord and a tenant. The Indian cases that reach the courts are overwhelmingly of this second kind, and they are usually found in shared washrooms rather than bedrooms.</p>
+
+      <p>India has no statute written specifically for landlords and cameras, which is why this is answered through general privacy and criminal law and, now, through what courts say about where a private camera may point. The notice and consent machinery under the Digital Personal Data Protection Rules, 2025 commences in May 2027, so the separate question of what a landlord or a housing society must tell residents about cameras is not yet operating. How any of it applies to your own tenancy is a question for a lawyer rather than for a web page.</p>
+
+      <h2>What to settle before you take the flat</h2>
+      <p>Almost everything above is easier to resolve before you move in than afterwards, and the questions are short enough to ask at a viewing.</p>
+      <p>Ask what cameras exist on the property and where they point. Ask whether any of them cover the entrance to your unit, a balcony or a window. Ask who can see the recordings, which in a building with a society or a property manager is often a different answer from the landlord, and ask how long footage is kept. A landlord who answers those four questions readily is unlikely to be the problem; one who treats them as an accusation has told you something.</p>
+      <p>Then get what you were told into the agreement, or at least into a message you keep. The common pattern in disputes is not a landlord who lied at the start. It is a camera added quietly later, at which point a record of what was agreed when you took the flat is the most useful document you have.</p>
+
+      <h2>If there is a camera you object to</h2>
+      <p>Work in this order. It is built so that each step preserves your position for the next one.</p>
+      <ol>
+        <li><strong>Establish what it covers,</strong> from where you stand rather than by handling it. Photograph its position and angle. If you can see the lens from your door, your window or your balcony, that is the fact that matters and it is worth recording with a date.</li>
+        <li><strong>Put it in writing</strong> to the landlord or the society, asking what the camera covers, who can view the recordings and how long they are kept. A dated written request creates a record and often resolves the matter.</li>
+        <li><strong>If it is not resolved, consider the District Magistrate,</strong> which is the route the Allahabad High Court pointed to, with the one month timeline it mentioned.</li>
+        <li><strong>If the camera covers a bathroom, bedroom or changing area, stop treating it as a dispute.</strong> That is a police matter. Cybercrime complaints, including the publication of private images, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police, and in immediate danger call <strong>112</strong>.</li>
+        <li><strong>Do not remove, cover or disable it first.</strong> It destroys the evidence of what it was and where it pointed, and it hands the other side an argument about your conduct instead of theirs.</li>
+      </ol>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
+
+      <p>For a camera you can already see, an examination is usually the wrong instrument, and it is worth saying so plainly. You do not need anybody to find it. What you need is a clear account of what it covers and a route to act, which is a legal and evidential question rather than a technical one.</p>
+
+      <p>Where an examination earns its place is the other case: you have reason to believe there is something you have not been shown. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what that covers, and our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> explains the physical constraints that decide where a concealed device can be at all.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(landlordCameraFaqs)}
+    `,
+  },
   {
     slug: "can-my-employer-monitor-me",
     title: "Can Your Employer Monitor You? What the Law and the Software Allow",
@@ -1729,7 +2102,7 @@ ${faqHtml(unknownTrackerFaqs)}
       <h2>A PG, a hostel or a rented flat is a different relationship</h2>
       <p>Possession changes both halves of the problem. Because the room is yours for the duration, you can inspect it properly: in daylight, more than once, including the high fittings in a shared bathroom that a one night guest would never reach. And because the people with routine access are the people who live there, the person most likely to have placed a device is a co-resident.</p>
       <p>That is what the Indian record shows. In Chandigarh the person charged had moved in five days earlier. In Hosur it was a resident of the hostel. In both the location was a <strong>shared washroom</strong>, not a bedroom. If you are deciding where to spend five careful minutes, the shared bathroom is the answer, and it is the fittings above head height within it.</p>
-      <p>Note also how the Chandigarh discovery travelled: a tenant noticed an object, checked with another occupant, worked out what it was, told the landlord, and the landlord called the police. A camera in a space shared by residents is a police matter rather than a house rule matter, but the landlord is often the fastest route to the police. Cameras in genuinely common areas such as an entrance or a corridor raise a different question from a camera in a washroom, and the two should not be argued as one thing.</p>
+      <p>Note also how the Chandigarh discovery travelled: a tenant noticed an object, checked with another occupant, worked out what it was, told the landlord, and the landlord called the police. A camera in a space shared by residents is a police matter rather than a house rule matter, but the landlord is often the fastest route to the police. Cameras in genuinely common areas such as an entrance or a corridor raise a different question from a camera in a washroom, and the two should not be argued as one thing. Our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> takes that second question on, including what the Allahabad High Court said in November 2026 about where a private camera may point.</p>
 
       <h2>If you find something</h2>
       <p>Safety comes before evidence and before certainty.</p>
@@ -2231,7 +2604,7 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>A network scan can list the devices on a network you control, which makes it a reasonable inventory tool for your own home. It is much weaker in the situation people actually ask about. A camera recording to a memory card with its radio off has no network presence at all. A camera running its own access point is not on the network you joined. A camera on the building's own network, which is the likely arrangement in a hotel or a let flat, is invisible from the guest network. And the old trick of identifying a device from the manufacturer prefix in its hardware address has largely stopped working, because <a href="https://source.android.com/docs/core/connect/wifi-mac-randomization" rel="noopener noreferrer" target="_blank">Android has randomised those addresses by default since Android 10</a>, so an address you cannot resolve is now most likely an ordinary phone.</p>
 
       <h2>Can a hidden camera work without Wi-Fi?</h2>
-      <p>Yes, and this is the question that decides how much any of the above is worth. A camera that stores to a memory card and keeps its radio off produces no radio emission, joins no network and leaves nothing for a scan or a radio detector to find. It is not an exotic configuration. It is what was used in the Noida hotel case and in the Delhi flat case above, and in both the person who placed it had to come back for the card, which is why both involved a return visit on a pretext.</p>
+      <p>Yes, and this is the question that decides how much any of the above is worth. A camera that stores to a memory card and keeps its radio off produces no radio emission, joins no network and leaves nothing for a scan or a radio detector to find. That is also why auditing the device list on your own router has limits, which our guide to <a href="/blog/unknown-device-on-my-wifi">an unknown device on your Wi-Fi</a> sets out. It is not an exotic configuration. It is what was used in the Noida hotel case and in the Delhi flat case above, and in both the person who placed it had to come back for the card, which is why both involved a return visit on a pretext.</p>
       <p>This is also the honest limit of professional radio equipment, and the clearest evidence for it comes from the firms that make that equipment. A manufacturer of technical surveillance instruments explains in its own product documentation that its non-linear junction detector exists precisely because it detects the physical properties of a device rather than energy or emissions, so it responds even when the object is switched off. A company that sells spectrum equipment markets a second and completely different instrument on the ground that radio search cannot find a device that is not emitting.</p>
 
       <h2>What professional instruments add, and what they do not</h2>
@@ -2421,6 +2794,7 @@ ${faqHtml(hiddenCameraFaqs)}
       <p>There is credible research in this direction, and it is worth knowing how narrow it is. Work presented at ACM SenSys in 2021 used the time of flight sensor on a phone to detect the retro-reflection from a camera lens, reporting detection of 88.9 per cent of hidden cameras against 46.0 per cent for the naked eye in a study with 379 participants. That result needs a time of flight sensor, finds camera lenses only, says nothing whatever about microphones, and is a research prototype rather than anything in an app store.</p>
 
       <h2>What actually changes the risk: who had access to the room</h2>
+      <p>The same logic applies to a network rather than a room: an unfamiliar entry in a router's client list is a question about who has had access to the premises or the password, which our guide to <a href="/blog/unknown-device-on-my-wifi">an unknown device on your Wi-Fi</a> works through.</p>
       <p>A device has to be placed. Placement needs opportunity, which is why an unexplained opportunity is a real change in your risk while a symptom almost always has a duller explanation. Access events have the further advantage of being checkable against records, which symptoms are not: visitor logs, work orders, access control data and camera footage either show something or they do not.</p>
       <p>The events worth taking seriously are mundane. Contractors or technicians left unsupervised in sensitive rooms, including electrical, air conditioning, audio visual and cleaning work after hours. Fit out or maintenance work that opens ceilings, walls, power or data runs, which is the one routine reason for anyone to be inside the building fabric. Visitors left alone in a boardroom, including during a break. New mains powered objects nobody ordered, and fittings or faceplates that have moved. Keys and access cards that were never returned, and the escort rule waived once as a favour.</p>
       <p>Two Indian cases make the point better than any list. In the most prominent Indian corporate espionage prosecution, reported in February 2015, documents were taken from ministry offices in <a href="/locations/delhi">Delhi</a> by junior officials using duplicate keys at night and passed on through intermediaries. There was no device at all: it was access, key control and paper. And in May 2026 a junior revenue assistant at a district rural development agency office in Jagatsinghpur, <a href="/locations/state/odisha">Odisha</a> was arrested after a camera he had placed in the women's washroom fell while an employee was using it; the office's own camera records then corroborated his movements (<a href="https://www.orissapost.com/odisha-clerical-staffer-arrested-for-installing-spy-camera-in-womens-washroom-of-office/" rel="noopener noreferrer" target="_blank">Odisha Post</a>). An insider with ordinary access, discovered by accident and by records, not by any of the classic signs.</p>
