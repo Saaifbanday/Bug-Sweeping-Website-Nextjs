@@ -643,7 +643,207 @@ const googleAccessFaqs: Faq[] = [
   },
 ];
 
+const bengaluruPgFaqs: Faq[] = [
+  {
+    q: "Are CCTV cameras allowed in Bengaluru PGs?",
+    a: "In some places they are required and in others they are prohibited, which is why a blanket answer is wrong. On LiveLaw's report of the Karnataka High Court's order of 10 September 2026, CCTV installation is prohibited in bedrooms, bathrooms and toilets, while PGs housing women or vulnerable persons must have CCTV in common areas. So a camera covering a corridor or an entrance may be there because the court said it should be. A camera covering a bedroom or a washroom is a different matter entirely.",
+  },
+  {
+    q: "What did the Karnataka High Court actually order about PGs?",
+    a: "The order of 10 September 2026 was made by Justice Suraj Govindaraj in M/s Princess Ladies PG v. The Chief Commissioner and connected petitions, WP 14750/2025. Bar and Bench reported it as guidelines for the regulation, inspection and safety of private paying guest accommodation in Bengaluru, directing authorities to identify unlicensed PGs, run risk-based inspections, and ensure compliance with fire, building, electrical and occupant safety norms. The camera directions sit inside that wider framework rather than standing alone.",
+  },
+  {
+    q: "How many Bengaluru PGs are actually unlicensed?",
+    a: "The figure came from the authority itself rather than from a campaign group. The News Minute reported on 18 September 2026 that the Greater Bengaluru Authority, through advocate B S Karthikeyan, told the court that of around 5,000 PG accommodations inspected in the East Zone, nearly 2,500 were operating without proper licences, sanctioned building plans or fire safety clearances. At the hearing of 27 October the GBA put the non-compliant share across the city at nearly half.",
+  },
+  {
+    q: "Can my PG be sealed, and what happens to me if it is?",
+    a: "Sealing is on the table and the court has said so in terms. LiveLaw reported that on 27 October 2026 the court warned non-compliant PGs of sealing, while noting it had held back because sealing would hurt students and employees who depend on them. The court has consistently said occupants must be given adequate time to relocate, and earlier reporting referred to three weeks. If your building receives a notice, that time is the thing to establish first.",
+  },
+  {
+    q: "Should I ask whether my PG is licensed before moving in?",
+    a: "It has stopped being a pedantic question and become a practical one. With roughly half of inspected premises found non-compliant and sealing now explicitly available to the authorities, whether a PG holds a licence, a sanctioned building plan and a fire safety clearance affects whether you will still be living there in six months. Ask to see them, and keep a copy of what you are shown.",
+  },
+  {
+    q: "What do I do if I find a camera in a bedroom or bathroom?",
+    a: "Treat it as a criminal matter rather than a complaint to the manager. Photograph it in place from where you stand, without handling or dismantling it, and note exactly what it covers. Report it to the police: cybercrime complaints, including the publication of private images, can be filed at cybercrime.gov.in, which routes to the relevant state police, and in immediate danger call 112. Our national guide to hidden cameras in hotels and paying guest accommodation covers what the Indian cases show about who actually places them.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "pg-rules-in-bengaluru",
+    title: "PG Rules in Bengaluru: Where Cameras Are Banned, and Where They Are Required",
+    seoTitle: "PG Rules in Bengaluru: What the High Court Ordered",
+    metaDescription:
+      "Cameras are not simply banned in Bengaluru PGs. The High Court prohibited them in bedrooms and bathrooms and required them in common areas. Both halves matter.",
+    excerpt:
+      "The Karnataka High Court's order on Bengaluru paying guest accommodation has two sides, and most coverage reports one. Cameras are prohibited in bedrooms, bathrooms and toilets, and required in the common areas of PGs housing women.",
+    date: "2026-11-24",
+    readTime: "10 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/pg-rules-in-bengaluru.webp",
+    ogImage: "/images/blogs/pg-rules-in-bengaluru.png",
+    coverImageAlt:
+      "PG Rules in Bengaluru guide cover: a floor plan with a camera permitted in the corridor and barred from the bedroom and bathroom",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Found something in a room you are paying to live in?",
+      text: "A camera where the court has said there should be none is not a house-rules dispute. If you need to establish what is in a room before you act, a private consultation can help you decide whether a physical examination is warranted. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru",
+          name: "PG Rules in Bengaluru: What the High Court Ordered",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "Bengaluru",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Bengaluru",
+              addressRegion: "Karnataka",
+              addressCountry: "IN",
+            },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/pg-rules-in-bengaluru.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#article",
+          headline: "PG Rules in Bengaluru: Where Cameras Are Banned, and Where They Are Required",
+          description:
+            "Cameras are not simply banned in Bengaluru PGs. The High Court prohibited them in bedrooms and bathrooms and required them in common areas. Both halves matter.",
+          datePublished: "2026-11-24",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Paying guest accommodation" },
+            { "@type": "Thing", name: "Closed-circuit television" },
+          ],
+          spatialCoverage: {
+            "@type": "Place",
+            name: "Bengaluru, Karnataka, India",
+          },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "PG Rules in Bengaluru" },
+          ],
+        },
+        faqJsonLd(bengaluruPgFaqs, "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Cameras are not simply banned in Bengaluru paying guest accommodation. The Karnataka High Court's order of 10 September 2026 prohibits CCTV in bedrooms, bathrooms and toilets, and in the same breath requires cameras in the common areas of PGs housing women or vulnerable persons. Both halves are the rule, and most coverage carries only one.</p>
+      </div>
+
+      <p>Bengaluru runs on rented rooms more than any other Indian city, and in September 2026 the Karnataka High Court turned its attention to them. The resulting order has been reported mostly as a crackdown on unlicensed buildings, which it is. It also did something more specific and more useful to anybody actually living in one: it said where a camera may be, and where it may not.</p>
+
+      <p>That distinction is the subject of this page. It is written for a resident rather than an operator, and it assumes the camera you are thinking about is one you can see. If your concern is a device nobody told you about, our national guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotels and paying guest accommodation</a> deals with that case, including what the Indian record shows about who actually places them.</p>
+
+      <h2>What the court ordered about cameras</h2>
+      <p>The order was made on 10 September 2026 by Justice Suraj Govindaraj, in <em>M/s Princess Ladies PG v. The Chief Commissioner</em> and a connected batch of petitions, WP 14750/2025, brought by PG operators.</p>
+
+      <p>On <a href="https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-flags-massive-illegal-pg-operations-bengaluru-550527" rel="noopener noreferrer" target="_blank">LiveLaw's report of 17 September 2026</a>, the position on cameras is stated directly: CCTV installation is prohibited in bedrooms, bathrooms and toilets. The same report records the principle the court worked from, which is that safety regulations cannot justify arbitrary intrusion into privacy, and a further direction that operators may not photograph or circulate occupants' private activities unless legally authorised.</p>
+
+      <p>That last one is worth pausing on, because it reaches past cameras. A PG operator holding footage, or images taken for any reason, does not become free to pass them around.</p>
+
+      <h2>The half that most summaries leave out</h2>
+      <p>Read only the headlines and you would conclude that cameras in PGs are now prohibited. The order says something more careful than that, and the missing half changes what a resident should expect to see.</p>
+
+      <p>LiveLaw's report also records that PGs housing women or vulnerable persons must have CCTV in common areas. Not may. Must.</p>
+
+      <p>So a camera covering a corridor, a stairwell, an entrance or a common room in a women's PG is not evidence that somebody is doing something wrong. It may be there because a court said it should be. The useful question is never whether a camera exists on the premises. It is what falls inside its frame, which is the same test our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> works through for tenancies generally, using a separate ruling from the Allahabad High Court.</p>
+
+      <p>The practical consequence for a Bengaluru resident is a short mental rule. Cameras in shared spaces: expected, and in some PGs required. Cameras in bedrooms, bathrooms and toilets: prohibited, and a matter for the police rather than for the manager.</p>
+
+      <h2>Half of the ones inspected were not licensed</h2>
+      <p>The camera directions sit inside a much larger finding, and the scale of it came from the authority rather than from anybody campaigning.</p>
+
+      <p><a href="https://www.thenewsminute.com/karnataka/half-of-bengaluru-east-pgs-inspected-are-illegal-gba-tells-karnataka-hc" rel="noopener noreferrer" target="_blank">The News Minute reported on 18 September 2026</a> that the Greater Bengaluru Authority, through advocate B S Karthikeyan, told the court that of around 5,000 PG accommodations inspected in the East Zone, nearly 2,500 were operating without proper licences, sanctioned building plans or fire safety clearances. LiveLaw's report adds that notices had been issued to 68 PG accommodations in Bengaluru North.</p>
+
+      <p><a href="https://www.barandbench.com/news/litigation/overcrowding-to-fire-safety-karnataka-hc-issues-safety-guidelines-for-bengaluru-pgs" rel="noopener noreferrer" target="_blank">Bar and Bench</a>, reporting the same order on 18 September 2026, describes it as guidelines for the regulation, inspection and safety of private paying guest accommodation in the city, directing authorities to identify unlicensed PGs, conduct risk-based inspections, and ensure compliance with fire, building, electrical and occupant safety norms.</p>
+
+      <p>One direction deserves singling out because it changes the incentives. The News Minute records that officers may be held personally liable if they fail to act on reported violations and an incident follows. A complaint that goes nowhere is no longer costless for the official who shelved it.</p>
+
+      <h2>Where this stood in late November</h2>
+      <p>This is a live proceeding rather than a finished rule, so the honest thing is to date the position rather than state it flatly.</p>
+
+      <p>At a hearing on 27 October 2026, <a href="https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-warns-pg-owners-sealing-directs-affidavit-compliance-timeline-556239" rel="noopener noreferrer" target="_blank">reported by LiveLaw the following day</a>, the court warned non-compliant PGs that they could face sealing. Justice Govindaraj explained why the court had so far held back, in terms worth repeating: sealing would hurt the students and employees who depend on these buildings. The Greater Bengaluru Authority told the court that nearly half of the city's PG accommodation was non-compliant, illegal or unauthorised. Operators were given a week to file an affidavit setting out a realistic compliance timeline, with the matter listed for 4 November 2026, and the court indicated it would ask authorities to hold off if that timeline was reasonable.</p>
+
+      <p>The court has been consistent on one point throughout: occupants must be given adequate time to relocate, and earlier reporting put that at three weeks. No reporting of what happened after 4 November could be found when this page was written on 24 November 2026, so treat the above as the last confirmed position and check the current status before relying on it.</p>
+
+      <h2>What this means if you live in one</h2>
+      <p>Four things follow, and none of them require any equipment.</p>
+      <ol>
+        <li><strong>Expect cameras in shared spaces, and none at all in private ones.</strong> That is the shape of the rule. A camera in a corridor is ordinary; a camera with a bedroom, bathroom or toilet in its view is not.</li>
+        <li><strong>Ask whether the building is licensed,</strong> and whether it has a sanctioned building plan and a fire safety clearance. With roughly half of inspected premises found wanting and sealing now explicitly available, this has stopped being a pedantic question. Ask to see the documents and keep a copy.</li>
+        <li><strong>Know what happens if a notice arrives.</strong> The court has repeatedly said occupants need adequate time to relocate. If your building is served, establishing how long you have is the first thing to do, not the last.</li>
+        <li><strong>Put concerns in writing.</strong> A dated message to the operator creates a record, and given the personal liability direction above, a written complaint to the authority is harder to ignore than it was.</li>
+      </ol>
+
+      <h2>If there is a camera where there should not be one</h2>
+      <p>Stop treating it as a dispute with the management, because it is not one.</p>
+      <ol>
+        <li><strong>Photograph it in place</strong> from where you stand, without handling or dismantling it, and note exactly what it covers.</li>
+        <li><strong>Do not remove it.</strong> That destroys the evidence of what it was and where it pointed.</li>
+        <li><strong>Report it to the police.</strong> Cybercrime complaints, including the publication of private images, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police. In immediate danger, call <strong>112</strong>.</li>
+        <li><strong>Work out which station covers the address.</strong> Bengaluru has its own quirks here, including that Whitefield and Electronic City are zones of the city police rather than rural jurisdictions, which our <a href="/locations/bengaluru">Bengaluru page</a> sets out along with how CEN stations handle cyber matters.</li>
+      </ol>
+      <p>The criminal provisions that apply to a camera in a private space are national rather than local, and our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets them out in full with their separate penalty ranges.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
+
+      <p>For a camera you can already see, an examination is usually the wrong instrument and it is worth saying so. You do not need anybody to find it. What you need is an accurate account of what it covers and a route to act, which is an evidential question rather than a technical one.</p>
+
+      <p>Where an examination earns its place is the other case: a room you are paying to live in, and a reason to think there is something you were not shown. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what that covers.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(bengaluruPgFaqs)}
+    `,
+  },
   {
     slug: "who-has-access-to-my-google-account",
     title: "Who Has Access to Your Google Account? How to Check Properly",
@@ -1489,6 +1689,7 @@ ${faqHtml(wifiDeviceFaqs)}
       <p>None of these is settled by asking who paid for the camera. All of them are approached by establishing, concretely, what the lens can see.</p>
 
       <h2>Told about it, or not told about it</h2>
+      <p>One Indian city now has this written down for a whole category of accommodation. Our guide to <a href="/blog/pg-rules-in-bengaluru">PG rules in Bengaluru</a> covers the Karnataka High Court order that bars cameras from bedrooms, bathrooms and toilets while requiring them in common areas.</p>
       <p>There is a second distinction that changes the character of the problem, and it is about disclosure rather than position.</p>
 
       <p>A camera you were shown when you took the flat, or that is plainly visible at the entrance, is something you can raise, negotiate and if necessary escalate. You know it exists, you can establish what it covers, and the dispute is about where it points.</p>
@@ -2769,6 +2970,7 @@ ${faqHtml(unknownTrackerFaqs)}
       <p>So the route that has demonstrably worked in India is the criminal one, a complaint to the police, rather than a contractual or consumer one. That is an observation about the reported record, not legal advice, and what applies to your situation is a question for a lawyer.</p>
 
       <h2>A PG, a hostel or a rented flat is a different relationship</h2>
+      <p>In Bengaluru this has moved from custom to court order: our guide to <a href="/blog/pg-rules-in-bengaluru">PG rules in Bengaluru</a> sets out where the Karnataka High Court has said cameras may not be, and where it has said they must be.</p>
       <p>Possession changes both halves of the problem. Because the room is yours for the duration, you can inspect it properly: in daylight, more than once, including the high fittings in a shared bathroom that a one night guest would never reach. And because the people with routine access are the people who live there, the person most likely to have placed a device is a co-resident.</p>
       <p>That is what the Indian record shows. In Chandigarh the person charged had moved in five days earlier. In Hosur it was a resident of the hostel. In both the location was a <strong>shared washroom</strong>, not a bedroom. If you are deciding where to spend five careful minutes, the shared bathroom is the answer, and it is the fittings above head height within it.</p>
       <p>Note also how the Chandigarh discovery travelled: a tenant noticed an object, checked with another occupant, worked out what it was, told the landlord, and the landlord called the police. A camera in a space shared by residents is a police matter rather than a house rule matter, but the landlord is often the fastest route to the police. Cameras in genuinely common areas such as an entrance or a corridor raise a different question from a camera in a washroom, and the two should not be argued as one thing. Our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> takes that second question on, including what the Allahabad High Court said in November 2026 about where a private camera may point.</p>

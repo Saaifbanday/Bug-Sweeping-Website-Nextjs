@@ -1,5 +1,68 @@
 [
   {
+    "slug": "pg-rules-in-bengaluru",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/pg-rules-in-bengaluru",
+    "page_type": "city",
+    "location": {
+      "city": "Bengaluru",
+      "district": "",
+      "state": "Karnataka"
+    },
+    "primary_keyword": "pg rules in bengaluru",
+    "secondary_keywords": [
+      "pg rules bangalore",
+      "new pg rules in bangalore",
+      "pg rules and regulations in bangalore",
+      "bengaluru pg cctv rules",
+      "karnataka high court pg order",
+      "cctv in pg bangalore",
+      "is cctv allowed in pg rooms",
+      "bengaluru pg licence",
+      "bangalore pg sealing",
+      "pg safety rules bengaluru",
+      "hidden camera pg bangalore"
+    ],
+    "h2_outline": [
+      "What the court ordered about cameras",
+      "The half that most summaries leave out",
+      "Half of the ones inspected were not licensed",
+      "Where this stood in late November",
+      "What this means if you live in one",
+      "If there is a camera where there should not be one",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "A city article built on one live court proceeding rather than on a tour of local neighbourhoods, which is what separates it from the Delhi and Mumbai city articles and from the Bengaluru Locations page. Its organising move is to show that the rule has two opposite halves and that the coverage reports only one, so the structure runs: what was ordered, what was omitted from the reporting, the scale finding underneath it, the current state dated explicitly, and only then what a resident should do. Deliberately carries no detection content at all, which is what keeps it clear of the national hotel and PG pillar.",
+    "compared_against": [
+      "/locations/bengaluru",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/bug-sweeping-in-delhi",
+      "/blog/bug-sweeping-in-mumbai"
+    ],
+    "main_device": "the two-sided camera rule, cameras barred from bedrooms, bathrooms and toilets and simultaneously required in common areas of PGs housing women, set against the licensing findings that produced it",
+    "information_gain": "Reports both halves of a rule that is almost universally reported as one. On LiveLaw's account of 17 September 2026 by Sebin James, the Karnataka High Court's order of 10 September 2026 in M/s Princess Ladies PG v. The Chief Commissioner and connected petitions, WP 14750/2025, before Justice Suraj Govindaraj, prohibits CCTV installation in bedrooms, bathrooms and toilets, records that safety regulations cannot justify arbitrary intrusion into privacy, and directs that operators may not photograph or circulate occupants' private activities unless legally authorised. The same report carries the half that coverage drops: PGs housing women or vulnerable persons must have CCTV in common areas. The practical consequence for a resident is that a corridor camera may be present because a court required it, so the question is never whether a camera exists on the premises but what falls inside its frame. Gives the scale from the authority's own submission rather than from any campaign: The News Minute reported on 18 September 2026 that the Greater Bengaluru Authority, through advocate B S Karthikeyan, told the court that of around 5,000 PG accommodations inspected in the East Zone nearly 2,500 were operating without proper licences, sanctioned building plans or fire safety clearances, with LiveLaw adding that notices had gone to 68 PGs in Bengaluru North. Carries the direction that changes official incentives, which The News Minute records: officers may be held personally liable if they fail to act on reported violations and an incident follows. Dates the current position rather than stating it flatly: at the hearing of 27 October 2026, reported by LiveLaw the next day, the court warned non-compliant PGs of sealing while explaining it had held back because sealing would hurt students and employees, the Greater Bengaluru Authority put the non-compliant share at nearly half, operators were given a week to file a compliance timeline with the matter listed for 4 November 2026, and the court maintained that occupants must have adequate time to relocate.",
+    "internal_links_out": [
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/can-my-landlord-put-cameras",
+      "/locations/bengaluru",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 74 record ledger and the built HTML. The decisive check was the Bengaluru Locations page, which is substantial at about 9,400 characters and already carries the zone structure, CEN stations, the e-FIR limits and a single sentence on this very order. A general bug sweeping in Bengaluru article would have duplicated it, and that option was rejected. Section 3 governs: the Locations page holds the commercial city intent, so this article takes a distinct informational intent and links to it as the hub. The informational intent was chosen on evidence rather than preference. Autocomplete for bug sweeping bangalore returns commercial phrasings the Locations page already serves, and hidden camera bangalore and spy camera bangalore turn out to be shopping queries dominated by shops, dealers, price and SP Road. What does return informational demand is pg rules bangalore, with eight completions including new pg rules in bangalore. The national hotel and PG pillar was checked and contains zero Karnataka content. City gate passed on the Section 5B floor: more than five answer-changing local facts from three independent outlets read in place, LiveLaw on 17 September and 28 October, The News Minute on 18 September and Bar and Bench on 18 September. Swap test passed trivially, since removing Bengaluru leaves nothing: the page is about one Karnataka High Court proceeding.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-24",
+    "date_modified": "",
+    "notes": "Created 24 Nov 2026, first city article since September and the first content after a sixteen day gap. Sources read in place: LiveLaw's reports of 17 September and 28 October 2026, The News Minute of 18 September 2026, and Bar and Bench of 18 September 2026, whose article body did not load so only its summary directions and byline were used. Deliberately not published, each for a stated reason. The count of directions in the order, because sources split between 81 and 80 and the order itself could not be read; the page says the camera directions sit inside a wider framework without numbering them. Any verbatim quotation of the order, because the copy of Princess Ladies PG v The Chief Commissioner hosted by Bar and Bench is a scanned image PDF that defeated text extraction, so every statement of what the court ordered is attributed to the outlet reporting it. Deccan Herald's report that the court allowed the GBA to seal illegal premises, because Deccan Herald returned 403 as it has in every session this month and it could not be read in place; LiveLaw's sealing warning covers the same ground and was read. And anything about what happened after the 4 November 2026 listing, because no reporting of it could be found, so the page dates its position explicitly and tells the reader to check the current status. One structural decision worth recording: no reverse link was added from the Bengaluru Locations page, because that page renders its jurisdiction and settings fields as plain React text rather than HTML, so an anchor would have printed as literal markup; the Section 3 hub link runs the other way instead. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px against a 14px floor, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, zero promotional-claim flags, JSON-LD valid with six FAQ questions matching six visible and a Place node for Bengaluru on both the WebPage and the BlogPosting, all five internal links resolving against the export including the Locations hub, and all five external citations returning 200. Rendered length 2,026 words, inside the 1,400 to 2,200 city article range. The scratchpad had been cleared between sessions, so the PDF extractor, the content QA script and the render QA script were rebuilt before use.",
+    "revisions": []
+  },
+  {
     "page_type": "concept-spoke",
     "location": {
       "city": "",
