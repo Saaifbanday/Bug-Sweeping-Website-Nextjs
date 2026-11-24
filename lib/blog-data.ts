@@ -670,7 +670,210 @@ const bengaluruPgFaqs: Faq[] = [
   },
 ];
 
+const hyderabadCameraFaqs: Faq[] = [
+  {
+    q: "Is a Hyderabad hotel or mall required to check for hidden cameras?",
+    a: "Hyderabad has gone further than most Indian cities on this. When the city police launched its She Netra teams in April 2026, Deccan Chronicle reported that establishments must procure their own camera detectors and conduct regular internal sweeps, and must appoint a Customer Safety In-charge to act as nodal officer with the She Teams. Siasat reported the same requirement, that the respective management would be responsible for procuring the camera detectors. Institutions that violate the rules, and the employees responsible, face blacklisting.",
+  },
+  {
+    q: "What is She Netra?",
+    a: "Seven police teams, one for each of Hyderabad's seven zones, launched on 10 April 2026 by Commissioner VC Sajjanar at the Old Commissionerate Office in Basheerbagh. Deccan Chronicle reported that they exist to detect and neutralise hidden cameras in public and private spaces such as hotels, malls and hostels, and that they conduct frequent surprise inspections across the city. The practical point for a guest is that these premises are now subject to unannounced checks by people looking specifically for cameras.",
+  },
+  {
+    q: "Do businesses have to declare that their premises are free of hidden cameras?",
+    a: "A circular from the Director General of Police, dated 29 March, set out guidelines of that kind. ETV Bharat, reporting a Telangana High Court hearing in September 2025, described it as requiring warning notices to be displayed prominently in establishments and requiring shop and mall owners to submit declarations to local police inspectors every six months confirming that their premises are free of such devices. The petition before the court alleged that the Women's Safety Department had failed to implement it.",
+  },
+  {
+    q: "Do the cameras in Hyderabad hostels actually work?",
+    a: "Often not, and the figure comes from the police themselves. Deccan Chronicle reported on 18 July 2026 that ten special teams with 35 personnel inspected 446 hostels over nine weeks under Suraksha Nivas 1.0, part of Project Safe Stay. While 97.5 per cent of those hostels had CCTV, more than 30 per cent of the cameras were non-functional. None of the hostels had fire exit plans, and 62 per cent scored below 40 on safety.",
+  },
+  {
+    q: "Which police force covers my address in Hyderabad?",
+    a: "It depends on where you are, and the boundary runs through the places people work. HITEC City, Madhapur, Raidurg, Gachibowli and the Financial District are Cyberabad Commissionerate, while Banjara Hills, Secunderabad, Khairatabad and the Old City are Hyderabad City Police. A reorganisation at the end of December 2025 also renamed the eastern commissionerate. Our Hyderabad page sets this out, and it is worth confirming the current position for your address before filing anything.",
+  },
+  {
+    q: "What should I do if I find a camera in a room in Hyderabad?",
+    a: "Treat it as a criminal matter rather than a complaint to the management. Photograph it in place from where you stand, without handling or dismantling it, and note what it covers. Report it to the police: cybercrime complaints, including the publication of private images, can be filed at cybercrime.gov.in, which routes to the relevant state police, and in immediate danger call 112. Because a camera in a private space is a cognizable offence, it is registered at a police station rather than through an online petition.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "hidden-cameras-in-hyderabad",
+    title: "Hidden Cameras in Hyderabad: The City Made Checking a Business Duty",
+    seoTitle: "Hidden Cameras in Hyderabad: What Businesses Must Do",
+    metaDescription:
+      "Hyderabad requires hotels, malls and hostels to own camera detectors and sweep their own premises. What the rules say, and what police found when they checked.",
+    excerpt:
+      "Most Indian cities leave hidden cameras to the police and the victim. Hyderabad has pushed the duty onto the premises: own a detector, sweep regularly, appoint a named officer, and declare to police every six months that the place is clean.",
+    date: "2026-11-24",
+    readTime: "10 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/hidden-cameras-in-hyderabad.webp",
+    ogImage: "/images/blogs/hidden-cameras-in-hyderabad.png",
+    coverImageAlt:
+      "Hidden Cameras in Hyderabad guide cover: a building outline with a detector sweep arc inside it and a police inspection badge alongside",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Responsible for premises that now have to be checked?",
+      text: "A duty to sweep your own building is only as good as the sweep. A private consultation can help you work out what an examination of your premises should actually cover, and what a report should say. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad",
+          name: "Hidden Cameras in Hyderabad: What Businesses Must Do",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "Hyderabad",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Hyderabad",
+              addressRegion: "Telangana",
+              addressCountry: "IN",
+            },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/hidden-cameras-in-hyderabad.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#article",
+          headline: "Hidden Cameras in Hyderabad: The City Made Checking a Business Duty",
+          description:
+            "Hyderabad requires hotels, malls and hostels to own camera detectors and sweep their own premises. What the rules say, and what police found when they checked.",
+          datePublished: "2026-11-24",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Hidden camera detection" },
+            { "@type": "Thing", name: "Technical surveillance countermeasures" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "Hyderabad, Telangana, India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Hidden Cameras in Hyderabad" },
+          ],
+        },
+        faqJsonLd(hyderabadCameraFaqs, "https://www.bugsweepingtscm.com/blog/hidden-cameras-in-hyderabad#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Hyderabad has done something no other large Indian city has. Rather than leaving hidden cameras to the police and the person who finds one, it has put the duty on the premises: hotels, malls and hostels are to own camera detectors, sweep themselves regularly, appoint a named safety officer, and, under a circular predating that, declare to police every six months that the place is clean.</p>
+      </div>
+
+      <p>Most writing about hidden cameras in an Indian city is a list of incidents. This page is not that, because Hyderabad offers something more useful: a set of obligations that have actually been imposed, and a police audit that measured whether they are being met.</p>
+
+      <p>The detection methods themselves are national rather than local, and our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers what works and what does not, along with the criminal provisions that apply. What follows is the part that is specific to this city.</p>
+
+      <h2>The duty that makes Hyderabad different</h2>
+      <p>On 10 April 2026 the city police launched She Netra, and the launch came with requirements attached to businesses rather than only to officers.</p>
+
+      <p><a href="https://www.deccanchronicle.com/southern-states/telangana/she-netra-teams-launched-for-womens-safety-in-hyderabad-1949678" rel="noopener noreferrer" target="_blank">Deccan Chronicle reported</a> that establishments must "procure their own camera detectors and conduct regular internal sweeps", and that each organisation must appoint a "Customer Safety In-charge" to serve as a nodal officer with the She Teams, whom the police will train. Institutions that violate the rules, and the employees responsible, are to be blacklisted. <a href="https://www.siasat.com/hyderabad-police-launch-she-netra-to-crack-down-on-hidden-cameras-3450356/" rel="noopener noreferrer" target="_blank">Siasat reported the same requirement</a> in its own words, that the respective management would be responsible for procuring the camera detectors, and that they would be required to conduct routine inspections.</p>
+
+      <p>Read that as a shift in who carries the burden. In most of India, a hidden camera is found by the person it was pointed at. Here a hotel, a mall or a hostel is expected to look for one before anybody is harmed, with a named person answerable for it.</p>
+
+      <h2>Seven teams, and unannounced inspections</h2>
+      <p>The enforcement side launched at the same time. Deccan Chronicle reported seven She Netra teams, one for each of the city's seven zones, launched by Commissioner VC Sajjanar at the Old Commissionerate Office in Basheerbagh.</p>
+
+      <p>Their remit is to detect and neutralise hidden cameras in public and private spaces such as hotels, malls and hostels, and to conduct frequent surprise inspections across the city. One team member's description, as quoted, was that the teams would conduct frequent and surprise raids.</p>
+
+      <p>For a guest or a resident this changes what you can reasonably assume. Premises of this kind in Hyderabad are now subject to unannounced checks by people looking specifically for cameras, which is not true in most Indian cities.</p>
+
+      <h2>The declaration most people have never heard of</h2>
+      <p>There is an older instrument underneath all this, and it is the strictest part.</p>
+
+      <p>In September 2025 the Telangana High Court took up a petition about hidden cameras in public places. <a href="https://www.etvbharat.com/en/!state/telangana-high-court-seeks-government-response-on-hidden-cameras-in-public-places-enn25090902132" rel="noopener noreferrer" target="_blank">ETV Bharat reported</a> that the bench of Justice NV Shravan Kumar described hidden cameras in shops, hotels, women's hostels and other establishments as a grave violation of privacy, hearing a petition by G Varalakshmi, president of Heaven's Home Society.</p>
+
+      <p>The petition concerned a circular from the Director General of Police dated 29 March. On ETV Bharat's account, that circular required warning notices to be displayed prominently in establishments, and required shop and mall owners to submit declarations to local police inspectors every six months confirming that their premises were free of such devices. The allegation before the court was that the Women's Safety Department had not implemented it, and the court directed the state and the department to respond within two weeks, explaining what steps had been taken and what action was proposed against violators.</p>
+
+      <p>A six-monthly declaration that a premises is free of hidden cameras is, in substance, a recurring inspection duty. It is also the kind of obligation that is easy to sign and hard to discharge, which brings us to what happened when the police went and looked.</p>
+
+      <h2>What the audit actually found</h2>
+      <p>This is the honest counterweight to everything above, and it comes from the police rather than from any critic.</p>
+
+      <p><a href="https://www.deccanchronicle.com/southern-states/telangana/police-flag-hostel-safety-lapses-in-hyderabad-1971855" rel="noopener noreferrer" target="_blank">Deccan Chronicle reported on 18 July 2026</a> that ten special teams with 35 personnel inspected 446 hostels over nine weeks, under Suraksha Nivas 1.0, part of Project Safe Stay conducted with the Hyderabad City Security Council.</p>
+
+      <p>The findings are worth setting out plainly.</p>
+      <ol>
+        <li><strong>97.5 per cent of the hostels had CCTV.</strong> On paper, almost universal compliance.</li>
+        <li><strong>More than 30 per cent of those cameras were non-functional.</strong> Installed, counted, and not working.</li>
+        <li><strong>Only 43 per cent had proper compound walls,</strong> and 38.9 per cent had fire safety equipment.</li>
+        <li><strong>None had fire exit plans.</strong> Not a minority: none.</li>
+        <li><strong>Only 44 per cent displayed a GHMC licence,</strong> and 62 per cent scored below 40 on safety, which the police described as weak.</li>
+      </ol>
+      <p>The lesson generalises well beyond Hyderabad. A mandate produces installations, and installations are what gets counted. Whether the thing works on the day it is needed is a separate question that only an inspection answers, and it is the question this site keeps returning to.</p>
+
+      <p>The same report records that police want every women's hostel and PG operator to register with local police stations, and that the municipal corporation requires a trade licence along with entry registers and background checks on staff and service providers.</p>
+
+      <h2>Which force covers you, and why it matters</h2>
+      <p>Hyderabad has a complication that catches people at exactly the wrong moment, and it is worth settling before you need it.</p>
+
+      <p>Greater Hyderabad is covered by more than one police commissionerate, and the boundary runs through the places people work: HITEC City, Madhapur, Raidurg, Gachibowli and the Financial District sit under Cyberabad, while Banjara Hills, Secunderabad, Khairatabad and the Old City are Hyderabad City Police. A reorganisation notified at the end of December 2025 also renamed the eastern commissionerate, so older guidance can send you to the wrong force. Our <a href="/locations/hyderabad">Hyderabad page</a> sets out the boundaries and the city's cyber crime police station arrangements in full.</p>
+
+      <p>The obligations described above were announced by Hyderabad City Police. Do not assume they read identically across every commissionerate in the metropolitan area; confirm the position for your address.</p>
+
+      <h2>If you find a camera</h2>
+      <p>The local rules change who should have been looking. They do not change what you should do.</p>
+      <ol>
+        <li><strong>Photograph it in place</strong> from where you stand, without handling or dismantling it, and note exactly what it covers.</li>
+        <li><strong>Do not remove it,</strong> which destroys the evidence of what it was and where it pointed.</li>
+        <li><strong>Report it to the police.</strong> Cybercrime complaints, including the publication of private images, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police. In immediate danger, call <strong>112</strong>.</li>
+        <li><strong>Expect to attend a station.</strong> A camera in a private space is a cognizable offence, and an online petition is not an FIR.</li>
+      </ol>
+      <p>Our national guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotels and paying guest accommodation</a> covers what the Indian record shows about who actually places them, and where they are actually found.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
+
+      <p>That limitation matters more here than in most places, because Hyderabad has created a duty to self-certify. A declaration that a premises is free of hidden cameras is a statement about a search, and it is only worth what the search was worth. A handheld detector passed over a room by an untrained person, once, establishes very little, and our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what a serious examination covers and why no single instrument finds everything.</p>
+
+      <p>If you are the person who has to sign that declaration, the useful question is not which detector to buy. It is what your sweep actually covered, how it was recorded, and whether the record would stand up if somebody later found something you missed.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(hyderabadCameraFaqs)}
+    `,
+  },
   {
     slug: "pg-rules-in-bengaluru",
     title: "PG Rules in Bengaluru: Where Cameras Are Banned, and Where They Are Required",
@@ -2963,6 +3166,7 @@ ${faqHtml(unknownTrackerFaqs)}
       <p>That same case also suggests where to actually point the torch. The device sat <strong>on top of the geyser</strong> in a shared washroom, and a tenant found it with no equipment whatsoever. High bathroom fittings are the right class of place to examine: they are above standing eye level, they are never cleaned, they already carry brackets and wiring so one more small object does not look wrong, and an item left there is easy for the person who left it to retrieve. The geyser, the exhaust fan, the cistern and the shelf above the mirror are worth more of your attention than the mirror itself.</p>
 
       <h2>Who is answerable depends on how you booked</h2>
+      <p>One Indian city has changed that calculation by putting a duty on the premises directly: our guide to <a href="/blog/hidden-cameras-in-hyderabad">hidden cameras in Hyderabad</a> covers the detector and self-inspection requirements placed on hotels, malls and hostels there.</p>
       <p>This is where the three kinds of accommodation genuinely diverge, and almost nobody writing about hotel cameras in India mentions it.</p>
       <p><strong>A property booked on Airbnb</strong> is covered by a platform rule you can point at. Airbnb's own help page states that it does not allow hosts to have security cameras or recording devices that monitor indoor spaces, that this applies "even if these devices are turned off", and that "Hidden cameras have always been prohibited and will continue to be prohibited". Exterior cameras are permitted but their location must be disclosed in the listing. Those rules took effect on <strong>30 April 2024</strong>. A host who breaks them risks the listing or the account.</p>
       <p><strong>A hotel booked through an aggregator</strong> gives a different answer. In the Noida case, a source told PTI that the company does not operate any hotels or guest houses, and that it only lists verified properties on its platform and provides technology support to them. Whether that is a sufficient answer in law is not something this page can settle, but it is the stated position, and it is plainly not the same undertaking Airbnb has given.</p>
@@ -3453,7 +3657,7 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>A hidden camera, in the sense people mean when they search for this, is a camera concealed in an object or a fitting so that the people being recorded do not know it is there. The important distinction is not where it is hidden but how it stores and sends what it records. A networked camera joins a Wi-Fi network or runs its own and can in principle be found by looking at network traffic. A locally recording camera writes to a memory card inside itself and may have its radio switched off entirely, which means it appears on no network and emits nothing at all. A camera of the second kind has to be physically collected by whoever placed it. That single difference decides which of the checks below has any chance of working.</p>
 
       <h2>Where cameras have actually been found in India</h2>
-      <p>It is more useful to look at cases that reached an arrest than at a generic list of hiding places. Four recent Indian ones are worth knowing because each carries a lesson that the standard advice misses.</p>
+      <p>It is more useful to look at cases that reached an arrest than at a generic list of hiding places. Four recent Indian ones are worth knowing because each carries a lesson that the standard advice misses. One city has gone further than case law and imposed duties on premises themselves, which our guide to <a href="/blog/hidden-cameras-in-hyderabad">hidden cameras in Hyderabad</a> sets out.</p>
       <p>In October 2022 The Tribune reported that two men booked a room at a hotel in <a href="/locations/noida">Noida</a> listed on a booking platform, concealed a camera, checked out, and returned to rebook the same room a week later to collect the device and its footage, which they then used to try to extort the couple who had been recorded. Hotel staff were questioned and found not to be involved. The threat model there is the previous guest, not the management.</p>
       <p>In September 2024 the Free Press Journal reported the arrest of a landlord's son in Shakarpur, <a href="/locations/delhi">Delhi</a>, who had concealed cameras inside the light bulb holders of a tenant's bathroom and bedroom. She found out because she noticed an unfamiliar laptop session logged into her messaging account, logged every device out, and then searched the flat. He had repeatedly asked for the keys saying he needed to carry out electrical repairs, in order to retrieve the memory card.</p>
       <p>In October 2025 The Siasat Daily reported that a tenant in Yousufguda, <a href="/locations/hyderabad">Hyderabad</a> had reported a faulty bathroom light fitting, the landlord had entered with an electrician while the couple were at work, and nine days later the tenants noticed a loose screw on that fitting and found a camera behind it. And in November 2025 a device was found in a bathroom at a women's hostel run by an electronics manufacturer at Hosur in <a href="/locations/state/tamil-nadu">Tamil Nadu</a>; a resident spotted it and raised it with the warden, and the enquiry established that another resident had installed it at a third person's instigation.</p>
