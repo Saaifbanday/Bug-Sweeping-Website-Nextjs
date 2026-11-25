@@ -697,7 +697,198 @@ const hyderabadCameraFaqs: Faq[] = [
   },
 ];
 
+const kolkataCctvFaqs: Faq[] = [
+  {
+    q: "Can a family member install CCTV inside a shared house without my consent?",
+    a: "Not inside the residential portion, on the clearest Indian authority there is. The Calcutta High Court held that installing CCTV cameras inside the residential portion of a dwelling house without the consent of co-occupants or co-trustees violates their right to privacy, and the Supreme Court declined to interfere with that judgment on 9 May 2025. The dispute was between two brothers over cameras one had installed to protect valuables and an antique collection.",
+  },
+  {
+    q: "Did the court ban CCTV in the house altogether?",
+    a: "No, and that is the part most summaries miss. The High Court ordered the removal of five cameras from the residential portion, not every camera on the property. ThePrint's report records that the parties were left at liberty to take an alternative measure for the security of valuable articles preserved in the building, and that the parties shall enjoy joint control over the CCTV cameras, their record and management. The remedy was shared control, not prohibition.",
+  },
+  {
+    q: "What is the legal basis for this?",
+    a: "Article 21, through the Supreme Court's 2017 Puttaswamy judgment. LiveLaw's report records that the Calcutta High Court relied on Puttaswamy for the proposition that the right to privacy of every individual is guaranteed and protected by Article 21, and that privacy is an intrinsic part of the right to life and personal liberty. The court also found that operating the cameras without the co-trustee's consent amounted to restrictions on his right to free enjoyment of property.",
+  },
+  {
+    q: "Does this ruling apply outside West Bengal?",
+    a: "It is binding in West Bengal and persuasive elsewhere, which is a meaningful difference. A Calcutta High Court judgment binds courts in its own jurisdiction. Because the Supreme Court declined to interfere rather than deciding the point itself, the dismissal does not create binding national precedent in the way a reasoned Supreme Court judgment would, but the judgment stands and is the most directly applicable Indian authority on cameras inside a shared dwelling.",
+  },
+  {
+    q: "Is this the same question as a landlord putting up cameras?",
+    a: "No, and the difference is who holds rights in the property. This case concerned co-occupants and co-trustees of the same dwelling, people with their own claim to the space. A landlord and a tenant is a different relationship, and a neighbour pointing a camera at your door is a third. Our guide to whether a landlord can put cameras up covers those, including a separate ruling from the Allahabad High Court about where a private camera may point.",
+  },
+  {
+    q: "What about hotels and guest houses in Kolkata?",
+    a: "That is a separate and currently very active enforcement question. Business Today reported on 9 September 2026 that after a fire at a guest house on Mirza Ghalib Street on 19 August killed nine people, joint teams from the state fire services department, the Kolkata Municipal Corporation and Kolkata Police inspected 960 establishments and served temporary closure notices on 919 of them for non-compliance with fire safety norms. Only 41 were compliant.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "cctv-in-a-shared-home-kolkata",
+    title: "CCTV Inside a Shared Home: What Kolkata's Courts Settled",
+    seoTitle: "CCTV in a Shared Home: What the Kolkata Ruling Says",
+    metaDescription:
+      "Cameras inside a shared home need every co-occupant's consent, the Calcutta High Court held. The Supreme Court let it stand. What it did and did not do.",
+    excerpt:
+      "A dispute between two brothers over cameras in a Kolkata family house produced the clearest Indian authority on surveillance inside a home. Five cameras came down, and the remedy was joint control rather than prohibition.",
+    date: "2026-11-25",
+    readTime: "10 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/cctv-in-a-shared-home-kolkata.webp",
+    ogImage: "/images/blogs/cctv-in-a-shared-home-kolkata.png",
+    coverImageAlt:
+      "CCTV in a Shared Home guide cover: a house divided into two halves, cameras removed from the living side and retained on the shared side",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Cameras in a home you share, and no agreement about them?",
+      text: "Establishing what a camera actually covers is usually the first step, and it is an evidential question before it is a legal one. A private consultation can help you work out what can be established and in what order. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata",
+          name: "CCTV in a Shared Home: What the Kolkata Ruling Says",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "Kolkata",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Kolkata",
+              addressRegion: "West Bengal",
+              addressCountry: "IN",
+            },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/cctv-in-a-shared-home-kolkata.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#article",
+          headline: "CCTV Inside a Shared Home: What Kolkata's Courts Settled",
+          description:
+            "Cameras inside a shared home need every co-occupant's consent, the Calcutta High Court held. The Supreme Court let it stand. What it did and did not do.",
+          datePublished: "2026-11-25",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Right to privacy" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "Kolkata, West Bengal, India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "CCTV in a Shared Home" },
+          ],
+        },
+        faqJsonLd(kolkataCctvFaqs, "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> A camera inside the residential part of a house you share needs the consent of the people who live there. The Calcutta High Court decided that in a dispute between two brothers over a Kolkata family home, ordered five cameras removed, and the Supreme Court declined to interfere. It is the clearest Indian authority on surveillance inside a shared dwelling.</p>
+      </div>
+
+      <p>Most arguments about cameras in India are between strangers: a landlord and a tenant, a neighbour and a neighbour, a hotel and a guest. The hardest version is the one between people who both have a right to be there, and it is also the one Indian law was quietest about until a Kolkata family argued it out.</p>
+
+      <p>Joint ownership, ancestral property, an extended family under one roof: these are ordinary arrangements across India, and when somebody puts a camera up inside, the usual answers do not work. Nobody is trespassing. Nobody is a guest. Both sides own the place.</p>
+
+      <h2>What the Calcutta High Court decided</h2>
+      <p>The dispute concerned Mullick Bhaban, a family residence in Kolkata, and it was between two brothers. One had installed cameras in the residential portion of the shared building, to protect valuable property and an antique collection. The other objected.</p>
+
+      <p>On <a href="https://www.livelaw.in/top-stories/supreme-court-affirms-calcutta-hc-view-that-cctv-cant-be-installed-in-home-without-consent-of-all-occupants-291858" rel="noopener noreferrer" target="_blank">LiveLaw's report</a>, a division bench of Justices Sabyasachi Bhattacharya and Uday Kumar held that installing CCTV cameras inside the residential portion of a dwelling house, without the consent of co-occupants or co-trustees, violates their right to privacy. The court directed the removal of five cameras installed within the residential portion.</p>
+
+      <p>The reasoning ran through the Supreme Court's 2017 privacy judgment. LiveLaw records the High Court relying on <em>Justice K.S. Puttaswamy (Retd.) v. Union of India</em> for the proposition that the right to privacy of every individual is guaranteed and protected by Article 21 of the Constitution, and that privacy is an intrinsic part of the right to life and personal liberty. The court also found that operating the cameras without the co-trustee's consent amounted to restrictions on his right to free enjoyment of property.</p>
+
+      <h2>The Supreme Court let it stand</h2>
+      <p>The losing side appealed, and on 9 May 2025 a bench of Justice Dipankar Datta and Justice Manmohan dismissed the special leave petition in <em>Indranil Mullick and Others v. Shuvendra Mullick</em>, SLP(C) 12384/2025. In the words <a href="https://theprint.in/judiciary/upholding-calcutta-hc-ruling-on-cctv-surveillance-inside-shared-home-sc-reaffirms-right-to-privacy/2624460/" rel="noopener noreferrer" target="_blank">reported by ThePrint</a>, the court said it was "not inclined to interfere with the impugned judgment and order of the High Court".</p>
+
+      <p>It is worth being precise about what that does and does not achieve, because it is routinely overstated. A dismissal at the special leave stage is not the same as a reasoned Supreme Court judgment deciding the question for the whole country. What it does is leave the High Court's judgment standing. That judgment binds courts in West Bengal and is persuasive elsewhere, and it remains the most directly applicable Indian authority on cameras inside a shared home.</p>
+
+      <h2>What the court did not do</h2>
+      <p>It did not ban cameras on the property, and the remedy it chose is more useful than a prohibition would have been.</p>
+
+      <p>ThePrint's report records that the parties were left at liberty to take an alternative measure for the security of valuable articles preserved in the building, and that the parties shall enjoy joint control over the CCTV cameras, their record and management. The same report notes the court found that the operation of particular cameras, numbered 5, 10, 11, 12 and 13, affected the appellant's right to enjoy his property with dignity.</p>
+
+      <p>Read together, the shape is clear. The objection was never to security as such. It was to one co-owner deciding unilaterally who gets watched inside a home that belongs to both, and to holding the footage alone. Security concerns, on the court's approach, could not justify unilateral and intrusive monitoring of private living areas.</p>
+
+      <h2>Why this matters beyond one family</h2>
+      <p>The facts are specific. The pattern is not.</p>
+      <ol>
+        <li><strong>Joint and ancestral property</strong> is ordinary across India, and the person installing a camera is frequently a co-owner rather than an outsider.</li>
+        <li><strong>The usual legal routes do not fit.</strong> The criminal provisions people reach for concern voyeurism and the capture of private areas, and a camera in a shared corridor is often neither. Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets out those provisions and their limits.</li>
+        <li><strong>The remedy is transferable.</strong> Joint control over the cameras, the recordings and their management is an outcome two co-owners can agree without going near a court, and it is now an outcome a court has endorsed.</li>
+      </ol>
+      <p>If your situation is a landlord or a neighbour rather than a co-owner, that is a different relationship with different authority, and our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> covers it, including what the Allahabad High Court said about where a private camera may point.</p>
+
+      <h2>The other Kolkata reality: 919 closure notices</h2>
+      <p>Alongside the law on private homes sits an enforcement picture that anybody staying in the city should know about, because the scale of it is unusual.</p>
+
+      <p><a href="https://www.businesstoday.in/india/story/fire-safety-violations-919-kolkata-hotels-guest-houses-served-temporary-closure-notices-554113-2026-09-09" rel="noopener noreferrer" target="_blank">Business Today reported on 9 September 2026</a> that after a fire at Shikha Inn, a guest house on Mirza Ghalib Street in central Kolkata, on 19 August killed nine people including seven Bangladeshi nationals, joint teams from the state fire services department, the Kolkata Municipal Corporation and Kolkata Police inspected 960 establishments and served temporary closure notices on 919 of them for non-compliance with mandatory fire safety norms. Only 41 were compliant. Those closed must upgrade their arrangements and obtain a Renewal of Fire Safety Certificate before reapplying for licences.</p>
+
+      <p>That is a different subject from privacy, and it is included for a reason this site keeps returning to. Compliance recorded on paper and compliance that holds on the day are not the same thing, and the only way anybody found out here was an inspection.</p>
+
+      <h2>If there is a camera in your home you did not agree to</h2>
+      <p>Work in this order, which is built so each step preserves the next.</p>
+      <ol>
+        <li><strong>Establish what it actually covers,</strong> photographing its position and angle from where you stand rather than handling it. What falls inside the frame is the fact everything turns on.</li>
+        <li><strong>Do not remove it.</strong> Taking it down destroys the evidence of where it pointed and converts the dispute into one about your conduct.</li>
+        <li><strong>Raise it in writing</strong> with the other occupants, and propose joint control over the cameras and the recordings. That is the remedy a court has already endorsed, which makes it a reasonable opening position rather than a demand.</li>
+        <li><strong>If it covers a bathroom, bedroom or changing area, stop treating it as a family dispute.</strong> That is a criminal matter. Complaints can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police, and in immediate danger call <strong>112</strong>.</li>
+        <li><strong>Check which force covers your address.</strong> In Greater Kolkata this is not obvious, and our <a href="/locations/kolkata">Kolkata page</a> sets out why Sector V and New Town are not Kolkata Police.</li>
+      </ol>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
+
+      <p>For a camera that is openly installed and that everybody knows about, an examination is the wrong instrument, and saying so saves people money. The question there is legal and evidential: what does it cover, who controls the footage, and what was agreed.</p>
+
+      <p>Where an examination earns its place is the case this page has not been about, which is a device nobody mentioned. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what that covers, and our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> explains the physical constraints that decide where a concealed device can be at all.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(kolkataCctvFaqs)}
+    `,
+  },
   {
     slug: "hidden-cameras-in-hyderabad",
     title: "Hidden Cameras in Hyderabad: The City Made Checking a Business Duty",
@@ -1879,6 +2070,7 @@ ${faqHtml(wifiDeviceFaqs)}
       <p>That is a practical route most people do not know exists. The instinct in these disputes is to argue with the neighbour, complain to the society, or do nothing. A time-bound application to the District Magistrate is a fourth option, and a court has now pointed to it.</p>
 
       <h2>Where the line actually falls</h2>
+      <p>A harder version arises where both people own the place. Our guide to <a href="/blog/cctv-in-a-shared-home-kolkata">CCTV inside a shared home</a> covers what the Calcutta High Court decided about co-occupants, and what the Supreme Court did with it.</p>
       <p>The useful way to think about this is not a list of permitted places but a single question asked of each camera: what is inside its field of view, and does any part of that view belong to somebody's private life?</p>
 
       <p>A camera covering a shared entrance, a lift, a staircase or a corridor is an ordinary security measure, and buildings everywhere have them. A camera covering a bathroom, a bedroom or a changing area is not a tenancy dispute at all; it falls squarely within the criminal provisions on voyeurism and on capturing images in circumstances that violate privacy, which our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets out in full with their separate penalty ranges.</p>
@@ -3690,6 +3882,7 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p><strong>Radio spectrum analysis</strong> finds things that are transmitting, at the time they are transmitting. It is the right tool for a networked camera and useless against the memory card case above.</p>
 
       <h2>The law: two sections that protect different people</h2>
+      <p>Neither section fits the case where the camera is openly installed by somebody who also lives there. For that, our guide to <a href="/blog/cctv-in-a-shared-home-kolkata">CCTV inside a shared home</a> sets out the privacy route the Calcutta High Court took instead.</p>
       <p>This is where Indian readers are served worst, and where the position is genuinely worth knowing before anything happens. Two provisions are usually in play, and they do not cover the same ground.</p>
       <div class="table-wrap">
         <table>
