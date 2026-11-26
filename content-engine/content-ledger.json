@@ -1,5 +1,66 @@
 [
   {
+    "slug": "neighbour-cctv-pointing-at-my-house-kochi",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi",
+    "page_type": "city",
+    "location": {
+      "city": "Kochi",
+      "district": "Ernakulam",
+      "state": "Kerala"
+    },
+    "primary_keyword": "neighbour cctv pointing at my house",
+    "secondary_keywords": [
+      "neighbours cctv facing my house",
+      "cctv camera facing my house india",
+      "neighbour camera privacy kerala",
+      "kerala high court cctv neighbour",
+      "can i make my neighbour remove cctv",
+      "private cctv installation rules kerala",
+      "agnes michale cheranalloor cctv",
+      "dpdp act domestic purpose exemption"
+    ],
+    "h2_outline": [
+      "The Kochi case that asked Kerala for rules",
+      "What the same court decided in 2025",
+      "Two High Courts, two different starting points",
+      "What established snooping actually means",
+      "The data protection law will not reach it",
+      "When it stops being a dispute and becomes an offence",
+      "If a camera faces your home in Kochi",
+      "Kochi's camera count is rising either way",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Built as a two-order sequence rather than a single ruling, because the two Kerala orders are usually quoted apart and read as contradictory. The principle order comes first, the evidential order second, and a dedicated section reconciles them by separating the principle from the price of invoking it. A comparison section is given its own place because the site already carries the Allahabad position and a Kerala reader would otherwise take the wrong answer from it. One section exists only to close off the data protection route, which is where readers waste months.",
+    "compared_against": [
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/cctv-in-a-shared-home-kolkata",
+      "/blog/how-to-detect-hidden-cameras",
+      "/locations/kochi"
+    ],
+    "main_device": "two Kerala High Court orders two years apart, the first supplying the principle and the second the evidential burden, with the camera's real field of view as the fact everything turns on",
+    "information_gain": "Covers the relationship none of the site's other camera pages reach on Kerala authority: a camera lawfully fixed to a neighbour's own wall whose view takes in your home. The first order is Agnes Michale v. Cheranalloor Grama Panchayath, 2023 SCC OnLine Ker 387, decided 17 January 2023 by Justice V.G. Arun, on a petition about a neighbour's camera focused on the petitioner's compound and residence. The court said that in the guise of installing CCTV surveillance cameras for security reasons, individuals should not be permitted to snoop into the affairs of their neighbours; held that the situation called for orders or guidelines on the manner in which CCTV cameras are to be installed; impleaded the State Police Chief suo motu as the additional fifth respondent; directed him to frame guidelines in consultation with the State Government; directed the Government Pleader to hand him a copy and convey the court's concern; and posted the matter after one month. No other state has an equivalent direction on record on this site. The second order is Sivasankaran @ Sankarankutty v. State of Kerala, WP(C) 8754/2025, Justice N. Nagaresh, reported by LiveLaw on 15 November 2025 and by Verdictum on 17 November 2025. A couple said cameras fitted with a light, installed by relatives in the adjacent house, faced their drawing room, dining area and bedroom; the households share a private pathway and relations were poor; they gave a representation to the police, got no response, and filed a writ petition. The respondents said the fifth respondent was an eighty year old woman living alone who installed the camera for her own safety and was the complainant in a pending criminal case against the first petitioner. The court treated privacy as a fundamental right under K.S. Puttaswamy, curtailable only on a proportionality assessment, accepted the Agnes Michale principle, and then held that the respondents' security is itself part of Article 21 and that the two are to be balanced delicately when they are in conflict with each other. It found no evidence the camera was aimed at or captured the petitioners' home, found their fear unsupported, found the elderly respondent's security need substantiated, held that unless there is an established case of snooping into the affairs of the petitioners removal cannot be directed, and dismissed the petition. The page then does the comparison the site needed: on 2 November 2026 the Allahabad High Court held that no private CCTV camera can be installed and positioned in such a manner as to interfere with the privacy of a neighbour, which the site already carries, and the page states that this does not bind a Kerala court and that the Kerala formulation starts from evidence rather than from position. It also closes off the Digital Personal Data Protection Act, 2023, whose section 3(c)(i) excludes personal data processed by an individual for any personal or domestic purpose, which is exactly what a household camera is. Carries two further Kochi facts: Onmanorama reported on 16 July 2025 that Kochi Corporation was installing 148 cameras, two in each of the city's 74 divisions, at garbage dumping hotspots, monitored around the clock from a control room at the Yathra Auditorium on Park Avenue Road; and The South First reported on 19 July 2025 that the same contractor's 150 cameras for the city police, to be monitored separately from Thevara, had not yet been installed.",
+    "internal_links_out": [
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/how-to-detect-hidden-cameras",
+      "/locations/kochi",
+      "/blog/bug-sweeping-in-india",
+      "/blog/how-to-find-a-listening-device"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 77 record ledger and the built HTML. Grep showed zero occurrences of Kerala, Kochi, Article 226 and proportionality anywhere in blog-data.ts before this page. The Kochi Locations page owns the commercial intent and the local incident material, including the Infopark Centre camera of July 2025 and the Panangad hostel case, and the police district boundary; it is linked as the hub and none of its material is repeated. The neighbour relationship was partly covered: can-my-landlord-put-cameras carries the Allahabad High Court ruling of 2 November 2026 and the District Magistrate route. That is precisely why this page earns its place rather than being blocked by it, because a Kerala reader taking the Allahabad position as their answer would be wrong about their own burden of proof. Swap test passed decisively: the two governing authorities are Kerala High Court orders, a judgment of one High Court does not bind another state, and the Kerala and Allahabad formulations start from different places, so the answer genuinely differs by location. City gate passed on the Section 5B floor with more than five answer-changing facts from four independent outlets read in place: Bar and Bench of 19 January 2023, SCC Online of 21 January 2023, LiveLaw of 15 November 2025, Verdictum of 17 November 2025, plus Onmanorama and The South First of July 2025 for the city camera programme, and the Edappally Block Panchayat's own site for the Cheranalloor identification.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-26",
+    "date_modified": "",
+    "notes": "Created 26 Nov 2026. Deliberately not published, each for a stated reason. Whether the State Police Chief ever issued the guidelines the 2023 order asked for: no published set could be located, and rather than assert a negative the page and the FAQ both say we could not find one and tell the reader to ask for its number and date before relying on any claimed set. The neutral citation of the 2025 judgment: Verdictum gives 2025:KER:58261 while a search result for the judgment PDF showed 2025:KER:85261, so the page cites the case number WP(C) 8754/2025 from LiveLaw instead of a contested neutral citation. The date of the 2025 judgment: not stated by any outlet read, so the page attributes by report date. Section 120(o) of the Kerala Police Act 2011 was researched as a possible complaint route and dropped: its essential ingredient is nuisance caused through a means of communication, and a camera is not a communication, so it does not fit these facts. The judgment PDF hosted by Bar and Bench could not be text-extracted, so nothing was taken from it. Demand recorded honestly: the primary keyword has strong autocomplete volume but it is heavily United Kingdom, Canada and Australia polluted, with completions such as neighbour cctv on my property uk and neighbours security camera facing my house qld; the India-specific phrasings cctv rules kerala and cctv privacy kerala return no completions at all, and hidden camera kochi and cctv camera kochi are shopping intent. That is now the fourth city in a row showing the same pattern, and this page earns its place on distinct usefulness under the Section 5B gate rather than on local search volume: the query has real volume and every answer currently ranking for it is foreign law. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px against a 14px floor, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible and a Place node for Kochi on both the WebPage and the BlogPosting, all five internal links resolving including the Locations hub, and all external links returning 200 except the e-Gazette PDF of the Bharatiya Nyaya Sanhita, which returns no status to curl while serving browsers and is already cited on three live posts. Length needed four trim passes: the first draft measured 2,491 rendered words against a city range of 1,400 to 2,200, and the published page measures 2,180 words of article plus a 76 word call to action block. During the first trim pass the closing paragraph was found to be word for word identical to the Kolkata post's, which is the Section 8B template failure the ledger exists to catch, and it was rewritten rather than merely shortened.",
+    "revisions": []
+  },
+  {
     "slug": "cctv-in-a-shared-home-kolkata",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/cctv-in-a-shared-home-kolkata",
     "page_type": "city",

@@ -724,7 +724,212 @@ const kolkataCctvFaqs: Faq[] = [
   },
 ];
 
+const kochiNeighbourCameraFaqs: Faq[] = [
+  {
+    q: "Can I make my neighbour remove a CCTV camera facing my house?",
+    a: "In Kerala, not on the strength of privacy alone. In Sivasankaran @ Sankarankutty v. State of Kerala, WP(C) 8754/2025, Justice N. Nagaresh held that unless there is an established case of snooping into the affairs of the petitioners, removal cannot be directed. The couple had alleged the camera covered their drawing room and bedroom; what was missing was material showing that it did.",
+  },
+  {
+    q: "Are there rules in Kerala on how a private person may install CCTV?",
+    a: "The High Court asked for them in January 2023. In Agnes Michale v. Cheranalloor Grama Panchayat it held that the situation called for guidelines on the manner in which CCTV cameras are to be installed, and directed the State Police Chief to frame them with the State Government. We could not locate any published set, so if you are told one exists, ask for its number and date.",
+  },
+  {
+    q: "The Allahabad High Court said a private camera cannot interfere with a neighbour's privacy. Does that apply in Kochi?",
+    a: "It is persuasive, not binding, because a judgment of one High Court does not bind courts in another state. For an address in Kochi the governing court is the Kerala High Court, and its latest word sets a higher evidential bar. Plan on proving what the camera covers rather than on the principle deciding it for you.",
+  },
+  {
+    q: "Does the Digital Personal Data Protection Act help against a neighbour's camera?",
+    a: "No, and this is the point most people get wrong. Section 3(c)(i) says the Act does not apply to personal data processed by an individual for any personal or domestic purpose, and a resident's camera on their own house is the clearest instance of that. What remains is Article 21 and, where a private act is captured, the criminal law.",
+  },
+  {
+    q: "What should I record before I complain about a camera?",
+    a: "The camera's position and, separately, the view from each place you say is exposed, so the two together show the line of sight. Photograph from your own property and do not touch the camera. Then put the request in writing so there is a dated record. In the 2025 case the couple had done that much; it was the absence of coverage evidence that decided it.",
+  },
+  {
+    q: "Is a camera covering my gate a criminal offence?",
+    a: "Usually not. Section 77 of the Bharatiya Nyaya Sanhita concerns watching or capturing the image of a woman engaged in a private act where she would usually expect privacy, and a gate or a shared pathway is not that. A camera with a bathroom or bedroom in frame is a different matter, and it belongs with the police.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "neighbour-cctv-pointing-at-my-house-kochi",
+    title: "A Neighbour's CCTV Facing Your House: What Kerala Decided",
+    seoTitle: "Neighbour's CCTV Facing Your House: Kerala's Position",
+    metaDescription:
+      "Two Kerala High Court orders, one from a panchayat on Kochi's edge, decide when a neighbour's camera comes down. Privacy alone is not enough.",
+    excerpt:
+      "A Kochi panchayat produced the order that asked Kerala for rules on private cameras. Two years later the same High Court refused to move a camera a couple said covered their bedroom. The difference between the two is evidence.",
+    date: "2026-11-26",
+    readTime: "10 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/neighbour-cctv-pointing-at-my-house-kochi.webp",
+    ogImage: "/images/blogs/neighbour-cctv-pointing-at-my-house-kochi.png",
+    coverImageAlt:
+      "Neighbour camera guide cover: two houses with a dashed boundary between them and a camera cone stopping at the line",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Need to establish what a camera actually covers?",
+      text: "In these disputes the deciding fact is the camera's real field of view, and that is an evidential question before it is a legal one. A private consultation can help you work out what can be established, and in what order. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi",
+          name: "Neighbour's CCTV Facing Your House: Kerala's Position",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "Kochi",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Kochi",
+              addressRegion: "Kerala",
+              addressCountry: "IN",
+            },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/neighbour-cctv-pointing-at-my-house-kochi.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#article",
+          headline: "A Neighbour's CCTV Facing Your House: What Kerala Decided",
+          description:
+            "Two Kerala High Court orders, one from a panchayat on Kochi's edge, decide when a neighbour's camera comes down. Privacy alone is not enough.",
+          datePublished: "2026-11-26",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Right to privacy" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "Kochi, Kerala, India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "A Neighbour's CCTV Facing Your House" },
+          ],
+        },
+        faqJsonLd(kochiNeighbourCameraFaqs, "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> In Kerala a neighbour's camera does not come down because it makes you uncomfortable. It comes down if you establish what it covers. The High Court asked the State Police Chief for installation guidelines in a 2023 case from a panchayat on Kochi's edge, then in November 2025 refused to move a camera a couple said covered their bedroom, because nothing showed that it did.</p>
+      </div>
+
+      <p>This is the most common camera dispute in India and the one least honestly written about. Somebody fixes a camera to their own wall, on their own property, entirely lawfully, and its view takes in your gate, your courtyard or your window. Nothing is concealed. Nobody has trespassed.</p>
+
+      <p>Two orders of the Kerala High Court, two years apart, decide how that argument goes for an address in Kochi. Quoted separately they appear to contradict each other. Read together they say something precise, and it is not what either side expects.</p>
+
+      <h2>The Kochi case that asked Kerala for rules</h2>
+      <p>The first order came out of Cheranalloor, a grama panchayat on Kochi's northern edge. The <a href="https://edappallyblockpanchayat.lsgkerala.gov.in/en" rel="noopener noreferrer" target="_blank">Edappally Block Panchayat</a> in Ernakulam district lists it among its panchayats and records Kochi Municipal Corporation as its southern boundary.</p>
+
+      <p>A resident went to the High Court because a neighbour's CCTV camera was, on her case, focused on her compound and her residence. On <a href="https://www.barandbench.com/news/no-right-to-snoop-on-neighbours-by-installing-cctv-cameras-citing-security-reasons-kerala-high-court" rel="noopener noreferrer" target="_blank">Bar and Bench's report of 19 January 2023</a>, Justice V.G. Arun said that in the guise of installing CCTV surveillance cameras for security reasons, individuals should not be permitted to snoop into the affairs of their neighbours. <a href="https://www.scconline.com/blog/post/2023/01/21/kerala-high-court-individuals-should-not-be-permitted-to-snoop-in-neighbour-affairs-through-cctv-legal-research-legal-news-updates/" rel="noopener noreferrer" target="_blank">SCC Online reports the case</a> as <em>Agnes Michale v. Cheranalloor Grama Panchayath</em>, 2023 SCC OnLine Ker 387, decided on 17 January 2023.</p>
+
+      <p>What the court did next is the part worth keeping. It held that the situation called for orders or guidelines on the manner in which CCTV cameras are to be installed, impleaded the State Police Chief on its own motion as the additional fifth respondent, and directed him to frame those guidelines in consultation with the State Government. The Government Pleader was told to hand him a copy of the order and convey the court's concern, and the matter was posted for consideration after a month.</p>
+
+      <p>That is an unusual thing for a court to do about private cameras. We could not locate any published set of guidelines issued in response, so if you are told one exists, ask for its number and its date.</p>
+
+      <h2>What the same court decided in 2025</h2>
+      <p>The second order is the one that governs your expectations now.</p>
+
+      <p>A husband and wife said that cameras, fitted with a light, installed by relatives in the adjacent house faced their drawing room, dining area and bedroom. The two households share a private pathway, relations were poor, and the couple said the cameras had gone up out of animosity. They gave a representation to the police, received no response, and filed a writ petition.</p>
+
+      <p>The other side answered with a fact that changed the texture of the case. The fifth respondent was an eighty year old woman living alone who installed the camera for her own safety, and she was the complainant in a pending criminal case against the first petitioner.</p>
+
+      <p>On <a href="https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-right-to-privacy-right-to-security-cctv-surveillance-dispute-310061" rel="noopener noreferrer" target="_blank">LiveLaw's report of 15 November 2025</a>, Justice N. Nagaresh took the couple's privacy right seriously. Privacy is a fundamental right under <em>K.S. Puttaswamy v. Union of India</em>, curtailed only if a proportionality assessment is satisfied, and the judgment accepted the <em>Agnes Michale</em> principle that unnecessary snooping into a neighbour's personal affairs cannot be justified.</p>
+
+      <p>And then it weighed the other side. The respondents' security is itself part of the right to life under Article 21, and the two rights, as the court put it, are to be balanced delicately when they are in conflict with each other. <a href="https://www.verdictum.in/court-updates/high-courts/kerala-high-court/sivasankaran-sankarankutty-another-v-state-of-kerala-others-2025ker58261-1598195" rel="noopener noreferrer" target="_blank">Verdictum's report</a> records that the court found no evidence the camera was aimed at or captured the petitioners' home, found their fear of surveillance unsupported, and found the elderly respondent's security need substantiated. Unless there is an established case of snooping into the affairs of the petitioners, it held, removal cannot be directed. <em>Sivasankaran @ Sankarankutty v. State of Kerala</em>, WP(C) 8754/2025, was dismissed.</p>
+
+      <h2>Two High Courts, two different starting points</h2>
+      <p>This site has already reported the other Indian position, and the gap between them is the practical reason this page exists.</p>
+
+      <p>On 2 November 2026 <a href="https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-private-cctv-cameras-interfere-neighbour-privacy-556879" rel="noopener noreferrer" target="_blank">LiveLaw reported</a> that the Allahabad High Court held that no private CCTV camera can be installed and positioned in such a manner as to interfere with the privacy of a neighbour, and pointed the petitioner to a time bound application to the District Magistrate. Our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord or a neighbour can put cameras up</a> sets that out in full.</p>
+
+      <p>A judgment of one High Court does not bind courts in another state. The Allahabad formulation starts from position and asks whether the camera interferes. The Kerala formulation starts from evidence and asks whether snooping has been established. Both are available to a Kerala litigant, but only one is binding in Kochi, and it is the stricter one.</p>
+
+      <h2>What "established snooping" actually means</h2>
+      <p>This is where the two orders stop contradicting each other. <em>Agnes Michale</em> supplies the principle. <em>Sivasankaran</em> supplies the price of invoking it. The principle is that security is not a licence to watch your neighbour. The price is that you have to show the watching.</p>
+
+      <p>An allegation about which rooms a camera faces is not proof of what it records. A camera bracketed near your boundary may cover the pathway and nothing else; the same camera turned a few degrees may hold your front door in frame all day. From your own compound, those two installations look identical.</p>
+
+      <p>So the question that decides these cases is narrow and factual: what is inside the frame, established by documenting the camera's position, the sight line from the places you say are exposed, and the obstructions in between.</p>
+
+      <h2>The data protection law will not reach it</h2>
+      <p>One correction worth making early, because people spend months on it. The <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener noreferrer" target="_blank">Digital Personal Data Protection Act, 2023</a> does not apply here. Section 3(c)(i) excludes personal data processed by an individual for any personal or domestic purpose, and a resident's camera on their own house, for their own security, is the clearest instance of that exclusion.</p>
+
+      <p>There is no notice to demand, no consent to withhold and no grievance officer to write to. What remains is the privacy jurisprudence under Article 21, which is what both Kerala orders are built on, and the criminal law where a private act has been captured.</p>
+
+      <h2>When it stops being a dispute and becomes an offence</h2>
+      <p>Section 77 of the <a href="https://egazette.gov.in/WriteReadData/2023/250883.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nyaya Sanhita, 2023</a> concerns watching or capturing the image of a woman engaged in a private act in circumstances where she would usually expect privacy. A camera covering a gate, a lane or a shared pathway is not within that provision. A camera with a bathroom, a bedroom or a changing area in its frame is in a different category, and the answer there is a police complaint rather than a conversation.</p>
+
+      <p>Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets out those provisions and their limits, including the gap that catches people out when the person recorded is a man.</p>
+
+      <h2>If a camera faces your home in Kochi</h2>
+      <p>Work in this order, which is built so that each step preserves the next.</p>
+      <ol>
+        <li><strong>Document the sight line, not the camera.</strong> Photograph the camera's position from your own property, then the view from each place you say is exposed. The pair is what shows coverage; a photograph of a camera on a wall shows nothing about where it points.</li>
+        <li><strong>Do not touch it, cover it or move it.</strong> Any of those destroys the evidence of where it pointed and turns the dispute into one about your conduct.</li>
+        <li><strong>Put the request in writing and keep the date.</strong> The 2025 petitioners had a representation on record with the police, and that part of their case was sound. The coverage evidence was what was missing.</li>
+        <li><strong>Check which force your address falls under.</strong> Ernakulam district holds two separate police districts and the boundary is not where people assume. Our <a href="/locations/kochi">Kochi page</a> sets out why Kakkanad is Kochi City while Aluva is not.</li>
+        <li><strong>If a bathroom, bedroom or changing area is in frame, stop negotiating.</strong> Complaints can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police, and in immediate danger call <strong>112</strong>.</li>
+      </ol>
+
+      <h2>Kochi's camera count is rising either way</h2>
+      <p>Private cameras are only part of what is now pointed at a Kochi street. <a href="https://www.onmanorama.com/news/kerala/2025/07/16/cctv-surveillance-curb-garbage-dumping-live-kochi.html" rel="noopener noreferrer" target="_blank">Onmanorama reported on 16 July 2025</a> that Kochi Corporation was installing 148 cameras, two in each of the city's 74 divisions, aimed at garbage dumping hotspots and monitored around the clock from a control room at the Yathra Auditorium on Park Avenue Road. The same company was to install 150 more for the city police, monitored separately from Thevara, and <a href="https://thesouthfirst.com/kerala/cctv-network-to-curb-crime-and-waste-dumping-in-kochi/" rel="noopener noreferrer" target="_blank">The South First reported on 19 July 2025</a> that the police installation had not begun. Both reports are from the middle of last year.</p>
+
+      <p>None of that changes your neighbour's camera. It does mean the honest answer to who can see you in this city is longer than it used to be, and that who holds a recording is no longer only a question about the police.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically present and what was transmitting in the bands examined while the examiner was there. It cannot establish the absence of a device that records to internal memory and transmits nothing.</p>
+
+      <p>For a camera openly installed on a neighbour's wall, a sweep is the wrong instrument, and saying so saves people money. The work that counts there is documentary: what the camera covers, from where, and with what obstructions, recorded so somebody else can check it.</p>
+
+      <p>The opposite case, a device nobody mentioned, is the one an examination is built for, and our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what that involves. Our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> covers the physical constraints that decide where such a device can be at all.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(kochiNeighbourCameraFaqs)}
+    `,
+  },
   {
     slug: "cctv-in-a-shared-home-kolkata",
     title: "CCTV Inside a Shared Home: What Kolkata's Courts Settled",
@@ -859,7 +1064,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>The usual legal routes do not fit.</strong> The criminal provisions people reach for concern voyeurism and the capture of private areas, and a camera in a shared corridor is often neither. Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> sets out those provisions and their limits.</li>
         <li><strong>The remedy is transferable.</strong> Joint control over the cameras, the recordings and their management is an outcome two co-owners can agree without going near a court, and it is now an outcome a court has endorsed.</li>
       </ol>
-      <p>If your situation is a landlord or a neighbour rather than a co-owner, that is a different relationship with different authority, and our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> covers it, including what the Allahabad High Court said about where a private camera may point.</p>
+      <p>If your situation is a landlord or a neighbour rather than a co-owner, that is a different relationship with different authority, and our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> covers it, including what the Allahabad High Court said about where a private camera may point. For an address in Kerala the answer is stricter, and our guide to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's CCTV facing your house in Kochi</a> explains why.</p>
 
       <h2>The other Kolkata reality: 919 closure notices</h2>
       <p>Alongside the law on private homes sits an enforcement picture that anybody staying in the city should know about, because the scale of it is unusual.</p>
@@ -2066,6 +2271,8 @@ ${faqHtml(wifiDeviceFaqs)}
       <p>On 2 November 2026 <a href="https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-private-cctv-cameras-interfere-neighbour-privacy-556879" rel="noopener noreferrer" target="_blank">LiveLaw reported</a> that the Allahabad High Court, on a petition by Yogendra Maurya, whose neighbour's CCTV camera covered the entry and exit points of his house, held that "no private CCTV camera can be installed and positioned in such a manner as to interfere with the privacy of a neighbour". The bench was Justice Ajit Kumar and Justice Garima Prashad.</p>
 
       <p>Read the remedy as carefully as the holding, because it is the part you can use. The court did not order the camera removed or repositioned. It disposed of the writ petition and directed the petitioner to apply to the District Magistrate, and said that if he does, the District Magistrate must decide the application within one month.</p>
+
+      <p>Not every High Court starts from the same place. In Kerala the burden sits on the person objecting, and our guide to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's CCTV facing your house in Kochi</a> sets out what that court asks you to establish before it will move a camera.</p>
 
       <p>That is a practical route most people do not know exists. The instinct in these disputes is to argue with the neighbour, complain to the society, or do nothing. A time-bound application to the District Magistrate is a fourth option, and a court has now pointed to it.</p>
 
