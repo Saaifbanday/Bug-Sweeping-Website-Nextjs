@@ -751,7 +751,196 @@ const kochiNeighbourCameraFaqs: Faq[] = [
   },
 ];
 
+const ahmedabadCctvHackFaqs: Faq[] = [
+  {
+    q: "Can CCTV cameras really be hacked?",
+    a: "Yes, and there is an Indian case on the record rather than a hypothetical. Ahmedabad Cyber Crime Branch registered a case on 17 February 2025 after footage from a maternity hospital's labour room appeared on paid channels. On the police account carried by PTI, the recorder was entered by a brute force attack against an unsecured IP address and port. Nothing was planted and nothing was concealed. The cameras were the hospital's own.",
+  },
+  {
+    q: "How would I know whether my own cameras are exposed?",
+    a: "The risky combination is remote viewing switched on, a port opened on the router to allow it, and a recorder password that is the factory default or reused from somewhere else. Look at the recorder rather than the cameras: check the list of user accounts for names you did not create, check whether remote access is enabled, and check whether anyone outside the premises still has the password.",
+  },
+  {
+    q: "Is hacking a CCTV system a criminal offence in India?",
+    a: "The accused in the Ahmedabad case were first booked under sections 66E and 67 of the Information Technology Act, which cover capturing or transmitting private images without consent and obscene material in electronic form. Reports record that further provisions were added later, including section 66F of the same Act. The point for a premises owner is that the offence is committed against the people recorded, who were in the owner's care.",
+  },
+  {
+    q: "Should I just take my cameras off the internet?",
+    a: "If nobody genuinely needs to watch the feed from outside the building, then yes, and that single change removes most of the exposure. If remote viewing is needed, prefer the manufacturer's own application over opening a port on the router to the recorder, change every default credential, and keep the recorder's firmware current. Those are the measures the Cyber Swachhta Kendra alert sets out.",
+  },
+  {
+    q: "Can a bug sweep tell me whether my CCTV was hacked?",
+    a: "No, and anybody who says otherwise is selling you the wrong thing. A physical examination finds devices that were put somewhere they should not be. Whether a recorder was accessed from outside is answered from its own logs, its account list and the router's configuration. They are different jobs, and the second one is usually cheaper.",
+  },
+  {
+    q: "What should I ask a hospital, salon or PG about their cameras?",
+    a: "Four questions, and they are reasonable ones to ask. Who can view the live feed, and from where. Is remote access enabled at all. How long is footage kept and on what device. And who else holds the recorder password, including any installer or contractor who set it up and never came back. A place that cannot answer those has not thought about it.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "can-cctv-be-hacked-ahmedabad",
+    title: "Can CCTV Be Hacked? The Ahmedabad Case That Answered It",
+    seoTitle: "Can CCTV Be Hacked? What the Ahmedabad Case Showed",
+    metaDescription:
+      "Ahmedabad Cyber Crime traced labour room footage sold online to a brute forced recorder. What that case shows about your own cameras, and what to check.",
+    excerpt:
+      "The camera people should worry about in Ahmedabad was not hidden. It was installed openly, by the premises, for a good reason, and somebody else was watching it. A police case from February 2025 is the clearest Indian example.",
+    date: "2026-11-26",
+    readTime: "9 min read",
+    category: "City Guides",
+    coverImage: "/images/blogs/can-cctv-be-hacked-ahmedabad.webp",
+    ogImage: "/images/blogs/can-cctv-be-hacked-ahmedabad.png",
+    coverImageAlt:
+      "CCTV hacking guide cover: a recorder box with cameras attached and an unauthorised connection arriving from outside the building",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about who can reach your camera system?",
+      text: "Whether a recorder has been reached from outside is answered from its own records rather than from a walk around the building, and it helps to know which question you are asking before you pay for an answer. A private consultation can help you work that out. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad",
+          name: "Can CCTV Be Hacked? What the Ahmedabad Case Showed",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "Ahmedabad",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Ahmedabad",
+              addressRegion: "Gujarat",
+              addressCountry: "IN",
+            },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/can-cctv-be-hacked-ahmedabad.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#article",
+          headline: "Can CCTV Be Hacked? The Ahmedabad Case That Answered It",
+          description:
+            "Ahmedabad Cyber Crime traced labour room footage sold online to a brute forced recorder. What that case shows about your own cameras, and what to check.",
+          datePublished: "2026-11-26",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Computer security" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "Ahmedabad, Gujarat, India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Can CCTV Be Hacked?" },
+          ],
+        },
+        faqJsonLd(ahmedabadCctvHackFaqs, "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Yes, and the clearest Indian example was worked by Ahmedabad Cyber Crime Branch. A case registered on 17 February 2025 traced labour room footage being sold online back to a hospital's own recorder, entered from outside. Every page on this site about concealed devices assumes somebody planted something. This case is the opposite, and for most premises it is the likelier risk.</p>
+      </div>
+
+      <p>Everything else on this site is about a device that should not be there. This page is about the cameras that should.</p>
+
+      <p>Ahmedabad produced the Indian case that makes the difference concrete, and it is worth knowing in detail if you run a clinic, a salon, a hostel, a showroom or an office floor, because the exposure it describes is ordinary rather than exotic.</p>
+
+      <h2>What Ahmedabad Cyber Crime found</h2>
+      <p>On 17 February 2025 Ahmedabad police registered a case after video recorded inside a hospital labour room began circulating. <a href="https://www.newsdrum.in/national/hospital-cctv-hacking-case-gujarat-cops-arrest-2-from-maharashtra-one-from-surat-8749619" rel="noopener noreferrer" target="_blank">PTI reported on 23 February 2025</a> that the Ahmedabad Cyber Crime Branch had traced the footage to Payal Maternity Home in Rajkot, and that three more arrests that day took the total to six, two from Sangli in Maharashtra and one from Surat.</p>
+
+      <p>The clips showed women patients being examined inside a room they had every reason to treat as closed. On the police account, they were advertised through three YouTube channels whose descriptions pointed to a Telegram group, and sold for about two thousand rupees each. The accused were booked under sections 66E and 67 of the <a href="https://www.meity.gov.in/static/uploads/2024/03/IT_amendment_act2008-1_0.pdf" rel="noopener noreferrer" target="_blank">Information Technology Act</a>, which deal with capturing or transmitting private images without consent and with obscene material in electronic form.</p>
+
+      <h2>How the system was actually entered</h2>
+      <p>This is the part worth sitting with, because it is unremarkable.</p>
+
+      <p>On the police release carried by PTI, the accused who obtained the footage used a brute force attack against an unsecured IP address and port to reach the recorder. No device was planted in the room. Nobody walked in. The hospital's own cameras, doing the job they were installed to do, were reachable from the public internet, and the credentials protecting them did not hold.</p>
+
+      <p>A specialist cyber crime outlet, <a href="https://the420.in/gujarat-labour-room-cctv-hack-eight-arrested/" rel="noopener noreferrer" target="_blank">The 420</a>, reported from the chargesheet that investigators relied on IP logs linking two of the accused to the hospital recorder, on shared access credentials and on access details circulated as QR codes, and that the material was distributed through more than twenty channels under a single Telegram group, with payment taken by UPI and gift vouchers. The same report puts arrests at eight and the first chargesheet, against seven, on 17 May.</p>
+
+      <h2>What else was being sold</h2>
+      <p>The hospital was not the whole of it. <a href="https://english.gujaratsamachar.com/news/gujarat/ahmedabad-cyber-crime-uncovers-sale-of-cctv-footage-from-bus-stations-beauty-parlours" rel="noopener noreferrer" target="_blank">Gujarat Samachar reported on 23 February 2025</a> that the Ahmedabad investigation had found footage being sold from marriage halls, bus stations, mall dressing rooms and beauty parlours, with free clips used to advertise paid subscriptions priced between eight hundred and four thousand rupees, and earnings estimated at eight to ten lakh rupees. That report also states that footage from around eighty hospitals had been sold, which is its own figure and a much larger claim than the police statements carry, so treat it as the newspaper's account rather than a settled fact.</p>
+
+      <p>What the list has in common is not the technology. It is that every one of those places is somewhere people undress, wait, or assume they are unobserved, and every one of them had cameras for a defensible reason.</p>
+
+      <h2>The part that applies to your own cameras</h2>
+      <p>India's own advisory on this is old, which is the point. The <a href="https://csk.gov.in/alerts/IOT_Botnets_Targeting_Vulnerable_IP_cameras.html" rel="noopener noreferrer" target="_blank">Cyber Swachhta Kendra</a>, run under CERT-In at the Ministry of Electronics and Information Technology, issued a high severity alert in June 2017 about worms that spread by scanning the public internet for devices running with insecure default credentials, and named routers, digital video recorders and IP cameras together.</p>
+
+      <p>Its countermeasures have not changed and still describe what most premises have not done: change the manufacturer's default credentials and enforce password complexity, apply firmware updates, disable UPnP unless it is genuinely needed, set an account lockout policy so repeated guesses fail, shut down ports and services nobody uses, and turn on logging so there is a record to read afterwards.</p>
+
+      <p>Read that list against the Ahmedabad facts and the case stops looking sophisticated. An unsecured port and credentials that could be guessed is the first two items.</p>
+
+      <h2>Why a concealed camera is the smaller risk here</h2>
+      <p>For a business, the arithmetic is uncomfortable. A concealed camera has to be physically brought in, placed, powered and eventually retrieved, by somebody who can get into the room. A recorder reachable from the internet can be found by software that is not looking for you in particular, from anywhere, repeatedly, and the first sign of it is usually the footage turning up somewhere else.</p>
+
+      <p>Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers the first problem, and our guide to <a href="/blog/unknown-device-on-my-wifi">identifying unknown devices on your network</a> covers the habit that catches the second, which is knowing what is actually connected to your own network and what each thing is for.</p>
+
+      <h2>The other Ahmedabad pattern: places people trust</h2>
+      <p>The city's other recorded camera case runs the opposite way and makes the same point about trusted premises. <a href="https://deshgujarat.com/2025/10/03/man-booked-for-filming-minor-girl-in-changing-room-of-cloths-store-of-palladium-mall-ahmedabad/" rel="noopener noreferrer" target="_blank">DeshGujarat reported on 3 October 2025</a> that a fourteen year old girl trying on clothes at a store in Palladium Mall on SG Highway found a mobile phone lying in the trial room, took it to her mother, and that Vastrapur police registered a case under the POCSO Act after four objectionable recordings were found on it.</p>
+
+      <p>No hacking there, and no specialist equipment either. A phone on the floor of a changing room. Our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotel rooms and PGs</a> sets out what to look at in a room you did not prepare.</p>
+
+      <h2>What to ask before you trust a premises</h2>
+      <p>Four questions, usable by a patient, a resident or a customer, and worth asking of your own business first.</p>
+      <ol>
+        <li><strong>Who can view the live feed, and from where.</strong> The answer should be a short list of named people, not a role.</li>
+        <li><strong>Is remote viewing enabled at all.</strong> If nobody needs to watch from outside the building, the safest configuration is the one where they cannot.</li>
+        <li><strong>How long is footage kept, and on what device.</strong> A recorder sitting in a room anyone can walk into is a different proposition from one kept behind a door.</li>
+        <li><strong>Who else has the recorder password.</strong> The installer who set the system up years ago is the answer more often than anybody expects.</li>
+      </ol>
+
+      <p>If you are in Ahmedabad and the question is about your own premises rather than somebody else's, our <a href="/locations/ahmedabad">Ahmedabad page</a> sets out what a physical examination covers across the city and where devices have actually surfaced here.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically present and what was transmitting in the bands examined while the examiner was there. It cannot establish the absence of a device that records to internal memory and transmits nothing.</p>
+
+      <p>And it cannot tell you whether a recorder was reached from outside. That answer lives in the recorder's own logs, its list of accounts and the router in front of it, and the work is closer to an audit than to a search. Being clear about which of the two questions you are asking is what stops people paying for the wrong one. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what the physical examination does cover.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(ahmedabadCctvHackFaqs)}
+    `,
+  },
   {
     slug: "neighbour-cctv-pointing-at-my-house-kochi",
     title: "A Neighbour's CCTV Facing Your House: What Kerala Decided",
@@ -2837,7 +3026,7 @@ ${faqHtml(smartTvFaqs)}
     coverImage: "/images/blogs/is-my-phone-listening-to-me.webp",
     ogImage: "/images/blogs/is-my-phone-listening-to-me.png",
     coverImageAlt:
-      "Is Your Phone Listening to You guide cover: a permission-locked microphone beside an unlocked screen streaming data out, on a dark grid background",
+      "Is Your Phone Listening to You guide cover: a permission-locked microphone beside an open screen streaming data out, on a dark grid background",
     publishedBy: "BugSweepingTSCM",
     cta: {
       heading: "Worried it is not an app but a device?",
@@ -3583,6 +3772,8 @@ ${faqHtml(unknownTrackerFaqs)}
       <p>If you believe you are in immediate danger, call <strong>112</strong>. Otherwise, and only if it is safe to do so, leave the device exactly where it is. Photograph it in place, including enough of the surroundings to show where it was and what it faced, and note the time. Do not handle it, unplug it, open it or take it with you. Do not confront the person you suspect: in the Noida case the people who had placed the camera came back to the room for it, and in Chandigarh and Hosur the people charged were living alongside the complainants.</p>
       <p>Then report it to the police. Where images may already have been shared, a complaint can also be filed on the national cybercrime portal at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>. Our <a href="/blog/how-to-detect-hidden-cameras">hidden camera guide</a> sets out the full reporting route, which Indian provisions apply to whom, and one widely recommended helpline that is the wrong number for this. If you are also worried that a phone rather than a room is the problem, that is a separate examination and our guide on <a href="/blog/is-someone-monitoring-your-phone">whether someone is monitoring your phone</a> covers it.</p>
 
+      <p>And the camera in the room is not the only way footage escapes. Our guide to <a href="/blog/can-cctv-be-hacked-ahmedabad">whether CCTV can be hacked</a> sets out an Indian case where the recordings came from a building's own, entirely legitimate, camera system.</p>
+
       <h2>What a check can and cannot establish</h2>
       <p>A check of a room you are staying in reports what was found in the places you could reach, by the methods you used, in the conditions at the time. It cannot establish that a room has never been recorded, and it cannot keep it private after you leave. A professional examination widens the methods and the access considerably, and our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping in India</a> explains what those instruments add and what they do not, but the same limitation holds: finding nothing is not the same statement as there being nothing. In a room that dozens of other people have occupied and will occupy, that limitation is the honest frame for the whole exercise.</p>
 
@@ -4119,6 +4310,8 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>Report it as a first information report at a police station. Section 173(1) of the <a href="https://egazette.gov.in/WriteReadData/2023/250884.pdf" rel="noopener noreferrer" target="_blank">Bharatiya Nagarik Suraksha Sanhita, 2023</a> carries three rights worth knowing. Information about a cognizable offence may be given irrespective of the area where the offence was committed, which is the zero first information report, so a traveller can report after getting home rather than only at the scene. The information may be given by electronic communication, to be signed within three days. And where a woman gives information about an offence under section 77, the proviso says it shall be recorded by a woman police officer or any woman officer. Section 173(2) entitles the informant to a copy of what was recorded, free of cost and forthwith.</p>
       <p>If the footage is circulating online, or someone is making demands with it, use cybercrime.gov.in in addition. And the correction that matters most: <strong>do not call 1930</strong>. That number is the national helpline for urgent financial cyber fraud, operating as the front end of the financial fraud reporting system, and its published guidance asks callers for transaction details. It is recommended constantly in Indian advice on hidden cameras and it is the wrong desk.</p>
       <p>One more thing worth carrying. Reporting in this area frequently misstates the law: a 2025 report of a changing room case in Madhya Pradesh cited section numbers that mix the new code with the old one and do not exist as given. And in a widely covered 2022 case at a university in Punjab, the allegation that drove national protest, that dozens of videos of other residents had been taken and leaked, was not borne out by the police investigation, which reported finding no objectionable videos of other women on the accused's phone. Numbers circulate faster in these cases than investigations can correct them, which is a good reason to check the provision and the findings rather than rely on a summary.</p>
+
+      <p>One more case is worth keeping in mind, because it is not a hidden camera at all. In the Ahmedabad investigation of February 2025 the footage being sold had come from a hospital's own recorder, reached from outside. Our guide to <a href="/blog/can-cctv-be-hacked-ahmedabad">whether CCTV can be hacked</a> covers what that means for a premises you are asked to trust.</p>
 
       <h2>What a sweep can and cannot establish</h2>
       <p>A sweep reports what was found in the areas examined, by the methods used, under the conditions present, at the time of the visit. It cannot prove that a room has never been watched, and it cannot keep it clean afterwards, which is the honest starting point for <a href="/blog/how-often-should-a-business-sweep-for-bugs">deciding how often to repeat one</a>. A camera that was powered down during the visit, or one storing to a memory card, may leave nothing for any instrument to register, which is why the physical examination matters as much as anything electronic. If you want the preparation sequence before a sweep, including what to agree in advance about a device that is found, our <a href="/blog/bug-sweeping-in-india">national guide</a> covers it, the <a href="/blog/signs-your-office-is-bugged">guide to office indicators</a> covers the workplace version of the same question, and if the space you are worried about is a car rather than a room, the <a href="/blog/vehicle-gps-tracking">guide to vehicle trackers</a> is the one to read.</p>

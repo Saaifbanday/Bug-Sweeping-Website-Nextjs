@@ -1,5 +1,65 @@
 [
   {
+    "slug": "can-cctv-be-hacked-ahmedabad",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad",
+    "page_type": "city",
+    "location": {
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat"
+    },
+    "primary_keyword": "can cctv be hacked",
+    "secondary_keywords": [
+      "cctv camera hack ho sakta hai",
+      "is my security camera hacked",
+      "cctv footage leaked india",
+      "dvr hacked india",
+      "ahmedabad cyber crime cctv case",
+      "hospital cctv hacking gujarat",
+      "cctv default password risk",
+      "who can view my cctv"
+    ],
+    "h2_outline": [
+      "What Ahmedabad Cyber Crime found",
+      "How the system was actually entered",
+      "What else was being sold",
+      "The part that applies to your own cameras",
+      "Why a concealed camera is the smaller risk here",
+      "The other Ahmedabad pattern: places people trust",
+      "What to ask before you trust a premises",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Inverts the premise every other page on the site runs on. Each existing camera page assumes a device was planted; this one assumes the cameras are legitimate, installed by the premises, and reached from outside. The case comes first and the technique second, deliberately, because the technique is unremarkable and the page's argument depends on the reader seeing that. A dedicated section puts the two risks side by side so a business owner can see which one actually applies to them, and the closing section refuses the sale by stating plainly that a physical sweep cannot answer this question at all.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/unknown-device-on-my-wifi",
+      "/locations/ahmedabad"
+    ],
+    "main_device": "a police case in which the compromised cameras were the premises' own, used to separate the question a physical sweep answers from the question it cannot",
+    "information_gain": "The site had no coverage at all of compromised legitimate camera systems: a grep of blog-data.ts before this page returned zero occurrences of DVR, NVR, Rajkot, labour room, default password and Telegram, and one incidental mention of IP camera. PTI reported on 23 February 2025 that Ahmedabad police had registered a case on 17 February 2025 after labour room video began circulating, that the Ahmedabad Cyber Crime Branch traced it to Payal Maternity Home in Rajkot, and that three further arrests that day, two from Sangli in Maharashtra and one from Surat, took the total to six. On the police release the recorder was reached by a brute force attack against an unsecured IP address and port; the clips were advertised through three YouTube channels whose descriptions pointed to a Telegram group and sold at about two thousand rupees each; and the accused were booked under sections 66E and 67 of the Information Technology Act. The 420, a specialist cyber crime outlet, reported from the chargesheet that investigators relied on IP logs linking two accused to the hospital recorder, on shared access credentials and on access details circulated as QR codes, that distribution ran through more than twenty channels under one Telegram group with payment by UPI and gift vouchers, that arrests reached eight, and that the first chargesheet against seven was filed on 17 May. Gujarat Samachar reported on 23 February 2025 that the investigation found footage sold from marriage halls, bus stations, mall dressing rooms and beauty parlours, with free clips advertising subscriptions priced between eight hundred and four thousand rupees and earnings estimated at eight to ten lakh rupees. The page carries the official Indian guidance as the actionable half: the Cyber Swachhta Kendra, run under CERT-In at the Ministry of Electronics and Information Technology, issued a high severity alert in June 2017 about worms that spread by scanning the public internet for devices running with insecure default credentials, naming routers, digital video recorders and IP cameras together, and its countermeasures are set out and matched against what the Ahmedabad facts show. Second Ahmedabad fact: DeshGujarat reported on 3 October 2025 that a fourteen year old girl trying on clothes at a store in Palladium Mall on SG Highway found a mobile phone in the trial room and that Vastrapur police registered a case under the POCSO Act after four objectionable recordings were found on it.",
+    "internal_links_out": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/unknown-device-on-my-wifi",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/locations/ahmedabad",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 78 record ledger and the built HTML. The Ahmedabad Locations page owns the commercial intent and the local vehicle tracker cases of September 2026 and 2023; it is linked as the hub and none of its material is repeated. Nothing on the site covered a legitimate camera system being compromised rather than a device being planted, which is the whole subject here. The swap test is the honest weak point and is recorded as such: the technique is not local and the Cyber Swachhta Kendra guidance is national, so what makes this an Ahmedabad page is that the FIR, the investigation and the arrests were the Ahmedabad Cyber Crime Branch's, that the city's second recorded camera case at Palladium Mall runs the same trusted premises theme, and that the Ahmedabad Locations page is the hub for readers acting on it. The page says plainly that the hospital was in Rajkot rather than implying otherwise. City gate passed on the Section 5B floor with more than five answer-changing facts from four independent sources read in place: PTI via NewsDrum of 23 February 2025, Gujarat Samachar of 23 February 2025, The 420, DeshGujarat of 3 October 2025, and the Cyber Swachhta Kendra alert itself.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-26",
+    "date_modified": "",
+    "notes": "Created 26 Nov 2026, the second article of the day. Deliberately not published, each for a stated reason. The Deccan Herald report tracking the arrest count to seven could not be read, because that host returns 403 to automated requests, so the arrest progression rests on PTI for six and The 420 for eight. The Gujarat Samachar figure that footage from around eighty hospitals had been sold is carried but explicitly attributed to that newspaper and flagged on the page as a much larger claim than the police statements support, rather than stated as fact. The reported claim that one accused learned the technique from foreigners, and the reported Romania and United States contacts, are omitted: they rest on single sources and add nothing a reader can act on. No tool names, no port numbers and no procedure are given anywhere on the page; the technique is described only at the level the police release itself was reported, which is a brute force attack against an unsecured IP address and port. An Ahmedabad PG owner case surfaced in search summaries but the only source was a headline aggregator, so it was omitted under Section 6. Demand recorded honestly: can cctv be hacked returns a full set of completions and cctv camera hack ho sakta hai shows the Indian phrasing, but cctv hacking ahmedabad returns nothing and both hidden camera ahmedabad and cctv camera ahmedabad are shopping intent. That is the fifth city in a row with the same pattern. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px against a 14px floor, one H1, no heading skips, zero em or en dashes, zero emoji, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible and a Place node for Ahmedabad on both the WebPage and the BlogPosting, all five internal links resolving including the Locations hub, all six external links returning 200, rendered length 1,810 words inside the 1,400 to 2,200 city range on the first draft. One defect was caught and fixed: the banned phrase check failed on Unlock, which the word unlocked in the phrase an unlocked room had triggered, and the sentence was rewritten. The same sweep found the word in the cover image alt text of is-my-phone-listening-to-me, written earlier in this programme and missed because the QA script reads only the article body, and that alt text was corrected. Two further occurrences remain in is-someone-monitoring-your-phone, which predates this engine; they are body copy and changing them is a content edit that needs its own decision, so they were left and reported to the owner instead.",
+    "revisions": []
+  },
+  {
     "slug": "neighbour-cctv-pointing-at-my-house-kochi",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/neighbour-cctv-pointing-at-my-house-kochi",
     "page_type": "city",
