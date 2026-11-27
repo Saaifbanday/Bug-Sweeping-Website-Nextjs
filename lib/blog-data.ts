@@ -890,7 +890,188 @@ const societyCctvFaqs: Faq[] = [
   },
 ];
 
+const droneFaqs: Faq[] = [
+  {
+    q: "Is it legal to fly a drone over my house in India?",
+    a: "The Drone Rules, 2021 answer a different question from the one you are asking. They divide Indian airspace into green, yellow and red zones. In a green zone, which is airspace up to 400 feet that has not been marked yellow or red, no permission at all is needed for a drone weighing up to 500 kilograms. Most residential neighbourhoods are green zone airspace, so the flight over your roof may require nothing from anybody.",
+  },
+  {
+    q: "Can I shoot down or jam a drone over my property?",
+    a: "No to both, and the second one is a criminal risk you may not expect. The Department of Telecommunications advisory of July 2022 states that signal jamming devices, including jammers and blockers, are generally illegal for private individuals and organisations to procure or use. Bringing down an aircraft in flight over a residential area creates its own obvious hazards. Neither is a remedy, and both convert you from complainant to respondent.",
+  },
+  {
+    q: "How do I know whether the drone needed permission?",
+    a: "Check the drone airspace map on the Digital Sky platform, which the Ministry of Civil Aviation makes freely available without any login. It marks the yellow and red zones. If your address is in a yellow zone, flight there required permission from the relevant air traffic control authority, and in a red zone it required permission from the Central Government. That single check tells you whether you are reporting an unauthorised flight or a lawful one.",
+  },
+  {
+    q: "Does a drone operator in India need a licence and registration?",
+    a: "Usually yes. Under the Drone Rules, 2021 no person may operate an unmanned aircraft system without first registering it on the Digital Sky platform and obtaining a unique identification number, unless exempted. A remote pilot licence is also required, with exemptions for nano drones, which weigh up to 250 grams, and for micro drones, up to two kilograms, flown for non-commercial purposes.",
+  },
+  {
+    q: "What is the penalty for flying a drone illegally in India?",
+    a: "The Drone Rules, 2021 reduced the maximum penalty for violations to one lakh rupees, down from several lakhs under the earlier regime. That is the aviation penalty. It sits separately from any criminal liability arising from what the drone recorded, which is the part that matters if the flight was about you rather than about the sky.",
+  },
+  {
+    q: "Who do I report a drone to?",
+    a: "The local police, in writing, with the date, time, duration and direction of flight, and any photographs you took from the ground. If you believe you are in immediate danger, call 112. Where images of a person have been captured or circulated, a complaint can also be filed at cybercrime.gov.in, which routes to the relevant state police. A complaint there does not automatically become an FIR.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "drone-flying-over-my-house-india",
+    title: "A Drone Over Your House: What You Can Actually Do in India",
+    seoTitle: "Drone Flying Over My House: What You Can Do in India",
+    metaDescription:
+      "India's Drone Rules allocate airspace and licence pilots. They say nothing about the person underneath. What that means, and the two things not to do.",
+    excerpt:
+      "The Drone Rules, 2021 are an aviation code. They decide who may fly where, and they are silent about the person on the ground. That gap is why the obvious responses do not work, and what does work is less obvious.",
+    date: "2026-11-27",
+    readTime: "8 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/drone-flying-over-my-house-india.webp",
+    ogImage: "/images/blogs/drone-flying-over-my-house-india.png",
+    coverImageAlt:
+      "Drone guide cover: a drone above a house with a marked altitude line separating free airspace from the airspace needing permission",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Concerned that the watching is closer than the sky?",
+      text: "A drone is usually the most visible thing people worry about and the least likely to be the real problem. If something about your home or office has felt wrong for a while, a private consultation can help you work out what is worth examining and what is not. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india",
+          name: "Drone Flying Over My House: What You Can Do in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/drone-flying-over-my-house-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#article",
+          headline: "A Drone Over Your House: What You Can Actually Do in India",
+          description:
+            "India's Drone Rules allocate airspace and licence pilots. They say nothing about the person underneath. What that means, and the two things not to do.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Unmanned aerial vehicle" },
+            { "@type": "Thing", name: "Aviation regulation" },
+            { "@type": "Thing", name: "Privacy" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "A Drone Over Your House" },
+          ],
+        },
+        faqJsonLd(droneFaqs, "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> India's Drone Rules, 2021 are an aviation code. They decide which airspace needs permission and who may pilot an aircraft, and most residential airspace up to 400 feet needs no permission at all. They say nothing about the person underneath. Your remedy comes from the criminal law instead, and two of the obvious responses are not available.</p>
+      </div>
+
+      <p>A drone hovers near a balcony, or passes slowly over a terrace twice in a week, and the first instinct is to look up the drone law. That is the wrong shelf.</p>
+
+      <p>The rules governing drones in India are about the sky. They sort airspace into categories, register the aircraft and licence the pilot. Nothing in them is addressed to the person standing underneath, and understanding that is what turns a frustrating week into a usable complaint.</p>
+
+      <h2>What the Drone Rules actually regulate</h2>
+      <p>The Drone Rules, 2021 were notified by the Ministry of Civil Aviation on 25 August 2021. The Government's own <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/mar/doc202232932501.pdf" rel="noopener noreferrer" target="_blank">backgrounder on the Rules</a> sets out the structure, and four features of it decide how your situation is handled.</p>
+
+      <p><strong>Airspace is split three ways.</strong> A green zone is airspace up to 400 feet, or 120 metres, that has not been designated red or yellow, together with airspace up to 200 feet over the band lying between 8 and 12 kilometres from an operational airport. In a green zone, in the backgrounder's own words, no permission whatsoever is required for operating drones with an all-up weight up to 500 kilograms. A yellow zone, which is the airspace above those heights and the area between 5 and 8 kilometres from an airport perimeter, requires permission from the relevant air traffic control authority. A red zone may be flown only with permission from the Central Government.</p>
+
+      <p><strong>The map is public.</strong> The drone airspace map on the Digital Sky platform marks the yellow and red zones and is freely available to everyone without any login requirement. Anyone planning to fly is expected to check it, and so can you.</p>
+
+      <p><strong>The aircraft is registered and the pilot is licensed.</strong> No person may operate an unmanned aircraft system without first registering it on Digital Sky and obtaining a unique identification number, unless exempted. A remote pilot licence is required, with exemptions for nano drones, up to 250 grams, and micro drones, up to two kilograms, flown non-commercially.</p>
+
+      <p><strong>The penalty is modest.</strong> The Rules reduced the maximum penalty for violations to one lakh rupees.</p>
+
+      <h2>Why a lawful flight can still be your problem</h2>
+      <p>Read that list again and notice what is missing from it. Zones, registration, licences, fees, penalties. Not a word about the consent of the householder below.</p>
+
+      <p>So the two questions come apart completely. Whether the flight was permitted is an aviation question answered by a map. Whether what the drone did to you was lawful is a different question answered by the criminal law, and a flight can be entirely proper on the first and entirely improper on the second. A camera at 60 metres over a green zone neighbourhood needs no permission from anyone, and if it is being used to watch a particular person inside a particular home, the aviation position does not help its operator at all.</p>
+
+      <p>Whether flying over private land gives the occupier a separate civil remedy is not settled by the Drone Rules, which do not address it, and that is a question for a lawyer rather than for this page.</p>
+
+      <h2>The two things not to do</h2>
+      <p>Both are popular and both make your position worse.</p>
+
+      <p><strong>Do not bring it down.</strong> An aircraft falling in a residential area creates hazards that need no explanation, and the act converts you from the person complaining into the person answering.</p>
+
+      <p><strong>Do not jam it.</strong> This one surprises people, because anti-drone equipment is sold openly. The <a href="https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1839030" rel="noopener noreferrer" target="_blank">Department of Telecommunications advisory of July 2022</a> states that cellular jammers, GPS blockers and other signal jamming devices are generally illegal unless specifically permitted by the Government of India, that private organisations and individuals cannot procure or use them, and that advertising, selling or distributing them is unlawful. The same view runs through the telecom approvals: jamming devices are one of the categories excluded from the ordinary self-declaration route for wireless equipment, as our guide to <a href="/blog/is-it-legal-to-buy-a-spy-camera-in-india">whether it is legal to buy a spy camera in India</a> sets out.</p>
+
+      <h2>What to do instead, in order</h2>
+      <ol>
+        <li><strong>Record the flight from the ground.</strong> Date, clock time, how long it stayed, the direction it came from and went, and what it appeared to be facing. Photograph or film it if you can do so safely. A pattern across several days is worth far more than one sighting.</li>
+        <li><strong>Check the airspace map.</strong> Look up your address on the Digital Sky map. If it falls in a yellow or red zone, the flight needed a permission you can ask the authorities to verify. If it is green zone, drop the aviation angle and move on.</li>
+        <li><strong>Report it to the local police in writing.</strong> Give the log, not the theory. Say what was recorded and what was overlooked, for instance a bathroom window or a terrace people use privately.</li>
+        <li><strong>If images of a person were captured or shared,</strong> file in parallel at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police. A complaint there does not automatically become an FIR.</li>
+        <li><strong>In immediate danger, call 112.</strong> That is the first step rather than the last if anybody is threatened.</li>
+      </ol>
+
+      <h2>The law that actually helps you</h2>
+      <p>It is the same law that covers a concealed camera, because from the law's point of view that is what a drone carrying a camera is.</p>
+
+      <p>Section 77 of the Bharatiya Nyaya Sanhita, 2023 covers watching, capturing or spreading the image of a woman engaged in a private act where she would expect privacy, with one to three years on a first conviction and three to seven on a later one. Section 66E of the Information Technology Act, 2000 covers intentionally capturing, publishing or transmitting the image of a person's private area without consent in circumstances violating privacy, with up to three years or a fine up to two lakh rupees, or both. Neither provision cares whether the lens was on a tripod, in a smoke detector or on an aircraft.</p>
+
+      <p>That framing also tells you where to look next. Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers the checks that matter indoors, and our guide to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's camera facing your house</a> covers the far more common version of this complaint, where the camera is fixed to a wall rather than flying.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>An examination of your home cannot identify a drone, trace its operator or establish what it recorded. Those are matters for the police and, where the aircraft was registered, for the records held on the Digital Sky platform. What an examination can do is answer the question people often arrive at next, which is whether anything inside the building is also watching. The legal points here are a starting position rather than advice on your situation, and our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what the physical work covers.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(droneFaqs)}
+    `,
+  },
   {
     slug: "cctv-rules-for-housing-societies",
     title: "CCTV Rules for Housing Societies in India",
@@ -1860,6 +2041,8 @@ ${faqHtml(ahmedabadCctvHackFaqs)}
       <p>Private cameras are only part of what is now pointed at a Kochi street. <a href="https://www.onmanorama.com/news/kerala/2025/07/16/cctv-surveillance-curb-garbage-dumping-live-kochi.html" rel="noopener noreferrer" target="_blank">Onmanorama reported on 16 July 2025</a> that Kochi Corporation was installing 148 cameras, two in each of the city's 74 divisions, aimed at garbage dumping hotspots and monitored around the clock from a control room at the Yathra Auditorium on Park Avenue Road. The same company was to install 150 more for the city police, monitored separately from Thevara, and <a href="https://thesouthfirst.com/kerala/cctv-network-to-curb-crime-and-waste-dumping-in-kochi/" rel="noopener noreferrer" target="_blank">The South First reported on 19 July 2025</a> that the police installation had not begun. Both reports are from the middle of last year.</p>
 
       <p>None of that changes your neighbour's camera. It does mean the honest answer to who can see you in this city is longer than it used to be, and that who holds a recording is no longer only a question about the police.</p>
+
+      <p>A camera on a wall is the common version of this complaint. The other one arrives from above, and the rules governing it answer a different question entirely: our guide to <a href="/blog/drone-flying-over-my-house-india">a drone over your house</a> sets out why a flight can be perfectly lawful and still be your problem.</p>
 
       <h2>What a check can and cannot establish</h2>
       <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically present and what was transmitting in the bands examined while the examiner was there. It cannot establish the absence of a device that records to internal memory and transmits nothing.</p>
@@ -5787,6 +5970,8 @@ ${faqHtml(vehicleTrackerFaqs)}
       </ol>
       <p>The helpline 1930 is for reporting urgent online financial fraud, such as money taken through a scam. It is not the number for a hidden camera or stalking emergency; use 112 or the police for those.</p>
       <p>If you suspect someone is monitoring your phone, for example a partner or family member, seek help using a device or account you believe they cannot access. Do not reset the phone, delete apps or confront the person first. Doing so can alert them and erase evidence. For Bluetooth trackers, <a href="https://support.apple.com/en-in/119874" rel="noopener noreferrer" target="_blank">Apple's guidance</a> is to go to a safe public location and contact law enforcement if you feel your safety is at risk.</p>
+
+      <p>One source of worry sits outside the building altogether and is handled quite differently. Our guide to <a href="/blog/drone-flying-over-my-house-india">a drone over your house</a> covers what India's Drone Rules do and do not regulate, and the two responses that make your position worse.</p>
 
       <h2>How to choose a bug sweeping provider in India</h2>
       <p>People often search for the "best" bug sweeping company, but the useful question is whether a particular provider can show you how it works. These checks separate careful providers from the rest:</p>

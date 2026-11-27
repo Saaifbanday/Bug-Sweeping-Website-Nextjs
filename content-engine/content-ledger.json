@@ -1,5 +1,58 @@
 [
   {
+    "slug": "drone-flying-over-my-house-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india",
+    "page_type": "concept-spoke",
+    "location": null,
+    "primary_keyword": "drone flying over my house",
+    "secondary_keywords": [
+      "drone over my house what can i do",
+      "drone rules in india",
+      "can i shoot down a drone over my property",
+      "is drone legal in india",
+      "do i need permission to fly drone in india",
+      "drone privacy india",
+      "green yellow red zone drone india",
+      "penalty for flying drone without permission india"
+    ],
+    "h2_outline": [
+      "What the Drone Rules actually regulate",
+      "Why a lawful flight can still be your problem",
+      "The two things not to do",
+      "What to do instead, in order",
+      "The law that actually helps you",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Opens by telling the reader they are looking on the wrong shelf, then proves it by setting out the aviation code in full and letting the absence speak: zones, registration, licences, penalties, and nothing about the householder. Only then does the page name what the reader must not do, which is the inverse of the usual listicle order and is placed there deliberately, because both wrong answers follow directly from believing the aviation code is the relevant law. The ordered response list is built around a public map check, which is an action nobody else on this subject tells an Indian reader to take, and the page ends by folding the drone back into the site's existing subject: a lens is a lens, whatever is carrying it.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/unknown-tracker-detected",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "main_device": "a complete statement of the aviation rules used to demonstrate what they leave out, followed by the remedies that remain",
+    "information_gain": "A grep of blog-data.ts before this page returned zero occurrences of drone across thirty posts, so this is a new device lane for the site: the first aerial subject alongside cameras, bugs, trackers and phones. Primary material read in place: the Ministry of Civil Aviation backgrounder on the Drone Rules, 2021, reference RU-35-01-0053-280122 dated 28 January 2022, which records that the Rules were notified by gazette notification CG-DL-E-26082021-229221 dated 25 August 2021. Facts taken from it: the green zone is airspace up to 400 feet or 120 metres not designated red or yellow, plus up to 200 feet or 60 metres over the band between 8 and 12 kilometres from an operational airport; in green zones no permission whatsoever is required for drones with an all-up weight up to 500 kilograms; the yellow zone is the airspace above those heights and the area between 5 and 8 kilometres from an airport perimeter and requires permission from the concerned air traffic control authority, having been reduced from 45 kilometres to 12; a red zone may be flown only with Central Government permission; the airspace map is freely available on the Digital Sky platform without any login requirement and operators are expected to check it; no person may operate without first registering on Digital Sky and obtaining a unique identification number unless exempted; a remote pilot licence is required except for nano drones, up to 250 grams, and micro drones, up to two kilograms, flown non-commercially; and the maximum penalty for violations was reduced to one lakh rupees. The backgrounder covers zones, registration, licensing, fees, imports and incentives and contains nothing on the consent of a person on the ground, which is the observation the page is built on. Second source: the Department of Telecommunications jammer advisory of July 2022 as carried by the Press Information Bureau.",
+    "internal_links_out": [
+      "/blog/is-it-legal-to-buy-a-spy-camera-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 83 record ledger and the built HTML, and nothing on the site touches aerial surveillance at all. The nearest neighbours are the hidden camera pages, which cover a lens indoors, and the Kochi page, which covers a lens on a neighbour's wall; this page covers the same offence from a platform neither of them addresses and links to both rather than restating them. Demand is honestly mixed and recorded as such: Google India autocomplete on 27 November 2026 returns drone over my house what can i do and drone over my property, but several of the strongest completions on this phrasing are United Kingdom and United States weighted, while drone rules in india returns a full Indian set including drone rules in india 2026. The page therefore takes the Indian regulatory phrasing as its secondary cluster and the householder's phrasing as its primary, which matches the reader it is written for.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "notes": "Created 27 Nov 2026, the fifth and last of the batch. Section 7 shaped the middle of the page: it states plainly that bringing a drone down and jamming it are both wrong answers, and it gives no method for either. The jammer position is carried from the Department of Telecommunications advisory rather than asserted, and the page notes that jamming devices are also excluded from the ordinary self-declaration route for wireless equipment approvals, which is the same fact the spy camera article verified at the Department's own service page. Two claims were deliberately hedged. Secondary guides give conflicting green zone altitude figures, so only the figures in the Government's own backgrounder are used, which give 400 feet and 120 metres together. And the page does not assert that Indian law gives a landowner no remedy for a flight over private property; it says only that the Drone Rules do not address it and that the question belongs to a lawyer, because the backgrounder read here is a summary of the Rules rather than the full text. Registration and licensing are described as sitting on the Digital Sky platform in the terms the backgrounder uses; later reporting suggests parts of that process have moved to the DGCA eGCA portal, which could not be confirmed at an official source and is therefore not stated. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible, all four internal links resolving, all three external links returning 200, meta description 155 characters, rendered length 1,778 words, above the spoke range and recorded rather than trimmed because the aviation section has to be complete for the argument to hold.",
+    "revisions": []
+  },
+  {
     "slug": "cctv-rules-for-housing-societies",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies",
     "page_type": "concept-spoke",
