@@ -809,7 +809,193 @@ const cctvRulesFaqs: Faq[] = [
   },
 ];
 
+const spyCameraLegalFaqs: Faq[] = [
+  {
+    q: "Is it legal to buy a spy camera in India?",
+    a: "Buying a concealed camera is not itself listed as an offence in Indian law, and that is why the trade is open. Two other things are regulated. The device has its own compliance requirements, because a wireless camera needs equipment type approval from the Wireless Planning and Coordination Wing and a camera sold as CCTV needs registration with the Bureau of Indian Standards. And the use is squarely covered by the criminal law. The purchase is the least regulated step in the chain.",
+  },
+  {
+    q: "Which law applies if someone films me with a hidden camera?",
+    a: "Two provisions do different work. Section 77 of the Bharatiya Nyaya Sanhita, 2023 covers watching, capturing or spreading images of a woman engaged in a private act where she expects privacy, with one to three years on a first conviction and three to seven on a later one. Section 66E of the Information Technology Act, 2000 covers intentionally capturing, publishing or transmitting an image of a person's private area without consent in circumstances violating privacy, with up to three years or a fine up to two lakh rupees, or both.",
+  },
+  {
+    q: "Is selling spy cameras illegal in India?",
+    a: "There is no provision that makes the sale of a concealed camera an offence by itself, which is exactly the gap a Lok Sabha submission of 24 July 2019 complained about, asking why these devices were available in the open market both online and offline without any regulation or licensing system. Selling an uncertified wireless device is a different matter, and that is where sellers are exposed.",
+  },
+  {
+    q: "Does a wireless spy camera need government approval?",
+    a: "A wireless device operating in India's de-licensed bands needs Equipment Type Approval. The Department of Telecommunications grants it through self-declaration on the Saral Sanchar portal for a fee of ten thousand rupees, and its own service page names cameras among the products covered. Radar, jamming devices, drones and satellite equipment are excluded from the self-declaration route. A device manufactured outside India needs the approval before it is imported.",
+  },
+  {
+    q: "Can I buy a hidden camera detector in India?",
+    a: "Yes. Owning and using a detector to examine a space you are entitled to be in is not restricted, and this is the purchase that actually matches what most people on this page want. A jammer is the opposite case: the Department of Telecommunications advisory of July 2022 states that cellular jammers, GPS blockers and other jamming devices are generally illegal for private individuals and organisations to procure or use.",
+  },
+  {
+    q: "I think there is a camera in my room. What should I do first?",
+    a: "If you believe you are in immediate danger, call 112. Otherwise, and only if it is safe, leave the device where it is, photograph it in place with enough of the surroundings to show what it was pointing at, note the time, and report it to the local police. A cybercrime complaint can be filed at cybercrime.gov.in, which routes to the relevant state police. Dismantling the device damages the only evidence of where it was aimed.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "is-it-legal-to-buy-a-spy-camera-in-india",
+    title: "Is It Legal to Buy a Spy Camera in India?",
+    seoTitle: "Is It Legal to Buy a Spy Camera in India? The Real Answer",
+    metaDescription:
+      "Buying a hidden camera is not the offence. Indian law regulates the device's approvals and what you do with it. What that means for buyers and for victims.",
+    excerpt:
+      "The honest answer is uncomfortable. Nothing in Indian law makes buying a concealed camera an offence. The regulation sits on either side of the purchase: on the device's approvals, and on what happens the moment it is switched on.",
+    date: "2026-11-27",
+    readTime: "9 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/is-it-legal-to-buy-a-spy-camera-in-india.webp",
+    ogImage: "/images/blogs/is-it-legal-to-buy-a-spy-camera-in-india.png",
+    coverImageAlt:
+      "Spy camera law guide cover: a small concealed lens with an approval stamp on one side and a court gavel outline on the other",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried that a device like this is already in your space?",
+      text: "A concealed camera is found by examining the room, not by reading the law, and the two questions need different help. If what you actually want is somebody to look at a room, a vehicle or an office, a private consultation can tell you what that involves before you commit to anything. Please get in touch from a phone you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india",
+          name: "Is It Legal to Buy a Spy Camera in India? The Real Answer",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-it-legal-to-buy-a-spy-camera-in-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#article",
+          headline: "Is It Legal to Buy a Spy Camera in India?",
+          description:
+            "Buying a hidden camera is not the offence. Indian law regulates the device's approvals and what you do with it. What that means for buyers and for victims.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Hidden camera" },
+            { "@type": "Thing", name: "Indian criminal law" },
+            { "@type": "Thing", name: "Telecommunications regulation" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is It Legal to Buy a Spy Camera in India?" },
+          ],
+        },
+        faqJsonLd(spyCameraLegalFaqs, "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Nothing in Indian law makes buying a spy camera an offence, which is why the trade is open. The regulation sits on either side of the purchase: the device needs its own approvals before it can be sold here, and the use of it is covered by the criminal law from the moment it is pointed at somebody.</p>
+      </div>
+
+      <p>Three different people type this question. Somebody about to buy one. Somebody who found one and cannot understand how it was legal to sell. And somebody wondering whether they are already in trouble.</p>
+
+      <p>The same answer serves all three, but only if it is split into the three separate things the law actually regulates. Almost every page on this subject collapses them into one, and the result reads as though possession were the crime. It is not.</p>
+
+      <h2>The purchase is the least regulated step</h2>
+      <p>Indian law contains no offence of buying or owning a concealed camera. The regulation attaches at two other points.</p>
+
+      <p>Before the sale, the device has compliance requirements of its own, and this is where most of the market sits on the wrong side of a line. After the sale, the criminal law applies to what the camera is pointed at, with no reference at all to how the camera was obtained. A device bought entirely openly, from a shop with a GST invoice, becomes evidence in a voyeurism case the moment it is aimed at a bathroom door.</p>
+
+      <p>That structure is why "is it legal to buy a spy camera in India" has an answer most readers find unsatisfying. Nothing stops the purchase. Everything stops the use.</p>
+
+      <h2>What the law actually punishes</h2>
+      <p>Two provisions do different work, and they are routinely quoted as though they were one.</p>
+
+      <p>Section 77 of the Bharatiya Nyaya Sanhita, 2023, the successor to Section 354C of the Indian Penal Code, covers voyeurism: watching, capturing or spreading the image of a woman engaged in a private act in circumstances where she would expect privacy. A first conviction carries one to three years and a fine, a subsequent conviction three to seven years and a fine. It also reaches the person who shares a recording that was originally made with consent, which is the part people miss.</p>
+
+      <p>Section 66E of the <a href="https://www.meity.gov.in/static/uploads/2024/03/IT_amendment_act2008-1_0.pdf" rel="noopener noreferrer" target="_blank">Information Technology Act, 2000</a> works differently. It requires intent or knowledge, absence of consent and circumstances violating privacy, and it carries up to three years, or a fine up to two lakh rupees, or both. One detail matters for anyone reading it as a general ban: the phrase it uses, private area, refers to defined parts of the body, not to private premises. Section 66E is not an offence of recording in a private room as such.</p>
+
+      <p>Neither provision asks where the camera came from. For a reader worried about their own exposure, that is the point: the receipt proves nothing either way.</p>
+
+      <h2>The approvals most of these devices do not have</h2>
+      <p>This is the part the market does not advertise.</p>
+
+      <p>A camera that transmits over Wi-Fi or any other radio link is a wireless device, and a wireless device operating in India's de-licensed bands needs Equipment Type Approval from the Wireless Planning and Coordination Wing of the Department of Telecommunications. The Department's own <a href="https://eservices.dot.gov.in/equipment-type-approval-eta" rel="noopener noreferrer" target="_blank">service page for Equipment Type Approval</a> describes the route as self-declaration, names the covered products as printers, scanners and cameras operating in licensed exemption bands as permitted in India, excludes four categories from that route, which are radar, jamming devices, drones and satellite equipment, and sets the fee at ten thousand rupees, with applications made on the Saral Sanchar portal. A product manufactured outside India needs the approval before it is imported.</p>
+
+      <p>Separately, a camera sold as CCTV has to be a registered model under the Bureau of Indian Standards scheme, and since April 2025 that registration also requires a security test report. Our guide to <a href="/blog/cctv-camera-rules-in-india">CCTV camera rules in India</a> sets that out, along with the finding that most internet cameras listed on the large marketplaces were not registered models at all.</p>
+
+      <p>Put the two together and the position is this. The buyer is not committing an offence. The chain supplying an uncertified wireless camera is a different matter, and that is where the enforcement pressure has actually landed.</p>
+
+      <h2>Parliament noticed the gap in 2019</h2>
+      <p>The complaint that the sale of these devices is unregulated is not an outsider's view. It was made in the House.</p>
+
+      <p>In a submission laid before the Seventeenth Lok Sabha on <a href="https://indiankanoon.org/doc/160295811/" rel="noopener noreferrer" target="_blank">24 July 2019</a>, Shrimati Vanga Geetha Viswanath, the Member for Kakinada, stated that spy cameras have no known use other than for security, defence and law enforcement, and asked why these devices were available in the open market both online and offline without any regulation or licensing system in force. The submission asked for regulation of the sale and purchase of spy cameras, for stringent action against those involved in illegal use, and for the offence to be made non-bailable through an amendment.</p>
+
+      <p>Seven years on, the device compliance rules have tightened considerably while the licensing system the submission asked for has not appeared. If you are wondering how the thing you found in a hotel room was bought legally, that is the answer.</p>
+
+      <h2>The purchase that usually matches the question</h2>
+      <p>Many people who search this phrase do not want to buy a camera at all. They want to find one.</p>
+
+      <p>Owning and using a detector to examine a space you are entitled to be in is not restricted in India, and the honest limits of consumer detectors, along with the checks that need no equipment, are set out in our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a>.</p>
+
+      <p>One purchase to avoid entirely. A jammer is not a lawful shortcut here. The <a href="https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1839030" rel="noopener noreferrer" target="_blank">Department of Telecommunications advisory of July 2022</a> states that cellular jammers, GPS blockers and other signal jamming devices are generally illegal unless specifically permitted by the Government of India, that private organisations and individuals cannot procure or use them, and that advertising, selling or distributing them is unlawful. It is also why jamming devices are one of the four categories excluded from the self-declaration approval route described above.</p>
+
+      <h2>If you think one is already pointed at you</h2>
+      <p>The legal position is interesting. It is not what you need in the first hour.</p>
+
+      <p>If you believe you are in immediate danger, call <strong>112</strong>. Otherwise, and only if it is safe to do so, leave the device where it is, photograph it in place with enough of the surroundings to show what it was covering, and note the time. A dismantled device is a damaged exhibit, and the position it was in is often the single most important fact about it.</p>
+
+      <p>Report it to the local police. A cybercrime complaint, including where private images have been published, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police; a complaint on that portal does not automatically become an FIR. If the room was a hotel, a homestay or a paying guest accommodation, our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotel rooms and PGs</a> covers who is answerable and how that changes with the way you booked.</p>
+
+      <h2>What a sweep can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection. A camera recording to a memory card with its radio switched off transmits nothing to find.</p>
+
+      <p>The legal points on this page are a starting position rather than advice on your situation, and they should be confirmed against the current official text. Whether a particular recording is an offence depends on facts a lawyer needs to hear. What an examination of a room, a vehicle or an office actually involves is set out in our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a>.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(spyCameraLegalFaqs)}
+    `,
+  },
   {
     slug: "cctv-camera-rules-in-india",
     title: "CCTV Camera Rules in India: What the Law Actually Requires",
@@ -915,7 +1101,7 @@ export const blogPosts: BlogPost[] = [
       <p>The rule that has actually changed, quietly, over the last two years is about the camera itself. A large share of the cameras on sale in India were never lawfully sellable, and almost nobody buying one knows the test exists.</p>
 
       <h2>What the rules are, in one place</h2>
-      <p>CCTV camera rules in India are spread across four separate bodies of law, and conflating them is why so much writing on the subject is wrong. First, product law: CCTV cameras and recorders fall inside the Ministry of Electronics and Information Technology's Compulsory Registration Order, so a model must be registered with the Bureau of Indian Standards against IS 13252 (Part 1) before it may be sold, and since 9 April 2025 that registration also requires a security test report. Second, privacy: no statute says where a private camera may point, so the position comes from High Court decisions that do not fully agree with one another. Third, data protection: recognisable footage of a person is personal data, which brings the Digital Personal Data Protection Act, 2023 and its Rules of 14 November 2025 into play for any organisation. Fourth, criminal law: filming someone in a private act is an offence whoever owns the camera.</p>
+      <p>CCTV camera rules in India are spread across four separate bodies of law, and conflating them is why so much writing on the subject is wrong. First, product law: CCTV cameras and recorders fall inside the Ministry of Electronics and Information Technology's Compulsory Registration Order, so a model must be registered with the Bureau of Indian Standards against IS 13252 (Part 1) before it may be sold, and since 9 April 2025 that registration also requires a security test report. Second, privacy: no statute says where a private camera may point, so the position comes from High Court decisions that do not fully agree with one another. Third, data protection: recognisable footage of a person is personal data, which brings the Digital Personal Data Protection Act, 2023 and its Rules of 14 November 2025 into play for any organisation. Fourth, criminal law: filming someone in a private act is an offence whoever owns the camera, and that is true of a concealed device as much as a wall mounted one, as our guide to <a href="/blog/is-it-legal-to-buy-a-spy-camera-in-india">whether it is legal to buy a spy camera in India</a> sets out.</p>
 
       <h2>The rule most buyers have never heard of</h2>
       <p>Your camera has to be a registered device, and since April 2025 it has to have passed a security test to get that registration.</p>
@@ -4506,6 +4692,8 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>Section 66E of the Information Technology Act, 2000 is gender neutral but much narrower in subject matter. It reaches capturing, publishing or transmitting the image of a private area, and the section defines that term exhaustively rather than inclusively, so an image that does not show a private area as defined falls outside it.</p>
       <p>Put the two together and two gaps appear that no other page on this subject seems to mention. A man who finds a camera in his hotel bathroom has no voyeurism offence available to him, because section 77 is limited by its own words to a woman; he is left with section 66E, and only if what was captured meets its definition. And nobody of any gender is protected by either section against a covert audio recording, because section 77 speaks of an image and section 66E of a visual image. If your concern is a microphone rather than a lens, neither of these sections is the answer. Where the worry is the phone itself rather than the room, our <a href="/blog/is-someone-monitoring-your-phone">guide to phone monitoring</a> covers that separately.</p>
       <p>On hotels specifically, there is no central Indian rule requiring a hotel to disclose or prohibit cameras in guest rooms. The Ministry of Tourism's star classification scheme is voluntary and its only mention of cameras is a line requiring closed circuit television at strategic locations, which is about security coverage of public areas rather than guest privacy. The Ministry of Home Affairs told Parliament in 2015 that states had been advised to require surveillance systems in places with large footfalls including hotels, and that policing and public order are state subjects, which is the constitutional reason the rules differ by state. Our <a href="/locations">state and city pages</a> set out what individual states actually require, and our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotel rooms, PGs and rented flats</a> covers who placed the devices in the Indian cases and who is answerable depending on how the room was booked.</p>
+
+      <p>A question that follows from all of this is how the device was bought in the first place. Our guide to <a href="/blog/is-it-legal-to-buy-a-spy-camera-in-india">whether it is legal to buy a spy camera in India</a> explains why the purchase itself is the least regulated step, and where the approvals the seller needed actually sit.</p>
 
       <h2>If you find a camera: what to do, and the number not to call</h2>
       <p>Safety first. If you believe you are in danger, call 112, which is the national emergency number and routes to a police dispatcher.</p>

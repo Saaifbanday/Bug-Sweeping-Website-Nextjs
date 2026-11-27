@@ -1,5 +1,59 @@
 [
   {
+    "slug": "is-it-legal-to-buy-a-spy-camera-in-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india",
+    "page_type": "concept-spoke",
+    "location": null,
+    "primary_keyword": "is spy camera legal in india",
+    "secondary_keywords": [
+      "is buying spy camera legal in india",
+      "is hidden camera legal in india",
+      "is hidden camera illegal in india",
+      "is it legal to sell spy camera in india",
+      "spy camera law india",
+      "hidden camera punishment india",
+      "eta approval wireless camera india",
+      "can i buy a hidden camera detector in india"
+    ],
+    "h2_outline": [
+      "The purchase is the least regulated step",
+      "What the law actually punishes",
+      "The approvals most of these devices do not have",
+      "Parliament noticed the gap in 2019",
+      "The purchase that usually matches the question",
+      "If you think one is already pointed at you",
+      "What a sweep can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Opens by naming the three different readers the query hides, a buyer, a victim and someone worried about their own exposure, and then answers all three from one structure: regulation before the sale, nothing at the sale, and everything after it. The middle of the page is the part no competitor carries, which is the telecoms approval a wireless camera needs. The 2019 parliamentary submission is placed deliberately after the compliance section rather than before it, so that the reader meets the gap as a documented complaint rather than as the writer's opinion. The page ends on the victim's path rather than the buyer's, and says plainly that it is not a buying guide by never naming a shop, a marketplace or a product.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/cctv-camera-rules-in-india",
+      "/blog/can-my-landlord-put-cameras"
+    ],
+    "main_device": "a before, during and after split of the transaction, used to show that the only unregulated point in the chain is the purchase itself",
+    "information_gain": "Before this page a grep of blog-data.ts returned one occurrence of spy camera and zero of Equipment Type Approval, ETA, Wireless Planning, Saral Sanchar and Telegraph across twenty eight posts, so the device approval layer was entirely absent. Primary material read in place: the Department of Telecommunications eServices page for Equipment Type Approval, which states that ETA is permitted on self-declaration, lists the covered products as printers, scanners, cameras etc. operating in licensed exemption bands as permitted in India, excludes four categories from that route, namely radar, jamming devices, drones and satellite equipment, sets the fee at Rs. 10000, and routes applications through the Saral Sanchar portal. Second, the submission laid before the Seventeenth Lok Sabha on 24 July 2019 by Shrimati Vanga Geetha Viswanath, Member for Kakinada, which states that spy cameras have no known use other than for security, defence and law enforcement, asks why they are available in the open market both online and offline without any regulation or licensing system in force, and asks for regulation of sale and purchase, stringent action against illegal use and a non-bailable offence through an amendment. Third, the Department of Telecommunications jammer advisory of July 2022 as carried by the Press Information Bureau, used both for the countermeasure warning and to explain why jamming devices are excluded from the self-declaration route.",
+    "internal_links_out": [
+      "/blog/cctv-camera-rules-in-india",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 80 record ledger and the built HTML. how-to-detect-hidden-cameras owns detection and carries a section on the two criminal provisions; this page does not re-argue detection and summarises the provisions only to the extent needed to show that neither asks where the device came from. cctv-camera-rules-in-india, published the same day, owns the Bureau of Indian Standards material, and this page links to it rather than repeating it. The distinct content is the telecoms approval route and the parliamentary record. Demand recorded from Google India autocomplete on 27 November 2026: is spy camera legal returns is spy camera legal in india, is hidden camera legal in india and is buying spy camera legal in india; spy camera legal in india returns is hidden camera illegal in india and smallest spy camera in india. That is genuine Indian informational demand on this phrasing, unlike the shopping intent that dominates spy camera shop and spy camera price.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "notes": "Created 27 Nov 2026, the second of a batch of five. Section 7 was the governing constraint: the page answers a question whose search results are dominated by sellers, so it names no shop, no marketplace, no product and no place to buy, and it does not describe how any such device is concealed or placed. Several tempting claims were omitted. Vendor and explainer pages assert that installing cameras in an office requires explicit employee consent and that camera products must be registered under a Compulsory Registration Scheme covering IS 616; neither was traceable to an official provision in the form stated, so neither is carried. A Delhi High Court injunction concerning spy cameras hidden inside branded mosquito repellent machines surfaced in search, but it is a trademark order and establishes nothing about the legality of the devices, so it was left out. Whether the Compulsory Registration entry for CCTV Camera reaches a covert camera sold as a consumer gadget is not asserted either way, because the Schedule entry read in place says CCTV Camera and nothing more; the page confines the Bureau of Indian Standards point to cameras sold as CCTV and links to the pillar for that. The Bharatiya Nyaya Sanhita could not be linked because indiacode.nic.in returns nothing to automated requests, so Section 77 is described without a hyperlink while the Information Technology Act is linked to the MeitY copy already cited elsewhere on the site. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible, all four internal links resolving, all five external links returning 200, meta description 160 characters, rendered length 1,922 words. That is above the 900 to 1,400 spoke range and the deviation is deliberate: the page carries three separate legal regimes and trimming it would have meant dropping the approvals material, which is the only part of it that is new.",
+    "revisions": []
+  },
+  {
     "slug": "cctv-camera-rules-in-india",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india",
     "page_type": "concept-pillar",
