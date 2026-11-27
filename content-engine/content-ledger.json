@@ -1,5 +1,67 @@
 [
   {
+    "slug": "cctv-camera-rules-in-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india",
+    "page_type": "concept-pillar",
+    "location": null,
+    "primary_keyword": "cctv camera rules in india",
+    "secondary_keywords": [
+      "cctv camera laws in india",
+      "cctv rules and regulations in india",
+      "cctv camera new rules in india",
+      "is my cctv camera legal in india",
+      "bis registration cctv camera",
+      "cctv camera installation rules in india",
+      "how long must cctv footage be kept india",
+      "do i need a cctv sign india",
+      "dpdp act cctv",
+      "cctv rules for home"
+    ],
+    "h2_outline": [
+      "What the rules are, in one place",
+      "The rule most buyers have never heard of",
+      "Why this is not a paperwork story",
+      "Most cameras on sale did not have it",
+      "How to check the camera you already have",
+      "Where you may point it: the unsettled part",
+      "What changed for anyone who is not a household",
+      "The only cameras India has written detailed rules for",
+      "What a sweep can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Separates four bodies of law that every competing page merges into one, and then deliberately spends most of its length on the one nobody covers. The page opens by telling the reader that the question they came for, where a neighbour may point a camera, is the least settled part, and moves the weight to product law instead. The device-compliance sections run first and longest; the privacy sections are short and link down to the city pages that already own them. The closing contrast with police station cameras exists to prove a negative, which is that no Indian law prescribes retention, signage or audio for private premises, and that proof is what makes the written policy advice land.",
+    "compared_against": [
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/cctv-in-a-shared-home-kolkata",
+      "/blog/can-cctv-be-hacked-ahmedabad",
+      "/blog/how-to-detect-hidden-cameras"
+    ],
+    "main_device": "a four part legal map, weighted away from the question readers arrive with and towards the product registration rule that none of them know exists",
+    "information_gain": "A grep of blog-data.ts before this page returned zero occurrences of BIS, Bureau of Indian Standards, ER-01, Compulsory Registration and data fiduciary across twenty seven published posts, so the entire product compliance and data protection layer was absent from the site. Primary material read in place: the Bureau of Indian Standards circular of 22 October 2024, reference Registration/Meity/CCTV Camera, which records that CCTV cameras and CCTV recorders under IS 13252 (Part 1) 2010 are covered by mandatory certification under MeitY's Compulsory Registration Order 2021, that MeitY notified the Essential Requirement(s) for Security of CCTV by gazette notification dated 9 April 2024, that the last date of implementation was extended to 9 April 2025, that after that date non-compliant models are deleted from the scope of a licence and the licence is liable for cancellation, that no new licence is granted without ER:01 compliance beyond that date, that test reports must come from third party laboratories, and that a compliant model may display on its packaging the line that the camera complies with Essential Requirement(s) for Security. Second, the Press Information Bureau document of 17 November 2025 confirming that the DPDP Rules, 2025 were notified on 14 November 2025, with an eighteen month phased compliance period, a separate consent notice duty, a published contact point, ninety days to answer access, correction and erasure requests, breach notification without delay, and penalties of up to two hundred and fifty crore for failure of reasonable security safeguards, two hundred crore for breach non-notification and fifty crore otherwise. Third, the Supreme Court's compliance chart of 27 January 2021 in Paramvir Singh Saini v. Baljit Singh, which lists the directions being tracked including night vision and audio recording and mandatory purchase of eighteen month recording systems, used here to prove the negative for private premises. Fourth, Reuters of 1 October 2026, by Munsif Vengattil and Aditya Kalra, reporting that more than 700 of roughly 770 internet security camera listings reviewed on Amazon and Flipkart were models absent from the BIS public database, naming Hikvision, Dahua, EZVIZ, Imou and Maizic Smarthomes, with Amazon declining to comment and Flipkart not responding. Fifth, All India Radio of 15 March 2025 on BIS search and seizure operations at e-commerce warehouse locations in Lucknow, Gurugram and Delhi.",
+    "internal_links_out": [
+      "/blog/can-cctv-be-hacked-ahmedabad",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/cctv-in-a-shared-home-kolkata",
+      "/blog/cctv-rules-for-housing-societies",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, as the hub for the site's camera law cluster. Rule 0 run against the 79 record ledger and the built HTML. The three existing camera law pages each own one jurisdiction's answer to one question: Kochi owns the neighbour's camera under Kerala High Court orders, Kolkata owns CCTV inside a shared home, and can-my-landlord-put-cameras owns the landlord and the Allahabad position. None of them touches product registration or the DPDP Rules, and this page deliberately does not re-argue their material, summarising it in one short section and linking down. Demand recorded from Google India autocomplete on 27 November 2026: cctv camera rules in india returns a full completion set including cctv camera laws in india, cctv camera new rules in india and cctv camera installation rules in india; cctv rules returns cctv rules for home, cctv rules for society and cctv rules and regulations in maharashtra; dpdp act cctv is itself a completion. That is the first topic in this programme with genuine Indian informational volume rather than shopping intent.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "notes": "Created 27 Nov 2026, the first of a batch of five. Several claims were deliberately omitted. Compliance vendor pages describe the Essential Requirement as covering tamper resistance, access control, encrypted transmission, software updates and penetration testing; none of that is in the BIS circular read in place and the MeitY annexure could not be retrieved, because meity.gov.in returns 403 to automated requests, so the page describes ER:01 only as a security test report from a third party laboratory and does not list its contents. Reports that a 1 April 2026 sales cutoff applies, and that certification is being refused to products using Chinese chipsets or firmware, rest on secondary trade coverage of an Economic Times report and were left out for the same reason. The claim that the BIS registration database can be searched by a consumer is not asserted: the public portal at crs.manakonline.in is a client side application that did not render for checking, so the page tells the reader to ask the seller for the registration held for the exact model number instead. The Reuters story was first cited through Inside Retail, which returns 403 to automated checks, so the citation was moved to the Yahoo carriage of the same wire copy, which returns 200, and the date was corrected from 2 October to 1 October 2026 on the strength of the wire version. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with seven FAQ questions matching seven visible, all eight @id references resolving, meta description 156 characters, rendered length 2,389 words inside the 2,000 to 3,000 concept pillar range. One internal link, to the housing societies article, was unresolved at the time of this QA run because that article is the fourth in the same batch; both went live in the same push.",
+    "revisions": []
+  },
+  {
     "slug": "can-cctv-be-hacked-ahmedabad",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/can-cctv-be-hacked-ahmedabad",
     "page_type": "city",

@@ -778,7 +778,206 @@ const ahmedabadCctvHackFaqs: Faq[] = [
   },
 ];
 
+const cctvRulesFaqs: Faq[] = [
+  {
+    q: "Is there a CCTV Act in India?",
+    a: "No. There is no single statute called a CCTV Act. Four separate bodies of law apply at once: the Bureau of Indian Standards registration rules govern the device that may lawfully be sold, High Court decisions govern where a camera may point, the Digital Personal Data Protection Act, 2023 governs the footage once a business or society holds it, and the criminal law applies when somebody is filmed in a private act.",
+  },
+  {
+    q: "Does my CCTV camera need BIS registration?",
+    a: "The camera has to be a registered model for it to be lawfully sold in India. CCTV cameras and CCTV recorders sit in the Ministry of Electronics and Information Technology's Compulsory Registration Order under IS 13252 (Part 1). Since 9 April 2025 a registration also needs a security test report against the Essential Requirement(s) for Security of CCTV, known as ER:01. The obligation falls on the manufacturer or importer rather than on you as the buyer, but the model you own is either on the register or it is not.",
+  },
+  {
+    q: "How do I check whether a camera is a registered model?",
+    a: "Ask the seller for the registration held for that exact model number, not for the brand. Packaging for a model that has passed the security test may carry the line that the camera complies with Essential Requirement(s) for Security. A brand being well known establishes nothing: Reuters reported on 1 October 2026 that more than 700 of roughly 770 internet camera listings it reviewed on Amazon and Flipkart were models absent from the public register.",
+  },
+  {
+    q: "How long must CCTV footage be kept in India?",
+    a: "For ordinary private premises, no Indian law sets a retention period. The only detailed storage rule comes from the Supreme Court's directions on cameras inside police stations, where systems capable of eighteen months of recording were required. A housing society, office or shop decides its own period, which is why that decision should be written down rather than left to whatever the recorder does by default.",
+  },
+  {
+    q: "Do I need to put up a sign saying CCTV is in use?",
+    a: "There is no general Indian law requiring a CCTV sign on private premises. The duty arrives from a different direction. Under the Digital Personal Data Protection Act, 2023 and the Rules notified on 14 November 2025, an organisation processing personal data has to give the people concerned a clear, standalone notice of the purpose, and recognisable footage of a person is personal data.",
+  },
+  {
+    q: "Can I install a camera at my own front door?",
+    a: "A camera covering your own door and your own property is the ordinary case and nobody needs permission for it. The difficulty starts with coverage rather than ownership. Courts in India have treated a private camera that reaches into a neighbour's windows or private space as a different matter from one watching your own entrance, and the rulings do not all begin from the same position.",
+  },
+  {
+    q: "Does the DPDP Act apply to the cameras at my own house?",
+    a: "Section 3 of the Act excludes personal data processed by an individual for a personal or domestic purpose. A household camera watching its own gate normally sits inside that exclusion. A housing society, an employer, a clinic or a shop is not an individual acting domestically, so the exclusion does not carry across to them.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "cctv-camera-rules-in-india",
+    title: "CCTV Camera Rules in India: What the Law Actually Requires",
+    seoTitle: "CCTV Camera Rules in India: What the Law Requires",
+    metaDescription:
+      "There is no CCTV Act in India. Four separate rules apply: BIS registration of the device, where it may point, the DPDP Act on footage, and the criminal law.",
+    excerpt:
+      "Most writing on CCTV camera rules in India answers the wrong question. The rule that has actually changed is not about where you point the camera. It is about whether the camera you bought was ever lawfully sellable.",
+    date: "2026-11-27",
+    readTime: "11 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/cctv-camera-rules-in-india.webp",
+    ogImage: "/images/blogs/cctv-camera-rules-in-india.png",
+    coverImageAlt:
+      "CCTV rules guide cover: a camera beside a certification label, a document and a boundary line, showing separate requirements",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure what your own camera system is exposing?",
+      text: "Who can reach a recorder, how long it holds footage and who still has the password are questions a premises owner can usually answer in an afternoon, once somebody asks them in the right order. A private consultation can help you work out which of them actually matter for your building. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india",
+          name: "CCTV Camera Rules in India: What the Law Requires",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/cctv-camera-rules-in-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#article",
+          headline: "CCTV Camera Rules in India: What the Law Actually Requires",
+          description:
+            "There is no CCTV Act in India. Four separate rules apply: BIS registration of the device, where it may point, the DPDP Act on footage, and the criminal law.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Data protection law" },
+            { "@type": "Thing", name: "Product certification" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "CCTV Camera Rules in India" },
+          ],
+        },
+        faqJsonLd(cctvRulesFaqs, "https://www.bugsweepingtscm.com/blog/cctv-camera-rules-in-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> India has no single CCTV Act. Four separate requirements apply at once. The camera must be a registered model that has passed a security test, where it points is governed by court decisions rather than a statute, the footage is personal data under the Digital Personal Data Protection Act, and only police station cameras have specified technical rules.</p>
+      </div>
+
+      <p>Search for CCTV camera rules in India and almost everything you find answers one question: can my neighbour point a camera at my door. That is a real question, and we have written about it twice. It is also the question on which Indian law is least settled.</p>
+
+      <p>The rule that has actually changed, quietly, over the last two years is about the camera itself. A large share of the cameras on sale in India were never lawfully sellable, and almost nobody buying one knows the test exists.</p>
+
+      <h2>What the rules are, in one place</h2>
+      <p>CCTV camera rules in India are spread across four separate bodies of law, and conflating them is why so much writing on the subject is wrong. First, product law: CCTV cameras and recorders fall inside the Ministry of Electronics and Information Technology's Compulsory Registration Order, so a model must be registered with the Bureau of Indian Standards against IS 13252 (Part 1) before it may be sold, and since 9 April 2025 that registration also requires a security test report. Second, privacy: no statute says where a private camera may point, so the position comes from High Court decisions that do not fully agree with one another. Third, data protection: recognisable footage of a person is personal data, which brings the Digital Personal Data Protection Act, 2023 and its Rules of 14 November 2025 into play for any organisation. Fourth, criminal law: filming someone in a private act is an offence whoever owns the camera.</p>
+
+      <h2>The rule most buyers have never heard of</h2>
+      <p>Your camera has to be a registered device, and since April 2025 it has to have passed a security test to get that registration.</p>
+
+      <p>The Bureau of Indian Standards set this out in a circular of 22 October 2024, reference Registration/Meity/CCTV Camera. It records that CCTV cameras and CCTV recorders under IS 13252 (Part 1) are covered by mandatory certification under the Ministry of Electronics and Information Technology's Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order, 2021, and that the Ministry notified the Essential Requirement(s) for Security of CCTV by gazette notification dated 9 April 2024.</p>
+
+      <p>The deadline moved once. On the Bureau's own wording the last date for implementation was extended to 9 April 2025, after which non-compliant models are deleted from the scope of a manufacturer's licence, and the licence itself is liable for cancellation if none of its models comply. Beyond that date, as the <a href="https://www.crsbis.in/BIS/app_srv/tdc/gl/docs/CCTV_Implementation_guidelines.pdf" rel="noopener noreferrer" target="_blank">implementation guidelines</a> put it, no licence for CCTV cameras is granted without compliance.</p>
+
+      <p>The test is referred to as ER:01 and has to come from a third party testing laboratory. The signal available to a buyer is small and easy to miss: the same circular permits a compliant model to display on its packaging that the camera complies with Essential Requirement(s) for Security.</p>
+
+      <h2>Why this is not a paperwork story</h2>
+      <p>Because the thing being tested is whether somebody outside your building can get into your camera.</p>
+
+      <p>We have written up the Indian case that shows what the absence of that looks like. In February 2025 Ahmedabad Cyber Crime Branch traced footage from a hospital labour room, being sold online, back to the hospital's own recorder, which had been reached through an unsecured address and port. Our guide to <a href="/blog/can-cctv-be-hacked-ahmedabad">whether CCTV can be hacked</a> sets out that investigation in full. The security requirement exists because that failure is ordinary rather than exotic.</p>
+
+      <h2>Most cameras on sale did not have it</h2>
+      <p>This is where the rule meets the shop.</p>
+
+      <p>Reuters reported on 1 October 2026, in a piece by Munsif Vengattil and Aditya Kalra, that it had reviewed roughly 770 internet security camera listings on Amazon and Flipkart in India and found that <a href="https://www.yahoo.com/news/world/articles/amazon-walmarts-flipkart-launch-review-104958485.html" rel="noopener noreferrer" target="_blank">more than 700 of them were models absent from the public register</a>. The listings included models from Hikvision and Dahua. One seller, Maizic Smarthomes, had none of its listed wireless camera models on the register; its co-founder told Reuters the brand is committed to full compliance and that some of its cameras are not subject to the rules. Amazon declined to comment and Flipkart did not respond. At least a dozen listings came down over the following days, and hundreds remained.</p>
+
+      <p>Enforcement is not only about listings. All India Radio reported on 15 March 2025 that the Bureau of Indian Standards had <a href="https://www.newsonair.gov.in/bis-cracks-down-on-non-certified-products-at-amazon-flipkart-warehouses" rel="noopener noreferrer" target="_blank">carried out search and seizure operations at warehouse locations</a> in Lucknow, Gurugram and Delhi used by major platforms, over non-certified products generally.</p>
+
+      <p>None of that makes you an offender for owning such a camera. The obligation sits on whoever manufactures or imports it. It does tell you something useful about the device bolted to your wall, which is that nobody ever tested whether it resists being reached from outside.</p>
+
+      <h2>How to check the camera you already have</h2>
+      <p>Three questions, in this order, and the first is the one people get wrong.</p>
+      <ol>
+        <li><strong>Ask about the model, not the brand.</strong> Registration is held model by model. A well known brand name tells you nothing about the unit in your hand, which is exactly what the Reuters review showed.</li>
+        <li><strong>Look at the packaging if you still have it.</strong> A model that passed the security test may carry the compliance line quoted above. Its absence proves nothing, but its presence is a real signal.</li>
+        <li><strong>Ask the installer what remote viewing was switched on.</strong> This matters more than the certificate. A camera nobody can reach from outside the building is in a different position from one published to the internet so that a phone app can see it.</li>
+      </ol>
+
+      <h2>Where you may point it: the unsettled part</h2>
+      <p>No Indian statute states where a private camera may point. The position comes from courts, and they have not all started from the same place.</p>
+
+      <p>The Kerala High Court has treated the question as one of evidence, declining to order a camera down unless snooping is actually established. The Allahabad High Court has approached it from the other end, holding that a private camera must not be positioned so as to interfere with a neighbour's privacy. Our guides to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's camera facing your house</a> and to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can install cameras</a> set out both lines and what they mean for a reader in each state, and our guide to <a href="/blog/cctv-in-a-shared-home-kolkata">CCTV inside a shared home</a> covers the harder case where the people disagreeing live in the same building.</p>
+
+      <p>The practical rule that survives all of it: a camera covering your own entrance and your own land is the ordinary case, and a camera whose field of view reaches inside somebody else's home is the case that ends up in court.</p>
+
+      <h2>What changed for anyone who is not a household</h2>
+      <p>The Digital Personal Data Protection Rules, 2025 were notified on 14 November 2025, which <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf" rel="noopener noreferrer" target="_blank">the Press Information Bureau describes</a> as the full operationalisation of the Digital Personal Data Protection Act, 2023. Recognisable footage of a person is personal data, so a society, an employer, a clinic or a shop running cameras is processing it.</p>
+
+      <p>On the Bureau's account of the Rules, an organisation acting as a Data Fiduciary must issue a separate, plain consent notice explaining the specific purpose for which data is collected, publish a contact point for data queries, answer access, correction and erasure requests within ninety days, and inform affected individuals without delay if there is a breach. The penalties under the Act are substantial: up to two hundred and fifty crore rupees for failing to maintain reasonable security safeguards, up to two hundred crore for not notifying a breach, and up to fifty crore for other contraventions. The Rules allow an eighteen month phased compliance period, so these duties are arriving rather than already past.</p>
+
+      <p>Two honest caveats. The Act excludes personal data processed by an individual for a personal or domestic purpose, which is where an ordinary household camera normally sits. And how the duties apply specifically to CCTV in a residential building has not yet been tested, so a society that writes down its purpose, its retention period and who may view footage is in a far better position than one that has not thought about it. Our guide to <a href="/blog/cctv-rules-for-housing-societies">CCTV rules for housing societies</a> goes through that in detail.</p>
+
+      <h2>The only cameras India has written detailed rules for</h2>
+      <p>It is worth seeing what a real Indian CCTV specification looks like, because one exists in exactly one place.</p>
+
+      <p>In <em>Paramvir Singh Saini v. Baljit Singh</em>, decided on 2 December 2020, the Supreme Court directed states to install cameras in police stations and set out what the equipment had to do. The <a href="https://api.sci.gov.in/supremecourt/2020/13346/13346_2020_32_12_25691_Order_27-Jan-2021.pdf" rel="noopener noreferrer" target="_blank">compliance chart in the Court's order of 27 January 2021</a> lists the directions being tracked, among them that CCTV must have night vision and audio recording, that purchase of systems with eighteen month recording capacity is mandatory for all states, and that no part of a station is left uncovered.</p>
+
+      <p>Hold that against private premises. For your shop, your office or your society, no Indian law prescribes night vision, audio, a retention period or a warning sign. That gap is the real answer to several of the most searched questions on this subject, and it is why a written policy matters: nothing else is going to supply one.</p>
+
+      <h2>What a sweep can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection. Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers the checks you can make yourself and what they miss.</p>
+
+      <p>None of that answers the questions on this page. Whether your camera is a registered model is answered from paperwork. Whether its recorder has been reached from outside is answered from logs, accounts and the router in front of it. Whether your society's use of footage is lawful is a question for a lawyer who has read your bye-laws. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what the physical work does cover, and the legal points here should be confirmed against the current official text before you act on them.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(cctvRulesFaqs)}
+    `,
+  },
   {
     slug: "can-cctv-be-hacked-ahmedabad",
     title: "Can CCTV Be Hacked? The Ahmedabad Case That Answered It",
@@ -920,6 +1119,8 @@ export const blogPosts: BlogPost[] = [
       <p>The city's other recorded camera case runs the opposite way and makes the same point about trusted premises. <a href="https://deshgujarat.com/2025/10/03/man-booked-for-filming-minor-girl-in-changing-room-of-cloths-store-of-palladium-mall-ahmedabad/" rel="noopener noreferrer" target="_blank">DeshGujarat reported on 3 October 2025</a> that a fourteen year old girl trying on clothes at a store in Palladium Mall on SG Highway found a mobile phone lying in the trial room, took it to her mother, and that Vastrapur police registered a case under the POCSO Act after four objectionable recordings were found on it.</p>
 
       <p>No hacking there, and no specialist equipment either. A phone on the floor of a changing room. Our guide to <a href="/blog/hidden-cameras-in-hotel-rooms-and-pgs">hidden cameras in hotel rooms and PGs</a> sets out what to look at in a room you did not prepare.</p>
+
+      <p>India has since written a security test into the rules for selling a camera at all, which is a direct response to the exposure this case describes. Our guide to <a href="/blog/cctv-camera-rules-in-india">CCTV camera rules in India</a> sets out what that test is and how to tell whether the camera on your wall ever passed it.</p>
 
       <h2>What to ask before you trust a premises</h2>
       <p>Four questions, usable by a patient, a resident or a customer, and worth asking of your own business first.</p>
@@ -2503,6 +2704,8 @@ ${faqHtml(wifiDeviceFaqs)}
         <li><strong>If the camera covers a bathroom, bedroom or changing area, stop treating it as a dispute.</strong> That is a police matter. Cybercrime complaints, including the publication of private images, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police, and in immediate danger call <strong>112</strong>.</li>
         <li><strong>Do not remove, cover or disable it first.</strong> It destroys the evidence of what it was and where it pointed, and it hands the other side an argument about your conduct instead of theirs.</li>
       </ol>
+
+      <p>Where the camera points is only one of the questions the law asks about it. Our guide to <a href="/blog/cctv-camera-rules-in-india">CCTV camera rules in India</a> covers the other three, including the registration a camera needs before it can lawfully be sold here and what the landlord now owes you for the footage itself.</p>
 
       <h2>What a check can and cannot establish</h2>
       <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
