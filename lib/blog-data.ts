@@ -917,7 +917,977 @@ const droneFaqs: Faq[] = [
   },
 ];
 
+const getFootageFaqs: Faq[] = [
+  {
+    q: "Can I force a shop or a neighbour to give me CCTV footage?",
+    a: "No. No Indian statute gives a private person a right to a copy of a recording somebody else owns. What you can do is ask the holder to preserve it, which costs them nothing and is far more likely to be agreed than disclosure, and then give the police enough detail to require its production. Section 94 of the Bharatiya Nagarik Suraksha Sanhita, 2023 places that power with a court or with the officer in charge of a police station, not with you.",
+  },
+  {
+    q: "How do I get CCTV footage from an ATM or a bank?",
+    a: "Through the same two steps, in the same order. Write to the branch the day you realise the footage matters, naming the date, the clock window and the machine, and ask for preservation rather than a copy. Then report the matter so that the police can require production. Whether a particular bank is a public authority for the purposes of the Right to Information Act is a separate question that depends on the bank, so do not plan your case around an RTI application until you have confirmed that it applies.",
+  },
+  {
+    q: "How long do I have before the footage is overwritten?",
+    a: "Less time than most people assume, and no Indian law fixes the period for ordinary private premises. A recorder keeps writing until the disk fills and then writes over the oldest material, so the window is whatever that particular system happens to hold. Treat the request as something to send on the first day, not the second week. Our guide to CCTV camera rules in India explains why no retention period exists outside police stations.",
+  },
+  {
+    q: "Can I get footage from traffic cameras or city surveillance?",
+    a: "Those systems are run by the police or by a city authority rather than by a private holder, so the realistic route is a request through the police station handling your complaint. If the operator is a public authority, an application under the Right to Information Act is also open to you, subject to the exemptions. We could not find a published counter service anywhere in India that hands a member of the public a copy of city camera footage on demand, so be careful with any website that promises one.",
+  },
+  {
+    q: "The police collected the footage. Will they give me a copy?",
+    a: "Not as a matter of course. Material collected during an investigation forms part of the case record, and what you receive and when is governed by the stage the case has reached. Section 94 also protects the position of the person who produced it. Ask your lawyer to apply for what you need rather than asking the investigating officer informally, and keep your own dated copy of every request you sent.",
+  },
+  {
+    q: "Is a pen drive copy from the shopkeeper enough for court?",
+    a: "Often not, and this is the step that gets missed. Section 63 of the Bharatiya Sakshya Adhiniyam, 2023 requires a certificate in the form set out in the Schedule to accompany the electronic record each time it is submitted, and that form asks for the source device, its make, model and serial number, and a hash value of the record with the hash report enclosed. A file copied at a counter with none of that attached is a file, not yet evidence.",
+  },
+];
+
+const phoneSearchFaqs: Faq[] = [
+  {
+    q: "Can the police search my phone without a warrant in India?",
+    a: "Section 185 of the Bharatiya Nagarik Suraksha Sanhita, 2023 lets an officer in charge of a police station, or an officer conducting an investigation, search without a warrant, but only on conditions. The officer must have reasonable grounds to believe the thing sought is there and cannot be obtained without undue delay, must record those grounds in writing in the case diary before searching, and must keep the search to the thing specified. The Sanhita does not separately address how far the contents of a seized device may be examined, which is why that question is still being worked out by the courts.",
+  },
+  {
+    q: "Do I have to give the police my phone password?",
+    a: "The High Courts have not agreed on this. In 2021 the Karnataka High Court held in Virendra Khanna that a direction to provide a password, passcode or biometrics does not amount to testimonial compulsion under Article 20(3), and that an adverse inference may be drawn if the accused does not cooperate. In January 2024 the Delhi High Court said in Sanket Bhadresh Modi that an accused cannot be coerced to reveal passwords of seized devices while the trial is ongoing. A single judge decision of one High Court does not bind courts in another state, so get a lawyer's view on your own situation rather than acting on a headline.",
+  },
+  {
+    q: "What paperwork should exist after a search?",
+    a: "More than most people are given. Section 103 requires a list of everything seized, recording where each item was found, signed by the witnesses, with a signed copy delivered to the occupant of the place searched. Section 105 requires the search or the taking of possession to be recorded through audio-video electronic means, preferably a mobile phone, and the recording to be forwarded without delay to the District Magistrate, Sub-divisional Magistrate or Judicial Magistrate of the first class. Section 185(5) requires copies of the recorded grounds to reach the nearest Magistrate within 48 hours, and says the owner or occupier may get a copy from that Magistrate free of cost on application.",
+  },
+  {
+    q: "Can the police copy everything on the phone?",
+    a: "Cloning a seized device is treated as part of the investigation rather than as a separate decision. In Virendra Khanna the Karnataka High Court proceeded on the basis that the investigating agency may clone the device and use the data during the investigation or trial, while adding that the data is not to be given to a third party during the investigation without the court's written permission. What is not settled anywhere is whether a case about one offence permits a reading of everything on the device, which is the question several petitions have asked the courts to answer.",
+  },
+  {
+    q: "How do I get my phone back?",
+    a: "Through the court, not the police station. Where property is produced before a criminal court, section 497 of the Sanhita allows the court to make such order as it thinks fit for its proper custody pending the inquiry or trial, and it also provides for the court to prepare a description of the property and arrange photographs or video of it, which can then be used as evidence. That machinery exists precisely so the physical object does not have to sit in a storeroom for years. Ask your lawyer to apply rather than asking the investigating officer informally.",
+  },
+  {
+    q: "Is a phone search the same as a phone tap?",
+    a: "No, and confusing the two leads people to look in the wrong place. Interception happens inside the telecom operator's network under the Telecommunications Act, 2023 and its rules, with nothing added to your handset and nothing for you to notice. A search is a physical act: the device is taken, examined and usually copied. Our guide on whether your phone is tapped covers the first, and this page covers the second.",
+  },
+];
+
+const consentPhotoFaqs: Faq[] = [
+  {
+    q: "Is taking photos without consent illegal in India?",
+    a: "Not in itself. India has no general provision that makes photographing a person an offence because they did not agree. The criminal provisions people reach for are narrower than that. Section 77 of the Bharatiya Nyaya Sanhita, 2023 is about a woman engaged in a private act in circumstances providing privacy, and section 66E of the Information Technology Act, 2000 is about the image of a private area captured in circumstances violating privacy. If neither set of elements is present, the answer lies in civil remedies and in platform rules rather than in a criminal complaint.",
+  },
+  {
+    q: "Someone photographed me in a public place. Can I make them delete it?",
+    a: "Not by demanding it on the spot, and trying to take somebody's phone turns your complaint into a separate dispute about your own conduct. If the image falls inside the provisions above, or if it has been published, there are routes with teeth. If it does not, what remains is a request, a complaint to the venue or employer where that applies, and advice from a lawyer about civil remedies in your situation.",
+  },
+  {
+    q: "I agreed to the photo but not to it being shared. Does that matter?",
+    a: "It matters a great deal, and this is the part most people do not know. Explanation 2 to section 77 of the Bharatiya Nyaya Sanhita addresses exactly that position: where the victim consents to the capture of the images but not to their dissemination to third persons, such dissemination is to be considered an offence under that section. Consent to be photographed is not consent to be circulated.",
+  },
+  {
+    q: "How fast must a platform remove an intimate or morphed image?",
+    a: "Twenty-four hours. Rule 3(2)(b) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 requires an intermediary, on a complaint by the individual or by any person on their behalf, to take all reasonable and practicable measures within twenty-four hours to remove or disable access to content which exposes a person's private area, shows them in full or partial nudity, depicts them in a sexual act or conduct, or is in the nature of impersonation in electronic form, including artificially morphed images. Rule 3(2)(c) requires the platform to run a mechanism for receiving those complaints.",
+  },
+  {
+    q: "The platform ignored me. What then?",
+    a: "There is a statutory appeal, and very few people use it. Rule 3A of the same Rules establishes Grievance Appellate Committees. A person aggrieved by the decision of a platform's Grievance Officer, or whose grievance is not resolved within the time the Rules allow, may appeal within thirty days of the communication from that officer. The Committee is to endeavour to resolve the appeal within thirty calendar days, the whole process is conducted online, and every order it passes is to be complied with by the intermediary.",
+  },
+  {
+    q: "Is photographing someone's house or car without permission an offence?",
+    a: "The provisions above are about images of a person, not of a building or a vehicle, so they do not usually apply. Repeated attention directed at a particular household is a different matter and is better described to the police as what it is, with dates and a log, rather than argued as a photography question. Our guide to a neighbour's camera pointing at your house covers the fixed-camera version of the same complaint.",
+  },
+];
+
+const dashCamFaqs: Faq[] = [
+  {
+    q: "Are dash cams legal in India?",
+    a: "Nothing in Indian law prohibits fitting one to your own vehicle. There is no registration, no permit and no approval for the device itself. The questions that do arise are about where you mount it, whether it records audio, and what you do with the footage afterwards, and those have different answers from one another.",
+  },
+  {
+    q: "Where can I mount a dash cam without getting a challan?",
+    a: "Out of your own field of view, which in practice means tucked behind or beside the rear view mirror rather than in the middle of the windscreen. We searched the Central Motor Vehicles Rules, 1989 for a provision about objects placed in the driver's line of sight and did not find one; the rules in that chapter deal with brakes, steering gears, safety glass and windscreen wipers. Rules about obstructing a driver's view sit in state motor vehicle rules, so the enforceable answer where you drive is a state one.",
+  },
+  {
+    q: "Can dash cam footage be used in court in India?",
+    a: "It can, but the file alone is not enough. A video is an electronic record, and section 63 of the Bharatiya Sakshya Adhiniyam, 2023 requires a certificate in the form given in the Act's Schedule to accompany it each time it is submitted. That form asks for the source device, its make, model and serial number, and a hash value of the record with the hash report enclosed. Take the card out and keep the original file rather than trimming a clip and sharing the trimmed copy around.",
+  },
+  {
+    q: "Can I report another driver using my dash cam video?",
+    a: "In some cities, yes, and the mechanism is official. Delhi Traffic Police re-launched its Traffic Sentinel Scheme as Traffic Prahari on 1 September 2024, where a registered user uploads photographs or videos of violations and earns points, with certain offences requiring video rather than a photograph: red light jumping, dangerous or zigzag driving and using a mobile phone while driving each need video. Check whether your own city runs a comparable scheme before assuming one exists.",
+  },
+  {
+    q: "Does a dash cam record my passengers' conversations?",
+    a: "Most have a microphone and many have it enabled by default. That turns a road safety device into a recording of whoever is in the car, which is a separate question from the video and is worth settling by switching audio off unless you have a reason to keep it. Our guide to call recording in India covers why the consent of the people being recorded is the issue rather than ownership of the device.",
+  },
+  {
+    q: "Can somebody else see my dash cam footage?",
+    a: "If the camera has Wi-Fi or a cloud account, treat it as a connected camera rather than as a tape recorder. The questions are the same ones that apply to any networked camera: who holds the account, whether remote viewing is switched on, whether the default password was ever changed, and who had the vehicle. A camera in a car that somebody else set up is a camera somebody else may still be able to reach.",
+  },
+];
+
+const followedFaqs: Faq[] = [
+  {
+    q: "How can I tell if someone is following me in a car?",
+    a: "The useful signal is not a car staying behind you, which happens constantly on a shared route. It is a vehicle that turns with you through changes you made without planning them, that is still there after a stop long enough to break any shared journey, and that you have now seen on days with nothing in common. One of those is a coincidence. All three together is a pattern, and a pattern is what you write down.",
+  },
+  {
+    q: "They always know where I have been. Does that mean I am being followed?",
+    a: "Usually not. Someone turning up where you are is far more often explained by information than by pursuit: a location shared inside a family or messaging app and forgotten about, an account signed in on a second device, a tracker in a bag or vehicle, or a car's own connected service. Those are checkable, and checking them is cheaper and faster than trying to detect a person on the road.",
+  },
+  {
+    q: "What should I do if a car is following me right now?",
+    a: "Do not go home, and do not stop somewhere isolated to confront anybody. Drive to a place that is busy and staffed, such as a fuel station, a hospital gate, a hotel entrance or a police station, and contact 112. If you cannot safely speak, the Emergency Response Support System takes more than voice calls. Stay in the vehicle with the doors locked while you wait, and note the registration number rather than trying to photograph the driver at close range.",
+  },
+  {
+    q: "Can I contact 112 without speaking?",
+    a: "Yes. The Ministry of Home Affairs describes ERSS-112 as receiving distress calls over ten different channels, listing voice call, SMS, SOS, email, web request, chatbot, media crawler, signals from connected devices, WhatsApp and external signals, all arriving at the same answering point in your state. That matters when speaking out loud would make the situation worse.",
+  },
+  {
+    q: "What should I write down?",
+    a: "Date, time, the place you noticed it, the direction you were travelling, a description of the vehicle or person, the registration number if you have it safely, and what happened. Write it the same day in one file rather than leaving it scattered across messages to different people. A single dated log is what turns four uneasy feelings into something a police station can act on.",
+  },
+  {
+    q: "Will a sweep tell me whether I am being followed?",
+    a: "No, and nobody should suggest otherwise. An examination of a vehicle or a home finds what is physically there: a tracker, a recorder, a camera. It cannot tell you whether a car behind you on the road had any interest in you. What it can do is settle the much more common explanation, which is that a device or an account is reporting your movements.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-tell-if-someone-is-following-you",
+    title: "Someone Is Following You: How to Tell, and What to Do",
+    seoTitle: "How to Tell If Someone Is Following You in India",
+    metaDescription:
+      "Before deciding you are being followed, rule out the explanation that fits more often. Then the response, in order, and how to reach 112 without speaking.",
+    excerpt:
+      "Most people who feel followed are right that something is wrong and wrong about what it is. Being found is usually about information rather than pursuit, and the two have completely different answers.",
+    date: "2026-11-27",
+    readTime: "9 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/how-to-tell-if-someone-is-following-you.webp",
+    ogImage: "/images/blogs/how-to-tell-if-someone-is-following-you.png",
+    coverImageAlt:
+      "Being followed guide cover: one route marked with repeated sightings, and a signal reaching the same point from a device instead",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Want the simpler explanation ruled out first?",
+      text: "If somebody keeps knowing where you have been, the usual answer is a device or an account rather than a person on the road. A private consultation can help you decide what is worth examining, in your vehicle, your home or your phone. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you",
+          name: "How to Tell If Someone Is Following You in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/how-to-tell-if-someone-is-following-you.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#article",
+          headline: "Someone Is Following You: How to Tell, and What to Do",
+          description:
+            "Before deciding you are being followed, rule out the explanation that fits more often. Then the response, in order, and how to reach 112 without speaking.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Personal safety" },
+            { "@type": "Thing", name: "Surveillance" },
+            { "@type": "Thing", name: "Emergency services" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Someone Is Following You" },
+          ],
+        },
+        faqJsonLd(followedFaqs, "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Before deciding that you are being followed, rule out the explanation that fits more often, which is that something is already reporting where you are. A shared location, an account, a tracker or a vehicle's own connected service accounts for most cases of somebody always knowing. If a person genuinely is following you, the response is not to lose them. It is to not go home, to reach a staffed public place, and to contact 112, which accepts far more than voice calls.</p>
+      </div>
+
+      <p>Nearly everyone who asks this question has already decided what the answer is. They want a technique for confirming a tail, and the internet obligingly supplies one borrowed from films: take four turns in the same direction and see who is still there.</p>
+
+      <p>The technique is not useless. It is just an answer to the wrong question, asked too early, and it carries a cost. A person who spends two weeks watching mirrors is a person who has not checked the thing that explains most of these cases in an afternoon.</p>
+
+      <h2>Being found and being followed are different problems</h2>
+      <p>Separate the two sensations, because people describe them in the same words.</p>
+
+      <p>The first is <strong>being found</strong>. Somebody turns up at places you did not announce. They know you were at a restaurant, or that you left early, or which route you took. Nothing was ever visible behind you.</p>
+
+      <p>The second is <strong>being followed</strong>. You keep seeing the same vehicle or the same person on the road or on foot, usually in motion, usually behind you.</p>
+
+      <p>Pursuit is laborious, expensive and easy to notice. Information is none of those things. If somebody consistently knows where you have been without ever being seen, the probable explanation is that something told them, and that is a question with a definite answer.</p>
+
+      <h2>Rule out the explanation that costs nothing to check</h2>
+      <p>Four ordinary sources account for most of these cases, and all four are checkable from a chair.</p>
+
+      <ol>
+        <li><strong>A location you shared and forgot.</strong> Family sharing, a messaging app's live location left on indefinitely, a shared calendar with addresses in it. These are set up in a moment of convenience, often years ago, and nothing reminds you they exist.</li>
+        <li><strong>An account somebody else can still reach.</strong> A signed-in session on a device that is no longer yours, or an account recovery route that still points to somebody else. Our guide to <a href="/blog/who-has-access-to-my-google-account">who has access to your Google account</a> covers what to look at and in what order.</li>
+        <li><strong>A tracker.</strong> A Bluetooth tag in a bag or a car, or a tracker fitted to a vehicle. Our guide to <a href="/blog/unknown-tracker-detected">an unknown tracker alert</a> covers the consumer tags and the alerts your phone already produces, and our guide to <a href="/blog/vehicle-gps-tracking">vehicle tracking</a> covers the devices that get fitted to a car.</li>
+        <li><strong>The phone itself.</strong> Monitoring software, or simply an account on the handset that somebody else controls. Our guide to <a href="/blog/is-someone-monitoring-your-phone">whether someone is monitoring your phone</a> sets out which checks establish something and which prove nothing, and why resetting the device first is usually the wrong move.</li>
+      </ol>
+
+      <p>One test separates this group from an actual follower, and it requires nothing dangerous. Think about where they appeared. If they turn up at destinations you never announced and never drove to in a predictable way, that is information. If they appear behind you in traffic and then vanish, that is a road.</p>
+
+      <h2>When it really is a person</h2>
+      <p>Sometimes the answer is the plain one, and the worst thing to do with that conclusion is to treat it as a puzzle to be solved by driving.</p>
+
+      <p>What actually matters is not confirming a tail in one journey. It is accumulating a record across several, because a pattern that repeats is what a police station can act on and a single uneasy afternoon is not.</p>
+
+      <p>So keep a log. One file, written the same day: date, time, where you were, the direction of travel, a description of the vehicle or person, the registration number if you obtained it without taking a risk, and what happened. Note what was ordinary about the day as well, because a sighting on a route you take every morning carries less weight than one on a journey you made once.</p>
+
+      <h2>What to do while it is happening</h2>
+      <p>This is the part where the film version becomes dangerous, so it is written in order.</p>
+
+      <ol>
+        <li><strong>Do not go home, and do not go anywhere quiet.</strong> The purpose of following somebody is frequently to learn where they end up. An isolated place to confront a driver is the single worst choice available.</li>
+        <li><strong>Go somewhere staffed and busy.</strong> A fuel station, a hospital gate, a hotel or mall entrance, a police station. Staff, lights and cameras do more for you than speed does.</li>
+        <li><strong>Contact 112.</strong> The Ministry of Home Affairs describes <a href="https://www.mha.gov.in/emergency-response-support-system-erss" rel="noopener noreferrer" target="_blank">ERSS-112</a> as a nationwide unified emergency response system that receives distress calls over ten different channels, listing voice call, SMS, SOS, email, web request, chatbot, media crawler, signals from connected devices, WhatsApp and external signals, which are routed to the public safety answering point in your state and dispatched from there. If speaking aloud would make things worse, you are not limited to a phone call.</li>
+        <li><strong>Stay in the vehicle, with the doors locked,</strong> if you are driving and have reached a safe place. If you are on foot, go inside a staffed premises rather than waiting outside it.</li>
+        <li><strong>Note the registration number. Do not photograph anyone at close range.</strong> A number written down is evidence. A phone held up at a car window is an escalation.</li>
+        <li><strong>Ask the venue to preserve its footage, in writing, the same day.</strong> Recordings are overwritten in days, and nobody will keep one for you unless asked. Our guide to <a href="/blog/how-to-get-cctv-footage-in-india">getting CCTV footage somebody else holds</a> sets out what that request should say and who actually has the power to require production.</li>
+      </ol>
+
+      <h2>Making a complaint that can be acted on</h2>
+      <p>Take three things to the police station rather than one. The log, so the pattern is visible at a glance. The locations where footage exists, with the dates and clock windows, so that it can be required before it is overwritten. And anything you already found when you checked the four sources above, because a tracker recovered from a vehicle is a physical fact rather than an impression.</p>
+
+      <p>Whether the conduct amounts to a specific offence depends on what happened and on who is involved, and the Indian provisions in this area are narrower than most people expect, including on who they protect. Our guide to <a href="/blog/unknown-tracker-detected">an unknown tracker alert</a> works through that question in the context of a tag found in a bag or a car, including the gap it leaves. Where anyone is in immediate danger, 112 comes before all of it.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>Here the limit is worth stating plainly, because it is the question people arrive with. No examination can tell you whether a car behind you was following you, or who was driving it. That is for the police, and for whatever recordings exist along the route. What an examination can do is answer the other half, which is whether a tracker, a recorder or a camera is physically present in your vehicle or your home, and whether an account or a device is reporting your movements. In most of the cases that reach us, that is where the answer turns out to be.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(followedFaqs)}
+    `,
+  },
+  {
+    slug: "are-dash-cams-legal-in-india",
+    title: "Are Dash Cams Legal in India?",
+    seoTitle: "Are Dash Cams Legal in India? What the Rules Say",
+    metaDescription:
+      "Nothing in Indian law bans a dash cam. The real questions arrive later: where it sits, what it hears, whether the clip is evidence, and who else can reach it.",
+    excerpt:
+      "The device is the easy part. Follow a single clip from the moment it is recorded to the moment it is used, and five different legal questions appear, only one of which is about the camera.",
+    date: "2026-11-27",
+    readTime: "8 min read",
+    category: "Vehicle Sweeps",
+    coverImage: "/images/blogs/are-dash-cams-legal-in-india.webp",
+    ogImage: "/images/blogs/are-dash-cams-legal-in-india.png",
+    coverImageAlt:
+      "Dash cam guide cover: a windscreen view with a camera mounted beside the mirror and a clip moving through five marked stages",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Wondering what else is riding in your vehicle?",
+      text: "A dash cam is the camera you know about. Trackers and recorders fitted by somebody else are the ones people come to us about, usually after a car has been serviced, shared or parked somewhere it normally is not. A private consultation can help you decide what is worth examining.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india",
+          name: "Are Dash Cams Legal in India? What the Rules Say",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/are-dash-cams-legal-in-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#article",
+          headline: "Are Dash Cams Legal in India?",
+          description:
+            "Nothing in Indian law bans a dash cam. The real questions arrive later: where it sits, what it hears, whether the clip is evidence, and who else can reach it.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Dashcam" },
+            { "@type": "Thing", name: "Road traffic law" },
+            { "@type": "Thing", name: "Digital evidence" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Are Dash Cams Legal in India" },
+          ],
+        },
+        faqJsonLd(dashCamFaqs, "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Yes. No Indian law prohibits fitting a dash cam to your own vehicle, and the device needs no permit or approval. The questions worth your attention arrive afterwards, and they are about placement, audio, evidence and access rather than about legality. Follow one clip from the moment it is recorded and you can see all four.</p>
+      </div>
+
+      <p>Most writing on this subject answers a question nobody is really asking. Whether the camera is allowed is the least interesting part, because nothing prohibits it. What decides whether a dash cam helps you or creates a problem is what happens to a clip after it exists.</p>
+
+      <p>So take one clip and follow it through.</p>
+
+      <h2>Stage one: where the camera sits</h2>
+      <p>This is the only stage where a traffic officer is likely to be involved, and the rule people quote often does not exist in the form they think.</p>
+
+      <p>We searched the Central Motor Vehicles Rules, 1989, listed with the rest of the central legislation on the <a href="https://morth.gov.in/en/motor-vehicle-legislation" rel="noopener noreferrer" target="_blank">Ministry of Road Transport and Highways site</a>, for a provision about objects placed in the driver's field of view, and did not find one. The chapter that covers the windscreen deals with brakes, steering gears, safety glass and windscreen wipers, which are properties of the vehicle rather than of what you attach to it.</p>
+
+      <p>Rules about obstructing a driver's view generally sit in the state motor vehicle rules, which differ from state to state. That is the practical answer to the mounting question: there is no national dash cam placement rule to comply with, and the risk is a local one about your own line of sight. Mounted high and tight against the mirror housing, a dash cam sits outside the swept area a driver actually looks through. Stuck in the middle of the windscreen with a long arm and a dangling cable, it does not.</p>
+
+      <h2>Stage two: what the camera hears</h2>
+      <p>Almost every dash cam has a microphone, and on many it is on by default. That is a different device from the one you thought you bought.</p>
+
+      <p>A camera that records the road is a record of a public event. A camera that records the cabin is a recording of whoever is sitting in your car, including colleagues, clients, drivers and family, usually without any of them knowing. Owning the device does not settle whether recording the people inside it is appropriate, and our guide to <a href="/blog/is-call-recording-legal-in-india">call recording in India</a> explains why consent of the people recorded, rather than ownership of the equipment, is where that question actually sits.</p>
+
+      <p>The practical step is one menu toggle. Turn audio off unless there is a reason to keep it, and tell passengers if you keep it on.</p>
+
+      <h2>Stage three: the clip becomes evidence</h2>
+      <p>This is the stage that most often goes wrong, and it goes wrong before anybody reaches a court.</p>
+
+      <p>A video is an electronic record. Section 63 of the Bharatiya Sakshya Adhiniyam, 2023, published as <a href="https://egazette.gov.in/WriteReadData/2023/250882.pdf" rel="noopener noreferrer" target="_blank">gazette notification CG-DL-E-25122023-250882 of 25 December 2023</a>, requires a certificate in the form set out in the Act's Schedule to accompany an electronic record each time it is submitted for admission. That form asks what the source was, with a DVR, a flash drive, a mobile and cloud storage among the options to tick, and then asks for make, model, serial number and a hash of the record, with the hash report enclosed. Part B of the form is to be completed by an expert.</p>
+
+      <p>Now consider the usual sequence after an incident: the clip is trimmed on a phone, forwarded on a messaging app, re-encoded by every forward, and the memory card keeps recording until the original is overwritten. At the end of that chain nobody can say what the source was.</p>
+
+      <p>So the useful habit is short. Stop the recording, take the card out, and keep the original file untouched, with the camera's own make, model and serial number noted. Share copies, never the original. Our guide to <a href="/blog/how-to-get-cctv-footage-in-india">getting CCTV footage somebody else holds</a> describes the same certificate problem from the other side, where the footage belongs to a shop or a society.</p>
+
+      <h2>Stage four: reporting somebody else</h2>
+      <p>Dash cam owners routinely want to report what they filmed, and in some cities there is now an official way to do it.</p>
+
+      <p>Delhi Traffic Police runs a citizen reporting scheme that began in 2015 and was <a href="https://traffic.delhipolice.gov.in/en/node/67" rel="noopener noreferrer" target="_blank">re-launched as Traffic Prahari on 1 September 2024</a>. A user registers with a mobile number and uploads photographs or videos of violations, earning points that can be redeemed for prizes. The points table is instructive for a dash cam owner, because it shows which offences the police will not accept a still image for. Red light jumping, dangerous or zigzag driving and using a mobile phone while driving each carry points only for video. Driving against the flow of traffic carries the highest points of the photograph categories.</p>
+
+      <p>That is a scheme in one city, not a national right, so check what your own traffic police actually runs before planning around it. What travels everywhere is the principle underneath: electronic evidence of a violation now has an official route, and a usable report identifies the vehicle, the place and the time rather than simply showing bad driving.</p>
+
+      <h2>Stage five: the clip gets posted</h2>
+      <p>The last stage is the one that turns a road incident into a different kind of dispute.</p>
+
+      <p>Footage of an identifiable person, posted publicly with a caption naming or accusing them, is no longer a record of an accident. It is publication, and it attracts its own consequences. Our guide to <a href="/blog/taking-photos-without-consent-india">taking photos of someone without consent in India</a> sets out what the criminal provisions actually require and, just as usefully, what the platform rules require once an image is up.</p>
+
+      <p>Send the clip to the insurer, the police or the official reporting channel. Posting it is a separate decision, and it is almost never the one that helps your claim.</p>
+
+      <h2>The part a security firm notices first</h2>
+      <p>There is one more thing about dash cams that rarely appears in a buying guide. Many now have Wi-Fi, an app and a cloud account, which makes them networked cameras inside a vehicle rather than sealed recorders.</p>
+
+      <p>Treat a connected dash cam the way you would treat any other camera on a network. Who holds the account it is paired with. Whether remote viewing is switched on. Whether the password that came in the box was ever changed. Who has had the vehicle, and whether anyone else paired a phone to it. Our guide to <a href="/blog/can-cctv-be-hacked-ahmedabad">whether CCTV can be hacked</a> covers how those accounts are usually reached, and our guide to <a href="/blog/vehicle-gps-tracking">vehicle tracking</a> covers the device people more often find in a car that they did not install.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>For a vehicle that means an examination can find a tracker or a recorder that somebody else fitted, and can tell you what is physically present behind trim and under seats. It cannot tell you who placed it, and it cannot recover what your own camera overwrote last week. The legal points on this page were checked against the sources linked above on 27 November 2026 and are general information rather than advice on your situation, and state rules differ, so confirm the position where you drive.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(dashCamFaqs)}
+    `,
+  },
+  {
+    slug: "taking-photos-without-consent-india",
+    title: "Taking Photos of Someone Without Consent in India",
+    seoTitle: "Taking Photos Without Consent: The Law in India",
+    metaDescription:
+      "India has no general law against photographing a person. What the law reaches is narrower, and what gets an image taken down is faster. Both explained here.",
+    excerpt:
+      "Consent is not the test Indian law applies, which is why the question is so often answered wrongly in both directions. Two provisions define what is an offence, and a separate rule gives platforms twenty-four hours.",
+    date: "2026-11-27",
+    readTime: "9 min read",
+    category: "Bug Sweep Tips",
+    coverImage: "/images/blogs/taking-photos-without-consent-india.webp",
+    ogImage: "/images/blogs/taking-photos-without-consent-india.png",
+    coverImageAlt:
+      "Consent and photography cover: a phone camera frame with two conditions marked inside it and a twenty-four hour timer beside",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure whether a camera is pointed at you deliberately?",
+      text: "A phone in a crowd is one thing. A lens that keeps appearing in the same place is another, and it is worth answering properly. A private consultation can help you work out what is worth examining. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india",
+          name: "Taking Photos Without Consent: The Law in India",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/taking-photos-without-consent-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#article",
+          headline: "Taking Photos of Someone Without Consent in India",
+          description:
+            "India has no general law against photographing a person. What the law reaches is narrower, and what gets an image taken down is faster. Both explained here.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Photography" },
+            { "@type": "Thing", name: "Consent" },
+            { "@type": "Thing", name: "Privacy law" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Taking Photos Without Consent" },
+          ],
+        },
+        faqJsonLd(consentPhotoFaqs, "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Taking photos of someone without consent is not, by itself, an offence in India. The provisions that do apply are defined by elements rather than by consent: section 77 of the Bharatiya Nyaya Sanhita, 2023 concerns a woman in a private act in circumstances providing privacy, and section 66E of the Information Technology Act, 2000 concerns the image of a private area captured in circumstances violating privacy. Once an image has been published, a faster route opens: a platform has twenty-four hours.</p>
+      </div>
+
+      <p>This question gets answered wrongly in both directions. One answer says nothing can be done because it happened in public. The other says any photograph taken without permission is a crime. Neither is what Indian law says, and the difference decides whether you spend a week at a police station or an afternoon getting an image removed.</p>
+
+      <h2>Consent is not the test</h2>
+      <p>Start with what the provisions actually require, because that is where the misunderstanding begins. Neither of the two commonly cited provisions turns on whether you agreed.</p>
+
+      <p>Section 77 of the Bharatiya Nyaya Sanhita, 2023 concerns a man who watches or captures the image of a woman engaged in a private act in circumstances where she would usually have the expectation of not being observed. The Act defines a private act for this purpose as one carried out in a place which, in the circumstances, would reasonably be expected to provide privacy, and where the victim's genitals, posterior or breasts are exposed or covered only in a way not ordinarily done in public. A first conviction carries one to three years with fine, and a later one three to seven years with fine.</p>
+
+      <p>Section 66E of the Information Technology Act, 2000 concerns intentionally or knowingly capturing, publishing or transmitting the image of a private area of any person without consent, under circumstances violating that person's privacy. It carries up to three years, or a fine of up to two lakh rupees, or both. Private area there refers to defined body areas, not to private premises.</p>
+
+      <p>So the two questions that decide an ordinary case are not about permission at all. They are about where the person was, and what the image shows.</p>
+
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Common situations, and which provision the elements point towards</caption>
+          <thead>
+            <tr><th scope="col">The situation</th><th scope="col">Where the elements point</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>A photograph of you on a street, in a market or at an event</td><td>Ordinarily outside both provisions. The location is not one expected to provide privacy, and nothing of the kind either provision describes is shown</td></tr>
+            <tr><td>A photograph taken into a changing room, a bathroom or a hotel room</td><td>Squarely the territory of section 77, and of section 66E where the image is of a private area</td></tr>
+            <tr><td>A photograph taken up or through clothing in a public place</td><td>The place being public does not decide it. What the image shows is what engages section 66E</td></tr>
+            <tr><td>An image you agreed to, later circulated to others</td><td>Explanation 2 to section 77 addresses dissemination without consent even where the capture was consented to</td></tr>
+            <tr><td>A morphed or impersonating image posted online</td><td>The takedown route below, which is faster than any of the above</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Reading the elements this way also explains the honest answer to the street photograph: we could not find any Indian provision that makes photographing a person in a public place an offence in itself. That is not the same as saying nothing can be done about a person who follows you around with a camera, which is a different complaint and is described below.</p>
+
+      <h2>Agreeing to the photograph is not agreeing to its circulation</h2>
+      <p>This is the single most useful thing on this page, and it is written into the Sanhita itself. Explanation 2 to section 77 deals with the case where the victim consents to the capture of the images or the act, but not to their dissemination to third persons. Where such an image is then disseminated, that dissemination is to be considered an offence under the section.</p>
+
+      <p>Read what that does. It removes the argument that a person who once agreed has agreed to everything that followed, which is the argument most often used against someone whose private image is circulating. The consent attached to the moment of capture. It did not travel with the file.</p>
+
+      <h2>If the image is already online: twenty-four hours</h2>
+      <p>Where an image has been published, the fastest route in Indian law is not a police station. It is the platform, and the deadline is short.</p>
+
+      <p>Rule 3(2)(b) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, as published in the <a href="https://www.meity.gov.in/static/uploads/2024/02/Information-Technology-Intermediary-Guidelines-and-Digital-Media-Ethics-Code-Rules-2021-updated-06.04.2023-.pdf" rel="noopener noreferrer" target="_blank">consolidated text on the Ministry of Electronics and Information Technology's own site</a>, requires an intermediary to act within twenty-four hours from the receipt of a complaint made by an individual, or by any person on their behalf, in relation to content which is prima facie material exposing that individual's private area, showing them in full or partial nudity, showing or depicting them in any sexual act or conduct, or in the nature of impersonation in an electronic form, including artificially morphed images. The intermediary is to take all reasonable and practicable measures to remove or disable access to it.</p>
+
+      <p>Rule 3(2)(c) then requires the intermediary to implement a mechanism for receiving those complaints, which is why every large platform has a reporting form for this category specifically. Use that form rather than a general report, because the category is what starts the twenty-four hour clock. Keep the complaint reference and the time you sent it.</p>
+
+      <p>For ordinary complaints the Rules set a different pair of timelines: the Grievance Officer is to acknowledge within twenty-four hours and resolve within fifteen days, with a seventy-two hour limit for certain removal requests. Those are the numbers against which a platform's silence is measured.</p>
+
+      <h2>If the platform does nothing: the appeal almost nobody files</h2>
+      <p>Rule 3A of the same Rules establishes Grievance Appellate Committees, each with a chairperson and two whole time members appointed by the Central Government.</p>
+
+      <p>A person aggrieved by a decision of a platform's Grievance Officer, or whose grievance is not resolved within the period the Rules allow, may appeal to a Committee within thirty days of receiving the communication from that officer. The Committee is to deal with the appeal expeditiously and to endeavour to resolve it finally within thirty calendar days of receipt. The entire process, from filing to decision, is conducted in digital mode, and every order passed by the Committee is to be complied with by the intermediary concerned.</p>
+
+      <p>That is a statutory appeal against a platform's refusal, conducted online, with a deadline attached. It is worth knowing it exists before you accept a rejection email as the end of the matter.</p>
+
+      <h2>Reporting, in the right order</h2>
+      <p>Where the conduct crosses into the provisions above, the routes are the ordinary ones and the order matters.</p>
+
+      <ol>
+        <li><strong>If anyone is in immediate danger, call 112 first.</strong> Nothing below comes before that.</li>
+        <li><strong>Preserve rather than argue.</strong> Note the time, the place and what was said. Photograph the setting if it is safe to do so. Do not try to take or wipe anybody's phone, which replaces your complaint with a dispute about your own conduct.</li>
+        <li><strong>Report to the local police</strong> for an offence of the kind described above. Where a woman reports voyeurism or stalking, the information is to be recorded by a woman police officer.</li>
+        <li><strong>File in parallel at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a></strong> where an image has been published or shared. That portal routes the complaint to the relevant state police, and a complaint made there does not automatically become an FIR.</li>
+        <li><strong>Send the platform complaint the same day,</strong> separately from the police complaint, because it runs on its own clock.</li>
+      </ol>
+
+      <h2>When it is not really about the photograph</h2>
+      <p>Sometimes the camera is a symptom. A person who turns up repeatedly, photographs a doorway, or appears in the same places is describing a pattern rather than an image, and a pattern is what the police can act on. Keep dates, times and places in a single log rather than scattered across messages.</p>
+
+      <p>Where the attention is fixed rather than mobile, the questions are different again. Our guide to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's camera pointing at your house</a> covers the fixed camera version, and our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers the case where the lens is concealed rather than held. If what you need is the recording from somebody else's system, our guide to <a href="/blog/how-to-get-cctv-footage-in-india">getting CCTV footage somebody else holds</a> sets out who actually has the power to require it.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>None of that reaches a photograph taken on somebody's handset in the street, which is a matter for the police and the platforms rather than for an inspection. What an examination answers is whether anything fixed is watching the space you control. The legal points on this page were checked against the sources linked above on 27 November 2026 and are general information rather than advice on your situation.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(consentPhotoFaqs)}
+    `,
+  },
+  {
+    slug: "can-police-search-my-phone-india",
+    title: "Can the Police Search Your Phone in India?",
+    seoTitle: "Can Police Search Your Phone in India? What Law Says",
+    metaDescription:
+      "Taking a phone and reading what is inside it are two different acts. India's law is clear about the first and unsettled about the second. Here is the gap.",
+    excerpt:
+      "The Sanhita sets out when an officer may search without a warrant, what has to be written down and who has to be told. It says almost nothing about the thing everybody asks about, which is the password.",
+    date: "2026-11-27",
+    readTime: "10 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/can-police-search-my-phone-india.webp",
+    ogImage: "/images/blogs/can-police-search-my-phone-india.png",
+    coverImageAlt:
+      "Phone search guide cover: a sealed evidence bag holding a phone beside a written record, with a locked screen behind a dashed line",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Worried about what a device has been through?",
+      text: "A phone that has been out of your hands, or a room you are no longer sure about, raises questions that paperwork does not answer. A private consultation can help you work out what is worth examining and what is not. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india",
+          name: "Can Police Search Your Phone in India? What Law Says",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/can-police-search-my-phone-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#article",
+          headline: "Can the Police Search Your Phone in India?",
+          description:
+            "Taking a phone and reading what is inside it are two different acts. India's law is clear about the first and unsettled about the second. Here is the gap.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Search and seizure" },
+            { "@type": "Thing", name: "Mobile phone" },
+            { "@type": "Thing", name: "Right against self-incrimination" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Can the Police Search Your Phone" },
+          ],
+        },
+        faqJsonLd(phoneSearchFaqs, "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> Taking the phone and reading what is inside it are two separate acts. For the first, section 185 of the Bharatiya Nagarik Suraksha Sanhita, 2023 allows a search without a warrant during an investigation, on conditions that have to be written down before the search happens. For the second, the Sanhita says nothing specific, and two High Courts have taken opposite views on whether you can be made to open it.</p>
+      </div>
+
+      <p>Almost every version of this question online answers a different one. Some answer the American position, which has no application here. Others quote a single High Court headline as though it settled the country. A few answer the question of phone tapping, which is a different subject entirely.</p>
+
+      <p>The Indian answer has to be given in two parts, because the law treats the handset and its contents differently. One part is reasonably clear and comes with paperwork you are entitled to see. The other is genuinely unsettled, and saying so is more useful than pretending otherwise.</p>
+
+      <h2>Why the two questions separate</h2>
+      <p>A phone is a physical object that can be seized like any other, and it is also a store of data larger than anything the drafters of a search provision used to imagine. India's procedural code was rewritten in 2023 and it handles the object well. It does not say how far an officer who lawfully holds the object may read through the data.</p>
+
+      <p>That gap is the reason two readers can both be right when one says the police can take your phone and the other says the police cannot read it. Keep the two apart as you go through what follows, because every practical decision depends on which one you are in.</p>
+
+      <h2>When an officer may search without a warrant</h2>
+      <p>The governing provision is section 185 of the Bharatiya Nagarik Suraksha Sanhita, 2023, published as <a href="https://egazette.gov.in/WriteReadData/2023/250884.pdf" rel="noopener noreferrer" target="_blank">gazette notification CG-DL-E-25122023-250884 of 25 December 2023</a>. It permits a search without a warrant, and then loads conditions on to it.</p>
+
+      <p>The officer must be the officer in charge of a police station or an officer conducting the investigation. There must be reasonable grounds to believe that something necessary for the investigation is in a particular place within that station's limits, and a reason to believe it cannot be obtained otherwise without undue delay. The grounds must be recorded in writing in the case diary, specifying what is sought, and the search is to be confined to that thing as far as possible. The officer should search in person where practicable, and where that is not possible and no other competent person is available, a subordinate may be sent with a written order giving the reasons and the place.</p>
+
+      <p>Read that list again as a reader rather than a lawyer. Each condition is a thing that is supposed to exist on paper before the search starts, which means each is a thing that can later be shown not to exist. That, and not an argument at the doorstep, is where a bad search is usually challenged.</p>
+
+      <h2>The paperwork you are entitled to, and almost never asked for</h2>
+      <p>This is the most practically useful part of the subject and the part most writing on it leaves out. The Sanhita does not treat a search as an event between you and an officer. It treats it as an event that generates records, several of which are meant to reach you or a magistrate.</p>
+
+      <ol>
+        <li><strong>A video recording.</strong> Section 105 requires that the process of conducting a search of a place, or taking possession of any property, article or thing, be recorded through audio-video electronic means, preferably a mobile phone, and that the police officer forward the recording without delay to the District Magistrate, Sub-divisional Magistrate or Judicial Magistrate of the first class. Section 185 repeats the point for a warrantless search in its own terms.</li>
+        <li><strong>A list of what was taken.</strong> Section 103 requires a list of all things seized in the course of the search, recording the place where each was found, prepared by the officer and signed by the witnesses.</li>
+        <li><strong>Your copy of that list.</strong> The same section requires a signed copy of the list to be delivered to the occupant of the place searched, or to the person acting for them, who is also entitled to attend the search.</li>
+        <li><strong>The grounds, with a magistrate.</strong> Section 185(5) requires copies of the record of the grounds to be sent to the nearest Magistrate empowered to take cognizance of the offence within forty-eight hours, and provides that the owner or occupier of the place searched may, on application, be given a copy by that Magistrate free of cost.</li>
+      </ol>
+
+      <p>That last entry is worth reading twice. The reasons an officer wrote down before searching your home or office are a document you may apply to a magistrate for. Very few people ever ask.</p>
+
+      <h2>The password, where two High Courts disagree</h2>
+      <p>Now the unsettled half. Nothing in the Sanhita says a person must open a device for an officer, and the question has been answered differently in different states.</p>
+
+      <p>In <em>Virendra Khanna v. State of Karnataka</em>, Writ Petition No. 11759 of 2020, decided on 12 March 2021, the Karnataka High Court took the view that <a href="https://indiankanoon.org/doc/87379349/" rel="noopener noreferrer" target="_blank">a direction to provide a password, passcode or biometrics</a> would not amount to testimonial compulsion, describing it as being in the nature of a direction to produce a document and relying on the Supreme Court's reasoning about specimen handwriting and thumb impressions. The same judgment is careful about who may give such a direction: the investigating officer may request or direct the accused to furnish it, and it is for the accused to accede, while the court cannot issue such a direction on its own motion and can act only on an application by a party. If access is not given, the court said, an adverse inference may be drawn, subject to the prosecution pointing out the nature of that inference, and the officer may apply for directions or for a search warrant for the device.</p>
+
+      <p>In January 2024 the Delhi High Court went the other way on the facts before it. In <em>Sanket Bhadresh Modi v. Central Bureau of Investigation</em>, Justice Saurabh Banerjee held, while granting bail, that <a href="https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-accused-cant-coerced-reveal-passwords-digital-devices-trial-bail-245733" rel="noopener noreferrer" target="_blank">an accused cannot be coerced to reveal or disclose the passwords</a> or similar details of digital devices seized during the investigation while the trial is ongoing, reasoning from Article 20(3) and from the presumption of innocence.</p>
+
+      <p>So what should a reader take from that? Three things, and no more. A single judge decision of one High Court does not bind courts in another state. The question of whether access may be compelled is live rather than closed. And a page on the internet, including this one, is not the place to decide what you personally should do when asked, because the answer turns on your position in the case, as an accused, a witness or a complainant, and on which court would hear the matter. Ask for any direction in writing, say that you want to speak to a lawyer, and do not destroy or wipe anything, which creates a separate and much worse problem.</p>
+
+      <h2>The quieter route: an order to produce</h2>
+      <p>A seizure is not the only way material leaves your hands. Section 94 of the same Sanhita allows a court to issue a summons, and an officer in charge of a police station to issue a written order in physical or electronic form, requiring a person in possession of a document, or of an electronic communication including a communication device likely to contain digital evidence, to produce it for an investigation, inquiry, trial or other proceeding. Sub-section (2) treats a person required only to produce something as having complied by causing it to be produced, without attending in person.</p>
+
+      <p>This matters for two reasons. It is the provision under which records held by other people, from call details to camera footage, are required, which our guide to <a href="/blog/how-to-get-cctv-footage-in-india">getting CCTV footage somebody else holds</a> works through from the other side. And it means a demand can arrive as a piece of paper rather than as a visit, which gives you time to take advice before responding.</p>
+
+      <h2>Getting the device back</h2>
+      <p>A phone held as case property is dealt with by the court rather than by the station. Where property is produced before a criminal court during an inquiry or trial, section 497 allows the court to make such order as it thinks fit for its proper custody, and provides for the court to prepare a statement describing the property in the prescribed form and to arrange photographs, and video where needed, which may then be used as evidence in the proceedings.</p>
+
+      <p>That machinery exists so the object itself does not have to sit in a storeroom for years while the record of what it was survives. Applying for custody or release is work for your lawyer, and the application is stronger when the seizure list, the video and the recorded grounds have already been obtained.</p>
+
+      <h2>Where this meets the subject of this site</h2>
+      <p>Two things frequently get confused with a search, and both are answered elsewhere.</p>
+
+      <p>The first is interception. A tap happens inside the operator's network under the Telecommunications Act, 2023 and the rules made under it. Nothing is attached to your handset and there is nothing for you to notice, which is why the signs people look for do not exist. Our guide on <a href="/blog/is-my-phone-tapped">whether your phone is tapped</a> sets out who may authorise it and what the timetables are.</p>
+
+      <p>The second is private monitoring, which is the far more common worry: a partner, a relative or an employer with access to the device or to the accounts behind it. That has nothing to do with the police, and the checks that establish something are different again. Our guide on <a href="/blog/is-someone-monitoring-your-phone">whether someone is monitoring your phone</a> covers those, including why a device that has been out of your hands is a question about accounts as much as about the handset.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>On this subject the limits are sharper than usual. No examination can tell you what was copied from a device while it was in somebody else's custody, or what was read. That is answered from the record of the seizure and from the case file, which is why the documents above matter more here than any instrument does. The legal points on this page were checked against the sources linked above on 27 November 2026 and are general information, not advice on your situation. Take a lawyer's view before acting on any of them.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(phoneSearchFaqs)}
+    `,
+  },
+  {
+    slug: "how-to-get-cctv-footage-in-india",
+    title: "How to Get CCTV Footage Somebody Else Holds",
+    seoTitle: "How to Get CCTV Footage in India: The Real Routes",
+    metaDescription:
+      "You have no right to a copy of CCTV footage somebody else owns in India. Here is who does have that power, what to send on day one, and the four routes.",
+    excerpt:
+      "An incident happens outside a shop, in a lift, at an ATM, and the footage exists for about a fortnight. Almost nobody is told that the request they are about to make has no legal force behind it, or what to send instead.",
+    date: "2026-11-27",
+    readTime: "11 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/how-to-get-cctv-footage-in-india.webp",
+    ogImage: "/images/blogs/how-to-get-cctv-footage-in-india.png",
+    coverImageAlt:
+      "CCTV footage guide cover: a recorder with a shrinking timeline on one side of a dashed barrier and a sealed order on the other",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Not sure what the footage would even show?",
+      text: "Sometimes the recording matters less than the question behind it, which is who has been watching and from where. If that is the position you are in, a private consultation can help you decide what is worth examining before you spend weeks chasing a copy. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india",
+          name: "How to Get CCTV Footage in India: The Real Routes",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/how-to-get-cctv-footage-in-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#article",
+          headline: "How to Get CCTV Footage Somebody Else Holds",
+          description:
+            "You have no right to a copy of CCTV footage somebody else owns in India. Here is who does have that power, what to send on day one, and the four routes.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Evidence law" },
+            { "@type": "Thing", name: "Right to Information" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "How to Get CCTV Footage" },
+          ],
+        },
+        faqJsonLd(getFootageFaqs, "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> You have no general right to CCTV footage that somebody else owns. In India the power to require its production belongs to a court or to the officer in charge of a police station, under section 94 of the Bharatiya Nagarik Suraksha Sanhita, 2023. So your own first move is not a request for a copy. It is a written request to preserve, sent the same day, because the recording will be overwritten long before any route finishes.</p>
+      </div>
+
+      <p>The situation is always the same. Something happened in a lift, in a corridor, outside a shop, at an ATM, in a society parking area. A camera was pointing at it. Somebody else owns that camera, and the useful part of the recording has a life measured in days.</p>
+
+      <p>What follows is a fortnight of polite requests to a manager who does not have the authority to agree, a watchman who does not have the password, and an installer who set the system up two years ago and has not been back since. By the time anyone with authority looks at the question, the disk has written over the answer.</p>
+
+      <p>The reason this goes wrong so often is that the first step is wrong. People ask for a copy. Almost nothing in Indian law supports that request, and asking for it puts the holder in a position where refusing is the safe choice.</p>
+
+      <h2>Why asking is the whole of your right</h2>
+      <p>No Indian statute entitles a private person to a copy of a recording held by another private person. There is no application form, no counter and no deadline by which the holder must answer you. The camera, the recorder and the disk belong to them, and so does the decision.</p>
+
+      <p>It also helps to understand why a reasonable holder says no. The same recording usually shows other customers and residents, staff movements, cash handling, entrances and routines. A manager who hands a stranger a file showing all of that has exposed the premises and everybody in it, with nothing on paper to show why. Refusal is not obstruction. It is the absence of any authority to agree.</p>
+
+      <p>That changes the shape of your first approach. There is one thing the holder can agree to at no risk whatsoever, and that is to keep the recording where it is.</p>
+
+      <h2>The preservation request, and what belongs in it</h2>
+      <p>This is the step that decides whether the rest of the process has anything left to work with. A preservation request asks the holder not to let the material be overwritten. It does not ask them to show it to you, which is precisely why it gets agreed.</p>
+
+      <ol>
+        <li><strong>A clock window, wider than you think you need.</strong> Give a start and an end, and add an hour on each side. Recorder clocks drift, and are often set to the wrong date entirely, so your memory of the time and the timestamp on the file may not agree.</li>
+        <li><strong>The specific camera or the specific view.</strong> The lift car rather than the lift lobby. The gate rather than the compound. Naming the view tells the holder which channel to protect and makes the request look like something that can be acted on.</li>
+        <li><strong>The address and, if you know it, which recorder.</strong> Large premises run more than one. A single building can have an entrance system, a parking system and a lift system on three separate boxes under three separate people.</li>
+        <li><strong>The words preserve and do not overwrite, and nothing about a copy.</strong> Keep disclosure out of the first letter entirely. You are asking them to do nothing, which is the easiest thing to say yes to.</li>
+        <li><strong>A short, factual line about what may follow.</strong> That the police may require its production under section 94 of the Bharatiya Nagarik Suraksha Sanhita. Stated plainly, that tells a holder why keeping the material protects them too. Stated as a threat, it gets you nowhere.</li>
+        <li><strong>One question of your own: how long does your system keep footage.</strong> The answer is your deadline, and nobody else is going to tell you what it is.</li>
+        <li><strong>A delivery that leaves a record.</strong> Email, a message on a number the holder actually uses, or a letter with an acknowledgement. Date it. If the footage later turns out to have been destroyed after your request, the date is the only thing that makes that fact mean anything.</li>
+      </ol>
+
+      <p>Send it on day one. Our guide to <a href="/blog/bug-sweeping-in-mumbai">bug sweeping in Mumbai</a> makes the same point for building and hotel systems in that city, where prohibitory orders requiring premises to hold footage are issued for fixed periods and reissued, so the window a reader assumes exists frequently does not.</p>
+
+      <h2>Route one: the power actually sits with the police</h2>
+      <p>Section 94 of the Bharatiya Nagarik Suraksha Sanhita, 2023 is the provision that moves a recording out of somebody else's hands. It is worth reading what it says, because it is broader than its predecessor in the Code of Criminal Procedure, 1973 and most people have never heard of it.</p>
+
+      <p>Where a court or an officer in charge of a police station considers that the production of a document, or of an electronic communication including a communication device likely to contain digital evidence, is necessary or desirable for an investigation, inquiry, trial or other proceeding, the court may issue a summons and the officer may issue a written order, in physical or electronic form, requiring the person in possession to produce it. The Act was published as part of <a href="https://egazette.gov.in/WriteReadData/2023/250884.pdf" rel="noopener noreferrer" target="_blank">gazette notification CG-DL-E-25122023-250884 of 25 December 2023</a>. Sub-section (2) adds a practical mercy: a person required only to produce something is treated as having complied by causing it to be produced, without attending in person.</p>
+
+      <p>Three things follow from that for you. The officer in charge of the station, not the constable who took your call, is the person whose order carries this weight. The order can be written and sent electronically, so distance is not a reason for delay. And the decision whether to issue it is theirs, which means your job is to make it easy.</p>
+
+      <p>So give the station a single sheet. The holder's name and address, the exact premises, the camera or view, the date and clock window, and what you say the recording will show. Attach a copy of the preservation request you already sent and the date you sent it. A complaint that arrives in that form can be acted on the same day; a complaint that says there is CCTV there cannot.</p>
+
+      <h2>Route two: a court, and the certificate that makes the copy usable</h2>
+      <p>The same section lets a court issue a summons to produce, which is the route where a proceeding already exists: a criminal case, or a civil or matrimonial matter in which the recording matters. That is work for your lawyer, and the application has to identify the material with the same precision as the letter above.</p>
+
+      <p>Here is the part that is almost never mentioned, and it is the reason many hard-won copies turn out to be worthless. A video file is an electronic record, and section 63 of the Bharatiya Sakshya Adhiniyam, 2023 governs when one is admissible. Sub-section (4) requires a certificate, in the form set out in the Act's Schedule, to accompany the electronic record at each instance when it is submitted for admission.</p>
+
+      <p>Look at what that form asks for. The source is to be identified by ticking what it was, and the options printed in the Schedule include a DVR alongside a computer, a mobile, a server, a flash drive and cloud storage. The make, model, colour and serial number are to be filled in, with an IMEI or other identifier where applicable. A hash of the record is to be stated, by SHA1, SHA256, MD5 or another legally acceptable standard, with the hash report enclosed. Part B of the form is to be filled by an expert.</p>
+
+      <p>Now hold that against the way footage is usually handed over in practice, which is a file dragged onto a pen drive at a counter by whoever had the recorder password. Nothing about the device is recorded, no hash is taken, and the original keeps running and overwrites itself a week later. The copy in your pocket is a copy of something nobody can now describe. If you are going to the trouble of obtaining footage for a case, ask for the device particulars at the moment of copying, and raise the certificate with your lawyer before the recorder overwrites the source.</p>
+
+      <h2>Route three: the Right to Information Act, and what changed in 2025</h2>
+      <p>If the holder is a public authority, a fourth door exists. CCTV footage is information within the meaning of the Right to Information Act, 2005, because section 2(f) defines information to include data material held in any electronic form, and a recording on a disk is exactly that.</p>
+
+      <p>One thing about this route changed recently and has not reached most writing on the subject. Section 8(1)(j) of the Act used to exempt personal information with an override where a larger public interest was shown. In the version now published on the Government's own RTI portal, <a href="https://rti.gov.in/Writereaddata/RTI%20Act,%202005%20(Amended)-English%20Version.PDF" rel="noopener noreferrer" target="_blank">the amended Act</a> reads simply: information which relates to personal information. The narrowing came through section 44(3) of the Digital Personal Data Protection Act, 2023, brought into force in November 2025.</p>
+
+      <p>Camera footage of identifiable people is personal information on any reading. So the clause that used to be argued around is now the first wall this route meets. Section 8(2) still allows a public authority to disclose where the public interest in disclosure outweighs the harm to the protected interests, but that is a discretion the authority exercises, not a right you hold. Section 24 removes the Act's application from certain listed intelligence and security organisations altogether.</p>
+
+      <p>Then there is the wall that defeats everything. Retention. An application answered inside the Act's timelines can still be answered with the truth that the footage no longer exists, and if it was overwritten before the request arrived, the Act has nothing to work on. Which brings the reader back to the first letter, on day one.</p>
+
+      <h2>The one place where you do have a written right</h2>
+      <p>There is a single setting where an Indian has a stated right to have footage secured, and it is not a shop or a society. It is a police station.</p>
+
+      <p>In <em>Paramvir Singh Saini v. Baljit Singh</em>, decided on 2 December 2020, the Supreme Court set out detailed directions on cameras inside police stations. <a href="https://api.sci.gov.in/supremecourt/2020/13346/13346_2020_33_1501_24909_Judgement_02-Dec-2020.pdf" rel="noopener noreferrer" target="_blank">The judgment</a> says three things that matter here, and they are unlike anything India has written for private premises.</p>
+
+      <p>On storage, in paragraph 17: recording systems must be installed so that the data stored shall be preserved for a period of 18 months, and where equipment on the market cannot hold that much, states must buy the longest available and in any case not below one year.</p>
+
+      <p>On who can reach it, in paragraph 18: where there is information of force used at a police station resulting in serious injury or custodial death, a complaint may be made to the State Human Rights Commission, which is to use its powers under sections 17 and 18 of the Protection of Human Rights Act, 1993, and also to Human Rights Courts, which are to be set up in each district under section 30 of that Act. The Court's own words on what happens next are the operative part: the Commission or Court can then immediately summon CCTV camera footage in relation to the incident for its safe keeping, which may then be made available to an investigation agency.</p>
+
+      <p>On being told about it, in paragraph 20: large posters in English, Hindi and the local language are to be displayed at the entrance and inside, stating that the premises are covered by CCTV, that a person has a right to complain about human rights violations to the National or State Human Rights Commission, a Human Rights Court, the Superintendent of Police or another authority empowered to take cognizance, that footage is preserved for a minimum period which shall not be less than six months, and that the victim has a right to have the same secured in the event of violation of his human rights.</p>
+
+      <p>Note what the mechanism is not. It is not an application to the station house officer, who is the person the complaint is usually about. It is a complaint to a body that can summon the recording itself. The same judgment extends camera installation to the offices of the Central Bureau of Investigation, the National Investigation Agency, the Enforcement Directorate, the Narcotics Control Bureau, the Department of Revenue Intelligence, the Serious Fraud Investigation Office and any other agency that interrogates and can arrest. Our guide to <a href="/blog/cctv-camera-rules-in-india">CCTV camera rules in India</a> sets out the wider framework, including why no comparable specification exists for the camera in your own building.</p>
+
+      <h2>Why the data protection law is not your route yet</h2>
+      <p>People reasonably expect the Digital Personal Data Protection Act, 2023 to help here. Footage of you is personal data, and the Act gives an individual a right to access information about their personal data held by a data fiduciary.</p>
+
+      <p>Two things stand in the way today. The first is timing. The Rules under the Act were notified on 14 November 2025, and the Government's own <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf" rel="noopener noreferrer" target="_blank">briefing document on them</a> records an eighteen month period for phased compliance, with the rights machinery arriving at the end of it rather than now. The same document states that data fiduciaries must respond to such requests within ninety days, which tells you something about the pace of this route even once it opens: ninety days is several times the life of the recording you are chasing.</p>
+
+      <p>The second is scope. The Act does not apply to personal data processed by an individual for a personal or domestic purpose, which is where a neighbour's camera on their own house normally sits. Our guide to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's camera pointing at your house</a> works through that situation, and our guide to <a href="/blog/cctv-rules-for-housing-societies">CCTV rules for housing societies</a> covers the committee version, where the Act does apply but the duties have not yet been tested on a residential building.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>On this subject the limits are worth stating bluntly. Nobody can recover footage from a recorder they have no lawful access to, and nobody can tell you what a recording contained without having seen it. An examination of your own premises answers a different and often more useful question, which is what is watching the space you control, and whether a recorder in your building has been reached from outside. The legal points on this page were checked at the sources linked above and are general information rather than advice on your situation; take a lawyer's view before you rely on any of them.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(getFootageFaqs)}
+    `,
+  },
   {
     slug: "drone-flying-over-my-house-india",
     title: "A Drone Over Your House: What You Can Actually Do in India",
@@ -1701,6 +2671,8 @@ ${faqHtml(spyCameraLegalFaqs)}
       <p>In <em>Paramvir Singh Saini v. Baljit Singh</em>, decided on 2 December 2020, the Supreme Court directed states to install cameras in police stations and set out what the equipment had to do. The <a href="https://api.sci.gov.in/supremecourt/2020/13346/13346_2020_32_12_25691_Order_27-Jan-2021.pdf" rel="noopener noreferrer" target="_blank">compliance chart in the Court's order of 27 January 2021</a> lists the directions being tracked, among them that CCTV must have night vision and audio recording, that purchase of systems with eighteen month recording capacity is mandatory for all states, and that no part of a station is left uncovered.</p>
 
       <p>Hold that against private premises. For your shop, your office or your society, no Indian law prescribes night vision, audio, a retention period or a warning sign. That gap is the real answer to several of the most searched questions on this subject, and it is why a written policy matters: nothing else is going to supply one.</p>
+
+      <p>That leaves one practical question this page cannot answer in passing: how you obtain a recording that belongs to somebody else. Our guide to <a href="/blog/how-to-get-cctv-footage-in-india">getting CCTV footage somebody else holds</a> sets out who actually has the power to require it, and what to send on the first day.</p>
 
       <h2>What a sweep can and cannot establish</h2>
       <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection. Our guide to <a href="/blog/how-to-detect-hidden-cameras">detecting hidden cameras</a> covers the checks you can make yourself and what they miss.</p>
@@ -2967,6 +3939,8 @@ ${faqHtml(publicWifiFaqs)}
 
       <p>A WhatsApp backup lives in a cloud account rather than on the handset. Whoever can reach that account is a separate question from whoever can reach WhatsApp, and in practice people who worry carefully about one often never think about the other. If you are making a list of who can reach your messages, the account holding the backup belongs on it, and our guide to <a href="/blog/who-has-access-to-my-google-account">checking who has access to your Google account</a> works through how to audit one of them properly.</p>
 
+      <p>A different question arrives when the device has been taken rather than linked. Our guide to <a href="/blog/can-police-search-my-phone-india">whether the police can search your phone</a> covers what has to be recorded before a search, and why two High Courts disagree about passwords.</p>
+
       <h2>If the suspicion is about a specific person</h2>
       <p>When the worry is a partner, a family member or an ex rather than a stranger, the order in which you act matters more than what you find, and the usual instinct is the wrong one.</p>
 
@@ -3112,6 +4086,8 @@ ${faqHtml(whatsappFaqs)}
       <p>The interception happens on the operator's side of the connection. Nothing is installed on your device, so there is nothing for an app to detect, no process to find and no battery drain to notice. No dialled code reveals it, and codes like the ones people circulate report call forwarding settings, which is an unrelated feature. Our guide to the <a href="/blog/signs-your-office-is-bugged">signs that an office is bugged</a> deals with the clicks, static and other folklore in detail, including why they stopped meaning anything when networks went digital.</p>
 
       <p>There is also a simple structural check on the fear. The framework above requires a Home Secretary's signature, a review by the Cabinet Secretary's committee and renewal every sixty days. It is not a resource that gets pointed at people casually.</p>
+
+      <p>There is a second official route that gets confused with this one, and it looks nothing like it. Interception happens inside the network. A search happens to the handset in your hand. Our guide to <a href="/blog/can-police-search-my-phone-india">whether the police can search your phone</a> covers the conditions attached to a search without a warrant, and the paperwork you are entitled to afterwards.</p>
 
       <h2>The problem you probably do have</h2>
       <p>When somebody is genuinely listening to a person's conversations without authority, it is almost never through the network. It is through the device or the room, because those are reachable without a Home Secretary.</p>
@@ -4494,6 +5470,8 @@ ${faqHtml(listeningDeviceFaqs)}
       <p>Photograph the tag where you found it before removing it, with enough of the surroundings to show its position, and note the date and time. Do not dismantle it. On an iPhone you can also review what has already been flagged: open Find My, tap Items, then Unknown Items Detected With You.</p>
       <p>One gap to be aware of while you do this. Apple's support page lists victim support organisations for the United States, the United Kingdom and Australia. <strong>It names none for India.</strong> The routes that do exist here are 112 for immediate danger, a complaint to the local police, and the national cybercrime portal at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a> where images or recordings may have been shared.</p>
 
+      <p>Some readers arrive here from the opposite direction, already convinced they are being followed rather than tracked. Our guide to <a href="/blog/how-to-tell-if-someone-is-following-you">telling whether someone is following you</a> separates the two, because being found is far more often explained by information than by pursuit.</p>
+
       <h2>Where these tags actually turn up</h2>
       <p>Search in the order of how hard a place is to reach, because that is the order a person planting a tag thinks in too.</p>
       <p>On a person or their belongings: the lining and outer pockets of a bag, a jacket hung in a cloakroom, a laptop sleeve, a child's school bag, the inside of a frequently carried box or case. These are the places Apple's own instruction to check your belongings is written for, and a 12 second chime is usually audible in them.</p>
@@ -4708,6 +5686,8 @@ ${faqHtml(unknownTrackerFaqs)}
       <p>Possession changes both halves of the problem. Because the room is yours for the duration, you can inspect it properly: in daylight, more than once, including the high fittings in a shared bathroom that a one night guest would never reach. And because the people with routine access are the people who live there, the person most likely to have placed a device is a co-resident.</p>
       <p>That is what the Indian record shows. In Chandigarh the person charged had moved in five days earlier. In Hosur it was a resident of the hostel. In both the location was a <strong>shared washroom</strong>, not a bedroom. If you are deciding where to spend five careful minutes, the shared bathroom is the answer, and it is the fittings above head height within it.</p>
       <p>Note also how the Chandigarh discovery travelled: a tenant noticed an object, checked with another occupant, worked out what it was, told the landlord, and the landlord called the police. A camera in a space shared by residents is a police matter rather than a house rule matter, but the landlord is often the fastest route to the police. Cameras in genuinely common areas such as an entrance or a corridor raise a different question from a camera in a washroom, and the two should not be argued as one thing. Our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can put cameras up</a> takes that second question on, including what the Allahabad High Court said in November 2026 about where a private camera may point.</p>
+
+      <p>If an image has already been posted somewhere, a second clock starts, and it runs much faster than any police process. Our guide to <a href="/blog/taking-photos-without-consent-india">taking photos of someone without consent in India</a> sets out the twenty-four hour removal rule and the statutory appeal that follows when a platform ignores it.</p>
 
       <h2>If you find something</h2>
       <p>Safety comes before evidence and before certainty.</p>
@@ -5070,6 +6050,8 @@ ${faqHtml(sweepFrequencyFaqs)}
       <p>You may also see 1091 recommended. Treat it as city or state specific rather than national: Delhi Police publishes it for women in distress, but it does not appear on the National Commission for Women's own list of helplines, so check what your own city actually publishes before relying on it. One Stop Centres, sometimes called Sakhi Centres, bring police facilitation, medical aid, legal aid and counselling together in one place and work alongside 181.</p>
       <p>Two honest gaps. <strong>There is no Government of India helpline specifically for technology-facilitated abuse.</strong> Every number above exists for another primary purpose, and none is scoped to someone monitoring your device. And the organisations capable of forensically answering whether a phone is infected, such as Amnesty International's Security Lab and the Access Now Digital Security Helpline, restrict their mandates to journalists, activists and human rights defenders, so an ordinary person monitored by a partner generally will not qualify. Internationally the Coalition Against Stalkerware maintains information for survivors and a directory of support organisations, which is genuinely useful, but it is a directory and an information resource rather than a helpline, and it handles no cases itself.</p>
 
+      <p>If the worry is that somebody keeps turning up wherever you are, the phone is only one of four things worth checking. Our guide to <a href="/blog/how-to-tell-if-someone-is-following-you">telling whether someone is following you</a> sets out the others, and what to do in the moment if a vehicle really is behind you.</p>
+
       <h2>If you decide to act</h2>
       <p>The order matters more than any individual step, and this is where the organisations working with survivors disagree sharply with most published advice.</p>
       <p>Make a safety plan first, developed on a safer device and, where possible, with a support organisation. Preserve what exists before changing anything, because deleting monitoring software deletes the evidence you would need to report it. Attempt removal only if you believe it is safe to do so, because removal or any significant change may be noticed by the person who installed it and can increase the abuse. Expect that it may be reinstalled. On getting rid of it, the Coalition's own assessment is that the best way is a new phone, with a factory reset almost as effective. And if the access is through your accounts rather than the handset, neither a new phone nor a reset will help until the accounts are secured.</p>
@@ -5222,6 +6204,8 @@ ${faqHtml(phoneMonitoringFaqs)}
       <p>A <strong>non-linear junction detector</strong> transmits a signal and listens for the second and third harmonics that a semiconductor junction sends back, which means it finds electronics whether or not they are powered. What it does not do is identify a camera: it detects the presence of silicon, so a dead charger, a thermostat and a camera module all answer it. It also responds to what the manufacturers call false junctions, where two dissimilar or corroded metals touch, so in a real room it reacts to rusted screws, bed frames and fittings. The usual rule for telling these apart is that electronics return a strong second harmonic and a false junction a strong third, and the same manufacturer documentation notes that some circuits return a strong third harmonic too, so the rule can mislead in both directions. The manufacturer's own manual states plainly that it makes no guarantee about the unit's performance when attempting to detect hidden electronic devices. Half the work is interpretation, which is the real argument for an experienced operator rather than a gadget.</p>
       <p><strong>Thermal imaging</strong> is useful and routinely oversold. The earlier version of this page said a thermal camera reveals heat through walls and ceilings, which is wrong. The largest manufacturer in the field <a href="https://www.flir.com/discover/home-outdoor/can-thermal-imaging-see-through-walls/" rel="noopener noreferrer" target="_blank">states plainly</a> that thermal cameras cannot see through walls, that glass behaves like a mirror so you see nothing through a window, and that they can never see through metal. What a thermal camera reads is surface temperature, so it can show a warm patch on the face of a fitting where something powered sits behind it. It follows from the same manufacturer's point about glass that a camera behind a mirror or a glass panel is thermally invisible.</p>
       <p><strong>Radio spectrum analysis</strong> finds things that are transmitting, at the time they are transmitting. It is the right tool for a networked camera and useless against the memory card case above.</p>
+
+      <p>A concealed lens is one version of this problem. A visible one, held by a person, is another, and the same provisions apply quite differently to it. Our guide to <a href="/blog/taking-photos-without-consent-india">taking photos of someone without consent in India</a> works through what those elements require, and the twenty-four hour rule that applies once an image has been published.</p>
 
       <h2>The law: two sections that protect different people</h2>
       <p>Neither section fits the case where the camera is openly installed by somebody who also lives there. For that, our guide to <a href="/blog/cctv-in-a-shared-home-kolkata">CCTV inside a shared home</a> sets out the privacy route the Calcutta High Court took instead.</p>
@@ -5729,6 +6713,8 @@ ${faqHtml(corporateEspionageFaqs)}
       <p>The provision worth knowing in advance is section 173(3). For a cognizable offence punishable with three years or more but less than seven, the station officer may, with prior permission from an officer not below Deputy Superintendent rank, conduct a preliminary enquiry for up to fourteen days to see whether a prima facie case exists, instead of registering a case immediately. Stalking under section 78 carries up to three years on a first conviction, which puts it inside that band. So being told the matter will be looked into first is not necessarily obstruction. Ask whether a preliminary enquiry under section 173(3) has been authorised, and by whom. If information is refused altogether, section 173(4) lets you send the substance in writing by post to the Superintendent of Police, and if that fails, to apply to a Magistrate.</p>
       <p>On identifying the owner, both platforms route this through the police rather than through you. Apple says law enforcement can request available information to support an investigation, and Google says the same. There is one trap in the sequence. Google's documentation notes that some trackers, if switched off, may be factory reset and no longer linked to their original owner, in which case law enforcement cannot establish who owned it. Switching the device off protects your movements and can destroy the attribution at the same time. Google declines to give a blanket instruction for exactly this reason, noting that you may prefer to leave a tracker on if turning it off could be unsafe. Photograph it in place, record where it was, and take advice before disturbing it.</p>
 
+      <p>Not every camera in a vehicle is somebody else's doing, and the one most owners fit themselves raises its own questions. Our guide to <a href="/blog/are-dash-cams-legal-in-india">whether dash cams are legal in India</a> follows a single clip from the windscreen onwards, including the certificate without which the file is not yet evidence.</p>
+
       <h2>Why a jammer is not an answer</h2>
       <p>People reach for this quickly and it is worth being unambiguous. The Department of Telecommunications advisory publicised by the Press Information Bureau in July 2022 states that the use of a cellular signal jammer, GPS blocker or other signal jamming device is generally illegal except as specifically permitted by the Government of India, that private sector organisations and private individuals cannot procure or use jammers in India, and that advertising, selling, distributing or importing them is unlawful.</p>
       <p>The operative policy has moved on since, which most pages have not noticed: the current jammer guidelines, updated at the end of December 2025, confine procurement to central ministries, state governments and union territory administrations, the defence forces, central armed police forces and security agencies under government control, through two designated public sector undertakings, with model approval by a board of officers. There is no route by which a private individual lawfully obtains one. Enforcement sits with the wireless wing of the Department of Telecommunications, which can seize equipment and have a case registered.</p>
@@ -5972,6 +6958,8 @@ ${faqHtml(vehicleTrackerFaqs)}
       <p>If you suspect someone is monitoring your phone, for example a partner or family member, seek help using a device or account you believe they cannot access. Do not reset the phone, delete apps or confront the person first. Doing so can alert them and erase evidence. For Bluetooth trackers, <a href="https://support.apple.com/en-in/119874" rel="noopener noreferrer" target="_blank">Apple's guidance</a> is to go to a safe public location and contact law enforcement if you feel your safety is at risk.</p>
 
       <p>One source of worry sits outside the building altogether and is handled quite differently. Our guide to <a href="/blog/drone-flying-over-my-house-india">a drone over your house</a> covers what India's Drone Rules do and do not regulate, and the two responses that make your position worse.</p>
+
+      <p>Vehicles raise one more question that owners ask about far more often than trackers. Our guide to <a href="/blog/are-dash-cams-legal-in-india">whether dash cams are legal in India</a> covers placement, the microphone most owners never switch off, and what it takes for a clip to be usable later.</p>
 
       <h2>How to choose a bug sweeping provider in India</h2>
       <p>People often search for the "best" bug sweeping company, but the useful question is whether a particular provider can show you how it works. These checks separate careful providers from the rest:</p>
@@ -6323,6 +7311,8 @@ ${faqHtml(bugSweepingDelhiFaqs)}
       <p>The most recent documented Mumbai hotel case is specific enough to act on. On 31 December 2025 the Free Press Journal <a href="https://www.freepressjournal.in/mumbai/mumbai-shocker-hidden-camera-found-inside-malad-hotel-room-case-registered" rel="noopener noreferrer" target="_blank">reported</a> that guests at a budget hotel in Malad East found a camera concealed inside an electric plug point in their room. What gave it away was mundane: a wire coming out of a socket that was not in use. Dindoshi police registered a case and the device was sent for forensic examination.</p>
       <p>A second Mumbai pattern is that the device is often just a phone. In 2020 a tailor in Lokhandwala, Andheri was arrested after a customer spotted a mobile phone propped on a shelf in record mode, concealed behind plastic bags, in the shop's trial room (<a href="https://www.freepressjournal.in/amp/mumbai/andheri-tailor-held-for-filming-women-inside-his-trial-room" rel="noopener noreferrer" target="_blank">Free Press Journal</a>). No specialist equipment was involved in either case.</p>
       <p>Two things are worth knowing about hotels here. First, a lodging house or residential hotel in Mumbai is a licensed premises under the Maharashtra Police Act, controlled by the Commissioner of Police, so a complaint about the premises has a regulator behind it as well as a police station. Second, lawful CCTV in a hotel covers entrances, lobbies and corridors, never rooms or bathrooms. Mumbai Police has previously ordered private establishments including hotels to run CCTV with a minimum retention period and to hand footage to police on demand, under a prohibitory order issued in January 2021; orders of that kind are made for fixed periods and reissued, so treat the retention window as short. If footage matters to your complaint, ask for it to be preserved in writing immediately rather than a fortnight later.</p>
+
+      <p>What that request should say, and which of the routes to an actual copy is open to you, is set out in our guide to <a href="/blog/how-to-get-cctv-footage-in-india">getting CCTV footage somebody else holds</a>.</p>
 
       <h2>Offices, boardrooms and campuses</h2>
       <p>Mumbai's corporate exposure is not a marketing line. The Mumbai Metropolitan Region Development Authority's own <a href="https://mmrda.maharashtra.gov.in/en/planning/badra-kurla-complex/overview" rel="noopener noreferrer" target="_blank">account of the Bandra Kurla Complex</a> lists occupiers including the Securities and Exchange Board of India, the National Stock Exchange, SIDBI, the Bharat Diamond Bourse and the United States and British consulates, and puts employment in the E and G blocks alone at two to three lakh people. The <a href="https://bdbindia.org/" rel="noopener noreferrer" target="_blank">Bharat Diamond Bourse</a> describes itself as holding around 2,500 offices and more than 4,000 members on one 20-acre site. Regulators, an exchange, a diamond trading floor and two consulates sit within walking distance of each other.</p>

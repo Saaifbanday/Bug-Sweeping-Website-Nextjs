@@ -1,5 +1,272 @@
 [
   {
+    "location": null,
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "how-to-get-cctv-footage-in-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/how-to-get-cctv-footage-in-india",
+    "page_type": "concept-pillar",
+    "primary_keyword": "how to get cctv footage",
+    "secondary_keywords": [
+      "how to get cctv footage from police station",
+      "cctv footage request letter",
+      "how to get cctv footage of atm",
+      "cctv footage request procedure",
+      "can i request cctv footage",
+      "how long is cctv footage kept",
+      "cctv footage under rti",
+      "providing cctv footage to police"
+    ],
+    "h2_outline": [
+      "Why asking is the whole of your right",
+      "The preservation request, and what belongs in it",
+      "Route one: the power actually sits with the police",
+      "Route two: a court, and the certificate that makes the copy usable",
+      "Route three: the Right to Information Act, and what changed in 2025",
+      "The one place where you do have a written right",
+      "Why the data protection law is not your route yet",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Routes ranked by who holds the power rather than by what the reader wants, with the practical step placed second rather than last because it is time critical. The page opens by removing the reader's assumed right, then gives the one request a holder can safely agree to, then walks the four routes in descending order of realism. The closing move inverts the page: the single setting where an Indian does have a written right to have footage secured is a police station, which is the opposite of where people expect to find one.",
+    "compared_against": [
+      "/blog/cctv-camera-rules-in-india",
+      "/blog/cctv-rules-for-housing-societies",
+      "/blog/bug-sweeping-in-mumbai",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi"
+    ],
+    "main_device": "four routes to somebody else's recording, ordered by who actually holds the power, with a day one preservation letter as the hinge",
+    "information_gain": "Primary material read at source. Section 94 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (gazette CG-DL-E-25122023-250884 of 25 December 2023): a court may issue a summons and an officer in charge of a police station may issue a written order, in physical or electronic form, for production of a document or an electronic communication including a communication device likely to contain digital evidence; sub-section (2) deems compliance by production without attendance. Section 63 of the Bharatiya Sakshya Adhiniyam, 2023 (gazette CG-DL-E-25122023-250882) with its Schedule: the certificate must accompany the electronic record at each submission, and the printed form lists a DVR among the source options and asks for make, model, serial number and a hash with the hash report enclosed, with Part B to be filled by an expert. The Right to Information Act, 2005 as published in amended form on rti.gov.in: section 2(f) includes data material held in any electronic form; section 8(1)(j) now reads simply information which relates to personal information, the larger public interest proviso having been removed by section 44(3) of the Digital Personal Data Protection Act, 2023 from November 2025, with the public interest override surviving only in section 8(2). Paramvir Singh Saini v. Baljit Singh, Supreme Court, 2 December 2020, read from the Court's own PDF: paragraph 17 requires preservation for 18 months and not below one year where equipment cannot manage it; paragraph 18 allows a complaint to the State Human Rights Commission under sections 17 and 18 of the Protection of Human Rights Act, 1993 and to Human Rights Courts under section 30, and states that the Commission or Court can immediately summon the footage for safe keeping and may make it available to an investigating agency; paragraph 20 requires posters stating a minimum preservation period not less than six months and the victim's right to have the footage secured. The PIB briefing on the DPDP Rules, 2025 records an eighteen month phased compliance period and a ninety day response time for rights requests.",
+    "internal_links_out": [
+      "/blog/bug-sweeping-in-mumbai",
+      "/blog/cctv-camera-rules-in-india",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/cctv-rules-for-housing-societies"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the 84 record ledger and the built HTML. The site already answers how long footage must be kept, in an FAQ on /blog/cctv-camera-rules-in-india, and already tells a Mumbai reader to ask for preservation in writing. Neither answers how a person obtains a recording held by somebody else, which is the actual query cluster: how to get cctv footage from police station, of atm, from bank, from street, cctv footage request letter, form and procedure all return full completion sets. The retention question is therefore handled here in one line with a link out rather than restated, and the page is built on the four production routes, which have zero coverage on the site.",
+    "notes": "Created 27 Nov 2026. Verify-or-omit applied several times. The Supreme Court writ petition reported to be challenging the section 44(3) amendment to the Right to Information Act was omitted because the only copy located was an as-filed petition with a blank number, so neither filing nor pendency could be confirmed. Central Information Commission decisions on CCTV footage were read in summary and omitted as authority, because they turn on their own facts and no single decision settles the position; the page states the statutory position instead. No claim is made that any bank is a public authority for RTI purposes, because that depends on the bank. The FAQ on traffic and city camera footage says plainly that no published counter service for a public copy could be found, rather than implying one exists. Word count 3,169 against a pillar range of 2,000 to 3,000: the deviation is recorded rather than trimmed, because the page carries four distinct legal routes plus a seven item letter specification, and cutting any route would leave the reader with an incomplete map. QA measured: zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, one H1, no heading skips, JSON-LD valid with six FAQ questions matching six visible, all internal links resolving, meta description 152 characters."
+  },
+  {
+    "location": null,
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "can-police-search-my-phone-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/can-police-search-my-phone-india",
+    "page_type": "concept-pillar",
+    "primary_keyword": "can police search my phone india",
+    "secondary_keywords": [
+      "can police check your phone in india without warrant",
+      "can police seize my phone without a warrant",
+      "can police ask for phone password",
+      "refusing to give police phone password",
+      "bnss section 185 search by police officer",
+      "how to get my phone back from police",
+      "police seized my phone"
+    ],
+    "h2_outline": [
+      "Why the two questions separate",
+      "When an officer may search without a warrant",
+      "The paperwork you are entitled to, and almost never asked for",
+      "The password, where two High Courts disagree",
+      "The quieter route: an order to produce",
+      "Getting the device back",
+      "Where this meets the subject of this site",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "A single distinction carried the whole way through: the handset as an object, which the Sanhita handles in detail, against the data inside it, which it does not address at all. Every section is placed on one side of that line. The strongest practical material is the records a search is supposed to generate, given as an ordered list of four documents with the magistrate route to obtain them, which is the opposite of the usual treatment of this subject as a constitutional argument. The unsettled question is left unsettled and labelled as such.",
+    "compared_against": [
+      "/blog/is-my-phone-tapped",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/can-someone-read-my-whatsapp-messages",
+      "/blog/how-to-get-cctv-footage-in-india"
+    ],
+    "main_device": "the object and the data treated as two separate legal questions, with the paperwork trail as the usable half",
+    "information_gain": "Section 185 of the Bharatiya Nagarik Suraksha Sanhita, 2023: search without a warrant by the officer in charge or the investigating officer, on reasonable grounds recorded in writing in the case diary, where the thing cannot be obtained without undue delay, confined so far as possible to the thing sought; the search to be recorded through audio-video electronic means preferably by mobile phone; a subordinate may be deputed only after reasons are recorded and with a written order; copies of the record to reach the nearest Magistrate within forty-eight hours, with the owner or occupier entitled to a copy free of cost on application. Section 105: the process of search or taking possession to be recorded by audio-video electronic means and forwarded without delay to the District Magistrate, Sub-divisional Magistrate or Judicial Magistrate of the first class. Section 103: a list of all things seized recording where each was found, signed by witnesses, with a signed copy delivered to the occupant, who may attend. Section 497: custody of property produced before a court, with a description prepared and photographs or video arranged, usable as evidence. Virendra Khanna v. State of Karnataka, Writ Petition No. 11759 of 2020, Karnataka High Court, 12 March 2021, Justice Suraj Govindaraj, read in full: a direction to provide a password, passcode or biometrics would not amount to testimonial compulsion and is in the nature of a direction to produce a document; the investigating officer may request or direct and it is for the accused to accede; the court cannot issue such a direction of its own motion and acts only on an application; an adverse inference may be drawn subject to the prosecution stating its nature; the agency may clone the device but may not give the data to a third party during the investigation without the court's written permission. Sanket Bhadresh Modi v. Central Bureau of Investigation, Delhi High Court, Justice Saurabh Banerjee, reported 3 January 2024: an accused cannot be coerced to reveal passwords of seized devices while the trial is ongoing.",
+    "internal_links_out": [
+      "/blog/how-to-get-cctv-footage-in-india",
+      "/blog/is-my-phone-tapped",
+      "/blog/is-someone-monitoring-your-phone"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the ledger and the built HTML. /blog/is-my-phone-tapped owns lawful interception under the Telecommunications Act, 2023 and the 2024 Rules, which is a different act by a different actor under a different statute, and this page says so explicitly and links to it rather than repeating any of it. A grep before writing returned zero occurrences of BNSS, section 94, warrant conditions, Article 20(3) or self-incrimination across the site. Demand is Indian and specific: can police check your phone in india without warrant is a live completion, as are can police seize my phone without a warrant, refusing to give police phone password and can police ask for phone password.",
+    "notes": "Created 27 Nov 2026. The statutory text was verified against the gazette PDF for structure and against a full reproduction for wording, because the gazette's own PDF does not yield clean text for the body font. Nothing is quoted at length from the Sanhita for that reason; the page paraphrases and cites the gazette. Deliberate omissions: the United States position, which several competing pages import wholesale and which has no application in India; any statement about what a reader should personally do when asked for a password, since the answer depends on their position in the case and on the state, and the page says so; and any claim that the Supreme Court has settled the digital device question, which it has not. Two banned phrases were caught in QA and rewritten, the verb unlock and the phrase whether you are a, which is why the page uses open the device and names the three positions directly. Word count 2,527, inside the pillar range. QA measured: zero em or en dashes, zero emoji, zero banned phrases after the fix, zero blocked claims, one H1, no heading skips, JSON-LD valid with six FAQ questions matching six visible, meta description 159 characters."
+  },
+  {
+    "location": null,
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "taking-photos-without-consent-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/taking-photos-without-consent-india",
+    "page_type": "concept-spoke",
+    "primary_keyword": "taking photos without consent law in india",
+    "secondary_keywords": [
+      "is taking photos without consent illegal in india",
+      "is it illegal to take videos of someone without consent in india",
+      "can someone record me without my consent",
+      "photo without permission india",
+      "remove my photos from internet",
+      "morphed image complaint india",
+      "grievance appellate committee appeal"
+    ],
+    "h2_outline": [
+      "Consent is not the test",
+      "Agreeing to the photograph is not agreeing to its circulation",
+      "If the image is already online: twenty-four hours",
+      "If the platform does nothing: the appeal almost nobody files",
+      "Reporting, in the right order",
+      "When it is not really about the photograph",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "A decision path built on two questions, where the person was and what the image shows, carried by a five row table that sorts common situations rather than listing offences. The page then pivots from criminal law, which is slow and narrow, to platform obligation, which is fast and specific, and gives the deadlines in both. The pivot is the point of the page: the fastest remedy available to an Indian reader on this subject is not a police station.",
+    "compared_against": [
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/hidden-cameras-in-hotel-rooms-and-pgs",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/is-call-recording-legal-in-india"
+    ],
+    "main_device": "a situation table that sorts by place and content, followed by the platform clock",
+    "information_gain": "The Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, read in the consolidated text published by the Ministry of Electronics and Information Technology and updated to 6 April 2023. Rule 3(2)(b): within twenty-four hours of a complaint by the individual or any person on their behalf, in relation to content prima facie in the nature of material which exposes that individual's private area, shows them in full or partial nudity, shows or depicts them in any sexual act or conduct, or is in the nature of impersonation in an electronic form including artificially morphed images, the intermediary shall take all reasonable and practicable measures to remove or disable access. Rule 3(2)(c): the intermediary shall implement a mechanism for receiving those complaints. Rule 3(2)(a)(i): the Grievance Officer shall acknowledge within twenty-four hours and resolve within fifteen days, with seventy-two hours for certain removal requests. Rule 3A: Grievance Appellate Committees of a chairperson and two whole time members; appeal within thirty days of the Grievance Officer's communication; the Committee to endeavour to resolve within thirty calendar days; the process conducted in digital mode; every order to be complied with by the intermediary. Explanation 2 to section 77 of the Bharatiya Nyaya Sanhita, 2023 was read in the gazette text and is the basis of the consent section. A grep before writing returned zero occurrences of intermediary, takedown, twenty-four hours or morphed anywhere on the site.",
+    "internal_links_out": [
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/how-to-detect-hidden-cameras",
+      "/blog/how-to-get-cctv-footage-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the ledger and the built HTML. The site cites section 77 and section 66E on several pages, always in the context of a concealed camera. No page addresses a visible camera held by a person, no page addresses photography in a public place, and no page anywhere mentions the intermediary rules or any removal route for a published image. Demand is Indian and explicit: taking photos without consent law in india, is taking photos without consent illegal in india and is it illegal to take videos of someone without consent in india are all live completions. To avoid restating the existing criminal law coverage, the offence elements are given once and compactly, and the body weight sits on the publication half, which is new.",
+    "notes": "Created 27 Nov 2026. The statement that no Indian provision makes photographing a person in a public place an offence in itself is written as a finding of our own search rather than as a flat assertion, which is the honest form for a negative. Section 8 safety shaped the practical sections: the page tells the reader not to try to take or wipe anybody's phone, and puts 112 before every other step. The exemption of personal or domestic processing under the Digital Personal Data Protection Act was deliberately not repeated here, because two existing pages already carry it. No claim is made about civil remedies beyond pointing the reader to a lawyer, because personality and publicity rights in India are developed through case law that this page does not attempt to summarise. Word count 2,162 against a spoke range of 900 to 1,400: recorded rather than trimmed, because the table, the two deadline regimes and the reporting order are each load bearing, and the page would stop being usable if the escalation ladder were cut. QA measured: zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, one H1, no heading skips, table inside a scroll wrapper with a caption, JSON-LD valid with six FAQ questions matching six visible, meta description 156 characters."
+  },
+  {
+    "location": null,
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "are-dash-cams-legal-in-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/are-dash-cams-legal-in-india",
+    "page_type": "concept-spoke",
+    "primary_keyword": "are dash cams legal in india",
+    "secondary_keywords": [
+      "dash cam legal in india",
+      "is dashcam legal in india",
+      "dashcam rules in india",
+      "can a dash cam be used in court",
+      "dash cam placement india",
+      "report traffic violation with video india",
+      "traffic prahari app"
+    ],
+    "h2_outline": [
+      "Stage one: where the camera sits",
+      "Stage two: what the camera hears",
+      "Stage three: the clip becomes evidence",
+      "Stage four: reporting somebody else",
+      "Stage five: the clip gets posted",
+      "The part a security firm notices first",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "The life of one clip, in five stages, each raising a different legal question, so that the nominal subject of the page is disposed of in the first paragraph and the body answers what actually matters afterwards. The last section turns the device around: a connected dash cam is a networked camera inside a vehicle, which is this site's own subject rather than a motoring one, and that is where the page lands.",
+    "compared_against": [
+      "/blog/vehicle-gps-tracking",
+      "/blog/is-call-recording-legal-in-india",
+      "/blog/can-cctv-be-hacked-ahmedabad",
+      "/blog/how-to-get-cctv-footage-in-india"
+    ],
+    "main_device": "the lifecycle of a single clip, from windscreen to publication",
+    "information_gain": "Three verified anchors, none of which appear on competing Indian dash cam pages inspected. First, a negative established by reading rather than asserted: the Central Motor Vehicles Rules, 1989 were searched for a provision about objects placed in the driver's field of view and none was found, the relevant chapter being headed brakes, steering gears, safety glass and windscreen wipers, so the mounting question is a state one. Second, section 63 of the Bharatiya Sakshya Adhiniyam, 2023 and the certificate form in its Schedule, which lists a DVR, a flash drive, a mobile and cloud storage among the source options and asks for make, model, serial number and a hash with the report enclosed, with Part B completed by an expert: this is why a trimmed and forwarded clip is weaker than the untouched card. Third, the Delhi Traffic Police citizen reporting scheme, begun in 2015 and re-launched as Traffic Prahari on 1 September 2024, whose published points table distinguishes offences reportable by photograph from those requiring video, with red light jumping, dangerous or zigzag driving and mobile phone use each carrying points only for video.",
+    "internal_links_out": [
+      "/blog/is-call-recording-legal-in-india",
+      "/blog/how-to-get-cctv-footage-in-india",
+      "/blog/taking-photos-without-consent-india",
+      "/blog/can-cctv-be-hacked-ahmedabad",
+      "/blog/vehicle-gps-tracking"
+    ],
+    "gate_decision": "NEW POST plus interlink. Rule 0 run against the ledger and the built HTML, which returned zero occurrences of dash cam or dashcam anywhere on the site. The nearest page is /blog/vehicle-gps-tracking, which covers a device somebody else fitted to your car; this page covers the device you fitted yourself, and links there rather than overlapping. Demand is Indian: dash cam legal in india, is dashcam legal in india, dashcam rules in india and can a dash cam be used in court are all live completions. Category set to Vehicle Sweeps, which had only one page.",
+    "notes": "Created 27 Nov 2026. Several tempting claims were dropped. Blog guides attribute dash cam mounting penalties to section 177 of the Motor Vehicles Act and to a central obstruction rule; neither could be verified in the central rules, so the page says the enforceable answer is a state one instead of naming a provision. A proposal to mandate dashboard cameras by amendment was found only in commentary and is not mentioned. Section 136A of the Motor Vehicles Act and rule 167A on electronic enforcement were researched and left out, because the official notification could not be read at source within this session and the Traffic Prahari scheme already carries the point the section would have supported. Light transmission figures for windscreens were not quoted, because the copy of the rules read here predates the 2021 amendment. Word count 1,848 against a spoke range of 900 to 1,400, recorded rather than trimmed, since each of the five stages answers a separate query in the cluster. QA measured: zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, one H1, no heading skips, JSON-LD valid with six FAQ questions matching six visible, meta description 158 characters."
+  },
+  {
+    "location": null,
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "revisions": [],
+    "slug": "how-to-tell-if-someone-is-following-you",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/how-to-tell-if-someone-is-following-you",
+    "page_type": "concept-spoke",
+    "primary_keyword": "how to tell if someone is following you",
+    "secondary_keywords": [
+      "how to tell if someone is following you in a car",
+      "what to do if a car is following me",
+      "what to do if someone is following you while walking",
+      "being followed by a car",
+      "how to know if someone is tracking my location",
+      "112 india app",
+      "erss 112 channels"
+    ],
+    "h2_outline": [
+      "Being found and being followed are different problems",
+      "Rule out the explanation that costs nothing to check",
+      "When it really is a person",
+      "What to do while it is happening",
+      "Making a complaint that can be acted on",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Diagnosis before tradecraft. The page refuses the technique the reader came for, separates being found from being followed, and spends its first half eliminating the four information sources that explain most cases, each linked to the page that handles it. Only then does it give the in-the-moment sequence, written as an ordered list in which the first instruction is not to go home. The counter-surveillance expertise is used to narrow the problem rather than to dramatise it.",
+    "compared_against": [
+      "/blog/unknown-tracker-detected",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/vehicle-gps-tracking",
+      "/blog/who-has-access-to-my-google-account"
+    ],
+    "main_device": "two sensations separated, then four checkable explanations eliminated before any road behaviour is discussed",
+    "information_gain": "The Ministry of Home Affairs page on the Emergency Response Support System states that ERSS-112 receives distress calls from citizens over ten different channels, naming voice call, SMS, SOS, email, web request, chatbot, media crawler, signals from connected devices, WhatsApp and external signals, arriving at a common platform in the state or union territory public safety answering point and dispatched from there to police, health, fire, disaster, women, children or railways services. That fact answers a question nobody on this subject addresses, which is what a person does when speaking aloud would make the situation worse. The rest of the page's gain is structural rather than factual: a grep before writing returned zero occurrences of being followed on the site, while the four explanations it eliminates are each covered in depth elsewhere here, so the page functions as the diagnostic entry point to four existing guides.",
+    "internal_links_out": [
+      "/blog/who-has-access-to-my-google-account",
+      "/blog/unknown-tracker-detected",
+      "/blog/vehicle-gps-tracking",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/how-to-get-cctv-footage-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, with a demand caveat recorded honestly. Google India autocomplete on 27 November 2026 shows that how to tell if someone is following you is dominated by social media senses of the word follow, with how to tell if someone is following you in a car present but lower, and the car following me cluster is weighted towards United Kingdom and United States results. The page is written to the Indian informational intent anyway, because it is the diagnostic front door to four existing guides and because the response half is genuinely India specific through the 112 channels. The stalking offence is deliberately not re-argued here: /blog/unknown-tracker-detected already carries section 78 of the Bharatiya Nyaya Sanhita and the gap it leaves, and this page links to it in a single sentence.",
+    "notes": "Created 27 Nov 2026. Section 7 shaped the whole second half. The page gives no evasive driving technique, no instruction to confront anyone, and no suggestion to gather evidence before seeking help; the first instruction in the response list is not to go home, and 112 appears before anything else where there is danger. Photographing a driver at close range is named as an escalation rather than recommended. The familiar four-turns test is described as the wrong question asked too early rather than taught. Claims about the SHOUT feature of the 112 India app were researched and omitted, because the official portal could not be reached to verify them and the secondary descriptions disagreed; the ten channels fact, which is on the Ministry's own page, carries the same practical point and is verifiable. Word count 1,834 against a spoke range of 900 to 1,400, recorded rather than trimmed. QA measured: zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, one H1, no heading skips, JSON-LD valid with six FAQ questions matching six visible, meta description 154 characters."
+  },
+  {
     "slug": "drone-flying-over-my-house-india",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/drone-flying-over-my-house-india",
     "page_type": "concept-spoke",
