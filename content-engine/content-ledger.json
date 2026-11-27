@@ -1,5 +1,63 @@
 [
   {
+    "slug": "cctv-rules-for-housing-societies",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies",
+    "page_type": "concept-spoke",
+    "location": null,
+    "primary_keyword": "cctv rules for housing society",
+    "secondary_keywords": [
+      "cctv rules for society",
+      "society cctv footage access",
+      "can a member demand cctv footage from society",
+      "cctv in common area in apartment",
+      "housing society cctv privacy",
+      "cctv rules and regulations in maharashtra",
+      "how long should a society keep cctv footage",
+      "dpdp act housing society cctv"
+    ],
+    "h2_outline": [
+      "The one line about cameras",
+      "What a member can inspect, and why footage is not on the list",
+      "Where the duties about footage actually come from",
+      "The camera that causes the real disputes",
+      "The resolution a committee can pass in one meeting",
+      "If you are the resident asking",
+      "What a check can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Built as a proof of absence rather than a summary of rules. The page reads the governing document, reports that cameras appear in it once and as plumbing, and then uses two internal contrasts from the same text to show that the silence is deliberate rather than accidental: bye-law 75 imposes audits with records for structure, fire and lifts, and bye-law 23(a) gives members an inspection right over books, registers and documents that footage does not fall within. Only after establishing the gap does the page name what fills it, which is data protection law. The practical section is written as the text of a committee resolution, deliberately not as the resident's checklist that the Mumbai page already carries.",
+    "compared_against": [
+      "/blog/bug-sweeping-in-mumbai",
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/cctv-in-a-shared-home-kolkata",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/cctv-camera-rules-in-india"
+    ],
+    "main_device": "a close reading of one official document to show what it does not say, with two provisions from the same document used as the control",
+    "information_gain": "Primary material read in place: the Model Bye-laws of a Co-operative Housing Society, flat owner type, dated 2 September 2014, published by the Commissioner for Co-operation and Registrar of Co-operative Societies, Maharashtra. A full text extraction of that document returns exactly two occurrences of CCTV, both in the same list, at bye-law 67(a)(xvix), which makes the society responsible at its own cost for repairs and maintenance of Security Appliances (CCTV, Intercom, Group Mobile, Mass Data Sharing Devices, Siren Bell), alongside internal roads, compound walls, water pumps, staircases, lifts and generators. There is no provision anywhere in the document on camera placement, retention, access or notice. Two controls from the same text are used: bye-law 75, which requires a structural audit once in five years for buildings aged fifteen to thirty years and once in three for buildings over thirty, a periodical fire audit as per the State Fire Policy and periodical inspection of lifts, each with a record maintained; and bye-law 23(a), under which a member has the right to inspect free of cost books, registers and documents as provided in Section 32(1) of the Act and to obtain copies under Section 32(2) on payment of the fee prescribed by bye-law 172. Second source: the Press Information Bureau document of 17 November 2025 on the DPDP Rules, 2025, notified 14 November 2025, for the Data Fiduciary duties, the ninety day response period, breach notification, the eighteen month phasing and the penalty of up to two hundred and fifty crore for failure of reasonable security safeguards.",
+    "internal_links_out": [
+      "/blog/cctv-camera-rules-in-india",
+      "/blog/neighbour-cctv-pointing-at-my-house-kochi",
+      "/blog/cctv-in-a-shared-home-kolkata",
+      "/blog/can-my-landlord-put-cameras",
+      "/blog/bug-sweeping-in-mumbai",
+      "/blog/can-cctv-be-hacked-ahmedabad",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, after a rewrite to clear a second cannibalisation risk found by Rule 0. bug-sweeping-in-mumbai already carries a section headed Flats and societies which cites the same model bye-laws, lists four questions a resident should ask about recorder access, retention, the recorder's physical location and camera direction, reports a March 2026 Andheri lift footage case, and carries the Bombay High Court authority from 2018 on cameras trained on a neighbour's flat. The first draft of this page restated most of that as a six item checklist. It was rewritten as a committee resolution with five governance entries, the operational questions were removed and linked to the Mumbai page instead, and the Bombay High Court authority is now cited by pointer rather than repeated. What remains exclusive to this page is the bye-law 23(a) inspection point, the bye-law 75 contrast and the DPDP duties. Demand recorded from Google India autocomplete on 27 November 2026: cctv rules returns cctv rules for society and cctv rules for housing society, and cctv in apartment returns cctv in common area in apartment.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "notes": "Created 27 Nov 2026, the fourth of a batch of five. Several secondary claims were dropped under Section 6. A law firm page cites bye-law 158(a)(xix) as recognising CCTV as a security appliance; the 2014 model bye-laws read in place do not contain CCTV at that number, so that reference is not carried and the page cites 67(a) instead, which it verified. A security vendor blog states that thirty days is referenced as a minimum retention period in the Maharashtra model bye-laws; no such provision exists in the extracted text, and the page says plainly that no period is set. A claim that only authorised society officials and security personnel may access footage as mandated by CCTV rules for society was also omitted, because no such mandate exists in the document. The page states explicitly that these are Maharashtra's model bye-laws, that a registered society is bound by its own text, and that other states run their own legislation, because the single largest risk on this topic is a reader in another state treating one state's model document as national law. The application of the DPDP duties to residential buildings is described as untested rather than as settled compliance. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible, all seven internal links resolving, all three external links returning 200, meta description 156 characters, rendered length 2,063 words. That is above the 900 to 1,400 spoke range, and the deviation is recorded rather than trimmed, because the page's argument depends on quoting the document it is reading.",
+    "revisions": []
+  },
+  {
     "slug": "is-call-recording-legal-in-india",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india",
     "page_type": "concept-pillar",

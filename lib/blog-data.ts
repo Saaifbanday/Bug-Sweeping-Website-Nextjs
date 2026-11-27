@@ -863,7 +863,196 @@ const callRecordingFaqs: Faq[] = [
   },
 ];
 
+const societyCctvFaqs: Faq[] = [
+  {
+    q: "What do the rules say about CCTV in a housing society?",
+    a: "Far less than most committees assume. In the Maharashtra model bye-laws for a co-operative housing society of the flat owner type, dated 2 September 2014, cameras appear once, in bye-law 67(a), which makes the society responsible for repairing and maintaining security appliances including CCTV. There is no provision on where cameras may point, how long footage is kept, who may view it or whether residents must be told.",
+  },
+  {
+    q: "Can a member demand CCTV footage from the society?",
+    a: "There is no bye-law that says so. Bye-law 23(a) gives a member the right to inspect books, registers and documents free of cost as provided in Section 32 of the Act and to obtain copies on payment, and footage is not a book, a register or a document. In practice access depends on whether the committee has adopted a written policy, which is why adopting one is worth more than arguing about it afterwards.",
+  },
+  {
+    q: "Does the DPDP Act apply to a housing society's cameras?",
+    a: "Recognisable footage of a person is personal data, and a society is not an individual processing data for a personal or domestic purpose, so the exclusion that covers a household camera does not cover the society. The Digital Personal Data Protection Rules, 2025 were notified on 14 November 2025 with an eighteen month phased compliance period. How the duties apply to a residential building has not been tested, so a written policy is the sensible position rather than a settled requirement.",
+  },
+  {
+    q: "Can a society camera point at my flat door?",
+    a: "A camera covering a common lobby will usually take in flat doors, and that is not the dispute that reaches courts. The dispute is a camera positioned so that it covers the inside of a home when a door opens, or a private balcony or window. Indian High Courts have taken different starting points on when such a camera must be moved, and our guides on a neighbour's camera and on CCTV in a shared home set out both.",
+  },
+  {
+    q: "How long should a society keep CCTV footage?",
+    a: "No Indian law sets a period for private premises, so the recorder's default is doing the deciding in most buildings. That is the wrong way round. A committee should fix a period deliberately, record it in the minutes, and apply it, because an unwritten practice is impossible to defend to a resident, to an insurer or to a police officer asking why a particular week is missing.",
+  },
+  {
+    q: "Who should hold the password to the society's recorder?",
+    a: "A named, recorded list of people rather than a role, and the list should exclude anyone who has left. The installer who commissioned the system years ago is the account that gets forgotten most often. Reviewing it costs nothing, and it is the single most useful thing a committee can do in an afternoon.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "cctv-rules-for-housing-societies",
+    title: "CCTV Rules for Housing Societies in India",
+    seoTitle: "CCTV Rules for Housing Societies: What the Bye-laws Say",
+    metaDescription:
+      "The model bye-laws mention society cameras once, as a maintenance item. Nothing about footage, access or retention. Here is where the real duties come from.",
+    excerpt:
+      "Committees argue about society cameras as though a rulebook settled the matter. The rulebook mentions them exactly once, and not in the way anybody expects. The duties that actually bite arrive from a completely different statute.",
+    date: "2026-11-27",
+    readTime: "8 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/cctv-rules-for-housing-societies.webp",
+    ogImage: "/images/blogs/cctv-rules-for-housing-societies.png",
+    coverImageAlt:
+      "Society CCTV guide cover: a building outline with cameras over the common areas and an open rulebook with a single marked line",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Reviewing your building's camera system?",
+      text: "Most committees find that the useful questions are practical ones: what the cameras actually cover, who can reach the recorder and what happens to the footage. A private consultation can help a committee work through that before it becomes a dispute with a resident. Please get in touch when it suits you.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies",
+          name: "CCTV Rules for Housing Societies: What the Bye-laws Say",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/cctv-rules-for-housing-societies.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#article",
+          headline: "CCTV Rules for Housing Societies in India",
+          description:
+            "The model bye-laws mention society cameras once, as a maintenance item. Nothing about footage, access or retention. Here is where the real duties come from.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Closed-circuit television" },
+            { "@type": "Thing", name: "Housing cooperative" },
+            { "@type": "Thing", name: "Data protection law" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "CCTV Rules for Housing Societies" },
+          ],
+        },
+        faqJsonLd(societyCctvFaqs, "https://www.bugsweepingtscm.com/blog/cctv-rules-for-housing-societies#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> The model bye-laws for a co-operative housing society mention CCTV exactly once, as equipment the society must maintain. They say nothing about where cameras may point, how long footage is kept or who may see it. Those duties now arrive from data protection law instead, and from a written policy the committee has to adopt itself.</p>
+      </div>
+
+      <p>Ask a managing committee about CCTV rules for housing societies and you will usually be told that the bye-laws cover it. They do not.</p>
+
+      <p>We read the <a href="https://sahakarayukta.maharashtra.gov.in/site/upload/documents/Model%20Bye%20Laws%20of%20Coop%20Housing%20Society%20New%20Flatowner%20Type%20(2-9-14).pdf" rel="noopener noreferrer" target="_blank">model bye-laws for a co-operative housing society of the flat owner type</a>, published by the Commissioner for Co-operation and Registrar of Co-operative Societies, Maharashtra, and dated 2 September 2014. Cameras appear in them once.</p>
+
+      <h2>The one line about cameras</h2>
+      <p>It is in bye-law 67, which lists the repairs and maintenance the society carries out at its own cost. The list runs through internal roads, compound walls, water pumps, drainage lines, staircases, lifts and generators, and then, at item (xvix), security appliances: CCTV, intercom, group mobile, mass data sharing devices and siren bell.</p>
+
+      <p>That is the whole of it. Cameras are plumbing. The bye-law makes the society responsible for keeping them working and says nothing at all about what they see or what happens to what they record.</p>
+
+      <p>The contrast inside the same document is sharp. Bye-law 75 requires a structural audit on a fixed cycle, a periodical fire audit as per the State Fire Policy and periodical inspection of lifts, each with a record maintained. The drafters knew how to impose a duty with a record attached when they wanted one. They did not do it for footage.</p>
+
+      <p>One scope note that matters. These are Maharashtra's model bye-laws, and a registered society's own bye-laws are what bind it. Other states run their own co-operative societies or apartment ownership legislation, and a society outside Maharashtra should read its own registered text rather than this one. The pattern, though, tends to repeat: the camera is treated as equipment, and the footage is not treated at all.</p>
+
+      <h2>What a member can inspect, and why footage is not on the list</h2>
+      <p>This is where most disputes actually start. A resident wants the recording of an incident in the parking area and the committee refuses, and both sides claim the rules support them.</p>
+
+      <p>Bye-law 23(a) gives a member the right to inspect books, registers and documents free of cost, as provided in Section 32(1) of the Act, and to obtain copies of documents as provided in Section 32(2) on payment of the prescribed fee. It is a real and useful right. It is also a right over records of a particular kind, and camera footage is not a book, a register or a document in the sense that provision is using.</p>
+
+      <p>So a resident asking for footage is not exercising a bye-law right. They are asking the committee to exercise a discretion that nobody has written down. That is the gap, and it is fixable in one meeting.</p>
+
+      <h2>Where the duties about footage actually come from</h2>
+      <p>Not from co-operative law. From data protection law.</p>
+
+      <p>Recognisable footage of a person is personal data. The Digital Personal Data Protection Rules, 2025 were notified on 14 November 2025, which <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf" rel="noopener noreferrer" target="_blank">the Press Information Bureau describes</a> as the full operationalisation of the Digital Personal Data Protection Act, 2023. The Act excludes personal data processed by an individual for a personal or domestic purpose, which is why a household camera watching its own gate is generally outside it. A society is not an individual acting domestically, so that exclusion does not travel across.</p>
+
+      <p>On the Bureau's account of the Rules, an organisation acting as a Data Fiduciary has to give a separate, plain notice of the specific purpose for which data is collected, publish a contact point for data queries, answer access, correction and erasure requests within ninety days, and inform affected people without delay if there is a breach. The Rules allow an eighteen month phased compliance period, and the penalties under the Act reach two hundred and fifty crore rupees for a failure to maintain reasonable security safeguards.</p>
+
+      <p>An honest caveat belongs here. How these duties apply to cameras in a residential building has not been tested, and nobody should tell a committee that a notice board sign and a minuted retention period make it compliant. What can be said is that a society that has decided its purpose, its retention period and its access list, and written all three down, is in a far better position than one that has not, whichever way the question is eventually resolved. Our guide to <a href="/blog/cctv-camera-rules-in-india">CCTV camera rules in India</a> sets out the wider framework, including the registration a camera needs before it can lawfully be sold here.</p>
+
+      <h2>The camera that causes the real disputes</h2>
+      <p>Not the one in the lobby. The one that sees inside a home.</p>
+
+      <p>A camera covering a common passage will take in flat doors, and that is ordinary. The arguments that reach court are about a camera positioned so that it covers the interior when a door opens, or a balcony, or a window. Indian High Courts have not approached that question from the same starting point: our guide to <a href="/blog/neighbour-cctv-pointing-at-my-house-kochi">a neighbour's camera facing your house</a> sets out the Kerala position, which turns on evidence of snooping, and our guide to <a href="/blog/cctv-in-a-shared-home-kolkata">CCTV in a shared home</a> covers the harder case of co-occupants in one building. For tenants, our guide to <a href="/blog/can-my-landlord-put-cameras">whether a landlord can install cameras</a> is the nearer answer.</p>
+
+      <p>There is also Mumbai authority directly on a society building, where the Bombay High Court confined residents' cameras to their own floor rather than a neighbour's door. Our <a href="/blog/bug-sweeping-in-mumbai">Mumbai guide</a> sets that case out.</p>
+
+      <h2>The resolution a committee can pass in one meeting</h2>
+      <p>Everything above points at the same remedy, and it is a minute rather than a purchase. Five entries, in the committee's own words, settle almost all of it.</p>
+      <ol>
+        <li><strong>Purpose.</strong> One sentence on why the cameras exist. Every later argument is measured against it, and a society that cannot state its purpose cannot write a notice either.</li>
+        <li><strong>Coverage.</strong> Which areas are covered, and a positive statement that no camera is aimed into a flat, a balcony or a window. That sentence is the one a resident will quote back, so it has to be true on the day it is written.</li>
+        <li><strong>Retention.</strong> A chosen number of days, decided deliberately rather than left to whatever the recorder does when the disk fills.</li>
+        <li><strong>Access list.</strong> Named people who may view live or recorded footage, with a date for reviewing the list whenever the committee changes.</li>
+        <li><strong>Release procedure.</strong> How a resident asks, who decides, within what period, and the grounds on which a request is refused. This is the entry that converts an argument into a process.</li>
+      </ol>
+
+      <p>Two things sit outside that resolution because they are operational rather than governance. Who actually holds credentials to the recorder, including the installer who commissioned it, is covered for a Mumbai reader in our <a href="/blog/bug-sweeping-in-mumbai">Mumbai guide</a>, which also carries the Bombay High Court authority on cameras trained on a neighbour's flat and a 2026 case in which society footage reached residents through somebody with legitimate access. Whether the recorder can be reached from outside the building at all is a separate question again, and our guide to <a href="/blog/can-cctv-be-hacked-ahmedabad">whether CCTV can be hacked</a> works through an Indian police case where it could.</p>
+
+      <h2>If you are the resident asking</h2>
+      <p>Put the request in writing to the secretary, say what incident and what time window you need, and ask for the committee's decision in writing. A written refusal is more useful to you than a verbal one, whatever it says.</p>
+
+      <p>If what happened is a criminal matter rather than a society dispute, treat it as one. Report it to the local police, who can seek the footage themselves, and in immediate danger call <strong>112</strong>. A cybercrime complaint, including where private images have been published, can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police; a complaint there does not automatically become an FIR. Acting quickly matters for a reason that has nothing to do with law: a recorder that keeps a fortnight will have overwritten the evidence in a fortnight.</p>
+
+      <h2>What a check can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection.</p>
+
+      <p>For a society the more common questions are different ones: what the installed cameras actually cover, whether the recorder is reachable from outside the building, and who still holds credentials to it. Those are answered by looking at the system and its records rather than by searching the building. The legal points on this page are a starting position rather than advice on your society's situation, and the bye-laws that bind you are your own registered ones. Our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a> sets out what a physical examination does cover.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(societyCctvFaqs)}
+    `,
+  },
   {
     slug: "is-call-recording-legal-in-india",
     title: "Is Call Recording Legal in India?",
@@ -1835,6 +2024,8 @@ ${faqHtml(kochiNeighbourCameraFaqs)}
         <li><strong>If it covers a bathroom, bedroom or changing area, stop treating it as a family dispute.</strong> That is a criminal matter. Complaints can be filed at <a href="https://cybercrime.gov.in" rel="noopener noreferrer" target="_blank">cybercrime.gov.in</a>, which routes to the relevant state police, and in immediate danger call <strong>112</strong>.</li>
         <li><strong>Check which force covers your address.</strong> In Greater Kolkata this is not obvious, and our <a href="/locations/kolkata">Kolkata page</a> sets out why Sector V and New Town are not Kolkata Police.</li>
       </ol>
+
+      <p>Where the camera belongs to the building rather than to a relative, the questions change shape. Our guide to <a href="/blog/cctv-rules-for-housing-societies">CCTV rules for housing societies</a> covers what a managing committee may and may not do with footage, and what a resident can actually ask for.</p>
 
       <h2>What a check can and cannot establish</h2>
       <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing at all.</p>
@@ -5940,6 +6131,8 @@ ${faqHtml(bugSweepingDelhiFaqs)}
       </ul>
       <p>On that last point there is Mumbai authority. In a case reported in 2018 concerning a Colaba building, the Bombay High Court restrained residents from keeping cameras trained on a neighbour's flat without consent, confining them to the floor where they lived, and treated monitoring a neighbour's daily movement as an invasion of privacy (<a href="https://www.livelaw.in/installing-cctv-cameras-to-monitor-movement-without-flat-owners-consent-is-invasion-of-privacy-bombay-hc" rel="noopener noreferrer" target="_blank">LiveLaw</a>). A camera covering a shared lobby is an ordinary security measure; one pointed at your door is not automatically the same thing.</p>
       <p>Redevelopment and repairs add the other Mumbai-specific exposure. The same model bye-laws require members to allow access for inspection of the premises for repairs and maintenance, including by a technical expert the society appoints. That is legitimate and necessary, and it also means a stream of contractors and surveyors lawfully entering flats over months. If your building has just finished major works and something feels wrong afterwards, that access history is the relevant background, not an exotic adversary.</p>
+
+      <p>What the bye-laws do not do is say anything about the footage itself, which is where most committee disputes actually sit. Our guide to <a href="/blog/cctv-rules-for-housing-societies">CCTV rules for housing societies</a> goes through the one bye-law that mentions cameras, the member inspection right that does not reach recordings, and what the data protection rules now ask of a society.</p>
 
       <h2>Hotels and short stays: look at the sockets</h2>
       <p>The most recent documented Mumbai hotel case is specific enough to act on. On 31 December 2025 the Free Press Journal <a href="https://www.freepressjournal.in/mumbai/mumbai-shocker-hidden-camera-found-inside-malad-hotel-room-case-registered" rel="noopener noreferrer" target="_blank">reported</a> that guests at a budget hotel in Malad East found a camera concealed inside an electric plug point in their room. What gave it away was mundane: a wire coming out of a socket that was not in use. Dindoshi police registered a case and the device was sent for forensic examination.</p>
