@@ -1,5 +1,60 @@
 [
   {
+    "slug": "is-call-recording-legal-in-india",
+    "canonical_url": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india",
+    "page_type": "concept-pillar",
+    "location": null,
+    "primary_keyword": "is call recording legal in india",
+    "secondary_keywords": [
+      "is call recording legal in india without consent",
+      "is call recording illegal in india",
+      "is call recording legal evidence in india",
+      "is mobile call recording legal in india",
+      "is whatsapp call recording legal in india",
+      "call recording legal or illegal in india",
+      "vibhor garg v neha call recording",
+      "why can my phone no longer record calls"
+    ],
+    "h2_outline": [
+      "Recording a call you are part of",
+      "Will a court accept it",
+      "When the state's recording is the one thrown out",
+      "Why your phone stopped recording calls",
+      "If you believe your calls are being listened to",
+      "What an examination can and cannot establish",
+      "Frequently asked questions"
+    ],
+    "structure_pattern": "Splits one search phrase into the three distinct questions it hides and answers each from a different body of law, then closes the loop with an inversion that no competing page draws: a private person's covert recording can be admitted while the state's recording can be excluded for a missed deadline. The handset section is deliberately placed between the two legal halves, because a large share of the demand on this phrase is people whose recording feature disappeared rather than people with a legal question, and answering that in passing is what keeps them reading. The page ends on the counter-surveillance half, which is the only part of the subject this site is actually equipped to help with.",
+    "compared_against": [
+      "/blog/is-my-phone-tapped",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/can-someone-read-my-whatsapp-messages",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/bug-sweeping-in-delhi"
+    ],
+    "main_device": "a contrast between two recordings and two outcomes: the spouse's covert recording that a court admitted, and the state's lawful interception that an unmet deadline makes unusable",
+    "information_gain": "A grep of blog-data.ts before this page returned zero occurrences of call recording, record a call and Telegraph across twenty nine posts, so the subject itself was absent even though the lawful interception framework was already covered on is-my-phone-tapped. Primary material read in place: the gazette text of the Telecommunications (Procedures and Safeguards for Lawful Interception of Messages) Rules, 2024, CG-DL-E-06122024-259238, G.S.R. 754(E) of 6 December 2024, made under clause (a) of sub-section (2) and sub-section (4) of section 20 read with clauses (t) and (u) of sub-section (2) of section 56 of the Telecommunications Act, 2023 and in supersession of rules 419 and 419A of the Indian Telegraph Rules, 1951. The provisions used here are rule 3(2) on issuance by an officer not below the rank of Joint Secretary in unavoidable circumstances, rule 3(3) on issuance at state level by an officer not below Inspector General of Police with submission within three working days and confirmation within seven working days, rule 3(3)(b) on the consequence of non-confirmation, which is that interception shall forthwith cease, that any messages intercepted shall not be used for any purpose including as evidence in a court of law, and that copies shall be destroyed within two working days, and rule 3(6) on the requirement that the issuing authority consider that the information could not be acquired by any other reasonable means. Second, Vibhor Garg v. Neha, 2025 INSC 829, decided 14 July 2025 by B.V. Nagarathna J and S.C. Sharma J, as reported by Supreme Court Observer: the Section 122 bar does not apply in suits between the spouses themselves, the right of privacy in spousal communication cannot be absolute, Section 122 protects the sanctity of marriage rather than individual privacy, a recording made without the speaker's consent is not a prohibition on admissibility, evidence is not inadmissible merely because it was obtained unlawfully, and the material must still be proved for relevance, voice identification and accuracy without sign of tampering; the appeal was allowed, the High Court order set aside and the Family Court order restored.",
+    "internal_links_out": [
+      "/blog/is-my-phone-tapped",
+      "/blog/is-someone-monitoring-your-phone",
+      "/blog/who-has-access-to-my-google-account",
+      "/blog/how-to-find-a-listening-device",
+      "/blog/bug-sweeping-in-india"
+    ],
+    "gate_decision": "NEW POST plus interlink, after one section was rewritten to clear a cannibalisation risk. Rule 0 run against the 81 record ledger and the built HTML, and it caught a real conflict: is-my-phone-tapped already carries four H2s on the 2024 Interception Rules covering the competent authority, the sixty and one hundred and eighty day limits, the review committee's composition and meeting cycle, and the destruction timetables. The first draft of this page repeated all of that as a six item list. It was rewritten to keep only what belongs to an article about evidence, which is the confirmation deadline and the exclusion that follows from missing it, and the rest now links across. Demand recorded from Google India autocomplete on 27 November 2026: is call recording legal in india returns a full set of ten completions including without consent, legal evidence, mobile, voice and whatsapp variants, and call recording legal returns the Hindi phrasing call recording legal hai ya illegal.",
+    "status": "published",
+    "review": {
+      "status": "awaiting",
+      "reviewer": "Hardesh Bhardwaj",
+      "date": "",
+      "approved_version": ""
+    },
+    "date_published": "2026-11-27",
+    "date_modified": "",
+    "notes": "Created 27 Nov 2026, the third of a batch of five. The Vibhor Garg judgment PDF hosted by LiveLaw could not be read, because its text layer did not extract, so the holding is taken from the Supreme Court Observer report of the case, which supplies the citation, the bench and the quoted propositions, and the page links there rather than to a copy it could not verify. The section numbering point is handled carefully: the judgment construes Section 122 of the Indian Evidence Act, 1872, which has since been replaced by the Bharatiya Sakshya Adhiniyam, 2023, and secondary mapping tables put the successor provision at Section 128, but that mapping was not verified against the statute so the new number is not stated and the page says only that the numbering a lawyer uses today may differ. The competent authority is referred to by that name rather than as the Union Home Secretary, because the definition sits in rule 2 of the Rules and the extracted text of that rule was not legible. The Google Play policy change of 11 May 2022 is stated without a hyperlink, as reported at the time, because the surviving coverage is secondary. No part of this page explains how to intercept a call, obtain call records or access anybody's device, and the handset section explains only why a feature disappeared. QA measured: no horizontal overflow at 360, 412 or 1280px, body 17px, minimum rendered font 17px, one H1, no heading skips, zero em or en dashes, zero emoji, zero banned phrases, zero blocked claims, JSON-LD valid with six FAQ questions matching six visible, all five internal links resolving, all three external links returning 200, meta description 148 characters, rendered length 1,912 words after the rewrite, inside the 2,000 to 3,000 pillar range at the low end and recorded as a deliberate trim rather than padded back up.",
+    "revisions": []
+  },
+  {
     "slug": "is-it-legal-to-buy-a-spy-camera-in-india",
     "canonical_url": "https://www.bugsweepingtscm.com/blog/is-it-legal-to-buy-a-spy-camera-in-india",
     "page_type": "concept-spoke",

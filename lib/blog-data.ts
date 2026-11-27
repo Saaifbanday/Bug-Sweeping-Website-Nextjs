@@ -836,7 +836,184 @@ const spyCameraLegalFaqs: Faq[] = [
   },
 ];
 
+const callRecordingFaqs: Faq[] = [
+  {
+    q: "Is call recording legal in India without consent?",
+    a: "No Indian statute makes it an offence for a person taking part in a call to record it, and that is why the question has no clean yes or no answer. The law puts its weight elsewhere: on interception by somebody who is not on the call, which is tightly controlled, and on what is done with a recording afterwards. Sharing a private recording can engage separate provisions even where making it did not.",
+  },
+  {
+    q: "Is a recorded call accepted as evidence in an Indian court?",
+    a: "It can be. In Vibhor Garg v. Neha, decided on 14 July 2025, the Supreme Court held that a spouse's secretly recorded telephone conversation is admissible in matrimonial proceedings, and said that a recording made without the speaker's consent is not a prohibition on the admissibility of the evidence. The Court also required courts to treat such material with caution, with relevance, voice identification and accuracy proved and no sign of tampering.",
+  },
+  {
+    q: "Can the police record my phone calls?",
+    a: "Only through a lawful interception order under Section 20 of the Telecommunications Act, 2023, following the procedure notified on 6 December 2024. An order cannot be made at all unless the issuing authority has considered that the information could not be obtained by any other reasonable means, and an order issued in the field without the competent authority's signature has to be confirmed within seven working days.",
+  },
+  {
+    q: "What happens if an interception order is not confirmed in time?",
+    a: "The Rules are unusually direct about it. Where an order issued in the field is not confirmed by the competent authority within seven working days of issue, the interception must cease at once, the intercepted messages cannot be used for any purpose including as evidence in a court of law, and copies must be destroyed within two working days with written confirmation to the competent authority.",
+  },
+  {
+    q: "Why can my phone no longer record calls?",
+    a: "Because of a platform rule rather than Indian law. Google's Play Store policy from 11 May 2022 stopped third party applications using the accessibility interface to record calls, which is how most recording apps on Android had worked. Handsets whose manufacturer builds recording into the dialler were not affected, and several of those announce the recording to both sides when it starts.",
+  },
+  {
+    q: "Can somebody record my calls from my own phone?",
+    a: "That is a different problem from interception, and it is the one worth checking. Software installed on the handset is the realistic route for an individual, which is why the question usually belongs with a look at the device, its accounts and what has permission to use the microphone rather than with the telecom operator. Our guide on whether a phone is tapped sets out what can and cannot be told from the handset itself.",
+  },
+];
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "is-call-recording-legal-in-india",
+    title: "Is Call Recording Legal in India?",
+    seoTitle: "Is Call Recording Legal in India? The Three Questions",
+    metaDescription:
+      "One phrase hides three questions. Recording your own call, using it as evidence after Vibhor Garg v Neha, and who may lawfully intercept your calls.",
+    excerpt:
+      "The phrase covers three different questions with three different answers, and merging them is how people end up confidently wrong. The Supreme Court settled one of them in July 2025, and a set of rules from December 2024 settled another.",
+    date: "2026-11-27",
+    readTime: "10 min read",
+    category: "TSCM Guides",
+    coverImage: "/images/blogs/is-call-recording-legal-in-india.webp",
+    ogImage: "/images/blogs/is-call-recording-legal-in-india.png",
+    coverImageAlt:
+      "Call recording law guide cover: a call between two handsets with a third line branching off to a sealed order document",
+    publishedBy: "BugSweepingTSCM",
+    cta: {
+      heading: "Think somebody is listening to more than they should?",
+      text: "Whether a conversation is leaking is a question about rooms, devices and accounts rather than about the law, and the answer usually comes from looking at all three. A private consultation can help you work out which of them is worth examining in your situation. Please get in touch from a phone and a network you trust.",
+      label: "Request a consultation on WhatsApp",
+    },
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#webpage",
+          url: "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india",
+          name: "Is Call Recording Legal in India? The Three Questions",
+          inLanguage: "en-IN",
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+          breadcrumb: { "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#breadcrumb" },
+          primaryImageOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#primaryimage" },
+          about: {
+            "@type": "Place",
+            name: "India",
+            address: { "@type": "PostalAddress", addressCountry: "IN" },
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.bugsweepingtscm.com/#website",
+          url: "https://www.bugsweepingtscm.com",
+          name: "BugSweepingTSCM.com",
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          inLanguage: "en-IN",
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#primaryimage",
+          url: "https://www.bugsweepingtscm.com/images/blogs/is-call-recording-legal-in-india.png",
+          width: 1200,
+          height: 630,
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#article",
+          headline: "Is Call Recording Legal in India?",
+          description:
+            "One phrase hides three questions. Recording your own call, using it as evidence after Vibhor Garg v Neha, and who may lawfully intercept your calls.",
+          datePublished: "2026-11-27",
+          image: { "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#primaryimage" },
+          mainEntityOfPage: { "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#webpage" },
+          inLanguage: "en-IN",
+          author: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          publisher: { "@id": "https://www.bugsweepingtscm.com/#organization" },
+          about: [
+            { "@type": "Thing", name: "Call recording" },
+            { "@type": "Thing", name: "Lawful interception" },
+            { "@type": "Thing", name: "Indian evidence law" },
+          ],
+          spatialCoverage: { "@type": "Place", name: "India" },
+          isPartOf: { "@id": "https://www.bugsweepingtscm.com/#website" },
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.bugsweepingtscm.com/#organization",
+          name: "BugSweepingTSCM",
+          url: "https://www.bugsweepingtscm.com",
+          logo: "https://www.bugsweepingtscm.com/images/logo/bug-sweep.png",
+          email: "info@advancedetectiveagency.com",
+          telephone: "+91-8882732221",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.bugsweepingtscm.com" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.bugsweepingtscm.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Is Call Recording Legal in India?" },
+          ],
+        },
+        faqJsonLd(callRecordingFaqs, "https://www.bugsweepingtscm.com/blog/is-call-recording-legal-in-india#faq"),
+      ],
+    },
+    content: `
+      <div class="answer-box">
+        <p><strong>Short answer:</strong> No Indian statute makes it an offence for someone on a call to record it. A recording made without the other person's consent can still be admitted in evidence, which the Supreme Court confirmed in July 2025. Interception by a third party is the tightly controlled part, and the current procedure dates from December 2024.</p>
+      </div>
+
+      <p>Is call recording legal in India is really three questions wearing one coat.</p>
+
+      <p>Can I record a call I am on. Will a court look at it afterwards. And can somebody else record my calls without me knowing. The answers run in different directions, and the law governing each of them sits in a different place, which is why confident answers on this subject are so often wrong.</p>
+
+      <h2>Recording a call you are part of</h2>
+      <p>There is no provision in Indian law that makes it an offence for a party to a conversation to record that conversation. That is the honest starting point, and it is why the trade in call recording features has never needed a licence.</p>
+
+      <p>Two qualifications matter more than the headline. The first is that the absence of a prohibition on making a recording says nothing about what happens next: circulating a private conversation can engage separate provisions, and an organisation holding recordings of identifiable people is handling personal data under the Digital Personal Data Protection Act, 2023. The second is that a workplace, a bank or a call centre recording your call is doing something different again, under its own obligations and usually with an announcement at the start.</p>
+
+      <p>If you are recording to protect yourself in a dispute, the question you actually care about is not whether you may press the button. It is the next one.</p>
+
+      <h2>Will a court accept it</h2>
+      <p>This was unsettled until last year, and the Supreme Court has now answered it for one important category of case.</p>
+
+      <p>In <em>Vibhor Garg v. Neha</em>, 2025 INSC 829, decided on <a href="https://www.scobserver.in/supreme-court-observer-law-reports-scolr/evidentiary-value-of-secretly-recorded-phone-calls-between-spouses-in-marital-disputes-vibhor-garg-v-neha/" rel="noopener noreferrer" target="_blank">14 July 2025</a> by a bench of Justice B.V. Nagarathna and Justice S.C. Sharma, the Court held that a spouse's secretly recorded telephone conversation is admissible in matrimonial proceedings. Section 122 of the Indian Evidence Act protects communications between married persons, but its own exception covers suits between the spouses themselves, so the bar did not apply. The Court said that the right of privacy in spousal communication cannot be absolute, that Section 122 exists to protect the sanctity of marriage rather than individual privacy, and that a recording made without the speaker's consent is not a prohibition on the admissibility of the evidence. Evidence is not to be treated as inadmissible merely because it was obtained unlawfully. The appeal was allowed, the High Court's order was set aside and the Family Court was directed to take the memory card, the compact disc and the transcripts on record.</p>
+
+      <p>Three practical consequences follow. Admissibility is not the same as weight: the Court required relevance, voice identification and accuracy to be proved, with no sign of tampering. The holding is about proceedings between the spouses themselves, which is where the statutory exception bites, so it should not be read as a general licence to record anybody. And the judgment construes the Indian Evidence Act, 1872, which has since been replaced by the Bharatiya Sakshya Adhiniyam, 2023, so the section numbers a lawyer uses today may not be the ones quoted here.</p>
+
+      <h2>When the state's recording is the one thrown out</h2>
+      <p>Here is the inversion worth holding on to. A private person's covert recording of their own call can be admitted. A recording made by the state can be excluded, and the ground is procedural rather than moral.</p>
+
+      <p>Section 20 of the <a href="https://www.dot.gov.in/acts-policies/telecommunications-act-2023" rel="noopener noreferrer" target="_blank">Telecommunications Act, 2023</a> came into force on 26 June 2024 and carries the interception power. The procedure under it was notified as <a href="https://eservices.dot.gov.in/sites/default/files/circular-notifications/procedures-and-safeguards-for-lawful-interception-of-messages-rules-2024.pdf" rel="noopener noreferrer" target="_blank">G.S.R. 754(E) on 6 December 2024</a>, in supersession of the old rules 419 and 419A of the Indian Telegraph Rules, 1951.</p>
+
+      <p>Those Rules allow an order to be issued away from the desk of the competent authority in two situations: in unavoidable circumstances by an officer not below the rank of Joint Secretary to the Central Government who has been authorised for the purpose, and where even that is not feasible in remote areas or for operational reasons, by a senior officer of the agency not below the rank of Inspector General of Police at state level. An order issued that way has a clock on it. A copy goes to the competent authority within three working days, and confirmation must follow within seven working days of issue.</p>
+
+      <p>If the confirmation does not come in time, the Rules are blunt about the consequences. The interception must cease forthwith. Any messages intercepted shall not be used for any purpose, including as evidence in a court of law. And copies must be destroyed within two working days, with written confirmation of the destruction sent to the competent authority. A separate provision bars an order altogether unless the issuing authority has considered that the information could not be obtained by any other reasonable means.</p>
+
+      <p>So the two halves of this subject pull in opposite directions. Material a spouse obtained covertly can go before a Family Court, while material the state obtained under a lapsed authorisation cannot go before any court at all. Our guide to <a href="/blog/is-my-phone-tapped">whether your phone is tapped</a> works through the rest of that framework, including how long an order may run, who reviews it and when the recordings have to be destroyed.</p>
+
+      <h2>Why your phone stopped recording calls</h2>
+      <p>A large share of the people searching this phrase are not asking a legal question at all. They are asking why the feature disappeared.</p>
+
+      <p>The cause is a platform rule rather than Indian law. From 11 May 2022, Google's Play Store policy stopped third party applications from using the accessibility interface to record calls, which was the route almost every recording app on Android had been using. Handsets whose manufacturer builds recording into the dialler itself were not covered by that change, and several of them announce to both parties that recording has started. So the feature survives on some phones and not others, for reasons that have nothing to do with the legality of recording in India.</p>
+
+      <h2>If you believe your calls are being listened to</h2>
+      <p>This is where the question usually comes from, and it deserves a straight answer.</p>
+
+      <p>Lawful interception happens inside the network, and it leaves nothing for you to find on the handset. There are no clicks, no echoes and no battery symptom that indicates it. The realistic route by which a private individual listens to somebody's calls is not interception at all: it is software or access on the device itself, or an account that is logged in somewhere it should not be.</p>
+
+      <p>That is a question you can actually make progress on. Our guide to <a href="/blog/is-my-phone-tapped">whether your phone is tapped</a> sets out what the handset can and cannot tell you, our guide to <a href="/blog/is-someone-monitoring-your-phone">whether someone is monitoring your phone</a> covers the signs that are worth something and the ones that are folklore, and our guide to <a href="/blog/who-has-access-to-my-google-account">who has access to your Google account</a> covers the access route people forget entirely. If a room rather than a phone is the worry, our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> is the place to start.</p>
+
+      <h2>What an examination can and cannot establish</h2>
+      <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. Finding no device does not prove that none exists, and no examination promises complete detection or future protection. No examination of a room or a handset can tell you whether a lawful interception order exists, because that process leaves no trace at your end.</p>
+
+      <p>The legal position on this page is a starting point rather than advice on your situation, and it should be confirmed against the current official text. Whether a particular recording helps you or hurts you in a particular proceeding is a question for a lawyer who has heard the facts. What a physical examination covers is set out in our <a href="/blog/bug-sweeping-in-india">national guide to bug sweeping</a>.</p>
+
+      <h2>Frequently asked questions</h2>
+${faqHtml(callRecordingFaqs)}
+    `,
+  },
   {
     slug: "is-it-legal-to-buy-a-spy-camera-in-india",
     title: "Is It Legal to Buy a Spy Camera in India?",
@@ -2568,6 +2745,8 @@ ${faqHtml(whatsappFaqs)}
       <p>Software installed on the handset by somebody with physical access is the common case, and it leaves evidence on the device, which is why it can be investigated. Our guide to <a href="/blog/is-someone-monitoring-your-phone">phone monitoring and stalkerware</a> sets out what that evidence looks like and, importantly, why removing it first is usually the wrong move.</p>
 
       <p>A device in a room is the other case, and it obeys physical constraints that narrow the search considerably, which our guide to <a href="/blog/how-to-find-a-listening-device">finding a listening device</a> works through. If the worry is a boardroom rather than a handset, our guide to <a href="/blog/corporate-espionage-india">corporate espionage in India</a> sets out which layer the risk actually sits in.</p>
+
+      <p>A separate question sits alongside this one, which is what happens to a recording once it exists. Our guide to <a href="/blog/is-call-recording-legal-in-india">whether call recording is legal in India</a> covers recording a call you are part of, and the Supreme Court decision of July 2025 on whether a court will look at it afterwards.</p>
 
       <h2>What an examination can and cannot establish</h2>
       <p>A physical examination reports what was found in the areas accessed, by the methods used, under the conditions present, at the time of the visit. It can report what was physically found and what was transmitting in the bands examined while the examiner was present. It cannot establish that a device recording to internal memory is absent, because such a device emits nothing.</p>
@@ -4521,6 +4700,8 @@ ${faqHtml(sweepFrequencyFaqs)}
       <p>The order matters more than any individual step, and this is where the organisations working with survivors disagree sharply with most published advice.</p>
       <p>Make a safety plan first, developed on a safer device and, where possible, with a support organisation. Preserve what exists before changing anything, because deleting monitoring software deletes the evidence you would need to report it. Attempt removal only if you believe it is safe to do so, because removal or any significant change may be noticed by the person who installed it and can increase the abuse. Expect that it may be reinstalled. On getting rid of it, the Coalition's own assessment is that the best way is a new phone, with a factory reset almost as effective. And if the access is through your accounts rather than the handset, neither a new phone nor a reset will help until the accounts are secured.</p>
       <p>One practical note about our own work, because it bears on who can help. The forensic tool most often named in this area, Amnesty's Mobile Verification Toolkit, is licensed on a consensual use condition: the owner of the data must explicitly consent, free of coercion and fully informed. It is also documented by its own authors as a tool for technologists and investigators that is not intended for end-user self-assessment. A firm running it on someone else's phone at a client's request would be breaching that licence, and we will not do it.</p>
+
+      <p>If the reason you are here is a recording rather than an app, the legal position is a separate subject. Our guide to <a href="/blog/is-call-recording-legal-in-india">whether call recording is legal in India</a> sets out what the law allows, what a court will accept and what lawful interception actually involves.</p>
 
       <h2>What a sweep can and cannot establish</h2>
       <p>A room or vehicle sweep looks for physical devices in a space. It does not examine a phone, and the two are separate pieces of work that have to be agreed in the scope. Where a phone is the concern, the realistic route is the settings and account audit above, kept alongside a written log, rather than any instrument.</p>
